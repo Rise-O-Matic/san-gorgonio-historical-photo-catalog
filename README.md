@@ -1,5 +1,7 @@
 # Beaumont Historical Photo Catalog
 
+**Live site: https://rise-o-matic.github.io/san-gorgonio-historical-photo-catalog/**
+
 A zero-cost, static catalog for reviewing historical photographs for the Beaumont Library District timeline mural. The source collection is treated as read-only. The pipeline creates a portable JSON/CSV catalog, optimized site images, duplicate reports, print-viability estimates, a client selection portal, and a research-candidate workspace.
 
 ## Current inventory
@@ -123,14 +125,21 @@ regional contributor. The client portal shows the caption and credit on every
 card, exposes an editable **Attribution / credit** field in the detail view, and
 includes both in the downloaded/copied selection report.
 
-## Free deployment
+## Deployment
 
-The `site/` directory is self-contained and can be published with GitHub Pages, Cloudflare Pages, or Netlify.
+**Live site: https://rise-o-matic.github.io/san-gorgonio-historical-photo-catalog/**
 
-- GitHub Pages: copy or configure the published branch so the contents of `site/` are at the site root. GitHub Pages does not publish an arbitrary subfolder except `docs/`, so a deployment workflow or `docs/` output is recommended.
-- Cloudflare Pages or Netlify: connect the repository, use no build command, and set the publish directory to `site`.
+The site is published to GitHub Pages by [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml), which uploads the `site/` subfolder as the Pages artifact on every push to `main` (`upload-pages-artifact` + `deploy-pages`). Because GitHub Pages does not publish an arbitrary subfolder except `docs/`, this Actions workflow is what lets `site/` be served without moving or duplicating it. Pages is configured with Actions as the build source (`build_type: workflow`). To update the live site, commit and push to `main`:
 
-No source originals are deployed. This generated site is about 92 MB and contains only optimized previews/thumbnails plus metadata. Confirm rights before public deployment; every record defaults to `Unclear` and age alone is never treated as permission.
+```powershell
+git add -A; git commit -m "…"; git push
+```
+
+All asset and data references in the catalog are relative, so the site serves correctly from the repo-name subpath (`/san-gorgonio-historical-photo-catalog/`) with no base-URL configuration.
+
+The `site/` directory is self-contained, so the same content can alternatively be published with Cloudflare Pages or Netlify: connect the repository, use no build command, and set the publish directory to `site`.
+
+No source originals are deployed. This generated site is about 94 MB and contains only optimized previews/thumbnails plus metadata. Confirm rights before public deployment; every record defaults to `Unclear` and age alone is never treated as permission.
 
 ## Research notes
 
