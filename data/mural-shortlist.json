@@ -1,0 +1,1368 @@
+{
+  "generated_from": "data/catalog.json",
+  "print_bar_inches_at_150ppi": 24.0,
+  "kelly_theme_counts": {
+    "native_heritage": 3,
+    "pioneer_family": 3,
+    "civic_institution": 5,
+    "rail_transport": 2,
+    "agriculture": 2,
+    "downtown_street": 2,
+    "development": 3
+  },
+  "kelly_theme_weights": {
+    "native_heritage": 0.2,
+    "pioneer_family": 0.2,
+    "civic_institution": 0.294,
+    "rail_transport": 0.2,
+    "agriculture": 0.2,
+    "downtown_street": 0.2,
+    "development": 0.2
+  },
+  "kelly_subject_families": [
+    "agriculture",
+    "civic_institution",
+    "development",
+    "downtown_street",
+    "native_heritage",
+    "pioneer_family",
+    "rail_transport"
+  ],
+  "production_grade_pool": 50,
+  "shortlist": [
+    {
+      "id": "img_9c26cfc39eca4fc9",
+      "title": "Beaumont Post Office Ne Corner Fifth St And Egan Ave",
+      "year": "c. 1910-1915",
+      "year_start": 1910,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.556,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_50e61a8496f4bfd2",
+      "title": "Wctu Fountain",
+      "year": "1910",
+      "year_start": 1910,
+      "date_confidence": "low",
+      "long_edge_in_150": 41.6,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.445,
+      "attribution": "Leslie A. Rios III Postcard Collection",
+      "attribution_confidence": "confirmed"
+    },
+    {
+      "id": "img_eebd80e2b2180cca",
+      "title": "Dowling Store Pomegranates",
+      "year": "c. 1950s-1960s",
+      "year_start": 1952,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "agriculture",
+        "downtown_street",
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.405,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_4ec3e978a2772b6b",
+      "title": "Railroad Workers Luis Estrada Fourth From Right",
+      "year": "c. 1910-1935",
+      "year_start": 1910,
+      "date_confidence": "low",
+      "long_edge_in_150": 35.7,
+      "themes": [
+        "pioneer_family",
+        "rail_transport"
+      ],
+      "modern_only": false,
+      "score": 0.36,
+      "attribution": "Estrada family collection",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_e8c5738ad26c5ffc",
+      "title": "Cherry Festival Queen",
+      "year": "1919",
+      "year_start": 1919,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "agriculture",
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.36,
+      "attribution": "San Gorgonio Pass Historical Society",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_ca02842503e130c9",
+      "title": "Luis Estrada Family In Their Southern Pacific Railroad Section House Leslie Collection",
+      "year": "c. 1940s",
+      "year_start": 1940,
+      "date_confidence": "medium",
+      "long_edge_in_150": 36.4,
+      "themes": [
+        "pioneer_family",
+        "rail_transport"
+      ],
+      "modern_only": false,
+      "score": 0.27,
+      "attribution": "Estrada family collection",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_2eee4fa95a275d4d",
+      "title": "Dowling Orchard Fruit Fresh Produce And Dried Fruit Nuts Candy Signs",
+      "year": "c. 1950s-1960s",
+      "year_start": 1952,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "agriculture",
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.27,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_9a697957b7ea88b0",
+      "title": "First Christian Church Egan Ave Probably Late 1950S A",
+      "year": "1950",
+      "year_start": 1950,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.0,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.267,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_7dad1702b8b44459",
+      "title": "Sunnyslope Cemetery 1960S",
+      "year": "1960",
+      "year_start": 1960,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.267,
+      "attribution": "Stewart family collection",
+      "attribution_confidence": "confirmed"
+    },
+    {
+      "id": "img_092d2807a0231929",
+      "title": "Wellwood School",
+      "year": "1916",
+      "year_start": 1916,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.265,
+      "attribution": "Beaumont Library District",
+      "attribution_confidence": "confirmed"
+    },
+    {
+      "id": "img_add874f3a7967842",
+      "title": "Sacred Heart Barrio Church From Leslie Rios",
+      "year": "c. late 1950s",
+      "year_start": 1956,
+      "date_confidence": "high",
+      "long_edge_in_150": 49.5,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.238,
+      "attribution": "Leslie A. Rios III Postcard Collection",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_68556e4afecfa748",
+      "title": "Clara Stewart Left And Laura May Stewart Right",
+      "year": "c. 1908-1918",
+      "year_start": 1908,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.225,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_7a0159037504313e",
+      "title": "Beaumont Fire Department At Grace",
+      "year": "c. late 1950s-early 1960s",
+      "year_start": 1955,
+      "date_confidence": "medium",
+      "long_edge_in_150": 28.5,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.199,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_cfdaf786f32d7ba0",
+      "title": "Stewart Ranch Equipment Undated B",
+      "year": "c. 1900-1930",
+      "year_start": 1900,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_02861b7cd39cd162",
+      "title": "Fifth Street",
+      "year": "1910",
+      "year_start": 1910,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_056f22949c5d906e",
+      "title": "Laura May Stewart In Chaps Dated",
+      "year": "1911",
+      "year_start": 1911,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_dee5615ad57181f9",
+      "title": "Laura May Stewart On Horseback",
+      "year": "1911",
+      "year_start": 1911,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_03ae9abaca02013c",
+      "title": "George Sumner S And S Store On Fifth Street Interior",
+      "year": "c. 1920s",
+      "year_start": 1920,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.8,
+      "themes": [
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_5a70b41831a92160",
+      "title": "6Th St Fr Bmt High Yearbook Donated By Leslie Rios",
+      "year": "1946",
+      "year_start": 1946,
+      "date_confidence": "confirmed",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Leslie A. Rios III Postcard Collection",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_99f7111cab26b389",
+      "title": "Beaumont High School",
+      "year": "1942",
+      "year_start": 1942,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.159,
+      "attribution": "donated by Leslie Rios",
+      "attribution_confidence": "confirmed"
+    },
+    {
+      "id": "img_634101dcee127994",
+      "title": "Beaumont Train Depot Workers 1940S C",
+      "year": "1940",
+      "year_start": 1940,
+      "date_confidence": "low",
+      "long_edge_in_150": 42.3,
+      "themes": [
+        "rail_transport"
+      ],
+      "modern_only": false,
+      "score": 0.108,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_b3dcb09d831e2058",
+      "title": "Laura May Stewart In The Room On Their Ranch Where She Collected Family Items",
+      "year": "c. 1945-1965",
+      "year_start": 1945,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.108,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_1ad76840ab48ba0e",
+      "title": "John Dowling",
+      "year": "c. 1950s-1960s",
+      "year_start": 1950,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.108,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_35a3c2b0b73a7892",
+      "title": "Summit School Artist Rendering",
+      "year": "c. 1960s-1970s",
+      "year_start": 1962,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.099,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_d92bd24434ee74d1",
+      "title": "Beaumont Presbyterian Church In The Daily Record Gazetter April",
+      "year": "1968",
+      "year_start": 1968,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.079,
+      "attribution": "Record-Gazette (Banning)",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_0f63f186060123e4",
+      "title": "Beaumont City Fire Department Badge 1970S",
+      "year": "1970",
+      "year_start": 1970,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.079,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_d6de78f86c47985e",
+      "title": "Mccoy House",
+      "year": "1987",
+      "year_start": 1987,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.054,
+      "attribution": "Community Advisor, November 12, 1987",
+      "attribution_confidence": "confirmed"
+    },
+    {
+      "id": "img_591fdce9e557db2e",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_284993317d64a5e4",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_8aa40ef6d2dbc201",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_40d6c2b8e19fd527",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_a999fd2c808b66bb",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_3c8f15b64eec6c9e",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_acf4949ced58906e",
+      "title": "First Christian Church Egan Ave B",
+      "year": "2022",
+      "year_start": 2022,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.022,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_82595c1c9806db2a",
+      "title": "Sacred Heart Barrio Church B",
+      "year": "2018",
+      "year_start": 2018,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.013,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_2a8133ae8e586364",
+      "title": "Sacred Heart Barrio Church C",
+      "year": "2018",
+      "year_start": 2018,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.013,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_56f78e949de648f8",
+      "title": "Stewart Sunnyslope Gate",
+      "year": "2020",
+      "year_start": 2020,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.009,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    }
+  ],
+  "all_scored": [
+    {
+      "id": "img_9c26cfc39eca4fc9",
+      "title": "Beaumont Post Office Ne Corner Fifth St And Egan Ave",
+      "year": "c. 1910-1915",
+      "year_start": 1910,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.556,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_50e61a8496f4bfd2",
+      "title": "Wctu Fountain",
+      "year": "1910",
+      "year_start": 1910,
+      "date_confidence": "low",
+      "long_edge_in_150": 41.6,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.445,
+      "attribution": "Leslie A. Rios III Postcard Collection",
+      "attribution_confidence": "confirmed"
+    },
+    {
+      "id": "img_eebd80e2b2180cca",
+      "title": "Dowling Store Pomegranates",
+      "year": "c. 1950s-1960s",
+      "year_start": 1952,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "agriculture",
+        "downtown_street",
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.405,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_4ec3e978a2772b6b",
+      "title": "Railroad Workers Luis Estrada Fourth From Right",
+      "year": "c. 1910-1935",
+      "year_start": 1910,
+      "date_confidence": "low",
+      "long_edge_in_150": 35.7,
+      "themes": [
+        "pioneer_family",
+        "rail_transport"
+      ],
+      "modern_only": false,
+      "score": 0.36,
+      "attribution": "Estrada family collection",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_e8c5738ad26c5ffc",
+      "title": "Cherry Festival Queen",
+      "year": "1919",
+      "year_start": 1919,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "agriculture",
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.36,
+      "attribution": "San Gorgonio Pass Historical Society",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_ca02842503e130c9",
+      "title": "Luis Estrada Family In Their Southern Pacific Railroad Section House Leslie Collection",
+      "year": "c. 1940s",
+      "year_start": 1940,
+      "date_confidence": "medium",
+      "long_edge_in_150": 36.4,
+      "themes": [
+        "pioneer_family",
+        "rail_transport"
+      ],
+      "modern_only": false,
+      "score": 0.27,
+      "attribution": "Estrada family collection",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_2eee4fa95a275d4d",
+      "title": "Dowling Orchard Fruit Fresh Produce And Dried Fruit Nuts Candy Signs",
+      "year": "c. 1950s-1960s",
+      "year_start": 1952,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "agriculture",
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.27,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_9a697957b7ea88b0",
+      "title": "First Christian Church Egan Ave Probably Late 1950S A",
+      "year": "1950",
+      "year_start": 1950,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.0,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.267,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_7dad1702b8b44459",
+      "title": "Sunnyslope Cemetery 1960S",
+      "year": "1960",
+      "year_start": 1960,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.267,
+      "attribution": "Stewart family collection",
+      "attribution_confidence": "confirmed"
+    },
+    {
+      "id": "img_092d2807a0231929",
+      "title": "Wellwood School",
+      "year": "1916",
+      "year_start": 1916,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.265,
+      "attribution": "Beaumont Library District",
+      "attribution_confidence": "confirmed"
+    },
+    {
+      "id": "img_add874f3a7967842",
+      "title": "Sacred Heart Barrio Church From Leslie Rios",
+      "year": "c. late 1950s",
+      "year_start": 1956,
+      "date_confidence": "high",
+      "long_edge_in_150": 49.5,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.238,
+      "attribution": "Leslie A. Rios III Postcard Collection",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_68556e4afecfa748",
+      "title": "Clara Stewart Left And Laura May Stewart Right",
+      "year": "c. 1908-1918",
+      "year_start": 1908,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.225,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_7a0159037504313e",
+      "title": "Beaumont Fire Department At Grace",
+      "year": "c. late 1950s-early 1960s",
+      "year_start": 1955,
+      "date_confidence": "medium",
+      "long_edge_in_150": 28.5,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.199,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_cfdaf786f32d7ba0",
+      "title": "Stewart Ranch Equipment Undated B",
+      "year": "c. 1900-1930",
+      "year_start": 1900,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_02861b7cd39cd162",
+      "title": "Fifth Street",
+      "year": "1910",
+      "year_start": 1910,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_056f22949c5d906e",
+      "title": "Laura May Stewart In Chaps Dated",
+      "year": "1911",
+      "year_start": 1911,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_dee5615ad57181f9",
+      "title": "Laura May Stewart On Horseback",
+      "year": "1911",
+      "year_start": 1911,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_03ae9abaca02013c",
+      "title": "George Sumner S And S Store On Fifth Street Interior",
+      "year": "c. 1920s",
+      "year_start": 1920,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.8,
+      "themes": [
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_5a70b41831a92160",
+      "title": "6Th St Fr Bmt High Yearbook Donated By Leslie Rios",
+      "year": "1946",
+      "year_start": 1946,
+      "date_confidence": "confirmed",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.18,
+      "attribution": "Leslie A. Rios III Postcard Collection",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_99f7111cab26b389",
+      "title": "Beaumont High School",
+      "year": "1942",
+      "year_start": 1942,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.159,
+      "attribution": "donated by Leslie Rios",
+      "attribution_confidence": "confirmed"
+    },
+    {
+      "id": "img_634101dcee127994",
+      "title": "Beaumont Train Depot Workers 1940S C",
+      "year": "1940",
+      "year_start": 1940,
+      "date_confidence": "low",
+      "long_edge_in_150": 42.3,
+      "themes": [
+        "rail_transport"
+      ],
+      "modern_only": false,
+      "score": 0.108,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_b3dcb09d831e2058",
+      "title": "Laura May Stewart In The Room On Their Ranch Where She Collected Family Items",
+      "year": "c. 1945-1965",
+      "year_start": 1945,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.108,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_1ad76840ab48ba0e",
+      "title": "John Dowling",
+      "year": "c. 1950s-1960s",
+      "year_start": 1950,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.108,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_35a3c2b0b73a7892",
+      "title": "Summit School Artist Rendering",
+      "year": "c. 1960s-1970s",
+      "year_start": 1962,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.099,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_d92bd24434ee74d1",
+      "title": "Beaumont Presbyterian Church In The Daily Record Gazetter April",
+      "year": "1968",
+      "year_start": 1968,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.079,
+      "attribution": "Record-Gazette (Banning)",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_0f63f186060123e4",
+      "title": "Beaumont City Fire Department Badge 1970S",
+      "year": "1970",
+      "year_start": 1970,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.079,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_d6de78f86c47985e",
+      "title": "Mccoy House",
+      "year": "1987",
+      "year_start": 1987,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.054,
+      "attribution": "Community Advisor, November 12, 1987",
+      "attribution_confidence": "confirmed"
+    },
+    {
+      "id": "img_591fdce9e557db2e",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_284993317d64a5e4",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_8aa40ef6d2dbc201",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_40d6c2b8e19fd527",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_a999fd2c808b66bb",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_3c8f15b64eec6c9e",
+      "title": "Wctu Fountain In Triangle Park",
+      "year": "2020s",
+      "year_start": 2018,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.033,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_acf4949ced58906e",
+      "title": "First Christian Church Egan Ave B",
+      "year": "2022",
+      "year_start": 2022,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution",
+        "downtown_street"
+      ],
+      "modern_only": false,
+      "score": 0.022,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_82595c1c9806db2a",
+      "title": "Sacred Heart Barrio Church B",
+      "year": "2018",
+      "year_start": 2018,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.013,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_2a8133ae8e586364",
+      "title": "Sacred Heart Barrio Church C",
+      "year": "2018",
+      "year_start": 2018,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": false,
+      "score": 0.013,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_56f78e949de648f8",
+      "title": "Stewart Sunnyslope Gate",
+      "year": "2020",
+      "year_start": 2020,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": false,
+      "score": 0.009,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_99913db9881316f3",
+      "title": "Luis Estrada Statue California State Railroad Museum In Sacramento B",
+      "year": "2010s-2020s",
+      "year_start": 2010,
+      "date_confidence": "medium",
+      "long_edge_in_150": 37.2,
+      "themes": [
+        "pioneer_family",
+        "rail_transport"
+      ],
+      "modern_only": true,
+      "score": 0.003,
+      "attribution": "Estrada family collection",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_3d84769134889400",
+      "title": "Presbyterian Church Rocks",
+      "year": "2010s-2020s",
+      "year_start": 2010,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "civic_institution"
+      ],
+      "modern_only": true,
+      "score": 0.002,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_0fe6d3036afcd3d6",
+      "title": "Egan Ave Looking South Today Dead End At Interstate Photographed From Same Spot As Vintage Looking South",
+      "year": "2020s",
+      "year_start": 2015,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "downtown_street"
+      ],
+      "modern_only": true,
+      "score": 0.002,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_e9f375f1600bc4d0",
+      "title": "Fifth Street Looking West From Intersection Fith And Grace Today",
+      "year": "2020s",
+      "year_start": 2015,
+      "date_confidence": "high",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "downtown_street"
+      ],
+      "modern_only": true,
+      "score": 0.002,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_37bbc779f837532c",
+      "title": "Sean Balingit At The Mccoy House During Society Tour Credit Is Pat Murkland",
+      "year": "c. 2015-2024",
+      "year_start": 2015,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": true,
+      "score": 0.002,
+      "attribution": "Pat Murkland (photo credit)",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_c822a8c6bb7c2f67",
+      "title": "Luis Estrada Road Sign",
+      "year": "c. 2018-2021",
+      "year_start": 2018,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": true,
+      "score": 0.002,
+      "attribution": "Estrada family collection",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_3c18a28de48c53d4",
+      "title": "Luis Estrada Road Sign With Stop Sign",
+      "year": "c. 2018-2021",
+      "year_start": 2018,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "pioneer_family"
+      ],
+      "modern_only": true,
+      "score": 0.002,
+      "attribution": "Estrada family collection",
+      "attribution_confidence": "high"
+    },
+    {
+      "id": "img_04328f685390128c",
+      "title": "Beaumont Volunteer Firefighter Scott Karnitz Memorial At Beaumont Fire Station Aaa",
+      "year": "c. 2000s-2010s",
+      "year_start": 2000,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "rail_transport"
+      ],
+      "modern_only": true,
+      "score": 0.001,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_8a20e0efb687510c",
+      "title": "Beaumont Volunteer Firefighter Scott Karnitz Memorial At Beaumont Fire Station Bbb",
+      "year": "c. 2000s-2010s",
+      "year_start": 2000,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [
+        "rail_transport"
+      ],
+      "modern_only": true,
+      "score": 0.001,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_1ac667107bd74996",
+      "title": "City Of Beaumont Work And Dress Uniforms",
+      "year": "c. 1960s-1970s",
+      "year_start": 1960,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [],
+      "modern_only": false,
+      "score": 0.0,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_e227a30890d191f3",
+      "title": "IMG_3030",
+      "year": "2010s-2020s",
+      "year_start": 2010,
+      "date_confidence": "low",
+      "long_edge_in_150": 24.2,
+      "themes": [],
+      "modern_only": true,
+      "score": 0.0,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_6ddebbe0de2a589d",
+      "title": "Luis Estrad Road Sign B",
+      "year": "c. 2018-2021",
+      "year_start": 2018,
+      "date_confidence": "medium",
+      "long_edge_in_150": 24.2,
+      "themes": [],
+      "modern_only": true,
+      "score": 0.0,
+      "attribution": "Unknown",
+      "attribution_confidence": "unknown"
+    },
+    {
+      "id": "img_23a4b70023473f20",
+      "title": "Tracy Caldwell Dyson",
+      "year": "2023",
+      "year_start": 2023,
+      "date_confidence": "low",
+      "long_edge_in_150": 29.0,
+      "themes": [],
+      "modern_only": true,
+      "score": 0.0,
+      "attribution": "Robert Markowitz / NASA Johnson Space Center",
+      "attribution_confidence": "confirmed"
+    }
+  ]
+}

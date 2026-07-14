@@ -1,0 +1,1160 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Researched date ranges for records the pipeline left undated. Sources: filename annotations, yearbook/newspaper mastheads, postmarks, the San Gorgonio Pass Historical Society timeline, Beaumont institutional histories, and visual analysis (vehicles, dress, architecture, postcard format).",
+  "confidence_levels": {
+    "confirmed": "explicit date in the image, filename, masthead, postmark, or a source annotation",
+    "high": "strong single anchor (dated postcard series, documented construction year, decisive visual cue)",
+    "medium": "reasoned from era cues or a subject's known active period",
+    "low": "broad but defensible range; further confirmation welcome"
+  },
+  "overrides": {
+    "img_5a70b41831a92160": {
+      "date_start": 1946,
+      "date_end": 1946,
+      "display": "1946",
+      "confidence": "confirmed",
+      "basis": "Year in filename; view of 6th St. from the 1946 Beaumont High School yearbook (SGPHS timeline confirms BHS yearbooks 1942-1950)."
+    },
+    "img_c228028c8fdfc647": {
+      "date_start": 1949,
+      "date_end": 1949,
+      "display": "1949",
+      "confidence": "confirmed",
+      "basis": "Year in filename; school band from the 1949 Beaumont High School yearbook."
+    },
+    "img_ada3474936428467": {
+      "date_start": 1950,
+      "date_end": 1950,
+      "display": "1950",
+      "confidence": "confirmed",
+      "basis": "Year in filename; majorettes from the 1950 Beaumont High School yearbook."
+    },
+    "img_7d31166d85dd49bd": {
+      "date_start": 1950,
+      "date_end": 1950,
+      "display": "1950",
+      "confidence": "confirmed",
+      "basis": "Year in filename; typing class from the 1950 Beaumont High School yearbook."
+    },
+    "img_4ac86175e34cb48f": {
+      "date_start": 1938,
+      "date_end": 1948,
+      "display": "c. 1938-1948",
+      "confidence": "medium",
+      "basis": "Real-photo postcard of the ~1930 Mission Revival high school (later Civic Center) with mature landscaping and paved street."
+    },
+    "img_9160017c82292a64": {
+      "date_start": 1969,
+      "date_end": 1969,
+      "display": "March 21, 1969",
+      "confidence": "confirmed",
+      "basis": "Record-Gazette masthead 3-21-69 in filename; new fire station under construction on Maple Ave (SGPHS timeline confirmed)."
+    },
+    "img_a48b18e93521487b": {
+      "date_start": 1978,
+      "date_end": 1978,
+      "display": "Nov 28, 1978",
+      "confidence": "confirmed",
+      "basis": "Record-Gazette masthead 11-28-78 in filename; council vote to contract fire services with CDF (SGPHS timeline confirmed)."
+    },
+    "img_06355ab9cdf953fb": {
+      "date_start": 1968,
+      "date_end": 1968,
+      "display": "April 30, 1968",
+      "confidence": "confirmed",
+      "basis": "Daily Record-Gazette masthead 4-30-68 in filename (SGPHS timeline confirmed)."
+    },
+    "img_530924ee0ded82c6": {
+      "date_start": 1977,
+      "date_end": 1977,
+      "display": "May 26, 1977",
+      "confidence": "confirmed",
+      "basis": "Letter dated 5-26-77 in filename."
+    },
+    "img_4b0acbe1458e33c0": {
+      "date_start": 1909,
+      "date_end": 1909,
+      "display": "1909",
+      "confidence": "high",
+      "basis": "Archival photo captioned 'Old Bank Building, Fifth and California' under construction; the first Bank of Beaumont was built in 1909."
+    },
+    "img_863f0fc9e94e4ebb": {
+      "date_start": 2015,
+      "date_end": 2025,
+      "display": "c. 2015-2025 (1923 building)",
+      "confidence": "medium",
+      "basis": "Contemporary color photo of the carved cornice 'Bank of Beaumont - Founded 1909 - Erected 1923'; the photo is recent, the building dates to 1923."
+    },
+    "img_e6fe5e33e99cc68f": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Filename 'today'; modern reference photo of the standing bank building."
+    },
+    "img_66a9280d1c1afbf9": {
+      "date_start": 1923,
+      "date_end": 1940,
+      "display": "c. 1923-1940",
+      "confidence": "medium",
+      "basis": "WCTU Fountain (dedicated 1910) beside the Bank of Beaumont at Fifth & Egan; that corner held the second bank, erected 1923, so the view postdates 1923."
+    },
+    "img_cd302d98752b29e0": {
+      "date_start": 1923,
+      "date_end": 1940,
+      "display": "c. 1923-1940",
+      "confidence": "medium",
+      "basis": "The second Bank of Beaumont (Fifth & Egan) was erected in 1923."
+    },
+    "img_e227a30890d191f3": {
+      "date_start": 2010,
+      "date_end": 2025,
+      "display": "2010s-2020s",
+      "confidence": "low",
+      "basis": "Generic digital-camera filename (IMG_3030); a modern photo tied to the first Bank of Beaumont site."
+    },
+    "img_9c26cfc39eca4fc9": {
+      "date_start": 1910,
+      "date_end": 1915,
+      "display": "c. 1910-1915",
+      "confidence": "medium",
+      "basis": "RPPC of the wooden Post Office; dirt street, horse wagon, Edwardian dress, and the WCTU fountain shelter (1910) present."
+    },
+    "img_5658eba56b079aef": {
+      "date_start": 1885,
+      "date_end": 1895,
+      "display": "c. 1885-1895",
+      "confidence": "high",
+      "basis": "SGPHS timeline's opening image 'Egan Avenue in its earliest days' - frontier strip, unpaved, no autos, dated c.1885-1895."
+    },
+    "img_157678621f95c278": {
+      "date_start": 1898,
+      "date_end": 1908,
+      "display": "c. 1898-1908",
+      "confidence": "medium",
+      "basis": "Dirt street with the Beaumont Land & Water Co. office and young eucalyptus saplings; no automobiles."
+    },
+    "img_7835865b7e46b59c": {
+      "date_start": 1908,
+      "date_end": 1925,
+      "display": "c. 1908-1925",
+      "confidence": "low",
+      "basis": "Vintage Egan Ave. postcard from a collector; 1910s-1920s commercial streetscape."
+    },
+    "img_92d81318b1127f4b": {
+      "date_start": 1900,
+      "date_end": 1915,
+      "display": "c. 1900-1915",
+      "confidence": "low",
+      "basis": "Egan Ave. 600 block (grouped with Summit House imagery, 1890s-1911)."
+    },
+    "img_676c1d159bb01165": {
+      "date_start": 1887,
+      "date_end": 1895,
+      "display": "c. 1887 (original plat)",
+      "confidence": "medium",
+      "basis": "George C. Egan surveyed and platted Beaumont's diagonal grid c.1887; the image is that town-plat map."
+    },
+    "img_82f263746528ece8": {
+      "date_start": 1937,
+      "date_end": 1941,
+      "display": "c. late 1930s",
+      "confidence": "high",
+      "basis": "Frasher's 'Street Scene, Beaumont' with the classical bank, Rexall Drugs and late-1930s automobiles."
+    },
+    "img_4239365a9df07707": {
+      "date_start": 1918,
+      "date_end": 1924,
+      "display": "c. 1918-1924",
+      "confidence": "high",
+      "basis": "RPPC with Model T touring cars, 'Gantt & Bro Groceries' and early-1920s dress."
+    },
+    "img_88e0efbd8026acce": {
+      "date_start": 1929,
+      "date_end": 1933,
+      "display": "c. 1929-1933",
+      "confidence": "high",
+      "basis": "Brick block with a Ford Model A coupe and 'Charles E. Crowther Real Estate'."
+    },
+    "img_e9f375f1600bc4d0": {
+      "date_start": 2015,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Filename 'today'; modern reference photo of Fifth Street."
+    },
+    "img_37e600853baf16af": {
+      "date_start": 1954,
+      "date_end": 1958,
+      "display": "c. 1955",
+      "confidence": "high",
+      "basis": "Color snapshot of Pass City Grocery beside the bank, with a 1953 Chevrolet and 1955 Plymouth; shared to Facebook 2020."
+    },
+    "img_0880ba793548d705": {
+      "date_start": 1908,
+      "date_end": 1925,
+      "display": "c. 1908-1925",
+      "confidence": "low",
+      "basis": "Vintage Fifth Street postcard from the Steve Lech collection."
+    },
+    "img_9dee891466dac007": {
+      "date_start": 1923,
+      "date_end": 1929,
+      "display": "c. mid-1920s",
+      "confidence": "medium",
+      "basis": "S&S store corner with 1920s automobiles and a dirt street."
+    },
+    "img_03ae9abaca02013c": {
+      "date_start": 1920,
+      "date_end": 1930,
+      "display": "c. 1920s",
+      "confidence": "low",
+      "basis": "Interior of the S&S store; companion to the mid-1920s exterior view."
+    },
+    "img_0fe6d3036afcd3d6": {
+      "date_start": 2015,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Filename 'today'; references I-10, modern reference photo."
+    },
+    "img_934590dec97e3d15": {
+      "date_start": 1909,
+      "date_end": 1918,
+      "display": "c. 1909-1918",
+      "confidence": "medium",
+      "basis": "Postcard of the two-story (expanded) SP depot with steam locomotive and Edwardian-era figures; depot expansion ~1909."
+    },
+    "img_d5b3e8d2100926fd": {
+      "date_start": 1908,
+      "date_end": 1918,
+      "display": "c. 1908-1918",
+      "confidence": "medium",
+      "basis": "Rail-yard panorama with steam locomotive, water tower and lumber yard; no automobiles."
+    },
+    "img_eabd3578774e347f": {
+      "date_start": 1908,
+      "date_end": 1918,
+      "display": "c. 1908-1918",
+      "confidence": "medium",
+      "basis": "Multiple steam locomotives at the Beaumont roundhouse."
+    },
+    "img_3b097e0808432587": {
+      "date_start": 1915,
+      "date_end": 1940,
+      "display": "c. 1915-1940",
+      "confidence": "low",
+      "basis": "SP section workforce; SGPHS notes women documented sweeping the tracks in the early-rail/Estrada era."
+    },
+    "img_0ab722136d7bd1be": {
+      "date_start": 1940,
+      "date_end": 1949,
+      "display": "c. 1940s",
+      "confidence": "medium",
+      "basis": "SGPHS timeline dates the Estrada family at meals inside the SP section house to the 1940s."
+    },
+    "img_ca02842503e130c9": {
+      "date_start": 1940,
+      "date_end": 1949,
+      "display": "c. 1940s",
+      "confidence": "medium",
+      "basis": "SGPHS timeline dates the Estrada family in their SP section house to the 1940s."
+    },
+    "img_a7a6b112d9c297dd": {
+      "date_start": 1915,
+      "date_end": 1930,
+      "display": "c. 1915-1930",
+      "confidence": "low",
+      "basis": "Youthful portrait of Luis Estrada, who worked for the SP for decades."
+    },
+    "img_4ec3e978a2772b6b": {
+      "date_start": 1910,
+      "date_end": 1935,
+      "display": "c. 1910-1935",
+      "confidence": "low",
+      "basis": "SP railroad-worker group portrait at the Beaumont depot including Luis Estrada."
+    },
+    "img_4a9ee3f3baeb6a26": {
+      "date_start": 1910,
+      "date_end": 1935,
+      "display": "c. 1910-1935",
+      "confidence": "low",
+      "basis": "SP railroad-worker group portrait including Luis Estrada."
+    },
+    "img_6ddebbe0de2a589d": {
+      "date_start": 2018,
+      "date_end": 2021,
+      "display": "c. 2018-2021",
+      "confidence": "medium",
+      "basis": "Photo of the Luis Estrada Road street sign; the road's 20th anniversary was marked in 2021."
+    },
+    "img_c822a8c6bb7c2f67": {
+      "date_start": 2018,
+      "date_end": 2021,
+      "display": "c. 2018-2021",
+      "confidence": "medium",
+      "basis": "Photo of the Luis Estrada Road street sign (modern)."
+    },
+    "img_3c18a28de48c53d4": {
+      "date_start": 2018,
+      "date_end": 2021,
+      "display": "c. 2018-2021",
+      "confidence": "medium",
+      "basis": "Photo of the Luis Estrada Road street sign with stop sign (modern)."
+    },
+    "img_48e0a1029b9b35cf": {
+      "date_start": 2010,
+      "date_end": 2024,
+      "display": "2010s-2020s",
+      "confidence": "medium",
+      "basis": "Photo of the Luis Estrada statue at the California State Railroad Museum (modern memorial)."
+    },
+    "img_39722a07ed88a499": {
+      "date_start": 2010,
+      "date_end": 2024,
+      "display": "2010s-2020s",
+      "confidence": "medium",
+      "basis": "Photo of the Luis Estrada statue at the California State Railroad Museum (modern memorial)."
+    },
+    "img_9acdf5b823073389": {
+      "date_start": 2010,
+      "date_end": 2024,
+      "display": "2010s-2020s",
+      "confidence": "medium",
+      "basis": "Photo of the Luis Estrada statue at the California State Railroad Museum (modern memorial)."
+    },
+    "img_99913db9881316f3": {
+      "date_start": 2010,
+      "date_end": 2024,
+      "display": "2010s-2020s",
+      "confidence": "medium",
+      "basis": "Photo of the Luis Estrada statue at the California State Railroad Museum (modern memorial)."
+    },
+    "img_70f5802804fd1652": {
+      "date_start": 1900,
+      "date_end": 1908,
+      "display": "c. 1900-1908",
+      "confidence": "medium",
+      "basis": "Elevated townscape with the pre-1909 single-story depot, Peter Allen Store, and the Hotel Beaumont on the hill (burned 1909)."
+    },
+    "img_049b709d6ffb773a": {
+      "date_start": 1890,
+      "date_end": 1909,
+      "display": "c. 1890-1909",
+      "confidence": "medium",
+      "basis": "Vista including the Hotel Beaumont, which stood from 1888 until it burned in August 1909."
+    },
+    "img_c6fa941a29b0f0cd": {
+      "date_start": 1900,
+      "date_end": 1909,
+      "display": "c. 1900-1909",
+      "confidence": "medium",
+      "basis": "The Hotel Beaumont was renamed Hotel Edinburgh shortly before it burned in 1909."
+    },
+    "img_6345c804830d0a07": {
+      "date_start": 2025,
+      "date_end": 2025,
+      "display": "May 2025",
+      "confidence": "confirmed",
+      "basis": "Filename dated 5-8-25; Google reference image of the site today."
+    },
+    "img_c01f0729b7635aa7": {
+      "date_start": 2025,
+      "date_end": 2025,
+      "display": "May 2025",
+      "confidence": "confirmed",
+      "basis": "Filename dated 5-8-25; Google reference image of the site today."
+    },
+    "img_b2764c9151e44824": {
+      "date_start": 1890,
+      "date_end": 1905,
+      "display": "c. 1890-1905",
+      "confidence": "medium",
+      "basis": "Beaumont Land & Water Co. was the founding-era developer, active late 1880s into the 1900s."
+    },
+    "img_6278e20aa65dd6a8": {
+      "date_start": 1895,
+      "date_end": 1910,
+      "display": "c. 1895-1910",
+      "confidence": "medium",
+      "basis": "Beaumont Land & Water Co. pumping station; Edgar Canyon well drilling documented 1908."
+    },
+    "img_83b4208d7a588795": {
+      "date_start": 1900,
+      "date_end": 1912,
+      "display": "c. 1900-1912",
+      "confidence": "medium",
+      "basis": "Beaumont water well; Edgar Canyon well drilling documented 1908."
+    },
+    "img_9a09c6788b0dddf1": {
+      "date_start": 1895,
+      "date_end": 1915,
+      "display": "c. 1895-1915",
+      "confidence": "low",
+      "basis": "Early ranch scene at the Bliss Ranch well."
+    },
+    "img_3e252c3b2ce712aa": {
+      "date_start": 1900,
+      "date_end": 1925,
+      "display": "c. 1900-1925",
+      "confidence": "low",
+      "basis": "Early Beaumont apple/cherry orchards; the orchard economy defined the town ~1900-1920s."
+    },
+    "img_5430b97f619e1088": {
+      "date_start": 2010,
+      "date_end": 2025,
+      "display": "2010s-2020s (1934 building)",
+      "confidence": "medium",
+      "basis": "Modern photo of the stone Presbyterian 'rock church', built 1934, with current signage."
+    },
+    "img_da743e866c6368cc": {
+      "date_start": 2010,
+      "date_end": 2025,
+      "display": "2010s-2020s (1934 building)",
+      "confidence": "high",
+      "basis": "Modern color photo of the stone Presbyterian rock church (built 1934) with current signage."
+    },
+    "img_b4e6ea6952262482": {
+      "date_start": 2010,
+      "date_end": 2025,
+      "display": "2010s-2020s (1934 building)",
+      "confidence": "medium",
+      "basis": "Modern photo of the 1934 stone Presbyterian church."
+    },
+    "img_1ace86d145209734": {
+      "date_start": 1934,
+      "date_end": 2025,
+      "display": "1934 or later (1934 church interior)",
+      "confidence": "low",
+      "basis": "Interior of the Presbyterian rock church, completed 1934; capture date uncertain."
+    },
+    "img_3d84769134889400": {
+      "date_start": 2010,
+      "date_end": 2025,
+      "display": "2010s-2020s",
+      "confidence": "low",
+      "basis": "Close-up of the church's rock construction; modern documentation of the 1934 building."
+    },
+    "img_a144edcec7a50be8": {
+      "date_start": 1930,
+      "date_end": 1940,
+      "display": "c. 1930-1940",
+      "confidence": "medium",
+      "basis": "SGPHS timeline dates First Christian Church at 701 Egan Ave. to 1930-1940; image shows it under construction."
+    },
+    "img_1d5ad1237f7755e2": {
+      "date_start": 1925,
+      "date_end": 1945,
+      "display": "c. 1925-1945",
+      "confidence": "medium",
+      "basis": "Faded photo of the small adobe barrio chapel with dirt yard, predating the larger stucco church; received June 2025."
+    },
+    "img_add874f3a7967842": {
+      "date_start": 1956,
+      "date_end": 1963,
+      "display": "c. late 1950s",
+      "confidence": "high",
+      "basis": "Color slide of a First Communion outside Sacred Heart barrio church, with ~1953-54 cars and a 1956-62 yellow California plate."
+    },
+    "img_22f62627c5d79f7e": {
+      "date_start": 1930,
+      "date_end": 1960,
+      "display": "c. 1930-1960",
+      "confidence": "low",
+      "basis": "Sacred Heart barrio parish, Beaumont; specific date not recorded."
+    },
+    "img_7a0159037504313e": {
+      "date_start": 1955,
+      "date_end": 1965,
+      "display": "c. late 1950s-early 1960s",
+      "confidence": "medium",
+      "basis": "SGPHS timeline places the volunteer fire department at 500 Grace Ave. in the late 1950s-early 1960s."
+    },
+    "img_f03f7f375191edf6": {
+      "date_start": 1973,
+      "date_end": 1980,
+      "display": "c. 1975",
+      "confidence": "medium",
+      "basis": "Antique hand hose-cart displayed at a 1960s breeze-block fire station, with a mid-1970s GMC engine in the bay."
+    },
+    "img_1ac667107bd74996": {
+      "date_start": 1960,
+      "date_end": 1978,
+      "display": "c. 1960s-1970s",
+      "confidence": "low",
+      "basis": "Beaumont Fire Department work and dress uniforms; the department modernized through the 1960s-70s."
+    },
+    "img_04328f685390128c": {
+      "date_start": 2000,
+      "date_end": 2020,
+      "display": "c. 2000s-2010s",
+      "confidence": "low",
+      "basis": "Photo of a memorial to volunteer firefighter Scott Karnitz; a modern commemorative image."
+    },
+    "img_8a20e0efb687510c": {
+      "date_start": 2000,
+      "date_end": 2020,
+      "display": "c. 2000s-2010s",
+      "confidence": "low",
+      "basis": "Photo of a memorial to volunteer firefighter Scott Karnitz; a modern commemorative image."
+    },
+    "img_67d561c6f67c1ba2": {
+      "date_start": 1995,
+      "date_end": 2020,
+      "display": "c. late 20th-early 21st c.",
+      "confidence": "low",
+      "basis": "Newspaper clipping about volunteer firefighter Scott Karnitz."
+    },
+    "img_a9b8f17ec8b1a61d": {
+      "date_start": 1935,
+      "date_end": 1955,
+      "display": "c. 1935-1955",
+      "confidence": "low",
+      "basis": "Historical photo of the combined City Hall / Fire / Police at 500 Grace Ave.; received Jan 2023."
+    },
+    "img_03056ebb373ddd81": {
+      "date_start": 1935,
+      "date_end": 1955,
+      "display": "c. 1935-1955",
+      "confidence": "low",
+      "basis": "Old City Hall at 500 Grace Ave.; mid-century."
+    },
+    "img_ed9a0626308ebccf": {
+      "date_start": 1918,
+      "date_end": 1925,
+      "display": "c. 1918-1925",
+      "confidence": "medium",
+      "basis": "Young Francis Dowling Sr. beside a Model T-based 'Golden State Cherry Orchard' truck with wooden-spoke wheels."
+    },
+    "img_9299c7a090b03878": {
+      "date_start": 1915,
+      "date_end": 1925,
+      "display": "c. 1915-1925",
+      "confidence": "low",
+      "basis": "Youthful portrait of Francis Dowling Sr."
+    },
+    "img_6205c940ef544e0b": {
+      "date_start": 1900,
+      "date_end": 1920,
+      "display": "c. 1900-1920",
+      "confidence": "low",
+      "basis": "Couple portrait of the elder Dowling generation (Francis Marion Sr. and Iola Stower Dowling)."
+    },
+    "img_953fbfaa8e42a2fb": {
+      "date_start": 1900,
+      "date_end": 1918,
+      "display": "c. 1900-1918",
+      "confidence": "low",
+      "basis": "Youthful portrait of Iola Stower Dowling."
+    },
+    "img_57a9c9df6e55e692": {
+      "date_start": 1930,
+      "date_end": 1945,
+      "display": "c. 1930-1945",
+      "confidence": "low",
+      "basis": "Two-generation Dowling portrait (Sr. with grown Jr.)."
+    },
+    "img_fe6493dfb389b7f5": {
+      "date_start": 1930,
+      "date_end": 1945,
+      "display": "c. 1930-1945",
+      "confidence": "low",
+      "basis": "Francis Dowling Jr. and Estella; adult portrait."
+    },
+    "img_36bc04455099c9d7": {
+      "date_start": 1945,
+      "date_end": 1958,
+      "display": "c. 1945-1958",
+      "confidence": "low",
+      "basis": "Francis Dowling Jr. with his son John sorting cherries; mid-century orchard work."
+    },
+    "img_a6ec55f14a4d13dc": {
+      "date_start": 1945,
+      "date_end": 1960,
+      "display": "c. 1945-1960",
+      "confidence": "low",
+      "basis": "Francis Dowling Jr. with an orchard clamp truck."
+    },
+    "img_1ad76840ab48ba0e": {
+      "date_start": 1950,
+      "date_end": 1968,
+      "display": "c. 1950s-1960s",
+      "confidence": "low",
+      "basis": "Portrait of John Dowling (Francis Jr.'s son)."
+    },
+    "img_dc9b98dd0bb1264f": {
+      "date_start": 1952,
+      "date_end": 1965,
+      "display": "c. 1950s-1960s",
+      "confidence": "medium",
+      "basis": "Dowling Fruit Orchard roadside stand; the store opened in 1952."
+    },
+    "img_2eee4fa95a275d4d": {
+      "date_start": 1952,
+      "date_end": 1968,
+      "display": "c. 1950s-1960s",
+      "confidence": "medium",
+      "basis": "Dowling Fruit Orchard stand signage; the store opened in 1952."
+    },
+    "img_72b5acdf8b88fc6c": {
+      "date_start": 1952,
+      "date_end": 1968,
+      "display": "c. 1950s-1960s",
+      "confidence": "medium",
+      "basis": "Interior of the Dowling Fruit Orchard store (opened 1952)."
+    },
+    "img_eebd80e2b2180cca": {
+      "date_start": 1952,
+      "date_end": 1968,
+      "display": "c. 1950s-1960s",
+      "confidence": "medium",
+      "basis": "Dowling store produce display (store opened 1952)."
+    },
+    "img_4eeb78c48b2bca4b": {
+      "date_start": 2015,
+      "date_end": 2025,
+      "display": "2010s-2020s",
+      "confidence": "high",
+      "basis": "Filename 'contemporary'; modern photo of the Dowling store."
+    },
+    "img_291537b3068812cf": {
+      "date_start": 1890,
+      "date_end": 1915,
+      "display": "c. 1890-1915",
+      "confidence": "low",
+      "basis": "Portrait of an Eyer-family member (early Beaumont settlers; Eyer House c.1915-1920)."
+    },
+    "img_dbf7e0bb619c1c74": {
+      "date_start": 1890,
+      "date_end": 1915,
+      "display": "c. 1890-1915",
+      "confidence": "low",
+      "basis": "Eyer-family portrait (Cora K. Eyer)."
+    },
+    "img_2fa19df607bf43e1": {
+      "date_start": 1915,
+      "date_end": 1920,
+      "display": "c. 1915-1920",
+      "confidence": "confirmed",
+      "basis": "Date written in filename ('circa 1915-1920')."
+    },
+    "img_4e6f8597cedbda5b": {
+      "date_start": 1885,
+      "date_end": 1920,
+      "display": "c. 1885-1920 (subject 1859-1935)",
+      "confidence": "low",
+      "basis": "Portrait of Jane Eyer Smoot; filename gives her life dates 1859-1935."
+    },
+    "img_a7581c3a3616e8da": {
+      "date_start": 1885,
+      "date_end": 1920,
+      "display": "c. 1885-1920 (subject 1859-1935)",
+      "confidence": "low",
+      "basis": "Portrait of Jane Eyer Smoot (1859-1935)."
+    },
+    "img_317c261e7e95cb9d": {
+      "date_start": 1885,
+      "date_end": 1915,
+      "display": "c. 1885-1915",
+      "confidence": "low",
+      "basis": "Couple portrait; filename gives Kenneth Russell Smoot's dates 1857-1932."
+    },
+    "img_e6c2b250138da121": {
+      "date_start": 1908,
+      "date_end": 1913,
+      "display": "c. 1908-1913",
+      "confidence": "high",
+      "basis": "Stewart family at the ranch barn; women in Edwardian long skirts and oversized 'Merry Widow' hats (c.1908-12)."
+    },
+    "img_68556e4afecfa748": {
+      "date_start": 1908,
+      "date_end": 1918,
+      "display": "c. 1908-1918",
+      "confidence": "medium",
+      "basis": "Portrait of the Stewart sisters; Laura May was photographed 1911 and crowned first Cherry Queen 1919."
+    },
+    "img_4a82e2c89eb4a27d": {
+      "date_start": 1910,
+      "date_end": 1920,
+      "display": "c. 1910-1920",
+      "confidence": "medium",
+      "basis": "Reznor on horseback and Laura May 'at the wheel' of an early automobile; Laura May's 1911 era."
+    },
+    "img_7b302ec1a5a6c157": {
+      "date_start": 1900,
+      "date_end": 1915,
+      "display": "c. 1900-1915",
+      "confidence": "low",
+      "basis": "Portrait of Reznor Stewart (father of Laura May Stewart)."
+    },
+    "img_e223c8fe27b85e0d": {
+      "date_start": 1900,
+      "date_end": 1915,
+      "display": "c. 1900-1915",
+      "confidence": "low",
+      "basis": "Portrait of Reznor Stewart; filename notes date unknown."
+    },
+    "img_1dfdd8cac1f62558": {
+      "date_start": 1900,
+      "date_end": 1915,
+      "display": "c. 1900-1915",
+      "confidence": "low",
+      "basis": "Portrait of Reznor Stewart; filename notes date unknown."
+    },
+    "img_df9bd9231a83651c": {
+      "date_start": 1900,
+      "date_end": 1915,
+      "display": "c. 1900-1915",
+      "confidence": "low",
+      "basis": "Portrait of Reznor Stewart; filename notes date unknown."
+    },
+    "img_2846f7be40e9aff6": {
+      "date_start": 1900,
+      "date_end": 1930,
+      "display": "c. 1900-1930",
+      "confidence": "low",
+      "basis": "Farm equipment at the Stewart Ranch."
+    },
+    "img_cfdaf786f32d7ba0": {
+      "date_start": 1900,
+      "date_end": 1930,
+      "display": "c. 1900-1930",
+      "confidence": "low",
+      "basis": "Farm equipment at the Stewart Ranch."
+    },
+    "img_b3dcb09d831e2058": {
+      "date_start": 1945,
+      "date_end": 1965,
+      "display": "c. 1945-1965",
+      "confidence": "low",
+      "basis": "Laura May Stewart as an older woman in her family-history collection room."
+    },
+    "img_64fee8a381ae5df5": {
+      "date_start": 2020,
+      "date_end": 2020,
+      "display": "May 2020",
+      "confidence": "confirmed",
+      "basis": "Filename dated 5-15-20; Google image of Stewart Sunnyslope Cemetery."
+    },
+    "img_a85c852bf4ca3f39": {
+      "date_start": 1935,
+      "date_end": 1948,
+      "display": "c. 1935-1948",
+      "confidence": "medium",
+      "basis": "Elderly Guy Bogart at his desk with an 'Easter Sunrise / Bogart Bowl' poster."
+    },
+    "img_b0d82053666b74fe": {
+      "date_start": 1935,
+      "date_end": 1948,
+      "display": "c. 1935-1948",
+      "confidence": "medium",
+      "basis": "Guy Bogart in his home office; companion to the desk portrait."
+    },
+    "img_da155fda02d882ee": {
+      "date_start": 1925,
+      "date_end": 1945,
+      "display": "c. 1925-1945",
+      "confidence": "low",
+      "basis": "Guy Bogart handing out apples at a community event."
+    },
+    "img_0092d056a315fe98": {
+      "date_start": 2020,
+      "date_end": 2020,
+      "display": "Feb 2020",
+      "confidence": "confirmed",
+      "basis": "Filename dated 2-8-20; modern photo of the Bogart House."
+    },
+    "img_c8be9dda2808f47c": {
+      "date_start": 1915,
+      "date_end": 1940,
+      "display": "c. 1915-1940",
+      "confidence": "low",
+      "basis": "Historical photo of Guy Bogart's house from the Library District archive."
+    },
+    "img_ef0e1fe665c580a0": {
+      "date_start": 1938,
+      "date_end": 1946,
+      "display": "c. 1940",
+      "confidence": "high",
+      "basis": "Frasher's postcard 'Beaumont on U.S. Highways 60 and 99' showing Sam's Cafe with late-1930s/early-1940s automobiles."
+    },
+    "img_21f5dda0d6f26b4a": {
+      "date_start": 1941,
+      "date_end": 1946,
+      "display": "c. early-mid 1940s",
+      "confidence": "high",
+      "basis": "Photo of Sam's Cafe corner with a 1941-42 Chevrolet pickup and men in 1940s fedoras."
+    },
+    "img_484acf24f5126598": {
+      "date_start": 1946,
+      "date_end": 1950,
+      "display": "c. late 1940s",
+      "confidence": "high",
+      "basis": "Highway view (Desert Outpost Cafe) with a late-1940s fastback sedan and cabins/dancing signage."
+    },
+    "img_92af244203629094": {
+      "date_start": 1947,
+      "date_end": 1953,
+      "display": "c. late 1940s-early 1950s",
+      "confidence": "high",
+      "basis": "Frasher's postcard of the El Rancho Motel with postwar 1940s automobiles and cocktail signage."
+    },
+    "img_2d0928cd5901f761": {
+      "date_start": 1945,
+      "date_end": 1955,
+      "display": "c. late 1940s-1950s",
+      "confidence": "medium",
+      "basis": "Colorized linen postcard of the Streamline Moderne Fireside Inn."
+    },
+    "img_6feb4c505e0a58be": {
+      "date_start": 1960,
+      "date_end": 1978,
+      "display": "c. 1960s-1970s",
+      "confidence": "medium",
+      "basis": "Matchbook for Joe's Cafe (1232 E. 6th St.) with an all-numeric 7-digit phone number, indicating the 1960s-70s."
+    },
+    "img_e91452d502f8cc96": {
+      "date_start": 1951,
+      "date_end": 1955,
+      "display": "c. early-mid 1950s",
+      "confidence": "high",
+      "basis": "RPPC of Sixth Street with early-1950s automobiles, 'George's 5&10' and 'Bob's Cafe'."
+    },
+    "img_228a900cb9c1637b": {
+      "date_start": 1945,
+      "date_end": 1946,
+      "display": "c. 1945",
+      "confidence": "high",
+      "basis": "Frasher's postcard of Sixth Street with a Greyhound bus, ~1940 cars, and the Beaumont Theatre showing 'Masquerade in Mexico' (1945)."
+    },
+    "img_a83e9024f8e65c3f": {
+      "date_start": 1955,
+      "date_end": 1958,
+      "display": "c. mid-late 1950s",
+      "confidence": "high",
+      "basis": "Color chrome postcard of Sixth Street with mid-1950s automobiles and a roller-rink sign."
+    },
+    "img_e3de81c2cb7655c8": {
+      "date_start": 1925,
+      "date_end": 1932,
+      "display": "c. mid-late 1920s",
+      "confidence": "high",
+      "basis": "RPPC of the Spanish Revival Triangle Service Station with 1920s visible-register pumps and a Model T-era car."
+    },
+    "img_8241a89edda429c5": {
+      "date_start": 1937,
+      "date_end": 1942,
+      "display": "c. late 1930s",
+      "confidence": "high",
+      "basis": "Frasher's postcard showing the former Triangle station repurposed as Chamber of Commerce/Logan's, with a late-1930s sedan."
+    },
+    "img_fd15a86cd86982d6": {
+      "date_start": 1922,
+      "date_end": 1930,
+      "display": "c. 1920s",
+      "confidence": "high",
+      "basis": "RPPC of the Triangle Service Station with flat-capped attendants and 1920s visible-register gas pumps."
+    },
+    "img_1c61ef08adc421b9": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Filename 'today'; modern reference photo of the Triangle Gas Station site."
+    },
+    "img_2ffb4cd6b691c887": {
+      "date_start": 1958,
+      "date_end": 1970,
+      "display": "c. 1960s",
+      "confidence": "medium",
+      "basis": "Ramona and Frank Torres at a banquet; early-1960s bouffant styling."
+    },
+    "img_f3ff85c652f90c21": {
+      "date_start": 1958,
+      "date_end": 1970,
+      "display": "c. 1960s",
+      "confidence": "low",
+      "basis": "Ramona and Frank Torres portrait; 1960s."
+    },
+    "img_ba7b9a02b3a0292c": {
+      "date_start": 1958,
+      "date_end": 1970,
+      "display": "c. 1960s",
+      "confidence": "low",
+      "basis": "Ramona and Frank Torres portrait; 1960s."
+    },
+    "img_6b0ff0ed19b0fb9e": {
+      "date_start": 1955,
+      "date_end": 1975,
+      "display": "c. 1955-1975",
+      "confidence": "low",
+      "basis": "Portrait of Ramona Torres, namesake of Ramona's Mexican Cafe."
+    },
+    "img_dec634939b47e13c": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Modern smartphone snapshot of the elderly Vargas couple at a birthday in a contemporary home."
+    },
+    "img_1098cac0279a0fdd": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Modern photo of Christine and Gil Vargas Sr."
+    },
+    "img_4b3616cbe2898cea": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Modern photo of Christine and Gil Vargas Sr."
+    },
+    "img_21b5c2878b287c35": {
+      "date_start": 2025,
+      "date_end": 2025,
+      "display": "May 31, 2025",
+      "confidence": "confirmed",
+      "basis": "Filename dated 5-31-25; Cherry Festival parade."
+    },
+    "img_5bcc7a2a42f3de62": {
+      "date_start": 2025,
+      "date_end": 2025,
+      "display": "May 31, 2025",
+      "confidence": "confirmed",
+      "basis": "Filename dated 5-31-25; Cherry Festival parade."
+    },
+    "img_cb8fe08683e0e832": {
+      "date_start": 2025,
+      "date_end": 2025,
+      "display": "May 31, 2025",
+      "confidence": "confirmed",
+      "basis": "Filename dated 5-31-25; Cherry Festival parade."
+    },
+    "img_3f4c4ca617098fd8": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "medium",
+      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+    },
+    "img_d36ca3005fd7406a": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "medium",
+      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+    },
+    "img_8ee30e567a4b5e66": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "medium",
+      "basis": "Modern photo of the current Ramona's Mexican Cafe (brick facade)."
+    },
+    "img_a04b2576fd8d515e": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "medium",
+      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+    },
+    "img_87313621a59a7991": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "medium",
+      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+    },
+    "img_040513e8698b345f": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "medium",
+      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+    },
+    "img_11892e76e7df49d3": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "medium",
+      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+    },
+    "img_8da5c565955aa314": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "medium",
+      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+    },
+    "img_99255ef1fe8299f3": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "medium",
+      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+    },
+    "img_9ae52f4064af37bc": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "medium",
+      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+    },
+    "img_00cfeb70e204b1b8": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "medium",
+      "basis": "Modern photo of the current Ramona's Mexican Cafe (sombrero bushes)."
+    },
+    "img_591fdce9e557db2e": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Modern photo of the surviving WCTU stone fountain in Triangle Park (with a 2014+ SUV)."
+    },
+    "img_284993317d64a5e4": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
+    },
+    "img_8aa40ef6d2dbc201": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
+    },
+    "img_40d6c2b8e19fd527": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
+    },
+    "img_a999fd2c808b66bb": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
+    },
+    "img_3c8f15b64eec6c9e": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
+    },
+    "img_7d409eb4d324e61e": {
+      "date_start": 1923,
+      "date_end": 1940,
+      "display": "c. 1923-1940",
+      "confidence": "medium",
+      "basis": "WCTU Fountain (1910) at its original Fifth & Egan location beside the Bank of Beaumont (that corner's bank erected 1923); later moved to Triangle Park."
+    },
+    "img_7dbe92a607028a11": {
+      "date_start": 2022,
+      "date_end": 2022,
+      "display": "March 2022",
+      "confidence": "confirmed",
+      "basis": "Filename dated 3-16-22; Google photo of Triangle Park."
+    },
+    "img_f711da54b73a8423": {
+      "date_start": 1908,
+      "date_end": 1912,
+      "display": "c. 1908-1912",
+      "confidence": "high",
+      "basis": "Blue-duotone advertising postcard 'The Office of the Gateway Gazette as it now appears'; the paper published from ~1908 (an issue dated April 30, 1908 is documented)."
+    },
+    "img_19665af80792888c": {
+      "date_start": 1908,
+      "date_end": 1912,
+      "display": "c. 1908-1912",
+      "confidence": "medium",
+      "basis": "Gateway Gazette interior advertising postcard, contemporary with the paper's ~1908 era."
+    },
+    "img_e0a4861e5d654fdb": {
+      "date_start": 1908,
+      "date_end": 1915,
+      "display": "c. 1908-1915",
+      "confidence": "medium",
+      "basis": "Hand-colored divided-back postcard of mature eucalyptus (planted ~1900) with a Craftsman bungalow."
+    },
+    "img_67656824cbb42ffc": {
+      "date_start": 1940,
+      "date_end": 1965,
+      "display": "c. 1940s-1960s",
+      "confidence": "medium",
+      "basis": "Deodar cedars on Beaumont Ave. were planted in 1930; a color postcard of the mature trees dates to roughly the 1940s-1960s."
+    },
+    "img_8ecf8879b0fffd2d": {
+      "date_start": 1935,
+      "date_end": 1960,
+      "display": "c. 1935-1960",
+      "confidence": "medium",
+      "basis": "Deodars planted 1930; vintage postcard of the maturing tree-lined avenue."
+    },
+    "img_38d2d7286d1a066a": {
+      "date_start": 2018,
+      "date_end": 2025,
+      "display": "2020s",
+      "confidence": "high",
+      "basis": "Filename 'today'; modern photo of the deodar avenue."
+    },
+    "img_31bfa277fbd3230d": {
+      "date_start": 1890,
+      "date_end": 1905,
+      "display": "c. 1890s",
+      "confidence": "medium",
+      "basis": "Frame schoolhouse with bell cupola and a horse buggy; the first Wellwood School (1890-93 era)."
+    },
+    "img_35a3c2b0b73a7892": {
+      "date_start": 1962,
+      "date_end": 1975,
+      "display": "c. 1960s-1970s",
+      "confidence": "medium",
+      "basis": "Architect's watercolor rendering (Harry T. Macdonald & Assoc.) of a mid-century-modern school."
+    },
+    "img_477fd73b5434521f": {
+      "date_start": 1890,
+      "date_end": 1910,
+      "display": "c. 1890-1910",
+      "confidence": "medium",
+      "basis": "The McCoy lumberyard supplied building materials to Beaumont in the late 19th and early 20th centuries."
+    },
+    "img_37bbc779f837532c": {
+      "date_start": 2015,
+      "date_end": 2024,
+      "display": "c. 2015-2024",
+      "confidence": "medium",
+      "basis": "Contemporary Historical Society house-tour photo (McCoy House) credited to Pat Murkland."
+    },
+    "img_816fb6e3233bbf73": {
+      "date_start": 2025,
+      "date_end": 2025,
+      "display": "April 2025 (historic hotel)",
+      "confidence": "confirmed",
+      "basis": "Filename dated 4-28-25; modern photo of the Sunset Plaza Hotel building (the hotel dates to c.1948)."
+    },
+    "img_c39e3df610ea24d9": {
+      "date_start": 1845,
+      "date_end": 1867,
+      "display": "c. 1850s-1860s (Pauline Weaver, d.1867)",
+      "confidence": "medium",
+      "basis": "Engraved portrait of frontiersman Pauline Weaver (1797-1867); an illustration, not a dated photograph, depicting his mid-19th-century era."
+    },
+    "img_e5e3407036c3c2c5": {
+      "date_start": 2010,
+      "date_end": 2010,
+      "display": "April 2010",
+      "confidence": "confirmed",
+      "basis": "Scrapbook page annotated 'April 2010'; color aerial of built-out Beaumont with I-10."
+    }
+  }
+}

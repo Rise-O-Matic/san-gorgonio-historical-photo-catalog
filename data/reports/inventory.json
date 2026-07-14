@@ -1,0 +1,68 @@
+{
+  "sources": [
+    {
+      "key": "historical-photos",
+      "path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos",
+      "available": true,
+      "scan_status": "active",
+      "curated": false,
+      "priority": 50
+    },
+    {
+      "key": "stevens-scans-tinified",
+      "path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\tinified",
+      "available": true,
+      "scan_status": "nested-skip",
+      "curated": false,
+      "priority": 60
+    },
+    {
+      "key": "bld-historical-photos",
+      "path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD",
+      "available": true,
+      "scan_status": "nested-skip",
+      "curated": false,
+      "priority": 70
+    },
+    {
+      "key": "sgphs-timeline",
+      "path": "C:\\GitHub\\httpssgphs.org\\images\\timeline",
+      "available": true,
+      "scan_status": "active",
+      "curated": false,
+      "priority": 80
+    },
+    {
+      "key": "mural-images",
+      "path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images",
+      "available": true,
+      "scan_status": "active",
+      "curated": true,
+      "priority": 100
+    }
+  ],
+  "overlaps": [
+    {
+      "skipped_source": "stevens-scans-tinified",
+      "path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\tinified",
+      "covered_by": "historical-photos"
+    },
+    {
+      "skipped_source": "bld-historical-photos",
+      "path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD",
+      "covered_by": "historical-photos"
+    }
+  ],
+  "unique_candidate_files": 348,
+  "generated_at": "2026-07-10T22:59:47Z",
+  "readable_files": 348,
+  "unreadable_files": 0,
+  "formats": {
+    ".heic": 1,
+    ".jpeg": 35,
+    ".jpg": 289,
+    ".pdf": 1,
+    ".png": 19,
+    ".webp": 3
+  }
+}

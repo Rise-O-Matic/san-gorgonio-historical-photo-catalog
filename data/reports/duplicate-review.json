@@ -1,0 +1,1064 @@
+{
+  "pairs": [
+    {
+      "left_file_id": "file_8bd56950f54193ed",
+      "right_file_id": "file_c5cab3f9bd2ec712",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\beaumont-depot-1909.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Train Depot\\Beaumont Depot 1909 Tyrrell historical libary digital collections.png",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_d89d04468f534a36",
+      "right_file_id": "file_e14c4a9d82b7c83a",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\beaumont-fire-dept-1971.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Beaumont City Fire Department 1971 from Calisphere.png",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_aeecc98513e487fb",
+      "right_file_id": "file_b9018a7562c07304",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\beaumont-high-school-1930.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont High School now City Hall\\Beaumont High School from 1930 BHS yearbook now Beaumont Civic Center.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_90d681e94af5251c",
+      "right_file_id": "file_6a17c4fec09e2bbf",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\beaumont-high-school-1942.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont High School now City Hall\\Beaumont High School pictured in 1942 yearbook.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_2e767759fde926ac",
+      "right_file_id": "file_a11efbd362b74c78",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\beaumont-hotel-c1890.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Hotel Beaumont\\Beaumont Hotel.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_9482dc8ee01375bf",
+      "right_file_id": "file_730c37d161caecc0",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\centennial-2012.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont city 2012 100th anniversary centennial\\Record_Gazette_2012_11_23_1.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_9c627864db92ffd5",
+      "right_file_id": "file_160b1988f59af141",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\cherry-festival-queen-1919.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Laura May Stewart\\Laura May Stewart-center in back seat-first Cherry Festival Queen in 1919.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_83dd3466728e72a4",
+      "right_file_id": "file_76bfd3e94ee255b1",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\cherry-parade-1947.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Woman's Club\\1947 cherry parade in front of Beaumont Woman's Club from Beaumont Library District.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_a3b7541820c1cdd0",
+      "right_file_id": "file_bd67fc3e612ba103",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\depot-workers-1940s.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Mexican and other railroad workers\\Beaumont train depot workers 1940s a.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_b2efc4b2e87ff530",
+      "right_file_id": "file_a1ce9d35619c4bcf",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\desert-sun-1939.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Old City Hall 500 Grace Ave\\from fb 12-16-20 Courtesy of the Desert Sun,28 April 1939.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_70127c4bb43d1fb5",
+      "right_file_id": "file_525d50f4fa07ef78",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\edgar-canyon-well-1908.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Land and Water Company\\Water drilling Edgar Canyon 1908 from Beaumont Library District.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_ba7bc8aa7a702431",
+      "right_file_id": "file_490e20f5275a23e8",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\egan-avenue-1907.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Egan Avenue\\Egan Ave looking south 1907 from Beaumont Library District.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_301d5af2f1e658a1",
+      "right_file_id": "file_f8794f0b7a70bef8",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\egan-avenue-1915.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Egan Avenue\\Egan Ave looking south postcard postmarked 1915 from eBay.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_a2d68236077282d5",
+      "right_file_id": "file_1a9936f038a4d5b3",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\egan-avenue-early-days.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Egan Avenue\\Egan Ave very early days from Beaumont Library District.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_707026ab26daecc6",
+      "right_file_id": "file_6873c559c506cc94",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\estrada-family-1940s.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Emeteria and Luis Estrada 1940s.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_1e37f114b207bc9c",
+      "right_file_id": "file_0e0256356003fd4e",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\estrada-road-2021.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Family celebrating 20 years Luis Estrada Road 2021.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_9e089b54965e6eed",
+      "right_file_id": "file_1899e1d4624d2a35",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\eucalyptus-1900.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Eucalyptus trees\\Eucalyptus trees Beaumont Avenue about 1900.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_bccacb5a76ec852e",
+      "right_file_id": "file_d051bc698921542e",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\fifth-street-1910.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Fifth Street Downtown\\Fifth streetlooking east at egan 1910.JPG",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_606a10f569122505",
+      "right_file_id": "file_2171390c3d403e70",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\fifth-street-1925.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Fifth Street Downtown\\fifth street 1925 frasher photo courtesy of clamshack via fliker on FB 7-16-20.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_cbf208e0c55467a6",
+      "right_file_id": "file_4740bdae9f158a02",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\fifth-street-1949.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Fifth Street Downtown\\Fifth Street, Beaumont, looking west from the intersection of Fifth and Grace Street 1949-50.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_25c0cb94257addef",
+      "right_file_id": "file_2355974dafe58b8e",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\fire-chief-1968.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Beaumont Fire Department chief in 4-30-68 Record-Gazette newspaper.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_2b565e14d1338329",
+      "right_file_id": "file_b272ec3ba0ef43b0",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\fire-dept-1960.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Beaumont Volunteer Fire Department late 1950s or early 1960s.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_608bbe1d9cc6c514",
+      "right_file_id": "file_127a46ceafca2e40",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\fire-dept-1976.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Scott DeForge, left, and John McLaughlin, right, Beaumont Fire Department, 1976.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_4a38fb82984fa14d",
+      "right_file_id": "file_2afac9bfcf74e668",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\fire-station-1969.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Building Beaumont Fire Station on Maple Ave. in 3-21-69 Record-Gazette newspaper.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_eb0a7c549049bc0e",
+      "right_file_id": "file_22c3e924a81727ee",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\first-christian-church-1930.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Church 701 Egan Ave\\First Christian Church, 701 Egan Ave. 1930-1940.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_49b95f43d5df4012",
+      "right_file_id": "file_303d948b96e89578",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\gateway-gazette-1908.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Gateway Gazette\\Gateway Gazette April 30, 1908.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_9bc1746066487deb",
+      "right_file_id": "file_33e4534b0637f6ec",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\hotel-beaumont-1888.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Hotel Beaumont\\Hotel Beaumont 1888.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_8f16fc0117d70ff6",
+      "right_file_id": "file_fec600cc91a2b866",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\hotel-fire-1909.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Hotel Beaumont\\Beaumont Hotel fire Los Angeles Herald, August 18 1909.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_2e06bc8d8ba9606c",
+      "right_file_id": "file_26afe4712e031ca1",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\laura-may-stewart-1911.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Laura May Stewart\\Laura May Stewart 1911.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_234daadce4f118e6",
+      "right_file_id": "file_b5ee5e9c1bfe9f9d",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\mccoy-house-1987.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\McCoy House and lumberyard\\McCoy house fr Community Advisor 11-12-87.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_cfffa3785397ee75",
+      "right_file_id": "file_8cb40a6d96de423a",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\post-office-1890s.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Post Office\\Beaumont Post Office to left at intersection of Egan Ave. and Fifth St. 1890s.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_cfffa3785397ee75",
+      "right_file_id": "file_9f174ea9dfd23a06",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\post-office-1890s.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1879 Post office.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_cfffa3785397ee75",
+      "right_file_id": "file_1afe8689e66cecfb",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\post-office-1890s.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1879 Post office.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_6cdaa20c842dae91",
+      "right_file_id": "file_7d7e2a73af6edba6",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\railroad-workers-1890s.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Mexican and other railroad workers\\railroad workers with steam locomotives at Beaumont Train Depot 1890s from Banning Library District.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_be5479c722bc34f0",
+      "right_file_id": "file_99a2fafc09189ad6",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\sp-demo-train-1909.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Train Depot\\Southern Pacific Railroad Agricultural and Horticultural demonstration train in Beaumont March 1909 calisphere.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_3017aa80d1cfd66f",
+      "right_file_id": "file_38b8bb767f7caa77",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\summit-house-1890s.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Summit House\\Summit House Banning Library District 1890s.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_0e922b765426454a",
+      "right_file_id": "file_76be1ca31232a65c",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\sunnyslope-cemetery-1960s.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Reznor Stewart and ranch and Stewart Sunnyslope Cemetery\\Stewart Sunnyslope Cemetery gate and Stewart family donationg more funds 1960s.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_a5f569fa3541715f",
+      "right_file_id": "file_97a5832c0acf6f82",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\sunset-plaza-hotel-1948.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Sunset Plaza Hotel\\sunset plaza hotel circa 1948 calisphere.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_e02348a0eef821d1",
+      "right_file_id": "file_4f09772a1bb7c288",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\wctu-fountain-1910.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\WCTU Fountain\\WCTU Fountain dedication Dec. 25 1910 courtesy Leslie A. Rios III postcard collection.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_dad8d6f3d912fe48",
+      "right_file_id": "file_6ab6468fa53e580c",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\wellwood-school-1890.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Wellwood School\\Wellwood school old building 1890-1893 - Copy.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_20c46e4fd773f110",
+      "right_file_id": "file_675df01bfdf374a4",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\wellwood-school-1916.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Wellwood School\\Wellwood school old building circa 1916-17.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_eb4021f72b25f094",
+      "right_file_id": "file_f74f9d635744fa37",
+      "left_path": "C:\\GitHub\\httpssgphs.org\\images\\timeline\\wellwood-school-1921.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Wellwood School\\Wellwood School soon after it was built in 1921 from Beaumont Library District - Copy.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_2b1733f67e46926c",
+      "right_file_id": "file_428e1e7987afccf0",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Beaumont City Hall, Fire Department, Police Station, Courthouse photo from Calisphere.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Old City Hall 500 Grace Ave\\Beaumont City Hall 500 Grace Ave..jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_2b1733f67e46926c",
+      "right_file_id": "file_c8bb00049f7ff016",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Beaumont City Hall, Fire Department, Police Station, Courthouse photo from Calisphere.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Old City Hall 500 Grace Ave\\Beaumont City Hall Grace Ave..jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 0.9,
+      "distance": 2,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_2b1733f67e46926c",
+      "right_file_id": "file_c780038dd10e5d93",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Beaumont City Hall, Fire Department, Police Station, Courthouse photo from Calisphere.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1912 Beaumont incorporates as a City.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 0.9,
+      "distance": 2,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_2b1733f67e46926c",
+      "right_file_id": "file_badb300aa1fa86ce",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Beaumont City Hall, Fire Department, Police Station, Courthouse photo from Calisphere.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1912 Beaumont incorporates as a City.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 0.9,
+      "distance": 2,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_78418ba57bf11eaf",
+      "right_file_id": "file_92a4d87125e15569",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Beaumont Fire Department photo from Calisphere.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Beaumont Fire Department with old hose cart photo from Calisphere.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_4260be4b2218efa2",
+      "right_file_id": "file_3cbc80678b732e4f",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont High School now City Hall\\6th St. fr 1946 Bmt High yearbook donated by Leslie Rios 11-2020.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\motels cafes gas stations\\6th St. fr 1946 Bmt High yearbook donated by Leslie Rios 11-2020.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_dcb7ac191e289893",
+      "right_file_id": "file_3a3798409f622149",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Post Office\\Beaumont Post Office and Dedication of the WTCU fountain 1910.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\WCTU Fountain\\Beaumont Post Office and Dedication of the WTCU fountain 1910 a.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_8cb40a6d96de423a",
+      "right_file_id": "file_9f174ea9dfd23a06",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Post Office\\Beaumont Post Office to left at intersection of Egan Ave. and Fifth St. 1890s.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1879 Post office.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_8cb40a6d96de423a",
+      "right_file_id": "file_1afe8689e66cecfb",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Post Office\\Beaumont Post Office to left at intersection of Egan Ave. and Fifth St. 1890s.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1879 Post office.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_82c1ab228c096c21",
+      "right_file_id": "file_95ff3cedf793cbb3",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Train Depot\\Beaumont Train Depot calisphere.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1875 Railroad Depot.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_82c1ab228c096c21",
+      "right_file_id": "file_42a2955f7119c5c7",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Train Depot\\Beaumont Train Depot calisphere.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1875 Railroad Depot.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_642d4db8621b03d7",
+      "right_file_id": "file_9f093d233318bb55",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Woman's Club\\Beaumont Woman's Club from Beaumont Library District.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1911 Woman's Clubhouse.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_642d4db8621b03d7",
+      "right_file_id": "file_3cb641cd1cfdf7d1",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Woman's Club\\Beaumont Woman's Club from Beaumont Library District.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1911 Woman's Clubhouse.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_9fe8585582d514e1",
+      "right_file_id": "file_229b9a6950a74027",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Church 701 Egan Ave\\First Christian Church 701 Egan Ave probably late 1950s a.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1927 man and fruit tree.jpeg",
+      "classification": "probable_match",
+      "confidence": 0.56,
+      "distance": 12,
+      "reason": "Perceptually similar; manual review required"
+    },
+    {
+      "left_file_id": "file_9fe8585582d514e1",
+      "right_file_id": "file_348736affdb526d1",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Church 701 Egan Ave\\First Christian Church 701 Egan Ave probably late 1950s a.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1927 man and fruit tree.jpeg",
+      "classification": "probable_match",
+      "confidence": 0.56,
+      "distance": 12,
+      "reason": "Perceptually similar; manual review required"
+    },
+    {
+      "left_file_id": "file_932e28e1d506368f",
+      "right_file_id": "file_71f21604261a3fb1",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Egan Avenue\\Egan Ave. 600 block from Beaumont Library District.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Summit House\\Summit House in Beaumont from Beaumont Library District.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_19eed4484c184cab",
+      "right_file_id": "file_eec4546a4b2a26e0",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Eyer House and family\\Cora K. Eyer.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Eyer House and family\\coraeyer.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_6048c7d7a1556432",
+      "right_file_id": "file_adfe606fb43b1eae",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\first Bank of Beaumont 5th and California\\first bank of beaumont.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1911 First Library house in basement of bank building.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 0.95,
+      "distance": 1,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_6048c7d7a1556432",
+      "right_file_id": "file_a535ec86c657664c",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\first Bank of Beaumont 5th and California\\first bank of beaumont.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1911 First Library house in basement of bank building.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 0.95,
+      "distance": 1,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_81573fc561e39bcb",
+      "right_file_id": "file_f2298fad395d2664",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrada statue at California State Railroad Museum in Sacramento d.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Mexican and other railroad workers\\Beaumont railroad women swept the tracks (2).jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_603be2bdeb2de003",
+      "right_file_id": "file_e98605c0e18987a8",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Railroad workers Luis Estrada fourth from right.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Mexican and other railroad workers\\Railroad workers Luis Estrada fourth from right.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_95d25e3c922df5a7",
+      "right_file_id": "file_e35ca42b8a1d7d6a",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Railworkers Luis Estrada far right.JPG",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Mexican and other railroad workers\\Railworkers Luis Estrada far right.JPG",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_428e1e7987afccf0",
+      "right_file_id": "file_c8bb00049f7ff016",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Old City Hall 500 Grace Ave\\Beaumont City Hall 500 Grace Ave..jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Old City Hall 500 Grace Ave\\Beaumont City Hall Grace Ave..jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 0.9,
+      "distance": 2,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_428e1e7987afccf0",
+      "right_file_id": "file_c780038dd10e5d93",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Old City Hall 500 Grace Ave\\Beaumont City Hall 500 Grace Ave..jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1912 Beaumont incorporates as a City.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 0.9,
+      "distance": 2,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_428e1e7987afccf0",
+      "right_file_id": "file_badb300aa1fa86ce",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Old City Hall 500 Grace Ave\\Beaumont City Hall 500 Grace Ave..jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1912 Beaumont incorporates as a City.jpeg",
+      "classification": "reencoded_or_resized",
+      "confidence": 0.9,
+      "distance": 2,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_c8bb00049f7ff016",
+      "right_file_id": "file_c780038dd10e5d93",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Old City Hall 500 Grace Ave\\Beaumont City Hall Grace Ave..jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1912 Beaumont incorporates as a City.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_c8bb00049f7ff016",
+      "right_file_id": "file_badb300aa1fa86ce",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Old City Hall 500 Grace Ave\\Beaumont City Hall Grace Ave..jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1912 Beaumont incorporates as a City.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_d923b711ccb067e3",
+      "right_file_id": "file_3ec5a257f2d360d1",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Pauline Weaver\\Pauline-Weaver.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\Weaver.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_d923b711ccb067e3",
+      "right_file_id": "file_e5d7e62a8efa93d5",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Pauline Weaver\\Pauline-Weaver.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\Weaver.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_d188fd618b565a75",
+      "right_file_id": "file_68f9b77b766bbd26",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Presbyterian Church 702 Euclid Ave\\Beaumont Presbyterian Church.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Smoot\\Jane Eyer Smoot 1859-1935.jpg",
+      "classification": "rotated_or_mirrored",
+      "confidence": 0.667,
+      "distance": 7,
+      "reason": "Close after rot270 transform"
+    },
+    {
+      "left_file_id": "file_987219cc2e404c3e",
+      "right_file_id": "file_49b8de2d50a971b2",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Presbyterian Church 702 Euclid Ave\\presbyterian church 2.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Presbyterian Church 702 Euclid Ave\\presbyterian church 2.png",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_83556585bdb29b76",
+      "right_file_id": "file_90dd5b73213d0852",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave (1)\\Bank of Beaumont engraving front.JPG",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave\\Bank of Beaumont engraving front.JPG",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_7f11fe20c7a97c4d",
+      "right_file_id": "file_a4205a479cd146be",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave (1)\\Bank of Beaumont Fifth St. and Egan Ave. from Banning Library District - Copy.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave\\Bank of Beaumont Fifth St. and Egan Ave. from Banning Library District - Copy.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_7f11fe20c7a97c4d",
+      "right_file_id": "file_0a06d6ae0cdf3536",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave (1)\\Bank of Beaumont Fifth St. and Egan Ave. from Banning Library District - Copy.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\WCTU Fountain\\WCTU Fountain sitting next to Bank of Beaumont at Fifth St. and Egan Ave..jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_fca09367fcdc9efc",
+      "right_file_id": "file_c2c7f16dbc3a4d7c",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave (1)\\Bank of Beaumont today.JPG",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave\\Bank of Beaumont today.JPG",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_4eaf98e369eb1487",
+      "right_file_id": "file_552f018ecc2f9154",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave (1)\\second Bank of Beaumont from Beaumont Library District.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave\\second Bank of Beaumont from Beaumont Library District.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_a4205a479cd146be",
+      "right_file_id": "file_0a06d6ae0cdf3536",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave\\Bank of Beaumont Fifth St. and Egan Ave. from Banning Library District - Copy.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\WCTU Fountain\\WCTU Fountain sitting next to Bank of Beaumont at Fifth St. and Egan Ave..jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_6e5ed50d03e58e6f",
+      "right_file_id": "file_102c647a7603cb35",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1800 Ceremonial Big House morongo.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1800 Ceremonial Big House morongo.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_d75b203f43f9a57d",
+      "right_file_id": "file_4a86cb8481b40b1c",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1860s stagecoach downtown Beaumont.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1860s stagecoach downtown Beaumont.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_95ff3cedf793cbb3",
+      "right_file_id": "file_42a2955f7119c5c7",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1875 Railroad Depot.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1875 Railroad Depot.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_9f174ea9dfd23a06",
+      "right_file_id": "file_1afe8689e66cecfb",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1879 Post office.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1879 Post office.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_c4c0de5966b087f2",
+      "right_file_id": "file_a7f6a7d24337d6c4",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1883 Stewart Ranch.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1883 Stewart Ranch.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_67e397aa78a8a926",
+      "right_file_id": "file_d4cbc371f3177146",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1900 traditional house on Morongo Reservation.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1900 traditional house on Morongo Reservation.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_8533e425fe72f748",
+      "right_file_id": "file_30cab5e4d7341ae5",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1908 Morongo Band of Mission Indians.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1908 Morongo Band of Mission Indians.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_adfe606fb43b1eae",
+      "right_file_id": "file_a535ec86c657664c",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1911 First Library house in basement of bank building.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1911 First Library house in basement of bank building.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_4d14c32aa2c68b9d",
+      "right_file_id": "file_516045c0027e010a",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1911 Grammar school built.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1911 Grammar school built.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_9f093d233318bb55",
+      "right_file_id": "file_3cb641cd1cfdf7d1",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1911 Woman's Clubhouse.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1911 Woman's Clubhouse.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_c780038dd10e5d93",
+      "right_file_id": "file_badb300aa1fa86ce",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1912 Beaumont incorporates as a City.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1912 Beaumont incorporates as a City.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_229b9a6950a74027",
+      "right_file_id": "file_348736affdb526d1",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1927 man and fruit tree.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1927 man and fruit tree.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_2cbdefa814f1ea39",
+      "right_file_id": "file_c457e234b1aac96e",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1930 Cherry Tree Farm.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1930 Cherry Tree Farm.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_1570956ce7c05d88",
+      "right_file_id": "file_45f0ac199123f4c3",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1965 Expansion Mansard Roof.jpg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1965 Expansion Mansard Roof.jpg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_3af42eed7971a059",
+      "right_file_id": "file_6a4e9da4f77c6338",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1965 Expansion.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1965 Expansion.png",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_f03a1dc2ec5739b4",
+      "right_file_id": "file_9c12327decce65ee",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\1988 Beaumont Developments.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\1988 Beaumont Developments.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_3ec5a257f2d360d1",
+      "right_file_id": "file_e5d7e62a8efa93d5",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Mural Images\\Weaver.jpeg",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\Design Files\\Mural Images\\Weaver.jpeg",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_75e1f81cf415c43f",
+      "right_file_id": "file_3f7534cd4597d64d",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Aerial Photos.1.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Aerial Photos.2.1.png",
+      "classification": "rotated_or_mirrored",
+      "confidence": 0.767,
+      "distance": 4,
+      "reason": "Close after rot270 transform"
+    },
+    {
+      "left_file_id": "file_75e1f81cf415c43f",
+      "right_file_id": "file_1a6c789ec5ee552f",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Aerial Photos.1.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Beaumont Aerial Photo 1982.png",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_75e1f81cf415c43f",
+      "right_file_id": "file_f61f56671fc56588",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Aerial Photos.1.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\tinified\\Beaumont Aerial Photo 1982.png",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_3f7534cd4597d64d",
+      "right_file_id": "file_1a6c789ec5ee552f",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Aerial Photos.2.1.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Beaumont Aerial Photo 1982.png",
+      "classification": "rotated_or_mirrored",
+      "confidence": 0.833,
+      "distance": 2,
+      "reason": "Close after rot90 transform"
+    },
+    {
+      "left_file_id": "file_3f7534cd4597d64d",
+      "right_file_id": "file_f61f56671fc56588",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Aerial Photos.2.1.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\tinified\\Beaumont Aerial Photo 1982.png",
+      "classification": "rotated_or_mirrored",
+      "confidence": 0.833,
+      "distance": 2,
+      "reason": "Close after rot90 transform"
+    },
+    {
+      "left_file_id": "file_5836a9a31c6306e9",
+      "right_file_id": "file_4ade813a735ec875",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Aerial Photos.2.2.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Aerial Photos.2.png",
+      "classification": "exact",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Identical SHA-256"
+    },
+    {
+      "left_file_id": "file_a0809184fd26be56",
+      "right_file_id": "file_e01acc57ec93e540",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Aerial Photos.2.3.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Beaumont Aerial Photo 2010.png",
+      "classification": "reencoded_or_resized",
+      "confidence": 0.8,
+      "distance": 4,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_a0809184fd26be56",
+      "right_file_id": "file_a3a1d6a0780c8b16",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Aerial Photos.2.3.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\tinified\\Beaumont Aerial Photo 2010.png",
+      "classification": "reencoded_or_resized",
+      "confidence": 0.8,
+      "distance": 4,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_1a6c789ec5ee552f",
+      "right_file_id": "file_f61f56671fc56588",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Beaumont Aerial Photo 1982.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\tinified\\Beaumont Aerial Photo 1982.png",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    },
+    {
+      "left_file_id": "file_e01acc57ec93e540",
+      "right_file_id": "file_a3a1d6a0780c8b16",
+      "left_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Beaumont Aerial Photo 2010.png",
+      "right_path": "X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\tinified\\Beaumont Aerial Photo 2010.png",
+      "classification": "reencoded_or_resized",
+      "confidence": 1.0,
+      "distance": 0,
+      "reason": "Very close perceptual hash and aspect ratio"
+    }
+  ]
+}

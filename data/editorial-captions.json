@@ -1,0 +1,1854 @@
+{
+ "schema_version": "1.0.0",
+ "description": "Maintained caption + attribution layer. Every record is captioned and attributed. Sources, in priority order: SGPHS timeline figcaptions (caption + credit), provenance embedded in original collection filenames, and descriptive captions written from filename text and the researched date. Attribution is 'Unknown' only when no holder or creator can be established. Re-applied every pipeline run by apply_editorial_captions.",
+ "attribution_confidence_levels": {
+  "confirmed": "explicit published credit line (e.g. SGPHS timeline figcaption)",
+  "high": "named collection/institution/newspaper recorded in the source filename",
+  "medium": "aggregator platform named (e.g. Calisphere) but contributing institution not yet resolved",
+  "low": "weak provenance hint (e.g. eBay listing) — holder not established",
+  "unknown": "no holder or creator identifiable from any available source"
+ },
+ "captions": {
+  "img_17d9fad337a3fded": {
+   "caption": "Ceremonial Big House Morongo, 1800",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1800 Ceremonial Big House morongo”."
+  },
+  "img_c39e3df610ea24d9": {
+   "caption": "Pauline Weaver, c. 1850s-1860s (Pauline Weaver, d.1867)",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Pauline-Weaver”."
+  },
+  "img_650198dd9e4987ea": {
+   "caption": "Stagecoach downtown Beaumont, 1860",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1860s stagecoach downtown Beaumont”."
+  },
+  "img_6f833a14a7764e47": {
+   "caption": "Beaumont Train Depot, 1875",
+   "attribution": "Beaumont Library District Local History Collection, via Calisphere",
+   "attribution_confidence": "medium",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Train Depot calisphere”; credit parsed from filename provenance."
+  },
+  "img_4e8d4526096e0dd7": {
+   "caption": "Post Office at Fifth & Egan Ave., 1890s",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Post Office at the Corner of Fifth & Egan”."
+  },
+  "img_c15c20a838d86c18": {
+   "caption": "Stewart Ranch, 1883",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1883 Stewart Ranch”."
+  },
+  "img_5658eba56b079aef": {
+   "caption": "Egan Ave., very early days",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Egan Avenue in Its Earliest Days”."
+  },
+  "img_4e6f8597cedbda5b": {
+   "caption": "Jane Eyer Smoot 1859-1935",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Jane Eyer Smoot 1859-1935”."
+  },
+  "img_a7581c3a3616e8da": {
+   "caption": "Jane Eyer Smoot, c. 1885-1920 (subject 1859-1935)",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Jane Eyer Smoot”."
+  },
+  "img_317c261e7e95cb9d": {
+   "caption": "Kenneth Russell Smoot, 1857-1932, and Jane Eyer Smoot",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Kenneth Russell Smoot, 1857-1932,  and Jane Eyer Smoot”."
+  },
+  "img_676c1d159bb01165": {
+   "caption": "Beaumont map diagonal streets to left were mapped by George C. Egan, c. 1887 (original plat)",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont map diagonal streets to left were mapped by George C. Egan”."
+  },
+  "img_43eb34083eb2296d": {
+   "caption": "Hotel Beaumont, 1888",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Hotel Beaumont Opens”."
+  },
+  "img_b08de96dbf496fab": {
+   "caption": "Beaumont Hotel, 1890",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Hotel”."
+  },
+  "img_b2764c9151e44824": {
+   "caption": "Beaumont Land and Water Company, c. 1890-1905",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Land and Water Company from Beaumont Library District”; credit parsed from filename provenance."
+  },
+  "img_049b709d6ffb773a": {
+   "caption": "Beaumont vista with Hotel Beaumont visible to right of town, c. 1890-1909",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont vista with Hotel Beaumont visible to right of town undated photo”."
+  },
+  "img_291537b3068812cf": {
+   "caption": "Clarendon B. Eyer, c. 1890-1915",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Clarendon B. Eyer”."
+  },
+  "img_dbf7e0bb619c1c74": {
+   "caption": "Cora K. Eyer, c. 1890-1915",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Cora K. Eyer”."
+  },
+  "img_477fd73b5434521f": {
+   "caption": "John J. McCoy lumberyard, c. 1890-1910",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “John J. McCoy lumberyard”."
+  },
+  "img_07a9db15e22db499": {
+   "caption": "Railroad workers at Beaumont Train Depot, 1890s",
+   "attribution": "Banning Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Steam Locomotives and Their Crews at the Depot”."
+  },
+  "img_3f09693198e8de04": {
+   "caption": "Summit House, Banning, 1890s",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Summit House Stage Stop”."
+  },
+  "img_5f9b3935055576a5": {
+   "caption": "Wellwood School, first building, 1890–1893",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Wellwood School's First Building”."
+  },
+  "img_31bfa277fbd3230d": {
+   "caption": "Wellwood School House old building, c. 1890s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Wellwood School House old building”."
+  },
+  "img_6278e20aa65dd6a8": {
+   "caption": "Beaumont Land and Water pumping station, c. 1895-1910",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Land and Water pumping station from Beaumont Library District”; credit parsed from filename provenance."
+  },
+  "img_9a09c6788b0dddf1": {
+   "caption": "Girl, cattle at well at Bliss Ranch Beaumont, c. 1895-1915",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Girl, cattle at well at Bliss Ranch Beaumont from Beaumont Library District”; credit parsed from filename provenance."
+  },
+  "img_157678621f95c278": {
+   "caption": "Egan Ave. looking north, c. 1898-1908",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Egan Ave. looking north”."
+  },
+  "img_3e252c3b2ce712aa": {
+   "caption": "Beaumont orchards, c. 1900-1925",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont orchards from Beaumont Library District”; credit parsed from filename provenance."
+  },
+  "img_92d81318b1127f4b": {
+   "caption": "Summit House in Beaumont, c. 1900-1915",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Summit House in Beaumont from Beaumont Library District”; credit parsed from filename provenance."
+  },
+  "img_d94679a3a45f55c0": {
+   "caption": "Eucalyptus trees, Beaumont Avenue, c. 1900",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Eucalyptus Trees Planted on Beaumont Avenue”."
+  },
+  "img_6205c940ef544e0b": {
+   "caption": "Francis Marion Dowling Sr. and Iola Stower Dowling, c. 1900-1920",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Francis Marion Dowling Sr. and Iola Stower Dowling”."
+  },
+  "img_70f5802804fd1652": {
+   "caption": "Hotel Beaumont and Beaumont train station and Peter Allen Store, c. 1900-1908",
+   "attribution": "Karen Sumner Noordman",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Hotel Beaumont and Beaumont train station and Peter Allen Store postcard front fr Karen Sumner Noordman 1-12-23”; credit parsed from filename provenance."
+  },
+  "img_c6fa941a29b0f0cd": {
+   "caption": "Hotel Beaumont renamed Hotel Edinburgh postcard, c. 1900-1909",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Hotel Beaumont renamed Hotel Edinburgh postcard”."
+  },
+  "img_953fbfaa8e42a2fb": {
+   "caption": "Iola Stower Dowling young, c. 1900-1918",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Iola Stower Dowling young”."
+  },
+  "img_7b302ec1a5a6c157": {
+   "caption": "Reznor Stewart, c. 1900-1915",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Reznor Stewart”."
+  },
+  "img_e223c8fe27b85e0d": {
+   "caption": "Reznor Stewart, c. 1900-1915",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Reznor Stewart date unknown a”."
+  },
+  "img_1dfdd8cac1f62558": {
+   "caption": "Reznor Stewart, c. 1900-1915",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Reznor Stewart date unknown b”."
+  },
+  "img_df9bd9231a83651c": {
+   "caption": "Reznor Stewart, c. 1900-1915",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Reznor Stewart date unknown c”."
+  },
+  "img_2846f7be40e9aff6": {
+   "caption": "Stewart Ranch equipment, c. 1900-1930",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Stewart Ranch equipment undated photo a”."
+  },
+  "img_cfdaf786f32d7ba0": {
+   "caption": "Stewart Ranch equipment, c. 1900-1930",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Stewart Ranch equipment undated photo b”."
+  },
+  "img_45720d2a6586237d": {
+   "caption": "Traditional house on Morongo Reservation, 1900",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1900 traditional house on Morongo Reservation”."
+  },
+  "img_83b4208d7a588795": {
+   "caption": "Water well Beaumont, c. 1900-1912",
+   "attribution": "Beaumont-Cherry Valley Water District",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “water well Beaumont from Beaumont Water District”; credit parsed from filename provenance."
+  },
+  "img_179919b175fe6648": {
+   "caption": "Egan Ave. looking south, 1907",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Egan Avenue Looking South — Postcard”."
+  },
+  "img_d5b3e8d2100926fd": {
+   "caption": "Beaumont train depot train at California Ave. crossing looking north, c. 1908-1918",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont train depot train at California Ave. crossing looking north”."
+  },
+  "img_68556e4afecfa748": {
+   "caption": "Clara Stewart, left, and Laura May Stewart, right, c. 1908-1918",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Clara Stewart, left, and Laura May Stewart, right”."
+  },
+  "img_240a367ade7eccf1": {
+   "caption": "Water well drilling, Edgar Canyon, 1908",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Water Well Drilling in Edgar Canyon”."
+  },
+  "img_7835865b7e46b59c": {
+   "caption": "Egan Ave postcard, c. 1908-1925",
+   "attribution": "Steve Lech (courtesy)",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Egan Ave postcard courtesy Steve Lech postcard collection”; credit parsed from filename provenance."
+  },
+  "img_eabd3578774e347f": {
+   "caption": "Engines at Beaumont Train Depot Roundhouse, c. 1908-1918",
+   "attribution": "Beaumont Library District Local History Collection, via Calisphere",
+   "attribution_confidence": "medium",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Engines at Beaumont Train Depot Roundhouse calisphere”; credit parsed from filename provenance."
+  },
+  "img_e0a4861e5d654fdb": {
+   "caption": "Eucalyptus trees in Beaumont vintage postcard looking north on Beaumont Ave, c. 1908-1915",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Eucalyptus trees in Beaumont vintage postcard looking north on Beaumont Ave.”."
+  },
+  "img_e6c2b250138da121": {
+   "caption": "Frank Laura May Clara Reznor Stewart at the Ranch in front of a barn, c. 1908-1913",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Frank Laura May Clara Reznor Stewart at the Ranch in front of a barn”."
+  },
+  "img_f525afa6dc4390a8": {
+   "caption": "Gateway Gazette, April 30, 1908",
+   "attribution": "San Gorgonio Pass Historical Society",
+   "attribution_confidence": "high",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “The Gateway Gazette”."
+  },
+  "img_f711da54b73a8423": {
+   "caption": "Gateway Gazette Beaumont, c. 1908-1912",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “gateway gazette beaumont leslie rios postcards 5-22”; credit parsed from filename provenance."
+  },
+  "img_19665af80792888c": {
+   "caption": "Gateway gazette interior postcard, c. 1908-1912",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Gateway gazette interior postcard leslie rios 5-22”; credit parsed from filename provenance."
+  },
+  "img_72d13585ff607c22": {
+   "caption": "Morongo Band of Mission Indians, 1908",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1908 Morongo Band of Mission Indians”."
+  },
+  "img_c3a4436f12810d6d": {
+   "caption": "People viewing the flowing well in Edgar Canyon, 1908",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “People viewing the flowing well in Edgar Canyon 1908 from Beaumont Library District”; credit parsed from filename provenance."
+  },
+  "img_0880ba793548d705": {
+   "caption": "Steve Lech Postcard of Fifth Street, c. 1908-1925",
+   "attribution": "Steve Lech Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “steve lech postcard of fifth street”; credit parsed from filename provenance."
+  },
+  "img_7cc7f95ae75d9aa6": {
+   "caption": "Beaumont Depot, 1909",
+   "attribution": "Tyrrell Historical Library / Calisphere",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “S.P. Agricultural Demonstration Train Visits Beaumont”."
+  },
+  "img_934590dec97e3d15": {
+   "caption": "Beaumont Train Depot after expansion remodel, c. 1909-1918",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Train Depot after expansion remodel”."
+  },
+  "img_98c82304eed8a985": {
+   "caption": "Beaumont train depot 1909 postcard from",
+   "attribution": "eBay postcard listing (original holder unknown)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont train depot 1909 postcard from ebay”; credit parsed from filename provenance."
+  },
+  "img_4b0acbe1458e33c0": {
+   "caption": "First Bank of Beaumont Construction from, 1909",
+   "attribution": "Beaumont Library District Local History Collection, via Calisphere",
+   "attribution_confidence": "medium",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “first bank of beaumont construction from calisphere”; credit parsed from filename provenance."
+  },
+  "img_e5061c07708726ac": {
+   "caption": "Beaumont Hotel fire",
+   "attribution": "L.A. Herald, August 18, 1909",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Hotel Beaumont Destroyed by Fire”."
+  },
+  "img_4ae2f58167bd00f1": {
+   "caption": "Southern Pacific Railroad Agricultural and Horticultural demonstration train in Beaumont March, 1909",
+   "attribution": "Beaumont Library District Local History Collection, via Calisphere",
+   "attribution_confidence": "medium",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Southern Pacific Railroad Agricultural and Horticultural demonstration train in Beaumont March 1909 calisphere”; credit parsed from filename provenance."
+  },
+  "img_7547c2a1a3855993": {
+   "caption": "Beaumont Post Office and Dedication of the WTCU fountain, 1910",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Post Office and Dedication of the WTCU fountain 1910 a”."
+  },
+  "img_62e54c6518d7403e": {
+   "caption": "Beaumont Post Office and Dedication of the WTCU fountain, 1910",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Post Office and Dedication of the WTCU fountain 1910 b”."
+  },
+  "img_9c26cfc39eca4fc9": {
+   "caption": "Beaumont Post Office NE corner Fifth St. and Egan Ave, c. 1910-1915",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Post Office NE corner Fifth St. and Egan Ave.”."
+  },
+  "img_02861b7cd39cd162": {
+   "caption": "Fifth streetlooking east at Egan, 1910",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Fifth streetlooking east at egan 1910”."
+  },
+  "img_4ec3e978a2772b6b": {
+   "caption": "Railroad workers Luis Estrada fourth from right, c. 1910-1935",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Railroad workers Luis Estrada fourth from right”; credit parsed from filename provenance."
+  },
+  "img_4a9ee3f3baeb6a26": {
+   "caption": "Railworkers Luis Estrada far right, c. 1910-1935",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Railworkers Luis Estrada far right”; credit parsed from filename provenance."
+  },
+  "img_4a82e2c89eb4a27d": {
+   "caption": "Reznor Stewart on a horse and daughter Laura May Stewart at the wheel on Stewart Ranch, c. 1910-1920",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Reznor Stewart on a horse and daughter Laura May Stewart at the wheel on Stewart Ranch”."
+  },
+  "img_50e61a8496f4bfd2": {
+   "caption": "WCTU Fountain dedication, Dec. 25, 1910",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Fifth Street Photographed & the WCTU Fountain Dedicated”."
+  },
+  "img_96cb1ed10cb5a0fd": {
+   "caption": "Beaumont Woman's Club, 1911",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Woman's Club from Beaumont Library District”; credit parsed from filename provenance."
+  },
+  "img_2ba02d1a7deddfd1": {
+   "caption": "First Library house in basement of bank building, 1911",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1911 First Library house in basement of bank building”."
+  },
+  "img_2880f54eaa19145f": {
+   "caption": "Grammar school built, 1911",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1911 Grammar school built”."
+  },
+  "img_2a51e22c51021029": {
+   "caption": "Laura May Stewart, 1911",
+   "attribution": "Stewart family collection",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Laura May Stewart at the Ranch; Summit House Documented”."
+  },
+  "img_056f22949c5d906e": {
+   "caption": "Laura May Stewart in chaps dated, 1911",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Laura May Stewart in chaps dated 1911”."
+  },
+  "img_dee5615ad57181f9": {
+   "caption": "Laura May Stewart on horseback, 1911",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Laura May Stewart on horseback 1911”."
+  },
+  "img_299b9a16b53340ed": {
+   "caption": "Summit House, 1911",
+   "attribution": "Beaumont Library District Local History Collection, via Calisphere",
+   "attribution_confidence": "medium",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Summit House 1911 calisphere”; credit parsed from filename provenance."
+  },
+  "img_96cdf4349eff3950": {
+   "caption": "Beaumont City Hall, Fire Department, Police Station, Courthouse photo from, 1912",
+   "attribution": "Beaumont Library District Local History Collection, via Calisphere",
+   "attribution_confidence": "medium",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont City Hall, Fire Department, Police Station, Courthouse photo from Calisphere”; credit parsed from filename provenance."
+  },
+  "img_3b097e0808432587": {
+   "caption": "Beaumont railroad women swept the tracks, c. 1915-1940",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont railroad women swept the tracks (1)”."
+  },
+  "img_c8be9dda2808f47c": {
+   "caption": "Bogart House, c. 1915-1940",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Bogart House from Beaumont Library District”; credit parsed from filename provenance."
+  },
+  "img_3e64932e3b8abfb7": {
+   "caption": "Egan Ave. looking south, postmarked 1915",
+   "attribution": "eBay postcard collection",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Egan Avenue Postcard, Postmarked 1915”."
+  },
+  "img_2fa19df607bf43e1": {
+   "caption": "Eyer House circa 1915-1920",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Eyer House circa 1915-1920”."
+  },
+  "img_9299c7a090b03878": {
+   "caption": "Francis Dowling Sr. young, c. 1915-1925",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Francis Dowling Sr. young”."
+  },
+  "img_a7a6b112d9c297dd": {
+   "caption": "Luis Estrada young man, c. 1915-1930",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Luis Estrada young man”; credit parsed from filename provenance."
+  },
+  "img_092d2807a0231929": {
+   "caption": "Wellwood School, c. 1916–17",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Wellwood School — Transitional Building”."
+  },
+  "img_4239365a9df07707": {
+   "caption": "Fifth Street Image, c. 1918-1924",
+   "attribution": "Beaumont Library District Local History Collection, via Calisphere",
+   "attribution_confidence": "medium",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “fifth street calisphere image”; credit parsed from filename provenance."
+  },
+  "img_ed9a0626308ebccf": {
+   "caption": "Francis Dowling Sr. with Golden State Orchard truck, c. 1918-1925",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Francis Dowling Sr. with Golden State Orchard truck”."
+  },
+  "img_e8c5738ad26c5ffc": {
+   "caption": "Laura May Stewart, first Cherry Festival Queen, 1919",
+   "attribution": "San Gorgonio Pass Historical Society",
+   "attribution_confidence": "high",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “First Cherry Festival Queen”."
+  },
+  "img_03ae9abaca02013c": {
+   "caption": "George Sumner S and S store on Fifth Street interior, c. 1920s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “George Sumner S and S store on Fifth Street interior”."
+  },
+  "img_530a9cbb25c298f7": {
+   "caption": "Wellwood School, 1921",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “New Wellwood School Built”."
+  },
+  "img_47cf3e6c1c4e364b": {
+   "caption": "Wellwood school built in, 1921",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Wellwood school built in 1921”."
+  },
+  "img_fd15a86cd86982d6": {
+   "caption": "Triangle Gas Station Beaumont with attendants, c. 1920s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Triangle Gas Station Beaumont with attendants”."
+  },
+  "img_66a9280d1c1afbf9": {
+   "caption": "Bank of Beaumont Fifth St. and Egan Ave, c. 1923-1940",
+   "attribution": "Banning Library District",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Bank of Beaumont Fifth St. and Egan Ave. from Banning Library District - Copy”; credit parsed from filename provenance."
+  },
+  "img_9dee891466dac007": {
+   "caption": "George Sumner S and S store on Fifth Street exterior, c. mid-1920s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “George Sumner S and S store on Fifth Street exterior”."
+  },
+  "img_cd302d98752b29e0": {
+   "caption": "Second Bank of Beaumont, c. 1923-1940",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “second Bank of Beaumont from Beaumont Library District”; credit parsed from filename provenance."
+  },
+  "img_7d409eb4d324e61e": {
+   "caption": "WCTU Fountain sitting next to Bank of Beaumont at Fifth St. and Egan Ave, c. 1923-1940",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “WCTU Fountain sitting next to Bank of Beaumont at Fifth St. and Egan Ave. CLOSE UP”."
+  },
+  "img_1d5ad1237f7755e2": {
+   "caption": "Barrio Church Sacred Heart Parish 1 fr Grace Granados, c. 1925-1945",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Barrio Church Sacred Heart Parish 1 fr Grace Granados 6-25”."
+  },
+  "img_0b3ce9bbcc89c40d": {
+   "caption": "Fifth Street, 1925",
+   "attribution": "Frasher Photos",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Fifth Street — Frasher Photograph”."
+  },
+  "img_da155fda02d882ee": {
+   "caption": "Guy Bogart, second from righ, passiang out apples, c. 1925-1945",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Guy Bogart, second from righ, passiang out apples”."
+  },
+  "img_e3de81c2cb7655c8": {
+   "caption": "Triangle Gas Station, c. mid-late 1920s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Triangle Gas Station”."
+  },
+  "img_a3f413e8c9ed23bb": {
+   "caption": "Man and Fruit Tree, 1927",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1927 man and fruit tree”."
+  },
+  "img_88e0efbd8026acce": {
+   "caption": "Fifth Street, c. 1929-1933",
+   "attribution": "Beaumont Library District Local History Collection, via Calisphere",
+   "attribution_confidence": "medium",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “fifth street calisphere”; credit parsed from filename provenance."
+  },
+  "img_c66b2fd607cf422f": {
+   "caption": "Beaumont High School (now Civic Center), 1930 yearbook",
+   "attribution": "San Gorgonio Pass Historical Society",
+   "attribution_confidence": "high",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Beaumont High School — 1930 Yearbook”."
+  },
+  "img_a4ddc941e94d3eed": {
+   "caption": "Cherry Tree Farm, 1930",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1930 Cherry Tree Farm”."
+  },
+  "img_a144edcec7a50be8": {
+   "caption": "Church 701 Egan Ave under construction, c. 1930-1940",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Church 701 Egan Ave under construction”."
+  },
+  "img_2aaf83f6b9ef8d97": {
+   "caption": "First Christian Church, 701 Egan Ave., 1930–1940",
+   "attribution": "San Gorgonio Pass Historical Society",
+   "attribution_confidence": "high",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “First Christian Church Established on Egan Avenue”."
+  },
+  "img_fe6493dfb389b7f5": {
+   "caption": "Francis Jr & Estella Dowling 001, c. 1930-1945",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Francis Jr & Estella Dowling 001”."
+  },
+  "img_57a9c9df6e55e692": {
+   "caption": "Francis Sr & Francis Jr cropped, c. 1930-1945",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Francis Sr &  Francis Jr cropped”."
+  },
+  "img_22f62627c5d79f7e": {
+   "caption": "Sared Heart Parish in Beaumont Barrio, c. 1930-1960",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Sared Heart Parish in Beaumont Barrio date unknown”."
+  },
+  "img_1ace86d145209734": {
+   "caption": "Presbyterian Church interior, 1934 or later (1934 church interior)",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Presbyterian Church interior”."
+  },
+  "img_8ecf8879b0fffd2d": {
+   "caption": "Beaumont Avenue deodar trees vintage postcard fr, c. 1935-1960",
+   "attribution": "eBay postcard listing (original holder unknown)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Avenue deodar trees vintage postcard fr ebay”; credit parsed from filename provenance."
+  },
+  "img_a9b8f17ec8b1a61d": {
+   "caption": "Beaumont City Hall Fire Station Police Station 500 Grace photo, c. 1935-1955",
+   "attribution": "Karen Sumner Noordman",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont City Hall Fire Station Police Station 500 Grace photo fr Karen Sumner Noordman rcvd 1-12-23 - Copy”; credit parsed from filename provenance."
+  },
+  "img_03056ebb373ddd81": {
+   "caption": "Old City Hall 1a, c. 1935-1955",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “old city hall 1a”."
+  },
+  "img_a85c852bf4ca3f39": {
+   "caption": "Guy Bogart at his desk in his home in Beaumont, c. 1935-1948",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Guy Bogart at his desk in his home in Beaumont”."
+  },
+  "img_b0d82053666b74fe": {
+   "caption": "Guy Bogart in his home office, c. 1935-1948",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Guy Bogart in his home office a”."
+  },
+  "img_82f263746528ece8": {
+   "caption": "Fifth St. looking east twoard first Bank of Beaumont--white building far right, c. late 1930s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Fifth St. looking east twoard first Bank of Beaumont--white building far right”."
+  },
+  "img_8241a89edda429c5": {
+   "caption": "Triangle Gas Station as businesses Frasher postcard, c. late 1930s",
+   "attribution": "Frasher Foto Collection, Pomona Public Library",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Triangle Gas Station as businesses Frasher postcard”; credit parsed from filename provenance."
+  },
+  "img_4ac86175e34cb48f": {
+   "caption": "Beaumont High School now City Hall, c. 1938-1948",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont High School now City Hall a”."
+  },
+  "img_ef0e1fe665c580a0": {
+   "caption": "Cafe on Sixth Street Hwy 60 70 99, c. 1940",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “cafe on Sixth Street-Hwy 60 70 99”."
+  },
+  "img_7707eba1df237c65": {
+   "caption": "Desert Sun, April 28, 1939",
+   "attribution": "via Facebook",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Desert Sun Documents Beaumont, 1939”."
+  },
+  "img_67656824cbb42ffc": {
+   "caption": "Beaumont Avenue deodar trees color vintage postcard, c. 1940s-1960s",
+   "attribution": "eBay postcard listing (original holder unknown)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Avenue deodar trees color vintage postcard ebay”; credit parsed from filename provenance."
+  },
+  "img_cc7036a752144a64": {
+   "caption": "Beaumont train depot workers, 1940",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont train depot workers 1940s b”."
+  },
+  "img_634101dcee127994": {
+   "caption": "Beaumont train depot workers, 1940",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont train depot workers 1940s c”."
+  },
+  "img_433403e951bbabcd": {
+   "caption": "Beaumont train depot workers, 1940",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont train depot workers 1940s a”."
+  },
+  "img_c323e4a9718d30b7": {
+   "caption": "Emeteria and Luis Estrada, 1940s",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “The Estrada Family and Wartime Rail Workers at the Depot”."
+  },
+  "img_0ab722136d7bd1be": {
+   "caption": "Estrada family dinner inside section house, c. 1940s",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Estrada family dinner inside section house”; credit parsed from filename provenance."
+  },
+  "img_ca02842503e130c9": {
+   "caption": "Luis Estrada family in their Southern Pacific Railroad section house, c. 1940s",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Luis Estrada family in their Southern Pacific Railroad section house leslie collection 5-22”; credit parsed from filename provenance."
+  },
+  "img_21f5dda0d6f26b4a": {
+   "caption": "Sam's Cafe, c. early-mid 1940s",
+   "attribution": "Scott Deforge (courtesy)",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Sam's Cafe courtesy Scott DeForge”; credit parsed from filename provenance."
+  },
+  "img_99f7111cab26b389": {
+   "caption": "BHS yearbook, 1942",
+   "attribution": "donated by Leslie Rios",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “BHS Yearbooks — Wartime Through Postwar”."
+  },
+  "img_8dec862cc0cae6ba": {
+   "caption": "Naval Convalescent Hospital Beaumont, Cherry Valley, 1943",
+   "attribution": "U.S. Navy",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “A Wartime Hospital City Rises in Cherry Valley”."
+  },
+  "img_2d0928cd5901f761": {
+   "caption": "Fireside Inn Postcard, c. late 1940s-1950s",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “fireside inn postcard leslie rios 5-22”; credit parsed from filename provenance."
+  },
+  "img_36bc04455099c9d7": {
+   "caption": "Francis Dowling Jr. and son John Dowling sorting cherries, c. 1945-1958",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Francis Dowling Jr. and son John Dowling sorting cherries”."
+  },
+  "img_a6ec55f14a4d13dc": {
+   "caption": "Francis Dowling Jr. with clamp truck, c. 1945-1960",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Francis Dowling Jr. with clamp truck”."
+  },
+  "img_b3dcb09d831e2058": {
+   "caption": "Laura May Stewart in the room on their ranch where she collected family items, c. 1945-1965",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Laura May Stewart in the room on their ranch where she collected family items”."
+  },
+  "img_228a900cb9c1637b": {
+   "caption": "Sixth Street with Bus, c. 1945",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “sixth street with bus leslie rios postcard”; credit parsed from filename provenance."
+  },
+  "img_5a70b41831a92160": {
+   "caption": "6th St. fr 1946 Bmt High yearbook donated by",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “6th St. fr 1946 Bmt High yearbook donated by Leslie Rios 11-2020”; credit parsed from filename provenance."
+  },
+  "img_484acf24f5126598": {
+   "caption": "Desert Outpost Cafe west entrance to city photo taken from atop the arch, c. late 1940s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Desert Outpost Cafe west entrance to city photo taken from atop the arch”."
+  },
+  "img_37aa1bf5e6a5fe7d": {
+   "caption": "Cherry Festival parade, 1947",
+   "attribution": "Beaumont Library District",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Cherry Festival Parade at the Woman's Club”."
+  },
+  "img_92af244203629094": {
+   "caption": "El Rancho corner, c. late 1940s-early 1950s",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “El Rancho corner leslie rios postcard 5-22”; credit parsed from filename provenance."
+  },
+  "img_3a78cd9990a52f8f": {
+   "caption": "Sunset Plaza Hotel, c. 1948",
+   "attribution": "Calisphere",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Sunset Plaza Hotel on Routes 60/70/99”."
+  },
+  "img_c228028c8fdfc647": {
+   "caption": "Band fr 1949 Bmt High yearbook donated by",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Band fr 1949 Bmt High yearbook donated by Leslie Rios 11-2020”; credit parsed from filename provenance."
+  },
+  "img_19d3efd814020eed": {
+   "caption": "Fifth Street looking west, 1949–50",
+   "attribution": "San Gorgonio Pass Historical Society",
+   "attribution_confidence": "high",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Fifth Street Looking West — Postwar Era”."
+  },
+  "img_9a697957b7ea88b0": {
+   "caption": "First Christian Church 701 Egan Ave probably late, 1950",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “First Christian Church 701 Egan Ave probably late 1950s a”."
+  },
+  "img_1ad76840ab48ba0e": {
+   "caption": "John Dowling, c. 1950s-1960s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “John Dowling”."
+  },
+  "img_ada3474936428467": {
+   "caption": "Majorettes in 1950 Bmt High yearbook donated by",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Majorettes in 1950 Bmt High yearbook donated by Leslie Rios 11-2020 on FB 11-14-20”; credit parsed from filename provenance."
+  },
+  "img_7d31166d85dd49bd": {
+   "caption": "Typing class in 1950 Bmt High yearbook donated by",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Typing class in 1950 Bmt High yearbook donated by Leslie Rios 11-2020”; credit parsed from filename provenance."
+  },
+  "img_e91452d502f8cc96": {
+   "caption": "Sixth Street postcard, c. early-mid 1950s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Sixth Street postcard”."
+  },
+  "img_2eee4fa95a275d4d": {
+   "caption": "Dowling Orchard Fruit Fresh Produce and Dried Fruit Nuts Candy signs, c. 1950s-1960s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Dowling Orchard Fruit Fresh Produce and Dried Fruit Nuts Candy signs”."
+  },
+  "img_dc9b98dd0bb1264f": {
+   "caption": "Dowling Orchard store, c. 1950s-1960s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Dowling Orchard store”."
+  },
+  "img_72b5acdf8b88fc6c": {
+   "caption": "Dowling Orchard Store interior, c. 1950s-1960s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Dowling Orchard Store interior”."
+  },
+  "img_eebd80e2b2180cca": {
+   "caption": "Dowling store pomegranates, c. 1950s-1960s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Dowling store pomegranates”."
+  },
+  "img_37e600853baf16af": {
+   "caption": "From facebook posted by Rena Lillich Williams, c. 1955",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “from facebook posted by Rena Lillich Williams 3-7-20”."
+  },
+  "img_7a0159037504313e": {
+   "caption": "Beaumont Fire Department at 500 Grace, c. late 1950s-early 1960s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Fire Department at 500 Grace”."
+  },
+  "img_6b0ff0ed19b0fb9e": {
+   "caption": "Ramona Torres, c. 1955-1975",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona Torres”."
+  },
+  "img_a83e9024f8e65c3f": {
+   "caption": "Sixth Street with roller rink sign postcard, c. mid-late 1950s",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Sixth Street with roller rink sign postcard leslie rios collection 5-22”; credit parsed from filename provenance."
+  },
+  "img_add874f3a7967842": {
+   "caption": "Sacred Heart Barrio Church from, c. late 1950s",
+   "attribution": "Leslie A. Rios III Postcard Collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Sacred Heart Barrio Church from Leslie Rios”; credit parsed from filename provenance."
+  },
+  "img_2ffb4cd6b691c887": {
+   "caption": "Ramona and Frank Torres, c. 1960s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona and Frank Torres a”."
+  },
+  "img_f3ff85c652f90c21": {
+   "caption": "Ramona and Frank Torres, c. 1960s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona and Frank Torres b”."
+  },
+  "img_ba7b9a02b3a0292c": {
+   "caption": "Ramona and Frank Torres, c. 1960s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona and Frank Torres c”."
+  },
+  "img_4b219d837a3d6f6a": {
+   "caption": "Beaumont City Fire Department Fire Chief Clarence Pappy Lewis, left, fireman Ray Samson, right circa early, 1960",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont City Fire Department Fire Chief Clarence Pappy Lewis, left, fireman Ray Samson, right circa early 1960s”."
+  },
+  "img_1ac667107bd74996": {
+   "caption": "City of Beaumont work and dress uniforms, c. 1960s-1970s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “City of Beaumont work and dress uniforms”."
+  },
+  "img_ecbadf0d854de4dc": {
+   "caption": "Beaumont Volunteer Fire Dept., late 1950s–early 1960s",
+   "attribution": "San Gorgonio Pass Historical Society",
+   "attribution_confidence": "high",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Beaumont Volunteer Fire Department — Early Era”."
+  },
+  "img_6feb4c505e0a58be": {
+   "caption": "Joe's Cafe strike side, c. 1960s-1970s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Joe's Cafe strike side”."
+  },
+  "img_7dad1702b8b44459": {
+   "caption": "Sunnyslope Cemetery gate dedication, 1960s",
+   "attribution": "Stewart family collection",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Stewart Sunnyslope Cemetery Gate Dedicated”."
+  },
+  "img_35a3c2b0b73a7892": {
+   "caption": "Summit School artist rendering, c. 1960s-1970s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Summit School artist rendering”."
+  },
+  "img_cfb583d7492fe063": {
+   "caption": "Expansion, 1965",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1965 Expansion”."
+  },
+  "img_b0c11e36c32bf11b": {
+   "caption": "Expansion Mansard Roof, 1965",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1965 Expansion Mansard Roof”."
+  },
+  "img_d92bd24434ee74d1": {
+   "caption": "Beaumont Presbyterian Church in The daily Record Gazetter, April 30, 1968",
+   "attribution": "Record-Gazette (Banning)",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Presbyterian Church in The daily Record-Gazetter, April 30, 1968”; credit parsed from filename provenance."
+  },
+  "img_c45feec31675704d": {
+   "caption": "Fire Dept. chief",
+   "attribution": "Record-Gazette, April 30, 1968",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “A Single Issue of the Record-Gazette Captures Three Institutions”."
+  },
+  "img_06355ab9cdf953fb": {
+   "caption": "Sunnyslope cemetery Daily Record Gazette, April 30, 1968",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Sunnyslope cemetery Daily Record Gazette 4-30-68”."
+  },
+  "img_9160017c82292a64": {
+   "caption": "Building Beaumont Fire Station on Maple Ave. in Record Gazette newspaper 2, March 21, 1969",
+   "attribution": "Record-Gazette (Banning)",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Building Beaumont Fire Station on Maple Ave. in 3-21-69 Record-Gazette newspaper 2”; credit parsed from filename provenance."
+  },
+  "img_c8cee9c9c1dee867": {
+   "caption": "New fire station under construction, Maple Ave.",
+   "attribution": "Record-Gazette, March 21, 1969",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “New Fire Station Under Construction on Maple Avenue”."
+  },
+  "img_0f63f186060123e4": {
+   "caption": "Beaumont City Fire Department badge, 1970",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont City Fire Department badge 1970s”."
+  },
+  "img_865e3dceea5cb7ba": {
+   "caption": "Beaumont Fire Department vintage LaFrance fire engine in Cherry Festival parade late, 1970",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Fire Department vintage LaFrance fire engine in Cherry Festival parade late 1970s”."
+  },
+  "img_5b02c2385f9cb46d": {
+   "caption": "Beaumont Volunteer Fire Department car plate from, 1970",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Volunteer Fire Department car plate from 1970s”."
+  },
+  "img_6f617c49fb8ae29d": {
+   "caption": "City of Beaumont Engine 24, 1970",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “City of Beaumont Engine 24 1970s”."
+  },
+  "img_5216d93c22702ca5": {
+   "caption": "Emeteria and Luis Estrada, 1970",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Emeteria and Luis Estrada 1970s”; credit parsed from filename provenance."
+  },
+  "img_dec6944cb7b040ba": {
+   "caption": "Beaumont Fire Department with LaFrance fire engine used for parades photo from dated, 1971",
+   "attribution": "Beaumont Library District Local History Collection, via Calisphere",
+   "attribution_confidence": "medium",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Fire Department with LaFrance fire engine used for parades photo from Calisphere dated 1971”; credit parsed from filename provenance."
+  },
+  "img_5e377e16d199a2eb": {
+   "caption": "Beaumont City Fire Dept., 1971",
+   "attribution": "Calisphere",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Beaumont City Fire Department — Growth and Change”."
+  },
+  "img_bad44539e3bf4b42": {
+   "caption": "Wellwood School kindergarten class 1971-72",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Wellwood School kindergarten class 1971-72”."
+  },
+  "img_b690890e951ac18c": {
+   "caption": "Beaumont Fire Department, 1972",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Fire Department 1972”."
+  },
+  "img_a0defa8112930d8b": {
+   "caption": "Beaumont City Volunteer Fire Department, 1973",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont City Volunteer Fire Department 1973”."
+  },
+  "img_f03f7f375191edf6": {
+   "caption": "Beaumont Fire Department with old hose cart photo from, c. 1975",
+   "attribution": "Beaumont Library District Local History Collection, via Calisphere",
+   "attribution_confidence": "medium",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Fire Department with old hose cart photo from Calisphere”; credit parsed from filename provenance."
+  },
+  "img_58bba051858fd716": {
+   "caption": "Scott DeForge, left, and John McLaughlin, right, Beaumont Fire Department, 1976",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Scott DeForge, left, and John McLaughlin, right, Beaumont Fire Department, 1976”."
+  },
+  "img_530924ee0ded82c6": {
+   "caption": "Letter to Emma Estrada, May 26, 1977",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “letter to Emma Estrada 5-26-77”; credit parsed from filename provenance."
+  },
+  "img_a48b18e93521487b": {
+   "caption": "Council Votes to Contract Fire Services with CDF news clip from Record Gazette, Nov 28, 1978",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Council Votes to Contract Fire Services with CDF news clip from Record Gazette 11-28-78”."
+  },
+  "img_97db6b297170b04e": {
+   "caption": "Beaumont Fire Department Public Safety Demonstration Engineer John McLaughlin with bullhorn early, 1980",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Fire Department Public Safety Demonstration Engineer John McLaughlin with bullhorn early 1980s”."
+  },
+  "img_9c808818200e7a56": {
+   "caption": "Beaumont Fire Department Volunteers late, 1980",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Fire Department Volunteers late 1980s”."
+  },
+  "img_a08051acb6b37033": {
+   "caption": "Beaumont Volunteer Fire Department Cherry Festival Taco Booth early, 1980",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Volunteer Fire Department Cherry Festival Taco Booth early 1980s”."
+  },
+  "img_a5619ddcb9e94fc3": {
+   "caption": "Beaumont Aerial Photo, 1982",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Aerial Photo 1982”."
+  },
+  "img_d6de78f86c47985e": {
+   "caption": "McCoy House",
+   "attribution": "Community Advisor, November 12, 1987",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “McCoy House in the Community Advisor”."
+  },
+  "img_9537c0e4968709f8": {
+   "caption": "Beaumont Developments, 1988",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “1988 Beaumont Developments”."
+  },
+  "img_67d561c6f67c1ba2": {
+   "caption": "Newspaper clipping for Beaumont Fire Volunteer Scott Karnitz, c. late 20th-early 21st c.",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “newspaper clipping for Beaumont Fire Volunteer Scott Karnitz”."
+  },
+  "img_04328f685390128c": {
+   "caption": "Beaumont Volunteer Firefighter Scott Karnitz memorial at Beaumont Fire Station AAA, c. 2000s-2010s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Volunteer Firefighter Scott Karnitz memorial at Beaumont Fire Station AAA”."
+  },
+  "img_8a20e0efb687510c": {
+   "caption": "Beaumont Volunteer Firefighter Scott Karnitz memorial at Beaumont Fire Station BBB, c. 2000s-2010s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Volunteer Firefighter Scott Karnitz memorial at Beaumont Fire Station BBB”."
+  },
+  "img_e5e3407036c3c2c5": {
+   "caption": "Aerial Photos.2.2, April 2010",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Aerial Photos.2.2”."
+  },
+  "img_fb90b64a110cd45f": {
+   "caption": "Beaumont Aerial Photo, 2010",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Aerial Photo 2010”."
+  },
+  "img_5430b97f619e1088": {
+   "caption": "Beaumont Presbyterian Church, 2010s-2020s (1934 building)",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Beaumont Presbyterian Church”."
+  },
+  "img_e227a30890d191f3": {
+   "caption": "IMG 3030, 2010s-2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “IMG_3030”."
+  },
+  "img_48e0a1029b9b35cf": {
+   "caption": "Luis Estrada statue at California State Railroad Museum in Sacramento, 2010s-2020s",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Luis Estrada statue at California State Railroad Museum in Sacramento a”; credit parsed from filename provenance."
+  },
+  "img_39722a07ed88a499": {
+   "caption": "Luis Estrada statue at California State Railroad Museum in Sacramento, 2010s-2020s",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Luis Estrada statue at California State Railroad Museum in Sacramento c”; credit parsed from filename provenance."
+  },
+  "img_9acdf5b823073389": {
+   "caption": "Luis Estrada statue at California State Railroad Museum in Sacramento, 2010s-2020s",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Luis Estrada statue at California State Railroad Museum in Sacramento d”; credit parsed from filename provenance."
+  },
+  "img_99913db9881316f3": {
+   "caption": "Luis Estrada statue California State Railroad Museum in Sacramento, 2010s-2020s",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Luis Estrada statue California State Railroad Museum in Sacramento b”; credit parsed from filename provenance."
+  },
+  "img_b4e6ea6952262482": {
+   "caption": "Presbyterian Church 2, 2010s-2020s (1934 building)",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “presbyterian church 2”."
+  },
+  "img_da743e866c6368cc": {
+   "caption": "Presbyterian Church, 2010s-2020s (1934 building)",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “presbyterian church”."
+  },
+  "img_3d84769134889400": {
+   "caption": "Presbyterian Church rocks, 2010s-2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Presbyterian Church rocks”."
+  },
+  "img_78e4dd6ee33f5c18": {
+   "caption": "Record-Gazette centennial coverage, November 23, 2012",
+   "attribution": "San Gorgonio Pass Historical Society",
+   "attribution_confidence": "high",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Beaumont's 100th Anniversary of Incorporation”."
+  },
+  "img_cc1a3e9d9b7f9b76": {
+   "caption": "Record Gazette 2012 11 23 1, 2012",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Record_Gazette_2012_11_23_1 (1)”."
+  },
+  "img_e3b0eb2e257855ca": {
+   "caption": "Record Gazette 2012 11 23 2, 2012",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Record_Gazette_2012_11_23_2”."
+  },
+  "img_863f0fc9e94e4ebb": {
+   "caption": "Bank of Beaumont engraving front, c. 2015-2025 (1923 building)",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Bank of Beaumont engraving front”."
+  },
+  "img_4eeb78c48b2bca4b": {
+   "caption": "Dowling Orchards Store contemporary, 2010s-2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Dowling Orchards Store contemporary”."
+  },
+  "img_0fe6d3036afcd3d6": {
+   "caption": "Egan Ave looking south today dead end at Interstate 10 photographed from same spot as vintage photos looking south, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Egan Ave looking south today dead end at Interstate 10 photographed from same spot as vintage photos looking south”."
+  },
+  "img_e9f375f1600bc4d0": {
+   "caption": "Fifth Street looking west from intersection Fith and Grace today, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Fifth Street looking west from intersection Fith and Grace today”."
+  },
+  "img_37bbc779f837532c": {
+   "caption": "Sean Balingit at the McCoy House during Historical Society tour, c. 2015-2024",
+   "attribution": "Pat Murkland (photo credit)",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Sean Balingit at the McCoy House during Historical Society tour PHOTO CREDIT IS PAT MURKLAND”; credit parsed from filename provenance."
+  },
+  "img_7c01fc3dab547cc4": {
+   "caption": "First Christian Church, 701 Egan Ave. May, 2017",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “First Christian Church, 701 Egan Ave. May 2017”."
+  },
+  "img_e6fe5e33e99cc68f": {
+   "caption": "Bank of Beaumont today, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Bank of Beaumont today”."
+  },
+  "img_dec634939b47e13c": {
+   "caption": "Christine and Gil Vargas Sr, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Christine and Gil Vargas Sr. a”."
+  },
+  "img_1098cac0279a0fdd": {
+   "caption": "Christine and Gil Vargas Sr, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Christine and Gil Vargas Sr. b”."
+  },
+  "img_4b3616cbe2898cea": {
+   "caption": "Christine and Gil Vargas Sr, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Christine and Gil Vargas Sr. c”."
+  },
+  "img_38d2d7286d1a066a": {
+   "caption": "Deodar trees on Beaumont Avenue today, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Deodar trees on Beaumont Avenue today”."
+  },
+  "img_6ddebbe0de2a589d": {
+   "caption": "Luis Estrad Road sign, c. 2018-2021",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Luis Estrad Road sign b”."
+  },
+  "img_c822a8c6bb7c2f67": {
+   "caption": "Luis Estrada Road sign, c. 2018-2021",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Luis Estrada Road sign”; credit parsed from filename provenance."
+  },
+  "img_3c18a28de48c53d4": {
+   "caption": "Luis Estrada Road sign with stop sign, c. 2018-2021",
+   "attribution": "Estrada family collection",
+   "attribution_confidence": "high",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Luis Estrada Road sign with stop sign”; credit parsed from filename provenance."
+  },
+  "img_61eb33f53f56982d": {
+   "caption": "McCoy House, 2018",
+   "attribution": "Google Street View / Google Maps imagery (reference)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “McCoy House 2018 Google image”; credit parsed from filename provenance."
+  },
+  "img_3f4c4ca617098fd8": {
+   "caption": "Ramona's Mexican Cafe, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona's Mexican Cafe a”."
+  },
+  "img_d36ca3005fd7406a": {
+   "caption": "Ramona's Mexican Cafe, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona's Mexican Cafe b”."
+  },
+  "img_8ee30e567a4b5e66": {
+   "caption": "Ramona's Mexican Cafe brick facade, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona's Mexican Cafe brick facade”."
+  },
+  "img_a04b2576fd8d515e": {
+   "caption": "Ramona's Mexican Cafe, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona's Mexican Cafe c”."
+  },
+  "img_87313621a59a7991": {
+   "caption": "Ramona's Mexican Cafe, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona's Mexican Cafe d”."
+  },
+  "img_040513e8698b345f": {
+   "caption": "Ramona's Mexican Cafe, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona's Mexican Cafe e”."
+  },
+  "img_11892e76e7df49d3": {
+   "caption": "Ramona's Mexican Cafe f, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona's Mexican Cafe f”."
+  },
+  "img_8da5c565955aa314": {
+   "caption": "Ramona's Mexican Cafe g, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona's Mexican Cafe g”."
+  },
+  "img_99255ef1fe8299f3": {
+   "caption": "Ramona's Mexican Cafe h, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona's Mexican Cafe h”."
+  },
+  "img_9ae52f4064af37bc": {
+   "caption": "Ramona's Mexican Cafe i, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona's Mexican Cafe i”."
+  },
+  "img_00cfeb70e204b1b8": {
+   "caption": "Ramona's Mexican Cafe sombrero bushes, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona's Mexican Cafe sombrero bushes”."
+  },
+  "img_4085f2ec04e2579d": {
+   "caption": "Sacred Heart barrio Church, 2018",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Sacred Heart barrio Church 2018 a”."
+  },
+  "img_82595c1c9806db2a": {
+   "caption": "Sacred Heart Barrio church, 2018",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Sacred Heart Barrio church 2018 b”."
+  },
+  "img_2a8133ae8e586364": {
+   "caption": "Sacred Heart Barrio Church, 2018",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Sacred Heart Barrio Church 2018 c”."
+  },
+  "img_1c61ef08adc421b9": {
+   "caption": "Triangle Gas Station Today, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “triangle gas station today”."
+  },
+  "img_591fdce9e557db2e": {
+   "caption": "WCTU Fountain in Triangle Park 1, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “WCTU Fountain in Triangle Park 1”."
+  },
+  "img_284993317d64a5e4": {
+   "caption": "WCTU Fountain in Triangle Park 2, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “WCTU Fountain in Triangle Park 2”."
+  },
+  "img_8aa40ef6d2dbc201": {
+   "caption": "WCTU Fountain in Triangle Park 3, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “WCTU Fountain in Triangle Park 3”."
+  },
+  "img_40d6c2b8e19fd527": {
+   "caption": "WCTU Fountain in Triangle Park 4, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “WCTU Fountain in Triangle Park 4”."
+  },
+  "img_a999fd2c808b66bb": {
+   "caption": "WCTU Fountain in Triangle Park 5, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “WCTU Fountain in Triangle Park 5”."
+  },
+  "img_3c8f15b64eec6c9e": {
+   "caption": "WCTU Fountain in Triangle Park 6, 2020s",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “WCTU Fountain in Triangle Park 6”."
+  },
+  "img_661c04fefa693750": {
+   "caption": "Eyer House, 2019",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Eyer House 2019”."
+  },
+  "img_6ddd05571b501d15": {
+   "caption": "Sixth St. northside between Egan and California, 2019",
+   "attribution": "Google Street View / Google Maps imagery (reference)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Sixth St. northside between Egan and California google 2019”; credit parsed from filename provenance."
+  },
+  "img_e4260d9b7f031559": {
+   "caption": "Beaumont Woman's Club, 2020",
+   "attribution": "Google Street View / Google Maps imagery (reference)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “beaumont woman's club google 2020”; credit parsed from filename provenance."
+  },
+  "img_0092d056a315fe98": {
+   "caption": "Bogart House, Feb 2020",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “bogart house 2-8-20”."
+  },
+  "img_64fee8a381ae5df5": {
+   "caption": "Stewart Sunnylope Cemetery, May 2020",
+   "attribution": "Google Street View / Google Maps imagery (reference)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Stewart Sunnylope Cemetery google image 5-15-20”; credit parsed from filename provenance."
+  },
+  "img_56f78e949de648f8": {
+   "caption": "Stewart Sunnyslope gate, 2020",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Stewart Sunnyslope gate 2020”."
+  },
+  "img_95da879f3752095a": {
+   "caption": "Luis Estrada Road 20th anniversary, 2021",
+   "attribution": "Estrada family",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “Ongoing Preservation Work and Community Recognition”."
+  },
+  "img_acf4949ced58906e": {
+   "caption": "First Christian Church 701 Egan Ave. 5-2022, 2022",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “First Christian Church 701 Egan Ave. 5-2022 b”."
+  },
+  "img_7dbe92a607028a11": {
+   "caption": "Triangle Park, March 2022",
+   "attribution": "Google Street View / Google Maps imagery (reference)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “triangle park google photo 3-16-22”; credit parsed from filename provenance."
+  },
+  "img_23a4b70023473f20": {
+   "caption": "Tracy Caldwell Dyson, NASA portrait, 2023",
+   "attribution": "Robert Markowitz / NASA Johnson Space Center",
+   "attribution_confidence": "confirmed",
+   "caption_source": "San Gorgonio Pass Historical Society timeline (httpssgphs.org)",
+   "basis": "Published caption and credit line from the SGPHS timeline entry “A BHS Graduate Reaches Orbit”."
+  },
+  "img_31a2aed058e380fd": {
+   "caption": "Former Summit School, 2024",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Former Summit School 2024”."
+  },
+  "img_366a85910d2e675f": {
+   "caption": "Nancy Motel postcard on, 2024",
+   "attribution": "eBay postcard listing (original holder unknown)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Nancy Motel postcard on ebay 9-2024”; credit parsed from filename provenance."
+  },
+  "img_dd956905449c7642": {
+   "caption": "Sixth Street Photo from, 2024",
+   "attribution": "eBay postcard listing (original holder unknown)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “sixth street photo from ebay 9-2024”; credit parsed from filename provenance."
+  },
+  "img_d5db437b82ea712d": {
+   "caption": "Sixth Street postcard, 2024",
+   "attribution": "eBay postcard listing (original holder unknown)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Sixth Street postcard ebay 9-2024 front”; credit parsed from filename provenance."
+  },
+  "img_21b5c2878b287c35": {
+   "caption": "Gil Sr. and Christine Vargas Cherry Festival parade, May 31, 2025",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Gil Sr. and Christine Vargas Cherry Festival parade 5-31-25”."
+  },
+  "img_6345c804830d0a07": {
+   "caption": "Hotel Beaumont location today, May 2025",
+   "attribution": "Google Street View / Google Maps imagery (reference)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Hotel Beaumont location today google 5-8-25 (1)”; credit parsed from filename provenance."
+  },
+  "img_c01f0729b7635aa7": {
+   "caption": "Hotel Beaumont location today, May 2025",
+   "attribution": "Google Street View / Google Maps imagery (reference)",
+   "attribution_confidence": "low",
+   "caption_source": "Provenance embedded in original filename",
+   "basis": "Descriptive caption derived from the collection filename “Hotel Beaumont location today google 5-8-25 (2)”; credit parsed from filename provenance."
+  },
+  "img_5bcc7a2a42f3de62": {
+   "caption": "Ramona’s Mexican Café Vargas family at Cherry Festival parade, May 31, 2025",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Ramona’s Mexican Café Vargas family at Cherry Festival parade 5-31-25”."
+  },
+  "img_816fb6e3233bbf73": {
+   "caption": "Sunset Plaza Hotel, April 2025 (historic hotel)",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Sunset Plaza Hotel 4-28-25”."
+  },
+  "img_cb8fe08683e0e832": {
+   "caption": "Vargas family of Ramona's Mexican Cafe Cherry Festival parade 2, May 31, 2025",
+   "attribution": "Unknown",
+   "attribution_confidence": "unknown",
+   "caption_source": "Original filename / collection working title",
+   "basis": "Descriptive caption derived from the collection filename “Vargas family of Ramona's Mexican Cafe Cherry Festival parade 5-31-25 2”."
+  }
+ }
+}
