@@ -38,17 +38,12 @@ function seedDefaults() {
 
 function populateFilters() {
   const decades = [...new Set(state.records.map(r => r.decade).filter(Boolean))].sort();
-  const subjectStopwords = new Set(['about','after','and','are','as','at','back','between','by','circa','copy','courtesy','dated','during','for','from','front','image','late','left','new','old','photo','right','scan','the','with']);
-  const subjects = [...new Set(state.records.flatMap(r => r.subjects || []).filter(value => value.length > 2 && !subjectStopwords.has(value.toLowerCase()) && !/^\d/.test(value)))].sort((a,b) => a.localeCompare(b)).slice(0, 250);
-  const locations = [...new Set(state.records.flatMap(r => r.locations || []))].sort((a,b) => a.localeCompare(b));
   decades.forEach(value => $('#dateFilter').insertAdjacentHTML('beforeend', `<option value="${value}">${value}s</option>`));
-  subjects.forEach(value => $('#subjectFilter').insertAdjacentHTML('beforeend', `<option>${escapeHtml(value)}</option>`));
-  locations.forEach(value => $('#locationFilter').insertAdjacentHTML('beforeend', `<option>${escapeHtml(value)}</option>`));
 }
 
 function bindEvents() {
   $('#search').addEventListener('input', applyFilters);
-  ['dateFilter','subjectFilter','locationFilter','resolutionFilter','researchFilter','selectionFilter'].forEach(id => $(`#${id}`).addEventListener('change', applyFilters));
+  ['dateFilter','resolutionFilter','selectionFilter'].forEach(id => $(`#${id}`).addEventListener('change', applyFilters));
   $('#filterToggle').addEventListener('click', () => { const panel = $('#filterPanel'); panel.hidden = !panel.hidden; $('#filterToggle').setAttribute('aria-expanded', String(!panel.hidden)); });
   $('#clearFilters').addEventListener('click', () => { $('#search').value = ''; $$('#filterPanel select').forEach(select => select.value = ''); applyFilters(); });
   $$('.view-switcher button').forEach(button => button.addEventListener('click', () => setView(button.dataset.view)));
@@ -81,8 +76,8 @@ function fileById(id) { return state.catalog.files.find(file => file.file_id ===
 function applyFilters() {
   const query = $('#search')?.value.trim().toLowerCase() || '';
   const values = {
-    date: $('#dateFilter')?.value || '', subject: $('#subjectFilter')?.value || '', location: $('#locationFilter')?.value || '',
-    resolution: $('#resolutionFilter')?.value || '', research: $('#researchFilter')?.value || '', selection: $('#selectionFilter')?.value || ''
+    date: $('#dateFilter')?.value || '',
+    resolution: $('#resolutionFilter')?.value || '', selection: $('#selectionFilter')?.value || ''
   };
   state.filters = values; state.limit = 80;
   state.filtered = state.records.filter(record => {
@@ -90,10 +85,7 @@ function applyFilters() {
     const haystack = [edited(record,'title',record.title), edited(record,'caption',record.caption), edited(record,'attribution',record.attribution), record.visible_text, ...(record.subjects||[]), ...(record.locations||[]), ...(record.people||[]), ...(record.search_terms||[])].join(' ').toLowerCase();
     return (!query || haystack.includes(query))
       && (!values.date || (values.date === 'undated' ? !year : Math.floor(year / 10) * 10 === Number(values.date)))
-      && (!values.subject || record.subjects?.includes(values.subject))
-      && (!values.location || record.locations?.includes(values.location))
       && (!values.resolution || effectiveClassification(record) === values.resolution)
-      && (!values.research || record.research_status === values.research)
       && (!values.selection || (values.selection === 'selected' ? isSelected(record) : values.selection === 'unselected' ? !isSelected(record) : record.curated));
   });
   const active = Object.values(values).filter(Boolean).length + Number(Boolean(query));
