@@ -1,0 +1,1354 @@
+{
+ "batch": "2026-07-21-phase1-calisphere-transcription",
+ "description": "Calisphere-grounded research entries for the 30 records whose matches in the Beaumont (1828) and Banning (1582) Library District collections were confirmed by direct image comparison (163 candidate pairs visually verified, 31 confirmed, each same-photograph verdict adversarially re-checked). Calisphere metadata is the ground truth for titles, dates, holdings, and verbatim rights statements. Authored by a 10-agent workflow with full adversarial verification (2 flags, both fixed).",
+ "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21",
+ "researched": "2026-07-21",
+ "entries": {
+  "img_19d3efd814020eed": {
+   "title": "5th Street at Grace Street, looking west",
+   "original_title": "Fifth Street",
+   "caption": {
+    "caption": "Real-photo postcard looking west on 5th Street at Grace Street, Beaumont — Al's Bakery, Jordan's Recreation, and Drew Funk Real Estate line the 200 block of W. 5th Street, c. 1949-50.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_102)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_102), matched 2026-07-21 by direct image comparison",
+    "basis": "Direct image comparison (2026-07-21) confirmed the local scan is the same real-photo postcard as Calisphere item CBEA_102 — identical hand-lettered 'FIFTH STREET'/'BEAUMONT-CALIF.' captions and identical car lineup. Caption follows the Calisphere title, description, and 'circa 1949-50' item date."
+   },
+   "date": {
+    "date_start": 1947,
+    "date_end": 1952,
+    "display": "c. 1949-50",
+    "confidence": "medium",
+    "basis": "Calisphere item date: circa 1949-50"
+   },
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement (quoted): \"Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)...\" No rights holder is named. Next action: request reproduction permission from the Beaumont Library District, standard practice for these collections. Rule 2 does not apply: although this is a published postcard, it dates to c. 1949-50, after the pre-1931 publication cutoff.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_102 (accession 89-02-08)",
+    "url": "https://calisphere.org/item/ark:/13030/c8hd7v09/"
+   },
+   "best_master": null,
+   "description": "A real-photo postcard looking west along the 200 block of W. 5th Street at Grace Street in Beaumont, with hand-lettered captions reading \"FIFTH STREET\" and \"BEAUMONT - CALIF.\" across the bottom. On the left, storefronts for Al's Bakery, Jordans Recreation (with a \"Club Room / Beer\" sign), and Monte Vista Radio & TV line the sidewalk; on the right are the Drew Funk Real Estate and Insurance office, a Southern California Edison sign, an American flag, and the Hitching Post. Late-1940s automobiles, including a woodie station wagon, park diagonally along both curbs while a sedan approaches down the centerline. Calisphere's description also places the Bank of Beaumont on the right side of the street and notes Jordan's Recreation advertised pool tables and radio/TV repair. The Beaumont Library District dates the view circa 1949-50.",
+   "corrections": [
+    "Title: 'Fifth Street' -> '5th Street at Grace Street, looking west' — Calisphere (CBEA_102) supplies the specific cross street and block (200 block of W. 5th Street).",
+    "Date: exact 1949 -> c. 1949-50 (range 1947-1952) — Calisphere's item date is 'circa 1949-50'; the old exact year overstated precision.",
+    "Attribution: 'San Gorgonio Pass Historical Society' -> 'Beaumont Library District Local History Collection, via Calisphere (CBEA_102)' — the SGPHS timeline caption was AI-authored and is not an independent source; the visually confirmed Calisphere item establishes BLD as the contributing institution.",
+    "Format: identified as a real-photo postcard per the Calisphere description ('Postcard.') and the hand-lettered captions on the image."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — 5th Street at Grace street, looking west. 200 block of W. 5th Street, circa 1949-50",
+     "url": "https://calisphere.org/item/ark:/13030/c8hd7v09/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical hand-lettered 'FIFTH STREET'/'BEAUMONT-CALIF.' captions and identical car lineup (angled dark Ford at Al's Bakery, woodie wagon, right-side sedans)."
+    }
+   ],
+   "open_questions": [
+    "Photographer/postcard publisher unidentified — Calisphere's creator field is the collection code 'BLD', not a photographer. Identifying the postcard studio could firm up both dating and rights."
+   ],
+   "research_status": "Researched"
+  },
+  "img_484acf24f5126598": {
+   "title": "The Desert Outpost Motel and Cafe, Beaumont",
+   "original_title": "Desert Outpost Cafe West Entrance To City Taken From Atop The Arch",
+   "caption": {
+    "caption": "The Desert Outpost Motel and Cafe at the western entrance to Beaumont — roadside signs offer chicken and steak dinners, cabins, and dancing beside the divided highway, 1940s.",
+    "attribution": "Banning Library District Local History Collection, via Calisphere (CBAN_110)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Banning Library District collection (CBAN_110), matched 2026-07-21 by direct image comparison",
+    "basis": "Direct image comparison (2026-07-21) confirmed the same instant as Calisphere item CBAN_110 — the 'Century' trailer at the same spot on the highway, identical Chicken-Steak/Cabins/Dancing sign cluster, and the same parked cars and flatbed truck. Caption follows Calisphere's title, description, and '1940s' item date."
+   },
+   "date": {
+    "date_start": 1940,
+    "date_end": 1949,
+    "display": "1940s",
+    "confidence": "medium",
+    "basis": "Calisphere item date: 1940s"
+   },
+   "rights_status": "Unclear",
+   "rights": "Calisphere/Banning Library District rights statement (quoted): \"Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)...\" No rights holder is named. Next action: request reproduction permission from the Banning Library District, standard practice for these collections.",
+   "holding": {
+    "institution": "Banning Library District",
+    "item_id": "CBAN_110 (accession 86-03-70)",
+    "url": "https://calisphere.org/item/ark:/13030/c8td9vbb/"
+   },
+   "best_master": null,
+   "description": "An elevated view — per the local filename, taken from atop the arch at the west entrance to town — looking down the divided highway toward the Desert Outpost Motel and Cafe, located at what is today the junction of Highway 60 and the I-10 Freeway in Beaumont. A roadside sign cluster advertises \"CHICKEN - STEAK DINNERS,\" \"CABINS,\" \"DANCING,\" and \"VACANCY,\" while a \"CENTURY\" moving trailer rolls along the otherwise empty highway at left. Several 1940s sedans and a flatbed truck are parked on the gravel apron in front of the cafe, with the motel's white cabins along the right and mountains rising in the background. Calisphere catalogs the Banning Library District copy as an exterior slide and dates it to the 1940s.",
+   "corrections": [
+    "Title: filename-derived 'Desert Outpost Cafe West Entrance To City Taken From Atop The Arch' -> 'The Desert Outpost Motel and Cafe, Beaumont' — Calisphere (CBAN_110) identifies the business as a motel and cafe.",
+    "Date: c. 1946-1950 -> 1940s (1940-1949) — Calisphere's item date is '1940s'; the narrower late-1940s estimate is not supported by the authoritative record.",
+    "Attribution: 'Unknown' -> 'Banning Library District Local History Collection, via Calisphere (CBAN_110)' — the visually confirmed match establishes the holding collection (the photographer remains unknown)."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — The Desert Outpost Motel and Cafe in Beaumont, California",
+     "url": "https://calisphere.org/item/ark:/13030/c8td9vbb/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Same instant: 'Century' trailer at the same spot on the highway, identical Chicken-Steak/Cabins/Dancing sign cluster, same parked cars and flatbed truck."
+    }
+   ],
+   "open_questions": [
+    "Photographer unknown — Calisphere lists creator as 'Unknown'; exact year within the 1940s unconfirmed.",
+    "The local filename's claim that the view was taken from atop the entrance arch is plausible given the elevated viewpoint but is not in Calisphere metadata — verify against other arch-view photos in the collection."
+   ],
+   "research_status": "Researched"
+  },
+  "img_8dec862cc0cae6ba": {
+   "title": "Navy Men Erecting Flagpole, U.S. Naval Convalescent Hospital, Cherry Valley",
+   "original_title": "Cherry Valley Naval Hospital",
+   "caption": {
+    "caption": "Sailors haul a line to raise the flagpole among the white ward buildings of the U.S. Naval Convalescent Hospital, a temporary World War II facility in Cherry Valley, 1940s.",
+    "attribution": "Banning Library District Local History Collection, via Calisphere (CBAN_119)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Banning Library District collection (CBAN_119), matched 2026-07-21 by direct image comparison",
+    "basis": "Direct image comparison (2026-07-21) confirmed the same exposure as Calisphere item CBAN_119 — the flagpole at the same mid-raise angle with the same guy ropes, and each sailor hauling the rope at lower right in the same position. Caption follows Calisphere's title, description, and '1940s' item date."
+   },
+   "date": {
+    "date_start": 1940,
+    "date_end": 1949,
+    "display": "1940s",
+    "confidence": "medium",
+    "basis": "Calisphere item date: 1940s"
+   },
+   "rights_status": "Unclear",
+   "rights": "Calisphere/Banning Library District rights statement (quoted): \"Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)...\" No rights holder is named. Next action: request reproduction permission from the Banning Library District, standard practice for these collections. Note: if provenance showed this to be an official U.S. Navy photograph, rule 3 would make it public domain (17 U.S.C. § 105), but Calisphere lists the creator as Unknown, so status stays Unclear.",
+   "holding": {
+    "institution": "Banning Library District",
+    "item_id": "CBAN_119 (accession 86-04-22)",
+    "url": "https://calisphere.org/item/ark:/13030/c8j1015g/"
+   },
+   "best_master": null,
+   "description": "Navy men erect the flagpole at the United States Naval Convalescent Hospital in Cherry Valley: a line of sailors at lower right hauls on a rope while the white pole rises at mid-tilt on guy lines among the hospital's white clapboard ward buildings. Other figures steady the base near a utility pole at left, and mountains rise in the background. Calisphere's description notes the facility was a temporary hospital built in Cherry Valley during World War II. The Banning Library District dates the photograph only to the 1940s; the local record's former exact 1943 date came from the AI-authored SGPHS timeline and is not corroborated by the authoritative record.",
+   "corrections": [
+    "Title: 'Cherry Valley Naval Hospital' -> 'Navy Men Erecting Flagpole, U.S. Naval Convalescent Hospital, Cherry Valley' — Calisphere (CBAN_119) identifies the specific subject (flagpole raising), not just the facility.",
+    "Date: exact 1943 -> 1940s (1940-1949) — the 1943 year came from the AI-authored SGPHS timeline caption; Calisphere dates the item only '1940s'.",
+    "Attribution: 'U.S. Navy' -> 'Banning Library District Local History Collection, via Calisphere (CBAN_119)' — Calisphere lists the creator as 'Unknown'; there is no evidence in the record that this is an official U.S. Navy photograph."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Group of Navy men erecting flagpole at the United States Naval Convalescent Hospital in Cherry Valley, California",
+     "url": "https://calisphere.org/item/ark:/13030/c8j1015g/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical exposure: flagpole at the same mid-raise angle with same guy ropes, and each sailor hauling the rope at lower right is in the same position; local is just a larger scan."
+    }
+   ],
+   "open_questions": [
+    "Photographer unknown — Calisphere lists creator as 'Unknown'. Ask Banning Library District whether provenance indicates an official U.S. Navy photograph, which would shift rights to public domain as a federal work.",
+    "Exact year within the 1940s unconfirmed; Calisphere says only that the hospital was a temporary WWII facility."
+   ],
+   "research_status": "Researched"
+  },
+  "img_21f5dda0d6f26b4a": {
+   "title": "Sam's Cafe on 6th Street, northeast corner of 6th and Edgar Streets",
+   "original_title": "Sam S Cafe Courtesy Scott Deforge",
+   "caption": {
+    "caption": "Sam's Cafe — steaks, chops, seafood and chicken dinners — at the northeast corner of 6th and Edgar Streets, Beaumont, its neon sign rising over the checkerboard-tile corner entrance, c. 1944",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_118)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_118), matched 2026-07-21 by direct image comparison",
+    "basis": "Same exposure verified by direct comparison: both prints freeze the two pedestrians in identical mid-stride positions (one at the door, one on the sidewalk) with the same parked truck at right. Location, business description, and the circa 1944 date come from the Calisphere item metadata."
+   },
+   "date": {
+    "date_start": 1942,
+    "date_end": 1946,
+    "display": "c. 1944",
+    "confidence": "medium",
+    "basis": "Calisphere item date: circa 1944"
+   },
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement begins: 'Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)...' — rule 1 boilerplate, so status is Unclear. Next action: request reproduction permission from the Beaumont Library District, standard practice for this collection. A c. 1944 unpublished photograph, so the pre-1931 published-material public-domain override (rule 2) does not apply.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_118 (local no. 89-02-11)",
+    "url": "https://calisphere.org/item/ark:/13030/c8445ktt/"
+   },
+   "best_master": null,
+   "description": "Black-and-white street view of Sam's Cafe, a one-story stucco building with a checkerboard-tile corner facade and a vertical neon \"SAM'S CAFE\" sign, at the northeast corner of 6th and Edgar Streets in Beaumont. Window lettering advertises \"Steaks, Chops, Sea Food, Chicken Dinners,\" and \"CAFE\" is painted on the side wall. Two men in hats and suits walk the sunlit sidewalk — one at the cafe door, one mid-block — with the neighboring Paul's storefront, a realty office sign, and a 1940s truck parked at the curb beyond. Calisphere's description confirms the cafe served \"steaks, chops seafood and chicken dinners\" at this corner circa 1944; the Beaumont Library District holds the print (CBEA_118).",
+   "corrections": [
+    "Attribution changed from 'Scott Deforge (courtesy)' to 'Beaumont Library District Local History Collection, via Calisphere (CBEA_118)' — the identical exposure is held by BLD and Calisphere metadata is authoritative; the Deforge credit reflected only the provenance of the local scan file.",
+    "Date tightened from the c. 1941-1946 styling estimate to c. 1944 (1942-1946) per the Calisphere item date 'circa 1944'.",
+    "Title replaced: filename working title 'Sam S Cafe Courtesy Scott Deforge' superseded by Calisphere's located title naming the northeast corner of 6th and Edgar Streets."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Sam's Cafe on 6th Street, the northeast corner of 6th and Edgar Streets, circa 1944",
+     "url": "https://calisphere.org/item/ark:/13030/c8445ktt/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Same exposure of Sam's Cafe: the two pedestrians are frozen in identical mid-stride positions (one at the door, one on the sidewalk) with the same parked truck at right; only crop/contrast differ."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere's creator field ('BLD') names the contributing institution, not the photographer.",
+    "Relationship of the Scott Deforge copy to the BLD print (duplicate print vs. scan of the same original) is undocumented."
+   ],
+   "research_status": "Researched"
+  },
+  "img_4a82e2c89eb4a27d": {
+   "title": "Laura Mae Stewart and passenger in the car, with her father Rez Stewart on horseback",
+   "original_title": "Reznor Stewart On A Horse And Daughter Laura May Stewart At The Wheel On Stewart Ranch",
+   "caption": {
+    "caption": "Laura Mae Stewart at the wheel of the family touring car with a passenger, her father Rez Stewart on horseback beside her near the tank house on the Stewart Ranch, Beaumont, c. 1910-1920",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_170)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_170), matched 2026-07-21 by direct image comparison",
+    "basis": "Same exposure verified by direct comparison: identical horse stance (same white rear socks and front hoof position), rider pose, car occupants, and tank house behind; the local file is a lower-resolution copy. Identifications of Laura Mae Stewart and Rez Stewart come from the Calisphere item metadata; Calisphere lists no date, so the catalog's c. 1910-1920 estimate is retained."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Calisphere rights statement: 'Copyrighted — Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners.' Named holder: Laura May Stewart Trust (contact: Marilyn Vonderheide, 309 West 9th Place, Beaumont, CA 92223, 951-845-7155). Required action: obtain the Trust's written permission before any reproduction (rule 1 — named rights holder).",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_170 (MV6)",
+    "url": "https://calisphere.org/item/ark:/13030/c8np23r5/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/ad9db5b41305961ddf2020a9206f7a72",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "Sepia ranch-yard scene: a bearded, elderly Rez (Reznor) Stewart in a plaid coat and cap sits horseback on a dark horse with white hind socks, while his daughter Laura Mae Stewart sits at the wheel of an open touring car with an unidentified passenger beside her. A tank house and windmill tower rise behind them at the Stewart Ranch, with trees and open range beyond the dirt yard. Calisphere's description notes the photograph was taken years after the ranch was firmly established: the homestead Stewart took up in 1883 grew to over 2,200 acres after he purchased land from the Southern Pacific Railroad. Calisphere lists no date for the item; the catalog's c. 1910-1920 estimate stands pending better evidence.",
+   "corrections": [
+    "Title replaced with Calisphere's item title; Calisphere spells the daughter's name 'Laura Mae Stewart' (the filename had 'Laura May'), while the rights statement names the 'Laura May Stewart Trust'.",
+    "Attribution changed from 'Unknown' to 'Beaumont Library District Local History Collection, via Calisphere (CBEA_170)', with the Laura May Stewart Trust identified as copyright holder per the Calisphere rights statement.",
+    "No date correction — Calisphere lists no date for this item, so the catalog's c. 1910-1920 estimate is retained rather than overwritten."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Laura Mae Stewart and passenger in the car, with her father Rez Stewart on horseback",
+     "url": "https://calisphere.org/item/ark:/13030/c8np23r5/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical horse stance (same white rear socks, front hoof position), rider pose, car occupants, and tank house behind — same exposure, local is a lower-res copy."
+    }
+   ],
+   "open_questions": [
+    "Calisphere lists no date; the touring-car body style could support a tighter dating — confirm with the Beaumont Library District or the Laura May Stewart Trust.",
+    "Photographer unidentified — Calisphere's creator field ('BLD') names the contributing institution, not the photographer.",
+    "The passenger seated beside Laura Mae Stewart is unidentified in the Calisphere description."
+   ],
+   "research_status": "Researched"
+  },
+  "img_9537c0e4968709f8": {
+   "title": "City of Beaumont aerial photo map of present and planned developments",
+   "original_title": "Beaumont Developments",
+   "caption": {
+    "caption": "City of Beaumont aerial photo map labeling present and planned residential, commercial, and industrial developments across the pass, with an inset location map and the city seal, Nov. 1988",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_183)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_183), matched 2026-07-21 by direct image comparison",
+    "basis": "Identical annotated aerial photo map verified by direct comparison — same base aerial, same label-box overlay layout, same inset map and City of Beaumont seal placement. Title, Nov. 1988 date, and City of Beaumont copyright come from the Calisphere item metadata."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Calisphere rights statement: 'Copyrighted — Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners.' Named holder: City of Beaumont (510 E 6th Street, Beaumont, CA). A 1988 work, so no pre-1931 public-domain path; required action: obtain the City of Beaumont's written permission before reproduction (rule 1 — named rights holder).",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_183 (BLD20)",
+    "url": "https://calisphere.org/item/ark:/13030/c86t0kz7/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/d4df7f71942297947955e3b14e3ac52b",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "Color oblique aerial photo map looking across Beaumont and the San Gorgonio Pass toward snow-capped mountains, overlaid with dozens of black label boxes identifying existing and planned residential, commercial, and industrial developments, specific-plan areas, and city limits. A boxed inset map at right locates Beaumont in Southern California, and the City of Beaumont seal appears beside large yellow \"CITY OF BEAUMONT\" lettering. Calisphere describes the item as the front and back of a Beaumont city map showing present and planned developments, dated Nov. 1988; the local scan shows the map face only. The Beaumont Library District holds the item (CBEA_183).",
+   "corrections": [
+    "Title replaced: generic filename title 'Beaumont Developments' superseded by Calisphere's descriptive title identifying it as a City of Beaumont aerial photo map of present and planned developments.",
+    "Attribution changed from 'Unknown' to 'Beaumont Library District Local History Collection, via Calisphere (CBEA_183)', with the City of Beaumont identified as copyright holder per the Calisphere rights statement.",
+    "Date confirmed rather than changed: the record's 1988 now rests on the Calisphere item date 'Nov. 1988' instead of the filename."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — City of Beaumont aerial photo map showing present developments and planning developments",
+     "url": "https://calisphere.org/item/ark:/13030/c86t0kz7/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical annotated aerial photo map — same base aerial, same label-box overlay layout, same inset map and City of Beaumont seal placement."
+    }
+   ],
+   "open_questions": [
+    "The aerial photography firm and map producer behind the base image are not named in the Calisphere metadata.",
+    "Calisphere describes front and back of the map; the local scan shows only the front — the reverse side remains untranscribed."
+   ],
+   "research_status": "Researched"
+  },
+  "img_240a367ade7eccf1": {
+   "title": "Water well drilling in Edgar Canyon",
+   "original_title": "Edgar Canyon Well",
+   "caption": {
+    "caption": "\"Getting ready to develop more water in the canyon\": a drilling crew poses at its rig among the oaks of Edgar Canyon, where Beaumont's water district would drill some 35 exploratory holes, 1908.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_071)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_071), matched 2026-07-21 by direct image comparison",
+    "basis": "The local scan is the identical album-page print — same rounded-corner print, same figures and tree, same typed 'WATER WELL DRILLING EDGAR CANYON 1908' label — as Calisphere item CBEA_071. Title, date, and context are taken from the Calisphere record; the opening phrase is quoted from its description."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement: 'Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.).' Next action: request reproduction permission from the Beaumont Library District, which is standard practice for these collections.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_071",
+    "url": "https://calisphere.org/item/ark:/13030/c8668chr/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/575a56801aeba5f4e4b6a91fb43413b8",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "A black album-page scan holds a rounded-corner print of a dirt wagon track curving through oak-shaded Edgar Canyon, north of Beaumont. A handful of men stand in the grass at center around a light wooden well-drilling derrick, with another figure walking the track at left. The typed mount label reads 'WATER WELL DRILLING / EDGAR CANYON / 1908.' Per Calisphere, the Beaumont Irrigation District, after purchasing the Beaumont Land and Water Company, began exploring for water in the Edgar Canyon area; through the 1920s and into the 1930s approximately 35 holes were drilled in the canyon, including on the Warren and Fick properties. The exploration located faults and groundwater barriers that pooled water underground, allowing the District to develop small producing wells upstream of them.",
+   "corrections": [
+    "Title changed from working title 'Edgar Canyon Well' to Calisphere's 'Water well drilling in Edgar Canyon' — Calisphere metadata is authoritative for the visually confirmed match.",
+    "Attribution upgraded from bare 'Beaumont Library District' to the full collection credit with item identifier CBEA_071, now that the match is confirmed.",
+    "Caption source moved from the SGPHS timeline (AI-authored, not an independent source) to the Calisphere item record.",
+    "Date 1908 confirmed by Calisphere's item date — no change to the date range."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Water well drilling in Edgar Canyon, 1908",
+     "url": "https://calisphere.org/item/ark:/13030/c8668chr/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical album-page scan: same rounded-corner print, same figures/tree, same typed 'WATER WELL DRILLING EDGAR CANYON 1908' label."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere lists only 'BLD' (the contributing library) as creator.",
+    "Whether the album-page mount comes from a Beaumont Land & Water / irrigation district promotional album, which would establish publication history."
+   ],
+   "research_status": "Researched"
+  },
+  "img_4ae2f58167bd00f1": {
+   "title": "Demonstration train",
+   "original_title": "Sp Demo Train",
+   "caption": {
+    "caption": "Professors and officials of the Southern Pacific agricultural demonstration train pose beside Insectary Division car 1772, bringing expert farming lectures to Beaumont, March 17, 1909.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_004)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_004), matched 2026-07-21 by direct image comparison",
+    "basis": "The local scan is the identical album-page print as Calisphere item CBEA_004 — same group at car 1772 with the 'Insectary Division' placard, same ink numbering below the figures, same 'Mar 17,1909' label. Caption content and the exact date come from the Calisphere record."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement: 'Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.).' Next action: request reproduction permission from the Beaumont Library District, which is standard practice for these collections.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_004",
+    "url": "https://calisphere.org/item/ark:/13030/c8ks6qwb/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/9ad175abbd3b08996a4e6c9931e6f507",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "A mounted album print shows roughly a dozen men and women lined up on the roadbed before two dark Southern Pacific passenger cars; car 1772 carries a placard reading 'INSECTARY DIVISION / CAPITOL GROUNDS / SACRAMENTO.' Ink numerals written beneath the figures key them to an identification list, and the typed mount label reads 'Mar 17,1909.' The Agricultural and Horticultural demonstration train of the Southern Pacific Railroad arrived in Beaumont in March 1909, commissioned by the State Horticultural Commission, Southern Pacific, and the University of California College of Agriculture. Its whistle-stop lectures were held primarily to provide farmers with expert and technical information on agriculture, horticulture, and entomology. Calisphere identifies several of the numbered figures, including Professor W. T. Clark (1), J. B. Neff (2), Professor R. H. Soughridge (3), and E. M. Ehrhorn (4); the harvested list breaks off after '5) Mrs.'",
+   "corrections": [
+    "Title changed from the filename-derived 'Sp Demo Train' to Calisphere's title 'Demonstration train'.",
+    "Date precision improved: Calisphere records the exact date March 17, 1909 ('17-Mar-09'), matching the typed mount label; the record's 1909 year range is unchanged so no date override is needed.",
+    "Attribution anchored to the specific Calisphere item identifier CBEA_004 (previously credited to the collection generically)."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Demonstration train",
+     "url": "https://calisphere.org/item/ark:/13030/c8ks6qwb/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical album-page scan: same group at car 1772 with 'Insectary Division' sign, same ink numbering below figures, same 'Mar 17,1909' label."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere lists only 'BLD' as creator.",
+    "The numbered identification list in Calisphere's description is truncated after '5) Mrs.' — transcribe the complete figure list from the live item page.",
+    "Relationship to the other demonstration-train photograph in the catalog (CBEA_005, locomotive SP No. 2789) — likely the same March 1909 visit."
+   ],
+   "research_status": "Researched"
+  },
+  "img_96cdf4349eff3950": {
+   "title": "Beaumont City Hall",
+   "original_title": "Beaumont City Hall Fire Department Police Station Courthouse From Calisphere",
+   "caption": {
+    "caption": "Beaumont's old City Hall at 500 Grace Street, shared with the Beaumont Police Station; city offices moved out in the mid-1980s and the building later housed school district offices. Undated.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_029)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_029), matched 2026-07-21 by direct image comparison",
+    "basis": "Same exposure as Calisphere item CBEA_029 — the flag is frozen in the identical mid-wave position with identical pampas-grass clumps, hedges, and curb shadows; the local copy is the higher-resolution scan. Location and building history come from the Calisphere record, which carries no date."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement: 'Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.).' Next action: request reproduction permission from the Beaumont Library District, which is standard practice for these collections.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_029",
+    "url": "https://calisphere.org/item/ark:/13030/c8c24vss/"
+   },
+   "best_master": null,
+   "description": "The photograph looks across a paved, curbed street and trimmed hedges at Beaumont's old City Hall, a white-stuccoed, tile-roofed Mission Revival civic building whose central tower carries a clock, a balustraded balcony, and the lettering 'CITY HALL.' An arched arcade at left is lettered 'POLICE,' and an American flag flies from a tall pole in the landscaped forecourt planted with pampas grass. Per Calisphere, the building stood at 500 Grace Street and was shared with the Beaumont Police Station. In the mid-1980s Beaumont City Hall relocated to the city's Sixth Street grammar school building, and this building has housed the school district offices since that time. The Calisphere item is undated; the Mission Revival architecture and paved streetscape indicate a date well after the 1912 claim embedded in the local filename.",
+   "corrections": [
+    "Title simplified from the filename string to Calisphere's 'Beaumont City Hall'; the filename's 'Fire Department' and 'Courthouse' claims are absent from Calisphere metadata, which says the building was shared only with the Beaumont Police Station (the 'POLICE' arcade lettering is visible in the photo).",
+    "Date: the record's 1912 (from the original filename) is unsupported — the Calisphere item is undated, and the Mission Revival building with paved, curbed street and mature landscaping is inconsistent with 1912; the caption now presents the photo as undated pending further research.",
+    "Attribution anchored to the specific Calisphere item identifier CBEA_029 (previously credited to the collection generically)."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Beaumont City Hall",
+     "url": "https://calisphere.org/item/ark:/13030/c8c24vss/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Same Beaumont City Hall exposure: flag frozen in the identical mid-wave position, identical pampas-grass clumps, hedges, and curb shadows — Calisphere copy is just lower resolution."
+    }
+   ],
+   "open_questions": [
+    "Date of the photograph and construction date of this City Hall building — Calisphere gives no date and the filename's 1912 is untenable; likely candidates are the 1930s-1950s and need a documentary source.",
+    "Photographer unidentified — Calisphere lists only 'BLD' as creator.",
+    "Whether the record's existing 1912-1912 date range should be cleared in the catalog pipeline, since this entry cannot supply a sourced replacement range."
+   ],
+   "research_status": "Researched"
+  },
+  "img_2880f54eaa19145f": {
+   "title": "Beaumont Grammar School",
+   "original_title": "Grammar School Built",
+   "caption": {
+    "caption": "The Beaumont Grammar School, its bell-tower cupola rising behind a row of young cypress trees; the mount is inscribed 'Beaumont Grammar School 1-5-11' — photographed January 5, 1911.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_145)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_145), matched 2026-07-21 by direct image comparison",
+    "basis": "Match visually verified: frame-identical view including the same handwritten 'Beaumont Grammar School 1-5-11' inscription at the bottom of the mount. Calisphere titles the item 'Beaumont Grammar School, 1911' and its description records the photo as taken Jan. 5, 1911."
+   },
+   "date": {
+    "date_start": 1911,
+    "date_end": 1911,
+    "display": "January 5, 1911",
+    "confidence": "high",
+    "basis": "Calisphere item date 1911; Calisphere description records the photo as taken Jan. 5, 1911, matching the mount inscription."
+   },
+   "rights_status": "Copyrighted",
+   "rights": "Calisphere rights statement (verbatim operative phrase): 'Copyrighted — Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners.' Named rights holder: Laura May Stewart Trust, contact Marilyn Vonderheide, 309 West 9th Place, Beaumont, CA 92223, 951-845-7155. Required action: obtain written permission from the Laura May Stewart Trust (via Marilyn Vonderheide) before reproduction.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_145 MV1",
+    "url": "https://calisphere.org/item/ark:/13030/c8n015wh/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/93388367add54f6313e10931d39fb924",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "A wooden schoolhouse with a louvered bell-tower cupola stands behind a screen of young cypress trees, a dirt road in the foreground; the mount is inscribed in ink 'Beaumont Grammar School 1-5-11.' Calisphere's description states the picture was taken January 5, 1911, matching the inscription. The old local caption claimed the school was 'built 1911,' but the Calisphere record dates the photograph, not the construction. The print is held by the Beaumont Library District (CBEA_145, source code MV1), among the material whose rights are administered by the Laura May Stewart Trust.",
+   "corrections": [
+    "Title changed from 'Grammar School Built' to 'Beaumont Grammar School' — the Calisphere item title for the visually confirmed same photograph.",
+    "Attribution changed from 'Unknown' to Beaumont Library District Local History Collection, via Calisphere (CBEA_145) — the Calisphere match is visually verified (same print, same inscription).",
+    "Caption no longer asserts the school was 'built 1911' (an unverified SGPHS-timeline claim): Calisphere dates the photograph — taken Jan. 5, 1911, matching the '1-5-11' inscription — not the building's construction.",
+    "Rights determined as Copyrighted: the Calisphere rights statement names the Laura May Stewart Trust as holder (previously undetermined)."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Beaumont Grammar School, 1911",
+     "url": "https://calisphere.org/item/ark:/13030/c8n015wh/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Frame-identical school view including the same handwritten 'Beaumont Grammar School 1-5-11' caption at bottom."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere lists only 'BLD' as creator, which is the contributing library, not the photographer.",
+    "When the Beaumont Grammar School was actually built is not established by this record; the old 'built 1911' claim needs an independent source if it is to be restated."
+   ],
+   "research_status": "Researched"
+  },
+  "img_530a9cbb25c298f7": {
+   "title": "Wellwood School",
+   "original_title": "Wellwood School",
+   "caption": {
+    "caption": "The Mission Revival Wellwood School — stucco gable and arcaded walkway — built to replace the earlier structure demolished as an earthquake threat; Calisphere gives no photo date; the building dates to 1921.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_133)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_133), matched 2026-07-21 by direct image comparison",
+    "basis": "Match visually verified: same exposure — identical bare-tree branch structure, shadows, and framing of the facade. Calisphere (CBEA_133) identifies the building as the 1921 replacement Wellwood School but records no photograph date."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement (verbatim operative phrase): 'Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)...' Required action: request reproduction permission from the contributing institution (Beaumont Library District), which is standard practice for these collections.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_133 89-02-36-02",
+    "url": "https://calisphere.org/item/ark:/13030/c8416wdh/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/af53cc248848784d17f5ad99fa74142a",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "A Mission Revival school building: a stucco gable end with a small round window and an arched entry niche faces a wide street, joined by an arcaded covered walkway running back to a rear wing, with a large bare-limbed tree at right. Calisphere identifies this as 'the more modern Wellwood School,' built in 1921 to replace the original Wellwood School, which was demolished due to earthquake threat. Per the Calisphere description, the building was still in use as a school-district building when the record was written. The Calisphere item carries no photograph date; the record's 1921 is the construction year, and the settled grounds and mature tree suggest the photo may be somewhat later.",
+   "corrections": [
+    "Attribution formalized from bare 'Beaumont Library District' to Beaumont Library District Local History Collection, via Calisphere (CBEA_133) — the match is visually verified.",
+    "Caption source upgraded from the SGPHS timeline (AI-authored, not an independent source) to the Calisphere item record.",
+    "Date qualified: 1921 is the construction year per Calisphere's description ('built to replace the older structure in 1921'); the Calisphere item records no photograph date, so 1921 is a terminus post quem for the photo rather than a confirmed photo date."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Wellwood School",
+     "url": "https://calisphere.org/item/ark:/13030/c8416wdh/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical bare-tree branch structure, shadows, and framing of the Wellwood School facade — same exposure."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere lists only 'BLD' as creator (the contributing library).",
+    "Photograph date undetermined: the building dates to 1921 but the mature tree and settled grounds suggest the photo could be years later; confirm with the Beaumont Library District."
+   ],
+   "research_status": "Researched"
+  },
+  "img_9a09c6788b0dddf1": {
+   "title": "A Well, a Girl and Cattle at the Bliss Ranch, South of Beaumont",
+   "original_title": "Girl Cattle At Well At Bliss Ranch Beaumont From Beaumont Library District",
+   "caption": {
+    "caption": "A girl and cattle at a 'never failing' well on the Bliss Ranch, a half-mile south of Beaumont, on a Beaumont Land and Water Company promotional album page; Calisphere gives no date, c. 1895-1915.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_055)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_055), matched 2026-07-21 by direct image comparison",
+    "basis": "Match visually verified: identical album-page scan with the same handwritten 'Well South of Tract' annotation, the same typed Bliss-ranch caption strip, and identical cattle positions. Calisphere (CBEA_055) locates the well on the Bliss Ranch about 1/2 mile south of Beaumont, adjoining Beaumont Land & Water Company land."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement (verbatim operative phrase): 'Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)...' Required action: request reproduction permission from the contributing institution (Beaumont Library District), standard practice for these collections. Rule 2 not applied: although the page carries a printed Beaumont Land & Water Company header and typeset promotional caption, the handwritten ink annotation suggests a compiled scrapbook rather than demonstrably published pre-1931 material; if the album is confirmed as a published promotional booklet, this would become Public domain.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_055 89-01-29",
+    "url": "https://calisphere.org/item/ark:/13030/c8cz36hx/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/2353bee2f7addc9c18a40f123ed2ff3c",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "A black album page holds a mounted print headed 'BEAUMONT LAND AND WATER COMPANY': a girl stands at a tall timber well frame while three spotted cattle drink at a trough on open grassland, with 'Well South of Tract' handwritten in ink beneath the print. A typed promotional caption pasted below declares that 'Beaumont Valley is singularly blessed with never failing wells' and locates the well on the Bliss Ranch about 1/2 mile south of the depot, where water stood 20 feet from the surface. Calisphere's description repeats this text, adding that the ranch adjoins Beaumont Land & Water Company lands 'underlain for over four miles by water.' Note that the Calisphere title reads 'Blaine Ranch,' but Calisphere's own description and the typed album caption visible in the photograph both say Bliss Ranch.",
+   "corrections": [
+    "Title upgraded from the filename working title to the Calisphere item title, tightened for display, with 'Blaine Ranch' corrected to 'Bliss Ranch' per Calisphere's own description and the typed album caption visible in the photograph.",
+    "Attribution formalized from bare 'Beaumont Library District' to Beaumont Library District Local History Collection, via Calisphere (CBEA_055) — the match is visually verified (same album-page scan).",
+    "Caption source upgraded from filename-embedded provenance to the Calisphere item record."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — A well, a girl and cattle at Blaine Ranch, a 1/2 mile south of Beaumont",
+     "url": "https://calisphere.org/item/ark:/13030/c8cz36hx/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical album-page scan: same handwritten 'Well South of Tract', same typed Bliss-ranch caption strip, same cattle positions."
+    }
+   ],
+   "open_questions": [
+    "Photographer and photograph date unidentified — Calisphere lists no date and only 'BLD' as creator; the record's c. 1895-1915 working range stands.",
+    "Confirm whether this Beaumont Land & Water Company album page comes from a published promotional booklet: if demonstrably published before 1931, rule 2 would reclassify the item as Public domain.",
+    "Calisphere's title says 'Blaine Ranch' while its description and the typed caption say 'Bliss Ranch' — worth reporting the discrepancy to Calisphere/BLD."
+   ],
+   "research_status": "Researched"
+  },
+  "img_299b9a16b53340ed": {
+   "title": "Summit House, once the Beatty House",
+   "original_title": "Summit House Calisphere",
+   "caption": {
+    "caption": "The Summit House hotel — established 1884 by Frank Mindler as Beaumont's first hotel, originally the Beatty House — at its corner site in Beaumont, the mount inscribed 'Beaumont Hotel,' Jan. 5, 1911.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_172)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_172), matched 2026-07-21 by direct image comparison",
+    "basis": "Visually confirmed as the same print/exposure as Calisphere ark c88g8k2s: identical corner view, tree arrangement, and handwritten 'Beaumont Hotel 1-5-11' mount inscription. Title, exact date (1/5/1911), Beatty House history, and rights are carried from the Calisphere item metadata."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Calisphere rights statement (verbatim opening): 'Copyrighted — Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners.' Named rights holder: Laura May Stewart Trust (contact: Marilyn Vonderheide, 309 West 9th Place, Beaumont, CA 92223, 951-845-7155). Next action: obtain the Trust's written permission before reproduction (RIGHTS-RULES rule 1: named holder in statement).",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_172 (MV8)",
+    "url": "https://calisphere.org/item/ark:/13030/c88g8k2s/"
+   },
+   "best_master": null,
+   "description": "Corner view of the Summit House, a two-story wood-frame hotel with a signboard reading 'SUMMIT HOUSE.' mounted above its wraparound covered porch; a row of young eucalyptus trees lines the dirt street along the building's right side. The photograph's mount is inscribed in ink 'Beaumont Hotel  1-5-11'. Per the Calisphere record, the hotel began as the Beatty House and was established in 1884 by Frank Mindler as Beaumont's first hotel, later renovated and renamed the Summit House. It catered to large groups that needed lodging in Beaumont on special occasions. Photographed January 5, 1911.",
+   "corrections": [
+    "Title changed from 'Summit House Calisphere' (a filename artifact) to the Calisphere item title 'Summit House, once the Beatty House' — Calisphere documents the building's origin as the Beatty House, established 1884 by Frank Mindler.",
+    "Date precision upgraded from plain 1911 to January 5, 1911, per Calisphere's date field '1/5/1911' and the '1-5-11' mount inscription; the 1911-1911 year range is unchanged, so no date override is needed.",
+    "Attribution made citable: identifier CBEA_172 added and confidence raised to confirmed on the strength of the direct visual match (previously cited to Calisphere without an item identifier).",
+    "Rights determined: Copyrighted — the Calisphere rights statement names the Laura May Stewart Trust as holder (previously undetermined)."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Summit House, once the Beatty House. Jan. 5, 1911",
+     "url": "https://calisphere.org/item/ark:/13030/c88g8k2s/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical corner view of Summit House with the same tree arrangement and the same handwritten 'Beaumont Hotel 1-5-11' inscription on the mount — same print/exposure."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere's creator field lists only 'BLD', the contributing institution, not a photographer.",
+    "Why the mount is inscribed 'Beaumont Hotel': whether this was a period colloquial name for the Summit House or a later cataloguer's label (Calisphere identifies the building as the Summit House, formerly the Beatty House)."
+   ],
+   "research_status": "Researched"
+  },
+  "img_5430b97f619e1088": {
+   "title": "Presbyterian Church postcard, northeast corner of 7th and Euclid Streets",
+   "original_title": "Community Church (Beaumont Presbyterian Church) — real-photo postcard",
+   "caption": {
+    "caption": "Real-photo postcard of Beaumont's Presbyterian 'Rock Church' at the northeast corner of 7th and Euclid Streets, hand-captioned 'Community Church'; the stone sanctuary was dedicated May 20, 1934. c. 1934-1960.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_163)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_163), matched 2026-07-21 by direct image comparison",
+    "basis": "Visually confirmed as the same real-photo postcard exposure as Calisphere ark c89g5m5q: identical handwritten white 'Community Church' caption, vegetation, sign board, and white curb post. Identification of the building as the Beaumont Presbyterian Rock Church at 7th and Euclid, and its May 20, 1934 completion, come from the Calisphere item record; Calisphere's own date field is empty, so the record's post-1934 range stands."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Calisphere rights statement (verbatim opening): 'Copyrighted — Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners.' Named rights holder: Beaumont Chamber of Commerce (726 Beaumont Ave, Beaumont, CA 92223, 951-845-9543). Rule 2 (pre-1931 published material) does not apply: the stone sanctuary was completed May 20, 1934, so this postcard was necessarily published after the 1931 public-domain cutoff. Next action: obtain the Chamber's written permission before reproduction (RIGHTS-RULES rule 1: named holder in statement).",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_163 (BCC3)",
+    "url": "https://calisphere.org/item/ark:/13030/c89g5m5q/"
+   },
+   "best_master": null,
+   "description": "Real-photo postcard view of Beaumont's Presbyterian 'Rock Church' at the northeast corner of 7th and Euclid Streets, hand-captioned 'COMMUNITY CHURCH' in white at upper left; an announcement board and a white curb post stand at the corner entrance beneath shade trees. The congregation is the oldest in Beaumont, dating to April 17, 1885, and in 1925 was known as the Federated Church of Beaumont, its membership drawn from 14 denominations. The stone sanctuary shown here was completed May 20, 1934 at a cost of $11,009, built by hand from rocks that members and friends gathered from Whitewater. Its rock construction, portals, and unique design make it a Beaumont city landmark; the social hall dates to the same era.",
+   "corrections": [
+    "Title changed from the local working title to Calisphere's 'Presbyterian Church postcard, northeast corner of 7th and Euclid Streets' — Calisphere confirms the postcard's 'Community Church' hand caption denotes the Beaumont Presbyterian Rock Church, and pins the corner as 7th and Euclid.",
+    "Attribution changed from 'Unknown (postcard photographer/publisher unidentified)' to Beaumont Library District Local History Collection, via Calisphere (CBEA_163), on the strength of the confirmed visual match; the postcard photographer/publisher itself remains unidentified.",
+    "Rights determined: Copyrighted — the Calisphere rights statement names the Beaumont Chamber of Commerce (previously unassessed). Rule 2 pre-1931 public-domain override considered and rejected because the sanctuary was not completed until May 20, 1934.",
+    "Date range floor corroborated: the May 20, 1934 sanctuary completion in the Calisphere description supports the record's existing 1934-1960 range; Calisphere's date field is empty, so no date override is made."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Presbyterian Church postcard, northeast corner of 7th and Euclid Streets",
+     "url": "https://calisphere.org/item/ark:/13030/c89g5m5q/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical handwritten white 'Community Church' caption at top-left, same vegetation, sign board, and white curb post — same real-photo postcard exposure, local is just a higher-res scan."
+    }
+   ],
+   "open_questions": [
+    "Postcard photographer/publisher unidentified — Calisphere's creator field lists only 'BLD', the contributing institution.",
+    "Exact date of the postcard unknown: Calisphere's date field is empty; the May 20, 1934 sanctuary completion is the earliest possible date, and the record's c. 1934-1960 window remains an estimate."
+   ],
+   "research_status": "Researched"
+  },
+  "img_c3a4436f12810d6d": {
+   "title": "People Viewing the Flowing Well in Edgar Canyon",
+   "original_title": "People Viewing The Flowing Well In Edgar Canyon From Beaumont Library District",
+   "caption": {
+    "caption": "Beaumont citizens celebrate a successful water-well strike beneath hillside letters spelling 'FLOWING WELL EDGAR CANYON'; the well fed a flume carrying water down the canyon to Beaumont, 1908.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_073)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_073), matched 2026-07-21 by direct image comparison",
+    "basis": "Visually confirmed as the same print as Calisphere ark c8xp7494: identical crowd and hillside 'FLOWING WELL EDGAR CANYON' lettering, including the same white damage spot at top center. The 1908 date and the well/flume context come from the Calisphere description (the item's date field itself is empty), matching the record's existing 1908 date."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere rights statement (verbatim opening): 'Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.).' No rights holder is named. Next action: request reproduction permission from the contributing institution (Beaumont Library District), which is standard practice for these collections (RIGHTS-RULES rule 1: copyright-status-unknown boilerplate).",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_073 (89-02-88)",
+    "url": "https://calisphere.org/item/ark:/13030/c8xp7494/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/0feb65f2afffc9b669cee7cc6dec5c55",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "A large crowd of men and women in Edwardian dress — suits, boaters, and long white dresses — gathers on a brushy hillside where whitewashed letters spelling 'FLOWING WELL EDGAR CANYON' are laid out on the slope above them; a wooden flume structure runs through the center of the group. Per the Calisphere record, these are rejoicing Beaumont citizens gathered shortly after another successful water-well drilling in Edgar Canyon in 1908, an event that guaranteed more water for their town. Water flowed from the well pipe directly into a flume that carried it down the canyon either to a holding reservoir for storage or onward to Beaumont. Four more wells would follow, along with reservoirs to store the water. The print carries a white damage spot at top center that also appears in the Calisphere copy, confirming it is the same physical print.",
+   "corrections": [
+    "Title tightened from the filename-derived 'People Viewing The Flowing Well In Edgar Canyon From Beaumont Library District' to the Calisphere item title; the 'From Beaumont Library District' provenance suffix belongs in the attribution, not the title.",
+    "Attribution formalized from plain 'Beaumont Library District' to 'Beaumont Library District Local History Collection, via Calisphere (CBEA_073)', with confidence raised to confirmed by the direct visual match.",
+    "Date 1908 corroborated by the Calisphere description (Calisphere's date field is empty); no change to the 1908-1908 range.",
+    "Rights determined: Unclear — Calisphere 'copyright status unknown' boilerplate; previously unassessed."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — People viewing the flowing well in Edgar Canyon",
+     "url": "https://calisphere.org/item/ark:/13030/c8xp7494/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical crowd and hillside 'FLOWING WELL EDGAR CANYON' lettering, including the same white damage spot at top center."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere's creator field lists only 'BLD', the contributing institution.",
+    "Calisphere's date field is empty: the 1908 date rests on the Calisphere description text; exact month/day of the gathering is unknown."
+   ],
+   "research_status": "Researched"
+  },
+  "img_37aa1bf5e6a5fe7d": {
+   "title": "Girl Scout Troop in the 1947 Cherry Festival Parade",
+   "original_title": "Cherry Parade",
+   "caption": {
+    "caption": "A Girl Scout troop marches past the Beaumont Woman's Club in the Cherry Festival Parade, spectators and parked cars lining the route, 1947.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_084)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_084), matched 2026-07-21 by direct image comparison",
+    "basis": "Visually confirmed as the same print as Calisphere item ark:/13030/c880520q — identical marchers, crowd, road details, and the same McCulloh Studio \"#220\" mark in the corner. Title, 1947 date, and the Marjorie Baulton identification come from the Calisphere metadata."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement: \"Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.).\" Next action: request reproduction permission from the Beaumont Library District, standard practice for this collection.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_084",
+    "url": "https://calisphere.org/item/ark:/13030/c880520q/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/498bc4239ca1cde95ad7951bd4a3ffca",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "Uniformed Girl Scouts march down a paved Beaumont street in loose formation, the lead girl carrying an American flag, during the 1947 Cherry Festival Parade. Spectators and parked 1940s automobiles line the curb in front of a low clubhouse whose sign reads \"BEAUMONT WOMAN'S CLUB,\" with tall cypress trees behind. Calisphere identifies the woman in the dark suit on the Women's Club porch as Marjorie Baulton. The print carries a \"McCulloh Studio\" mark and the job number \"#220\" in the lower right corner, indicating a professional studio photograph.",
+   "corrections": [
+    "Title changed from generic \"Cherry Parade\" to the Calisphere title identifying the subject as the Girl Scout Troop in the 1947 Cherry Festival Parade — Calisphere metadata is authoritative for this visually confirmed match.",
+    "Attribution upgraded from bare \"Beaumont Library District\" (sourced from the AI-authored SGPHS timeline) to the full Calisphere holding citation with identifier CBEA_084.",
+    "Caption source replaced: SGPHS timeline caption (not an independent source) superseded by Calisphere item metadata; the 1947 date is confirmed by Calisphere, so no date change."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — The Girl Scout Troop in the 1947 Cherry Festival Parade",
+     "url": "https://calisphere.org/item/ark:/13030/c880520q/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical marchers, crowd, and manure spots on road, plus the same McCulloh Studio '#220' mark in the corner of both prints."
+    }
+   ],
+   "open_questions": [
+    "Calisphere lists the creator only as \"BLD\" (the contributing library); the McCulloh Studio \"#220\" mark visible on the print indicates the studio was the photographer — confirm McCulloh Studio (Banning) attribution and whether the studio's rights situation changes the determination."
+   ],
+   "research_status": "Researched"
+  },
+  "img_5658eba56b079aef": {
+   "title": "Egan Avenue",
+   "original_title": "Egan Avenue Early Days",
+   "caption": {
+    "caption": "Egan Avenue in the early days of the developing town of Beaumont: a horse and wagon stand in the wide dirt street between a false-front store and warehouse barns, an open ditch in the foreground, c. 1885-1895.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_174)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_174), matched 2026-07-21 by direct image comparison",
+    "basis": "Visually confirmed as the same exposure as Calisphere item ark:/13030/c80z72mq — same foreground ditch with plank, same lumber stack, and horse and wagon in identical positions. Calisphere titles it \"Egan Ave\" and describes the early days of the developing town; Calisphere carries no date, so the local c. 1885-1895 estimate is retained."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement: \"Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.).\" Next action: request reproduction permission from the Beaumont Library District, standard practice for this collection.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_174",
+    "url": "https://calisphere.org/item/ark:/13030/c80z72mq/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/dbe48609c10c08e964888bdf96306c6a",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "A sepia view down a wide, unpaved Egan Avenue in Beaumont's earliest years, with an open irrigation ditch crossed by a single plank in the foreground. At left a two-story false-front commercial building with attached storefronts stands among young planted trees; barn-like wooden warehouses fill the right side of the street, and a horse and wagon wait mid-street near a stack of lumber. Calisphere describes it as \"Egan Avenue shown in the early days of the developing town of Beaumont,\" with subject headings for city and town life, agriculture, and business districts. Nothing in the scene is paved or electrified, consistent with the boom-era settlement period.",
+   "corrections": [
+    "Title aligned to Calisphere's \"Egan Ave\" (rendered \"Egan Avenue\" for display), replacing the filename-derived \"Egan Avenue Early Days\".",
+    "Attribution upgraded from bare \"Beaumont Library District\" to the full Calisphere holding citation with identifier CBEA_174.",
+    "Caption re-grounded from the AI-authored SGPHS timeline (\"Egan Ave., very early days\") to Calisphere item metadata; the 1885-1895 date range is retained as a local estimate only, since the Calisphere record carries no date."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Egan Ave",
+     "url": "https://calisphere.org/item/ark:/13030/c80z72mq/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical exposure — same foreground ditch with plank, same lumber stack, and horse/wagon in exactly the same positions on the dirt street."
+    }
+   ],
+   "open_questions": [
+    "Calisphere gives no date; the local c. 1885-1895 range is an unverified estimate — corroborate against Beaumont's 1884-1887 founding boom (building styles and sapling plantings are consistent with it).",
+    "Photographer unidentified — Calisphere's creator field lists only \"BLD\", the contributing library."
+   ],
+   "research_status": "Researched"
+  },
+  "img_d5b3e8d2100926fd": {
+   "title": "Looking North on California Street near the 4th Street Train Crossing",
+   "original_title": "Beaumont Train Depot Train At California Ave Crossing Looking North",
+   "caption": {
+    "caption": "A steam locomotive sends up a white plume as it nears the 4th Street crossing on California Street, Beaumont, the depot's water tank and sheds beyond, c. 1908-1918.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_003)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_003), matched 2026-07-21 by direct image comparison",
+    "basis": "Visually confirmed as the same exposure as Calisphere item ark:/13030/c8qj7gm2 — identical ephemeral steam-plume shape, smoke drift, and shed/track layout; the album mount's \"89-01-03\" inscription matches the Calisphere identifier. Calisphere places the view on California Street at the 4th Street crossing; it carries no date, so the local c. 1908-1918 estimate is retained."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement: \"Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.).\" Next action: request reproduction permission from the Beaumont Library District, standard practice for this collection.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_003",
+    "url": "https://calisphere.org/item/ark:/13030/c8qj7gm2/"
+   },
+   "best_master": null,
+   "description": "An elevated view over the Southern Pacific yard in early Beaumont, looking north along California Street toward the 4th Street railroad crossing. A steam locomotive at right vents a tall white plume while dark smoke drifts from a stack at left; the depot's water tank tower, sheds, and a small lineside shack cluster around the crossing, where a crossbuck marks the dirt road. A white \"LUMBER YARD\" sign stands among distant trees with the pass foothills on the horizon. The print is corner-mounted on a black album page inscribed \"89-01-03,\" matching the accession number in the Calisphere identifier. Calisphere describes it as \"a photo from the early days of Beaumont, looking north on California Street,\" with the train approaching the 4th Street crossing.",
+   "corrections": [
+    "Crossing re-identified: the local title/caption placed the train at the \"California Ave. crossing\"; Calisphere's authoritative title has the view looking north on California Street near the 4th Street train crossing.",
+    "Attribution changed from \"Unknown\" to Beaumont Library District Local History Collection, via Calisphere (CBEA_003), on the strength of the visually confirmed match.",
+    "Title replaced with the Calisphere title, superseding the filename-derived working title."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Looking north on California St. near 4th St. train crossing",
+     "url": "https://calisphere.org/item/ark:/13030/c8qj7gm2/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical ephemeral details — same locomotive steam-plume shape mushrooming left, same dark smoke drift from the left stack, same shed and track layout; local is just a higher-res, slightly wider scan."
+    }
+   ],
+   "open_questions": [
+    "Calisphere carries no date; the local c. 1908-1918 estimate is unverified — the locomotive (an engine number is faintly visible on the cab) could narrow the date if legible on the master scan.",
+    "Photographer unidentified — Calisphere's creator field lists only \"BLD\", the contributing library."
+   ],
+   "research_status": "Researched"
+  },
+  "img_3a78cd9990a52f8f": {
+   "title": "Sunset Plaza Hotel, 6th Street and California Avenue",
+   "original_title": "Sunset Plaza Hotel",
+   "caption": {
+    "caption": "The Sunset Plaza Hotel at 210 W. 6th Street, on the west corner of 6th Street and California Avenue in Beaumont, with snow-capped peaks rising behind, c. 1948.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_130)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_130), matched 2026-07-21 by direct image comparison",
+    "basis": "Direct image comparison confirms the same exposure: same three cars in identical positions, same tree and snow-capped ridge, identical shadows and awnings. Location, address, and circa-1948 date transcribed from the Calisphere item metadata."
+   },
+   "date": {
+    "date_start": 1946,
+    "date_end": 1950,
+    "display": "c. 1948",
+    "confidence": "medium",
+    "basis": "Calisphere item date: circa 1948"
+   },
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement: 'Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)' plus possible gift/donor/privacy restrictions. Next action: request reproduction permission from the contributing institution (Beaumont Library District), which is standard practice for these collections.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_130 89-02-16",
+    "url": "https://calisphere.org/item/ark:/13030/c8ff3rqp/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/df3c82bfb6b230a5389b6e631e647636",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "A two-story masonry-block hotel with striped awnings over its ground-floor windows and doorways fills the frame, a massive tree rising behind it and a snow-capped ridgeline in the distance. Three late-1940s automobiles are parked along the curb in front. Calisphere identifies the building as the Sunset Plaza Hotel at 210 W. 6th Street, on the west corner of 6th Street and California Avenue in Beaumont, photographed circa 1948. Per the Calisphere description, more than sixty years later the buildings were repurposed to house New Hope, a residential substance-abuse treatment program for women in Riverside County.",
+   "corrections": [
+    "Date loosened from exact 1948 to c. 1948 (1946-1950): the Calisphere item date is 'circa 1948', not a documented exact year.",
+    "Attribution corrected from bare 'Calisphere' to 'Beaumont Library District Local History Collection, via Calisphere (CBEA_130)': Calisphere names the Beaumont Library District as the contributing institution.",
+    "Title expanded from the bare working title to the Calisphere title's location (100 block of 6th Street, west corner of 6th and California Avenue): the local title carried no location information.",
+    "Caption re-grounded from the SGPHS timeline (AI-authored, not an independent source) to Calisphere item metadata."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Sunset Plaza Hotel on the 100 block of 6th Street, west corner. 6th Street and California Ave., circa 1948",
+     "url": "https://calisphere.org/item/ark:/13030/c8ff3rqp/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Same three cars in identical positions, same tree and snow-capped ridge, identical shadows and awnings — same exposure with only minor crop/contrast differences."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere lists the creator only as 'BLD' (the contributing library), not the original photographer."
+   ],
+   "research_status": "Researched"
+  },
+  "img_5e377e16d199a2eb": {
+   "title": "Beaumont Fire Station",
+   "original_title": "Beaumont Fire Dept",
+   "caption": {
+    "caption": "Firefighters pose with two engines at the Beaumont Fire Station, 628 Maple Avenue; an antique hand-drawn hose cart stands on the front lawn, 1971.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_186)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_186), matched 2026-07-21 by direct image comparison",
+    "basis": "Direct image comparison confirms the same exposure: same three firefighters in identical poses before the left engine, same GMC in the right bay, and same parked cars; the Calisphere copy is a tighter crop. Station address and 1971 date transcribed from Calisphere item metadata."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Calisphere rights statement: 'Copyrighted — Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners.' Named rights holder: City of Beaumont Fire Department, 550 E 6th Street, Beaumont, CA. Next action: obtain written permission from the City of Beaumont Fire Department before reproduction.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_186 BFD2",
+    "url": "https://calisphere.org/item/ark:/13030/c8c828n8/"
+   },
+   "best_master": null,
+   "description": "Three firefighters pose beside the engine in the left bay of the two-bay, flat-roofed Beaumont Fire Station, with a GMC-cab engine parked in the right bay. Decorative concrete breeze-block screens flank the entry, a flagpole and an antique hand-drawn hose cart stand on the front lawn, and period cars line the street at left. Calisphere places the station at 628 Maple Avenue and dates the photograph to 1971; today the successor Beaumont Fire Station #66 maintains two Type 1 engines, a rescue squad, and an 1,800-gallon water tender. The archival scan reproduces the print alongside gray and color calibration bars, indicating a rephotographed print.",
+   "corrections": [
+    "Title normalized from 'Beaumont Fire Dept' to the Calisphere title 'Beaumont Fire Station' (trailing date dropped for display).",
+    "Attribution corrected from bare 'Calisphere' to 'Beaumont Library District Local History Collection, via Calisphere (CBEA_186)': Calisphere names the Beaumont Library District as the contributing institution.",
+    "Caption re-grounded from the SGPHS timeline (AI-authored, not an independent source) to Calisphere item metadata, adding the 628 Maple Avenue address.",
+    "Rights escalated from unresearched to Copyrighted: the Calisphere rights statement names the City of Beaumont Fire Department as the rights holder.",
+    "Date 1971 confirmed by the Calisphere item date (no change to the range)."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Beaumont Fire Station, 1971",
+     "url": "https://calisphere.org/item/ark:/13030/c8c828n8/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Same three firefighters in identical poses before the left engine, same GMC in the right bay and parked cars; Calisphere is a tighter crop of the same exposure."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere lists the creator only as 'BLD'; possibly a City of Beaumont Fire Department staff photograph given the named rights holder, but this is not stated in the metadata."
+   ],
+   "research_status": "Researched"
+  },
+  "img_dec6944cb7b040ba": {
+   "title": "The Beaumont Fire Station",
+   "original_title": "Beaumont Fire Department With Lafrance Fire Engine Used For Parades From Calisphere Dated",
+   "caption": {
+    "caption": "The city's antique fire engine, lettered 'Engine Co. No. 1,' and a hand-drawn hose cart stand outside the open bays of the Beaumont Fire Station, 628 Maple Avenue, 1971.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_187)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_187), matched 2026-07-21 by direct image comparison",
+    "basis": "Direct image comparison confirms the same exposure: identical LaFrance engine, hose cart wheel position, open bays, and shadows; the local copy is a wider, higher-resolution scan. Station address and 1971 date transcribed from Calisphere item metadata."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Calisphere rights statement: 'Copyrighted — Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners.' Named rights holder: City of Beaumont Fire Department, 550 E 6th Street, Beaumont, CA. Next action: obtain written permission from the City of Beaumont Fire Department before reproduction.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_187 BFD3",
+    "url": "https://calisphere.org/item/ark:/13030/c87h1hxj/"
+   },
+   "best_master": null,
+   "description": "An angled view across the driveway of the Beaumont Fire Station with both bay doors open and a pickup visible inside the left bay. In the foreground the city's antique open-cab fire engine — its side lettered 'Fire Department, Engine Co. No. 1', and identified in the local collection's provenance as a LaFrance kept for parades — is parked beside a two-wheeled, spoke-wheeled antique hose cart. A later engine with 'City of Beaumont Fire Dept.' lettered on its door stands at right. Calisphere describes the item as a side view of firetrucks at the Beaumont Fire Station, located at 628 Maple Avenue, in 1971.",
+   "corrections": [
+    "Title replaced: the filename-derived run-on 'Beaumont Fire Department With Lafrance Fire Engine Used For Parades From Calisphere Dated' becomes the Calisphere title 'The Beaumont Fire Station' (trailing date dropped for display).",
+    "Caption rewritten: the old caption's garbled phrase 'photo from dated, 1971' replaced with a Calisphere-grounded caption adding the 628 Maple Avenue address.",
+    "Attribution tightened: the CBEA_187 identifier added to the existing Beaumont Library District / Calisphere credit.",
+    "Rights escalated from unresearched to Copyrighted: the Calisphere rights statement names the City of Beaumont Fire Department as the rights holder.",
+    "Date 1971 confirmed by the Calisphere item date (no change to the range)."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — The Beaumont Fire Station, 1971",
+     "url": "https://calisphere.org/item/ark:/13030/c87h1hxj/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Same exposure — identical LaFrance engine, hose cart wheel position, open bays, and shadows; local is a wider, higher-res scan."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere lists the creator only as 'BLD'.",
+    "The LaFrance make and parade use come from the local filename provenance, not Calisphere metadata; confirm the engine's make with the Beaumont Fire Department or Library District."
+   ],
+   "research_status": "Researched"
+  },
+  "img_3f09693198e8de04": {
+   "title": "The Summit House, Beaumont",
+   "original_title": "Summit House 1890S",
+   "caption": {
+    "caption": "A crowd fills the porch front of the Summit House, Beaumont's first hotel (opened 1884 as the Beatty House, burned 1925), beneath a Beaumont Land and Water Company banner, c. 1890s",
+    "attribution": "Banning Library District Local History Collection, via Calisphere (CBAN_098)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Banning Library District collection (CBAN_098), matched 2026-07-21 by direct image comparison",
+    "basis": "Visual match is certain: identical crowd positions, identical 'Summit House' sign and Beaumont Land and Water banner, and the exact same diagonal torn-corner damage appear in both the local scan and Calisphere CBAN_098. Calisphere titles it 'The Summit House in Beaumont, California,' dated circa 1890s; a second Calisphere copy of the same print (CBEA_012) corroborates."
+   },
+   "date": {
+    "date_start": 1890,
+    "date_end": 1899,
+    "display": "c. 1890s",
+    "confidence": "medium",
+    "basis": "Calisphere item date: circa 1890s"
+   },
+   "rights_status": "Unclear",
+   "rights": "Calisphere/Banning Library District rights statement: 'Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.).' Next action: request reproduction permission from the Banning Library District, which is standard practice for these collections. (The 1890s photograph itself is very likely out of copyright, but it is an unpublished print with an unknown photographer, so the pre-1931 publication rule does not apply.)",
+   "holding": {
+    "institution": "Banning Library District",
+    "item_id": "CBAN_098 / 86-03-13",
+    "url": "https://calisphere.org/item/ark:/13030/c8m043d7/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1582/e98fa37fe22444c1ec3d9039aa271d37",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "A large crowd of men and women in dark late-Victorian dress poses in front of a two-story wood-frame hotel, with a painted 'SUMMIT HOUSE' sign mounted across the vine-covered porch and a 'BEAUMONT LAND AND WATER COMPANY' inscription running along the top of the print; the upper-left corner of the print is torn away diagonally. The Summit House was Beaumont's first hotel, established in 1884 by Frank Mindler; it began as the Beatty House and was later renovated and renamed. It catered to large groups needing lodging on special occasions — such as Smoot and Eyer's prospective land buyers — and burned down in 1925. The duplicate Beaumont Library District copy of this same damaged print (CBEA_012) identifies the group as members of the Southern California Editorial Association at Beaumont.",
+   "corrections": [
+    "Location corrected: the old caption placed the Summit House in Banning, but both visually matched Calisphere records (CBAN_098 and CBEA_012) locate it in Beaumont (earlier known as San Gorgonio).",
+    "Date widened from an exact 1890 to c. 1890s (1890-1899) per Calisphere's item date 'circa 1890s'.",
+    "Attribution changed from 'Beaumont Library District' (SGPHS timeline sourcing) to Banning Library District Local History Collection via Calisphere (CBAN_098), the visually confirmed primary holding; the same damaged print is also held by Beaumont Library District as CBEA_012.",
+    "Title changed from 'Summit House 1890S' to 'The Summit House, Beaumont' per the Calisphere item title."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — The Summit House in Beaumont, California (CBAN_098)",
+     "url": "https://calisphere.org/item/ark:/13030/c8m043d7/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical crowd positions, identical 'Summit House' sign and Beaumont Land and Water banner, and the exact same diagonal torn-corner damage in the upper left - same photograph, evidently the same damaged print."
+    },
+    {
+     "label": "Related Calisphere item record — Summit House, once the Beatty House (CBEA_012): same print with identical torn top-left corner; its description identifies the group as members of the Southern California Editorial Association at Beaumont",
+     "url": "https://calisphere.org/item/ark:/13030/c8pk0fhp/"
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere lists creator as 'Unknown'.",
+    "The related BLD copy (CBEA_012) identifies the gathering as the Southern California Editorial Association; dating that association's Beaumont visit could pin the photograph to an exact year within the 1890s."
+   ],
+   "research_status": "Researched"
+  },
+  "img_6278e20aa65dd6a8": {
+   "title": "Beaumont Land & Water Company Pumping Plant #1",
+   "original_title": "Beaumont Land And Water Pumping Station From Beaumont Library District",
+   "caption": {
+    "caption": "A drilling derrick towers over the Beaumont Land & Water Company's Pumping Plant No. 1, with workmen and a saddled horse on the canyon road; the print bears the company's stamp, c. 1895-1910",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_157)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_157), matched 2026-07-21 by direct image comparison",
+    "basis": "Visual match confirmed: identical 'Beaumont Land and Water Company' stamp, identical handwritten 'Pumping Plant No. 1' caption, and matching figure and horse positions between the local scan and Calisphere CBEA_157. Calisphere titles it 'Beaumont Land & Water Company Pumping Plant #1' but records no date, so the local c. 1895-1910 estimate stands."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/Beaumont Library District rights statement: 'Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.).' Next action: request reproduction permission from the Beaumont Library District, which is standard practice for these collections.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_157 / 89-01-04",
+    "url": "https://calisphere.org/item/ark:/13030/c82z14wg/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/bb9cfa9bcf8da184731e2f59b1bfda29",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "A gable-roofed frame pump house stands in a brushy canyon bottom near Beaumont, with a tall well-drilling derrick rising immediately behind it; several workmen and a saddled horse are spaced along the dirt road in the foreground. The print carries the 'BEAUMONT LAND AND WATER COMPANY' stamp across its top edge and the handwritten caption 'Pumping Plant No. 1' along the bottom. Calisphere's context note traces what followed: after the Beaumont Irrigation District purchased the Beaumont Land and Water Company, the District drilled roughly 35 exploratory holes in the Edgar Canyon area through the 1920s and into the 1930s, developing small producing wells upstream of groundwater faults. This photograph records the company's original No. 1 pumping plant from the earlier, pre-District era.",
+   "corrections": [
+    "Title tightened from the generic 'pumping station' working title to Calisphere's specific identification 'Beaumont Land & Water Company Pumping Plant #1', which matches the handwritten 'Pumping Plant No. 1' inscription visible on the print itself.",
+    "Attribution formalized from bare 'Beaumont Library District' (filename provenance) to 'Beaumont Library District Local History Collection, via Calisphere (CBEA_157)' — the match to a specific Calisphere item is now visually confirmed.",
+    "Date unchanged: Calisphere records no date for this item, so the local c. 1895-1910 estimate is retained."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Beaumont Land & Water Company Pumping Plant #1 (CBEA_157)",
+     "url": "https://calisphere.org/item/ark:/13030/c82z14wg/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical 'Beaumont Land and Water Company' stamp, handwritten 'Pumping Plant No. 1', and matching figure/horse positions."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere lists only 'BLD' as creator (the contributing institution, not a photographer).",
+    "Calisphere records no date; the c. 1895-1910 local estimate should be confirmed with the Beaumont Library District or the Beaumont-Cherry Valley Water District.",
+    "Exact canyon location of Pumping Plant No. 1 (Edgar Canyon?) is not stated in the Calisphere record — its description text is the District's general Edgar Canyon water-history boilerplate."
+   ],
+   "research_status": "Researched"
+  },
+  "img_e3de81c2cb7655c8": {
+   "title": "Triangle Service Station, 6th and California Streets, Beaumont",
+   "original_title": "Triangle Gas Station",
+   "caption": {
+    "caption": "Real-photo postcard of the Triangle Service Station on 6th Street in Beaumont — Union Gasoline pumps under a tiled canopy, a truck beneath the arch, captioned 'Service at Beaumont,' c. mid-late 1920s",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_121)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_121), matched 2026-07-21 by direct image comparison",
+    "basis": "Visual match confirmed: identical postcard with the same handwritten 'Service at Beaumont' inscription, same truck parked under the arch, and same Union Gasoline sign as Calisphere CBEA_121. Calisphere supplies the precise location (south side of 6th at California and Grace Streets, 100 block) and identifies the item as a postcard; it records no date, so the local c. 1925-1932 estimate stands."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/Beaumont Library District rights statement: 'Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.).' Next action: request reproduction permission from the Beaumont Library District, which is standard practice for these collections. Note: this is a commercial real-photo postcard — if its publication can be demonstrated as pre-1931, rule 2 would reclassify it as Public domain (95-year term expired); the current date estimate (c. 1925-1932) extends past 1930, so that cannot yet be asserted.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_121 / 89-02-18",
+    "url": "https://calisphere.org/item/ark:/13030/c8qv3kv1/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/be4894ec109ab204dab30339ce1363fc",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; Beaumont Library District holds the physical original."
+   },
+   "description": "Real-photo postcard of the Triangle Service Station, an arched Mission-style stucco station with a tile-roofed pump canopy, on the south side of 6th Street at the California and Grace Street intersection in Beaumont's 100 block. 'TRIANGLE SERVICE STATION' is painted across the central archway, through which a parked early truck is visible; gas pumps stand under the canopy at left and a 'UNION GASOLINE' curb sign stands at right. The handwritten caption 'Service at Beaumont.' runs across the bottom margin of the card. Calisphere notes that small gas stations like the Triangle were quite popular in the growing town and were strung along Sixth Street to accommodate traffic in Beaumont's early automobile years.",
+   "corrections": [
+    "Location added: Calisphere pins the station to the south side of 6th Street at the California and Grace Street intersection, in the 100 block of Beaumont — the old record had no location beyond the station name.",
+    "Attribution changed from 'Unknown' to 'Beaumont Library District Local History Collection, via Calisphere (CBEA_121)', the visually confirmed holding.",
+    "Format identified as a postcard per the Calisphere description, consistent with the card's white border and the handwritten 'Service at Beaumont.' caption in the image.",
+    "Title expanded from 'Triangle Gas Station' to the located Calisphere form 'Triangle Service Station, 6th and California Streets, Beaumont' (matching the 'TRIANGLE SERVICE STATION' lettering on the building)."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Triangle Service Station on the south side intersection of 6th and California and Grace Streets, the 100 block of Beaumont (CBEA_121)",
+     "url": "https://calisphere.org/item/ark:/13030/c8qv3kv1/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical postcard: same 'Service at Beaumont' handwritten inscription, same truck parked under the arch, same Union Gasoline sign."
+    }
+   ],
+   "open_questions": [
+    "Postcard photographer/publisher unidentified — Calisphere lists no creator beyond the contributing institution.",
+    "Calisphere records no date; the local c. 1925-1932 estimate stands and could be narrowed via the Union Gasoline branding or Beaumont business directories.",
+    "If publication before 1931 can be demonstrated, the postcard would qualify as Public domain under the 95-year publication rule (rights rule 2)."
+   ],
+   "research_status": "Researched"
+  },
+  "img_43eb34083eb2296d": {
+   "title": "Edinburgh Hotel Real Estate Banquet, near 5th and Beaumont Ave",
+   "original_title": "Hotel Beaumont",
+   "caption": {
+    "caption": "Diners at a real estate banquet inside the Edinburgh Hotel near 5th Street and Beaumont Avenue — a rare interior view of Beaumont's first hotel building, 1888.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_039)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_039), matched 2026-07-21 by direct image comparison",
+    "basis": "Visually verified as the same photograph as Calisphere ark c8b56j3k: the center-table crop matches exactly, down to the baby's head tilt, napkin folds, and a blue ink mark on the bow-tied man's lapel, on the same 'Edinburgh Hotel' album mount. Title, scene identification, and 1888 date are taken from the Calisphere item record."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere rights statement (verbatim, operative phrase): \"Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)...\" — rule 1 boilerplate, so status is Unclear. Next action: request reproduction permission from the Beaumont Library District, standard practice for this collection. (An unpublished album print, so the rule-2 pre-1931 publication override does not apply.)",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_039 (accession 89-01-17)",
+    "url": "https://calisphere.org/item/ark:/13030/c8b56j3k/"
+   },
+   "best_master": null,
+   "description": "A rare interior view of a real estate banquet at the Edinburgh Hotel, preserved as a rounded-corner print on a black album page bearing the typed label \"EDINBURGH HOTEL / REAL ESTATE BANQUET.\" Families in Edwardian dress — including several children and a baby in a bonnet — sit at round, white-clothed tables beneath interior columns and an early chandelier, most faces turned toward the camera, with a second set table visible at right. Per the Calisphere description, John D. Revis is turned toward J. Drew Funk, the young man at the center of the photo. The three-story Victorian building opened in 1887 as the Beaumont Hotel, later closed, reopened in 1907 as the Hotel Edinburgh, and came to a fiery end in August 1909; it stood on Beaumont Avenue where the El Rancho Restaurant and Best Western Rancho Motel were later located.",
+   "corrections": [
+    "Title changed from 'Hotel Beaumont' to the Edinburgh Hotel banquet title — Calisphere (and the typed album label visible in the scan) identify the scene as a real estate banquet inside the Edinburgh Hotel, not a view of the hotel itself.",
+    "Old caption 'Hotel Beaumont, 1888' implied a building view; the photograph is an interior banquet scene with identified sitters (John D. Revis, J. Drew Funk) per Calisphere.",
+    "Attribution formalized from bare 'Beaumont Library District' to the full Calisphere credit line with identifier CBEA_039, now confirmed by direct image comparison.",
+    "Date 1888 retained — the record's existing 1888 date matches the Calisphere item date, so no date change."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — The Edinburgh Hotel. A Real Estate Banquet near 5th and Beaumont Ave",
+     "url": "https://calisphere.org/item/ark:/13030/c8b56j3k/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Center-table crop matches exactly: same head poses, baby's tilt, napkin folds, and same blue ink mark on the bow-tied man's lapel; same 'Edinburgh Hotel' album mount."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere's creator field ('BLD') names the contributing library, not the photographer.",
+    "Date tension: Calisphere dates the item 1888, but the album label reads 'Edinburgh Hotel' and Calisphere's own description says the building bore that name only from 1907 until it burned in August 1909 (it was the Beaumont Hotel in 1888). The banquet may actually date to 1907-1909; confirm with the Beaumont Library District."
+   ],
+   "research_status": "Researched"
+  },
+  "img_66a9280d1c1afbf9": {
+   "title": "The Bank of Beaumont",
+   "original_title": "Bank Of Beaumont Fifth St And Egan Ave From Banning Library District",
+   "caption": {
+    "caption": "The Bank of Beaumont, the city's second bank, at the corner of Fifth and Egan Streets; a pedestrian passes the arched entrance as a Union Ice Company truck waits at the curb, c. 1920.",
+    "attribution": "Banning Library District Local History Collection, via Calisphere (CBAN_109)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Banning Library District collection (CBAN_109), matched 2026-07-21 by direct image comparison",
+    "basis": "Visually verified as the same exposure as Calisphere ark c8z60m15: the identical woman mid-stride at the bank entrance, the same Union Ice Co. truck, and the same lamp post appear in both; the Calisphere copy is a tighter, higher-contrast duplicate. Title, location, and c. 1920 date are taken from the Calisphere item record."
+   },
+   "date": {
+    "date_start": 1918,
+    "date_end": 1922,
+    "display": "c. 1920",
+    "confidence": "medium",
+    "basis": "Calisphere item date: circa 1920"
+   },
+   "rights_status": "Unclear",
+   "rights": "Calisphere rights statement (verbatim, operative phrase): \"Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)...\" — rule 1 boilerplate, so status is Unclear. Next action: request reproduction permission from the Banning Library District, standard practice for this collection. (A photographic print/slide, not demonstrably published pre-1931, so the rule-2 override does not apply.)",
+   "holding": {
+    "institution": "Banning Library District",
+    "item_id": "CBAN_109 (accession 86-03-69)",
+    "url": "https://calisphere.org/item/ark:/13030/c8z60m15/"
+   },
+   "best_master": null,
+   "description": "Exterior view of the Bank of Beaumont, a neoclassical masonry bank building with \"BANK OF BEAUMONT\" incised on the parapet above the arched corner entrance, which is flanked by ornamental cartouches, wall lanterns, and a globe lamp standard. A woman is caught mid-stride passing the entrance, a Union Ice Company delivery truck is parked at the right, and a dark sedan sits at the left curb of the unpaved street. Per Calisphere, this was Beaumont's second bank, located at the corner of Fifth and Egan Streets in Beaumont, California. The item is held as an exterior slide in the Banning Library District collection (CBAN_109).",
+   "corrections": [
+    "Date changed from the working range c. 1923-1940 to c. 1920 (1918-1922) per the Calisphere item date 'circa 1920' — Calisphere metadata governs for visually confirmed matches (but see open question on the vehicles).",
+    "Attribution formalized from bare 'Banning Library District' to the full Calisphere credit line with identifier CBAN_109, now confirmed by direct image comparison.",
+    "Title normalized from the filename-derived working title to Calisphere's 'The Bank of Beaumont in Beaumont, California' (tightened for display); the Fifth-and-Egan location from the old title is confirmed by Calisphere's description."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — The Bank of Beaumont in Beaumont, California",
+     "url": "https://calisphere.org/item/ark:/13030/c8z60m15/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Same exposure: identical woman mid-stride at the bank entrance, same Union Ice Co. truck and lamp post; Calisphere copy is a tighter, higher-contrast dupe."
+    }
+   ],
+   "open_questions": [
+    "Photographer unknown — Calisphere lists creator as 'Unknown'.",
+    "The Union Ice Company truck and the sedan at left appear to be 1930s-vintage vehicles, in tension with Calisphere's 'circa 1920' date (the superseded local working range of 1923-1940 likely reflected this). Verify the bank building's construction date and the truck model to settle the decade."
+   ],
+   "research_status": "Researched"
+  },
+  "img_e8c5738ad26c5ffc": {
+   "title": "Laura Mae Stewart, First Cherry Festival Queen, Riding in a Studebaker Six at the 2nd Cherry Festival",
+   "original_title": "Cherry Festival Queen",
+   "caption": {
+    "caption": "Laura Mae Stewart, first queen of the Cherry Festival, rides in a ribbon-draped Studebaker Six with princesses Lois Behu and Clara Dietrich in the 2nd Cherry Festival parade, 1914.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_149)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_149), matched 2026-07-21 by direct image comparison",
+    "basis": "Visually verified as the same exposure as Calisphere ark c86q1wmt: the same 'Beaumont Garage Machine Co. Studebaker Six' placard leans at the running board, with identical drapery folds, the ribbon to the radiator, occupant positions, and the same background house and second car; the local copy is a closer rephotographed print. Identifications of the queen, princesses, escort, driver, and the 1914 date are taken from the Calisphere item record."
+   },
+   "date": {
+    "date_start": 1914,
+    "date_end": 1914,
+    "display": "1914",
+    "confidence": "high",
+    "basis": "Calisphere item date: 1914"
+   },
+   "rights_status": "Copyrighted",
+   "rights": "Calisphere rights statement (verbatim, operative phrase): \"Copyrighted. Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners...\" — the statement names a rights holder, the Laura May Stewart Trust (contact: Marilyn Vonderheide, 309 West 9th Place, Beaumont, CA 92223, 951-845-7159). Rule 1: named holder in the statement → Copyrighted. Next action: obtain written permission from the Laura May Stewart Trust via the named contact before reproduction.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_149 (MV5)",
+    "url": "https://calisphere.org/item/ark:/13030/c86q1wmt/"
+   },
+   "best_master": null,
+   "description": "A decorated Studebaker Six touring car photographed beneath a pepper tree, canopied with draped fabric and ribbons for the 2nd Cherry Festival parade; a placard at the running board is lettered \"BEAUMONT GARAGE AND MACHINE CO. / STUDEBAKER SIX.\" and a \"Studebaker\" script pennant hangs at the rear, with a ribbon streaming forward to a bow at the radiator. Queen Laura Mae Stewart — the festival's first queen — is seated in the center rear seat, with Princesses Lois Behu on her right and Clara Dietrich on her left; Lawrence Rulier, in uniform up front, is the queen's escort, and E. O. Jones is the driver. Per Calisphere, the first Cherry Festival began in 1913 with great success, and the following year Laura Mae Stewart became its first queen; the Studebaker was brought out from Los Angeles to carry the queen in the parade. A second open car and a house are visible in the background.",
+   "corrections": [
+    "Date corrected from 1919 to 1914: Calisphere identifies this as the 2nd Cherry Festival (the first festival was 1913, and Laura Mae Stewart became the first queen the following year). The old 1919 date from the SGPHS timeline caption is wrong.",
+    "Attribution changed from 'San Gorgonio Pass Historical Society' to the Beaumont Library District Local History Collection via Calisphere (CBEA_149) — the same photograph is held there, confirmed by direct image comparison.",
+    "First name spelling follows Calisphere's item record: 'Laura Mae Stewart' (the old caption used 'Laura May').",
+    "Title expanded from the generic 'Cherry Festival Queen' to Calisphere's fuller identification, and rights holder (Laura May Stewart Trust) recorded — the record previously carried no rights information."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — The 2nd Cherry Festival with Laura Mae Stewart, the festival's first queen in 1914",
+     "url": "https://calisphere.org/item/ark:/13030/c86q1wmt/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical exposure: same 'Beaumont Garage Machine Co. Studebaker Six' placard leaning at the running board, same drapery folds, ribbon to radiator, occupant positions, background house and second car; local is a closer rephotographed print."
+    }
+   ],
+   "open_questions": [
+    "Photographer unidentified — Calisphere's creator field ('BLD') names the contributing library, not the photographer.",
+    "Name spelling varies within the Calisphere record itself: 'Laura Mae Stewart' in the title/description versus 'Laura May Stewart Trust' as the rights holder — confirm the preferred spelling with the Beaumont Library District."
+   ],
+   "research_status": "Researched"
+  },
+  "img_477fd73b5434521f": {
+   "title": "John J. McCoy Lumber Yard",
+   "original_title": "John J Mccoy Lumberyard",
+   "caption": {
+    "caption": "Entrance to John J. McCoy's lumberyard in Beaumont, its picket fence and \"LUMBER-YARD\" sign shaded by pepper trees. McCoy, a builder, was Beaumont's first mayor, c. 1890-1910.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_159)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_159), matched 2026-07-21 by direct image comparison",
+    "basis": "Direct image comparison confirms the local scan is the same exposure as Calisphere item CBEA_159 (identical Lumber-Yard sign, fence pickets, tree canopies, and foreground culvert). The Calisphere item is undated, so the local c. 1890-1910 estimate is retained; ownership and McCoy biography come from the Calisphere description."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement: \"Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)...\" Next action: request reproduction permission from the Beaumont Library District, which is standard practice for these collections (rule 1).",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_159",
+    "url": "https://calisphere.org/item/ark:/13030/c8td9wp7/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/816d1041a7ebc87db923324d8e16d840",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "Sepia print of the entrance to John J. McCoy's lumberyard in Beaumont: a picket fence and gate shaded by large pepper trees, with a long painted sign reading \"LUMBER-YARD\" over a smaller, partly legible line of lettering, a dirt road and a culvert drain in the foreground, and yard buildings and stacked lumber behind the fence. Per the Calisphere record, the yard was owned by John J. McCoy, a builder who was also the first mayor of Beaumont. McCoy constructed his own house in Beaumont, his brother's house in Cherry Valley, and the old stone Episcopal church at Egan and 7th Streets; his son Horace built the historic Hilltop House in Banning. The Calisphere item is undated.",
+   "corrections": [
+    "Title: filename-cased working title \"John J Mccoy Lumberyard\" replaced with Calisphere's title (rendered \"John J. McCoy Lumber Yard\"; Calisphere prints it with a typo as \"John .J. McCoy Lumber Yard\") — Calisphere is the authoritative source for the visually confirmed match.",
+    "Attribution: changed from \"Unknown\" to Beaumont Library District Local History Collection via Calisphere — the identical photograph is held there as CBEA_159, confirmed by direct image comparison.",
+    "Date: no change — the Calisphere item carries no date, so the local c. 1890-1910 estimate stands."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — John .J. McCoy Lumber Yard",
+     "url": "https://calisphere.org/item/ark:/13030/c8td9wp7/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical Lumber-Yard sign, fence pickets, tree canopies, and foreground culvert — same exposure."
+    }
+   ],
+   "open_questions": [
+    "Photographer identity — Calisphere lists no creator beyond the institutional \"BLD\".",
+    "Photograph date — the Calisphere item is undated; the c. 1890-1910 estimate has not been independently confirmed against McCoy's years operating the yard."
+   ],
+   "research_status": "Researched"
+  },
+  "img_83b4208d7a588795": {
+   "title": "Flowing Well, Beaumont",
+   "original_title": "Water Well Beaumont From Beaumont Water District",
+   "caption": {
+    "caption": "Beaumont citizens crowd around a flowing well as water pours into the flume; the print is hand-lettered \"Flowing Well Beaumont Cal.\", c. 1900-1912.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_063)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_063), matched 2026-07-21 by direct image comparison",
+    "basis": "Direct image comparison confirms the same exposure as Calisphere item CBEA_063 (identical crowd positions, \"Flowing Well Beaumont Cal.\" lettering, and foreground shadows). The Calisphere item is undated, so the local c. 1900-1912 estimate is retained; the water-district context comes from the Calisphere description."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement: \"Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)...\" Next action: request reproduction permission from the Beaumont Library District, which is standard practice for these collections (rule 1). Rule 2 (pre-1931 published) would apply only if the hand-lettered print is shown to have circulated as a commercial postcard — not yet demonstrated.",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_063",
+    "url": "https://calisphere.org/item/ark:/13030/c8765dpk/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/22fe4abc752ee1228b79edd342e3d6a1",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "Vertical photograph of a large crowd — men in suits and brimmed hats, women in white blouses and long skirts, boys in overalls — gathered on a brushy slope around a flowing well, with water pouring from a pipe into a wooden flume and a standpipe rising at right. The print is hand-lettered \"FLOWING WELL BEAUMONT CAL.\" across the lower portion. The Calisphere description places the image in the water-development story of the district: after the Beaumont Irrigation District purchased the Beaumont Land and Water Company, it explored for water in the Edgar Canyon area, drilling roughly 35 holes through the 1920s and into the 1930s and developing small producing wells upstream of groundwater-pooling faults. The Calisphere item itself is undated.",
+   "corrections": [
+    "Title: filename-derived \"Water Well Beaumont From Beaumont Water District\" replaced with Calisphere's title \"Flowing Well, Beaumont\" — matches the lettering on the photograph itself.",
+    "Attribution: corrected from \"Beaumont-Cherry Valley Water District\" (filename provenance) to Beaumont Library District Local History Collection via Calisphere — the visually identical photograph is held there as CBEA_063.",
+    "Date: no change — the Calisphere item carries no date, so the local c. 1900-1912 estimate stands."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Flowing Well, Beaumont",
+     "url": "https://calisphere.org/item/ark:/13030/c8765dpk/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical crowd positions, 'Flowing Well Beaumont Cal.' lettering, and foreground shadows — same exposure."
+    }
+   ],
+   "open_questions": [
+    "Photographer identity — Calisphere lists no creator beyond the institutional \"BLD\".",
+    "Photograph date — Calisphere item is undated; the scene plausibly relates to the 1908 flowing-well celebrations documented in companion BLD items (CBEA_071, CBEA_073), but this specific well and date are unconfirmed.",
+    "Whether the hand-lettered print circulated as a commercial real-photo postcard — if demonstrably published before 1931, rule 2 would shift rights_status to Public domain."
+   ],
+   "research_status": "Researched"
+  },
+  "img_eabd3578774e347f": {
+   "title": "Engines at Beaumont",
+   "original_title": "Engines At Beaumont Train Depot Roundhouse Calisphere",
+   "caption": {
+    "caption": "Steam locomotives lined up before the Southern Pacific roundhouse at the Beaumont rail yard, looking east from California Street, c. 1908-1918.",
+    "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_007)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Calisphere Beaumont Library District collection (CBEA_007), matched 2026-07-21 by direct image comparison",
+    "basis": "Direct image comparison confirms the local scan is the identical mounted album print held as Calisphere item CBEA_007 (same typed \"ENGINES AT BEAUMONT\" label, same rounded-corner print, every locomotive, track, and figure position matching). The Calisphere item is undated, so the local c. 1908-1918 estimate is retained; the roundhouse/depot context comes from the Calisphere description."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Calisphere/BLD rights statement: \"Copyright status unknown. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.)...\" Next action: request reproduction permission from the Beaumont Library District, which is standard practice for these collections (rule 1).",
+   "holding": {
+    "institution": "Beaumont Library District",
+    "item_id": "CBEA_007",
+    "url": "https://calisphere.org/item/ark:/13030/c86h4gq8/"
+   },
+   "best_master": {
+    "location": "https://calisphere.org/clip/2000x2000/1828/7729e31ea9e06dd3cfe4baf482c46bae",
+    "pixels": "native derivative (~1024 px long side for these collections)",
+    "note": "Calisphere native master via the /clip size trick; institution holds the physical original"
+   },
+   "description": "Rounded-corner photographic print mounted on a black album page with a typed label reading \"ENGINES AT BEAUMONT\". Six or more steam locomotives face the camera across a fan of tracks: per the Calisphere description, the view looks east from California Street toward the roundhouse in the Beaumont train depot, with two locomotives parked in front of the roundhouse for maintenance, four parked to the right with three atop the ash pits, and the oil tank at the extreme right of the picture. The depot was built in 1887 with many improvements in subsequent years; Calisphere's subject tags identify the operation as Southern Pacific Railroad. The Calisphere item itself is undated.",
+   "corrections": [
+    "Title: filename-derived \"Engines At Beaumont Train Depot Roundhouse Calisphere\" replaced with Calisphere's title \"Engines at Beaumont\" — matches the typed album label on the print.",
+    "Attribution: already credited to Beaumont Library District via Calisphere, now pinned to the specific item CBEA_007 with confidence raised to confirmed by direct image comparison.",
+    "Date: no change — the Calisphere item carries no date, so the local c. 1908-1918 estimate stands.",
+    "Prior editorial edit identifying a locomotive here as \"SP 1768\" with an 1890s date (flagged in project memory as a wrong edit pending revert) is unsupported: the Calisphere record lists no locomotive numbers and no date, and should be reverted wherever it persists."
+   ],
+   "evidence": [
+    {
+     "label": "Calisphere item record — Engines at Beaumont",
+     "url": "https://calisphere.org/item/ark:/13030/c86h4gq8/"
+    },
+    {
+     "label": "Visual match confirmed by direct image comparison (2026-07-21): Identical mounted album print — same 'ENGINES AT BEAUMONT' typed label, same rounded-corner print, and every locomotive, track, and figure position matches exactly."
+    }
+   ],
+   "open_questions": [
+    "Photographer identity — Calisphere lists no creator beyond the institutional \"BLD\".",
+    "Photograph date — Calisphere item is undated; the c. 1908-1918 estimate has not been confirmed (the depot dates to 1887, so an earlier date is possible).",
+    "Identities/road numbers of the individual locomotives are unverified; no numbers are legible in the Calisphere metadata."
+   ],
+   "research_status": "Researched"
+  }
+ }
+}

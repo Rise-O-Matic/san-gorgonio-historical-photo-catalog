@@ -132,6 +132,20 @@ function catalogClick(event) {
 }
 
 function metricRows(record) { return Object.entries(record.print_viability.ppi).map(([ppi, value]) => `<tr><td>${ppi} PPI</td><td>${value.width_inches} × ${value.height_inches} in</td><td>${value.native_crop_width_inches} × ${value.native_crop_height_inches} in</td></tr>`).join(''); }
+function researchPanel(record) {
+  const research = record.research; if (!research) return '';
+  const evidenceItem = e => `<li>${escapeHtml(e.label)}${e.url ? ` — <a href="${escapeHtml(e.url)}" target="_blank" rel="noopener">source</a>` : ''}</li>`;
+  return `<div class="research-box">
+    <p class="eyebrow">${escapeHtml(record.research_status === 'Provenance verified' ? 'Provenance-verified record' : 'Researched record')}${research.researched ? ` · ${escapeHtml(research.researched)}` : ''}${research.select_position ? ` · mural select #${research.select_position}` : ''}</p>
+    ${research.description ? `<p class="research-desc">${escapeHtml(research.description)}</p>` : ''}
+    ${research.holding ? `<p class="research-line"><strong>Holding:</strong> ${escapeHtml(research.holding.institution)}${research.holding.item_id ? ` · ${escapeHtml(research.holding.item_id)}` : ''}${research.holding.url ? ` · <a href="${escapeHtml(research.holding.url)}" target="_blank" rel="noopener">item record</a>` : ''}</p>` : ''}
+    ${record.rights_note && research ? `<p class="research-line"><strong>Rights:</strong> ${escapeHtml(record.rights_note)}</p>` : ''}
+    ${research.best_master ? `<p class="research-line"><strong>Best known master:</strong> ${escapeHtml(research.best_master.pixels || '')} — ${escapeHtml(research.best_master.location || '')}${research.best_master.note ? `<br><small>${escapeHtml(research.best_master.note)}</small>` : ''}</p>` : ''}
+    ${(research.corrections || []).length ? `<h4>Corrections</h4><ul class="research-list">${research.corrections.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul>` : ''}
+    ${(research.evidence || []).length ? `<h4>Evidence</h4><ul class="research-list evidence-list">${research.evidence.map(evidenceItem).join('')}</ul>` : ''}
+    ${(research.open_questions || []).length ? `<h4>Open questions</h4><ul class="research-list">${research.open_questions.map(q => `<li>${escapeHtml(q)}</li>`).join('')}</ul>` : ''}
+  </div>`;
+}
 function showDetail(record) {
   const saved = savedFor(record); const master = fileById(record.master_file_id);
   const livePrint = calculatedPrint(record);
@@ -142,11 +156,12 @@ function showDetail(record) {
   <label>Estimated year<input id="editDate" type="number" min="1800" max="2100" value="${escapeHtml(edited(record,'date',record.date.start)||'')}" placeholder="Unknown"></label>
   <label>Working caption<textarea id="editCaption" placeholder="Add a verified or provisional caption…">${escapeHtml(edited(record,'caption',record.caption))}</textarea></label>
   <label>Attribution / credit<input id="editAttribution" value="${escapeHtml(edited(record,'attribution',record.attribution||'Unknown'))}" placeholder="Holding institution, collection, or creator — 'Unknown' if unestablished"><small class="attribution-note">Source: ${escapeHtml(record.caption_source||'—')} · confidence: ${escapeHtml(record.attribution_confidence||'unknown')}</small></label>
-  <label>Research status<select id="editResearch"><option>${escapeHtml(record.research_status)}</option><option>In progress</option><option>Researched</option></select></label>
+  <label>Research status<select id="editResearch">${[record.research_status, 'In progress', 'Researched', 'Provenance verified'].filter((status, index, all) => all.indexOf(status) === index).map(status => `<option>${escapeHtml(status)}</option>`).join('')}</select></label>
   <label>Scan quality factor<select id="editQuality"><option value="1" ${effectiveQuality(record)===1?'selected':''}>Sharp · 100%</option><option value="0.75" ${effectiveQuality(record)===0.75?'selected':''}>Moderate · 75%</option><option value="0.5" ${effectiveQuality(record)===0.5?'selected':''}>Soft or damaged · 50%</option></select></label>
   <label>Client comment<textarea id="detailComment" placeholder="Why this image works, preferred crop, questions…">${escapeHtml(saved.comment)}</textarea></label>
   <div class="metric-box"><span id="liveClass">${escapeHtml(effectiveClassification(record))}</span><strong id="livePrint">Recommended native maximum: ${livePrint.width} × ${livePrint.height} in at 100 PPI</strong><small>${master.image.width.toLocaleString()} × ${master.image.height.toLocaleString()} original pixels · ${(record.print_viability.crop_allowance_percent)}% crop allowance · <span id="liveQuality">${Math.round(effectiveQuality(record)*100)}</span>% quality factor</small></div>
   <table class="metric-table"><thead><tr><th>Output</th><th>Quality-adjusted</th><th>Native after crop</th></tr></thead><tbody>${metricRows(record)}</tbody></table>
+  ${researchPanel(record)}
   <p class="disclaimer">Quality factors prevent soft or damaged scans from being overrated. AI-upscaled dimensions are not shown as native detail. Dates and machine suggestions require human verification.</p>
   ${record.version_file_ids.length>1?`<button class="secondary-button" id="detailCompare" type="button">Compare ${record.version_file_ids.length} available versions</button>`:''}
   </div></div>`;

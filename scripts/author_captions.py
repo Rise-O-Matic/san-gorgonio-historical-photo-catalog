@@ -31,6 +31,136 @@ CATALOG = REPO / "data" / "catalog.json"
 TIMELINE = Path(r"C:\GitHub\httpssgphs.org\timeline.html")
 OUT = REPO / "data" / "editorial-captions.json"
 
+# --- Manual caption overrides ------------------------------------------------
+# Records whose caption/attribution was refined by hand-research beyond what the
+# filename + SGPHS timeline can yield (mirrors the O-dict pattern in
+# author_date_overrides.py). Applied last in main(), so these win over the
+# auto-generated layer and survive regeneration of editorial-captions.json.
+MANUAL_OVERRIDES: dict[str, dict] = {
+    # "Demonstration train" (Calisphere CBEA_005) — the foreground locomotive's
+    # road number was read directly off the engine in three places that agree:
+    # smokebox number plate (2789), headlight number board (278…), and the painted
+    # last digit (9) on the smokebox shoulder. SP 2789 is an SP class C-9 Harriman
+    # Common Standard 2-8-0 Consolidation (Baldwin ~1905).
+    "img_07a9db15e22db499": {
+        "caption": "Southern Pacific shop crew with locomotive No. 2789 — a C-9 "
+                   "Harriman Common Standard 2-8-0 Consolidation — at the Beaumont "
+                   "yard, c. 1905-1915",
+        "attribution": "Beaumont Library District (Calisphere CBEA_005); also cited "
+                       "as Banning Library District",
+        "attribution_confidence": "medium",
+        "caption_source": "Locomotive identified from external research (Calisphere CBEA_005)",
+        "basis": "Foreground locomotive is Southern Pacific No. 2789, read directly "
+                 "from the engine in three places that agree — the oval smokebox "
+                 "number plate (2-7-8-9), the headlight number board (278…), and the "
+                 "painted last digit (9) on the smokebox shoulder — on a "
+                 "high-resolution Calisphere scan (item CBEA_005, ark:/13030/c8g1605q). "
+                 "SP 2789 is in the C-9 Consolidation batch 2752-2830 (Baldwin ~1905), "
+                 "a Harriman Common Standard 2-8-0; its shared Common-Standard front "
+                 "end (tapered-base class lamps, handrail, riveted smokebox disc) "
+                 "matches the class. Date c. 1905-1915: the class was built from "
+                 "~1905, the high-mounted oil headlight predates SP's 1910s electric "
+                 "conversions, and Calisphere dates the scene to the early 1900s "
+                 "(superseding the SGPHS timeline's '1890s' caption). Holder differs "
+                 "by source: Calisphere lists Beaumont Library District (CBEA_005); "
+                 "the SGPHS timeline labels it 'from Banning Library District.' "
+                 "Sources: Calisphere CBEA_005; espee.railfan.net SP C-9 roster; "
+                 "utahrails.net (Harriman Common Standard).",
+    },
+    # --- Mural-select records re-grounded against Calisphere (2026-07-20) -------
+    # Each below is the SAME photograph as the cited Calisphere Beaumont Library
+    # District item (verified by eye). Calisphere is treated as ground truth,
+    # superseding the SGPHS-timeline-derived captions.
+    # 03 — "1860s stagecoach" is actually a 1907 Egan Ave livery-stable street scene.
+    "img_650198dd9e4987ea": {
+        "caption": "Egan Avenue at the granite Drew Frank Realty / Burt Carter's "
+                   "Livery Stable block, with the livery's horse-drawn rigs lined up "
+                   "along the street, 1907",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_011, ark:/13030/c8tb167d)",
+        "attribution_confidence": "high",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_011)",
+        "basis": "Same photograph as Calisphere CBEA_011, 'Egan Ave, 1907-1908 "
+                 "Granite Building. J. Drew Frank Realty and Burt Carter's Livery "
+                 "Stable'; the mount is labeled 'Beaumont 1907'. The catalog's "
+                 "'stagecoach, 1860' label is wrong — it is a 1907 Egan Ave street "
+                 "scene of the livery stable's wagons.",
+    },
+    # 04 — Beaumont depot; Calisphere gives no date, catalog's '1875' is untenable.
+    "img_6f833a14a7764e47": {
+        "caption": "The Southern Pacific depot in Beaumont, looking east along the "
+                   "platform, with a passenger train and the water tower beyond",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_134, ark:/13030/c85x2881)",
+        "attribution_confidence": "high",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_134)",
+        "basis": "Same photograph as Calisphere CBEA_134, 'Southern Pacific Depot in "
+                 "Beaumont, looking east.' Calisphere gives no date; the catalog's "
+                 "'1875' is untenable (Beaumont was not platted until c.1887 and the "
+                 "scene shows a large Edwardian-era crowd, a long train, and "
+                 "telegraph/power poles), so the year is widened to c.1905-1915 on "
+                 "visual grounds.",
+    },
+    # 07 — Stewart Ranch; Calisphere flags this item as Copyrighted (rights holder named).
+    "img_c15c20a838d86c18": {
+        "caption": "Stewart Ranch harvest — crop hands, horse teams and threshing "
+                   "machines at work, looking south toward the railroad and the mountains",
+        "attribution": "Beaumont Library District, via Calisphere (ark:/13030/c87p8xrn); "
+                       "rights: Copyrighted, Laura May Stewart Trust",
+        "attribution_confidence": "high",
+        "caption_source": "Calisphere Beaumont Library District collection (ark c87p8xrn)",
+        "basis": "Same photograph as Calisphere 'Stewart Ranch; men with horses and "
+                 "thrashing machines. Looking south with the railroad, Stewart Ranch, "
+                 "and the mountains in the background.' Calisphere gives no date "
+                 "(catalog retains c.1883) and marks the item Copyrighted, held by the "
+                 "Laura May Stewart Trust — clear rights before any reuse.",
+    },
+    # 10 — Beaumont 'boom' hotel (later Edinburgh Hotel), burned 16 Aug 1909.
+    "img_b08de96dbf496fab": {
+        "caption": "The Beaumont 'boom' hotel — the ornate Victorian resort hotel later "
+                   "known as the Edinburgh Hotel, which burned on 16 August 1909",
+        "attribution": "Beaumont Library District, via Calisphere (ark:/13030/c81v5d9b)",
+        "attribution_confidence": "high",
+        "caption_source": "Calisphere Beaumont Library District collection (ark c81v5d9b)",
+        "basis": "Same photograph as Calisphere c81v5d9b, 'Beaumont boom hotel, burned "
+                 "August 16, 1909. Became the Edinburgh Hotel.' Calisphere gives no "
+                 "photo date; the hotel stood c.1887-1909, so the catalog's c.1890 is "
+                 "plausible and is retained.",
+    },
+    # 11 — Beaumont Women's Clubhouse building.
+    "img_96cb1ed10cb5a0fd": {
+        "caption": "The Beaumont Women's Clubhouse building on 6th Street "
+                   "(captioned on the mount 'Ladies' Club House, Beaumont')",
+        "attribution": "Beaumont Library District, via Calisphere (ark:/13030/c80k27x4)",
+        "attribution_confidence": "high",
+        "caption_source": "Calisphere Beaumont Library District collection (ark c80k27x4)",
+        "basis": "Same real-photo postcard as Calisphere c80k27x4, 'The Beaumont "
+                 "Women's Clubhouse Building, 6th Street.' Calisphere gives no date; "
+                 "the automobiles visible read as 1920s-30s, so the catalog's 1911 "
+                 "(the club's founding year) likely predates the photograph.",
+    },
+    # 13 — A man and fruit tree.
+    "img_a3f413e8c9ed23bb": {
+        "caption": "A man standing beside a young fruit tree, a large building on the "
+                   "rise behind him",
+        "attribution": "Beaumont Library District, via Calisphere (ark:/13030/c83f4nzv)",
+        "attribution_confidence": "high",
+        "caption_source": "Calisphere Beaumont Library District collection (ark c83f4nzv)",
+        "basis": "Same photograph as Calisphere c83f4nzv, 'A man and fruit tree.' "
+                 "Calisphere gives no date (catalog retains c.1927); rights: copyright "
+                 "status unknown.",
+    },
+    # 14 — Mellen Ranch orchard, 1909 (catalog's 'Cherry Tree Farm, 1930' is wrong).
+    "img_a4ddc941e94d3eed": {
+        "caption": "The Mellen Ranch orchard in bloom, Beaumont, 1909",
+        "attribution": "Beaumont Library District, via Calisphere (ark:/13030/c8kh0mpc)",
+        "attribution_confidence": "high",
+        "caption_source": "Calisphere Beaumont Library District collection (ark c8kh0mpc)",
+        "basis": "Calisphere item c8kh0mpc titles it 'Mellen Ranch, 1909'; the mount "
+                 "carries two labels, 'BEAUMONT ORCHARD 1909' and 'MELLEN RANCH 1909'. "
+                 "The catalog's 'Cherry Tree Farm, 1930' is wrong — it is the Mellen "
+                 "Ranch orchard, 1909.",
+    },
+}
+
 # --- 1. Harvest the SGPHS timeline (caption + credit per image) --------------
 
 def harvest_timeline() -> dict[str, dict[str, str]]:
@@ -248,6 +378,13 @@ def main() -> None:
                      + ("." if attribution == "Unknown"
                         else f"; credit parsed from filename provenance."),
         }
+
+    # Manual research overrides win over the auto-generated layer.
+    for rid, ov in MANUAL_OVERRIDES.items():
+        if rid in captions:
+            captions[rid].update(ov)
+        else:
+            captions[rid] = ov
 
     doc = {
         "schema_version": "1.0.0",

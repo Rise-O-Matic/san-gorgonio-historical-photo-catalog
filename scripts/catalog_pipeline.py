@@ -590,6 +590,53 @@ def apply_editorial_captions(records: list[dict[str, Any]], captions_path: Path)
     return applied
 
 
+def apply_editorial_research(records: list[dict[str, Any]], research_path: Path) -> int:
+    """Overlay the deep-research layer onto generated records.
+
+    data/editorial-research.json (merged from the per-batch JSON files under
+    data/research-authored/ by scripts/author_research.py)
+    carries what the caption and date layers cannot: corrected display titles,
+    long descriptions, per-photo corrections logs, per-claim evidence links,
+    rights findings, holding institutions with item URLs, pointers to
+    better-than-archive masters, and open questions for the holding
+    institutions. Records covered here are marked "Researched"; the pipeline
+    itself never asserts any of this. Missing file: no-op.
+    """
+    if not research_path.exists():
+        return 0
+    try:
+        doc = json.loads(research_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return 0
+    entries = doc.get("entries", {})
+    doc_manifest = doc.get("source_manifest", "")
+    applied = 0
+    for record in records:
+        entry = entries.get(record["id"])
+        if not entry:
+            continue
+        research = {
+            key: entry[key]
+            for key in ("select_position", "original_title", "description",
+                        "corrections", "evidence", "holding", "best_master",
+                        "open_questions", "researched")
+            if entry.get(key) not in (None, [], "")
+        }
+        source_manifest = entry.get("source_manifest") or doc_manifest
+        if source_manifest:
+            research["source_manifest"] = source_manifest
+        record["research"] = research
+        if entry.get("title"):
+            record["title"] = entry["title"]
+        if entry.get("rights"):
+            record["rights_note"] = entry["rights"]
+        if entry.get("rights_status"):
+            record["rights_status"] = entry["rights_status"]
+        record["research_status"] = entry.get("research_status", "Researched")
+        applied += 1
+    return applied
+
+
 def write_csv(path: Path, rows: list[dict[str, Any]], fields: list[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8-sig") as handle:
@@ -674,6 +721,7 @@ def ingest(config_path: Path, repo: Path, skip_ocr: bool = False) -> dict[str, A
     records = [merge_record(group, match_map, crop_allowance) for group in grouped.values()]
     apply_editorial_overrides(records, repo / config.get("output_directory", "data") / "editorial-overrides.json")
     apply_editorial_captions(records, repo / config.get("output_directory", "data") / "editorial-captions.json")
+    apply_editorial_research(records, repo / config.get("output_directory", "data") / "editorial-research.json")
     records.sort(key=lambda item: (item["date"]["start"] is None, item["date"]["start"] or 9999, item["title"].lower()))
     file_index = {item["file_id"]: item for item in files}
     for record in records:
@@ -684,15 +732,19 @@ def ingest(config_path: Path, repo: Path, skip_ocr: bool = False) -> dict[str, A
 
     research_queue = []
     for record in records:
+        researched = record.get("research_status") == "Researched"
         priority = 100 if record["curated"] else 40
         if record["print_viability"]["classification"] != "Production Ready":
             priority += 20
         if not record["date"]["start"]:
             priority += 10
+        if researched:
+            priority = 0
         research_queue.append({
             "record_id": record["id"], "title": record["title"], "priority": priority,
-            "reason": "Curated mural candidate" if record["curated"] else "Low native print viability or missing historical context",
-            "status": "Queued", "search_terms": record["search_terms"],
+            "reason": "Researched — evidence-linked record in the catalog" if researched
+            else ("Curated mural candidate" if record["curated"] else "Low native print viability or missing historical context"),
+            "status": "Researched" if researched else "Queued", "search_terms": record["search_terms"],
             "candidate_sources": config.get("research_sources", []), "candidates": []
         })
     research_queue.sort(key=lambda item: (-item["priority"], item["title"]))
@@ -717,7 +769,7 @@ def ingest(config_path: Path, repo: Path, skip_ocr: bool = False) -> dict[str, A
     json_dump(output / "reports" / "unreadable-files.json", unreadable)
     json_dump(output / "reports" / "duplicate-review.json", {"pairs": review_pairs})
     write_csv(output / "files.csv", [{**item, "width": item["image"]["width"], "height": item["image"]["height"], "format": item["image"]["format"]} for item in files], ["file_id", "path", "filename", "source_key", "source_priority", "curated", "sha256", "size_bytes", "format", "width", "height", "thumbnail", "preview"])
-    write_csv(output / "catalog.csv", [{"id": item["id"], "title": item["title"], "caption": item.get("caption", ""), "attribution": item.get("attribution", "Unknown"), "attribution_confidence": item.get("attribution_confidence", "unknown"), "caption_source": item.get("caption_source", ""), "date_start": item["date"]["start"], "date_end": item["date"]["end"], "decade": item["decade"], "curated": item["curated"], "selected_default": item["selected_default"], "classification": item["print_viability"]["classification"], "recommended_print": item["print_viability"]["recommended"], "master_file_id": item["master_file_id"], "rights_status": item["rights_status"], "research_status": item["research_status"]} for item in records], ["id", "title", "caption", "attribution", "attribution_confidence", "caption_source", "date_start", "date_end", "decade", "curated", "selected_default", "classification", "recommended_print", "master_file_id", "rights_status", "research_status"])
+    write_csv(output / "catalog.csv", [{"id": item["id"], "title": item["title"], "caption": item.get("caption", ""), "attribution": item.get("attribution", "Unknown"), "attribution_confidence": item.get("attribution_confidence", "unknown"), "caption_source": item.get("caption_source", ""), "date_start": item["date"]["start"], "date_end": item["date"]["end"], "decade": item["decade"], "curated": item["curated"], "selected_default": item["selected_default"], "classification": item["print_viability"]["classification"], "recommended_print": item["print_viability"]["recommended"], "master_file_id": item["master_file_id"], "rights_status": item["rights_status"], "research_status": item["research_status"], "evidence_urls": "; ".join(evidence["url"] for evidence in (item.get("research") or {}).get("evidence", []) if evidence.get("url"))} for item in records], ["id", "title", "caption", "attribution", "attribution_confidence", "caption_source", "date_start", "date_end", "decade", "curated", "selected_default", "classification", "recommended_print", "master_file_id", "rights_status", "research_status", "evidence_urls"])
     write_csv(output / "reports" / "unreadable-files.csv", unreadable, ["path", "filename", "source_key", "reason", "classification", "action"])
     write_csv(output / "reports" / "duplicate-review.csv", review_pairs, ["classification", "confidence", "distance", "reason", "left_file_id", "right_file_id", "left_path", "right_path"])
     return catalog

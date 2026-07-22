@@ -1,0 +1,2057 @@
+{
+ "img_0092d056a315fe98": {
+  "record_id": "img_0092d056a315fe98",
+  "plausible": [],
+  "note": "Record is a 2020 photo of Bogart House; candidate is a 1938 festival event — different photo."
+ },
+ "img_11892e76e7df49d3": {
+  "record_id": "img_11892e76e7df49d3",
+  "plausible": [],
+  "note": "Modern 2020s cafe photo; candidates are 1930s-40s different businesses."
+ },
+ "img_240a367ade7eccf1": {
+  "record_id": "img_240a367ade7eccf1",
+  "plausible": [
+   {
+    "ark": "c8668chr",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Near-verbatim title: water well drilling in Edgar Canyon, 1908"
+   },
+   {
+    "ark": "c8xp7494",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Edgar Canyon flowing well — same locale, likely different scene (viewing vs drilling)"
+   },
+   {
+    "ark": "c8z037hz",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same Edgar Canyon well site 1908; excursion crowd photo could match a well-drilling scene"
+   }
+  ]
+ },
+ "img_366a85910d2e675f": {
+  "record_id": "img_366a85910d2e675f",
+  "plausible": [],
+  "note": "Nancy Motel is a different motel than Desert Outpost."
+ },
+ "img_4239365a9df07707": {
+  "record_id": "img_4239365a9df07707",
+  "plausible": [],
+  "note": "Record title says Calisphere origin, but neither candidate depicts Fifth Street."
+ },
+ "img_4eeb78c48b2bca4b": {
+  "record_id": "img_4eeb78c48b2bca4b",
+  "plausible": [],
+  "note": "Dowling Orchards (contemporary) vs Hadley Fruit Orchards 1970s — different store and era."
+ },
+ "img_5f9b3935055576a5": {
+  "record_id": "img_5f9b3935055576a5",
+  "plausible": [
+   {
+    "ark": "c8416wdh",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Exact subject 'Wellwood School', undated — could be the same first-building photo"
+   },
+   {
+    "ark": "c84b30nv",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Wellwood School but dated 1910; record specifically claims first building 1890-93"
+   }
+  ]
+ },
+ "img_6feb4c505e0a58be": {
+  "record_id": "img_6feb4c505e0a58be",
+  "plausible": [],
+  "note": "Joe's Cafe strike scene not matched by Hotel Banning or Desert Outpost cafes."
+ },
+ "img_82f263746528ece8": {
+  "record_id": "img_82f263746528ece8",
+  "plausible": [
+   {
+    "ark": "c8251hjm",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Bank building at 5th & Egan Beaumont — same subject area, unknown if same view/date"
+   },
+   {
+    "ark": "c8qr4whm",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Beaumont Ave bank postcard; record says Fifth St view — possibly same scene differently described"
+   }
+  ]
+ },
+ "img_92af244203629094": {
+  "record_id": "img_92af244203629094",
+  "plausible": [],
+  "note": "El Rancho corner vs Rainbow Rancho trout hatchery in Whitewater — unrelated."
+ },
+ "img_9c26cfc39eca4fc9": {
+  "record_id": "img_9c26cfc39eca4fc9",
+  "plausible": [
+   {
+    "ark": "c8qn663p",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Beaumont US Post Office postcard, era-compatible; street named differently but could be same view"
+   },
+   {
+    "ark": "c8h70f56",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same corner (5th & Egan) with Post Office but dated 1890s vs record 1910-15; local date may be guessed"
+   },
+   {
+    "ark": "c80z72mq",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Post office was on Egan Ave corner; a generic 'Egan Ave' view could be the same shot."
+   }
+  ]
+ },
+ "img_a9b8f17ec8b1a61d": {
+  "record_id": "img_a9b8f17ec8b1a61d",
+  "plausible": [
+   {
+    "ark": "c8c24vss",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Undated 'Beaumont City Hall' — same building as record"
+   },
+   {
+    "ark": "c87h1hxj",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Beaumont fire station but dated 1971 vs record 1935-55; record date is a guess"
+   }
+  ]
+ },
+ "img_ca02842503e130c9": {
+  "record_id": "img_ca02842503e130c9",
+  "plausible": [],
+  "note": "Family portrait at SP section house; candidates are depot/track views."
+ },
+ "img_dec6944cb7b040ba": {
+  "record_id": "img_dec6944cb7b040ba",
+  "plausible": [
+   {
+    "ark": "c87h1hxj",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Record explicitly sourced from Calisphere dated 1971; exact date and Beaumont FD match"
+   },
+   {
+    "ark": "c8c828n8",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Duplicate-titled Beaumont Fire Station 1971 item — one of the pair is almost certainly the source"
+   }
+  ]
+ },
+ "img_ecbadf0d854de4dc": {
+  "record_id": "img_ecbadf0d854de4dc",
+  "plausible": [
+   {
+    "ark": "c8h131c0",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Beaumont Fire Dept station front, undated — plausibly same late-50s/60s photo"
+   },
+   {
+    "ark": "c83r0qwc",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "1960s fire dept volunteers, but Banning not Beaumont"
+   }
+  ]
+ },
+ "img_00cfeb70e204b1b8": {
+  "record_id": "img_00cfeb70e204b1b8",
+  "plausible": [],
+  "note": "Record is a 2020s photo of Ramona's Cafe bushes; both candidates are 1930s-40s hotels/motels."
+ },
+ "img_157678621f95c278": {
+  "record_id": "img_157678621f95c278",
+  "plausible": [
+   {
+    "ark": "c80z72mq",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Same street, undated candidate; could be same view north"
+   }
+  ],
+  "note": "Egan Ave is Beaumont; candidate is a Banning storefront. Date fits but subject/town differ."
+ },
+ "img_2846f7be40e9aff6": {
+  "record_id": "img_2846f7be40e9aff6",
+  "plausible": [
+   {
+    "ark": "c8fq9vz3",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Same Stewart Ranch, date within range; could be same equipment scene"
+   },
+   {
+    "ark": "c8nc60jn",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same ranch, undated; different-photo risk high"
+   }
+  ]
+ },
+ "img_36bc04455099c9d7": {
+  "record_id": "img_36bc04455099c9d7",
+  "plausible": [
+   {
+    "ark": "c8q23zk2",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Beaumont cherry subject; could be the Dowling sorting photo but title is generic"
+   }
+  ]
+ },
+ "img_433403e951bbabcd": {
+  "record_id": "img_433403e951bbabcd",
+  "plausible": [],
+  "note": "Beaumont depot workers vs Banning depot / 1909 demonstration train — town or event mismatch."
+ },
+ "img_50e61a8496f4bfd2": {
+  "record_id": "img_50e61a8496f4bfd2",
+  "plausible": [],
+  "note": "1910 fountain dedication vs 1960s library interior — unrelated."
+ },
+ "img_61eb33f53f56982d": {
+  "record_id": "img_61eb33f53f56982d",
+  "plausible": [],
+  "note": "2018 Google capture of McCoy House; candidate is the historic McCoy Lumber Yard, different subject/era."
+ },
+ "img_70f5802804fd1652": {
+  "record_id": "img_70f5802804fd1652",
+  "plausible": [],
+  "note": "Postcard of hotel/station/store c.1900-08; candidates are a specific 1909 demonstration-train event and street scenes — same locale, different photos."
+ },
+ "img_83b4208d7a588795": {
+  "record_id": "img_83b4208d7a588795",
+  "plausible": [
+   {
+    "ark": "c8765dpk",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "'Flowing Well, Beaumont' matches a Beaumont water-well photo of this era"
+   },
+   {
+    "ark": "c8668chr",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Water well subject, 1908 within local range; Edgar Canyon drilling could be this well"
+   }
+  ]
+ },
+ "img_92d81318b1127f4b": {
+  "record_id": "img_92d81318b1127f4b",
+  "plausible": [
+   {
+    "ark": "c8pk0fhp",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Summit House (ex-Beatty House), same subject and era"
+   },
+   {
+    "ark": "c88g8k2s",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Summit House dated 1911, within record range"
+   },
+   {
+    "ark": "c8m043d7",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "Summit House but circa 1890s, slightly before record range"
+   },
+   {
+    "ark": "c80z72mq",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Egan Ave block/Summit House scene could be the same Egan Ave street view"
+   }
+  ],
+  "note": "Caption says Summit House; multiple Summit House photos exist, needs visual check."
+ },
+ "img_9c808818200e7a56": {
+  "record_id": "img_9c808818200e7a56",
+  "plausible": [],
+  "note": "Beaumont FD volunteers 1980; candidates are Banning FD 1960s or Beaumont station building 1971 — mismatched."
+ },
+ "img_acf4949ced58906e": {
+  "record_id": "img_acf4949ced58906e",
+  "plausible": [],
+  "note": "Record is a 2022 photo; Calisphere First Christian Church item is historic — same building, cannot be same photograph."
+ },
+ "img_cb8fe08683e0e832": {
+  "record_id": "img_cb8fe08683e0e832",
+  "plausible": [],
+  "note": "2025 parade photo; all candidates pre-1950."
+ },
+ "img_dee5615ad57181f9": {
+  "record_id": "img_dee5615ad57181f9",
+  "plausible": [
+   {
+    "ark": "c8np23r5",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Same Laura Mae Stewart scene c.1911; local caption may misattribute who is on horseback — likely same photo"
+   }
+  ]
+ },
+ "img_ed9a0626308ebccf": {
+  "record_id": "img_ed9a0626308ebccf",
+  "plausible": [],
+  "note": "Dowling with truck 1918-25; orchard 1911 and Banning events don't match a truck portrait."
+ },
+ "img_03056ebb373ddd81": {
+  "record_id": "img_03056ebb373ddd81",
+  "plausible": [
+   {
+    "ark": "c8c24vss",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "'Beaumont City Hall' matches subject directly; could be same photo of the old city hall"
+   }
+  ],
+  "note": "1935 Banning street scenes and 1955 parade are different subjects"
+ },
+ "img_179919b175fe6648": {
+  "record_id": "img_179919b175fe6648",
+  "plausible": [
+   {
+    "ark": "c80z72mq",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Both Egan Ave street views, era compatible; could be the same postcard/photo."
+   }
+  ],
+  "note": "Library building candidates are a different subject than an Egan Ave street view"
+ },
+ "img_284993317d64a5e4": {
+  "record_id": "img_284993317d64a5e4",
+  "plausible": [],
+  "note": "Record is a 2020s fountain photo; Triangle Service Station is unrelated"
+ },
+ "img_37aa1bf5e6a5fe7d": {
+  "record_id": "img_37aa1bf5e6a5fe7d",
+  "plausible": [
+   {
+    "ark": "c8vt1rg9",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Cherry Festival parade float photo; could be the same parade shot but many parade photos exist"
+   },
+   {
+    "ark": "c8br8rjh",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Exact year 1947 Cherry Festival, but Queen and Court may be a different scene than the parade"
+   },
+   {
+    "ark": "c880520q",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Same event and exact year (1947 Cherry Festival parade); local caption is generic so Girl Scout float shot could be the same image."
+   }
+  ],
+  "note": "Library candidates dropped"
+ },
+ "img_43eb34083eb2296d": {
+  "record_id": "img_43eb34083eb2296d",
+  "plausible": [
+   {
+    "ark": "c8b56j3k",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Edinburgh Hotel = Beaumont boom hotel; exact 1888 date match, though banquet scene may differ"
+   }
+  ]
+ },
+ "img_5216d93c22702ca5": {
+  "record_id": "img_5216d93c22702ca5",
+  "plausible": [],
+  "note": "Portrait of the Estradas vs gas station photo — unrelated"
+ },
+ "img_6278e20aa65dd6a8": {
+  "record_id": "img_6278e20aa65dd6a8",
+  "plausible": [
+   {
+    "ark": "c82z14wg",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Near-verbatim: Beaumont Land & Water Company Pumping Plant #1; record notes source is Beaumont Library District (coll 1828)"
+   },
+   {
+    "ark": "c8cr5sqb",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same company but 'fruit farms' suggests a landscape view, likely different photo"
+   },
+   {
+    "ark": "c8z60ndh",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "A pumping plant but Southern Pacific's, 1916 — different operator, possibly misattributed locally"
+   }
+  ]
+ },
+ "img_72b5acdf8b88fc6c": {
+  "record_id": "img_72b5acdf8b88fc6c",
+  "plausible": [],
+  "note": "1911 orchard and Gray's Department Store interior don't match a 1950s-60s Dowling Orchard Store interior"
+ },
+ "img_863f0fc9e94e4ebb": {
+  "record_id": "img_863f0fc9e94e4ebb",
+  "plausible": [],
+  "note": "Record is a modern close-up of the 1923 bank engraving; historic bank-building photos are different photographs by definition"
+ },
+ "img_934590dec97e3d15": {
+  "record_id": "img_934590dec97e3d15",
+  "plausible": [],
+  "note": "No candidate depicts the Beaumont depot; flood, school, hall, library, demonstration-train photos are other subjects"
+ },
+ "img_9dee891466dac007": {
+  "record_id": "img_9dee891466dac007",
+  "plausible": [],
+  "note": "Cheerleaders and a 1950s car dealership are unrelated to a 1920s Beaumont store exterior"
+ },
+ "img_b0d82053666b74fe": {
+  "record_id": "img_b0d82053666b74fe",
+  "plausible": [
+   {
+    "ark": "c84x574n",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Guy Bogart at his desk at home — same specific scene; titled 1955 vs record 1935-48, but local date is a guess so conflict is soft"
+   }
+  ]
+ },
+ "img_cc7036a752144a64": {
+  "record_id": "img_cc7036a752144a64",
+  "plausible": [
+   {
+    "ark": "c8k64jrv",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "Depot + circa 1940 matches date, but it is the Banning depot, not Beaumont; plausible only if record location is wrong"
+   }
+  ]
+ },
+ "img_df9bd9231a83651c": {
+  "record_id": "img_df9bd9231a83651c",
+  "plausible": [
+   {
+    "ark": "c8fq9vz3",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Stewart Ranch 1900 fits name and date, but record appears to be a portrait of Reznor Stewart, not the ranch"
+   },
+   {
+    "ark": "c8nc60jn",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Undated Stewart Ranch view; same name-match caveat"
+   }
+  ]
+ },
+ "img_ef0e1fe665c580a0": {
+  "record_id": "img_ef0e1fe665c580a0",
+  "plausible": [
+   {
+    "ark": "c8td9vbb",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "Beaumont cafe on the highway, 1940s — plausibly the same roadside cafe, but title names Desert Outpost Motel"
+   },
+   {
+    "ark": "c8st7mv7",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "Cafe circa 1930s but at Hotel Banning, not Sixth Street Beaumont"
+   },
+   {
+    "ark": "c8x63m84",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Downtown view naming Hwys 60/70/99 could be the same street scene containing the cafe"
+   }
+  ],
+  "note": "Race track/stables postcard dropped despite high score — wrong subject"
+ },
+ "img_03ae9abaca02013c": {
+  "record_id": "img_03ae9abaca02013c",
+  "plausible": [],
+  "note": "Gray's Dept Store interior is a different store than Sumner S&S"
+ },
+ "img_19665af80792888c": {
+  "record_id": "img_19665af80792888c",
+  "plausible": [],
+  "note": "No candidate is a Gateway Gazette (newspaper office) interior"
+ },
+ "img_2880f54eaa19145f": {
+  "record_id": "img_2880f54eaa19145f",
+  "plausible": [
+   {
+    "ark": "c8n015wh",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Near-verbatim: Beaumont Grammar School 1911, exact year match"
+   }
+  ]
+ },
+ "img_37bbc779f837532c": {
+  "record_id": "img_37bbc779f837532c",
+  "plausible": [],
+  "note": "Modern (2015-2024) society tour photo; candidates are historic and unrelated"
+ },
+ "img_477fd73b5434521f": {
+  "record_id": "img_477fd73b5434521f",
+  "plausible": [
+   {
+    "ark": "c8td9wp7",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Title near-verbatim: John J. McCoy Lumber Yard"
+   }
+  ]
+ },
+ "img_530924ee0ded82c6": {
+  "record_id": "img_530924ee0ded82c6",
+  "plausible": [],
+  "note": "1977 letter document; WWI volunteers photo unrelated"
+ },
+ "img_62e54c6518d7403e": {
+  "record_id": "img_62e54c6518d7403e",
+  "plausible": [
+   {
+    "ark": "c8qn663p",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same post office on Beaumont Ave, but dedication event scene not indicated in candidate title"
+   }
+  ]
+ },
+ "img_7547c2a1a3855993": {
+  "record_id": "img_7547c2a1a3855993",
+  "plausible": [
+   {
+    "ark": "c8qn663p",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same post office subject; postcard view may not show 1910 WCTU fountain dedication"
+   }
+  ]
+ },
+ "img_865e3dceea5cb7ba": {
+  "record_id": "img_865e3dceea5cb7ba",
+  "plausible": [],
+  "note": "No candidate shows a fire engine in a Cherry Festival parade; fire-station and Banning FD photos are different subjects"
+ },
+ "img_9537c0e4968709f8": {
+  "record_id": "img_9537c0e4968709f8",
+  "plausible": [
+   {
+    "ark": "c86t0kz7",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Aerial development map, Nov 1988 — exact title/date match"
+   }
+  ]
+ },
+ "img_a04b2576fd8d515e": {
+  "record_id": "img_a04b2576fd8d515e",
+  "plausible": [],
+  "note": "2020s cafe photo; 1930s-40s hotel/motel cafes are different subjects and dates"
+ },
+ "img_b2764c9151e44824": {
+  "record_id": "img_b2764c9151e44824",
+  "plausible": [
+   {
+    "ark": "c82z14wg",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Beaumont Land & Water Co pumping plant — same company, could be the same building photo"
+   },
+   {
+    "ark": "c8cr5sqb",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Beaumont Land and Water Co view; same-subject-different-photo risk high"
+   }
+  ],
+  "note": "Library candidates are just filename-source noise"
+ },
+ "img_cd302d98752b29e0": {
+  "record_id": "img_cd302d98752b29e0",
+  "plausible": [
+   {
+    "ark": "c89886b2",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "'Beaumont's 2nd Bank Building, erected 1923' — matches Second Bank of Beaumont and date range"
+   },
+   {
+    "ark": "c8z60m15",
+    "coll": "1582",
+    "confidence": "medium",
+    "why": "Second (1923) Bank of Beaumont building; Calisphere's 'circa 1920' is loose enough to be the same building photo."
+   }
+  ]
+ },
+ "img_e0a4861e5d654fdb": {
+  "record_id": "img_e0a4861e5d654fdb",
+  "plausible": [],
+  "note": "Cherry trees 1907 and Highland Springs blossoms are different subjects than eucalyptus-lined Beaumont Ave"
+ },
+ "img_f03f7f375191edf6": {
+  "record_id": "img_f03f7f375191edf6",
+  "plausible": [],
+  "note": "Record says 'from Calisphere' but no candidate shows Beaumont FD with hose cart; fire station buildings and Banning items don't match"
+ },
+ "img_040513e8698b345f": {
+  "record_id": "img_040513e8698b345f",
+  "plausible": [],
+  "note": "2020s cafe photo; both candidates are 1930s-40s different establishments"
+ },
+ "img_19d3efd814020eed": {
+  "record_id": "img_19d3efd814020eed",
+  "plausible": [
+   {
+    "ark": "c8hd7v09",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Near-verbatim: 5th St looking west, circa 1949-50 matches record date exactly"
+   }
+  ]
+ },
+ "img_291537b3068812cf": {
+  "record_id": "img_291537b3068812cf",
+  "plausible": [],
+  "note": "Record is a portrait of C.B. Eyer; candidates are a school group and John Morongo portrait — different subjects"
+ },
+ "img_37e600853baf16af": {
+  "record_id": "img_37e600853baf16af",
+  "plausible": [
+   {
+    "ark": "c8ks6pkw",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "1955 Stagecoach Days parade fits record's c.1955 date; subject of Facebook photo unknown — needs visual check"
+   }
+  ],
+  "note": "Record title uninformative"
+ },
+ "img_47cf3e6c1c4e364b": {
+  "record_id": "img_47cf3e6c1c4e364b",
+  "plausible": [
+   {
+    "ark": "c8416wdh",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Same building, undated; could be same photo"
+   },
+   {
+    "ark": "c84b30nv",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same building but dated 1910 vs record's 1921 build date (record date may reflect building, not photo)"
+   }
+  ]
+ },
+ "img_530a9cbb25c298f7": {
+  "record_id": "img_530a9cbb25c298f7",
+  "plausible": [
+   {
+    "ark": "c8416wdh",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Wellwood School, undated; same building"
+   },
+   {
+    "ark": "c84b30nv",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Wellwood School but 1910 vs 1921 record date"
+   }
+  ],
+  "note": "Library candidates are a different building"
+ },
+ "img_634101dcee127994": {
+  "record_id": "img_634101dcee127994",
+  "plausible": [
+   {
+    "ark": "c8k64jrv",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "c.1940 depot photo, but Banning depot vs record's Beaumont depot — plausible only if location mislabeled"
+   }
+  ]
+ },
+ "img_7707eba1df237c65": {
+  "record_id": "img_7707eba1df237c65",
+  "plausible": [],
+  "note": "Record is a 1939 Desert Sun newspaper item; no candidate matches"
+ },
+ "img_87313621a59a7991": {
+  "record_id": "img_87313621a59a7991",
+  "plausible": [],
+  "note": "2020s Ramona's Cafe; candidates are unrelated 1930s-40s businesses"
+ },
+ "img_953fbfaa8e42a2fb": {
+  "record_id": "img_953fbfaa8e42a2fb",
+  "plausible": [],
+  "note": "Portrait of Iola Stower Dowling; candidates are flood and school photos"
+ },
+ "img_a08051acb6b37033": {
+  "record_id": "img_a08051acb6b37033",
+  "plausible": [],
+  "note": "1980 Beaumont VFD Cherry Festival taco booth; no candidate matches event/subject"
+ },
+ "img_b3dcb09d831e2058": {
+  "record_id": "img_b3dcb09d831e2058",
+  "plausible": [],
+  "note": "Interior portrait of Laura May Stewart c.1945-65; Stewart-related candidates (1914 parade, ranch exteriors) are different photos"
+ },
+ "img_cfdaf786f32d7ba0": {
+  "record_id": "img_cfdaf786f32d7ba0",
+  "plausible": [
+   {
+    "ark": "c8fq9vz3",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Stewart Ranch 1900 within record range; equipment vs generic ranch view — same-subject risk high"
+   },
+   {
+    "ark": "c8nc60jn",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Undated Stewart Ranch photo; could be same equipment scene"
+   }
+  ]
+ },
+ "img_e223c8fe27b85e0d": {
+  "record_id": "img_e223c8fe27b85e0d",
+  "plausible": [],
+  "note": "Portrait of Reznor Stewart; ranch landscape candidates are a different subject type"
+ },
+ "img_f525afa6dc4390a8": {
+  "record_id": "img_f525afa6dc4390a8",
+  "plausible": [],
+  "note": "1908 Gateway Gazette newspaper; 1920 parade photo not a match"
+ },
+ "img_04328f685390128c": {
+  "record_id": "img_04328f685390128c",
+  "plausible": [],
+  "note": "Record is a 2000s-2010s memorial; candidates are 1971 fire station, 1890s portrait, hospital postcard — all different subjects/eras."
+ },
+ "img_1ac667107bd74996": {
+  "record_id": "img_1ac667107bd74996",
+  "plausible": [],
+  "note": "Uniforms photo vs 1935 Barker Ranch dry yard — unrelated."
+ },
+ "img_299b9a16b53340ed": {
+  "record_id": "img_299b9a16b53340ed",
+  "plausible": [
+   {
+    "ark": "c88g8k2s",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Summit House dated Jan 5, 1911 — exact date match with record's 1911"
+   },
+   {
+    "ark": "c8pk0fhp",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Summit House/Beatty House, undated; same subject, could be same shot"
+   },
+   {
+    "ark": "c8m043d7",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "Summit House but circa 1890s vs record 1911; local date could match if guessed"
+   }
+  ]
+ },
+ "img_38d2d7286d1a066a": {
+  "record_id": "img_38d2d7286d1a066a",
+  "plausible": [],
+  "note": "Modern 2020s deodar trees photo; candidates are 1907 cherry trees and 1930s Highland Springs — different photos."
+ },
+ "img_484acf24f5126598": {
+  "record_id": "img_484acf24f5126598",
+  "plausible": [
+   {
+    "ark": "c8td9vbb",
+    "coll": "1582",
+    "confidence": "medium",
+    "why": "Desert Outpost Motel and Cafe, 1940s — same subject and era; record is a specific from-atop-the-arch view, so visual check needed"
+   }
+  ]
+ },
+ "img_5430b97f619e1088": {
+  "record_id": "img_5430b97f619e1088",
+  "plausible": [
+   {
+    "ark": "c8gt5mh6",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Presbyterian Church at 7th & Euclid — same building possible, but record is a modern 2010s-2020s photo vs likely historic print"
+   },
+   {
+    "ark": "c89g5m5q",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same-church postcard; historic postcard unlikely to equal modern photo but building identity matches"
+   }
+  ]
+ },
+ "img_6345c804830d0a07": {
+  "record_id": "img_6345c804830d0a07",
+  "plausible": [],
+  "note": "2025 Google Street View of Hotel Beaumont site vs 1917 WWI volunteers — no match."
+ },
+ "img_7835865b7e46b59c": {
+  "record_id": "img_7835865b7e46b59c",
+  "plausible": [
+   {
+    "ark": "c80z72mq",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Egan Ave postcard vs Calisphere 'Egan Ave' — plausibly the same postcard image."
+   }
+  ],
+  "note": "Egan Ave street postcard; candidates (auto race, citrus fair exhibit, 1960s librarians) are different subjects."
+ },
+ "img_88e0efbd8026acce": {
+  "record_id": "img_88e0efbd8026acce",
+  "plausible": [],
+  "note": "Fifth Street streetscape c.1929-33; candidates are a Cabazon ranch and Barker Ranch prune dipper — different subjects."
+ },
+ "img_95da879f3752095a": {
+  "record_id": "img_95da879f3752095a",
+  "plausible": [],
+  "note": "2021 Estrada Road anniversary vs 1968 county anniversary display — unrelated."
+ },
+ "img_a0defa8112930d8b": {
+  "record_id": "img_a0defa8112930d8b",
+  "plausible": [
+   {
+    "ark": "c87h1hxj",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Beaumont Fire Station 1971 — right town/institution, close date (record 1973); could be same group/station photo"
+   },
+   {
+    "ark": "c8c828n8",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same as above, duplicate 1971 Beaumont Fire Station item"
+   }
+  ],
+  "note": "Banning FD candidates excluded (wrong city)."
+ },
+ "img_b4e6ea6952262482": {
+  "record_id": "img_b4e6ea6952262482",
+  "plausible": [
+   {
+    "ark": "c8gt5mh6",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same Presbyterian Church building at 7th & Euclid; record is modern photo so likely different image"
+   },
+   {
+    "ark": "c89g5m5q",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same-church postcard; building identity matches but era likely differs"
+   }
+  ]
+ },
+ "img_d36ca3005fd7406a": {
+  "record_id": "img_d36ca3005fd7406a",
+  "plausible": [],
+  "note": "Modern Ramona's Mexican Cafe vs 1930s-40s Banning/Beaumont cafes — different subjects and eras."
+ },
+ "img_e3de81c2cb7655c8": {
+  "record_id": "img_e3de81c2cb7655c8",
+  "plausible": [
+   {
+    "ark": "c8qv3kv1",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Triangle Service Station at 6th/California/Grace — near-verbatim subject match, era compatible"
+   },
+   {
+    "ark": "c80c4v3h",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Richfield station on 6th St — possibly the same triangle-lot station under brand name; visual check"
+   },
+   {
+    "ark": "c8bp025k",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Gas station at 110 6th St — could be same station, uncertain"
+   }
+  ]
+ },
+ "img_f711da54b73a8423": {
+  "record_id": "img_f711da54b73a8423",
+  "plausible": [],
+  "note": "Gateway Gazette Beaumont postcard image; candidates (high school, Cabazon classroom, sanatorium ad) are different subjects; title too vague to match."
+ },
+ "img_049b709d6ffb773a": {
+  "record_id": "img_049b709d6ffb773a",
+  "plausible": [],
+  "note": "Candidates are Banning school/portrait, not a Beaumont vista"
+ },
+ "img_1ace86d145209734": {
+  "record_id": "img_1ace86d145209734",
+  "plausible": [
+   {
+    "ark": "c8gt5mh6",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same church, but record is an interior; Calisphere titles read as exterior views"
+   },
+   {
+    "ark": "c89g5m5q",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same church but a postcard, likely exterior, not the 1934 interior"
+   }
+  ]
+ },
+ "img_2a51e22c51021029": {
+  "record_id": "img_2a51e22c51021029",
+  "plausible": [
+   {
+    "ark": "c8np23r5",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Laura Mae Stewart in car — same person, but record is a solo 1911 portrait; likely the other Stewart record's photo"
+   }
+  ],
+  "note": "WWI/Stewart Ranch candidates are different subjects"
+ },
+ "img_3a78cd9990a52f8f": {
+  "record_id": "img_3a78cd9990a52f8f",
+  "plausible": [
+   {
+    "ark": "c8ff3rqp",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Sunset Plaza Hotel circa 1948 — near-verbatim subject and date match"
+   },
+   {
+    "ark": "c82b8xd5",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same intersection and date; hotel could appear in view"
+   }
+  ]
+ },
+ "img_4a82e2c89eb4a27d": {
+  "record_id": "img_4a82e2c89eb4a27d",
+  "plausible": [
+   {
+    "ark": "c8np23r5",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Rez Stewart on horseback with Laura Mae at wheel — unmistakably specific same scene"
+   },
+   {
+    "ark": "c8fq9vz3",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Stewart Ranch 1900 — same place, date slightly early, likely different photo"
+   },
+   {
+    "ark": "c8nc60jn",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Stewart Ranch undated — same place, could be same scene"
+   }
+  ]
+ },
+ "img_5658eba56b079aef": {
+  "record_id": "img_5658eba56b079aef",
+  "plausible": [
+   {
+    "ark": "c80z72mq",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Same street, early-era Egan Ave scene; local dates are a guess"
+   }
+  ],
+  "note": "Library building candidates don't match an 1880s-90s Egan Ave street scene (library built later)"
+ },
+ "img_64fee8a381ae5df5": {
+  "record_id": "img_64fee8a381ae5df5",
+  "plausible": [],
+  "note": "Record is a 2020 Google image; 1910 Sunnyslope Cemetery photo is same subject but cannot be same photograph"
+ },
+ "img_7a0159037504313e": {
+  "record_id": "img_7a0159037504313e",
+  "plausible": [
+   {
+    "ark": "c86h4gq8",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "'Engines at Beaumont' most likely rail locomotives, but could be fire engines at the station; visual check needed."
+   }
+  ],
+  "note": "Candidates are Banning FD or 1971 Beaumont station; record is 1950s-60s Beaumont FD at 500 Grace — same-subject-different-photo at best, dates/towns conflict"
+ },
+ "img_8a20e0efb687510c": {
+  "record_id": "img_8a20e0efb687510c",
+  "plausible": [],
+  "note": "2000s memorial photo; all candidates decades earlier or unrelated"
+ },
+ "img_96cdf4349eff3950": {
+  "record_id": "img_96cdf4349eff3950",
+  "plausible": [
+   {
+    "ark": "c8c24vss",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Beaumont City Hall undated — record title says photo came from Calisphere; could be this item if it shows the 1912 civic building"
+   }
+  ],
+  "note": "Other candidates are Banning police or 1971/school photos — wrong"
+ },
+ "img_a144edcec7a50be8": {
+  "record_id": "img_a144edcec7a50be8",
+  "plausible": [],
+  "note": "Aqueduct tunnel in Cabazon is not a church under construction"
+ },
+ "img_b690890e951ac18c": {
+  "record_id": "img_b690890e951ac18c",
+  "plausible": [],
+  "note": "1972 Beaumont FD group vs Banning 1960s or 1971 station building — different photos"
+ },
+ "img_d5b3e8d2100926fd": {
+  "record_id": "img_d5b3e8d2100926fd",
+  "plausible": [
+   {
+    "ark": "c8qj7gm2",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Looking north at a Beaumont train crossing — very close scene description, though street named 4th/California vs record's California Ave; plausibly same photo"
+   }
+  ],
+  "note": "Other candidates (flood, demonstration train) are different scenes"
+ },
+ "img_e4260d9b7f031559": {
+  "record_id": "img_e4260d9b7f031559",
+  "plausible": [],
+  "note": "Record is a 2020 Google photo of Beaumont Woman's Club; candidate is Banning Woman's Club 1960 — different building and date"
+ },
+ "img_fd15a86cd86982d6": {
+  "record_id": "img_fd15a86cd86982d6",
+  "plausible": [
+   {
+    "ark": "c8qv3kv1",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Triangle Service Station at 6th/California — same named station; attendants version could be this item"
+   },
+   {
+    "ark": "c8bp025k",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Gas station on 110 6th St with attendant named — possibly same station/scene"
+   }
+  ],
+  "note": "Richfield station is a different brand/station"
+ },
+ "img_056f22949c5d906e": {
+  "record_id": "img_056f22949c5d906e",
+  "plausible": [
+   {
+    "ark": "c8np23r5",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same person (Laura Mae Stewart) but title describes car scene, not portrait in chaps"
+   }
+  ],
+  "note": "Other candidates unrelated subjects"
+ },
+ "img_1ad76840ab48ba0e": {
+  "record_id": "img_1ad76840ab48ba0e",
+  "plausible": [],
+  "note": "No candidate is a Dowling portrait"
+ },
+ "img_2aaf83f6b9ef8d97": {
+  "record_id": "img_2aaf83f6b9ef8d97",
+  "plausible": [
+   {
+    "ark": "c8348jqw",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Same church, same 7th/Egan corner; near-verbatim match"
+   }
+  ]
+ },
+ "img_3b097e0808432587": {
+  "record_id": "img_3b097e0808432587",
+  "plausible": [],
+  "note": "Cabazon depot c.1900 is a different subject/place"
+ },
+ "img_4a9ee3f3baeb6a26": {
+  "record_id": "img_4a9ee3f3baeb6a26",
+  "plausible": [],
+  "note": "1935 street scenes are not a railworker group photo"
+ },
+ "img_56f78e949de648f8": {
+  "record_id": "img_56f78e949de648f8",
+  "plausible": [],
+  "note": "Record is a 2020 photo; all candidates are early-1900s different subjects"
+ },
+ "img_66a9280d1c1afbf9": {
+  "record_id": "img_66a9280d1c1afbf9",
+  "plausible": [
+   {
+    "ark": "c8251hjm",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Bank building at 5th and Egan — same building; could be same photo"
+   },
+   {
+    "ark": "c86d5scv",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "5th and Egan bank building but 1910-1911 vs record 1923-1940; local dates often guessed"
+   },
+   {
+    "ark": "c8z60m15",
+    "coll": "1582",
+    "confidence": "medium",
+    "why": "Same bank building at Fifth & Egan; 'circa 1920' is a guess overlapping the 1923-1940 window."
+   },
+   {
+    "ark": "c80z72mq",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Egan Ave street view could be this bank exterior shot."
+   }
+  ],
+  "note": "Library and 2nd Bank (5th/California) candidates are different buildings"
+ },
+ "img_7b302ec1a5a6c157": {
+  "record_id": "img_7b302ec1a5a6c157",
+  "plausible": [
+   {
+    "ark": "c8fq9vz3",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Stewart Ranch 1900 could include Reznor Stewart, but ranch view vs person photo"
+   },
+   {
+    "ark": "c8nc60jn",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Undated Stewart Ranch, same family context, weak identity signal"
+   }
+  ]
+ },
+ "img_8aa40ef6d2dbc201": {
+  "record_id": "img_8aa40ef6d2dbc201",
+  "plausible": [],
+  "note": "Service station is not the WCTU fountain; record is a 2020s photo"
+ },
+ "img_97db6b297170b04e": {
+  "record_id": "img_97db6b297170b04e",
+  "plausible": [],
+  "note": "No candidate depicts a Beaumont FD demonstration; Banning FD 1960s is different dept/era"
+ },
+ "img_a48b18e93521487b": {
+  "record_id": "img_a48b18e93521487b",
+  "plausible": [],
+  "note": "Record is a 1978 newspaper clipping; no candidate matches"
+ },
+ "img_bad44539e3bf4b42": {
+  "record_id": "img_bad44539e3bf4b42",
+  "plausible": [],
+  "note": "Wellwood School candidates are building/1910 photos, not a 1971-72 kindergarten class portrait"
+ },
+ "img_d6de78f86c47985e": {
+  "record_id": "img_d6de78f86c47985e",
+  "plausible": [
+   {
+    "ark": "c8td9wp7",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "McCoy family link but lumber yard vs house — likely different subject"
+   }
+  ]
+ },
+ "img_e5061c07708726ac": {
+  "record_id": "img_e5061c07708726ac",
+  "plausible": [],
+  "note": "1909 hotel fire vs 1971 fire station photos — hard conflict"
+ },
+ "img_fe6493dfb389b7f5": {
+  "record_id": "img_fe6493dfb389b7f5",
+  "plausible": [],
+  "note": "1945 Banning contest crowd is not a Dowling family photo"
+ },
+ "img_06355ab9cdf953fb": {
+  "record_id": "img_06355ab9cdf953fb",
+  "plausible": [],
+  "note": "Record is a 1968 newspaper clipping of Sunnyslope Cemetery; Calisphere cemetery photos are c.1910/1950s different photos of same subject at best; newspaper halftone unlikely to be same print. Possible but unverifiable — dropped as different-photo risk with hard date mismatch."
+ },
+ "img_1c61ef08adc421b9": {
+  "record_id": "img_1c61ef08adc421b9",
+  "plausible": [],
+  "note": "Record is a modern (2020s) photo of the Triangle Gas Station site; Calisphere items are historical photos — same subject, not same photograph."
+ },
+ "img_2d0928cd5901f761": {
+  "record_id": "img_2d0928cd5901f761",
+  "plausible": [
+   {
+    "ark": "c8p55kh3",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "Fireside Inn may be a renamed Banning inn; San Gorgonio Inn 1930 vs postcard 1940s-50s — weak, but only lead"
+   }
+  ]
+ },
+ "img_3c8f15b64eec6c9e": {
+  "record_id": "img_3c8f15b64eec6c9e",
+  "plausible": [],
+  "note": "Modern photo of WCTU fountain; historical service-station photo is not the same photograph."
+ },
+ "img_4ac86175e34cb48f": {
+  "record_id": "img_4ac86175e34cb48f",
+  "plausible": [
+   {
+    "ark": "c8c24vss",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Beaumont City Hall = the former Beaumont High School building; same building, plausibly same era photo"
+   },
+   {
+    "ark": "c8f76bw1",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Same building (Beaumont High School); postcard could be same photo"
+   }
+  ]
+ },
+ "img_57a9c9df6e55e692": {
+  "record_id": "img_57a9c9df6e55e692",
+  "plausible": [],
+  "note": "Family portrait of Francis Sr & Jr; Hatterino Contest crowd photo is not the same image."
+ },
+ "img_67656824cbb42ffc": {
+  "record_id": "img_67656824cbb42ffc",
+  "plausible": [],
+  "note": "Color deodar-tree postcard of Beaumont Ave; candidates (1907 cherry trees, Banning panorama, Highland Springs) are different subjects."
+ },
+ "img_7c01fc3dab547cc4": {
+  "record_id": "img_7c01fc3dab547cc4",
+  "plausible": [
+   {
+    "ark": "c8348jqw",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same church at 7th & Egan, but record is a 2017 photo — plausible only if record date/provenance is wrong; visual check needed"
+   }
+  ]
+ },
+ "img_8da5c565955aa314": {
+  "record_id": "img_8da5c565955aa314",
+  "plausible": [],
+  "note": "2020s photo of Ramona's Mexican Cafe; historical hotel/motel cafe photos are different subjects."
+ },
+ "img_98c82304eed8a985": {
+  "record_id": "img_98c82304eed8a985",
+  "plausible": [
+   {
+    "ark": "c8ks6qwb",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "1909 depot postcard vs Mar 1909 demonstration-train photo at Beaumont — same event window, could show depot; visual check"
+   },
+   {
+    "ark": "c8g1605q",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Undated demonstration-train companion image, same reasoning"
+   }
+  ]
+ },
+ "img_a6ec55f14a4d13dc": {
+  "record_id": "img_a6ec55f14a4d13dc",
+  "plausible": [],
+  "note": "Photo of Francis Dowling Jr with a clamp truck; Hatterino Contest photo is unrelated."
+ },
+ "img_c01f0729b7635aa7": {
+  "record_id": "img_c01f0729b7635aa7",
+  "plausible": [],
+  "note": "2025 Google Street View-style photo; 1917 WWI volunteers photo clearly not the same."
+ },
+ "img_d92bd24434ee74d1": {
+  "record_id": "img_d92bd24434ee74d1",
+  "plausible": [
+   {
+    "ark": "c89g5m5q",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Newspaper clipping may reproduce this Presbyterian Church postcard; but Beaumont record vs Beaumont church at 7th & Euclid — plausible reproduction"
+   },
+   {
+    "ark": "c8gt5mh6",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Alternate Presbyterian Church photo the 1968 clipping could reproduce"
+   }
+  ]
+ },
+ "img_e5e3407036c3c2c5": {
+  "record_id": "img_e5e3407036c3c2c5",
+  "plausible": [
+   {
+    "ark": "c8sf2vgh",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Undated aerial of Beaumont could be the 2010 aerial; generic titles, visual check needed"
+   }
+  ]
+ },
+ "img_0880ba793548d705": {
+  "record_id": "img_0880ba793548d705",
+  "plausible": [],
+  "note": "Fifth St postcard; candidates are auto race and citrus fair exhibit — different subjects"
+ },
+ "img_1d5ad1237f7755e2": {
+  "record_id": "img_1d5ad1237f7755e2",
+  "plausible": [],
+  "note": "Barrio church photo; no candidate is a church"
+ },
+ "img_2eee4fa95a275d4d": {
+  "record_id": "img_2eee4fa95a275d4d",
+  "plausible": [],
+  "note": "Fruit-stand signage photo; candidates are street/orchard/exhibit scenes, not the Dowling stand"
+ },
+ "img_3d84769134889400": {
+  "record_id": "img_3d84769134889400",
+  "plausible": [],
+  "note": "Modern (2010s+) photo of church rocks; candidates are historic church postcards — date is trustworthy, disqualifying"
+ },
+ "img_4ae2f58167bd00f1": {
+  "record_id": "img_4ae2f58167bd00f1",
+  "plausible": [
+   {
+    "ark": "c8v69hzh",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Demonstration train, March 19 1909 — exact subject and date; multiple demo-train photos exist"
+   },
+   {
+    "ark": "c8ks6qwb",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Demonstration train dated 17-Mar-09, matches event"
+   },
+   {
+    "ark": "c8g1605q",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Undated demonstration train photo, same event"
+   }
+  ],
+  "note": "Multiple demo-train frames known in corpus (see also CBEA_005); visual check needed"
+ },
+ "img_58bba051858fd716": {
+  "record_id": "img_58bba051858fd716",
+  "plausible": [
+   {
+    "ark": "c8h131c0",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Beaumont fire station front could be the setting of the 1976 two-firemen photo, but title describes building not people"
+   }
+  ],
+  "note": "Banning 1960s firemen candidate is a different department"
+ },
+ "img_676c1d159bb01165": {
+  "record_id": "img_676c1d159bb01165",
+  "plausible": [],
+  "note": "1887 plat map; 1988 aerial planning map is a different document"
+ },
+ "img_7d409eb4d324e61e": {
+  "record_id": "img_7d409eb4d324e61e",
+  "plausible": [
+   {
+    "ark": "c86d5scv",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Mentions the fountain at 5th & Egan but dated 1911; record's 1923-1940 range is a local guess so conflict may not disqualify"
+   },
+   {
+    "ark": "c8251hjm",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Old Bank Building at 5th and Egan — exact corner; fountain may appear"
+   },
+   {
+    "ark": "c89886b2",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "2nd Bank Building erected 1923; close-up of fountain beside bank possible but corner given as 5th & California"
+   },
+   {
+    "ark": "c8z60m15",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "Bank of Beaumont photo may include the adjacent WCTU fountain, but local is a fountain close-up."
+   }
+  ]
+ },
+ "img_8dec862cc0cae6ba": {
+  "record_id": "img_8dec862cc0cae6ba",
+  "plausible": [
+   {
+    "ark": "c8j1015g",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "Naval Convalescent Hospital Cherry Valley 1940s — same site/era, but flagpole scene may be a different frame"
+   },
+   {
+    "ark": "c8ns0rw3",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "Same hospital 1940s, group in front of building — plausible same photo if record shows people"
+   }
+  ]
+ },
+ "img_99255ef1fe8299f3": {
+  "record_id": "img_99255ef1fe8299f3",
+  "plausible": [],
+  "note": "2020s photo; candidates are 1930s-40s cafes — hard date conflict, modern date trustworthy"
+ },
+ "img_a7581c3a3616e8da": {
+  "record_id": "img_a7581c3a3616e8da",
+  "plausible": [],
+  "note": "Portrait of a person; candidates are 1935 street scenes"
+ },
+ "img_c3a4436f12810d6d": {
+  "record_id": "img_c3a4436f12810d6d",
+  "plausible": [
+   {
+    "ark": "c8xp7494",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Near-verbatim title 'People viewing the flowing well in Edgar Canyon'; record even credits Beaumont Library District"
+   },
+   {
+    "ark": "c8765dpk",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "'Flowing Well, Beaumont' — same well, possibly different frame"
+   },
+   {
+    "ark": "c8668chr",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Edgar Canyon well 1908 but drilling scene, likely different photo"
+   }
+  ]
+ },
+ "img_d94679a3a45f55c0": {
+  "record_id": "img_d94679a3a45f55c0",
+  "plausible": [],
+  "note": "Eucalyptus on Beaumont Ave; candidates are cherry trees and Highland Springs blossoms"
+ },
+ "img_e6c2b250138da121": {
+  "record_id": "img_e6c2b250138da121",
+  "plausible": [
+   {
+    "ark": "c8fq9vz3",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Stewart Ranch (1900) — same family ranch, could show family at barn; date slightly earlier than record's guessed range"
+   },
+   {
+    "ark": "c8nc60jn",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Undated Stewart Ranch photo, same family/site"
+   },
+   {
+    "ark": "c8np23r5",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Laura Mae + Rez Stewart, same people, but car/horseback scene differs from 'in front of a barn'"
+   }
+  ]
+ },
+ "img_092d2807a0231929": {
+  "record_id": "img_092d2807a0231929",
+  "plausible": [
+   {
+    "ark": "c8416wdh",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Verbatim title 'Wellwood School'; undated, could be same photo"
+   },
+   {
+    "ark": "c84b30nv",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same school but 1910 vs record 1916-17; local date may be guessed"
+   }
+  ],
+  "note": "Drugstore interior candidate rejected — different subject"
+ },
+ "img_1dfdd8cac1f62558": {
+  "record_id": "img_1dfdd8cac1f62558",
+  "plausible": [
+   {
+    "ark": "c8fq9vz3",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Stewart Ranch 1900 fits date range, but record is a portrait of Reznor Stewart; may show him at ranch"
+   },
+   {
+    "ark": "c8nc60jn",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Undated Stewart Ranch; same family, possibly same image"
+   }
+  ],
+  "note": "Ranch views vs person portrait — same-family-different-photo risk high"
+ },
+ "img_317c261e7e95cb9d": {
+  "record_id": "img_317c261e7e95cb9d",
+  "plausible": [],
+  "note": "Portrait of Smoot couple; 1932 Banning street scene clearly different subject"
+ },
+ "img_3e252c3b2ce712aa": {
+  "record_id": "img_3e252c3b2ce712aa",
+  "plausible": [
+   {
+    "ark": "c8mg7nvn",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "A vista looking north from Beaumont could depict orchards; weak title-only match"
+   }
+  ],
+  "note": "Record is orchards (photo sourced FROM Beaumont Library District); library-building and Banning-event candidates are different subjects"
+ },
+ "img_4b0acbe1458e33c0": {
+  "record_id": "img_4b0acbe1458e33c0",
+  "plausible": [],
+  "note": "1909 First Bank of Beaumont construction; aqueduct tunnel 1936 and First Western Bank postcard are different subjects/eras"
+ },
+ "img_591fdce9e557db2e": {
+  "record_id": "img_591fdce9e557db2e",
+  "plausible": [],
+  "note": "2020s WCTU fountain photo; 'Triangle Service Station' historic view is different subject and era"
+ },
+ "img_67d561c6f67c1ba2": {
+  "record_id": "img_67d561c6f67c1ba2",
+  "plausible": [],
+  "note": "Modern newspaper clipping; no candidate matches subject or era"
+ },
+ "img_7dad1702b8b44459": {
+  "record_id": "img_7dad1702b8b44459",
+  "plausible": [
+   {
+    "ark": "c8j67hnx",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "Sunnyslope Cemetery 1950s, closest in date; but record shows a 1960s gate dedication event — likely different photo"
+   }
+  ],
+  "note": "Circa-1910/1930 cemetery views hard-conflict with 1960s dedication event"
+ },
+ "img_8ecf8879b0fffd2d": {
+  "record_id": "img_8ecf8879b0fffd2d",
+  "plausible": [],
+  "note": "Beaumont Ave deodar-tree postcard; no candidate depicts Beaumont Ave deodars (cherry trees 1907, Banning scenes, Highland Springs all differ)"
+ },
+ "img_9a09c6788b0dddf1": {
+  "record_id": "img_9a09c6788b0dddf1",
+  "plausible": [
+   {
+    "ark": "c8cz36hx",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Near-verbatim: well, girl and cattle at Blaine (vs 'Bliss') Ranch south of Beaumont — unmistakably specific scene"
+   }
+  ],
+  "note": "'Bliss' in record likely a misreading of 'Blaine'"
+ },
+ "img_a7a6b112d9c297dd": {
+  "record_id": "img_a7a6b112d9c297dd",
+  "plausible": [
+   {
+    "ark": "c83f4nzv",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "'A man and fruit tree' generic; era-compatible young man photo — visual check needed"
+   }
+  ]
+ },
+ "img_c45feec31675704d": {
+  "record_id": "img_c45feec31675704d",
+  "plausible": [
+   {
+    "ark": "c83r0qwc",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "1960s fire department personnel photo; could include the chief, but group shot vs chief portrait uncertain"
+   }
+  ],
+  "note": "Record date 1968; building/truck candidates are different subjects"
+ },
+ "img_da155fda02d882ee": {
+  "record_id": "img_da155fda02d882ee",
+  "plausible": [
+   {
+    "ark": "c8s46sps",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "1945 crowd event within date range; but Banning Hatterino contest vs Bogart apples — weak"
+   },
+   {
+    "ark": "c84x574n",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Guy Bogart named, but 1955 desk portrait — likely different photo; only if record date wrong"
+   }
+  ],
+  "note": "No candidate describes apple distribution scene"
+ },
+ "img_e8c5738ad26c5ffc": {
+  "record_id": "img_e8c5738ad26c5ffc",
+  "plausible": [
+   {
+    "ark": "c86q1wmt",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Laura Mae Stewart, first Cherry Festival queen, in car — same specific subject; Calisphere dates it 1914, record's 1919 may be wrong"
+   },
+   {
+    "ark": "c8np23r5",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Laura Mae Stewart in car with father — plausibly the same festival photo"
+   },
+   {
+    "ark": "c84q7tb2",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "1919 Cherry Festival Parade matches record date; queen may appear but generic parade view"
+   }
+  ]
+ },
+ "img_0ab722136d7bd1be": {
+  "record_id": "img_0ab722136d7bd1be",
+  "plausible": [],
+  "note": "Family dinner in a railroad section house; neither dairy interior (1937) nor 1960s restaurant matches."
+ },
+ "img_21b5c2878b287c35": {
+  "record_id": "img_21b5c2878b287c35",
+  "plausible": [],
+  "note": "2025 parade photo; only candidate is 1917 WWI volunteers."
+ },
+ "img_31a2aed058e380fd": {
+  "record_id": "img_31a2aed058e380fd",
+  "plausible": [],
+  "note": "Modern 2024 photo of Summit School; candidates are 1890s-1911 Summit House (different subject and era)."
+ },
+ "img_3f09693198e8de04": {
+  "record_id": "img_3f09693198e8de04",
+  "plausible": [
+   {
+    "ark": "c8m043d7",
+    "coll": "1582",
+    "confidence": "medium",
+    "why": "Summit House, circa 1890s — subject and date match exactly; could be same print"
+   },
+   {
+    "ark": "c8pk0fhp",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same building (Summit House/Beatty House), undated; multiple photos exist"
+   },
+   {
+    "ark": "c88g8k2s",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same building but dated 1911; plausible only if record's 1890s date was guessed"
+   }
+  ],
+  "note": "Library building candidates dropped."
+ },
+ "img_4b219d837a3d6f6a": {
+  "record_id": "img_4b219d837a3d6f6a",
+  "plausible": [
+   {
+    "ark": "c83r0qwc",
+    "coll": "1582",
+    "confidence": "low",
+    "why": "1960s firemen group, but Banning FD vs record's Beaumont FD; likely different photo"
+   }
+  ],
+  "note": "Fire-station building shots (1971) dropped — record is a portrait of two named men."
+ },
+ "img_5b02c2385f9cb46d": {
+  "record_id": "img_5b02c2385f9cb46d",
+  "plausible": [],
+  "note": "Photo of a car plate/insignia; no candidate depicts that."
+ },
+ "img_68556e4afecfa748": {
+  "record_id": "img_68556e4afecfa748",
+  "plausible": [
+   {
+    "ark": "c8np23r5",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Laura Mae Stewart with a passenger — passenger could be Clara Stewart; same family, era compatible"
+   },
+   {
+    "ark": "c8nc60jn",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Stewart girls photographed on Stewart Ranch could have been cataloged under the ranch name; weak title-only link, worth a visual check."
+   }
+  ]
+ },
+ "img_7dbe92a607028a11": {
+  "record_id": "img_7dbe92a607028a11",
+  "plausible": [],
+  "note": "2022 Google image of Triangle Park; candidates are historic Reid Building and service station."
+ },
+ "img_8ee30e567a4b5e66": {
+  "record_id": "img_8ee30e567a4b5e66",
+  "plausible": [],
+  "note": "2020s photo of Ramona's Cafe facade; candidates are 1930s-40s different cafes."
+ },
+ "img_9a697957b7ea88b0": {
+  "record_id": "img_9a697957b7ea88b0",
+  "plausible": [
+   {
+    "ark": "c8348jqw",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "First Christian Church at 7th and Egan — same building/corner as 701 Egan Ave; undated so possibly same 1950s view"
+   }
+  ]
+ },
+ "img_a83e9024f8e65c3f": {
+  "record_id": "img_a83e9024f8e65c3f",
+  "plausible": [],
+  "note": "Street-scene postcard with roller rink sign; Pinky-the-donkey photo is a different scene, dealership is on W. Ramsey."
+ },
+ "img_c6fa941a29b0f0cd": {
+  "record_id": "img_c6fa941a29b0f0cd",
+  "plausible": [
+   {
+    "ark": "c8z31wpb",
+    "coll": "1582",
+    "confidence": "medium",
+    "why": "Hotel Edinburgh, circa 1890s — same renamed boom hotel; record's 1900-1909 date may be a guess"
+   },
+   {
+    "ark": "c8b56j3k",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Edinburgh Hotel but an 1888 banquet event scene — likely a different photograph"
+   }
+  ]
+ },
+ "img_da743e866c6368cc": {
+  "record_id": "img_da743e866c6368cc",
+  "plausible": [],
+  "note": "Record is a 2010s-2020s photo of the 1934 Presbyterian Church; candidates are early historic photos/postcards — same building, cannot be same photograph."
+ },
+ "img_e91452d502f8cc96": {
+  "record_id": "img_e91452d502f8cc96",
+  "plausible": [],
+  "note": "Sixth Street (Beaumont) postcard; Dodge dealership is W. Ramsey St, Banning — different street."
+ },
+ "img_0b3ce9bbcc89c40d": {
+  "record_id": "img_0b3ce9bbcc89c40d",
+  "plausible": [],
+  "note": "Candidates (auto race, citrus fair exhibit) are event photos, not a Fifth Street streetscape."
+ },
+ "img_21f5dda0d6f26b4a": {
+  "record_id": "img_21f5dda0d6f26b4a",
+  "plausible": [
+   {
+    "ark": "c8445ktt",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Sam's Cafe, 6th & Edgar, circa 1944 — same specific cafe, date fits record's early-mid 1940s range"
+   }
+  ]
+ },
+ "img_31bfa277fbd3230d": {
+  "record_id": "img_31bfa277fbd3230d",
+  "plausible": [
+   {
+    "ark": "c8416wdh",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Undated 'Wellwood School' could be the old schoolhouse building"
+   },
+   {
+    "ark": "c84b30nv",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Wellwood School 1910 vs record c.1890s; local date range is a guess, could still be old building"
+   }
+  ]
+ },
+ "img_3f4c4ca617098fd8": {
+  "record_id": "img_3f4c4ca617098fd8",
+  "plausible": [],
+  "note": "Record is a 2020s photo of Ramona's Mexican Cafe; candidates are unrelated 1930s-40s cafes."
+ },
+ "img_4e6f8597cedbda5b": {
+  "record_id": "img_4e6f8597cedbda5b",
+  "plausible": [],
+  "note": "Portrait of Jane Eyer Smoot; candidates are 1935 street scenes."
+ },
+ "img_5bcc7a2a42f3de62": {
+  "record_id": "img_5bcc7a2a42f3de62",
+  "plausible": [],
+  "note": "2025 Cherry Festival parade photo; no historical candidate can be the same image."
+ },
+ "img_6b0ff0ed19b0fb9e": {
+  "record_id": "img_6b0ff0ed19b0fb9e",
+  "plausible": [],
+  "note": "Personal portrait of Ramona Torres; candidates are parade scenes."
+ },
+ "img_816fb6e3233bbf73": {
+  "record_id": "img_816fb6e3233bbf73",
+  "plausible": [],
+  "note": "Record explicitly a 2025 photo of Sunset Plaza Hotel; c8ff3rqp is the same building c.1948 but cannot be the same photograph."
+ },
+ "img_9160017c82292a64": {
+  "record_id": "img_9160017c82292a64",
+  "plausible": [
+   {
+    "ark": "c87h1hxj",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same fire station but 1971 completed building vs 1969 construction newspaper shot"
+   },
+   {
+    "ark": "c8c828n8",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same building, 1971; unlikely same construction-phase image"
+   }
+  ]
+ },
+ "img_9acdf5b823073389": {
+  "record_id": "img_9acdf5b823073389",
+  "plausible": [],
+  "note": "Modern statue photo in Sacramento; sole candidate is a c.1900 Cabazon depot."
+ },
+ "img_a85c852bf4ca3f39": {
+  "record_id": "img_a85c852bf4ca3f39",
+  "plausible": [
+   {
+    "ark": "c84x574n",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Guy Bogart at his desk at 545 Euclid — near-identical specific scene; Calisphere says 1955 vs record's guessed 1935-48 range, so record date likely wrong"
+   }
+  ]
+ },
+ "img_c8be9dda2808f47c": {
+  "record_id": "img_c8be9dda2808f47c",
+  "plausible": [],
+  "note": "Record subject is the Bogart House (sourced FROM Beaumont Library District); candidates depict the library building itself — different subject."
+ },
+ "img_dbf7e0bb619c1c74": {
+  "record_id": "img_dbf7e0bb619c1c74",
+  "plausible": [],
+  "note": "Portrait of Cora K. Eyer; candidates are a school group and John Morongo portrait."
+ },
+ "img_e9f375f1600bc4d0": {
+  "record_id": "img_e9f375f1600bc4d0",
+  "plausible": [],
+  "note": "Record is explicitly a present-day (2020s) view; candidate is the same vantage circa 1949-50 — same scene, different photograph."
+ },
+ "img_0f63f186060123e4": {
+  "record_id": "img_0f63f186060123e4",
+  "plausible": [],
+  "note": "Record is a badge close-up; all candidates are station/group photos"
+ },
+ "img_228a900cb9c1637b": {
+  "record_id": "img_228a900cb9c1637b",
+  "plausible": [],
+  "note": "Street-with-bus postcard vs Hatterino Contest event photo — different subject"
+ },
+ "img_35a3c2b0b73a7892": {
+  "record_id": "img_35a3c2b0b73a7892",
+  "plausible": [],
+  "note": "Artist rendering of Summit School (1960s-70s), not the 1890s Summit/Beatty House"
+ },
+ "img_40d6c2b8e19fd527": {
+  "record_id": "img_40d6c2b8e19fd527",
+  "plausible": [],
+  "note": "2020s WCTU fountain photo; candidate is historic Triangle Service Station"
+ },
+ "img_4ec3e978a2772b6b": {
+  "record_id": "img_4ec3e978a2772b6b",
+  "plausible": [],
+  "note": "Railroad worker group portrait vs downtown street scenes"
+ },
+ "img_5e377e16d199a2eb": {
+  "record_id": "img_5e377e16d199a2eb",
+  "plausible": [
+   {
+    "ark": "c87h1hxj",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "'The Beaumont Fire Station, 1971' matches record subject and exact year"
+   },
+   {
+    "ark": "c8c828n8",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "'Beaumont Fire Station, 1971' — same match; two near-duplicate Calisphere items exist"
+   },
+   {
+    "ark": "c8h131c0",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Front of Beaumont Fire Dept, 628 Maple — same building, date unstated"
+   }
+  ],
+  "note": "Two same-titled 1971 items; visual check needed to pick which (or neither) is this exact frame"
+ },
+ "img_6f617c49fb8ae29d": {
+  "record_id": "img_6f617c49fb8ae29d",
+  "plausible": [],
+  "note": "Fire engine photo vs gas-station/small-engine-shop candidates"
+ },
+ "img_8241a89edda429c5": {
+  "record_id": "img_8241a89edda429c5",
+  "plausible": [
+   {
+    "ark": "c8qv3kv1",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Triangle Service Station at 6th/California, Beaumont — same specific site; Frasher postcard could be this image"
+   }
+  ],
+  "note": "Other gas-station candidates are different stations; 1906 Banning street disqualified by date/place"
+ },
+ "img_9299c7a090b03878": {
+  "record_id": "img_9299c7a090b03878",
+  "plausible": [],
+  "note": "Personal portrait of Francis Dowling Sr.; candidates are unrelated 1925 events"
+ },
+ "img_9ae52f4064af37bc": {
+  "record_id": "img_9ae52f4064af37bc",
+  "plausible": [],
+  "note": "2020s cafe photo; candidates are 1930s-40s hotels/motels"
+ },
+ "img_a999fd2c808b66bb": {
+  "record_id": "img_a999fd2c808b66bb",
+  "plausible": [],
+  "note": "2020s WCTU fountain photo; candidate is historic service station"
+ },
+ "img_c8cee9c9c1dee867": {
+  "record_id": "img_c8cee9c9c1dee867",
+  "plausible": [
+   {
+    "ark": "c8h131c0",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same building at 628 Maple Ave, but record shows it under construction (1969) vs finished front view"
+   },
+   {
+    "ark": "c87h1hxj",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Beaumont Fire Station 1971 — same new station; only a match if local 1969/construction framing is wrong"
+   },
+   {
+    "ark": "c8c828n8",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Duplicate 1971 fire station item, same reasoning"
+   }
+  ],
+  "note": "Construction-phase vs completed-building mismatch makes exact-photo identity doubtful; pass for visual check"
+ },
+ "img_dc9b98dd0bb1264f": {
+  "record_id": "img_dc9b98dd0bb1264f",
+  "plausible": [],
+  "note": "1950s-60s Dowling store vs 1911 fruit orchard — hard date and subject conflict"
+ },
+ "img_eabd3578774e347f": {
+  "record_id": "img_eabd3578774e347f",
+  "plausible": [
+   {
+    "ark": "c86h4gq8",
+    "coll": "1828",
+    "confidence": "high",
+    "why": "Record title explicitly notes Calisphere provenance; 'Engines at Beaumont' matches roundhouse/engines subject (known CBAN_099 roundhouse photo)"
+   }
+  ],
+  "note": "'Demonstration train' items are the separate SP 2789 photo (CBEA_005), not this one"
+ },
+ "img_0fe6d3036afcd3d6": {
+  "record_id": "img_0fe6d3036afcd3d6",
+  "plausible": []
+ },
+ "img_99f7111cab26b389": {
+  "record_id": "img_99f7111cab26b389",
+  "plausible": [
+   {
+    "ark": "c8f76bw1",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Yearbook building shot could reuse the postcard image; same building"
+   }
+  ]
+ },
+ "img_c66b2fd607cf422f": {
+  "record_id": "img_c66b2fd607cf422f",
+  "plausible": [
+   {
+    "ark": "c8f76bw1",
+    "coll": "1828",
+    "confidence": "low",
+    "why": "Same building; 1930 yearbook image could be the postcard photo"
+   }
+  ]
+ },
+ "img_e6fe5e33e99cc68f": {
+  "record_id": "img_e6fe5e33e99cc68f",
+  "plausible": []
+ },
+ "img_3e64932e3b8abfb7": {
+  "record_id": "img_3e64932e3b8abfb7",
+  "plausible": [
+   {
+    "ark": "c80z72mq",
+    "coll": "1828",
+    "confidence": "medium",
+    "why": "Egan Ave looking south c.1915 vs Calisphere 'Egan Ave' street view — plausible identity."
+   }
+  ]
+ }
+}

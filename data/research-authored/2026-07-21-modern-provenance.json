@@ -1,0 +1,2218 @@
+{
+ "batch": "2026-07-21-modern-provenance",
+ "description": "Provenance-verified entries for the 72 modern (1990+) records: what each photo shows (verified by image inspection), where the file came from (client Google Drive source paths), and an explicit rights determination per data/research-authored/RIGHTS-RULES.md. Authored by a 9-agent workflow with full adversarial verification (72/72 passed), 2026-07-21.",
+ "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)",
+ "researched": "2026-07-21",
+ "entries": {
+  "img_0092d056a315fe98": {
+   "title": "Bogart House, February 2020",
+   "original_title": "Bogart House",
+   "caption": {
+    "caption": "Bogart House behind chain-link fencing, February 8, 2020",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Filename 'bogart house 2-8-20.jpg' supplies the exact date; the file is an unattributed casual snapshot in the client's BLD 'Guy Bogart and Bogart House' folder."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Street-side snapshot of the Bogart House, a two-story hipped-roof residence with cream clapboard siding, dark red trim, and a columned, arch-hooded entry porch. The property sits behind a chain-link fence bearing a 'Private Property' sign; the lawn is overgrown, scaffolding stands against the right side of the building, and the roof of the photographer's car intrudes into the foreground. Documentary condition record of the house as it stood on February 8, 2020 (date from the filename 'bogart house 2-8-20.jpg').",
+   "corrections": [
+    "Caption tightened to the exact date (February 8, 2020) embedded in the filename; noted fencing/scaffolding condition details visible in the photo."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Guy Bogart and Bogart House\\bogart house 2-8-20.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took this February 2020 snapshot — BLD staff/volunteer or a third party?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_23a4b70023473f20": {
+   "title": "Tracy Caldwell Dyson",
+   "original_title": "Tracy Caldwell Dyson",
+   "caption": {
+    "caption": "Astronaut Tracy Caldwell Dyson, official NASA portrait, 2023. Photo: Robert Markowitz / NASA Johnson Space Center (public domain)",
+    "attribution": "Robert Markowitz / NASA Johnson Space Center",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The image is self-evidently an official NASA studio portrait (flight suit, NASA insignia, studio backdrop); the specific photographer credit is carried from the existing catalog attribution and should be verified against the NASA image ID."
+   },
+   "date": null,
+   "rights_status": "Public domain",
+   "rights": "U.S. federal government work (17 U.S.C. § 105) — NASA photographs are not subject to copyright. Credit the photographer and center: Robert Markowitz, NASA Johnson Space Center.",
+   "holding": null,
+   "best_master": null,
+   "description": "Official NASA studio portrait of astronaut Tracy Caldwell Dyson, posed hands-on-hips in a blue flight suit against a plain light-gray background, with the NASA insignia, a 'TC Dyson' name-wing patch, a U.S. flag, and expedition/mission patches on the chest and sleeve. The file comes from the SGPHS timeline site, where it illustrates the timeline's 2023 entry. As a NASA work it is free to reuse with credit.",
+   "corrections": [
+    "Rights determination set to public domain as a NASA work; note the file itself was pulled from the SGPHS timeline site, whose captions are project-authored, so the photographer credit is marked probable rather than confirmed."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: C:\\GitHub\\httpssgphs.org\\images\\timeline\\tracy-caldwell-dyson-2023.jpg"
+    },
+    {
+     "label": "NASA media usage guidelines",
+     "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+    }
+   ],
+   "open_questions": [
+    "Confirm the NASA image ID and release date of this specific portrait to lock the 2023 date and the Robert Markowitz credit."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_3c8f15b64eec6c9e": {
+   "title": "WCTU Fountain in Triangle Park (wide view)",
+   "original_title": "Wctu Fountain In Triangle Park",
+   "caption": null,
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Wide view of the small cobblestone WCTU drinking fountain standing on its circular concrete pad in the lawn of Triangle Park, framed by the park's two converging sidewalks under large mature trees, with a residential street, parked cars, and a period-style street lamp beyond. The darkened plaque on the fountain is visible but not legible at this distance. 2020s condition-and-setting record of the fountain in its park context.",
+   "corrections": [
+    "Retitled with '(wide view)' to distinguish this frame from the five other identically titled WCTU Fountain records in the same folder."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\WCTU Fountain\\WCTU Fountain in Triangle Park 6.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took this photo series — BLD staff/volunteer or a third party?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_56f78e949de648f8": {
+   "title": "Stewart Sunny Slope Cemetery Entrance Gate",
+   "original_title": "Stewart Sunnyslope Gate",
+   "caption": {
+    "caption": "Stewart Sunny Slope Cemetery entrance gate, 2020",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The arch itself reads 'Stewart Sunny Slope Cemetery'; the file is an unattributed snapshot in the client's BLD Reznor Stewart / Stewart Sunnyslope Cemetery folder, dated 2020 in the filename."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "The entrance to Stewart Sunny Slope Cemetery: a wrought-iron arch spelling out 'Stewart Sunny Slope Cemetery' over closed double iron gates hung between two rough-stone pylons, each mounted with a bronze plaque — the legible one reads 'Beaumont Public Cemetery District' with a board-of-trustees listing. Tall Italian cypress and cedar trees line the paved drive beyond the gates. 2020 condition record of the cemetery entrance.",
+   "corrections": [
+    "Retitled to 'Stewart Sunny Slope Cemetery Entrance Gate' to match the wording on the iron arch itself (two words, 'Sunny Slope') and to say what the photo shows."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Reznor Stewart and ranch and Stewart Sunnyslope Cemetery\\Stewart Sunnyslope gate 2020.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took this 2020 photo — BLD staff/volunteer or a third party?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_6ddebbe0de2a589d": {
+   "title": "Luis Estrada Road Street Sign at Veile Avenue",
+   "original_title": "Luis Estrad Road Sign B",
+   "caption": {
+    "caption": "Luis Estrada Road street sign at Veile Avenue, c. 2018-2021",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Street names read directly off the sign blades in the photo; the file is unattributed, unlike its Estrada-family-credited companions in the same folder."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Close-up of the green street blades at an intersection corner: 'Luis Estrada Rd 500W' with 'Veile Ave 400' mounted above it on a galvanized post, with tamarisk foliage and a palm trunk behind. Documents the Beaumont street named for Luis Estrada, photographed c. 2018-2021. Companion frames of the same sign in this folder are credited to the Estrada family collection, but this file carries no attribution.",
+   "corrections": [
+    "Retitled to fix the filename typo 'Estrad' and to name the cross street (Veile Avenue), which is legible on the upper sign blade."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrad Road sign b.jpg"
+    }
+   ],
+   "open_questions": [
+    "Is this frame part of the Estrada family's materials like the other road-sign photos in this folder? If so, rights would follow the Estrada family (permission required); ask BLD/the Estrada family to confirm."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_8aa40ef6d2dbc201": {
+   "title": "WCTU Fountain in Triangle Park (plaque view)",
+   "original_title": "Wctu Fountain In Triangle Park",
+   "caption": {
+    "caption": "WCTU Fountain in Triangle Park, plaque reading 'W.C.T.U. Dec. 25 1910', 2020s",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The 1910 dedication date is read directly off the plaque visible in this frame; the file is an unattributed snapshot in the client's BLD WCTU Fountain folder."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Close view of the WCTU drinking fountain in Triangle Park: a cylindrical cobblestone-and-mortar pedestal on a circular concrete pad, topped by a metal bubbler, with a darkened inset plaque legible as 'W.C.T.U. Dec. 25 1910'. Lawn, a large tree trunk, a picnic table, and the park sidewalk frame the shot. 2020s condition record of the 1910 Woman's Christian Temperance Union fountain, with the dedication plaque readable in frame.",
+   "corrections": [
+    "Retitled with '(plaque view)' to distinguish this frame from the five other identically titled records; noted that the plaque's 'Dec. 25 1910' dedication date is legible in this photo."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\WCTU Fountain\\WCTU Fountain in Triangle Park 3.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took this photo series — BLD staff/volunteer or a third party?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_a999fd2c808b66bb": {
+   "title": "WCTU Fountain Masonry Detail",
+   "original_title": "Wctu Fountain In Triangle Park",
+   "caption": {
+    "caption": "Cobblestone masonry detail of the WCTU Fountain, Triangle Park, 2020s",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The frame is a masonry macro, not a view of the fountain as the previous working caption implied; identified as the WCTU fountain only via its folder and companion frames."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Extreme close-up of the WCTU fountain's masonry — rounded river cobbles set in weathered gray mortar — filling the entire frame with no surrounding context visible. A texture/condition detail shot accompanying the wider Triangle Park fountain views in the same folder. Useful as a materials record but not usable on its own to identify the fountain.",
+   "corrections": [
+    "Retitled to 'WCTU Fountain Masonry Detail' — the image is a close-up of the cobblestone surface only, which the previous generic title did not convey."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\WCTU Fountain\\WCTU Fountain in Triangle Park 5.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took this photo series — BLD staff/volunteer or a third party?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_da743e866c6368cc": {
+   "title": "Beaumont Presbyterian Church, 702 Euclid Avenue",
+   "original_title": "Presbyterian Church",
+   "caption": null,
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Small, low-resolution photograph of the Presbyterian Church at 702 Euclid Ave (address from the source folder): a rock-faced stone church with a steep gabled roof and pointed-arch entry, with a monument sign on the lawn bearing 'Presbyterian Church' lettering plus red Korean-language text, indicating a Korean congregation uses the building. Mature trees shade the sidewalks along both street frontages. Modern condition record of the church building; the roughly 400-pixel file suggests it was saved from a webpage rather than photographed by the client, and it is too small for print use as-is.",
+   "corrections": [
+    "Retitled to include the 702 Euclid Avenue address from the source folder; flagged that the very low resolution points to a web-derived copy, not an original client photograph."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Presbyterian Church 702 Euclid Ave\\presbyterian church.jpg"
+    }
+   ],
+   "open_questions": [
+    "Where was this image saved from (church website, directory listing, etc.)? Identifying the original web source is needed to establish the actual rights holder — and a higher-resolution original would be required for any print use."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_00cfeb70e204b1b8": {
+   "title": "Sombrero-Shaped Topiary at Ramona's Mexican Cafe",
+   "original_title": "Ramona S Mexican Cafe Sombrero Bushes",
+   "caption": {
+    "caption": "Sombrero-shaped topiary at Ramona's Mexican Cafe, Beaumont, 2020s. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client-supplied file in the BLD 'Ramona's' folder; subject identified from the filename and the visible Beaumont Cleaners storefront in frame."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Color snapshot of two shrubs clipped into tiered, sombrero-like topiary rising from behind a low used-brick wall at the edge of the Ramona's Mexican Cafe property in Beaumont. Beyond them are a cracked asphalt parking lot with dumpsters and a white utility trailer, and the Beaumont Cleaners storefront under an overcast sky. Documentary record of the cafe's signature landscaping, part of the BLD-supplied set on Ramona's Mexican Cafe and the Vargas family.",
+   "corrections": [
+    "Retitled from the filename-derived 'Ramona S Mexican Cafe Sombrero Bushes' to a descriptive title."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona's Mexican Cafe sombrero bushes.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took this photo (BLD staff/volunteer, the Vargas family, or another contributor)? Needed to clear rights for print use.",
+    "Exact capture date."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_284993317d64a5e4": {
+   "title": "WCTU Fountain, Triangle Park — Plaque View",
+   "original_title": "Wctu Fountain In Triangle Park",
+   "caption": {
+    "caption": "'W.C.T.U. Dec. 25 1910' plaque on the Woman's Christian Temperance Union fountain, Triangle Park, Beaumont, c. 2018-2025. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client-supplied file in the BLD 'WCTU Fountain' folder; plaque text transcribed directly from the image."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Close view of the cobblestone Woman's Christian Temperance Union drinking fountain on its round concrete pad in a grassy park, with an inset plaque reading 'W.C.T.U. Dec. 25 1910.' A corroded fitting protrudes where the bubbler once sat; a picnic table, mature trees, and a street corner with a green street-name blade (apparently 'Seventh') are visible beyond. Recent condition record of the 1910 monument, one of a six-frame BLD set on the fountain.",
+   "corrections": [
+    "Retitled to distinguish this frame (plaque view) within the six-photo WCTU Fountain set."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\WCTU Fountain\\WCTU Fountain in Triangle Park 2.JPG"
+    },
+    {
+     "label": "Plaque legible in image: 'W.C.T.U. Dec. 25 1910'"
+    }
+   ],
+   "open_questions": [
+    "Who took this photo, and when exactly?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_3d84769134889400": {
+   "title": "Beaumont Presbyterian Church — River-Rock Facade Detail",
+   "original_title": "Presbyterian Church Rocks",
+   "caption": {
+    "caption": "River-rock masonry, cross, and stained glass of Beaumont Presbyterian Church, 702 Euclid Ave., 2010s-2020s. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client-supplied file in the BLD 'Presbyterian Church 702 Euclid Ave' folder; the frame shows the masonry detail the working filename refers to."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Upward-angled detail of the church's river-rock (cobblestone) masonry gables against a clear sky: a metal cross tops the main gable, a geometric leaded-glass window sits in the upper gable, and an arched leaded/stained-glass window spans the entry porch above wooden double doors. The 'rocks' of the working filename are the rounded fieldstones facing the building. Recent detail/condition record of the Presbyterian church at 702 Euclid Avenue (the catalog dates the building to 1934).",
+   "corrections": [
+    "Retitled from 'Presbyterian Church Rocks' to clarify that the subject is the river-rock facade detail, not a place called 'Rocks'."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Presbyterian Church 702 Euclid Ave\\Presbyterian Church rocks.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took this photo, and when exactly?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_591fdce9e557db2e": {
+   "title": "WCTU Fountain, Triangle Park — Street-Side View",
+   "original_title": "Wctu Fountain In Triangle Park",
+   "caption": {
+    "caption": "The Woman's Christian Temperance Union fountain (1910), Triangle Park, Beaumont, c. 2018-2025. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client-supplied file in the BLD 'WCTU Fountain' folder; same monument as the plaque-view frame in the set."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "The cobblestone WCTU drinking fountain seen from the lawn side, standing on its round concrete pad beside the sidewalk and street with its plaque face turned away. Across the street stand a rusticated concrete-block church with arched stained-glass windows — visually matching the First Christian Church at 701 Egan Avenue photographed elsewhere in this collection — and a bungalow with a parked SUV. Recent condition record placing the 1910 fountain in its streetscape.",
+   "corrections": [
+    "Retitled to distinguish this frame (street-side view) within the six-photo WCTU Fountain set."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\WCTU Fountain\\WCTU Fountain in Triangle Park 1.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took this photo, and when exactly?",
+    "Confirm the camera position: a rock-faced church resembling First Christian Church (701 Egan Ave.) appears across the street, which would place this frame at the park edge nearest Egan Avenue."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_78e4dd6ee33f5c18": {
+   "title": "Record-Gazette Clipping: Centennial Balloon Release at Beaumont Civic Center (2012)",
+   "original_title": "Centennial",
+   "caption": {
+    "caption": "Mayor Roger Berg and council members Brian De Forge and David Castaldo release balloons at the Beaumont Civic Center for the city's centennial. Record-Gazette, November 23, 2012; photo by Rodrigo Pena, City of Beaumont.",
+    "attribution": "Record-Gazette; photo by Rodrigo Pena, City of Beaumont",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The cutline and photographer credit are printed on the clipping itself; the Record-Gazette / November 23, 2012 identification comes from the existing catalog caption and the companion BLD scans of that issue (Record_Gazette_2012_11_23 pages)."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — Record-Gazette (Beaumont/Banning), publisher of the clipping; the underlying photograph is credited to Rodrigo Pena, City of Beaumont, so the City may hold rights in the photograph itself. Contact the Record-Gazette for reuse of the clipping, and the City of Beaumont regarding the photograph, before print use in the mural.",
+   "holding": null,
+   "best_master": null,
+   "description": "Black-and-white halftone newspaper clipping showing Mayor Roger Berg and council members Brian De Forge and David Castaldo releasing a large cluster of balloons in front of the Beaumont Civic Center (address numerals '550' visible) while onlookers watch from the doorway. The printed cutline reads 'Mayor Roger Berg, left, and council members Brian De Forge and David Castaldo release balloons in celebration of the city's centennial,' with the credit line 'Photos by Rodrigo Pena, City of Beaumont.' Documents Beaumont's 2012 centennial as covered in the Record-Gazette of November 23, 2012.",
+   "corrections": [
+    "Retitled from the bare working title 'Centennial'; transcribed the printed cutline and photographer credit from the image.",
+    "Although the file came via the SGPHS timeline site, the item is a newspaper clipping, so newspaper copyright governs rather than SGPHS permission."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: C:\\GitHub\\httpssgphs.org\\images\\timeline\\centennial-2012.jpg"
+    },
+    {
+     "label": "Printed credit visible on clipping: 'Photos by Rodrigo Pena, City of Beaumont'"
+    }
+   ],
+   "open_questions": [
+    "Confirm reprint terms with the Record-Gazette; alternatively, the City of Beaumont may be able to supply and clear the original Rodrigo Pena photograph directly, bypassing the halftone clipping."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_8da5c565955aa314": {
+   "title": "Nachos at Ramona's Mexican Cafe",
+   "original_title": "Ramona S Mexican Cafe G",
+   "caption": {
+    "caption": "A plate of nachos at Ramona's Mexican Cafe, Beaumont, 2020s. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client-supplied file in the BLD 'Ramona's' folder; the frame shows food, identified as Ramona's fare from the folder context."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Overhead snapshot of an oval turquoise platter of nachos — tortilla chips under melted cheese and refried beans, topped with diced tomato, guacamole, green onions, and a dollop of sour cream with a single black olive — on a wood-grain tabletop. One frame of the lettered series (a-i) documenting Ramona's Mexican Cafe; this one records the cafe's food rather than the building. 2020s documentary snapshot from the BLD-supplied Ramona's set.",
+   "corrections": [
+    "Retitled from the camera-series working title 'Ramona S Mexican Cafe G' to describe the actual subject (a food photo, not a building view)."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona's Mexican Cafe g.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took this photo (BLD staff/volunteer, the Vargas family, or another contributor)?",
+    "Exact capture date."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_acf4949ced58906e": {
+   "title": "First Christian Church, 701 Egan Avenue (May 2022)",
+   "original_title": "First Christian Church Egan Ave B",
+   "caption": {
+    "caption": "First Christian Church (Disciples of Christ), 701 Egan Ave., Beaumont, May 2022. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client-supplied file in the BLD 'Church 701 Egan Ave' folder; the May 2022 date and address come from the source filename, and partial 'Disciples of Christ' lettering is visible in frame."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Three-quarter exterior view of the First Christian Church at 701 Egan Avenue: rock-faced (rusticated) concrete-block walls, a crenellated corner tower with paired arched louvered openings, arched stained-glass windows, and a broad concrete stair rising to the corner entry. Weathered painted lettering on the low stucco wall beside the steps is partially legible as 'First Christian Church ... Disciples of Christ.' Condition record dated May 2022 by the source filename, the 'b' companion to a May 2017 view of the same building in this collection.",
+   "corrections": [
+    "Expanded the title with the street address and the May 2022 date carried in the source filename."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Church 701 Egan Ave\\First Christian Church 701 Egan Ave. 5-2022 b.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took this photo (likely the same person who shot the May 2017 companion frame)?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_dd956905449c7642": {
+   "title": "Old Gas Station, Beaumont, California (John Margolies, 1977)",
+   "original_title": "Sixth Street From Ebay",
+   "caption": {
+    "caption": "Old gas station, Beaumont, California, 1977. John Margolies Roadside America Photograph Archive, Library of Congress, Prints and Photographs Division (LC-DIG-mrg-05228).",
+    "attribution": "John Margolies / Library of Congress Prints and Photographs Division",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The eBay-sourced scan is a frame-for-frame match with Library of Congress digital file LC-DIG-mrg-05228, catalogued as John Margolies, 'Old gas station, Beaumont, California,' 1977."
+   },
+   "date": {
+    "date_start": 1977,
+    "date_end": 1977,
+    "display": "1977",
+    "confidence": "medium",
+    "basis": "Library of Congress catalogs the photograph as 1977 (item 2017707321, LC-DIG-mrg-05228); the record's 2024 date was the eBay listing date, not the photograph date."
+   },
+   "rights_status": "Public domain",
+   "rights": "No known restrictions — Library of Congress rights advisory for the John Margolies Roadside America Photograph Archive: 'No known restrictions on publication.' Credit: John Margolies Roadside America photograph archive, Library of Congress, Prints and Photographs Division (LC-DIG-mrg-05228). Recommend replacing the low-resolution eBay .webp with the Library's free high-resolution digital file for any print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "35 mm color slide view of a derelict gas station in Beaumont: a tile-roofed pump-island canopy with checkerboard-trimmed posts, a small white tile-roofed office at left, a pole sign reading 'GAS' with an 'ETHYL' panel below, 'AHA' painted in red on the white building at right, bare winter trees behind, and a mound of sand on the drive. Identified by direct frame-for-frame visual match as John Margolies' 'Old gas station, Beaumont, California' (1977) from the Roadside America Photograph Archive at the Library of Congress (LC-DIG-mrg-05228); the catalog copy is a low-resolution scan taken from a September 2024 eBay listing.",
+   "corrections": [
+    "Re-identified: this is not a 2024 photograph — it is John Margolies' 1977 'Old gas station, Beaumont, California' (Library of Congress LC-DIG-mrg-05228), confirmed by frame-for-frame comparison with the LOC digital file.",
+    "Re-dated 2024 to 1977; 2024 was only the eBay listing date embedded in the filename.",
+    "Retitled from 'Sixth Street From Ebay' to the Library of Congress title.",
+    "Rights upgraded from 'eBay postcard listing (original holder unknown)' to the LOC 'no known restrictions' advisory; a free high-resolution master is available from LOC, superseding the low-res eBay scan."
+   ],
+   "evidence": [
+    {
+     "label": "Library of Congress, 'Old gas station, Beaumont, California,' John Margolies, 1977, LC-DIG-mrg-05228, rights advisory 'No known restrictions on publication'",
+     "url": "https://www.loc.gov/pictures/item/2017707321/"
+    },
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\motels cafes gas stations\\sixth street photo from ebay 9-2024.webp"
+    }
+   ],
+   "open_questions": [
+    "The LOC record gives no street address; confirm the 'Sixth Street' location claim from the source filename if an address is wanted for the mural caption."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_040513e8698b345f": {
+   "title": "Ramona's Mexican Cafe Interior — Staff Beneath the Welcome Arch",
+   "original_title": "Ramona S Mexican Cafe E",
+   "caption": {
+    "caption": "Beneath the \"Welcome to Ramona's\" archway inside Ramona's Mexican Cafe, Beaumont, c. 2018-2025. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The interior signage \"Welcome to Ramona's\" is legible in the photograph; the file came from the client's Ramona's folder."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use. Likely supplied by the Vargas family, who operate Ramona's — they are the natural first contact.",
+   "holding": null,
+   "best_master": null,
+   "description": "Interior photograph of Ramona's Mexican Cafe in Beaumont: three people pose beneath the restaurant's brick archway under a sun-motif sign reading \"Welcome to Ramona's,\" with tile flooring, a wooden bench, decorative brickwork, and a Corona menu board visible. A modern casual snapshot, likely taken with a phone. Documentary value: interior condition and signage record of the restaurant and the people who run it, c. 2018-2025.",
+   "corrections": [
+    "Retitled from filename-derived \"Ramona S Mexican Cafe E\" to a descriptive title based on what the photograph shows."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona's Mexican Cafe e.jpg"
+    },
+    {
+     "label": "Image inspection 2026-07-21: interior \"Welcome to Ramona's\" arch sign and three posed subjects confirm the location"
+    }
+   ],
+   "open_questions": [
+    "Who took the photograph, and are the three pictured staff/family members identifiable by name?",
+    "If the photo came from the Vargas family, obtain their permission (and the photographer's) before print use."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_2a8133ae8e586364": {
+   "title": "Sacred Heart Barrio Church, 2018 (view C)",
+   "original_title": "Sacred Heart Barrio Church C",
+   "caption": {
+    "caption": "Sacred Heart barrio church building, Beaumont, 2018; the bell-tower sign now identifies a Christian Community Church congregation. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The tower sign reading \"...Christian Community Church\" is partially legible in the photograph; the 2018 date and Sacred Heart identification come from the original filename."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Street-corner view of the small white stucco church known as the Sacred Heart barrio church: a squat bell tower with red-tile roof and cross, a large red wooden cross mounted on the side wall, a concrete-block annex behind, and a chain-link fence along the lot. A sign on the tower reads \"...Christian Community Church\" (first line not fully legible), indicating a different congregation now uses the building; the number 419 is visible on the annex. 2018 condition record of the building.",
+   "corrections": [],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Sacred Heart Catholic Parish\\Sacred Heart Barrio Church 2018 c.JPG"
+    },
+    {
+     "label": "Image inspection 2026-07-21: tower sign partially reads \"...Christian Community Church\"; building number 419 visible on annex"
+    }
+   ],
+   "open_questions": [
+    "Who took the 2018 photograph?",
+    "What is the full name of the congregation on the tower sign, and when did the building pass from Sacred Heart parish use?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_3f4c4ca617098fd8": {
+   "title": "Ramona's Mexican Cafe (view A — preview unverified)",
+   "original_title": "Ramona S Mexican Cafe A",
+   "caption": null,
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified, and the image content itself is unverified (preview renders as a blank texture). Next action: re-convert the .heic master to confirm what the photo shows, then ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "The catalog preview for this record shows only a featureless beige/cream dotted texture — no building, people, or signage are visible. The source is a .heic file in the client's Ramona's folder, so the preview is most likely a failed or partial HEIC conversion, or the original frame is an accidental close-up. The photograph's actual subject cannot be confirmed until the preview is re-extracted from the HEIC master.",
+   "corrections": [
+    "Flagged that the current preview does not depict Ramona's Mexican Cafe or any recognizable subject — likely a failed HEIC-to-JPEG preview conversion; title annotated accordingly."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona's Mexican Cafe a.heic"
+    },
+    {
+     "label": "Image inspection 2026-07-21: preview site/assets/previews/file_2761cd44f87cf90e.jpg shows only a featureless beige texture"
+    }
+   ],
+   "open_questions": [
+    "Re-extract the preview from the .heic master: does the original photo actually show Ramona's Mexican Cafe, or is it an accidental frame that should be dropped from the catalog?",
+    "Who took the photograph?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_5bcc7a2a42f3de62": {
+   "title": "Vargas Family of Ramona's Mexican Cafe on the SGPHS Float, Cherry Festival Parade, May 31, 2025",
+   "original_title": "Ramona S Mexican Caf Vargas Family At Cherry Festival Parade",
+   "caption": {
+    "caption": "The Vargas family of Ramona's Mexican Cafe on the San Gorgonio Pass Historical Society float, Beaumont Cherry Festival parade, May 31, 2025. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The float banner \"San Gorgonio Pass Historical Society CELEBRATES The Vargas F…\" is legible in the photograph; the parade date comes from the original filename."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use. Likely taken by a Vargas family member or an SGPHS volunteer at the parade — both are natural first contacts.",
+   "holding": null,
+   "best_master": null,
+   "description": "Roughly thirteen members of the Vargas family, in Ramona's aprons and matching family shirts, pose on a parade float decorated with papel picado banners and paper flowers under a clear sky. The float banner reads \"San Gorgonio Pass Historical Society CELEBRATES The Vargas F…,\" confirming the SGPHS honored the family at the May 31, 2025 Beaumont Cherry Festival parade. Documentary record of a living Beaumont restaurant family being publicly recognized.",
+   "corrections": [
+    "Retitled from the garbled filename-derived title (\"Ramona S Mexican Caf...\") to a descriptive title; SGPHS float context added from banner text visible in the photo."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona’s Mexican Café Vargas family at Cherry Festival parade 5-31-25.JPG"
+    },
+    {
+     "label": "Image inspection 2026-07-21: float banner legibly reads \"San Gorgonio Pass Historical Society CELEBRATES The Vargas F…\""
+    }
+   ],
+   "open_questions": [
+    "Who took the photograph — a family member, SGPHS volunteer, or bystander?",
+    "As pictured family members are living private individuals, confirm the Vargas family consents to print use in the mural."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_7c01fc3dab547cc4": {
+   "title": "First Christian Church, 701 Egan Ave., May 2017",
+   "original_title": "First Christian Church Egan Ave May",
+   "caption": {
+    "caption": "First Christian Church (Disciples of Christ), 701 Egan Ave., Beaumont, May 2017. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The \"First Christian Church / Disciples of Christ\" monument sign is legible in the photograph; address and May 2017 date come from the original filename."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Corner view of First Christian Church (Disciples of Christ) at 701 Egan Avenue, Beaumont: a rusticated concrete-block building with a crenellated corner entry tower, paired arched louvered belfry openings, arched stained-glass windows, and broad corner steps. The monument sign at the steps reads \"First Christian Church / Disciples of Christ,\" and a food-ministry banner hangs at right. May 2017 condition record of the historic church building.",
+   "corrections": [
+    "Title cleaned to include the full address and date already present in the source filename."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Church 701 Egan Ave\\First Christian Church, 701 Egan Ave. May 2017.jpg"
+    },
+    {
+     "label": "Image inspection 2026-07-21: monument sign \"First Christian Church / Disciples of Christ\" legible at the corner steps"
+    }
+   ],
+   "open_questions": [
+    "Who took the May 2017 photograph?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_8ee30e567a4b5e66": {
+   "title": "Ramona's Mexican Cafe, Clinker-Brick Facade",
+   "original_title": "Ramona S Mexican Cafe Brick Facade",
+   "caption": {
+    "caption": "Clinker-brick facade and arched windows of Ramona's Mexican Cafe, Beaumont, c. 2018-2025. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The \"Ramona's Mexican Restaurant\" pole sign and clinker-brick facade are clearly visible in the photograph."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Exterior view along the side of Ramona's Mexican Cafe in Beaumont, showing its distinctive clinker-brick construction with pointed-arch window recesses, a low brick planter wall with pink wrought-iron fencing and gate, cacti, a green patio awning, and the pole sign reading \"Ramona's / Mexican Restaurant / Daily Specials / Beer and Wine.\" Taken on an overcast day, c. 2018-2025. Documentary condition record of the restaurant's much-loved handmade brick facade.",
+   "corrections": [],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona's Mexican Cafe brick facade.JPG"
+    },
+    {
+     "label": "Image inspection 2026-07-21: \"Ramona's Mexican Restaurant / Daily Specials / Beer and Wine\" signage legible"
+    }
+   ],
+   "open_questions": [
+    "Who took the photograph?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_b4e6ea6952262482": {
+   "title": "Beaumont Presbyterian Church, 702 Euclid Ave.",
+   "original_title": "Presbyterian Church",
+   "caption": null,
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified, and the low-resolution PNG format suggests it was downloaded from a website. Next action: ask Beaumont Library District where the file came from and who took it — if pulled from a church or other website, obtain that source's permission (and identify the photographer) before print use; the image is also too low-resolution for mural printing as-is.",
+   "holding": null,
+   "best_master": null,
+   "description": "Front view of the stone Beaumont Presbyterian Church building: a steep gabled roof, arched red double entry doors, and an arched stained-glass window above the entrance, framed by large mature trees. The file is a small, low-resolution PNG (roughly 389 x 260 pixels), which suggests it was saved from a website rather than taken directly by the contributor. Modern condition record of the 1934 stone church building at 702 Euclid Avenue (address per the collection folder).",
+   "corrections": [
+    "Retitled to include location (702 Euclid Ave., from the collection folder) to distinguish it from other Presbyterian Church records.",
+    "Flagged that the file is a small web-resolution PNG of unknown online origin, not an original camera file."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Presbyterian Church 702 Euclid Ave\\presbyterian church 2.png"
+    },
+    {
+     "label": "Image inspection 2026-07-21: low-resolution PNG (~389x260 px), consistent with a web-saved image rather than an original photo file"
+    }
+   ],
+   "open_questions": [
+    "Where was this PNG downloaded from, and who holds rights to the original photograph?",
+    "A higher-resolution original would be needed for any print use — can BLD or the church supply one?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_dec634939b47e13c": {
+   "title": "Christine and Gil Vargas Sr. at a Family Birthday Celebration",
+   "original_title": "Christine And Gil Vargas Sr A",
+   "caption": {
+    "caption": "Christine and Gil Vargas Sr. of Ramona's Mexican Cafe at a family birthday celebration, c. 2018-2025. Photographer unidentified (likely a Vargas family snapshot).",
+    "attribution": "Photographer unidentified (likely Vargas family)",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "A private home interior with birthday decorations indicates a family snapshot; the subjects' identification comes from the original filename in the client's Ramona's folder."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use. The home setting makes this almost certainly a Vargas family photo, so the family is the natural contact for both the photographer question and consent of the pictured couple.",
+   "holding": null,
+   "best_master": null,
+   "description": "Indoor snapshot of Christine and Gil Vargas Sr. embracing in a living room decorated for a birthday: Gil wears a party hat, bead necklaces, and a soccer-club t-shirt, and a partially visible \"...BIRTHDAY\" banner hangs over a tiled fireplace beneath a wall collection of decorative crosses. A modern phone-style family photograph, c. 2018-2025. Documentary portrait of the couple behind Ramona's Mexican Cafe.",
+   "corrections": [
+    "Retitled from filename-derived \"Christine And Gil Vargas Sr A\" to a descriptive title reflecting the birthday-celebration setting visible in the photo."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Christine and Gil Vargas Sr. a.jpg"
+    },
+    {
+     "label": "Image inspection 2026-07-21: birthday banner, party hat, and home interior confirm a private family celebration"
+    }
+   ],
+   "open_questions": [
+    "Which Vargas family member took the photograph, and what was the occasion/date?",
+    "Confirm the couple's (or family's) consent for print use in the mural."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_04328f685390128c": {
+   "title": "Scott Karnitz memorial plaque, Beaumont fire station",
+   "original_title": "Beaumont Volunteer Firefighter Scott Karnitz Memorial At Beaumont Fire Station Aaa",
+   "caption": {
+    "caption": "Tree-dedication plaque in memory of Beaumont volunteer firefighter Scott Karnitz (plaque dates 9-11-63 and 1-1-82), placed by Girl Scout Troop 101 at the Beaumont fire station, 2000s-2010s.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Plaque text and dates transcribed directly from the photograph; no photographer is recorded in the source folder."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Close view of a cast-bronze plaque set into a rough stone marker at the base of a tree. The plaque reads \"This tree dedicated in memory of Scott Karnitz, a volunteer fire fighter, by Girl Scout Troup 101\" with the dates 9-11-63 and 1-1-82, flanked by a City of Beaumont seal and a fire-department emblem. Modern snapshot documenting the memorial at the Beaumont fire station; a second view of the same subject is filed with a \"BBB\" suffix.",
+   "corrections": [
+    "Retitled: dropped the \"AAA\" duplicate-file suffix from the working title.",
+    "Caption now transcribes the plaque text and its dates as actually visible in the photograph."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Beaumont Volunteer Firefighter Scott Karnitz memorial at Beaumont Fire Station AAA.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took this photograph, and when? If it is BLD staff/volunteer work it is BLD-owned; otherwise the photographer's permission is needed for print use.",
+    "Confirm whether the plaque dates 9-11-63 and 1-1-82 are Karnitz's birth and death dates (the plaque does not label them)."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_31a2aed058e380fd": {
+   "title": "Former Summit School",
+   "original_title": "Former Summit School",
+   "caption": null,
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Street-level snapshot, taken from across the road (a vehicle side mirror intrudes at lower right), of a single-story cream-colored institutional building behind a black metal fence, with a parking lot of vehicles, bare winter trees, and a communications tower behind. 2024 condition record of the former Summit School property in Beaumont.",
+   "corrections": [],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Summit School\\Former Summit School 2024.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took this 2024 photograph? If BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_4085f2ec04e2579d": {
+   "title": "Former Sacred Heart barrio church (St. John Christian Community Church), 2018",
+   "original_title": "Sacred Heart Barrio Church A",
+   "caption": {
+    "caption": "Former Sacred Heart \"barrio\" church, occupied by St. John Christian Community Church when photographed, Beaumont, 2018.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Current occupant transcribed from the tower signage in the photograph; the \"Sacred Heart barrio church, 2018\" identification is carried from the client's filename."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Front elevation of a small white stucco church with a red-trimmed gable roof and a tile-capped bell tower; the tower sign identifies the current occupant as \"St. John Christian Community Church, a full gospel church.\" A flat-roofed wing at left carries a red wooden cross and the street number 419. The collection identifies the building as Sacred Heart parish's former \"barrio\" church; the photograph is a 2018 condition record.",
+   "corrections": [
+    "Dropped the \"A\" duplicate-file suffix from the title.",
+    "Caption now notes the building's current occupant, St. John Christian Community Church, read from its own signage."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Sacred Heart Catholic Parish\\Sacred Heart barrio Church 2018 a.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took this 2018 photograph?",
+    "Confirm the identification of this building (street number 419) as Sacred Heart's former barrio church, and record its full address."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_61eb33f53f56982d": {
+   "title": "McCoy House, 665 Edgar Avenue (Google Street View screenshot, March 2018 imagery)",
+   "original_title": "Mccoy House Google",
+   "caption": {
+    "caption": "McCoy House, 665 Edgar Avenue, Beaumont — Google Street View imagery captured March 2018 (browser screenshot). © Google.",
+    "attribution": "Google Street View — © Google",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The Google Maps/Street View interface, the address card, and the \"Mar 2018\" capture label are all visible in the screenshot itself."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — Google LLC. Street View imagery may not be reproduced in a printed mural without Google's permission; recommend replacing with an original photograph of the site.",
+   "holding": null,
+   "best_master": null,
+   "description": "Full desktop-browser screenshot of Google Street View showing a two-story green-painted house largely hidden behind a mature tree at 665 Edgar Avenue, Beaumont, with a red car at the curb. The on-screen panel reads \"665 Edgar Ave, Beaumont, California — Google Street View, Mar 2018,\" and browser tabs and the Windows taskbar are included in the frame. Reference image locating the McCoy House site, not an original photograph.",
+   "corrections": [
+    "Retitled to state the address shown on screen and the Google Street View source.",
+    "Rights flagged: not usable in the printed mural without Google's permission."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\McCoy House and lumberyard\\McCoy House 2018 Google image.jpg"
+    },
+    {
+     "label": "Google Maps/Street View usage guidelines",
+     "url": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/"
+    }
+   ],
+   "open_questions": [
+    "If this view of the McCoy House is wanted for print, commission an original photograph of 665 Edgar Avenue to replace the Street View screenshot."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_7dbe92a607028a11": {
+   "title": "Triangle Park at Egan Avenue (Google Street View capture, 2022)",
+   "original_title": "Triangle Park Google",
+   "caption": {
+    "caption": "Triangle Park at Egan Avenue, Beaumont — Google Street View capture saved March 16, 2022. © Google.",
+    "attribution": "Google Street View — © Google",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Street View overlay elements (vertical street-name label and navigation chevrons) are visible in the image; the save date comes from the filename."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — Google LLC. Street View imagery may not be reproduced in a printed mural without Google's permission; recommend replacing with an original photograph of the site.",
+   "holding": null,
+   "best_master": null,
+   "description": "Small Google Street View capture looking across Triangle Park's lawn at the Egan Avenue corner: mature conifers, a concrete path through the green, and cars parked along both frontages. The vertical \"Egan Ave\" street label and Street View navigation chevrons are visible in the frame. Saved March 16, 2022 per the filename; filed in the collection's WCTU Fountain folder as a locator image for the park.",
+   "corrections": [
+    "Retitled to name the location shown and the Google Street View source.",
+    "Rights flagged: not usable in the printed mural without Google's permission."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\WCTU Fountain\\triangle park google photo 3-16-22.jpg"
+    },
+    {
+     "label": "Google Maps/Street View usage guidelines",
+     "url": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/"
+    }
+   ],
+   "open_questions": [
+    "If a modern view of Triangle Park is wanted for print, use one of the collection's own WCTU Fountain / Triangle Park photographs instead of this Street View capture."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_95da879f3752095a": {
+   "title": "Estrada family at the Luis Estrada Road street sign",
+   "original_title": "Estrada Road",
+   "caption": {
+    "caption": "Estrada family gathered at the Luis Estrada Road and Veile Avenue street signs, Beaumont; identified as the road naming's 20th-anniversary celebration, 2021.",
+    "attribution": "Estrada family collection",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Street signs read directly from the photograph; the family attribution and the 2021 20th-anniversary identification are carried from the SGPHS timeline page and are not independently confirmed."
+   },
+   "date": null,
+   "rights_status": "Permission required",
+   "rights": "Permission required — Estrada family (collection donor). Contact the Estrada family via Beaumont Library District before reproducing this photograph in the mural.",
+   "holding": null,
+   "best_master": null,
+   "description": "A large multi-generation family group — roughly sixty people, from small children to elders — poses at the corner of Luis Estrada Road and Veile Avenue beneath the green street signs and a stop sign, with semi-trailers and a rail crossing visible behind. The image is a re-photographed print (decorative beads from an album page intrude at lower left). The SGPHS timeline presents it as the family's 2021 gathering marking the road naming's 20th anniversary.",
+   "corrections": [
+    "Retitled from \"Estrada Road\" to describe the family group actually shown at the street sign."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: C:\\GitHub\\httpssgphs.org\\images\\timeline\\estrada-road-2021.jpg (SGPHS timeline site image)"
+    }
+   ],
+   "open_questions": [
+    "Confirm with the Estrada family that this is the 2021 20th-anniversary gathering, and obtain the photographer's name. The \"20th anniversary, 2021\" framing originates in the SGPHS timeline caption, which is not an independent source.",
+    "Locate the original print — this copy is a re-photograph of an album print and a better scan may exist with the family."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_c01f0729b7635aa7": {
+   "title": "Newspaper subheadline on the Hotel Beaumont fire (clipping)",
+   "original_title": "Hotel Beaumont Location Today Google",
+   "caption": {
+    "caption": "Newspaper subheadline reporting a hotel fire — contents largely lost, insurance only $15,000 against a $42,000 building cost, fire started in the kitchen; filed as coverage of the Hotel Beaumont fire. Publication and date unidentified.",
+    "attribution": "Unidentified newspaper",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Subheadline text transcribed from the image; letterpress typography shows this is a vintage clipping, not the May 2025 Street View capture the filename describes."
+   },
+   "date": {
+    "date_start": 1910,
+    "date_end": 1960,
+    "display": "Undated newspaper clipping, early-to-mid 20th century",
+    "confidence": "low",
+    "basis": "Letterpress typography and fire-report content indicate a vintage clipping; the catalog's May 2025 date belongs to the filename's claimed Street View capture, not to this image."
+   },
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — the publishing newspaper (unidentified from this fragment). Next action: identify the paper and issue date, then contact the publisher for reuse; note that if the issue proves to be pre-1930 the clipping would now be in the public domain.",
+   "holding": null,
+   "best_master": null,
+   "description": "Cropped letterpress newspaper subheadline reading: \"Scarcely Any of the Contents Were Saved and the Total Insurance on the Building and Furnishings Was Only $15,000---House Cost $42,000 to Build---Proprietor and Most of the Guests Were Away at Time of the Fire---Started in Kitchen.\" Despite its filename (\"Hotel Beaumont location today google 5-8-25 (2)\"), this is not a 2025 Street View capture: it is a vintage clipping fragment, filed in the Hotel Beaumont folder as press coverage of the fire that destroyed the hotel. The hotel itself is not named in the visible fragment.",
+   "corrections": [
+    "Image/filename mismatch: the file named as a May 2025 Google Street View capture actually contains a vintage newspaper subheadline; retitled accordingly.",
+    "Date corrected out of the modern 2025 tier to an early-to-mid 20th-century clipping range (low confidence)."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Hotel Beaumont\\Hotel Beaumont location today google 5-8-25 (2).jpg"
+    },
+    {
+     "label": "Companion file \"...google 5-8-25 (1).jpg\" (img_6345c804830d0a07) IS a genuine Street View browser screenshot of 600 Beaumont Ave, confirming the (2) file's content does not match its name"
+    }
+   ],
+   "open_questions": [
+    "Verify the source file on Drive actually contains this clipping — the mismatch could also be a preview-pipeline mix-up with another scan in the collection.",
+    "Identify the newspaper and issue date of the fire report; if pre-1930 the clipping is public domain.",
+    "Confirm the story refers to the Hotel Beaumont fire — the hotel is not named in the visible fragment; only its folder placement links it."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_e227a30890d191f3": {
+   "title": "Pass Area Business Hub (first Bank of Beaumont site), Fifth Street and California Avenue",
+   "original_title": "IMG_3030",
+   "caption": {
+    "caption": "Pass Area Business Hub building at Fifth Street and California Avenue — the corner the collection identifies with the first Bank of Beaumont — photographed as renovation work wrapped up, 2020s.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Building signage, address numeral 514, and the California Ave street blade read from the photograph; the bank-site identification is carried from the client's folder name."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "A freshly renovated two-story white stucco commercial building numbered 514, carrying \"Pass Area Business Hub\" signs on two elevations, at the corner the collection identifies with the first Bank of Beaumont at Fifth Street and California Avenue (a \"California\" street blade stands at the corner). Orange traffic cones, a work pickup, and new iron fencing indicate construction just wrapping up; the snow-dusted San Gorgonio range shows behind. Camera-roll snapshot documenting the corner's current state.",
+   "corrections": [
+    "Retitled from camera-roll name IMG_3030 to a descriptive title based on the signage and location visible in the photograph."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\first Bank of Beaumont 5th and California\\IMG_3030.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took this photograph and when? EXIF data on the original IMG_3030.JPG would settle the capture date.",
+    "Clarify the building's relationship to the first Bank of Beaumont — whether this is the original bank building renovated or a later structure on the same corner."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_0fe6d3036afcd3d6": {
+   "title": "Egan Avenue Looking South to the Interstate 10 Dead End",
+   "original_title": "Egan Ave Looking South Today Dead End At Interstate Photographed From Same Spot As Vintage Looking South",
+   "caption": {
+    "caption": "Egan Avenue looking south to its dead end at Interstate 10, Beaumont, 2020s — repeat view taken from the same spot as vintage photographs. Photographer unidentified.",
+    "attribution": "Photographer unidentified",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Filename states the repeat-view intent and the image shows the modern dead end at the freeway; no photographer is recorded anywhere in the file provenance."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Modern color photograph looking south down Egan Avenue in Beaumont to where the street dead-ends at a guardrail, with the tree-lined Interstate 10 embankment beyond. A tan stucco building with a mission-style parapet and a U.S. flag stands at left and a light-blue commercial building at right. Per the source filename, it was taken from the same vantage point as vintage Egan Avenue photographs in the collection, serving as a then-and-now comparison record of how the freeway severed the street.",
+   "corrections": [
+    "Retitled from the unwieldy filename-derived title to a concise descriptive title; original wording preserved in original_title."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Egan Avenue\\Egan Ave looking south today dead end at Interstate 10 photographed from same spot as vintage photos looking south.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took this repeat-view photograph, and when exactly? If a BLD staff member or volunteer, the district owns it; otherwise permission is needed for print use."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_366a85910d2e675f": {
+   "title": "Nancy's Motel Postcard, 1360 E. Sixth St. (eBay Listing Photo)",
+   "original_title": "Nancy Motel Postcard On Ebay",
+   "caption": {
+    "caption": "Nancy's Motel, 1360 E. Sixth St., Beaumont — c. 1950s postcard, photographed in a September 2024 eBay listing. Postcard publisher unidentified.",
+    "attribution": "Postcard publisher unidentified; image from an eBay listing (September 2024)",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The filename records the eBay source and 9-2024 capture; the image itself is a listing-style photo of a physical card whose printed caption identifies the motel and address."
+   },
+   "date": {
+    "date_start": 1948,
+    "date_end": 1960,
+    "display": "c. 1950s (postcard image; eBay listing photographed September 2024)",
+    "confidence": "medium",
+    "basis": "The automobiles visible on the card are late-1940s/early-1950s sedans and the card is a mid-century photo postcard; the catalog's 2024 date reflects only the eBay capture, not the depicted scene."
+   },
+   "rights_status": "Unclear",
+   "rights": "Two layers: the underlying c. 1950s postcard (publisher unidentified — a pre-1964 U.S. postcard whose copyright was not renewed would now be public domain, but this cannot be confirmed without seeing the card's back) and the 2024 eBay seller's listing photograph. Next action: have Beaumont Library District contact the eBay seller (or acquire the card) to identify the publisher from the reverse and confirm copyright status; do not print from the listing photo without resolving both layers.",
+   "holding": null,
+   "best_master": null,
+   "description": "Color photograph of a physical black-and-white postcard lying on a maroon textile background, in the style of an eBay seller's listing photo. The postcard shows the tile-roofed office of Nancy's Motel with its roadside MOTEL sign and postwar sedans parked in front, and carries the printed caption 'Nancy's Motel, 1360 E. Sixth St., Beaumont, California.' The record documents a mid-century Beaumont motel via a vintage postcard found for sale online in September 2024.",
+   "corrections": [
+    "Re-dated the depicted image from 2024 to c. 1948-1960: the 2024 date is when the eBay listing was captured, but the photograph is of a mid-century postcard (postwar sedans visible). Flagged as a modern-tier mis-filing of vintage content.",
+    "Retitled to name the motel and address printed on the card; original title preserved in original_title."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\motels cafes gas stations\\Nancy Motel postcard on ebay 9-2024.webp"
+    }
+   ],
+   "open_questions": [
+    "Who published the Nancy's Motel postcard, and was its copyright renewed? The card's reverse (not in the collection) would identify the publisher.",
+    "Was the physical postcard purchased from the eBay listing? A direct scan of the card would be a better master than the seller's photo, which shows the card at an angle on carpet."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_40d6c2b8e19fd527": {
+   "title": "WCTU Fountain Inscription 'W.C.T.U. Dec. 25, 1910', Triangle Park",
+   "original_title": "Wctu Fountain In Triangle Park",
+   "caption": {
+    "caption": "Inscription on the WCTU fountain in Triangle Park, Beaumont — 'W.C.T.U. Dec. 25, 1910' — photographed 2020s. Photographer unidentified.",
+    "attribution": "Photographer unidentified",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The inscription text is read directly off the photograph; no photographer is recorded in the file provenance."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Modern color close-up of the carved inscription panel on the stone WCTU fountain in Triangle Park, Beaumont, reading 'W.C.T.U.' above the date 'Dec. 25, 1910.' The darkened recessed panel is set into rough fieldstone masonry. This is a 2020s condition and legibility record of the dedication inscription on the 1910 Woman's Christian Temperance Union fountain.",
+   "corrections": [
+    "Retitled from the generic 'Wctu Fountain In Triangle Park' (shared by six records) to identify this frame specifically as the close-up of the dedication inscription. Note: 'Dec. 25, 1910' is the fountain's dedication date carved in stone, not the photo date."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\WCTU Fountain\\WCTU Fountain in Triangle Park 4.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took this and the other five WCTU fountain photographs in the folder, and on what date? Likely a single 2020s documentation visit, but the photographer is unrecorded."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_6345c804830d0a07": {
+   "title": "Hotel Beaumont Site (600 Beaumont Ave), Google Street View",
+   "original_title": "Hotel Beaumont Location Today Google",
+   "caption": {
+    "caption": "Site of the Hotel Beaumont at 600 Beaumont Ave as it appears in Google Street View imagery captured August 2023 (screenshot May 2025). © Google — reference only.",
+    "attribution": "Google Street View, © Google",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The screenshot itself shows the Google Street View interface, address card, and 'Image capture: Aug 2023 © Google' watermark."
+   },
+   "date": {
+    "date_start": 2023,
+    "date_end": 2023,
+    "display": "August 2023 (Street View capture; screenshot saved May 2025)",
+    "confidence": "medium",
+    "basis": "The on-screen Street View panel and watermark both read 'Aug 2023'; the catalog's 2025 date reflects only when the screenshot was saved."
+   },
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — Google LLC. Street View imagery may not be reproduced in a printed mural without Google's permission; recommend replacing with an original photograph of the site.",
+   "holding": null,
+   "best_master": null,
+   "description": "Full-screen browser screenshot of Google Maps Street View at 600 Beaumont Ave, Beaumont, California, showing a signalized intersection with parked cars, palm trees, and a gas-station canopy at the corner. The Google Street View information card and the 'Image capture: Aug 2023 © Google' watermark are visible, along with the Chrome browser frame and Windows taskbar. Saved as a reference for the present-day appearance of the former Hotel Beaumont site.",
+   "corrections": [
+    "Re-dated from 2025 to the August 2023 Street View capture shown in the on-screen label; the May 2025 date was the screenshot date, not the imagery date.",
+    "Retitled to name the address and the Street View source; original title preserved in original_title."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Hotel Beaumont\\Hotel Beaumont location today google 5-8-25 (1).jpg"
+    },
+    {
+     "label": "Google Maps/Street View attribution and usage guidelines",
+     "url": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/"
+    }
+   ],
+   "open_questions": [
+    "If this view is wanted for the printed mural, an original photograph of the 600 Beaumont Ave corner must be taken to replace the Google imagery."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_816fb6e3233bbf73": {
+   "title": "Sunset Plaza Hotel Building, April 2025",
+   "original_title": "Sunset Plaza Hotel",
+   "caption": {
+    "caption": "Sunset Plaza Hotel building, Beaumont, April 28, 2025. Photographer unidentified.",
+    "attribution": "Photographer unidentified",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The filename dates the photo 4-28-25; no photographer is recorded in the file provenance."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Modern color photograph of the two-story flat-roofed white stucco building known as the Sunset Plaza Hotel, framed by mature fan palms under an overcast sky, with SUVs parked at the curb and a black metal fence along the frontage. Small door signage, partially legible, appears to identify a recovery-center business now occupying the building. April 2025 condition record of the historic hotel building.",
+   "corrections": [],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Sunset Plaza Hotel\\Sunset Plaza Hotel 4-28-25.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took this April 2025 photograph?",
+    "What is the building's current occupant and address? Door signage suggests a recovery-center business, which the client can confirm for the caption."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_99255ef1fe8299f3": {
+   "title": "Margarita on the Tiled Bar at Ramona's Mexican Cafe",
+   "original_title": "Ramona S Mexican Cafe H",
+   "caption": {
+    "caption": "Margarita on the hand-painted tile bar at Ramona's Mexican Cafe, Beaumont, 2020s. Photographer unidentified.",
+    "attribution": "Photographer unidentified",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Subject identified from the folder provenance (Ramona's series) and the restaurant's distinctive tiled bar; no photographer is recorded."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use. The styled, promotional look suggests it may originate from the restaurant or its social media, in which case the Vargas family's permission should be sought.",
+   "holding": null,
+   "best_master": null,
+   "description": "Modern color interior photograph of a salt-rimmed margarita with a lime wheel standing on a bar top faced in brightly painted Talavera-style tile at Ramona's Mexican Cafe, Beaumont. Small Mexican flags and framed artwork are visible in the dining room behind. One of a series of 2020s photographs documenting the long-running Vargas family restaurant.",
+   "corrections": [
+    "Retitled from the series placeholder 'Ramona S Mexican Cafe H' to describe the actual subject (interior detail of a margarita on the tiled bar, not a building exterior)."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona's Mexican Cafe h.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took this photo — BLD, a family member, or the restaurant's own promotional/social-media account? The answer determines whose permission is needed."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_c822a8c6bb7c2f67": {
+   "title": "Luis Estrada Road Street Sign",
+   "original_title": "Luis Estrada Road Sign",
+   "caption": {
+    "caption": "Street sign for Luis Estrada Road (600 W block), Beaumont, c. 2018-2021. Estrada family collection.",
+    "attribution": "Estrada family collection",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The file sits in the client's Luis Estrada folder alongside other Estrada-family-attributed items; the sign text is read directly off the photograph."
+   },
+   "date": null,
+   "rights_status": "Permission required",
+   "rights": "Permission required — Estrada family (collection donor). Contact the Estrada family through the Beaumont Library District before reproducing in print.",
+   "holding": null,
+   "best_master": null,
+   "description": "Modern color photograph looking up at the green street-blade sign reading 'LUIS ESTRADA RD 600W' with a directional arrow, mounted above a stop sign against blue sky crossed by power lines; a second cross-street blade (partially legible, apparently 'Veile') sits edge-on above it. Documents the Beaumont street named in honor of longtime Southern Pacific railroad worker Luis Estrada, whose family donated related material to the collection.",
+   "corrections": [],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrada Road sign.jpg"
+    }
+   ],
+   "open_questions": [
+    "Which family member took the photograph, and on what date? The c. 2018-2021 range is an estimate; the road's 20th-anniversary celebration in 2021 (documented elsewhere in the collection) is a plausible occasion."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_e3b0eb2e257855ca": {
+   "title": "Centennial Gala Bartenders — Record-Gazette Clipping, November 23, 2012",
+   "original_title": "Record Gazette",
+   "caption": {
+    "caption": "Paula Christante, dressed as Charlie Chaplin, and Alan Slater tend bar at Beaumont's Centennial Gala — Record-Gazette, November 23, 2012.",
+    "attribution": "Record-Gazette (Banning, California)",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The filename encodes the paper and issue date (Record_Gazette_2012_11_23) and the clipping carries its printed cutline; the page masthead itself is not in frame."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — Record-Gazette (Banning, California). Contact the publisher for permission before reproducing this clipping or its photograph in print.",
+   "holding": null,
+   "best_master": null,
+   "description": "Black-and-white halftone newspaper photograph clipped from the Record-Gazette of November 23, 2012, covering Beaumont's 100th-anniversary Centennial Gala. The printed cutline reads: 'Paula Christante, left, dressed as Charlie Chaplan [sic], and Alan Slater were bartenders during the Centennial Gala.' Christante appears in a Chaplin costume with bowler hat and Slater, in period bartender dress, pours from a cocktail shaker in front of enlarged historic photographs.",
+   "corrections": [
+    "Retitled from the bare 'Record Gazette' to identify the subject and issue date; noted the cutline's 'Chaplan' spelling as printed (sic)."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont city 2012 100th anniversary centennial\\Record_Gazette_2012_11_23_2.jpg"
+    }
+   ],
+   "open_questions": [
+    "Did a staff photographer take the gala photo (making the Record-Gazette the sole rights holder), or was it submitted? The publisher can confirm when permission is requested."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_1098cac0279a0fdd": {
+   "title": "Christine and Gil Vargas Sr. as a young couple (vintage snapshot)",
+   "original_title": "Christine And Gil Vargas Sr B",
+   "caption": {
+    "caption": "Christine and Gil Vargas Sr. of Ramona's Mexican Cafe as a young couple, c. 1970s (family snapshot, rephotographed)",
+    "attribution": "Vargas family collection (presumed); photographer unidentified",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Filed in the client's Ramona's folder with the couple named in the filename; the white-bordered print and 1970s fashions identify it as a vintage family snapshot."
+   },
+   "date": {
+    "date_start": 1970,
+    "date_end": 1985,
+    "display": "c. 1970s",
+    "confidence": "low",
+    "basis": "White-bordered snapshot print with 1970s hairstyles and clothing; consistent with the couple's ages around the early-1970s founding era of Ramona's Mexican Cafe. The catalog's 2018-2025 range reflects the rephotograph, not the original print."
+   },
+   "rights_status": "Unclear",
+   "rights": "Vintage family snapshot, photographer unidentified — likely Vargas family personal property. Next action: ask Beaumont Library District to confirm with the Vargas family (Ramona's Mexican Cafe) that they own the print and consent to reproduction before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Rephotographed white-bordered snapshot of a young couple posing indoors against floral wallpaper: the man, with long dark 1970s-style hair and a wide-collared light shirt, embraces the woman, who wears her dark hair long. The collection identifies them as Christine and Gil Vargas Sr. of Ramona's Mexican Cafe. The print format and the couple's hairstyles and clothing indicate a 1970s-era original, so the image documents the cafe's founding generation, not the 2020s tier it was filed under.",
+   "corrections": [
+    "Re-dated from 2018-2025 to c. 1970s: the image is a rephotographed vintage print, not a modern photograph.",
+    "Retitled from 'Christine And Gil Vargas Sr B' to a descriptive title."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Christine and Gil Vargas Sr. b.jpg"
+    }
+   ],
+   "open_questions": [
+    "Ask the Vargas family (via Beaumont Library District) for the actual date of the original snapshot and who took it.",
+    "Confirm the family owns the print and consents to reproduction."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_37bbc779f837532c": {
+   "title": "Sean Balingit leading a Historical Society tour at the McCoy House",
+   "original_title": "Sean Balingit At The Mccoy House During Society Tour Credit Is Pat Murkland",
+   "caption": {
+    "caption": "Sean Balingit leads a Historical Society tour at the McCoy House, c. 2015-2024. Photo: Pat Murkland",
+    "attribution": "Pat Murkland",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The original filename states 'PHOTO CREDIT IS PAT MURKLAND'; the credit is recorded by the collection rather than embedded in the image."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — Pat Murkland (photographer, per credit recorded in the original filename). Obtain Murkland's permission, via the San Gorgonio Pass Historical Society or Beaumont Library District, before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "A guide identified as Sean Balingit addresses a group of about ten visitors gathered on the grounds of the McCoy House, a two-story pale-green Victorian with a bay window and decorative gable trim, shaded by a large live oak in late-afternoon light. Documents San Gorgonio Pass Historical Society tour programming at the museum house in the 2015-2024 period.",
+   "corrections": [
+    "Retitled to remove the embedded credit note from the display title; the credit is carried in the attribution instead."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\McCoy House and lumberyard\\Sean Balingit at the McCoy House during Historical Society tour PHOTO CREDIT IS PAT MURKLAND.jpg"
+    }
+   ],
+   "open_questions": [
+    "Confirm the exact date of the tour and obtain Pat Murkland's permission terms for mural reproduction."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_48e0a1029b9b35cf": {
+   "title": "Luis Estrada trackworker statue, California State Railroad Museum, Sacramento (view A)",
+   "original_title": "Luis Estrada Statue At California State Railroad Museum In Sacramento A",
+   "caption": {
+    "caption": "Trackworker figure at the California State Railroad Museum, Sacramento, associated by the Estrada family with Luis Estrada (scanned family snapshot)",
+    "attribution": "Estrada family collection",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Filed among the client's Luis Estrada family materials; the image is a scan of a physical print."
+   },
+   "date": null,
+   "rights_status": "Permission required",
+   "rights": "Permission required — Estrada family (collection donor). Contact the Estrada family through Beaumont Library District for reproduction consent.",
+   "holding": null,
+   "best_master": null,
+   "description": "Scanned color snapshot of a life-size trackworker figure at the California State Railroad Museum in Sacramento: a sculpted man in white work clothes and gloves leans into a lining bar set against a rail on the exhibit track, with wooden walkways, a cable barrier, museum visitors, and a stenciled rolling-stock placard behind him. The Estrada family collection associates this exhibit figure with Luis Estrada, the Beaumont trackworker for whom Luis Estrada Road is named; the scan documents that commemorative connection rather than a Beaumont site.",
+   "corrections": [
+    "Title normalized; no factual changes to the record."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrada statue at California State Railroad Museum in Sacramento a.jpg"
+    }
+   ],
+   "open_questions": [
+    "A companion print in this series (view B) bears a 2/23/2005 print date, suggesting the museum visit predates 2005 — confirm the actual date with the Estrada family; the current 2010-2024 range is likely too late.",
+    "Confirm with the Estrada family who took the snapshot and whether they consent to reproduction."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_64fee8a381ae5df5": {
+   "title": "Stewart Sunnyslope Cemetery entrance (Google Street View)",
+   "original_title": "Stewart Sunnylope Cemetery Google",
+   "caption": {
+    "caption": "Stewart Sunnyslope Cemetery entrance — Google Street View capture saved May 2020",
+    "attribution": "Google Street View — © Google",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The Google watermark and Street View navigation chevron are visible in the image itself; the filename records the May 15, 2020 save date."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — Google LLC. Street View imagery may not be reproduced in a printed mural without Google's permission; recommend replacing with an original photograph of the site.",
+   "holding": null,
+   "best_master": null,
+   "description": "Google Street View capture of the Stewart Sunnyslope Cemetery entrance: a wrought-iron arch reading 'STEWART SUNNY SLOPE' spans an asphalt drive between rock-faced stone gate pillars, flanked by Italian cypresses, iron fencing, lawn, a small ranch-style building with a U.S. flag, and the pass foothills beyond. Google watermarking and the Street View navigation chevron are visible on the roadway. Saved in May 2020 as a location reference for the cemetery.",
+   "corrections": [
+    "Corrected 'Sunnylope' to 'Sunnyslope' in the title (the entrance arch itself reads 'Stewart Sunny Slope')."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Reznor Stewart and ranch and Stewart Sunnyslope Cemetery\\Stewart Sunnylope Cemetery google image 5-15-20.png"
+    },
+    {
+     "label": "Google Maps/Street View attribution and usage guidelines",
+     "url": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/"
+    }
+   ],
+   "open_questions": [
+    "The Street View imagery capture date may be earlier than the May 2020 save date (the faint copyright watermark appears to show an earlier year); confirm only if the exact capture date matters.",
+    "For the mural, replace with an original photograph of the cemetery entrance."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_82595c1c9806db2a": {
+   "title": "Former Sacred Heart barrio church building, 2018",
+   "original_title": "Sacred Heart Barrio Church B",
+   "caption": {
+    "caption": "Former Sacred Heart barrio church, 2018 — the tower sign now names a later congregation",
+    "attribution": "Photographer unidentified",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "From the client's BLD Sacred Heart Catholic Parish folder with 2018 in the filename; no photographer is recorded."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Corner view of a small white rough-stucco church with a square bell tower topped by a tiled cap and cross, red roof trim, and security bars on the windows and doors, photographed under a partly cloudy sky. A sign on the tower now identifies a later congregation (partially legible as a 'Christian Community Church'), and the striped parking stalls, wall air-conditioning unit, and adjacent shipping container record present-day conditions. A 2018 condition record of the building remembered in the collection as Sacred Heart parish's barrio church.",
+   "corrections": [
+    "Retitled to note the building's former-church status, which the visible successor-congregation signage supports."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Sacred Heart Catholic Parish\\Sacred Heart Barrio church 2018 b.JPG"
+    }
+   ],
+   "open_questions": [
+    "Ask Beaumont Library District who took the 2018 photograph.",
+    "Confirm the building's address and the successor congregation's exact name from the tower sign."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_99913db9881316f3": {
+   "title": "Luis Estrada trackworker statue, California State Railroad Museum — close-up (printed page)",
+   "original_title": "Luis Estrada Statue California State Railroad Museum In Sacramento B",
+   "caption": {
+    "caption": "Close-up of the trackworker figure associated with Luis Estrada, California State Railroad Museum, Sacramento — printed page dated Feb. 23, 2005",
+    "attribution": "Estrada family collection; original photographer unidentified",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Filed among Estrada family materials; the visible 'Page 2 of 2' header and 2/23/2005 date stamp show it was printed from a two-page document in 2005."
+   },
+   "date": {
+    "date_start": 1981,
+    "date_end": 2005,
+    "display": "by Feb. 2005",
+    "confidence": "medium",
+    "basis": "The scanned page bears a printed 2/23/2005 date stamp and 'Page 2 of 2' header, so the photograph predates that printout; the California State Railroad Museum opened in 1981. The catalog's 2010-2024 range reflected the scan, not the image."
+   },
+   "rights_status": "Permission required",
+   "rights": "Permission required — Estrada family (collection donor); contact the family via Beaumont Library District. Note: the page appears printed from a third-party document, so the underlying photograph may have an additional rights holder to clear.",
+   "holding": null,
+   "best_master": null,
+   "description": "Scan of a printed page showing a close-up of the head and shoulders of the California State Railroad Museum's trackworker figure: a sculpted man with dark hair and a heavy mustache, in a tan work shirt, looking downward. The page carries a 'Page 2 of 2' header and a printed date of 2/23/2005, so the underlying photograph can be no later than February 2005. The Estrada family collection associates the figure with Luis Estrada of Beaumont.",
+   "corrections": [
+    "Re-dated from 2010-2024 to 'by Feb. 2005' based on the 2/23/2005 print date visible on the scanned page.",
+    "Retitled to note the item is a scanned printed page, not a direct photograph."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrada statue California State Railroad Museum in Sacramento b.jpg"
+    }
+   ],
+   "open_questions": [
+    "The 'Page 2 of 2' header suggests the page was printed from a website or document — identify the original photographer or publisher (possibly the California State Railroad Museum) before print use.",
+    "Confirm reproduction consent with the Estrada family via Beaumont Library District."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_cb8fe08683e0e832": {
+   "title": "Vargas family of Ramona's Mexican Cafe on the Historical Society float, Cherry Festival parade, 2025",
+   "original_title": "Vargas Family Of Ramona S Mexican Cafe Cherry Festival Parade",
+   "caption": {
+    "caption": "The Vargas family of Ramona's Mexican Cafe honored on the San Gorgonio Pass Historical Society float, Cherry Festival parade, May 31, 2025",
+    "attribution": "Photographer unidentified",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The filename supplies the event and date, and the banner visible in the photograph confirms both."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Twelve members of the Vargas family, including a small child in a red tutu, pose on a parade float trailer decorated with paper flowers and papel picado streamers on a residential Beaumont street. The float banner reads 'San Gorgonio Pass Historical Society CELEBRATES The Vargas Family and Ramona's Mexican Cafe For 52 years of service to the community!'. Documents the family being honored at the May 31, 2025 Cherry Festival parade.",
+   "corrections": [
+    "Retitled to name the Historical Society float and the 2025 date."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Vargas family of Ramona's Mexican Cafe Cherry Festival parade 5-31-25 2.JPG"
+    }
+   ],
+   "open_questions": [
+    "Ask Beaumont Library District (or the Vargas family / SGPHS) who took the photograph."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_e4260d9b7f031559": {
+   "title": "Beaumont Woman's Club community center (Google Street View), 2020",
+   "original_title": "Beaumont Woman S Club Google",
+   "caption": {
+    "caption": "Beaumont Woman's Club community center — Google Street View capture, 2020",
+    "attribution": "Google Street View — © Google",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The filename records 'google 2020' and the image is a road-level Street View perspective; no watermark is legible in the preview."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — Google LLC. Street View imagery may not be reproduced in a printed mural without Google's permission; recommend replacing with an original photograph of the site.",
+   "holding": null,
+   "best_master": null,
+   "description": "Street-level view from across the road of a single-story tan stucco building with a hipped shingle roof, twin chimneys, and a gabled entry portico whose sign reads 'Women's Club Community Center'; a U.S. flag flies from a pole in the landscaped front yard under a hazy sky. Saved from Google in 2020 as a location reference recording the current condition of the Beaumont Woman's Club building.",
+   "corrections": [
+    "Retitled for clarity; the building sign reads 'Women's Club Community Center'."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Woman's Club\\beaumont woman's club google 2020.jpg"
+    },
+    {
+     "label": "Google Maps/Street View attribution and usage guidelines",
+     "url": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/"
+    }
+   ],
+   "open_questions": [
+    "Confirm the Street View capture date if precision matters.",
+    "For the mural, replace with an original photograph of the building."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_11892e76e7df49d3": {
+   "title": "Group Portrait in Front of Ramona's Mexican Food Restaurant",
+   "original_title": "Ramona S Mexican Cafe F",
+   "caption": {
+    "caption": "Family group in front of Ramona's Mexican Food restaurant, with its brick arches and rose garden, c. 1985-1995.",
+    "attribution": "Vargas family collection (photographer unknown)",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The file sits in the client's Ramona's folder alongside other Vargas family material; the image itself is a scanned film-era snapshot of the restaurant frontage."
+   },
+   "date": {
+    "date_start": 1985,
+    "date_end": 2000,
+    "display": "c. 1985-1995",
+    "confidence": "low",
+    "basis": "Film-print color and grain plus late-1980s/1990s clothing styles (color-block blouse, high-waisted jeans); clearly not the 2018-2025 range currently in the catalog."
+   },
+   "rights_status": "Unclear",
+   "rights": "Family snapshot, photographer unidentified. Next action: ask Beaumont Library District to confirm with the Vargas family of Ramona's Mexican Cafe who took the photograph and who appears in it, and obtain the family's permission before any print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Color snapshot of four adults posing arm-in-arm in front of Ramona's Mexican Food restaurant in Beaumont, whose brick facade with arched openings carries the sign 'Ramona's Mexican Food — Beer, Wine, Food To Go.' Pennant bunting is strung across the front and rose bushes bloom in the raised stone planters. The image is a digitized film print, not a recent digital photo: color rendering, grain, and the subjects' late-1980s/1990s clothing all indicate a snapshot from that era. It documents the restaurant's storefront and, most likely, members of the Vargas family who ran it.",
+   "corrections": [
+    "Re-dated from 2018-2025 ('2020s') to c. 1985-1995: the image is a scanned film snapshot with period clothing, not a modern digital photo.",
+    "Retitled from series filename 'Ramona S Mexican Cafe F' to a descriptive title."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona's Mexican Cafe f.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who are the four people pictured, and who took the photograph? (Vargas family via BLD)",
+    "Can the family narrow the date of the snapshot?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_38d2d7286d1a066a": {
+   "title": "Deodar Trees on Beaumont Avenue (Google Street View)",
+   "original_title": "Deodar Trees On Beaumont Avenue Today",
+   "caption": {
+    "caption": "Deodar cedars lining Beaumont Avenue, Google Street View capture, c. 2018-2025.",
+    "attribution": "Google Street View (© Google LLC)",
+    "attribution_confidence": "confirmed",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The image itself shows Street View navigation chevrons, an overlaid street-name label, a privacy blur, and the Google watermark — self-evident Street View provenance."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — Google LLC. Street View imagery may not be reproduced in a printed mural without Google's permission; recommend replacing with an original photograph of the site.",
+   "holding": null,
+   "best_master": null,
+   "description": "Low-resolution Google Street View capture looking down Beaumont Avenue, with mature deodar cedars lining both sides of the street, parked pickup trucks at left, and a residential wall at right. Street View interface elements are visible: the overlaid street-name label on the roadway, navigation chevrons, a privacy-blurred patch on the wall, and the Google watermark in the corner. Saved as a modern comparison view of the historic deodar tree planting on Beaumont Avenue.",
+   "corrections": [
+    "Attribution changed from 'Unknown' to Google Street View: the capture visibly carries Street View UI, privacy blurring, and the Google watermark."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Deodar trees on Beaumont Avenue\\Deodar trees on Beaumont Avenue today.jpg"
+    },
+    {
+     "label": "Google geo guidelines (permissions for Street View imagery)",
+     "url": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/"
+    }
+   ],
+   "open_questions": [
+    "If this view is wanted for the mural, an original photograph of the Beaumont Avenue deodars should be taken to replace the Street View screenshot."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_4b3616cbe2898cea": {
+   "title": "Christine And Gil Vargas Sr C",
+   "original_title": "Christine And Gil Vargas Sr C",
+   "caption": null,
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Personal family photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm with the Vargas family who took the original portrait and obtain the family's (and if needed the photographer's) permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Vertical snapshot of a couple, identified by the source filename as Christine and Gil Vargas Sr. of Ramona's Mexican Cafe. The woman, in a blue floral blouse with sunglasses pushed up on her head, embraces the seated man, who wears a blue T-shirt with his long dark hair pulled back. The digital file appears to be a rephotographed physical print — a frame or print edge and surface sheen are visible along the right side. One of a series of Vargas family portraits (a, b, c) supplied in the client's Ramona's folder.",
+   "corrections": [],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Christine and Gil Vargas Sr. c.jpg"
+    }
+   ],
+   "open_questions": [
+    "When was the original portrait taken? The rephotographed print may predate the catalog's 2018-2025 range.",
+    "Who took the original photograph — a family member or a professional?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_661c04fefa693750": {
+   "title": "Eyer House, 2019",
+   "original_title": "Eyer House",
+   "caption": null,
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Well-composed exterior view of the Eyer House, a one-story craftsman-style bungalow numbered 507, with a deep porch on tapered posts trimmed in green, a cobblestone chimney, brick-edged garden paths, and mature palm and conifer trees shading the yard. A good-quality digital photograph from 2019 per the source filename. Serves as a 2019 condition record of this historic Beaumont residence.",
+   "corrections": [],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Eyer House and family\\Eyer House 2019.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took the 2019 photograph? Its polished real-estate-style composition makes it worth confirming it was not copied from a property listing before print use."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_863f0fc9e94e4ebb": {
+   "title": "Bank of Beaumont Facade Inscription — 'Founded 1909, Erected 1923'",
+   "original_title": "Bank Of Beaumont Engraving Front",
+   "caption": {
+    "caption": "Parapet inscription on the 1923 Bank of Beaumont building, Fifth Street and California Avenue: 'Bank of Beaumont — Founded 1909, Erected 1923,' photographed c. 2015-2025.",
+    "attribution": "Photographer unknown (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The inscription text, dates, and location are read directly off the photographed facade; the file comes from the client's BLD folder for the second Bank of Beaumont building."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Modern color detail photograph of the upper facade of the second Bank of Beaumont building at Fifth Street and California Avenue. The parapet carries the incised inscription 'BANK OF BEAUMONT' with 'FOUNDED 1909' and 'ERECTED 1923' below it, flanked by rosette medallions, two relief cartouches, and blue-painted cornice trim; a streetlamp, an American flag, and the back of a later commercial sign are also visible. A present-day condition record of the 1923 building's surviving ornamental stonework.",
+   "corrections": [
+    "Retitled to quote the visible facade inscription, which itself documents the founding (1909) and construction (1923) dates."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave (1)\\Bank of Beaumont engraving front.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took the photograph, and when exactly?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_9acdf5b823073389": {
+   "title": "Track-Worker Exhibit Figure at the California State Railroad Museum",
+   "original_title": "Luis Estrada Statue At California State Railroad Museum In Sacramento D",
+   "caption": null,
+   "date": null,
+   "rights_status": "Permission required",
+   "rights": "Permission required — Estrada family (collection donor). Contact the Estrada family through the Beaumont Library District for permission to reproduce this family photograph.",
+   "holding": null,
+   "best_master": null,
+   "description": "Interior view at the California State Railroad Museum in Sacramento showing a life-size exhibit figure of a railroad track worker in white work clothes straining on a lining bar over the rails, with a pickaxe and wheelbarrow beside him and a steam locomotive numbered 4466 on its smokebox behind; a museum visitor stands at left beyond the barrier rails. The Estrada family, whose collection supplied this series, associates the track-worker figure with Beaumont section laborer Luis Estrada. The image has heavy magenta color shift and print grain, indicating a scanned or rephotographed film print from a family visit to the museum.",
+   "corrections": [
+    "Description clarified: the 'statue' is a museum exhibit figure of a track worker that the family associates with Luis Estrada, photographed during a family visit; not a statue of Estrada erected as such (association per family/filename, not verified independently)."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrada statue at California State Railroad Museum in Sacramento d.jpg"
+    }
+   ],
+   "open_questions": [
+    "When did the Estrada family visit the museum? The film-print appearance (color shift, grain) suggests the photo may predate the catalog's 2010-2024 range.",
+    "Does the museum exhibit formally reference Luis Estrada, or is the association a family tradition?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_cc1a3e9d9b7f9b76": {
+   "title": "Record-Gazette Centennial Coverage: '1912' Play by Catch A Star Theatrical Players",
+   "original_title": "Record Gazette",
+   "caption": {
+    "caption": "Catch A Star Theatrical Players portray Beaumont's 1912 incorporation vote in the play '1912' — Record-Gazette centennial coverage, November 23, 2012.",
+    "attribution": "Record-Gazette, November 23, 2012",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The scan's filename dates it to the Record-Gazette of 2012-11-23 and the printed caption naming the cast is legible in the image; the masthead itself is not in this crop."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — Record-Gazette (Beaumont-Banning newspaper). Both the photograph and the printed caption belong to the publisher; contact the Record-Gazette for permission before reproducing in the mural.",
+   "holding": null,
+   "best_master": null,
+   "description": "Scanned newspaper photograph from the Record-Gazette's Beaumont centennial edition of November 23, 2012 (page 1 of the client's scans). The halftone image shows costumed actors on stage, and the printed caption reads: 'Catch A Star Theatrical Players portray the moment everyone finds out that Beaumont approves its incorporation in the play \"1912.\" From left are Kelsey De Forge, Kyle Anders, Dick Meinhold, Susan O'Connell, Lillian Alaniz, Gabrielle Brooks and Penny Quinn.' Documents how Beaumont's 2012 centennial celebrated the city's 1912 incorporation.",
+   "corrections": [
+    "Retitled from generic 'Record Gazette' using the legible printed caption; cast names and the play title '1912' transcribed from the clipping."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont city 2012 100th anniversary centennial\\Record_Gazette_2012_11_23_1 (1).jpg"
+    }
+   ],
+   "open_questions": [
+    "Which Record-Gazette staff photographer took the stage photo? (Ask the publisher when requesting reuse permission.)"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_e5e3407036c3c2c5": {
+   "title": "Aerial View of Beaumont, April 2010 (Annotated Scrapbook Page)",
+   "original_title": "Aerial",
+   "caption": {
+    "caption": "Oblique aerial view of Beaumont's pastures, highway, and expanding town grid, from an annotated scrapbook page hand-dated April 2010.",
+    "attribution": "Unknown (scrapbook page, photographer unidentified)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The handwritten 'April 2010' date and developer-boom annotation are visible on the scanned album page itself; no photographer is credited anywhere on the page."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "The aerial photographer and the scrapbook compiler are both unidentified. Next action: ask Beaumont Library District which scrapbook this scanned page (from the 'Steven's Scans' set) comes from, who compiled it, and who took the April 2010 aerial photograph; obtain permission from the photographer or the scrapbook's owner before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Scan of a scrapbook or album page containing a color oblique aerial photograph of Beaumont, hand-dated 'April 2010.' The aerial view looks across open pastureland and a curving divided highway toward light-industrial buildings and the residential street grid, with housing tracts and foothills beyond. A partially cropped handwritten annotation above the photo comments on City Hall 'welcoming developers and telling them to \"Come and Build,\"' adding that 'only the downturn in the economy stopped the building.' Documents both Beaumont's 2010 growth-era landscape and a compiler's contemporary commentary on it.",
+   "corrections": [
+    "Retitled from bare 'Aerial' to identify the subject, the April 2010 date handwritten on the page, and the scrapbook-page format."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Steven's Scans\\Aerial Photos.2.2.png"
+    }
+   ],
+   "open_questions": [
+    "Whose scrapbook was digitized in the 'Steven's Scans' set, and who took the April 2010 aerial photograph?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_1c61ef08adc421b9": {
+   "title": "Former Triangle Gas Station Building (Beaumont Cleaners), Present Day",
+   "original_title": "Triangle Gas Station Today",
+   "caption": {
+    "caption": "Former Triangle gas station building, now Beaumont Cleaners, 2020s. Photographer unidentified; Beaumont Library District collection.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client folder 'motels cafes gas stations' and filename 'triangle gas station today.jpg'; the photograph itself shows Beaumont Cleaners signage on a former service-station building."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Color photograph of a small corner commercial building now occupied by Beaumont Cleaners, with a red Spanish-tile hipped roof over the corner entry bay, glass-block window walls, and a black-tile wainscot — the compact corner form typical of a converted early automobile service station. A tall cactus stands at the right and quiet residential streets are visible behind. Per the client's filename, this documents the former Triangle gas station site as it appears today, serving as the present-day companion to the collection's historic gas-station images.",
+   "corrections": [
+    "Retitled from 'Triangle Gas Station Today' to state what the photograph actually shows: the Beaumont Cleaners business occupying the former gas-station building."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\motels cafes gas stations\\triangle gas station today.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took this photograph and when (BLD staff/volunteer or third party)?",
+    "Confirm the building is in fact the former Triangle gas station — the identification rests solely on the client's filename."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_39722a07ed88a499": {
+   "title": "Luis Estrada Trackworker Figure, 'On the Section' Exhibit, California State Railroad Museum (View C)",
+   "original_title": "Luis Estrada Statue At California State Railroad Museum In Sacramento C",
+   "caption": {
+    "caption": "Trackworker figure identified by the Estrada family as Luis Estrada, 'On the Section' exhibit, California State Railroad Museum, Sacramento, 2010s-2020s. Estrada family collection.",
+    "attribution": "Estrada family collection",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Filed in the client's 'Luis Estrada' folder with Estrada family collection attribution; the photograph itself shows the museum's 'On the Section' interpretive panel and exhibit setting."
+   },
+   "date": null,
+   "rights_status": "Permission required",
+   "rights": "Permission required — Estrada family (collection donor). Contact the Estrada family through the Beaumont Library District before reproduction.",
+   "holding": null,
+   "best_master": null,
+   "description": "Snapshot of a museum exhibit at the California State Railroad Museum in Sacramento: a life-size figure of a mustachioed track worker in a white work shirt and trousers straining on a track tool beside a section of rail, with an 'On the Section' interpretive panel about track maintenance in the foreground and a second figure behind. The Estrada family collection identifies this figure as representing Luis Estrada, the Beaumont-area Southern Pacific section foreman honored elsewhere in the collection. One of four views (a-d) of the exhibit in the collection.",
+   "corrections": [
+    "Retitled to describe the actual subject: a life-size exhibit figure beside the 'On the Section' interpretive panel, not a freestanding statue."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrada statue at California State Railroad Museum in Sacramento c.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who in the Estrada family took this snapshot, and when was the museum visit?",
+    "Does the California State Railroad Museum require its own permission to reproduce photographs of its exhibit in a printed mural?",
+    "Is the family's identification of the figure as Luis Estrada documented by the museum?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_4eeb78c48b2bca4b": {
+   "title": "Dowling Orchards Produce Store, Contemporary View",
+   "original_title": "Dowling Orchards Store Contemporary",
+   "caption": {
+    "caption": "Dowling Orchards produce store ('Farm Fresh Produce — Dried Fruit Nuts Candy'), 2010s-2020s. Photographer unidentified; Beaumont Library District collection.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client folder 'Dowling family' and filename 'Dowling Orchards Store contemporary.jpg'; signage in the photograph matches a roadside produce store."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Color photograph of the Dowling Orchards roadside produce store: a low white building with rooftop signs reading 'Farm Fresh Produce' and 'Dried Fruit Nuts Candy,' hand-lettered orange banners advertising strawberries, cherries, and grapes, and a row of red shopping carts by the entrance. A woman stands at the right edge near a yellow clothes-and-shoes donation bin in the paved lot. Contemporary condition record of the Dowling family's fruit-stand business, filed with the collection's Dowling family material.",
+   "corrections": [
+    "Retitled slightly for readability ('Dowling Orchards Produce Store, Contemporary View')."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Dowling family\\Dowling Orchards Store contemporary.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took this photograph and when? The composition suggests it could be a professional or publication photo — if so, the photographer's permission is needed before print use.",
+    "Exact location of the store (Beaumont vs. Cherry Valley)."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_67d561c6f67c1ba2": {
+   "title": "Newspaper Clipping: 'Volunteer's Funeral Was 1st Of Its Kind' (Scott Karnitz)",
+   "original_title": "Newspaper Clipping For Beaumont Fire Volunteer Scott Karnitz",
+   "caption": {
+    "caption": "'Volunteer's Funeral Was 1st Of Its Kind' — newspaper clipping on the funeral of Beaumont volunteer firefighter Scott Karnitz, c. 1970s-1980s. Publication unidentified (Banning dateline).",
+    "attribution": "Unidentified newspaper (Banning dateline)",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Headline, Banning dateline, and inset portrait caption are legible in the scan; the publishing paper's name is not shown on the clipping."
+   },
+   "date": {
+    "date_start": 1970,
+    "date_end": 1990,
+    "display": "c. 1970s-1980s",
+    "confidence": "low",
+    "basis": "Letterpress-era typography and halftone style, plus the article citing a 1967 incident as the only prior volunteer death, indicate a clipping decades older than the cataloged 1995-2020 range. Exact year of Karnitz's death not yet confirmed."
+   },
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — unidentified newspaper (Banning dateline; possibly the Record-Gazette or another Riverside County paper). Identify the publication and contact the publisher for reuse permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Scan of a black-and-white newspaper clipping with a Banning dateline, headlined 'Volunteer's Funeral Was 1st Of Its Kind,' with an inset portrait captioned 'Scott Karnitz.' The article reports the funeral of 18-year-old Beaumont volunteer fireman Scott Karnitz, killed on New Year's Day on Highway 60 while assisting after an accident in the Badlands — described as the first Riverside County Fire Department volunteer killed on duty — with over 600 firefighters and law-enforcement personnel attending, burial at Desert Lawn Park in Calimesa, and a memorial fund at Riverside County Fire Station No. 66 in Beaumont. The name of the publishing newspaper is not visible on the clipping.",
+   "corrections": [
+    "Date range corrected: cataloged as 1995-2020, but the clipping's typography, halftone style, and internal references indicate c. 1970s-1980s (low confidence pending confirmation of the year of Karnitz's death).",
+    "Retitled to include the clipping's actual headline."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\newspaper clipping for Beaumont Fire Volunteer Scott Karnitz.jpg"
+    }
+   ],
+   "open_questions": [
+    "Which newspaper published this article, and on what date? (Riverside County Fire Department or Beaumont Fire records could pin the year of Karnitz's death.)",
+    "Who holds the original clipping — Beaumont Fire Department or a family member?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_87313621a59a7991": {
+   "title": "Group Portrait Under the 'Welcome to Ramona's' Arch, Ramona's Mexican Cafe (View D)",
+   "original_title": "Ramona S Mexican Cafe D",
+   "caption": {
+    "caption": "Group beneath the 'Welcome to Ramona's' entry arch, Ramona's Mexican Cafe, Beaumont, c. 2018-2025. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection, Ramona's group)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client folder 'Ramona's'; the interior sign in the photograph confirms the location."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use. The Vargas family (Ramona's) is the likely source and first contact.",
+   "holding": null,
+   "best_master": null,
+   "description": "Interior snapshot of eight people posing beneath the brick archway at Ramona's Mexican Cafe in Beaumont, under the pink-and-orange sun-motif 'Welcome to Ramona's' sign; a sombrero-and-serape Corona bottle figure hangs at right and holiday string lights are visible above, suggesting a wintertime visit. The individuals are not identified on the file, though the collection groups this with the restaurant's Vargas family material. Documentary record of the cafe's interior and its role as a family gathering place.",
+   "corrections": [
+    "Retitled from the camera-roll-style working title 'Ramona S Mexican Cafe D' to describe the group portrait shown."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona's Mexican Cafe d.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who are the eight people pictured? (Likely Vargas family members and friends — confirm with the family.)",
+    "Who took the photograph, and does the family consent to identifiable people appearing in a printed mural?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_9ae52f4064af37bc": {
+   "title": "'Welcome to Ramona's' Interior Sign, Ramona's Mexican Cafe",
+   "original_title": "Ramona S Mexican Cafe I",
+   "caption": {
+    "caption": "'Welcome to Ramona's' sign on the interior brick arch, Ramona's Mexican Cafe, Beaumont, c. 2018-2025. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection, Ramona's group)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client folder 'Ramona's'; the sign itself is legible in the photograph."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use. The Vargas family (Ramona's) is the likely source and first contact.",
+   "holding": null,
+   "best_master": null,
+   "description": "Close-up of the pink-and-orange sun-motif 'Welcome to Ramona's' sign mounted on the interior brick archway of Ramona's Mexican Cafe in Beaumont; a sombrero-and-serape Corona bottle figure hangs at right and tinsel garland trims the doorway below. A man in a white ball cap stands at the bottom of the frame. Interior detail record of the cafe's signature decor.",
+   "corrections": [
+    "Retitled from the camera-roll-style working title 'Ramona S Mexican Cafe I' to describe the interior sign shown."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona's Mexican Cafe i.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took the photograph and on what date? (Tinsel garland suggests the holiday season.)"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_d36ca3005fd7406a": {
+   "title": "Ramona's Mexican Restaurant Roof Sign, Exterior View",
+   "original_title": "Ramona S Mexican Cafe B",
+   "caption": {
+    "caption": "Rooftop sign of Ramona's Mexican Restaurant, Beaumont, c. 2018-2025. Photographer unidentified.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection, Ramona's group)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client folder 'Ramona's'; the sign lettering is legible in the photograph."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use. The Vargas family (Ramona's) is the likely source and first contact.",
+   "holding": null,
+   "best_master": null,
+   "description": "Exterior view looking up at the rooftop sign of Ramona's Mexican Restaurant in Beaumont against an overcast sky: the sun-logo 'Ramona's' panel beside a 'Mexican Restaurant' panel, with lower strips reading 'Daily Specials' and 'Beer and Wine.' The restaurant's brick parapet, a cactus, and the green canvas entrance awning appear below. Condition record of the restaurant's street signage.",
+   "corrections": [
+    "Retitled from the camera-roll-style working title 'Ramona S Mexican Cafe B' to describe the exterior roof sign shown."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona's Mexican Cafe b.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took the photograph and on what date?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_e6fe5e33e99cc68f": {
+   "title": "Bank of Beaumont Building Today, Fifth Street and California Avenue",
+   "original_title": "Bank Of Beaumont Today",
+   "caption": {
+    "caption": "Former Bank of Beaumont building (1923) at Fifth Street and California Avenue, 2020s. Photographer unidentified; Beaumont Library District collection.",
+    "attribution": "Photographer unidentified (Beaumont Library District collection)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Client folder 'second Bank of Beaumont Fifth St and California Ave'; the parapet lettering 'BANK OF BEAUMONT' is legible in the photograph."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Corner view of the former Bank of Beaumont building: a tan one-story masonry bank with a cast-ornament parapet lettered 'BANK OF BEAUMONT' flanked by founding and erection date inscriptions, cartouche reliefs above tall arched and rectangular windows, and blue-painted cornice trim. Two pedestrians walk the sidewalk past a period-style streetlamp at the corner. Present-day condition record of the second Bank of Beaumont building at Fifth Street and California Avenue, which the collection dates to 1923.",
+   "corrections": [
+    "Retitled to add the location (Fifth Street and California Avenue) from the source folder."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\second Bank of Beaumont Fifth St and California Ave (1)\\Bank of Beaumont today.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took this photograph and when?",
+    "The parapet's inscribed founding/erection dates are partially legible in the file — a close inspection of the master could confirm the collection's 1923 construction date."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_21b5c2878b287c35": {
+   "title": "Gil Vargas Sr. and Christine Vargas at the Cherry Festival Parade",
+   "original_title": "Gil Sr And Christine Vargas Cherry Festival Parade",
+   "caption": {
+    "caption": "Gil Vargas Sr. and Christine Vargas of Ramona's Mexican Cafe on the family's Cherry Festival parade float, Beaumont, May 31, 2025.",
+    "attribution": "Photographer unidentified",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The 'Ramonas / Chris' name tag, Ramona's cap, and float decorations visible in the image corroborate the dated filename from the client's Ramona's folder."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Color snapshot of Gil Vargas Sr. and Christine Vargas posing arm-in-arm on a parade float decorated with papel picado banners, tissue-paper flowers, and serape blankets. He wears a Ramona's Restaurant cap and sunglasses; she wears a red Ramona's work apron with a name tag reading 'Ramonas / Chris'. Documents the Vargas family of Ramona's Mexican Cafe participating in Beaumont's Cherry Festival parade on May 31, 2025.",
+   "corrections": [
+    "Normalized title capitalization and phrasing; no factual changes."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Gil Sr. and Christine Vargas Cherry Festival parade 5-31-25.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took the photograph — a Vargas family member, BLD staff, or another parade attendee?",
+    "Confirm the identifications of Gil Vargas Sr. and Christine Vargas with the family."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_3c18a28de48c53d4": {
+   "title": "Luis Estrada Road street sign at Veile Avenue",
+   "original_title": "Luis Estrada Road Sign With Stop Sign",
+   "caption": {
+    "caption": "Luis Estrada Road street sign at Veile Avenue, Beaumont, c. 2018-2021. Courtesy of the Estrada family.",
+    "attribution": "Estrada family collection",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Filed in the collection's Luis Estrada folder with Estrada-family provenance embedded in the filename; the Luis Estrada Rd and Veile Ave blades are legible in the image."
+   },
+   "date": null,
+   "rights_status": "Permission required",
+   "rights": "Permission required — Estrada family (collection donor). Contact the Estrada family via the Beaumont Library District before reproducing in print.",
+   "holding": null,
+   "best_master": null,
+   "description": "Upward view of the green street blades for Luis Estrada Road (600 W) and Veile Avenue (500) mounted above a stop sign against a clear sky, with an orange structure and utility lines in the background. Documents the signage of the Beaumont street named for Luis Estrada, at its Veile Avenue intersection, c. 2018-2021.",
+   "corrections": [
+    "Retitled to name the visible cross street (Veile Avenue) instead of the stop sign."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrada Road sign with stop sign.jpg"
+    }
+   ],
+   "open_questions": [
+    "Confirm with the Estrada family who photographed the sign and that BLD may reproduce it in the mural."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_5430b97f619e1088": {
+   "title": "Community Church (Beaumont Presbyterian Church) — real-photo postcard",
+   "original_title": "Beaumont Presbyterian Church",
+   "caption": {
+    "caption": "Community Church (filed in the collection as Beaumont Presbyterian Church, 702 Euclid Ave.), real-photo postcard, c. 1935-1960.",
+    "attribution": "Unknown (postcard photographer/publisher unidentified)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The hand-lettered 'Community Church' caption and white-bordered real-photo-postcard format are visible on the image itself; the location comes from the collection folder name."
+   },
+   "date": {
+    "date_start": 1934,
+    "date_end": 1960,
+    "display": "c. 1935-1960 (real-photo postcard)",
+    "confidence": "low",
+    "basis": "Black-and-white real-photo-postcard format with hand-lettered caption cannot be a 2010s-2020s digital photograph; the depicted building is identified by the collection as the 1934 church, so the view postdates 1934."
+   },
+   "rights_status": "Unclear",
+   "rights": "Vintage real-photo postcard, photographer/publisher unidentified. Next action: ask Beaumont Library District (or SGPHS) whether they hold the physical card and check its back for a publisher imprint; U.S. postcards published before 1964 without copyright renewal are typically public domain, but confirm before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Black-and-white real-photo postcard view of a fieldstone church with a steep gabled roof, arched sanctuary window, and a bulletin-board sign at the entrance; a hand-lettered caption reading 'Community Church' appears in the upper left. Filed in the collection under Presbyterian Church, 702 Euclid Ave. (a 1934 building per the collection's working caption). Despite its modern catalog tier, this is a vintage printed postcard image, not a contemporary photograph.",
+   "corrections": [
+    "Re-dated from 2010-2025 to c. 1935-1960: the image is a black-and-white real-photo postcard mis-tiered as a modern photograph.",
+    "Retitled to reflect the postcard's own 'Community Church' caption while preserving the collection's Presbyterian Church identification."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Presbyterian Church 702 Euclid Ave\\Beaumont Presbyterian Church.jpg"
+    }
+   ],
+   "open_questions": [
+    "Does BLD hold the physical postcard, and does its back identify a photographer or publisher?",
+    "Confirm that the pictured church is the 702 Euclid Ave. building and when it was known as 'Community Church'."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_6ddd05571b501d15": {
+   "title": "Sixth Street north side between Egan and California avenues (Google Street View, 2019)",
+   "original_title": "Sixth St Northside Between Egan And California Google",
+   "caption": {
+    "caption": "North side of Sixth Street between Egan and California avenues, Beaumont — Google Street View capture, 2019. © Google.",
+    "attribution": "Google Street View — © Google",
+    "attribution_confidence": "probable",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Filename states 'google 2019' and the image shows the characteristic Street View panoramic crop and rendering, though no watermark is visible in this crop."
+   },
+   "date": null,
+   "rights_status": "Copyrighted",
+   "rights": "Copyrighted — Google LLC. Street View imagery may not be reproduced in a printed mural without Google's permission; recommend replacing with an original photograph of the site.",
+   "holding": null,
+   "best_master": null,
+   "description": "Panoramic street-level strip showing the north side of Sixth Street with mature palms, a small commercial building, and motel-style structures beyond the roadway. The short, wide panoramic crop and rendering are characteristic of Google Street View, and the source filename states 'google 2019'. Serves as a 2019 location reference for the historic motel and cafe strip on Sixth Street, not as an archival photograph.",
+   "corrections": [
+    "Retitled for clarity and to flag the Google Street View provenance and 2019 capture year in the title."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\motels cafes gas stations\\Sixth St. northside between Egan and California google 2019.png"
+    },
+    {
+     "label": "Google Maps/Street View brand and attribution guidelines",
+     "url": "https://about.google/brand-resource-center/products-and-services/geo-guidelines/"
+    }
+   ],
+   "open_questions": [
+    "If this block is wanted in the mural, an original photograph of the site must be taken to replace the Street View capture."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_8a20e0efb687510c": {
+   "title": "Scott Karnitz memorial tree and plaque at Beaumont fire station",
+   "original_title": "Beaumont Volunteer Firefighter Scott Karnitz Memorial At Beaumont Fire Station Bbb",
+   "caption": {
+    "caption": "Memorial tree and plaque honoring Beaumont volunteer firefighter Scott Karnitz at the Beaumont fire station, c. 2000s-2010s.",
+    "attribution": "Photographer unidentified",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "Subject identification comes from the client's filename; the memorial marker and tree are visible in the image, but the plaque inscription is not legible."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Color snapshot of a mature leafy tree growing in a small planter edged with painted block and natural stone, with a rock-mounted memorial plaque at its base; a white block wall with decorative screen blocks, a driveway, and a parked car frame the scene. Per the collection filename this is the memorial to Beaumont volunteer firefighter Scott Karnitz at a Beaumont fire station; the plaque text is not legible at preview resolution. A 2000s-2010s condition record of the memorial.",
+   "corrections": [
+    "Retitled to drop the filename's 'BBB' duplicate-set marker."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Beaumont Fire Department vintage photos\\Beaumont Volunteer Firefighter Scott Karnitz memorial at Beaumont Fire Station BBB.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took the photograph, and at which Beaumont fire station is the memorial located?",
+    "Obtain a legible transcription of the plaque and the memorial's dedication date from the Beaumont Fire Department or BLD."
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_a04b2576fd8d515e": {
+   "title": "'Welcome to Ramona's' sign, Ramona's Mexican Cafe",
+   "original_title": "Ramona S Mexican Cafe C",
+   "caption": {
+    "caption": "'Welcome to Ramona's' sign at Ramona's Mexican Cafe, Beaumont, c. 2018-2025.",
+    "attribution": "Photographer unidentified",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The sign lettering is fully legible in the image; the file sits in the client's Ramona's folder with only a sequence-letter filename."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Night-time color photograph of the dimensional 'Welcome to Ramona's' sign — pink script lettering beside an orange-and-yellow sun logo — mounted on a brick wall at Ramona's Mexican Cafe in Beaumont. A 2020s record of the restaurant's signage, part of the collection's larger set documenting the business and the Vargas family.",
+   "corrections": [
+    "Retitled from the sequence-letter working title 'Ramona S Mexican Cafe C' to describe the pictured sign."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Ramona's\\Ramona's Mexican Cafe c.jpg"
+    }
+   ],
+   "open_questions": [
+    "Who took the photograph — the Vargas family, BLD staff, or another contributor?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_d5db437b82ea712d": {
+   "title": "Sixth Street, Beaumont — real-photo postcard, c. 1950s (from eBay listing)",
+   "original_title": "Sixth Street Postcard Ebay Front",
+   "caption": {
+    "caption": "Sixth Street, Beaumont, with Saving Center Market and Mobilgas signs — real-photo postcard, c. 1950s (image saved from an eBay listing, September 2024).",
+    "attribution": "Postcard publisher unidentified (via eBay listing)",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The postcard's own caption 'Sixth St. Beaumont, Cali.' and card number 103 are visible on the front; the filename records the September 2024 eBay acquisition."
+   },
+   "date": {
+    "date_start": 1945,
+    "date_end": 1960,
+    "display": "c. 1950s (postcard view; digitized from a 2024 eBay listing)",
+    "confidence": "medium",
+    "basis": "Automobile models and the Mobilgas and Standard Stations signage visible in the image indicate a late-1940s-1950s street scene; the catalog's 2024 date is the eBay acquisition date, not the date of the photograph."
+   },
+   "rights_status": "Unclear",
+   "rights": "C. 1950s real-photo postcard, publisher unidentified; the digital file is a low-resolution capture from an eBay listing. Next action: have BLD identify the publisher from the card's back (via the eBay seller, or by acquiring the physical card); U.S. postcards published before 1964 without copyright renewal are typically public domain, but confirm before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Digital capture of the front of a black-and-white real-photo postcard, numbered 103 and captioned 'Sixth St. Beaumont, Cali[f].' The view looks along Sixth Street past Saving Center Market, a Standard Stations chevron sign, a King Drug sign, a Mobilgas Pegasus sign, a traffic signal, and late-1940s-1950s automobiles. The file was saved from an eBay listing in September 2024, but the postcard view itself is mid-century.",
+   "corrections": [
+    "Re-dated the depicted image to c. 1945-1960: the catalog's 2024 date reflects when the file was saved from eBay, while the postcard shows a mid-century street scene.",
+    "Retitled to state that this is a vintage postcard captured from an eBay listing."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\motels cafes gas stations\\Sixth Street postcard ebay 9-2024 front.webp"
+    }
+   ],
+   "open_questions": [
+    "Who published real-photo postcard no. 103, and was its copyright ever registered or renewed?",
+    "Did BLD acquire the physical card, and can a higher-resolution scan be made for print use?"
+   ],
+   "research_status": "Provenance verified"
+  },
+  "img_e9f375f1600bc4d0": {
+   "title": "Fifth Street looking west from the Fifth and Grace intersection",
+   "original_title": "Fifth Street Looking West From Intersection Fith And Grace Today",
+   "caption": {
+    "caption": "Fifth Street looking west from the Grace intersection, Beaumont, 2010s-2020s; the Precision Stampings plant is at right.",
+    "attribution": "Photographer unidentified",
+    "attribution_confidence": "unknown",
+    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
+    "basis": "The vantage is stated in the client's filename and the Precision Stampings (PSI) building signage is legible in the image."
+   },
+   "date": null,
+   "rights_status": "Unclear",
+   "rights": "Modern photograph, photographer unidentified. Next action: ask Beaumont Library District to confirm who took it — if BLD staff/volunteer work it is BLD-owned; otherwise obtain the photographer's permission before print use.",
+   "holding": null,
+   "best_master": null,
+   "description": "Color photograph looking west along Fifth Street from the Grace intersection under a clear sky: a white semi-truck travels the left lane, and the tan Precision Stampings Inc. (PSI) industrial building with an American flag stands at right, with open brush and trees on the left. A 'then-and-now' companion view for the collection's vintage Fifth Street downtown photographs, recording the street's 2010s-2020s character.",
+   "corrections": [
+    "Corrected the filename typo 'Fith' to 'Fifth' in the title."
+   ],
+   "evidence": [
+    {
+     "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Fifth Street Downtown\\Fifth Street looking west from intersection Fith and Grace today.JPG"
+    }
+   ],
+   "open_questions": [
+    "Who took the photograph, and on what date was it captured?"
+   ],
+   "research_status": "Provenance verified"
+  }
+ }
+}

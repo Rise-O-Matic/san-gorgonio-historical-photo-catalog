@@ -21,6 +21,11 @@ REPO = Path(r"C:\GitHub\san-gorgonio-historical-photo-catalog")
 # confidence: confirmed (explicit date/annotation), high (strong single anchor),
 #             medium (reasoned era cues / subject anchor), low (broad range)
 O = {
+    # --- Mural-select records re-dated against Calisphere (2026-07-20) ---
+    "img_650198dd9e4987ea": (1907, 1908, "1907", "high", "Calisphere CBEA_011 'Egan Ave, 1907-1908 Granite Building. J. Drew Frank Realty and Burt Carter's Livery Stable'; the mount is labeled 'Beaumont 1907'. Corrects the catalog's erroneous 'stagecoach, 1860'."),
+    "img_6f833a14a7764e47": (1905, 1915, "c. 1905-1915", "low", "Same photo as Calisphere CBEA_134 'Southern Pacific Depot in Beaumont, looking east', which carries no date. The catalog's '1875' is untenable (Beaumont platted c.1887; the scene shows a large Edwardian crowd, a long passenger train and power/telegraph poles), so the year is widened on visual grounds."),
+    "img_a4ddc941e94d3eed": (1909, 1909, "1909", "high", "Calisphere item c8kh0mpc 'Mellen Ranch, 1909'; the mount carries 'BEAUMONT ORCHARD 1909' and 'MELLEN RANCH 1909'. Corrects the catalog's 'Cherry Tree Farm, 1930' — it is the Mellen Ranch orchard, 1909."),
+
     # --- Beaumont High School yearbooks (year printed in filename) ---
     "img_5a70b41831a92160": (1946, 1946, "1946", "confirmed", "Year in filename; view of 6th St. from the 1946 Beaumont High School yearbook (SGPHS timeline confirms BHS yearbooks 1942-1950)."),
     "img_c228028c8fdfc647": (1949, 1949, "1949", "confirmed", "Year in filename; school band from the 1949 Beaumont High School yearbook."),
@@ -63,6 +68,7 @@ O = {
     "img_934590dec97e3d15": (1909, 1918, "c. 1909-1918", "medium", "Postcard of the two-story (expanded) SP depot with steam locomotive and Edwardian-era figures; depot expansion ~1909."),
     "img_d5b3e8d2100926fd": (1908, 1918, "c. 1908-1918", "medium", "Rail-yard panorama with steam locomotive, water tower and lumber yard; no automobiles."),
     "img_eabd3578774e347f": (1908, 1918, "c. 1908-1918", "medium", "Multiple steam locomotives at the Beaumont roundhouse."),
+    "img_07a9db15e22db499": (1905, 1915, "c. 1905-1915", "medium", "Foreground locomotive is SP No. 2789 (C-9 Harriman Common Standard 2-8-0, Baldwin ~1905), read off the smokebox plate, headlight number board and shoulder marking; the class was built from ~1905, the high-mounted oil headlight predates SP's 1910s electric conversions, and Calisphere dates the scene to the early 1900s. Supersedes the SGPHS timeline's '1890s' reading."),
     "img_3b097e0808432587": (1915, 1940, "c. 1915-1940", "low", "SP section workforce; SGPHS notes women documented sweeping the tracks in the early-rail/Estrada era."),
     "img_0ab722136d7bd1be": (1940, 1949, "c. 1940s", "medium", "SGPHS timeline dates the Estrada family at meals inside the SP section house to the 1940s."),
     "img_ca02842503e130c9": (1940, 1949, "c. 1940s", "medium", "SGPHS timeline dates the Estrada family in their SP section house to the 1940s."),
