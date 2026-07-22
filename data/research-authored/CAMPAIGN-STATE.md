@@ -36,11 +36,21 @@ normalized to high/medium/low). The batch descriptions record this caveat.
 - Roundhouse "SP 1768/1890s" wrong edit: reverted + documented in CBEA_007
   record's corrections (see memory roundhouse-loco-1768.md)
 
+## Master-image pull (2026-07-22, scripts/upgrade_previews_from_masters.py)
+28 records' previews/thumbs upgraded: 10 from the 2026-07-17_selects Drive
+folder (01 + 03 hand-cropped out of album-page/mount scans) and 18 from the
+19 Calisphere /clip masters downloaded to data/calisphere/masters/. Hash
+guard keeps different images out (02 is a reference sketch — correct skip).
+Still low-res: selects 15/16 (no better master exists; mansard-era
+reconstruction idea shelved), select 09 (Huntington permission-gated), and
+4 non-Calisphere pointers (Huntington IIIF, Portal to Texas History, 2×
+CDNC — bot-blocked, needs a browser session).
+
 ## Possible follow-ups (not blocking)
 - Full adversarial verify of the 144 deep-dive entries if budget returns
 - CDNC browser-session checks queued in open_questions (e.g. Egan Ave
   Presbyterian church construction year; bot-blocked to curl/WebFetch)
-- Commit the whole campaign (large working-tree diff spans site + data)
+- Pull the 4 non-Calisphere best_master URLs (see above)
 
 ## Gotchas (kept for future passes)
 - Calisphere SPA pages bot-block curl; in-page fetch works when paced ≥2.5s;
