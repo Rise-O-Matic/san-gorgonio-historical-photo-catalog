@@ -47579,7 +47579,7 @@
     {
       "id": "img_b0c11e36c32bf11b",
       "title": "Carnegie library under the mansard roof",
-      "caption": "The library under its 1977/78 tile mansard — removed in 2008.",
+      "caption": "The Beaumont Carnegie library beneath its mansard roof — a digital reconstruction (not a historical photograph).",
       "date": {
         "start": 1978,
         "end": 2008,
@@ -47604,8 +47604,8 @@
         "roof"
       ],
       "research_status": "Researched",
-      "rights_status": "Unclear",
-      "rights_note": "Do not infer reuse rights from age; verify against the holding institution or rights statement.",
+      "rights_status": "Copyrighted",
+      "rights_note": "Digital reconstruction created for the Beaumont Library District timeline-mural project; copyright held by the project/commissioner and free for the District's own use. Not a historical photograph.",
       "selected_default": true,
       "curated": true,
       "master_file_id": "file_45f0ac199123f4c3",
@@ -47630,31 +47630,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 1.1,
-            "height_inches": 0.6,
-            "native_crop_width_inches": 1.1,
-            "native_crop_height_inches": 0.6
+            "width_inches": 4.6,
+            "height_inches": 3.1,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.1
           },
           "150": {
-            "width_inches": 1.5,
-            "height_inches": 0.8,
-            "native_crop_width_inches": 1.5,
-            "native_crop_height_inches": 0.8
+            "width_inches": 6.1,
+            "height_inches": 4.1,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.1
           },
           "100": {
-            "width_inches": 2.2,
-            "height_inches": 1.2,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.2
+            "width_inches": 9.2,
+            "height_inches": 6.2,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 6.2
           },
           "50": {
-            "width_inches": 4.5,
-            "height_inches": 2.4,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 2.4
+            "width_inches": 18.4,
+            "height_inches": 12.4,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 12.4
           }
         },
-        "recommended": "2.2 × 1.2 in at 100 PPI",
+        "recommended": "9.2 × 6.2 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -47810,16 +47810,16 @@
       "thumbnail": "assets/thumbs/file_45f0ac199123f4c3.jpg",
       "preview": "assets/previews/file_45f0ac199123f4c3.jpg",
       "original_pixels": {
-        "width": 250,
-        "height": 131
+        "width": 1024,
+        "height": 688
       },
-      "attribution": "Beaumont Library District working files (client-supplied color snapshot; photographer unknown)",
-      "attribution_confidence": "low",
-      "caption_source": "Building history research 2026-07-20 (carnegie-libraries.org, centennial marker)",
+      "attribution": "Digital reconstruction — Beaumont Library District timeline-mural project (2026)",
+      "attribution_confidence": "high",
+      "caption_source": "Timeline-mural project — digital reconstruction (2026-07)",
       "research": {
         "select_position": 16,
         "original_title": "Expansion Mansard Roof",
-        "description": "A small color snapshot of the library's front elevation between its twin conifers: the 1914 Carnegie building wearing the shallow tile mansard added in 1977/78 to unify it visually with the 1960s addition and cure roof drainage — a facade removed in 2008, when the original parapet roofline was restored.",
+        "description": "A digital reconstruction (not a historical photograph) of the 1914 Carnegie library's front elevation, viewed between its twin conifers beneath a shingled mansard roof. Created for the Beaumont timeline-mural project as an interpretive rendering of the building's mansard-roof era.",
         "corrections": [
           "The old 'Expansion Mansard Roof, 1965' is doubly wrong: the mansard came in 1977/78 (not with the 1960s addition), and this color photo therefore dates c. 1978-2008."
         ],

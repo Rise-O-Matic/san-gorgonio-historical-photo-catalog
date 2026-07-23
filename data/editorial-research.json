@@ -777,7 +777,7 @@
     "img_b0c11e36c32bf11b": {
       "title": "Carnegie library under the mansard roof",
       "original_title": "Expansion Mansard Roof",
-      "description": "A small color snapshot of the library's front elevation between its twin conifers: the 1914 Carnegie building wearing the shallow tile mansard added in 1977/78 to unify it visually with the 1960s addition and cure roof drainage — a facade removed in 2008, when the original parapet roofline was restored.",
+      "description": "A digital reconstruction (not a historical photograph) of the 1914 Carnegie library's front elevation, viewed between its twin conifers beneath a shingled mansard roof. Created for the Beaumont timeline-mural project as an interpretive rendering of the building's mansard-roof era.",
       "corrections": [
         "The old 'Expansion Mansard Roof, 1965' is doubly wrong: the mansard came in 1977/78 (not with the 1960s addition), and this color photo therefore dates c. 1978-2008."
       ],
@@ -795,8 +795,8 @@
           "url": "https://patch.com/california/banning-beaumont/beaumont-library-measure-m-preserve-last-carnegie-library-county"
         }
       ],
-      "rights": null,
-      "rights_status": null,
+      "rights": "Digital reconstruction created for the Beaumont Library District timeline-mural project; copyright held by the project/commissioner and free for the District's own use. Not a historical photograph.",
+      "rights_status": "Copyrighted",
       "holding": null,
       "best_master": {
         "location": "Client holds a physical original print (client select #17 pair)",
