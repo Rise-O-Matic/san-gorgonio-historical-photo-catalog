@@ -73,6 +73,14 @@ const yearLabel = r => startYear(r) ? String(startYear(r)) : 'Undated';
 const displayDate = r => r.date?.display || yearLabel(r);
 const shortDate = r => (r.date?.display && r.date.display.length <= 15) ? r.date.display : yearLabel(r);
 
+/* Previews/thumbs are regenerated under a stable file id, so an image swap or
+   upgrade reuses the same URL and browsers serve the stale bytes. Keying a
+   cache-bust query to the record's pixel dimensions refetches whenever the
+   image actually changes (dims move on every swap/upscale). */
+const assetVer = r => r.original_pixels ? `${r.original_pixels.width}x${r.original_pixels.height}` : '1';
+const thumbSrc = r => `${encodeURI(r.thumbnail)}?v=${assetVer(r)}`;
+const previewSrc = r => `${encodeURI(r.preview)}?v=${assetVer(r)}`;
+
 /* ————— Events ————— */
 
 function bindEvents() {
@@ -235,7 +243,7 @@ function applyFilters() {
 function trayCard(r, placed) {
   return `<article class="t-card${placed ? ' placed' : ''}" draggable="true" data-id="${r.id}">
     <figure class="t-fig">
-      <img src="${BLANK}" data-src="${encodeURI(r.thumbnail)}" alt="${esc(r.title)}" draggable="false">
+      <img src="${BLANK}" data-src="${thumbSrc(r)}" alt="${esc(r.title)}" draggable="false">
       <span class="t-year">${esc(yearLabel(r))}</span>
       ${placed ? '<span class="placed-flag">On timeline</span>' : ''}
     </figure>
@@ -265,7 +273,7 @@ function muralCard(r, i) {
   return `<article class="m-card" draggable="true" data-id="${r.id}">
     <span class="m-pos">${String(i + 1).padStart(2, '0')}</span>
     <button class="m-remove" type="button" data-remove title="Remove from timeline">×</button>
-    <div class="m-matte"><img src="${BLANK}" data-src="${encodeURI(r.thumbnail)}" alt="${esc(r.title)}" draggable="false"></div>
+    <div class="m-matte"><img src="${BLANK}" data-src="${thumbSrc(r)}" alt="${esc(r.title)}" draggable="false"></div>
     <div class="m-plate">
       <p class="m-year">${esc(shortDate(r))}</p>
       <h3 class="m-title">${esc(r.title)}</h3>
@@ -557,7 +565,7 @@ function quickView(record) {
   const research = record.research;
   $('#quickViewBody').innerHTML = `<div class="qv-grid">
     <div class="qv-photo">
-      <img src="${encodeURI(record.preview)}" alt="${esc(record.title)}" draggable="false">
+      <img src="${previewSrc(record)}" alt="${esc(record.title)}" draggable="false">
       <span class="qv-zoom-hint">Scroll to zoom · drag to pan · double-click to reset</span>
       <button class="qv-zoom-reset" type="button" hidden></button>
     </div>
@@ -675,7 +683,7 @@ async function exportDoc() {
     const thumbs = [];
     for (let i = 0; i < recs.length; i++) {
       btn.textContent = `Embedding ${i + 1}/${recs.length}…`;
-      thumbs.push(await renderThumb(recs[i].preview));
+      thumbs.push(await renderThumb(previewSrc(recs[i])));
     }
     btn.textContent = 'Writing document…';
     const stamp = new Date();
