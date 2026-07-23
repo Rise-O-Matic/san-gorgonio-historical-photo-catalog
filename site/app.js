@@ -269,7 +269,7 @@ function muralCard(r, i) {
     <div class="m-plate">
       <p class="m-year">${esc(shortDate(r))}</p>
       <h3 class="m-title">${esc(r.title)}</h3>
-      <p class="m-cap">${esc(r.caption)}</p>
+      <p class="m-cap">${esc(r.research?.description || r.caption)}</p>
     </div>
   </article>`;
 }
