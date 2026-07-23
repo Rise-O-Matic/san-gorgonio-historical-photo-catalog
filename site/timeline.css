@@ -232,7 +232,7 @@ body {
 .m-card {
   position: relative;
   flex: none;
-  width: 248px;
+  width: 496px;
   display: grid;
   grid-template-rows: 1fr auto;
   background: linear-gradient(175deg, var(--teal-soft) 0%, var(--teal) 55%);
