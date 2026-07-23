@@ -524,6 +524,11 @@ body {
   padding: 3px 8px; border-radius: 999px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 1px 3px rgba(0, 0, 0, 0.35);
 }
+.rp-mark {
+  margin-right: 4px;
+  font-size: 1.15em; font-weight: 800; letter-spacing: 0;
+  opacity: 0.85;
+}
 .rp-pd      { background: #3a7c58; color: #eef6ef; }
 .rp-perm    { background: linear-gradient(160deg, var(--brass-soft), var(--brass)); color: var(--ink-deep); }
 .rp-copy    { background: var(--sienna); color: #fff8f4; }

@@ -92,7 +92,7 @@ const RIGHTS_META = {
 function rightsPill(r, extra = '') {
   const status = r.rights_status || 'Unclear';
   const meta = RIGHTS_META[status] || RIGHTS_META['Unclear'];
-  return `<span class="rights-pill rp-${meta.tone}${extra ? ' ' + extra : ''}" title="Rights: ${esc(status)}">${esc(meta.label)}</span>`;
+  return `<span class="rights-pill rp-${meta.tone}${extra ? ' ' + extra : ''}" title="Rights: ${esc(status)}"><span class="rp-mark" aria-hidden="true">©</span>${esc(meta.label)}</span>`;
 }
 
 /* ————— Events ————— */
