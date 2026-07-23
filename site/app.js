@@ -150,6 +150,8 @@ function bindEvents() {
 
   bindDragAndDrop();
   bindScrubber();
+  bindWheelScroll($('#canvasRow'));
+  bindWheelScroll($('#trayRow'));
 
   let resizeTimer = null;
   addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(layoutScrubber, 160); });
@@ -515,6 +517,23 @@ function bindScrubber() {
   track.addEventListener('pointercancel', () => { scrubbing = false; });
 }
 
+/* ————— Wheel → horizontal scroll ————— */
+
+/* The timeline canvas and the collection tray are horizontal strips, but a
+   plain mouse wheel reports vertical deltas. Translate a vertical-dominant
+   wheel into horizontal scroll; real horizontal gestures (trackpads) are left
+   to the browser so we never double them. */
+function bindWheelScroll(el) {
+  el.addEventListener('wheel', event => {
+    if (el.scrollWidth <= el.clientWidth) return;                // nothing to scroll — let the page have it
+    if (Math.abs(event.deltaX) > Math.abs(event.deltaY)) return; // native horizontal gesture
+    if (!event.deltaY) return;
+    event.preventDefault();
+    const unit = event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? el.clientWidth : 1; // lines/pages → px
+    el.scrollLeft += event.deltaY * unit;
+  }, { passive: false });
+}
+
 /* ————— Quick view ————— */
 
 /* Evidence links recorded by the research campaign — every record carries
@@ -653,17 +672,18 @@ async function exportDoc() {
   btn.disabled = true;
   try {
     const recs = working.map(id => byId.get(id));
-    const images = [];
+    const thumbs = [];
     for (let i = 0; i < recs.length; i++) {
       btn.textContent = `Embedding ${i + 1}/${recs.length}…`;
-      images.push(await imageDataUri(recs[i].preview));
+      thumbs.push(await renderThumb(recs[i].preview));
     }
     btn.textContent = 'Writing document…';
-    const blob = new Blob([exportHtml(recs, images)], { type: 'text/html' });
+    const stamp = new Date();
+    const blob = buildDocx(recs, thumbs, stamp);
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `beaumont-timeline-${new Date().toISOString().slice(0, 10)}.html`;
+    link.download = `beaumont-timeline-${stamp.toISOString().slice(0, 10)}.docx`;
     link.click();
     URL.revokeObjectURL(url);
   } finally {
@@ -672,87 +692,221 @@ async function exportDoc() {
   }
 }
 
-function imageDataUri(src) {
+/* Draw the preview onto a size-capped canvas; return the JPEG data URI plus the
+   thumbnail's pixel dimensions (needed to set the picture's aspect ratio). */
+function renderThumb(src) {
   return new Promise(resolve => {
     const img = new Image();
     img.onload = () => {
-      const MAX = 1200;
+      const MAX = 1000;
       const scale = Math.min(1, MAX / Math.max(img.naturalWidth, img.naturalHeight));
+      const w = Math.max(1, Math.round(img.naturalWidth * scale));
+      const h = Math.max(1, Math.round(img.naturalHeight * scale));
       const canvas = document.createElement('canvas');
-      canvas.width = Math.max(1, Math.round(img.naturalWidth * scale));
-      canvas.height = Math.max(1, Math.round(img.naturalHeight * scale));
-      canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
-      try { resolve(canvas.toDataURL('image/jpeg', 0.85)); } catch { resolve(null); }
+      canvas.width = w; canvas.height = h;
+      canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+      try { resolve({ dataUri: canvas.toDataURL('image/jpeg', 0.82), w, h }); }
+      catch { resolve(null); }
     };
     img.onerror = () => resolve(null);
     img.src = encodeURI(src);
   });
 }
 
-function exportHtml(recs, images) {
-  const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+/* ——— Minimal .docx (Office Open XML) writer ———
+   The export must open natively in Word / Google Docs, show every photo so the
+   client can QC the sequence, and let the exact order be rebuilt from the file.
+   A real .docx (not HTML-saved-as-.doc) renders embedded images reliably; the
+   ordered manifest rides along as beaumont-timeline.json inside the package,
+   and every entry also prints its catalog ID as a human-readable fallback. */
+
+const EMU_PER_IN = 914400;
+const MAX_IMG_IN = 6.0;                 // fits US Letter with 1" margins
+const utf8 = str => new TextEncoder().encode(str);
+
+const CONTENT_TYPES = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Default Extension="jpeg" ContentType="image/jpeg"/><Default Extension="json" ContentType="application/json"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/></Types>`;
+
+const ROOT_RELS = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships>`;
+
+function buildDocx(recs, thumbs, stamp) {
+  const media = [], rels = [], thumbPaths = [];
+  const body = [coverXml(recs, stamp)];
+  recs.forEach((r, i) => {
+    const thumb = thumbs[i];
+    let img = null;
+    if (thumb) {
+      const idx = media.length + 1;
+      const name = `image${idx}.jpeg`;
+      media.push({ name, bytes: dataUriToBytes(thumb.dataUri) });
+      const relId = `rIdImg${idx}`;
+      rels.push(`<Relationship Id="${relId}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/${name}"/>`);
+      img = { relId, id: 100 + idx, w: thumb.w, h: thumb.h };
+      thumbPaths.push(`word/media/${name}`);
+    } else thumbPaths.push(null);
+    body.push(entryXml(r, i, img));
+  });
+
+  const documentXml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><w:body>${body.join('')}<w:sectPr><w:pgSz w:w="12240" w:h="15840"/><w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/></w:sectPr></w:body></w:document>`;
+  const documentRels = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">${rels.join('')}</Relationships>`;
+
+  return zip([
+    { name: '[Content_Types].xml', data: utf8(CONTENT_TYPES) },
+    { name: '_rels/.rels', data: utf8(ROOT_RELS) },
+    { name: 'word/document.xml', data: utf8(documentXml) },
+    { name: 'word/_rels/document.xml.rels', data: utf8(documentRels) },
+    { name: 'beaumont-timeline.json', data: utf8(manifestJson(recs, thumbPaths, stamp)) },
+    ...media.map(m => ({ name: `word/media/${m.name}`, data: m.bytes })),
+  ]);
+}
+
+/* ——— WordprocessingML paragraph / run builders ———
+   sz is half-points (28 = 14pt); paragraph spacing is twentieths of a point
+   (240 = 12pt); run spacing (spc) is character spacing in twips. */
+function rp(o = {}) {
+  return `<w:rPr>${o.font ? `<w:rFonts w:ascii="${o.font}" w:hAnsi="${o.font}"/>` : ''}${o.b ? '<w:b/>' : ''}${o.i ? '<w:i/>' : ''}${o.caps ? '<w:caps/>' : ''}${o.color ? `<w:color w:val="${o.color}"/>` : ''}${o.sz ? `<w:sz w:val="${o.sz}"/><w:szCs w:val="${o.sz}"/>` : ''}${o.spc ? `<w:spacing w:val="${o.spc}"/>` : ''}</w:rPr>`;
+}
+function pp(o = {}) {
+  return `<w:pPr>${o.keepNext ? '<w:keepNext/>' : ''}${o.border || ''}<w:spacing w:before="${o.before || 0}" w:after="${o.after == null ? 120 : o.after}"/>${o.align ? `<w:jc w:val="${o.align}"/>` : ''}</w:pPr>`;
+}
+const rn = (text, rPr = '') => `<w:r>${rPr}<w:t xml:space="preserve">${esc(text)}</w:t></w:r>`;
+const pgraph = (runs, pPr = '') => `<w:p>${pPr}${runs}</w:p>`;
+
+function coverXml(recs, stamp) {
   const years = recs.map(startYear).filter(Boolean);
   const span = years.length ? `${Math.min(...years)} – ${Math.max(...years)}` : '—';
-  const entries = recs.map((r, i) => {
-    const sources = sourceCitations(r);
-    return `
-    <article class="entry">
-      <header><span class="pos">${i + 1}</span><span class="year">${esc(displayDate(r))}</span></header>
-      ${images[i] ? `<img src="${images[i]}" alt="${esc(r.title)}">` : '<p class="missing">[This image could not be embedded]</p>'}
-      <h2>${esc(r.title)}</h2>
-      <p class="cap">${esc(r.caption)}</p>
-      ${r.research?.description ? `<p class="desc">${esc(r.research.description)}</p>` : ''}
-      <p class="credit">Credit: ${esc(r.attribution || 'Unknown')} · Rights: ${esc(r.rights_status || 'Undetermined')}${r.caption_source ? ` · Caption source: ${esc(r.caption_source)}` : ''}</p>
-      ${sources.length ? `<div class="sources"><p class="sources-head">Sources &amp; citations</p><ol>${sources.map(e => `<li>${esc(e.label || '')}${e.url ? `${e.label ? ' — ' : ''}<a href="${esc(e.url)}">${esc(e.url)}</a>` : ''}</li>`).join('')}</ol></div>` : ''}
-    </article>`;
-  }).join('\n');
+  const date = stamp.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  return [
+    pgraph(rn('Beaumont Library District · Timeline Mural', rp({ font: 'Libre Franklin', b: true, caps: true, sz: 18, color: '8C5A1C', spc: 40 })), pp({ after: 80, align: 'center' })),
+    pgraph(rn('Beaumont ', rp({ font: 'Georgia', sz: 52, color: '23282A' })) + rn('in Pictures', rp({ font: 'Georgia', i: true, sz: 52, color: '8C5A1C' })), pp({ after: 80, align: 'center' })),
+    pgraph(rn(`Approved timeline sequence — ${recs.length} photograph${recs.length === 1 ? '' : 's'}, spanning ${span}`, rp({ font: 'Georgia', sz: 22, color: '55504A' })), pp({ after: 40, align: 'center' })),
+    pgraph(rn(`Prepared ${date}`, rp({ font: 'Georgia', sz: 20, color: '7A736A' })), pp({ after: 100, align: 'center' })),
+    pgraph(rn('Photographs run in mural order, left to right. Each entry lists its catalog ID for reference.', rp({ font: 'Libre Franklin', i: true, sz: 16, color: '7A736A' })), pp({ after: 240, align: 'center' })),
+  ].join('');
+}
 
-  return `<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Beaumont in Pictures — Timeline Sequence</title>
-<style>
-  body { margin: 0; background: #f6f0e2; color: #23282a; font-family: Georgia, "Times New Roman", serif; line-height: 1.55; }
-  .doc { max-width: 780px; margin: 0 auto; padding: 56px 32px 72px; }
-  .cover { text-align: center; border-bottom: 3px double #b09a5e; padding-bottom: 34px; margin-bottom: 12px; }
-  .cover .rule { font-size: 11px; letter-spacing: .3em; text-transform: uppercase; color: #8c5a1c; margin: 0 0 14px; font-family: "Franklin Gothic Medium", "Helvetica Neue", sans-serif; }
-  .cover h1 { font-size: 40px; font-weight: normal; margin: 0 0 8px; }
-  .cover h1 em { color: #8c5a1c; }
-  .cover p { margin: 4px 0; color: #55504a; font-size: 14px; }
-  .entry { border-top: 1px solid #d8ccae; padding: 34px 0 26px; page-break-inside: avoid; break-inside: avoid; }
-  .entry:first-of-type { border-top: none; }
-  .entry header { display: flex; align-items: baseline; gap: 14px; margin-bottom: 14px; font-family: "Franklin Gothic Medium", "Helvetica Neue", sans-serif; }
-  .entry .pos { background: #15424a; color: #f2e9d8; font-size: 12px; padding: 3px 9px; border-radius: 2px; letter-spacing: .08em; }
-  .entry .year { font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: #8c5a1c; font-weight: bold; }
-  .entry img { max-width: 100%; max-height: 540px; display: block; margin: 0 auto 16px; box-shadow: 0 4px 18px rgba(35,40,42,.25); background: #0b0b0a; padding: 8px; box-sizing: border-box; }
-  .entry h2 { font-size: 22px; font-weight: normal; margin: 0 0 8px; }
-  .entry .cap { margin: 0 0 10px; font-size: 15px; }
-  .entry .desc { margin: 0 0 10px; font-size: 13.5px; color: #55504a; }
-  .entry .credit { margin: 0; font-size: 12px; color: #7a736a; font-style: italic; }
-  .entry .sources { margin-top: 10px; }
-  .entry .sources-head { margin: 0 0 4px; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: #8c5a1c; font-family: "Franklin Gothic Medium", "Helvetica Neue", sans-serif; }
-  .entry .sources ol { margin: 0; padding-left: 18px; font-size: 11px; line-height: 1.6; color: #7a736a; }
-  .entry .sources a { color: #8c5a1c; overflow-wrap: anywhere; }
-  .missing { color: #a33; font-style: italic; }
-  footer { border-top: 3px double #b09a5e; margin-top: 20px; padding-top: 18px; text-align: center; font-size: 12px; color: #7a736a; }
-  @media print { body { background: #fff; } .doc { padding: 24px 0; } .entry img { box-shadow: none; } }
-</style>
-</head>
-<body>
-<div class="doc">
-  <header class="cover">
-    <p class="rule">Beaumont Library District · Timeline Mural</p>
-    <h1>Beaumont <em>in Pictures</em></h1>
-    <p>Approved timeline sequence — ${recs.length} photograph${recs.length === 1 ? '' : 's'}, spanning ${esc(span)}</p>
-    <p>Prepared ${esc(today)}</p>
-  </header>
-  ${entries}
-  <footer>
-    <p>Generated from the Beaumont historical photo catalog. Photographs run in mural order, left to right.<br>
-    Dates marked “c.” are estimates; credits and rights determinations are recorded per photograph above.</p>
-  </footer>
-</div>
-</body>
-</html>`;
+function entryXml(r, i, img) {
+  const border = i === 0 ? '' : '<w:pBdr><w:top w:val="single" w:sz="6" w:space="10" w:color="D8CCAE"/></w:pBdr>';
+  const out = [
+    pgraph(
+      rn(String(i + 1).padStart(2, '0'), rp({ font: 'Libre Franklin', b: true, sz: 24, color: '15424A' })) +
+      rn('     ', rp({ sz: 24 })) +
+      rn(displayDate(r), rp({ font: 'Libre Franklin', b: true, caps: true, sz: 18, color: '8C5A1C', spc: 30 })),
+      pp({ keepNext: true, border, before: i === 0 ? 0 : 240, after: 100 })
+    ),
+    img
+      ? pgraph(pictureXml(img, r), pp({ keepNext: true, after: 100 }))
+      : pgraph(rn('[This image could not be embedded]', rp({ font: 'Georgia', i: true, sz: 20, color: 'A33333' })), pp({ after: 100 })),
+    pgraph(rn(r.title, rp({ font: 'Georgia', sz: 30, color: '23282A' })), pp({ keepNext: true, after: 60 })),
+  ];
+  if (r.caption) out.push(pgraph(rn(r.caption, rp({ font: 'Georgia', sz: 22, color: '23282A' })), pp({ after: 60 })));
+  if (r.research?.description) out.push(pgraph(rn(r.research.description, rp({ font: 'Georgia', sz: 20, color: '55504A' })), pp({ after: 60 })));
+  out.push(pgraph(rn(`Credit: ${r.attribution || 'Unknown'} · Rights: ${r.rights_status || 'Undetermined'}${r.caption_source ? ` · Caption source: ${r.caption_source}` : ''}`, rp({ font: 'Georgia', i: true, sz: 18, color: '7A736A' })), pp({ after: 40 })));
+  const sources = sourceCitations(r);
+  if (sources.length) {
+    out.push(pgraph(rn('Sources & citations', rp({ font: 'Libre Franklin', b: true, caps: true, sz: 15, color: '8C5A1C', spc: 20 })), pp({ before: 40, after: 20 })));
+    sources.forEach(e => {
+      const line = e.label ? (e.url ? `${e.label} — ${e.url}` : e.label) : (e.url || '');
+      out.push(pgraph(rn(`•  ${line}`, rp({ font: 'Georgia', sz: 16, color: '7A736A' })), pp({ after: 10 })));
+    });
+  }
+  out.push(pgraph(rn(`Catalog ID: ${r.id}`, rp({ font: 'Consolas', sz: 15, color: 'A79D8E' })), pp({ before: 40, after: 80 })));
+  return out.join('');
+}
+
+function pictureXml(img, r) {
+  const w = Math.round(MAX_IMG_IN * EMU_PER_IN);
+  const h = Math.round(w * (img.h / img.w));
+  const alt = esc(r.title);
+  return `<w:r><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0"><wp:extent cx="${w}" cy="${h}"/><wp:docPr id="${img.id}" name="Photograph ${img.id}" descr="${alt}"/><wp:cNvGraphicFramePr><a:graphicFrameLocks noChangeAspect="1"/></wp:cNvGraphicFramePr><a:graphic><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic><pic:nvPicPr><pic:cNvPr id="${img.id}" name="image${img.id}.jpeg" descr="${alt}"/><pic:cNvPicPr/></pic:nvPicPr><pic:blipFill><a:blip r:embed="${img.relId}"/><a:stretch><a:fillRect/></a:stretch></pic:blipFill><pic:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="${w}" cy="${h}"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></w:r>`;
+}
+
+/* The manifest is the source of truth for rebuilding the sequence: order[].id,
+   in position order, IS the timeline. */
+function manifestJson(recs, thumbPaths, stamp) {
+  const years = recs.map(startYear).filter(Boolean);
+  return JSON.stringify({
+    kind: 'beaumont-timeline',
+    version: 2,
+    exportedAt: stamp.toISOString(),
+    localStorageKey: KEY,
+    count: recs.length,
+    span: years.length ? [Math.min(...years), Math.max(...years)] : null,
+    note: 'order[].id, in position order, is the timeline. Rebuild by setting the working array to these ids.',
+    order: recs.map((r, i) => ({
+      position: i + 1,
+      id: r.id,
+      title: r.title,
+      date: displayDate(r),
+      date_start: startYear(r),
+      caption: r.caption || '',
+      attribution: r.attribution || '',
+      rights: r.rights_status || '',
+      thumbnail: thumbPaths[i],
+    })),
+  }, null, 2);
+}
+
+/* ——— ZIP container (STORED / no compression) ——— */
+function dataUriToBytes(dataUri) {
+  const bin = atob(dataUri.slice(dataUri.indexOf(',') + 1));
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return bytes;
+}
+
+const CRC_TABLE = (() => {
+  const t = new Uint32Array(256);
+  for (let n = 0; n < 256; n++) {
+    let c = n;
+    for (let k = 0; k < 8; k++) c = (c & 1) ? (0xEDB88320 ^ (c >>> 1)) : (c >>> 1);
+    t[n] = c >>> 0;
+  }
+  return t;
+})();
+function crc32(bytes) {
+  let c = 0xFFFFFFFF;
+  for (let i = 0; i < bytes.length; i++) c = CRC_TABLE[(c ^ bytes[i]) & 0xFF] ^ (c >>> 8);
+  return (c ^ 0xFFFFFFFF) >>> 0;
+}
+
+function zip(files) {
+  const encoder = new TextEncoder();
+  const chunks = [], central = [];
+  let offset = 0;
+  const DOS_TIME = 0, DOS_DATE = 0x5021;   // 2020-01-01, fixed for reproducibility
+  const u16 = n => new Uint8Array([n & 0xFF, (n >>> 8) & 0xFF]);
+  const u32 = n => new Uint8Array([n & 0xFF, (n >>> 8) & 0xFF, (n >>> 16) & 0xFF, (n >>> 24) & 0xFF]);
+  const push = arr => { chunks.push(arr); offset += arr.length; };
+
+  for (const f of files) {
+    const nameBytes = encoder.encode(f.name);
+    const crc = crc32(f.data);
+    const size = f.data.length;
+    central.push({ nameBytes, crc, size, offset });
+    push(u32(0x04034b50));
+    push(u16(20)); push(u16(0x0800)); push(u16(0));      // version needed, UTF-8 flag, method: stored
+    push(u16(DOS_TIME)); push(u16(DOS_DATE));
+    push(u32(crc)); push(u32(size)); push(u32(size));
+    push(u16(nameBytes.length)); push(u16(0));
+    push(nameBytes); push(f.data);
+  }
+
+  const cdStart = offset;
+  for (const c of central) {
+    push(u32(0x02014b50));
+    push(u16(20)); push(u16(20)); push(u16(0x0800)); push(u16(0));
+    push(u16(DOS_TIME)); push(u16(DOS_DATE));
+    push(u32(c.crc)); push(u32(c.size)); push(u32(c.size));
+    push(u16(c.nameBytes.length)); push(u16(0)); push(u16(0));
+    push(u16(0)); push(u16(0)); push(u32(0));
+    push(u32(c.offset));
+    push(c.nameBytes);
+  }
+  const cdSize = offset - cdStart;
+  push(u32(0x06054b50));
+  push(u16(0)); push(u16(0));
+  push(u16(central.length)); push(u16(central.length));
+  push(u32(cdSize)); push(u32(cdStart)); push(u16(0));
+
+  return new Blob(chunks, { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' });
 }

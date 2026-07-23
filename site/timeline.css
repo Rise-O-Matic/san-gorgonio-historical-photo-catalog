@@ -196,6 +196,7 @@ body {
   display: flex; align-items: stretch; gap: 16px;
   padding: 10px 26px 18px;
   overflow-x: auto; overflow-y: hidden;
+  overscroll-behavior-x: contain;
   scrollbar-width: thin;
   scrollbar-color: var(--teal-line) transparent;
 }
@@ -427,6 +428,7 @@ body {
   display: flex; align-items: stretch; gap: 12px;
   padding: 4px 26px 12px;
   overflow-x: auto; overflow-y: hidden;
+  overscroll-behavior-x: contain;
   scrollbar-width: none;
 }
 .tray-row::-webkit-scrollbar { display: none; }
