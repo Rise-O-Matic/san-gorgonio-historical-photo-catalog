@@ -202,6 +202,25 @@ MANUAL_OVERRIDES: dict[str, dict] = {
                  "arched portrait (MBMI copy), which replaced the 500×500 square "
                  "head crop on 2026-07-22.",
     },
+    # Beaumont-from-the-hills panorama (neg. 2099): resolved to C.C. Pierce /
+    # public domain on 2026-07-22 by matching it to the USC/CHS Pierce series.
+    "img_049b709d6ffb773a": {
+        "caption": "Beaumont from the brush hills south of town, looking north across "
+                   "the San Gorgonio Pass; the Hotel Beaumont (built 1887, burned 1909) "
+                   "stands at right of the young settlement. c. 1887-1909.",
+        "attribution": "C.C. Pierce (Title Insurance and Trust / C.C. Pierce Photography "
+                       "Collection); public domain. A sibling frame (neg. 2000) is held by "
+                       "USC Libraries, California Historical Society Collection "
+                       "('Panoramic of Beaumont, ca.1895-1898', chs-m8051).",
+        "attribution_confidence": "high",
+        "caption_source": "Deep research 2026-07-21 (BLD local history timeline + image "
+                          "inspection); C.C. Pierce authorship confirmed 2026-07-22 vs USC/CHS",
+        "basis": "Negative no. 2099 (visible lower-left) matches C.C. Pierce's ca.1895-1898 "
+                 "Beaumont panorama series; the sibling frame neg. 2000 is USC/CHS "
+                 "chs-m8051 (DOI 10.25549/chs-m8051), released Public Domain / CC BY. "
+                 "Both are the same vantage — brush hills, a dirt path, the distant "
+                 "settlement cluster and the Pass beyond.",
+    },
 }
 
 # --- 1. Harvest the SGPHS timeline (caption + credit per image) --------------

@@ -12,16 +12,16 @@
     }
   },
   "summary": {
-    "candidate_files": 348,
-    "readable_files": 348,
+    "candidate_files": 353,
+    "readable_files": 353,
     "unreadable_files": 0,
-    "historical_records": 263,
+    "historical_records": 268,
     "curated_records": 17,
     "selected_by_default": 17,
     "formats": {
       ".heic": 1,
       ".jpeg": 35,
-      ".jpg": 289,
+      ".jpg": 294,
       ".pdf": 1,
       ".png": 19,
       ".webp": 3
@@ -606,32 +606,32 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.1,
-            "height_inches": 2.7,
-            "native_crop_width_inches": 2.1,
-            "native_crop_height_inches": 2.7
+            "width_inches": 6.6,
+            "height_inches": 10.5,
+            "native_crop_width_inches": 6.6,
+            "native_crop_height_inches": 10.5
           },
           "150": {
-            "width_inches": 2.8,
-            "height_inches": 3.6,
-            "native_crop_width_inches": 2.8,
-            "native_crop_height_inches": 3.6
+            "width_inches": 8.7,
+            "height_inches": 14.0,
+            "native_crop_width_inches": 8.7,
+            "native_crop_height_inches": 14.0
           },
           "100": {
-            "width_inches": 4.1,
-            "height_inches": 5.3,
-            "native_crop_width_inches": 4.1,
-            "native_crop_height_inches": 5.3
+            "width_inches": 13.1,
+            "height_inches": 21.0,
+            "native_crop_width_inches": 13.1,
+            "native_crop_height_inches": 21.0
           },
           "50": {
-            "width_inches": 8.3,
-            "height_inches": 10.7,
-            "native_crop_width_inches": 8.3,
-            "native_crop_height_inches": 10.7
+            "width_inches": 26.2,
+            "height_inches": 41.9,
+            "native_crop_width_inches": 26.2,
+            "native_crop_height_inches": 41.9
           }
         },
-        "recommended": "4.1 × 5.3 in at 100 PPI",
-        "classification": "Reference Only",
+        "recommended": "13.1 × 21 in at 100 PPI",
+        "classification": "Potentially Usable",
         "ai_upscaled_estimate": null
       },
       "metadata_suggestions": [
@@ -794,8 +794,8 @@
       "thumbnail": "assets/thumbs/file_30cab5e4d7341ae5.jpg",
       "preview": "assets/previews/file_30cab5e4d7341ae5.jpg",
       "original_pixels": {
-        "width": 459,
-        "height": 593
+        "width": 1458,
+        "height": 2328
       },
       "attribution": "Huntington Library, Weinland Collection (photCL 39 (126)); Banning Library District print via Calisphere (CBAN_120, ark:/13030/c8d798dr); photograph by Cramer's California Gallery, 402 Kearny St., San Francisco; complete-portrait copy via the Morongo Band of Mission Indians",
       "attribution_confidence": "confirmed",
@@ -1222,8 +1222,8 @@
         "with"
       ],
       "research_status": "Researched",
-      "rights_status": "Unclear",
-      "rights_note": "Photographer unidentified; almost certainly public domain — the view predates the 1909 Hotel Beaumont fire, so any period publication was before 1931 (95-year term expired), and a pre-1906 unpublished anonymous work is also past the 120-year term — but neither path is yet demonstrable because the negative series is unidentified and creation could fall 1906-1909. Next action: match negative no. 2099 against the C.C. Pierce / California Historical Society series at USC Digital Library and the Huntington's Pierce holdings to confirm photographer and publication.",
+      "rights_status": "Public domain",
+      "rights_note": "Public domain. The displayed image is C.C. Pierce's Beaumont panorama, negative no. 2099, from a ca.1895-1898 series; a sibling frame (neg. 2000) is held by USC Libraries in the California Historical Society Collection ('Panoramic of Beaumont, ca.1895-1898', chs-m8051, DOI 10.25549/chs-m8051) and released Public Domain / CC BY. As a pre-1929 published photograph the work is out of copyright, and a faithful reproduction carries no new copyright. Confirmed 2026-07-22 by matching neg. 2099 to the C.C. Pierce/CHS series at USC. Credit C.C. Pierce; a higher-resolution (~5100 px) original is available from USC (specol@usc.edu) on request.",
       "selected_default": false,
       "curated": false,
       "master_file_id": "file_b687abb7d8963c1f",
@@ -1403,8 +1403,8 @@
         "width": 960,
         "height": 733
       },
-      "attribution": "Unknown",
-      "attribution_confidence": "unknown",
+      "attribution": "C.C. Pierce (Title Insurance and Trust / C.C. Pierce Photography Collection); public domain. A sibling frame (neg. 2000) is held by USC Libraries, California Historical Society Collection ('Panoramic of Beaumont, ca.1895-1898', chs-m8051).",
+      "attribution_confidence": "high",
       "caption_source": "Deep research 2026-07-21 (BLD local history timeline + image inspection)",
       "research": {
         "original_title": "Beaumont Vista With Hotel Beaumont Visible To Right Of Town Undated",
@@ -67690,6 +67690,676 @@
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
       }
+    },
+    {
+      "id": "img_c453ab61e0df544e",
+      "title": "Wickiup (arrowweed dwelling), Morongo Reservation",
+      "caption": "A domed arrowweed wickiup with hanging ollas and a metate in the foreground; a second brush dwelling and the San Gorgonio Pass beyond. Photographed by G. P. Thresher.",
+      "date": {
+        "start": 1898,
+        "end": 1910,
+        "display": "c. 1898–1910",
+        "confidence": "low",
+        "editable": true,
+        "source": "editorial_research",
+        "basis": "Huntington item-level date range, narrowed editorially."
+      },
+      "decade": 1900,
+      "locations": [
+        "Morongo Indian Reservation",
+        "San Gorgonio Pass"
+      ],
+      "people": [],
+      "subjects": [
+        "Wickiup",
+        "Traditional dwelling",
+        "Morongo Indian Reservation",
+        "San Gorgonio Pass"
+      ],
+      "visible_text": "",
+      "search_terms": [
+        "wickiup",
+        "kish",
+        "dwelling",
+        "morongo",
+        "thresher",
+        "cahuilla",
+        "serrano"
+      ],
+      "research_status": "Researched",
+      "rights_status": "Permission required",
+      "rights_note": "The Huntington Library (Weinland Collection, photCL 39); reproduction requires Huntington permission and Morongo Band of Mission Indians cultural consultation before any use.",
+      "selected_default": false,
+      "curated": false,
+      "master_file_id": "file_f628e7ad67b603c8",
+      "master_reason": "Sole version; native Huntington IIIF master cropped to the print area.",
+      "version_file_ids": [
+        "file_f628e7ad67b603c8"
+      ],
+      "alternates": [],
+      "quality": {
+        "label": "sharp",
+        "factor": 1.0,
+        "editable": true
+      },
+      "print_viability": {
+        "crop_allowance_percent": 10.0,
+        "quality_factor": 1.0,
+        "ppi": {
+          "200": {
+            "width_inches": 13.4,
+            "height_inches": 10.1,
+            "native_crop_width_inches": 13.4,
+            "native_crop_height_inches": 10.1
+          },
+          "150": {
+            "width_inches": 17.8,
+            "height_inches": 13.4,
+            "native_crop_width_inches": 17.8,
+            "native_crop_height_inches": 13.4
+          },
+          "100": {
+            "width_inches": 26.7,
+            "height_inches": 20.1,
+            "native_crop_width_inches": 26.7,
+            "native_crop_height_inches": 20.1
+          },
+          "50": {
+            "width_inches": 53.5,
+            "height_inches": 40.2,
+            "native_crop_width_inches": 53.5,
+            "native_crop_height_inches": 40.2
+          }
+        },
+        "recommended": "26.7 × 20.1 in at 100 PPI",
+        "classification": "Production Ready",
+        "ai_upscaled_estimate": null
+      },
+      "metadata_suggestions": [],
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\huntington-weinland\\01_wickiup.jpg"
+        },
+        {
+          "field": "holding_institution",
+          "value": "The Huntington Library"
+        },
+        {
+          "field": "creator",
+          "value": "George P. Thresher"
+        }
+      ],
+      "conflicts": [],
+      "client": {
+        "selected": false,
+        "comment": ""
+      },
+      "thumbnail": "assets/thumbs/file_f628e7ad67b603c8.jpg",
+      "preview": "assets/previews/file_f628e7ad67b603c8.jpg",
+      "original_pixels": {
+        "width": 2972,
+        "height": 2236
+      },
+      "attribution": "George P. Thresher / The Huntington Library (Weinland Collection, photCL 39)",
+      "attribution_confidence": "high",
+      "caption_source": "Huntington Library item metadata (Weinland Collection photCL 39)",
+      "research": {
+        "select_position": null,
+        "original_title": "Wickiup.",
+        "description": "Photo of a native dwelling made of brush and wooden poles.",
+        "corrections": [],
+        "evidence": [
+          {
+            "claim": "Identification, date range, and (where noted) creator per the holding institution.",
+            "source": "https://hdl.huntington.org/digital/collection/p15150coll2/id/13054"
+          }
+        ],
+        "holding": "The Huntington Library, Art Museum, and Botanical Gardens — William & Clara Weinland Collection, photCL 39 (Potrero/Morongo album). CONTENTdm p15150coll2 id 13054.",
+        "best_master": {
+          "location": "https://hdl.huntington.org/digital/iiif/2/p15150coll2:13054/full/full/0/default.jpg",
+          "pixels": "2972x2236 print crop from the 3000px-class Huntington IIIF album-page scan",
+          "note": "Native Huntington IIIF master downloaded 2026-07-22 and cropped to the print area; pristine full-page scan archived in data/research-assets/sources/huntington-weinland/fullpages/. Rights: Huntington permission + Morongo cultural consultation required before use."
+        },
+        "researched": "2026-07-22",
+        "source_manifest": "Huntington Weinland album (photCL 39); see data/research-assets/sources/huntington-weinland/"
+      }
+    },
+    {
+      "id": "img_7235362ef72b0a0b",
+      "title": "Cooking shelter and brush windbreak, Morongo Reservation, 1900",
+      "caption": "A man stands by an arrowweed windbreak and cooking ramada, a thatched kish at right and the San Gorgonio Pass range beyond. Hand-lettered 'Copyright 1900 by G. P. Thresher.'",
+      "date": {
+        "start": 1900,
+        "end": 1900,
+        "display": "1900",
+        "confidence": "high",
+        "editable": true,
+        "source": "editorial_research",
+        "basis": "Huntington item-level date range, narrowed editorially."
+      },
+      "decade": 1900,
+      "locations": [
+        "Morongo Indian Reservation",
+        "San Gorgonio Pass"
+      ],
+      "people": [],
+      "subjects": [
+        "Cooking shelter",
+        "Ramada",
+        "Traditional dwelling",
+        "Morongo Indian Reservation",
+        "San Gorgonio Pass"
+      ],
+      "visible_text": "",
+      "search_terms": [
+        "cooking shelter",
+        "ramada",
+        "windbreak",
+        "kish",
+        "morongo",
+        "thresher"
+      ],
+      "research_status": "Researched",
+      "rights_status": "Permission required",
+      "rights_note": "The Huntington Library (Weinland Collection, photCL 39); reproduction requires Huntington permission and Morongo Band of Mission Indians cultural consultation before any use.",
+      "selected_default": false,
+      "curated": false,
+      "master_file_id": "file_cab81434bbd4a891",
+      "master_reason": "Sole version; native Huntington IIIF master cropped to the print area.",
+      "version_file_ids": [
+        "file_cab81434bbd4a891"
+      ],
+      "alternates": [],
+      "quality": {
+        "label": "sharp",
+        "factor": 1.0,
+        "editable": true
+      },
+      "print_viability": {
+        "crop_allowance_percent": 10.0,
+        "quality_factor": 1.0,
+        "ppi": {
+          "200": {
+            "width_inches": 13.3,
+            "height_inches": 9.9,
+            "native_crop_width_inches": 13.3,
+            "native_crop_height_inches": 9.9
+          },
+          "150": {
+            "width_inches": 17.8,
+            "height_inches": 13.2,
+            "native_crop_width_inches": 17.8,
+            "native_crop_height_inches": 13.2
+          },
+          "100": {
+            "width_inches": 26.6,
+            "height_inches": 19.8,
+            "native_crop_width_inches": 26.6,
+            "native_crop_height_inches": 19.8
+          },
+          "50": {
+            "width_inches": 53.3,
+            "height_inches": 39.5,
+            "native_crop_width_inches": 53.3,
+            "native_crop_height_inches": 39.5
+          }
+        },
+        "recommended": "26.6 × 19.8 in at 100 PPI",
+        "classification": "Production Ready",
+        "ai_upscaled_estimate": null
+      },
+      "metadata_suggestions": [],
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\huntington-weinland\\02_cooking-shelter.jpg"
+        },
+        {
+          "field": "holding_institution",
+          "value": "The Huntington Library"
+        },
+        {
+          "field": "creator",
+          "value": "George P. Thresher"
+        }
+      ],
+      "conflicts": [],
+      "client": {
+        "selected": false,
+        "comment": ""
+      },
+      "thumbnail": "assets/thumbs/file_cab81434bbd4a891.jpg",
+      "preview": "assets/previews/file_cab81434bbd4a891.jpg",
+      "original_pixels": {
+        "width": 2961,
+        "height": 2195
+      },
+      "attribution": "George P. Thresher / The Huntington Library (Weinland Collection, photCL 39)",
+      "attribution_confidence": "high",
+      "caption_source": "Huntington Library item metadata (Weinland Collection photCL 39)",
+      "research": {
+        "select_position": null,
+        "original_title": "Cooking shelter.",
+        "description": "Photo of a native man standing near multiple structures made from brush and wooden poles. Hand-lettered 'Copyright 1900 by G.P. Thresher.'",
+        "corrections": [],
+        "evidence": [
+          {
+            "claim": "Identification, date range, and (where noted) creator per the holding institution.",
+            "source": "https://hdl.huntington.org/digital/collection/p15150coll2/id/13067"
+          }
+        ],
+        "holding": "The Huntington Library, Art Museum, and Botanical Gardens — William & Clara Weinland Collection, photCL 39 (Potrero/Morongo album). CONTENTdm p15150coll2 id 13067.",
+        "best_master": {
+          "location": "https://hdl.huntington.org/digital/iiif/2/p15150coll2:13067/full/full/0/default.jpg",
+          "pixels": "2961x2195 print crop from the 3000px-class Huntington IIIF album-page scan",
+          "note": "Native Huntington IIIF master downloaded 2026-07-22 and cropped to the print area; pristine full-page scan archived in data/research-assets/sources/huntington-weinland/fullpages/. Rights: Huntington permission + Morongo cultural consultation required before use."
+        },
+        "researched": "2026-07-22",
+        "source_manifest": "Huntington Weinland album (photCL 39); see data/research-assets/sources/huntington-weinland/"
+      }
+    },
+    {
+      "id": "img_9b7ed2e698bcc615",
+      "title": "Rice and his children, Morongo Reservation, c. 1912",
+      "caption": "A Morongo man recorded as 'Rice' seated with his three children before a board-and-batten house on the reservation. Title supplied by Clarence Weinland.",
+      "date": {
+        "start": 1907,
+        "end": 1917,
+        "display": "c. 1912",
+        "confidence": "low",
+        "editable": true,
+        "source": "editorial_research",
+        "basis": "Huntington item-level date range, narrowed editorially."
+      },
+      "decade": 1910,
+      "locations": [
+        "Morongo Indian Reservation"
+      ],
+      "people": [
+        "Rice"
+      ],
+      "subjects": [
+        "Family",
+        "Portrait",
+        "Morongo Indian Reservation"
+      ],
+      "visible_text": "",
+      "search_terms": [
+        "rice",
+        "family",
+        "children",
+        "morongo",
+        "portrait"
+      ],
+      "research_status": "Researched",
+      "rights_status": "Permission required",
+      "rights_note": "The Huntington Library (Weinland Collection, photCL 39); reproduction requires Huntington permission and Morongo Band of Mission Indians cultural consultation before any use.",
+      "selected_default": false,
+      "curated": false,
+      "master_file_id": "file_6c78f0870cbd7482",
+      "master_reason": "Sole version; native Huntington IIIF master cropped to the print area.",
+      "version_file_ids": [
+        "file_6c78f0870cbd7482"
+      ],
+      "alternates": [],
+      "quality": {
+        "label": "moderate",
+        "factor": 0.75,
+        "editable": true
+      },
+      "print_viability": {
+        "crop_allowance_percent": 10.0,
+        "quality_factor": 0.75,
+        "ppi": {
+          "200": {
+            "width_inches": 6.2,
+            "height_inches": 5.1,
+            "native_crop_width_inches": 8.3,
+            "native_crop_height_inches": 6.8
+          },
+          "150": {
+            "width_inches": 8.3,
+            "height_inches": 6.8,
+            "native_crop_width_inches": 11.1,
+            "native_crop_height_inches": 9.1
+          },
+          "100": {
+            "width_inches": 12.5,
+            "height_inches": 10.3,
+            "native_crop_width_inches": 16.6,
+            "native_crop_height_inches": 13.7
+          },
+          "50": {
+            "width_inches": 24.9,
+            "height_inches": 20.5,
+            "native_crop_width_inches": 33.2,
+            "native_crop_height_inches": 27.4
+          }
+        },
+        "recommended": "12.5 × 10.3 in at 100 PPI",
+        "classification": "Potentially Usable",
+        "ai_upscaled_estimate": null
+      },
+      "metadata_suggestions": [],
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\huntington-weinland\\03_rice-family.jpg"
+        },
+        {
+          "field": "holding_institution",
+          "value": "The Huntington Library"
+        },
+        {
+          "field": "creator",
+          "value": "Unattributed (Weinland Collection)"
+        }
+      ],
+      "conflicts": [],
+      "client": {
+        "selected": false,
+        "comment": ""
+      },
+      "thumbnail": "assets/thumbs/file_6c78f0870cbd7482.jpg",
+      "preview": "assets/previews/file_6c78f0870cbd7482.jpg",
+      "original_pixels": {
+        "width": 1845,
+        "height": 1522
+      },
+      "attribution": "The Huntington Library (Weinland Collection, photCL 39)",
+      "attribution_confidence": "high",
+      "caption_source": "Huntington Library item metadata (Weinland Collection photCL 39)",
+      "research": {
+        "select_position": null,
+        "original_title": "A Morongo Indian named Rice and his family, c. 1912.",
+        "description": "Photo of Rice and his children posing in front of an unidentified building. Title supplied by Clarence Weinland.",
+        "corrections": [],
+        "evidence": [
+          {
+            "claim": "Identification, date range, and (where noted) creator per the holding institution.",
+            "source": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12895"
+          }
+        ],
+        "holding": "The Huntington Library, Art Museum, and Botanical Gardens — William & Clara Weinland Collection, photCL 39 (Potrero/Morongo album). CONTENTdm p15150coll2 id 12895.",
+        "best_master": {
+          "location": "https://hdl.huntington.org/digital/iiif/2/p15150coll2:12895/full/full/0/default.jpg",
+          "pixels": "1845x1522 print crop from the 3000px-class Huntington IIIF album-page scan",
+          "note": "Native Huntington IIIF master downloaded 2026-07-22 and cropped to the print area; pristine full-page scan archived in data/research-assets/sources/huntington-weinland/fullpages/. Rights: Huntington permission + Morongo cultural consultation required before use."
+        },
+        "researched": "2026-07-22",
+        "source_manifest": "Huntington Weinland album (photCL 39); see data/research-assets/sources/huntington-weinland/"
+      }
+    },
+    {
+      "id": "img_0e0e59f901586c2a",
+      "title": "'Old Maria' weaving a basket, Morongo Reservation",
+      "caption": "An elder identified on the print as 'Old Maria' kneels weaving a coiled basket, an orchard behind — a rare record of Cahuilla/Serrano basketry in the Pass.",
+      "date": {
+        "start": 1885,
+        "end": 1900,
+        "display": "c. 1890s",
+        "confidence": "low",
+        "editable": true,
+        "source": "editorial_research",
+        "basis": "Huntington item-level date range, narrowed editorially."
+      },
+      "decade": 1890,
+      "locations": [
+        "Morongo Indian Reservation"
+      ],
+      "people": [
+        "Old Maria"
+      ],
+      "subjects": [
+        "Basketry",
+        "Basketmaking",
+        "Morongo Indian Reservation",
+        "Cahuilla"
+      ],
+      "visible_text": "",
+      "search_terms": [
+        "old maria",
+        "basket",
+        "basketry",
+        "weaving",
+        "morongo",
+        "cahuilla"
+      ],
+      "research_status": "Researched",
+      "rights_status": "Permission required",
+      "rights_note": "The Huntington Library (Weinland Collection, photCL 39); reproduction requires Huntington permission and Morongo Band of Mission Indians cultural consultation before any use.",
+      "selected_default": false,
+      "curated": false,
+      "master_file_id": "file_14b5bc7e1a6d71ed",
+      "master_reason": "Sole version; native Huntington IIIF master cropped to the print area.",
+      "version_file_ids": [
+        "file_14b5bc7e1a6d71ed"
+      ],
+      "alternates": [],
+      "quality": {
+        "label": "sharp",
+        "factor": 1.0,
+        "editable": true
+      },
+      "print_viability": {
+        "crop_allowance_percent": 10.0,
+        "quality_factor": 1.0,
+        "ppi": {
+          "200": {
+            "width_inches": 7.9,
+            "height_inches": 6.4,
+            "native_crop_width_inches": 7.9,
+            "native_crop_height_inches": 6.4
+          },
+          "150": {
+            "width_inches": 10.5,
+            "height_inches": 8.5,
+            "native_crop_width_inches": 10.5,
+            "native_crop_height_inches": 8.5
+          },
+          "100": {
+            "width_inches": 15.8,
+            "height_inches": 12.8,
+            "native_crop_width_inches": 15.8,
+            "native_crop_height_inches": 12.8
+          },
+          "50": {
+            "width_inches": 31.6,
+            "height_inches": 25.6,
+            "native_crop_width_inches": 31.6,
+            "native_crop_height_inches": 25.6
+          }
+        },
+        "recommended": "15.8 × 12.8 in at 100 PPI",
+        "classification": "Potentially Usable",
+        "ai_upscaled_estimate": null
+      },
+      "metadata_suggestions": [],
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\huntington-weinland\\04_old-maria.jpg"
+        },
+        {
+          "field": "holding_institution",
+          "value": "The Huntington Library"
+        },
+        {
+          "field": "creator",
+          "value": "Unattributed (Weinland Collection)"
+        }
+      ],
+      "conflicts": [],
+      "client": {
+        "selected": false,
+        "comment": ""
+      },
+      "thumbnail": "assets/thumbs/file_14b5bc7e1a6d71ed.jpg",
+      "preview": "assets/previews/file_14b5bc7e1a6d71ed.jpg",
+      "original_pixels": {
+        "width": 1753,
+        "height": 1420
+      },
+      "attribution": "The Huntington Library (Weinland Collection, photCL 39)",
+      "attribution_confidence": "high",
+      "caption_source": "Huntington Library item metadata (Weinland Collection photCL 39)",
+      "research": {
+        "select_position": null,
+        "original_title": "Old Maria working on basket.",
+        "description": "Photo of woman with her back turned to the camera working on a basket. On print: 'Old Maria.'",
+        "corrections": [],
+        "evidence": [
+          {
+            "claim": "Identification, date range, and (where noted) creator per the holding institution.",
+            "source": "https://hdl.huntington.org/digital/collection/p15150coll2/id/13001"
+          }
+        ],
+        "holding": "The Huntington Library, Art Museum, and Botanical Gardens — William & Clara Weinland Collection, photCL 39 (Potrero/Morongo album). CONTENTdm p15150coll2 id 13001.",
+        "best_master": {
+          "location": "https://hdl.huntington.org/digital/iiif/2/p15150coll2:13001/full/full/0/default.jpg",
+          "pixels": "1753x1420 print crop from the 3000px-class Huntington IIIF album-page scan",
+          "note": "Native Huntington IIIF master downloaded 2026-07-22 and cropped to the print area; pristine full-page scan archived in data/research-assets/sources/huntington-weinland/fullpages/. Rights: Huntington permission + Morongo cultural consultation required before use."
+        },
+        "researched": "2026-07-22",
+        "source_manifest": "Huntington Weinland album (photCL 39); see data/research-assets/sources/huntington-weinland/"
+      }
+    },
+    {
+      "id": "img_c005864c8b7938d0",
+      "title": "John Morongo's grandchildren at the Potrero, c. 1895–1905",
+      "caption": "Three children — recorded on the verso as the children of Victoria Miguel and grandchildren of Captain John Morongo — before a board-and-batten house at the Potrero. Mount caption: 'Indian children and home, Potrero.'",
+      "date": {
+        "start": 1890,
+        "end": 1909,
+        "display": "c. 1895–1905",
+        "confidence": "low",
+        "editable": true,
+        "source": "editorial_research",
+        "basis": "Huntington item-level date range, narrowed editorially."
+      },
+      "decade": 1900,
+      "locations": [
+        "Potrero",
+        "Morongo Indian Reservation"
+      ],
+      "people": [
+        "Victoria Miguel",
+        "John Morongo"
+      ],
+      "subjects": [
+        "Children",
+        "Family",
+        "Potrero",
+        "Morongo Indian Reservation"
+      ],
+      "visible_text": "",
+      "search_terms": [
+        "children",
+        "potrero",
+        "morongo",
+        "victoria miguel",
+        "family",
+        "home"
+      ],
+      "research_status": "Researched",
+      "rights_status": "Permission required",
+      "rights_note": "The Huntington Library (Weinland Collection, photCL 39); reproduction requires Huntington permission and Morongo Band of Mission Indians cultural consultation before any use.",
+      "selected_default": false,
+      "curated": false,
+      "master_file_id": "file_26638e359de7f474",
+      "master_reason": "Sole version; native Huntington IIIF master cropped to the print area.",
+      "version_file_ids": [
+        "file_26638e359de7f474"
+      ],
+      "alternates": [],
+      "quality": {
+        "label": "sharp",
+        "factor": 1.0,
+        "editable": true
+      },
+      "print_viability": {
+        "crop_allowance_percent": 10.0,
+        "quality_factor": 1.0,
+        "ppi": {
+          "200": {
+            "width_inches": 8.2,
+            "height_inches": 6.2,
+            "native_crop_width_inches": 8.2,
+            "native_crop_height_inches": 6.2
+          },
+          "150": {
+            "width_inches": 10.9,
+            "height_inches": 8.3,
+            "native_crop_width_inches": 10.9,
+            "native_crop_height_inches": 8.3
+          },
+          "100": {
+            "width_inches": 16.3,
+            "height_inches": 12.5,
+            "native_crop_width_inches": 16.3,
+            "native_crop_height_inches": 12.5
+          },
+          "50": {
+            "width_inches": 32.7,
+            "height_inches": 25.0,
+            "native_crop_width_inches": 32.7,
+            "native_crop_height_inches": 25.0
+          }
+        },
+        "recommended": "16.3 × 12.5 in at 100 PPI",
+        "classification": "Potentially Usable",
+        "ai_upscaled_estimate": null
+      },
+      "metadata_suggestions": [],
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\huntington-weinland\\05_children-home-potrero.jpg"
+        },
+        {
+          "field": "holding_institution",
+          "value": "The Huntington Library"
+        },
+        {
+          "field": "creator",
+          "value": "Unattributed (Weinland Collection)"
+        }
+      ],
+      "conflicts": [],
+      "client": {
+        "selected": false,
+        "comment": ""
+      },
+      "thumbnail": "assets/thumbs/file_26638e359de7f474.jpg",
+      "preview": "assets/previews/file_26638e359de7f474.jpg",
+      "original_pixels": {
+        "width": 1815,
+        "height": 1387
+      },
+      "attribution": "The Huntington Library (Weinland Collection, photCL 39)",
+      "attribution_confidence": "high",
+      "caption_source": "Huntington Library item metadata (Weinland Collection photCL 39)",
+      "research": {
+        "select_position": null,
+        "original_title": "Indian children and home, Potrero.",
+        "description": "Photo of three children posing in front yard of house. Verso: 'Children of Victoria Miguel - John Morongo's grandchildren.'",
+        "corrections": [],
+        "evidence": [
+          {
+            "claim": "Identification, date range, and (where noted) creator per the holding institution.",
+            "source": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12417"
+          }
+        ],
+        "holding": "The Huntington Library, Art Museum, and Botanical Gardens — William & Clara Weinland Collection, photCL 39 (Potrero/Morongo album). CONTENTdm p15150coll2 id 12417.",
+        "best_master": {
+          "location": "https://hdl.huntington.org/digital/iiif/2/p15150coll2:12417/full/full/0/default.jpg",
+          "pixels": "1815x1387 print crop from the 3000px-class Huntington IIIF album-page scan",
+          "note": "Native Huntington IIIF master downloaded 2026-07-22 and cropped to the print area; pristine full-page scan archived in data/research-assets/sources/huntington-weinland/fullpages/. Rights: Huntington permission + Morongo cultural consultation required before use."
+        },
+        "researched": "2026-07-22",
+        "source_manifest": "Huntington Weinland album (photCL 39); see data/research-assets/sources/huntington-weinland/"
+      }
     }
   ],
   "files": [
@@ -101363,6 +102033,386 @@
       ],
       "thumbnail": "assets/thumbs/file_e5d7e62a8efa93d5.jpg",
       "preview": "assets/previews/file_e5d7e62a8efa93d5.jpg"
+    },
+    {
+      "file_id": "file_f628e7ad67b603c8",
+      "path": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\huntington-weinland\\01_wickiup.jpg",
+      "filename": "01_wickiup.jpg",
+      "extension": ".jpg",
+      "size_bytes": 1599991,
+      "modified_at": "2026-07-23T04:25:45Z",
+      "modified_at_is_historical_date": false,
+      "sha256": "4b7bab99e60f5de97991edf675505b970319d3cab07b4d88874ee8c6a9ac3851",
+      "source_key": "huntington-weinland-additions",
+      "source_priority": 40,
+      "curated": false,
+      "source_memberships": [
+        "huntington-weinland-additions"
+      ],
+      "image": {
+        "format": "JPEG",
+        "width": 2972,
+        "height": 2236,
+        "megapixels": 6.65,
+        "mode": "RGB",
+        "frames": 1,
+        "exif": {},
+        "sharpness_score": 1808.554,
+        "dhash": "000000606c381001",
+        "ahash": "7f7fff470101070f",
+        "transform_hashes": {
+          "normal": "000000606c381001",
+          "rot90": "3119393c31331b1b",
+          "rot180": "7ff7e3c9f9ffffff",
+          "rot270": "27273373c3636773",
+          "mirror": "fffffff9c9e3f77f"
+        },
+        "crop_hashes": [
+          "000000606c381a00",
+          "000020e066783900",
+          "000060e0c2e83909"
+        ]
+      },
+      "ocr": {
+        "status": "unavailable",
+        "text": "",
+        "engine": null,
+        "confidence": null
+      },
+      "suggestions": {
+        "title": "Wickiup.",
+        "caption": "",
+        "date_start": 1898,
+        "date_end": 1910,
+        "decade": 1900,
+        "locations": [
+          "Morongo Indian Reservation",
+          "San Gorgonio Pass"
+        ],
+        "people": [],
+        "subjects": [
+          "Wickiup",
+          "Traditional dwelling",
+          "Morongo Indian Reservation",
+          "San Gorgonio Pass"
+        ],
+        "visible_text": "",
+        "search_terms": [
+          "wickiup",
+          "kish",
+          "dwelling",
+          "morongo",
+          "thresher",
+          "cahuilla",
+          "serrano"
+        ],
+        "confidence": "low",
+        "review_note": "External acquisition; metadata from holding institution."
+      }
+    },
+    {
+      "file_id": "file_cab81434bbd4a891",
+      "path": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\huntington-weinland\\02_cooking-shelter.jpg",
+      "filename": "02_cooking-shelter.jpg",
+      "extension": ".jpg",
+      "size_bytes": 2254054,
+      "modified_at": "2026-07-23T04:25:45Z",
+      "modified_at_is_historical_date": false,
+      "sha256": "a22fe20db9879df60f686393c850b9126a51cf54025d50e504c08cbd367a9cd7",
+      "source_key": "huntington-weinland-additions",
+      "source_priority": 40,
+      "curated": false,
+      "source_memberships": [
+        "huntington-weinland-additions"
+      ],
+      "image": {
+        "format": "JPEG",
+        "width": 2961,
+        "height": 2195,
+        "megapixels": 6.5,
+        "mode": "RGB",
+        "frames": 1,
+        "exif": {},
+        "sharpness_score": 2006.37,
+        "dhash": "0d060707aee72f8f",
+        "ahash": "ffffff1e00000000",
+        "transform_hashes": {
+          "normal": "0d060707aee72f8f",
+          "rot90": "32ba1a3939393938",
+          "rot180": "0e0b188a1f1f9f47",
+          "rot270": "e363636363a7a2b3",
+          "mirror": "479f1f1f8a180b0e"
+        },
+        "crop_hashes": [
+          "05060707ae63072f",
+          "07062703afc3470f",
+          "072723c20dc1c34f"
+        ]
+      },
+      "ocr": {
+        "status": "unavailable",
+        "text": "",
+        "engine": null,
+        "confidence": null
+      },
+      "suggestions": {
+        "title": "Cooking shelter.",
+        "caption": "",
+        "date_start": 1900,
+        "date_end": 1900,
+        "decade": 1900,
+        "locations": [
+          "Morongo Indian Reservation",
+          "San Gorgonio Pass"
+        ],
+        "people": [],
+        "subjects": [
+          "Cooking shelter",
+          "Ramada",
+          "Traditional dwelling",
+          "Morongo Indian Reservation",
+          "San Gorgonio Pass"
+        ],
+        "visible_text": "",
+        "search_terms": [
+          "cooking shelter",
+          "ramada",
+          "windbreak",
+          "kish",
+          "morongo",
+          "thresher"
+        ],
+        "confidence": "low",
+        "review_note": "External acquisition; metadata from holding institution."
+      }
+    },
+    {
+      "file_id": "file_6c78f0870cbd7482",
+      "path": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\huntington-weinland\\03_rice-family.jpg",
+      "filename": "03_rice-family.jpg",
+      "extension": ".jpg",
+      "size_bytes": 519786,
+      "modified_at": "2026-07-23T04:25:46Z",
+      "modified_at_is_historical_date": false,
+      "sha256": "2b6e5f21d46373bc8226e31889ed8b1adbe28948f0a17691370aec0dcedbacb5",
+      "source_key": "huntington-weinland-additions",
+      "source_priority": 40,
+      "curated": false,
+      "source_memberships": [
+        "huntington-weinland-additions"
+      ],
+      "image": {
+        "format": "JPEG",
+        "width": 1845,
+        "height": 1522,
+        "megapixels": 2.81,
+        "mode": "RGB",
+        "frames": 1,
+        "exif": {},
+        "sharpness_score": 423.77,
+        "dhash": "f89c8c948cc8e8b9",
+        "ahash": "ffbf3f039181c1e3",
+        "transform_hashes": {
+          "normal": "f89c8c948cc8e8b9",
+          "rot90": "3d7c7c3c34fcf9e1",
+          "rot180": "62e0ecced6cec6e0",
+          "rot270": "7860c0d3c3c1c143",
+          "mirror": "e0c6ced6ceece062"
+        },
+        "crop_hashes": [
+          "b89c88948c8ad838",
+          "9a0e08141c9ad858",
+          "1a0e08161c1dd9d8"
+        ]
+      },
+      "ocr": {
+        "status": "unavailable",
+        "text": "",
+        "engine": null,
+        "confidence": null
+      },
+      "suggestions": {
+        "title": "A Morongo Indian named Rice and his family, c. 1912.",
+        "caption": "",
+        "date_start": 1907,
+        "date_end": 1917,
+        "decade": 1910,
+        "locations": [
+          "Morongo Indian Reservation"
+        ],
+        "people": [
+          "Rice"
+        ],
+        "subjects": [
+          "Family",
+          "Portrait",
+          "Morongo Indian Reservation"
+        ],
+        "visible_text": "",
+        "search_terms": [
+          "rice",
+          "family",
+          "children",
+          "morongo",
+          "portrait"
+        ],
+        "confidence": "low",
+        "review_note": "External acquisition; metadata from holding institution."
+      }
+    },
+    {
+      "file_id": "file_14b5bc7e1a6d71ed",
+      "path": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\huntington-weinland\\04_old-maria.jpg",
+      "filename": "04_old-maria.jpg",
+      "extension": ".jpg",
+      "size_bytes": 617998,
+      "modified_at": "2026-07-23T04:25:46Z",
+      "modified_at_is_historical_date": false,
+      "sha256": "a764478f54bd9a50c9f77d3d24db4281324110f0c910a288c1250e9bb1dcef70",
+      "source_key": "huntington-weinland-additions",
+      "source_priority": 40,
+      "curated": false,
+      "source_memberships": [
+        "huntington-weinland-additions"
+      ],
+      "image": {
+        "format": "JPEG",
+        "width": 1753,
+        "height": 1420,
+        "megapixels": 2.49,
+        "mode": "RGB",
+        "frames": 1,
+        "exif": {},
+        "sharpness_score": 539.04,
+        "dhash": "3d66060e1e1e1a1a",
+        "ahash": "fb69183838383000",
+        "transform_hashes": {
+          "normal": "3d66060e1e1e1a1a",
+          "rot90": "6ce428af8bc3e9e4",
+          "rot180": "a7a787878f9f9943",
+          "rot270": "58683c2e0a6bd889",
+          "mirror": "43999f8f8787a7a7"
+        },
+        "crop_hashes": [
+          "3c661e1e1e1f1a3b",
+          "e6a21a1e9f1c1b1b",
+          "a3eb1a1b9d141b4b"
+        ]
+      },
+      "ocr": {
+        "status": "unavailable",
+        "text": "",
+        "engine": null,
+        "confidence": null
+      },
+      "suggestions": {
+        "title": "Old Maria working on basket.",
+        "caption": "",
+        "date_start": 1885,
+        "date_end": 1900,
+        "decade": 1890,
+        "locations": [
+          "Morongo Indian Reservation"
+        ],
+        "people": [
+          "Old Maria"
+        ],
+        "subjects": [
+          "Basketry",
+          "Basketmaking",
+          "Morongo Indian Reservation",
+          "Cahuilla"
+        ],
+        "visible_text": "",
+        "search_terms": [
+          "old maria",
+          "basket",
+          "basketry",
+          "weaving",
+          "morongo",
+          "cahuilla"
+        ],
+        "confidence": "low",
+        "review_note": "External acquisition; metadata from holding institution."
+      }
+    },
+    {
+      "file_id": "file_26638e359de7f474",
+      "path": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\huntington-weinland\\05_children-home-potrero.jpg",
+      "filename": "05_children-home-potrero.jpg",
+      "extension": ".jpg",
+      "size_bytes": 1008109,
+      "modified_at": "2026-07-23T04:25:46Z",
+      "modified_at_is_historical_date": false,
+      "sha256": "d01d16509aa9761da7e565edc62f0b5cbac4f8e56c4c0d7598901a9e921cebbe",
+      "source_key": "huntington-weinland-additions",
+      "source_priority": 40,
+      "curated": false,
+      "source_memberships": [
+        "huntington-weinland-additions"
+      ],
+      "image": {
+        "format": "JPEG",
+        "width": 1815,
+        "height": 1387,
+        "megapixels": 2.52,
+        "mode": "RGB",
+        "frames": 1,
+        "exif": {},
+        "sharpness_score": 2362.197,
+        "dhash": "394ecc899f2f1e1e",
+        "ahash": "201890dbfe7c7c3c",
+        "transform_hashes": {
+          "normal": "394ecc899f2f1e1e",
+          "rot90": "8ece822264c6830f",
+          "rot180": "87870b066ccc8d63",
+          "rot270": "0f3e9c99bbbe8c8e",
+          "mirror": "638dcc6c060b8787"
+        },
+        "crop_hashes": [
+          "1dcecccd1d6f5f1b",
+          "9d8ed45c5d4f4e1b",
+          "9e8e545c55aecf9b"
+        ]
+      },
+      "ocr": {
+        "status": "unavailable",
+        "text": "",
+        "engine": null,
+        "confidence": null
+      },
+      "suggestions": {
+        "title": "Indian children and home, Potrero.",
+        "caption": "",
+        "date_start": 1890,
+        "date_end": 1909,
+        "decade": 1900,
+        "locations": [
+          "Potrero",
+          "Morongo Indian Reservation"
+        ],
+        "people": [
+          "Victoria Miguel",
+          "John Morongo"
+        ],
+        "subjects": [
+          "Children",
+          "Family",
+          "Potrero",
+          "Morongo Indian Reservation"
+        ],
+        "visible_text": "",
+        "search_terms": [
+          "children",
+          "potrero",
+          "morongo",
+          "victoria miguel",
+          "family",
+          "home"
+        ],
+        "confidence": "low",
+        "review_note": "External acquisition; metadata from holding institution."
+      }
     }
   ]
 }

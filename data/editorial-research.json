@@ -475,8 +475,8 @@
       },
       "best_master": {
         "location": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12408/",
-        "pixels": "higher-resolution IIIF scan available from the Huntington",
-        "note": "Exact print at the Huntington (photCL 39 (126), inscribed 'The late Capt. John Morongo'); a permissioned high-res scan from them would supersede everything. This archive now displays the complete 459×593 MBMI-copy portrait (data/masters/img_72d13585ff607c22.jpg) in place of the earlier 500×500 square crop. The Banning Library District print (CBAN_120) is an alternative source."
+        "pixels": "2238x3000 IIIF native master (cropped to 1458x2328 arched print for catalog)",
+        "note": "PULLED 2026-07-22: the Huntington IIIF master (photCL 39 (126), CONTENTdm id 12408, inscribed 'The late Capt. John Morongo') is 2238x3000; the arched albumen print was cropped to 1458x2328 and now feeds the catalog (data/masters/img_72d13585ff607c22.jpg), superseding the 459x593 MBMI photocopy. Pristine full scan + full cabinet card (with inscription + 'Cramer, 402 Kearny St, S.F.' imprint) archived in data/research-assets/sources/. RIGHTS: Huntington reproduction permission still needed before publication; culturally-sensitive Native subject (Morongo consultation). Banning Library District print (CBAN_120) is an alternative source."
       },
       "open_questions": [],
       "research_status": "Researched",
@@ -3600,10 +3600,14 @@
         },
         {
           "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Hotel Beaumont\\Beaumont vista with Hotel Beaumont visible to right of town undated photo.jpg"
+        },
+        {
+          "claim": "C.C. Pierce authorship and public-domain status of the Beaumont panorama series",
+          "url": "https://doi.org/10.25549/chs-m8051"
         }
       ],
-      "rights": "Photographer unidentified; almost certainly public domain — the view predates the 1909 Hotel Beaumont fire, so any period publication was before 1931 (95-year term expired), and a pre-1906 unpublished anonymous work is also past the 120-year term — but neither path is yet demonstrable because the negative series is unidentified and creation could fall 1906-1909. Next action: match negative no. 2099 against the C.C. Pierce / California Historical Society series at USC Digital Library and the Huntington's Pierce holdings to confirm photographer and publication.",
-      "rights_status": "Unclear",
+      "rights": "Public domain. The displayed image is C.C. Pierce's Beaumont panorama, negative no. 2099, from a ca.1895-1898 series; a sibling frame (neg. 2000) is held by USC Libraries in the California Historical Society Collection ('Panoramic of Beaumont, ca.1895-1898', chs-m8051, DOI 10.25549/chs-m8051) and released Public Domain / CC BY. As a pre-1929 published photograph the work is out of copyright, and a faithful reproduction carries no new copyright. Confirmed 2026-07-22 by matching neg. 2099 to the C.C. Pierce/CHS series at USC. Credit C.C. Pierce; a higher-resolution (~5100 px) original is available from USC (specol@usc.edu) on request.",
+      "rights_status": "Public domain",
       "holding": null,
       "best_master": null,
       "open_questions": [
