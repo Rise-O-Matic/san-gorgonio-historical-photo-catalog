@@ -1297,32 +1297,36 @@
    "research_status": "Provenance verified"
   },
   "img_48e0a1029b9b35cf": {
-   "title": "Luis Estrada trackworker statue, California State Railroad Museum, Sacramento (view A)",
+   "title": "Luis Estrada figure, California State Railroad Museum, Sacramento (view A)",
    "original_title": "Luis Estrada Statue At California State Railroad Museum In Sacramento A",
    "caption": {
-    "caption": "Trackworker figure at the California State Railroad Museum, Sacramento, associated by the Estrada family with Luis Estrada (scanned family snapshot)",
+    "caption": "The California State Railroad Museum's life-size figure of Luis Estrada straining at a lining bar on the exhibit track, Sacramento — created by the museum in 2005 to honor the Beaumont section foreman. Estrada family collection.",
     "attribution": "Estrada family collection",
     "attribution_confidence": "probable",
-    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
-    "basis": "Filed among the client's Luis Estrada family materials; the image is a scan of a physical print."
+    "caption_source": "Deep research 2026-07-23 (CSRM finding aid MS 871 + image inspection)",
+    "basis": "CSRM finding aid MS 871 records that the museum created a life-size figure of Luis Estrada in 2005; this family snapshot shows that figure. The Estrada-family attribution is carried from the client's Luis Estrada folder."
    },
    "date": null,
    "rights_status": "Permission required",
    "rights": "Permission required — Estrada family (collection donor). Contact the Estrada family through Beaumont Library District for reproduction consent.",
    "holding": null,
    "best_master": null,
-   "description": "Scanned color snapshot of a life-size trackworker figure at the California State Railroad Museum in Sacramento: a sculpted man in white work clothes and gloves leans into a lining bar set against a rail on the exhibit track, with wooden walkways, a cable barrier, museum visitors, and a stenciled rolling-stock placard behind him. The Estrada family collection associates this exhibit figure with Luis Estrada, the Beaumont trackworker for whom Luis Estrada Road is named; the scan documents that commemorative connection rather than a Beaumont site.",
+   "description": "Scanned color snapshot of the California State Railroad Museum's life-size figure of Luis Estrada: the mustached figure in work clothes and gloves leans into a lining bar set against a rail on the exhibit track, with wooden walkways, a cable barrier, museum visitors, and a stenciled rolling-stock placard behind. The museum created this figure in 2005 to honor Estrada, the Southern Pacific section foreman for whom Beaumont's Luis Estrada Road is named (finding aid MS 871). The scan documents that museum tribute rather than a Beaumont site.",
    "corrections": [
-    "Title normalized; no factual changes to the record."
+    "Retitled and re-described: the exhibit figure is specifically the California State Railroad Museum's 2005 life-size figure OF Luis Estrada (per CSRM finding aid MS 871), not a generic trackworker figure the family merely associates with him, and not a 'statue.'"
    ],
    "evidence": [
     {
      "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrada statue at California State Railroad Museum in Sacramento a.jpg"
+    },
+    {
+     "label": "California State Railroad Museum Library & Archives — finding aid for the Luis M. Estrada collection (MS 871): 'In 2005, the California State Railroad Museum celebrated Luis Estrada by creating a life-size figure of him driving a spike on railroad track for exhibition.' Luis Moncada Estrada (1894–1980), Southern Pacific track worker 1913–1947 along the San Gorgonio Pass (Colton–Indio), section foreman; family moved to Beaumont in 1931.",
+     "url": "https://oac.cdlib.org/findaid/ark:/13030/c8ns123w/"
     }
    ],
    "open_questions": [
-    "A companion print in this series (view B) bears a 2/23/2005 print date, suggesting the museum visit predates 2005 — confirm the actual date with the Estrada family; the current 2010-2024 range is likely too late.",
-    "Confirm with the Estrada family who took the snapshot and whether they consent to reproduction."
+    "When did the Estrada family photograph the figure? The figure exists from 2005 (finding aid MS 871), so the snapshot dates from 2005 or later; the exact visit date is unknown.",
+    "Does the California State Railroad Museum require its own permission to reproduce photographs of its exhibit figure in a printed mural?"
    ],
    "research_status": "Provenance verified"
   },
@@ -1391,39 +1395,48 @@
    "research_status": "Provenance verified"
   },
   "img_99913db9881316f3": {
-   "title": "Luis Estrada trackworker statue, California State Railroad Museum — close-up (printed page)",
+   "title": "Luis Estrada figure, California State Railroad Museum — close-up of the head (printed page, 2005)",
    "original_title": "Luis Estrada Statue California State Railroad Museum In Sacramento B",
    "caption": {
-    "caption": "Close-up of the trackworker figure associated with Luis Estrada, California State Railroad Museum, Sacramento — printed page dated Feb. 23, 2005",
-    "attribution": "Estrada family collection; original photographer unidentified",
+    "caption": "Close-up of the head of the California State Railroad Museum's life-size figure of Luis Estrada — a museum exhibit figure, not a statue, that the museum created in 2005 to honor the Beaumont section foreman. Scanned from a printed page (Page 2 of 2) dated Feb. 23, 2005.",
+    "attribution": "Estrada family collection; underlying photograph likely California State Railroad Museum",
     "attribution_confidence": "probable",
-    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
-    "basis": "Filed among Estrada family materials; the visible 'Page 2 of 2' header and 2/23/2005 date stamp show it was printed from a two-page document in 2005."
+    "caption_source": "Deep research 2026-07-23 (CSRM finding aid MS 871 + image inspection)",
+    "basis": "The face matches the museum's life-size Luis Estrada figure shown in the wider views of this series (same dark hair, heavy mustache and bowed working pose); CSRM finding aid MS 871 records the figure was made in 2005, matching the page's 2/23/2005 print date. It is a hyper-realistic exhibit figure, not a photograph of a living man."
    },
    "date": {
-    "date_start": 1981,
+    "date_start": 2005,
     "date_end": 2005,
-    "display": "by Feb. 2005",
-    "confidence": "medium",
-    "basis": "The scanned page bears a printed 2/23/2005 date stamp and 'Page 2 of 2' header, so the photograph predates that printout; the California State Railroad Museum opened in 1981. The catalog's 2010-2024 range reflected the scan, not the image."
+    "display": "2005",
+    "confidence": "high",
+    "basis": "The subject is the California State Railroad Museum's life-size figure of Luis Estrada, created in 2005 (finding aid MS 871); the scanned page carries a 2/23/2005 print date."
    },
    "rights_status": "Permission required",
-   "rights": "Permission required — Estrada family (collection donor); contact the family via Beaumont Library District. Note: the page appears printed from a third-party document, so the underlying photograph may have an additional rights holder to clear.",
+   "rights": "Permission required — Estrada family (collection donor); contact via Beaumont Library District. The underlying photograph of the museum figure may belong to the California State Railroad Museum — clear that too before publication.",
    "holding": null,
    "best_master": null,
-   "description": "Scan of a printed page showing a close-up of the head and shoulders of the California State Railroad Museum's trackworker figure: a sculpted man with dark hair and a heavy mustache, in a tan work shirt, looking downward. The page carries a 'Page 2 of 2' header and a printed date of 2/23/2005, so the underlying photograph can be no later than February 2005. The Estrada family collection associates the figure with Luis Estrada of Beaumont.",
+   "description": "Close-up of the head and shoulders of the California State Railroad Museum's life-size figure of Luis Estrada: a hyper-realistic exhibit figure of a dark-haired, heavily mustached track worker in a tan work shirt, head bowed at his work. It is the same figure seen in the wider views of this series (locomotive 4466 and the 'On the Section' interpretive panel). The museum created the figure in 2005 to honor Estrada, a Southern Pacific section foreman who worked the San Gorgonio Pass; the page's 'Page 2 of 2' header and 2/23/2005 print date are contemporaneous with the figure's making. Earlier catalog wording called this a photo of a 'statue' and, on review, a living man — it is neither: it is a close-up of the museum's exhibit figure of Estrada.",
    "corrections": [
-    "Re-dated from 2010-2024 to 'by Feb. 2005' based on the 2/23/2005 print date visible on the scanned page.",
-    "Retitled to note the item is a scanned printed page, not a direct photograph."
+    "Corrected subject: this is a close-up of the head of the California State Railroad Museum's life-size exhibit FIGURE of Luis Estrada — not a bronze 'statue,' and not a photograph of a living person. The face matches the same figure shown in the wider views (a/c/d) of this series.",
+    "Established from the museum's own finding aid (MS 871) that CSRM created a life-size figure of Luis Estrada in 2005, matching the page's 2/23/2005 print date.",
+    "Re-dated to 2005 (figure created 2005; page printed Feb. 2005); previously catalogued 2010-2024."
    ],
    "evidence": [
     {
      "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrada statue California State Railroad Museum in Sacramento b.jpg"
+    },
+    {
+     "label": "California State Railroad Museum Library & Archives — finding aid for the Luis M. Estrada collection (MS 871): 'In 2005, the California State Railroad Museum celebrated Luis Estrada by creating a life-size figure of him driving a spike on railroad track for exhibition.' Luis Moncada Estrada (1894–1980), Southern Pacific track worker 1913–1947 along the San Gorgonio Pass (Colton–Indio), section foreman; family moved to Beaumont in 1931.",
+     "url": "https://oac.cdlib.org/findaid/ark:/13030/c8ns123w/"
+    },
+    {
+     "label": "Record-Gazette, 'Not just a street name: the Estradas strive to keep the name alive' — Estrada-family feature on Luis Estrada Road and the museum figure (page rate-limited on 2026-07-23; cited as a lead, not quoted).",
+     "url": "https://www.recordgazette.net/community/not-just-a-street-name-the-estradas-strive-to-keep-the-name-alive/article_57e6c164-f0c2-11eb-b731-ab1d4c662bb2.html"
     }
    ],
    "open_questions": [
-    "The 'Page 2 of 2' header suggests the page was printed from a website or document — identify the original photographer or publisher (possibly the California State Railroad Museum) before print use.",
-    "Confirm reproduction consent with the Estrada family via Beaumont Library District."
+    "Identify the original photographer/publisher of the printed page (the 'Page 2 of 2' header points to a museum document or web page) before print use — most likely the California State Railroad Museum.",
+    "Confirm reproduction consent with the Estrada family via Beaumont Library District, and with CSRM if it holds the underlying photograph."
    ],
    "research_status": "Provenance verified"
   },
@@ -1633,26 +1646,36 @@
    "research_status": "Provenance verified"
   },
   "img_9acdf5b823073389": {
-   "title": "Track-Worker Exhibit Figure at the California State Railroad Museum",
+   "title": "Luis Estrada figure at the California State Railroad Museum, Sacramento (view D)",
    "original_title": "Luis Estrada Statue At California State Railroad Museum In Sacramento D",
-   "caption": null,
+   "caption": {
+    "caption": "The California State Railroad Museum's life-size figure of Luis Estrada working a lining bar, with locomotive 4466 behind, Sacramento — created by the museum in 2005 to honor the Beaumont section foreman. Estrada family collection.",
+    "attribution": "Estrada family collection",
+    "attribution_confidence": "probable",
+    "caption_source": "Deep research 2026-07-23 (CSRM finding aid MS 871 + image inspection)",
+    "basis": "CSRM finding aid MS 871 records the museum created a life-size figure of Luis Estrada in 2005; this family snapshot shows that figure. Estrada-family attribution from the client's Luis Estrada folder."
+   },
    "date": null,
    "rights_status": "Permission required",
    "rights": "Permission required — Estrada family (collection donor). Contact the Estrada family through the Beaumont Library District for permission to reproduce this family photograph.",
    "holding": null,
    "best_master": null,
-   "description": "Interior view at the California State Railroad Museum in Sacramento showing a life-size exhibit figure of a railroad track worker in white work clothes straining on a lining bar over the rails, with a pickaxe and wheelbarrow beside him and a steam locomotive numbered 4466 on its smokebox behind; a museum visitor stands at left beyond the barrier rails. The Estrada family, whose collection supplied this series, associates the track-worker figure with Beaumont section laborer Luis Estrada. The image has heavy magenta color shift and print grain, indicating a scanned or rephotographed film print from a family visit to the museum.",
+   "description": "Interior view at the California State Railroad Museum in Sacramento showing the museum's life-size figure of Luis Estrada in work clothes straining on a lining bar over the rails, with a pickaxe and wheelbarrow beside him and a steam locomotive numbered 4466 on its smokebox behind; a museum visitor stands at left beyond the barrier rails. The museum created this figure in 2005 to honor Estrada, the Southern Pacific section foreman for whom Beaumont's Luis Estrada Road is named (finding aid MS 871). The image has heavy magenta color shift and print grain, indicating a scanned or rephotographed film print from a family visit to the museum.",
    "corrections": [
-    "Description clarified: the 'statue' is a museum exhibit figure of a track worker that the family associates with Luis Estrada, photographed during a family visit; not a statue of Estrada erected as such (association per family/filename, not verified independently)."
+    "Identified the exhibit figure as the California State Railroad Museum's 2005 life-size figure OF Luis Estrada (per CSRM finding aid MS 871); earlier notes hedged the Estrada connection as an unverified family association and referred to a 'statue.'"
    ],
    "evidence": [
     {
      "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrada statue at California State Railroad Museum in Sacramento d.jpg"
+    },
+    {
+     "label": "California State Railroad Museum Library & Archives — finding aid for the Luis M. Estrada collection (MS 871): 'In 2005, the California State Railroad Museum celebrated Luis Estrada by creating a life-size figure of him driving a spike on railroad track for exhibition.' Luis Moncada Estrada (1894–1980), Southern Pacific track worker 1913–1947 along the San Gorgonio Pass (Colton–Indio), section foreman; family moved to Beaumont in 1931.",
+     "url": "https://oac.cdlib.org/findaid/ark:/13030/c8ns123w/"
     }
    ],
    "open_questions": [
-    "When did the Estrada family visit the museum? The film-print appearance (color shift, grain) suggests the photo may predate the catalog's 2010-2024 range.",
-    "Does the museum exhibit formally reference Luis Estrada, or is the association a family tradition?"
+    "When did the Estrada family visit and photograph the figure? The figure exists from 2005 (finding aid MS 871); the film-print look suggests a snapshot rather than a recent digital photo.",
+    "Does the California State Railroad Museum require its own permission to reproduce photographs of its exhibit figure in a printed mural?"
    ],
    "research_status": "Provenance verified"
   },
@@ -1745,33 +1768,36 @@
    "research_status": "Provenance verified"
   },
   "img_39722a07ed88a499": {
-   "title": "Luis Estrada Trackworker Figure, 'On the Section' Exhibit, California State Railroad Museum (View C)",
+   "title": "Luis Estrada figure, 'On the Section' exhibit, California State Railroad Museum (view C)",
    "original_title": "Luis Estrada Statue At California State Railroad Museum In Sacramento C",
    "caption": {
-    "caption": "Trackworker figure identified by the Estrada family as Luis Estrada, 'On the Section' exhibit, California State Railroad Museum, Sacramento, 2010s-2020s. Estrada family collection.",
+    "caption": "The 'On the Section' exhibit at the California State Railroad Museum, Sacramento, with the museum's life-size figure of Luis Estrada at the track tools — created in 2005 to honor the Beaumont section foreman. Estrada family collection.",
     "attribution": "Estrada family collection",
     "attribution_confidence": "probable",
-    "caption_source": "Provenance review 2026-07-21 (source path + image inspection)",
-    "basis": "Filed in the client's 'Luis Estrada' folder with Estrada family collection attribution; the photograph itself shows the museum's 'On the Section' interpretive panel and exhibit setting."
+    "caption_source": "Deep research 2026-07-23 (CSRM finding aid MS 871 + image inspection)",
+    "basis": "The photograph shows CSRM's 'On the Section' interpretive panel and its life-size figure of Luis Estrada, which the museum created in 2005 (finding aid MS 871). Estrada-family attribution from the client's Luis Estrada folder."
    },
    "date": null,
    "rights_status": "Permission required",
    "rights": "Permission required — Estrada family (collection donor). Contact the Estrada family through the Beaumont Library District before reproduction.",
    "holding": null,
    "best_master": null,
-   "description": "Snapshot of a museum exhibit at the California State Railroad Museum in Sacramento: a life-size figure of a mustachioed track worker in a white work shirt and trousers straining on a track tool beside a section of rail, with an 'On the Section' interpretive panel about track maintenance in the foreground and a second figure behind. The Estrada family collection identifies this figure as representing Luis Estrada, the Beaumont-area Southern Pacific section foreman honored elsewhere in the collection. One of four views (a-d) of the exhibit in the collection.",
+   "description": "Snapshot of the 'On the Section' exhibit at the California State Railroad Museum in Sacramento: the museum's life-size figure of Luis Estrada — a mustached track worker in a work shirt and trousers — strains on a track tool beside a section of rail, with the 'On the Section' interpretive panel on track maintenance in the foreground and a second figure behind. The California State Railroad Museum created this figure in 2005 to honor Estrada, the Beaumont-area Southern Pacific section foreman (finding aid MS 871). One of four views (a-d) of the exhibit figure in the collection.",
    "corrections": [
-    "Retitled to describe the actual subject: a life-size exhibit figure beside the 'On the Section' interpretive panel, not a freestanding statue."
+    "Retitled and re-described: the figure is the California State Railroad Museum's 2005 life-size figure OF Luis Estrada (documented in CSRM finding aid MS 871), not a freestanding statue and not merely a figure the family associates with him."
    ],
    "evidence": [
     {
      "label": "Source file: X:\\My Drive\\Projects\\Beaumont Library District\\historical photos\\Beaumont historical photos for BLD\\Luis Estrada\\Luis Estrada statue at California State Railroad Museum in Sacramento c.jpg"
+    },
+    {
+     "label": "California State Railroad Museum Library & Archives — finding aid for the Luis M. Estrada collection (MS 871): 'In 2005, the California State Railroad Museum celebrated Luis Estrada by creating a life-size figure of him driving a spike on railroad track for exhibition.' Luis Moncada Estrada (1894–1980), Southern Pacific track worker 1913–1947 along the San Gorgonio Pass (Colton–Indio), section foreman; family moved to Beaumont in 1931.",
+     "url": "https://oac.cdlib.org/findaid/ark:/13030/c8ns123w/"
     }
    ],
    "open_questions": [
-    "Who in the Estrada family took this snapshot, and when was the museum visit?",
-    "Does the California State Railroad Museum require its own permission to reproduce photographs of its exhibit in a printed mural?",
-    "Is the family's identification of the figure as Luis Estrada documented by the museum?"
+    "Who in the Estrada family took this snapshot, and when? The figure exists from 2005 (finding aid MS 871), so the visit dates from 2005 or later.",
+    "Does the California State Railroad Museum require its own permission to reproduce photographs of its exhibit figure in a printed mural?"
    ],
    "research_status": "Provenance verified"
   },

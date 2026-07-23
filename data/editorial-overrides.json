@@ -1,1571 +1,1571 @@
 {
-  "schema_version": "1.0.0",
-  "description": "Researched date ranges for records the pipeline left undated. Sources: filename annotations, yearbook/newspaper mastheads, postmarks, the San Gorgonio Pass Historical Society timeline, Beaumont institutional histories, and visual analysis (vehicles, dress, architecture, postcard format).",
-  "confidence_levels": {
-    "confirmed": "explicit date in the image, filename, masthead, postmark, or a source annotation",
-    "high": "strong single anchor (dated postcard series, documented construction year, decisive visual cue)",
-    "medium": "reasoned from era cues or a subject's known active period",
-    "low": "broad but defensible range; further confirmation welcome"
+ "schema_version": "1.0.0",
+ "description": "Researched date ranges for records the pipeline left undated. Sources: filename annotations, yearbook/newspaper mastheads, postmarks, the San Gorgonio Pass Historical Society timeline, Beaumont institutional histories, and visual analysis (vehicles, dress, architecture, postcard format).",
+ "confidence_levels": {
+  "confirmed": "explicit date in the image, filename, masthead, postmark, or a source annotation",
+  "high": "strong single anchor (dated postcard series, documented construction year, decisive visual cue)",
+  "medium": "reasoned from era cues or a subject's known active period",
+  "low": "broad but defensible range; further confirmation welcome"
+ },
+ "overrides": {
+  "img_650198dd9e4987ea": {
+   "date_start": 1907,
+   "date_end": 1907,
+   "display": "1907",
+   "confidence": "high",
+   "basis": "The album mount is typed 'BEAUMONT 1907' and Calisphere dates the item 1907 (CBEA_011). Corrects the catalog's erroneous 'stagecoach, 1860'."
   },
-  "overrides": {
-    "img_650198dd9e4987ea": {
-      "date_start": 1907,
-      "date_end": 1907,
-      "display": "1907",
-      "confidence": "high",
-      "basis": "The album mount is typed 'BEAUMONT 1907' and Calisphere dates the item 1907 (CBEA_011). Corrects the catalog's erroneous 'stagecoach, 1860'."
-    },
-    "img_6f833a14a7764e47": {
-      "date_start": 1905,
-      "date_end": 1915,
-      "display": "c. 1905-1915",
-      "confidence": "medium",
-      "basis": "Calisphere carries no date for the photo; the depot was built 1887. c. 1905-1915 rests on the crowd's dress, the long steel consist and the electric/telegraph poles (editorial estimate, flagged as such). '1875' untenable — that is when the SP line crossed the pass, not this depot or town name."
-    },
-    "img_a4ddc941e94d3eed": {
-      "date_start": 1909,
-      "date_end": 1909,
-      "display": "1909",
-      "confidence": "high",
-      "basis": "Calisphere dates the item 1909 (CBEA_067) and the album mount is typed 'BEAUMONT ORCHARD 1909' / 'MELLEN RANCH 1909'. Corrects 'Cherry Tree Farm, 1930'."
-    },
-    "img_5a70b41831a92160": {
-      "date_start": 1945,
-      "date_end": 1946,
-      "display": "c. 1945–1946",
-      "confidence": "medium",
-      "basis": "Printed in the 1946 annual, so exposed no later than spring 1946; the all-prewar car population on the street fits the mid-1940s. Medium confidence because an annual could reuse a slightly older photo."
-    },
-    "img_c228028c8fdfc647": {
-      "date_start": 1948,
-      "date_end": 1949,
-      "display": "1948–1949 school year",
-      "confidence": "high",
-      "basis": "Printed in the 1949 annual; a group portrait of the current band would have been made during the school year the annual covers."
-    },
-    "img_ada3474936428467": {
-      "date_start": 1949,
-      "date_end": 1950,
-      "display": "1949–1950 school year",
-      "confidence": "high",
-      "basis": "Printed in the 1950 annual; the majorette squad pictured is the year's squad, photographed during the 1949–50 school year."
-    },
-    "img_7d31166d85dd49bd": {
-      "date_start": 1949,
-      "date_end": 1950,
-      "display": "1949–1950 school year",
-      "confidence": "high",
-      "basis": "Printed in the 1950 annual; candid classroom coverage in an annual is shot during the school year it covers."
-    },
-    "img_4ac86175e34cb48f": {
-      "date_start": 1938,
-      "date_end": 1948,
-      "display": "c. 1938-1948",
-      "confidence": "medium",
-      "basis": "Real-photo postcard of the ~1930 Mission Revival high school (later Civic Center) with mature landscaping and paved street."
-    },
-    "img_9160017c82292a64": {
-      "date_start": 1969,
-      "date_end": 1969,
-      "display": "March 21, 1969",
-      "confidence": "confirmed",
-      "basis": "Record-Gazette masthead 3-21-69 in filename; new fire station under construction on Maple Ave (SGPHS timeline confirmed)."
-    },
-    "img_a48b18e93521487b": {
-      "date_start": 1978,
-      "date_end": 1978,
-      "display": "Nov 28, 1978",
-      "confidence": "confirmed",
-      "basis": "Record-Gazette masthead 11-28-78 in filename; council vote to contract fire services with CDF (SGPHS timeline confirmed)."
-    },
-    "img_06355ab9cdf953fb": {
-      "date_start": 1968,
-      "date_end": 1968,
-      "display": "April 30, 1968",
-      "confidence": "confirmed",
-      "basis": "Daily Record-Gazette masthead 4-30-68 in filename (SGPHS timeline confirmed)."
-    },
-    "img_530924ee0ded82c6": {
-      "date_start": 1977,
-      "date_end": 1977,
-      "display": "May 26, 1977",
-      "confidence": "confirmed",
-      "basis": "Letter dated 5-26-77 in filename."
-    },
-    "img_4b0acbe1458e33c0": {
-      "date_start": 1908,
-      "date_end": 1909,
-      "display": "1908-1909",
-      "confidence": "high",
-      "basis": "Bids for the building were called after August 27, 1908 and the bank opened in the completed building April 12, 1909 (Beaumont Gazette); the photo shows walls topped out but no roof, i.e., mid-construction, and photographer Salvage left Beaumont in June 1909. Widens the former bare '1909' to the documented construction window."
-    },
-    "img_863f0fc9e94e4ebb": {
-      "date_start": 2015,
-      "date_end": 2025,
-      "display": "c. 2015-2025 (1923 building)",
-      "confidence": "medium",
-      "basis": "Contemporary color photo of the carved cornice 'Bank of Beaumont - Founded 1909 - Erected 1923'; the photo is recent, the building dates to 1923."
-    },
-    "img_e6fe5e33e99cc68f": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Filename 'today'; modern reference photo of the standing bank building."
-    },
-    "img_66a9280d1c1afbf9": {
-      "date_start": 1918,
-      "date_end": 1922,
-      "display": "c. 1920",
-      "confidence": "medium",
-      "basis": "Calisphere item date: circa 1920"
-    },
-    "img_cd302d98752b29e0": {
-      "date_start": 1923,
-      "date_end": 1940,
-      "display": "c. 1923-1940",
-      "confidence": "medium",
-      "basis": "The second Bank of Beaumont (Fifth & Egan) was erected in 1923."
-    },
-    "img_e227a30890d191f3": {
-      "date_start": 2010,
-      "date_end": 2025,
-      "display": "2010s-2020s",
-      "confidence": "low",
-      "basis": "Generic digital-camera filename (IMG_3030); a modern photo tied to the first Bank of Beaumont site."
-    },
-    "img_9c26cfc39eca4fc9": {
-      "date_start": 1910,
-      "date_end": 1915,
-      "display": "c. 1910-1915",
-      "confidence": "medium",
-      "basis": "RPPC of the wooden Post Office; dirt street, horse wagon, Edwardian dress, and the WCTU fountain shelter (1910) present."
-    },
-    "img_5658eba56b079aef": {
-      "date_start": 1885,
-      "date_end": 1895,
-      "display": "c. 1885-1895",
-      "confidence": "high",
-      "basis": "SGPHS timeline's opening image 'Egan Avenue in its earliest days' - frontier strip, unpaved, no autos, dated c.1885-1895."
-    },
-    "img_157678621f95c278": {
-      "date_start": 1907,
-      "date_end": 1918,
-      "display": "c. 1907–1918",
-      "confidence": "medium",
-      "basis": "The Beaumont Land & Water Co. named on the kiosk was formed in October 1907 (Holmes 1912) — a hard earliest bound; BLD dates the company's office building to 1909; the unpaved street, dress, and absence of automobiles argue against a date much past the mid-1910s."
-    },
-    "img_7835865b7e46b59c": {
-      "date_start": 1905,
-      "date_end": 1915,
-      "display": "c. 1905–1915",
-      "confidence": "low",
-      "basis": "Street scene shows only wooden false-fronts and horse-drawn vehicles, predating the stone A.T. Ganty General Merchandise block and automobiles visible in a 1915-postmarked card of the same street (BLD Egan Avenue folder); tinted card with front title band typical of c. 1907–1915 printing. Supersedes the prior c. 1908–1925 range."
-    },
-    "img_92d81318b1127f4b": {
-      "date_start": 1905,
-      "date_end": 1920,
-      "display": "c. 1905-1920",
-      "confidence": "low",
-      "basis": "An automobile in the street rules out the earliest years of the old 1900-1915 range; the Summit House still stands (it burned in 1925) and related Calisphere views show it operating around January 1911; the letterpress-caption postcard format is typical of c. 1907-1920. Replaces the unsupported 1900-1915 range."
-    },
-    "img_676c1d159bb01165": {
-      "date_start": 1951,
-      "date_end": 1963,
-      "display": "c. 1950s",
-      "confidence": "medium",
-      "basis": "Don Stock active as a Beaumont realtor 1949-1965 (CDNC, Beaumont Gazette); '3 Ring Ranch' annotation — the ranch is first attested September 1951; US 70/99 and US 60 shields predate the 1964 Interstate renumbering. Replaces the former 1887-1895 range, which mistook this mid-century map for the original plat."
-    },
-    "img_82f263746528ece8": {
-      "date_start": 1937,
-      "date_end": 1941,
-      "display": "c. late 1930s",
-      "confidence": "high",
-      "basis": "Frasher's 'Street Scene, Beaumont' with the classical bank, Rexall Drugs and late-1930s automobiles."
-    },
-    "img_4239365a9df07707": {
-      "date_start": 1915,
-      "date_end": 1925,
-      "display": "c. 1920",
-      "confidence": "medium",
-      "basis": "Automobiles are mid-1910s to early-1920s touring cars; the A. T. Gantt & Bro. store operated from c. 1906-08 into the late 1920s. Slightly widens the prior unexplained 1918-1924 range; no element pins it tighter."
-    },
-    "img_88e0efbd8026acce": {
-      "date_start": 1933,
-      "date_end": 1937,
-      "display": "c. 1933-1937",
-      "confidence": "medium",
-      "basis": "The Maloof men's and women's shop opened in Beaumont in mid-May 1933 (Daily Gazette, 18 May 1933), a hard earliest bound; the Grunow appliance sign fits that brand's c. 1933-1937 market run; the car is an early-1930s model. Corrects the 1929-1933 range."
-    },
-    "img_e9f375f1600bc4d0": {
-      "date_start": 2015,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Filename 'today'; modern reference photo of Fifth Street."
-    },
-    "img_37e600853baf16af": {
-      "date_start": 1955,
-      "date_end": 1962,
-      "display": "c. late 1950s",
-      "confidence": "low",
-      "basis": "A 1953-54 Chevrolet and a mid-1950s Plymouth whose raised, chrome-capped tailfin reads as 1956 (1955 not fully excludable) are parked at the curb; color-snapshot stock consistent with the late 1950s. Nothing supports the previous hard 1958 end bound."
-    },
-    "img_0880ba793548d705": {
-      "date_start": 1932,
-      "date_end": 1940,
-      "display": "c. 1932-1940",
-      "confidence": "medium",
-      "basis": "Harvey's Cafe signage (cafe in press from Oct 1932, run by Harvey O'Day; building repurposed by 1944) sets the start; newest visible cars are c. 1929-31 models; Gilmore Gasoline branding is consistent with the 1930s. Replaces the untenable 1908-1925 range."
-    },
-    "img_9dee891466dac007": {
-      "date_start": 1925,
-      "date_end": 1934,
-      "display": "c. 1930",
-      "confidence": "medium",
-      "basis": "Matches the documented S. and S./Sumner era (name attested Jan 1928, recent as of Nov 1928; McDaris family by Feb 1935); parked mid-1920s tourers plus a later truck fit. Replaces the 1923-1929 range."
-    },
-    "img_03ae9abaca02013c": {
-      "date_start": 1925,
-      "date_end": 1934,
-      "display": "c. 1930",
-      "confidence": "medium",
-      "basis": "The S. and S. name is attested from January 1928 (and described as recent in November 1928); Sumner ran the store until c. 1934 (McDaris family by Feb 1935). Nabisco 'Uneeda Bakers' cartons (slogan from 1923) and late-1920s dress fit. Replaces the 1920-1930 range."
-    },
-    "img_0fe6d3036afcd3d6": {
-      "date_start": 2015,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Filename 'today'; references I-10, modern reference photo."
-    },
-    "img_934590dec97e3d15": {
-      "date_start": 1905,
-      "date_end": 1915,
-      "display": "c. 1905-1915",
-      "confidence": "medium",
-      "basis": "Pre-WWI printed-postcard conventions (face caption style) and platform dress; the depicted building is SP's large depot built about 1887 (Holmes 1912), still standing and considered inadequate in January 1914 (Gazette retrospective). Replaces 1909-1918, which was anchored to an undocumented 'expansion remodel.'"
-    },
-    "img_d5b3e8d2100926fd": {
-      "date_start": 1908,
-      "date_end": 1918,
-      "display": "c. 1908-1918",
-      "confidence": "medium",
-      "basis": "Rail-yard panorama with steam locomotive, water tower and lumber yard; no automobiles."
-    },
-    "img_eabd3578774e347f": {
-      "date_start": 1908,
-      "date_end": 1918,
-      "display": "c. 1908-1918",
-      "confidence": "medium",
-      "basis": "Multiple steam locomotives at the Beaumont roundhouse."
-    },
-    "img_07a9db15e22db499": {
-      "date_start": 1905,
-      "date_end": 1915,
-      "display": "c. 1905-1915",
-      "confidence": "medium",
-      "basis": "The C-9 class was built ~1905; the high-mounted oil headlight predates SP's 1910s electric conversions; Calisphere's description places the scene in the early 1900s. Supersedes the SGPHS timeline's '1890s'."
-    },
-    "img_3b097e0808432587": {
-      "date_start": 1942,
-      "date_end": 1945,
-      "display": "c. 1943 (WWII)",
-      "confidence": "medium",
-      "basis": "Women's railroad track ('maintenance-of-way') crews were a WWII phenomenon: 7,200 SP men left for the armed forces in a single year and women — including Mexican-American traqueras on the SP — were hired to replace them, 1942-45. Dress (women in jeans/work shirts) fits the 1940s. Supersedes the filename-guess range 1915-1940."
-    },
-    "img_0ab722136d7bd1be": {
-      "date_start": 1945,
-      "date_end": 1955,
-      "display": "c. late 1940s–early 1950s",
-      "confidence": "low",
-      "basis": "Square snapshot format and furnishings fit the late 1940s–early 1950s, and the children's apparent ages are consistent with the census-recorded birth years of the Estrada children (c. 1930–1947). Widened from the catalog's 1940–1949."
-    },
-    "img_ca02842503e130c9": {
-      "date_start": 1944,
-      "date_end": 1947,
-      "display": "c. mid-1940s",
-      "confidence": "low",
-      "basis": "Children's apparent ages align with census-recorded birth years around 1945–47, and the youngest daughter Beatrice (b. c. 1947 per the 1950 census) is absent. Tightened from the catalog's 1940–1949. End tightened to 1947: Beatrice (b. c. 1947 per the 1950 census) is absent."
-    },
-    "img_a7a6b112d9c297dd": {
-      "date_start": 1915,
-      "date_end": 1930,
-      "display": "c. 1915-1930",
-      "confidence": "low",
-      "basis": "Youthful portrait of Luis Estrada, who worked for the SP for decades."
-    },
-    "img_4ec3e978a2772b6b": {
-      "date_start": 1930,
-      "date_end": 1950,
-      "display": "c. 1930s–1940s",
-      "confidence": "low",
-      "basis": "Luis Estrada was born c. 1895 (1950 census, age 55). He appears middle-aged here and the crew's workwear fits the 1930s–40s; the prior 1910–1935 range is too early at its lower end (he would have been 15 in 1910)."
-    },
-    "img_4a9ee3f3baeb6a26": {
-      "date_start": 1930,
-      "date_end": 1950,
-      "display": "c. 1930s–1940s",
-      "confidence": "low",
-      "basis": "Luis Estrada was born c. 1895 (1950 census). The man identified as Estrada appears to be in his 40s or older, and the workwear fits the 1930s–40s; the prior 1910–1935 range is too early."
-    },
-    "img_6ddebbe0de2a589d": {
-      "date_start": 2018,
-      "date_end": 2021,
-      "display": "c. 2018-2021",
-      "confidence": "medium",
-      "basis": "Photo of the Luis Estrada Road street sign; the road's 20th anniversary was marked in 2021."
-    },
-    "img_c822a8c6bb7c2f67": {
-      "date_start": 2018,
-      "date_end": 2021,
-      "display": "c. 2018-2021",
-      "confidence": "medium",
-      "basis": "Photo of the Luis Estrada Road street sign (modern)."
-    },
-    "img_3c18a28de48c53d4": {
-      "date_start": 2018,
-      "date_end": 2021,
-      "display": "c. 2018-2021",
-      "confidence": "medium",
-      "basis": "Photo of the Luis Estrada Road street sign with stop sign (modern)."
-    },
-    "img_48e0a1029b9b35cf": {
-      "date_start": 2010,
-      "date_end": 2024,
-      "display": "2010s-2020s",
-      "confidence": "medium",
-      "basis": "Photo of the Luis Estrada statue at the California State Railroad Museum (modern memorial)."
-    },
-    "img_39722a07ed88a499": {
-      "date_start": 2010,
-      "date_end": 2024,
-      "display": "2010s-2020s",
-      "confidence": "medium",
-      "basis": "Photo of the Luis Estrada statue at the California State Railroad Museum (modern memorial)."
-    },
-    "img_9acdf5b823073389": {
-      "date_start": 2010,
-      "date_end": 2024,
-      "display": "2010s-2020s",
-      "confidence": "medium",
-      "basis": "Photo of the Luis Estrada statue at the California State Railroad Museum (modern memorial)."
-    },
-    "img_99913db9881316f3": {
-      "date_start": 1981,
-      "date_end": 2005,
-      "display": "by Feb. 2005",
-      "confidence": "medium",
-      "basis": "The scanned page bears a printed 2/23/2005 date stamp and 'Page 2 of 2' header, so the photograph predates that printout; the California State Railroad Museum opened in 1981. The catalog's 2010-2024 range reflected the scan, not the image."
-    },
-    "img_70f5802804fd1652": {
-      "date_start": 1887,
-      "date_end": 1909,
-      "display": "c. 1887–1909",
-      "confidence": "medium",
-      "basis": "Bracketed by the 1887 'larger train depot' and Hotel Beaumont construction and by the hotel's destruction by fire in 1909 (August 1909 per prior catalog research). The former 1900-1908 range had no documented basis; note the card's printing may postdate the negative."
-    },
-    "img_049b709d6ffb773a": {
-      "date_start": 1887,
-      "date_end": 1909,
-      "display": "c. 1887–1909",
-      "confidence": "medium",
-      "basis": "The Hotel Beaumont, built 1887 by the Southern California Investment Co. and destroyed by fire in 1909, stands at right; start moved from 1890 to 1887 to match the hotel's construction date. The town's sparseness favors the earlier half of the range."
-    },
-    "img_c6fa941a29b0f0cd": {
-      "date_start": 1907,
-      "date_end": 1909,
-      "display": "c. 1907-1909",
-      "confidence": "medium",
-      "basis": "The hotel bore the 'Edinburgh' name only from its 1907 renovation/reopening until it burned August 16, 1909 (BLD/Calisphere c81v5d9b, c8z31wpb); a postcard captioned 'Hotel Edinburgh' must date from (or immediately around) that window. Narrows the previous 1900-1909 guess."
-    },
-    "img_6345c804830d0a07": {
-      "date_start": 2023,
-      "date_end": 2023,
-      "display": "August 2023 (Street View capture; screenshot saved May 2025)",
-      "confidence": "medium",
-      "basis": "The on-screen Street View panel and watermark both read 'Aug 2023'; the catalog's 2025 date reflects only when the screenshot was saved."
-    },
-    "img_c01f0729b7635aa7": {
-      "date_start": 1910,
-      "date_end": 1960,
-      "display": "Undated newspaper clipping, early-to-mid 20th century",
-      "confidence": "low",
-      "basis": "Letterpress typography and fire-report content indicate a vintage clipping; the catalog's May 2025 date belongs to the filename's claimed Street View capture, not to this image."
-    },
-    "img_b2764c9151e44824": {
-      "date_start": 1907,
-      "date_end": 1915,
-      "display": "c. 1907-1915",
-      "confidence": "medium",
-      "basis": "The Beaumont Land and Water Company is undocumented before Oct. 6, 1907 (Chronicling America phrase search, 453 hits 1907-1910; Apr. 11, 1909 LA Herald: the company 'purchased the townsite of Beaumont and several thousand acres of land adjoining'). The Mission Revival office and fresh sidewalk indicate recent construction during the company's promotion years."
-    },
-    "img_6278e20aa65dd6a8": {
-      "date_start": 1895,
-      "date_end": 1910,
-      "display": "c. 1895-1910",
-      "confidence": "medium",
-      "basis": "Beaumont Land & Water Co. pumping station; Edgar Canyon well drilling documented 1908."
-    },
-    "img_83b4208d7a588795": {
-      "date_start": 1900,
-      "date_end": 1912,
-      "display": "c. 1900-1912",
-      "confidence": "medium",
-      "basis": "Beaumont water well; Edgar Canyon well drilling documented 1908."
-    },
-    "img_9a09c6788b0dddf1": {
-      "date_start": 1895,
-      "date_end": 1915,
-      "display": "c. 1895-1915",
-      "confidence": "low",
-      "basis": "Early ranch scene at the Bliss Ranch well."
-    },
-    "img_3e252c3b2ce712aa": {
-      "date_start": 1907,
-      "date_end": 1915,
-      "display": "c. 1907-1912",
-      "confidence": "medium",
-      "basis": "The Beaumont Land & Water Co. named as owner in the cartouche was formed in October 1907 and immediately replatted and marketed the townsite (Holmes 1912); the map names Riverside County (created 1893); the company's documented advertising campaign runs 1907-1912 (Calisphere CBEA_020 apple-planting ad of 1909; La Mesa Miravilla brochure). Narrowed from the prior c. 1900-1925."
-    },
-    "img_5430b97f619e1088": {
-      "date_start": 1934,
-      "date_end": 1960,
-      "display": "c. 1935-1960 (real-photo postcard)",
-      "confidence": "low",
-      "basis": "Black-and-white real-photo-postcard format with hand-lettered caption cannot be a 2010s-2020s digital photograph; the depicted building is identified by the collection as the 1934 church, so the view postdates 1934."
-    },
-    "img_da743e866c6368cc": {
-      "date_start": 2010,
-      "date_end": 2025,
-      "display": "2010s-2020s (1934 building)",
-      "confidence": "high",
-      "basis": "Modern color photo of the stone Presbyterian rock church (built 1934) with current signage."
-    },
-    "img_b4e6ea6952262482": {
-      "date_start": 2010,
-      "date_end": 2025,
-      "display": "2010s-2020s (1934 building)",
-      "confidence": "medium",
-      "basis": "Modern photo of the 1934 stone Presbyterian church."
-    },
-    "img_1ace86d145209734": {
-      "date_start": 2000,
-      "date_end": 2023,
-      "display": "c. 2000s-early 2020s",
-      "confidence": "low",
-      "basis": "Consumer digital color capture with modern electric lighting and cellophane-wrapped floral arrangements; upper bound from the BLD digital folder's assembly period (sibling files dated received 2020-2023). The previous 1934 start was the building's completion date, not the photograph's."
-    },
-    "img_3d84769134889400": {
-      "date_start": 2010,
-      "date_end": 2025,
-      "display": "2010s-2020s",
-      "confidence": "low",
-      "basis": "Close-up of the church's rock construction; modern documentation of the 1934 building."
-    },
-    "img_a144edcec7a50be8": {
-      "date_start": 1913,
-      "date_end": 1922,
-      "display": "c. January 1916",
-      "confidence": "medium",
-      "basis": "Later blue-ink annotation on the postcard most plausibly reads '1916' (a '1946' reading is excluded for the photo itself by the mid-1910s touring car at the curb); the original inscription calls it 'the new Presbyterian Church... after snow storm Jan.'. The building was Presbyterian until sold to First Christian Church in 1934, ruling out the previous 1930-1940 range. Exact construction/dedication year not yet found in newspapers, hence the range."
-    },
-    "img_1d5ad1237f7755e2": {
-      "date_start": 1930,
-      "date_end": 1955,
-      "display": "c. 1930-1955",
-      "confidence": "medium",
-      "basis": "Diocesan history: the chapel opened in 1930 and was replaced by a new church building in 1956. Old range (1925-1945) predated the chapel's documented opening; the building shown is the pre-1956 chapel, so the frame falls in the 1930-1955 chapel era."
-    },
-    "img_add874f3a7967842": {
-      "date_start": 1956,
-      "date_end": 1962,
-      "display": "c. 1956-1962",
-      "confidence": "medium",
-      "basis": "The 1956-built church appears with a 1956-issue yellow-base California plate (black-on-yellow, ABC 123 format, used 1956-1962 and replaced by gold-on-black plates in 1963); car models (mid-1950s Chevrolet, early-1950s Mopar) are consistent. Tightens the prior 1956-1963 end year by one."
-    },
-    "img_22f62627c5d79f7e": {
-      "date_start": 1956,
-      "date_end": 1964,
-      "display": "c. 1956-1964",
-      "confidence": "medium",
-      "basis": "The building shown was not constructed until 1956 (diocesan history), and the parish closed March 5, 1964; a parish-era photograph is most likely, though the building survived the closure as private property, so a slightly later view cannot be fully excluded. Old range (1930-1960) began before the building existed."
-    },
-    "img_7a0159037504313e": {
-      "date_start": 1955,
-      "date_end": 1969,
-      "display": "c. 1955–1968",
-      "confidence": "low",
-      "basis": "Mid-1950s Chevrolet Task Force utility truck (1955-57 cab) at right sets the earliest date; the department left 500 Grace when the 650 Maple Ave. station (groundbreaking Nov. 27, 1968) was completed c. 1969, per the Record-Gazette of March 21, 1969."
-    },
-    "img_f03f7f375191edf6": {
-      "date_start": 1973,
-      "date_end": 1980,
-      "display": "c. 1975",
-      "confidence": "medium",
-      "basis": "Antique hand hose-cart displayed at a 1960s breeze-block fire station, with a mid-1970s GMC engine in the bay."
-    },
-    "img_1ac667107bd74996": {
-      "date_start": 2021,
-      "date_end": 2021,
-      "display": "March 27, 2021",
-      "confidence": "high",
-      "basis": "EXIF DateTimeOriginal 2021:03:27 10:30 (Apple iPhone 7) on the source file; the image is a modern photograph of exhibited artifacts, not a vintage photo."
-    },
-    "img_04328f685390128c": {
-      "date_start": 2000,
-      "date_end": 2020,
-      "display": "c. 2000s-2010s",
-      "confidence": "low",
-      "basis": "Photo of a memorial to volunteer firefighter Scott Karnitz; a modern commemorative image."
-    },
-    "img_8a20e0efb687510c": {
-      "date_start": 2000,
-      "date_end": 2020,
-      "display": "c. 2000s-2010s",
-      "confidence": "low",
-      "basis": "Photo of a memorial to volunteer firefighter Scott Karnitz; a modern commemorative image."
-    },
-    "img_67d561c6f67c1ba2": {
-      "date_start": 1970,
-      "date_end": 1990,
-      "display": "c. 1970s-1980s",
-      "confidence": "low",
-      "basis": "Letterpress-era typography and halftone style, plus the article citing a 1967 incident as the only prior volunteer death, indicate a clipping decades older than the cataloged 1995-2020 range. Exact year of Karnitz's death not yet confirmed."
-    },
-    "img_a9b8f17ec8b1a61d": {
-      "date_start": 1939,
-      "date_end": 1950,
-      "display": "c. 1940-1950",
-      "confidence": "low",
-      "basis": "The building's dedication plaque 'ERECTED 1938-39' (verified in a sibling scan) sets the earliest possible date; the parked automobiles are late-1930s and 1940s models."
-    },
-    "img_03056ebb373ddd81": {
-      "date_start": 2000,
-      "date_end": 2023,
-      "display": "2000s–early 2020s (plaque cast 1938-39)",
-      "confidence": "low",
-      "basis": "Sharp digital color close-up — a recent record shot, not a mid-century photograph; latest bound is the assembly of the BLD project folder (files received into it as late as January 2023). '1938-39' is the building's construction date, read from the plaque itself."
-    },
-    "img_ed9a0626308ebccf": {
-      "date_start": 1918,
-      "date_end": 1925,
-      "display": "c. 1918-1925",
-      "confidence": "medium",
-      "basis": "Young Francis Dowling Sr. beside a Model T-based 'Golden State Cherry Orchard' truck with wooden-spoke wheels."
-    },
-    "img_9299c7a090b03878": {
-      "date_start": 1910,
-      "date_end": 1918,
-      "display": "c. 1910-1918",
-      "confidence": "medium",
-      "basis": "Born April 1892 and appears about 18-26; the tall stiff detachable collar was standard through the mid-1910s and faded rapidly after WWI. Shifts the former 1915-1925 range earlier."
-    },
-    "img_6205c940ef544e0b": {
-      "date_start": 1965,
-      "date_end": 1979,
-      "display": "c. 1970s",
-      "confidence": "medium",
-      "basis": "Both sitters appear in their mid-70s to 80s (born 1892 and 1898); color chromogenic studio print with period dye fading; browline glasses (post-1947 style). Upper bound is Francis Sr.'s death, February 17, 1979. Former catalog range 1900-1920 was untenable."
-    },
-    "img_953fbfaa8e42a2fb": {
-      "date_start": 1915,
-      "date_end": 1924,
-      "display": "c. 1915-1924",
-      "confidence": "medium",
-      "basis": "Born September 1898 and appears roughly 17-25; hairstyle and portrait style fit the late 1910s-early 1920s; the Stower maiden name implies before her May 1924 marriage. Former range 1900-1918 included childhood years incompatible with the sitter's apparent age."
-    },
-    "img_57a9c9df6e55e692": {
-      "date_start": 1955,
-      "date_end": 1972,
-      "display": "c. 1955-1972",
-      "confidence": "medium",
-      "basis": "Sr. (b. 1892) appears about 65-80 and Jr. (b. 1925) about 30-45, overlapping c. 1955-1972; Sr.'s browline glasses postdate 1947; the family ranch the sign presumably marks was planted in the early 1950s. Former range 1930-1945 would make Jr. ages 5-20."
-    },
-    "img_fe6493dfb389b7f5": {
-      "date_start": 1948,
-      "date_end": 1958,
-      "display": "c. 1950s",
-      "confidence": "medium",
-      "basis": "Francis Jr. was born February 13, 1925 and appears in his mid-20s to early 30s; clothing styles are postwar. The former catalog range 1930-1945 would make him 5-20 years old, contradicting the adult in the photo."
-    },
-    "img_36bc04455099c9d7": {
-      "date_start": 1980,
-      "date_end": 1995,
-      "display": "c. 1980s–early 1990s",
-      "confidence": "low",
-      "basis": "John Dowling was born c. 1962 (aged 59 in the Nov 2021 Record Gazette closing article) and appears here as a young adult in his twenties or early thirties (c. 1982–1995); Francis Jr. (b. 1925) appears in his sixties; color print stock and mesh-back trucker cap fit the same window. The old 1945–1958 range predates John's birth."
-    },
-    "img_a6ec55f14a4d13dc": {
-      "date_start": 2005,
-      "date_end": 2016,
-      "display": "c. 2005-2016",
-      "confidence": "medium",
-      "basis": "Francis Dowling Jr. died Oct 8, 2016 at age 91 (obituary) and appears here in his late 80s amid modern store fittings; the file's EXIF DateTimeOriginal of 2022-05-18 (Windows Photo Editor) records digitization, not capture. Old range of 1945-1960 was impossible."
-    },
-    "img_1ad76840ab48ba0e": {
-      "date_start": 2021,
-      "date_end": 2021,
-      "display": "November 19, 2021",
-      "confidence": "high",
-      "basis": "EXIF DateTimeOriginal 2021-11-19 11:51:46, Apple iPhone 7 (read from source file); corroborated by the stand's documented closure at the end of November 2021. The old 1950-1968 range was impossible — John Dowling was born c. 1962 (age 59 at closing per Record-Gazette)."
-    },
-    "img_dc9b98dd0bb1264f": {
-      "date_start": 1952,
-      "date_end": 1970,
-      "display": "c. 1950s-1960s",
-      "confidence": "low",
-      "basis": "Store opened in 1952 (Record-Gazette), grounding the start; the 'Dried Fruit Dates Eggs Nuts' boards predate the later 'Dried Fruit Nuts Candy' signage seen in dated 2021 photos, but nothing pins the previous 1965 end date, so the window is widened to 1970."
-    },
-    "img_2eee4fa95a275d4d": {
-      "date_start": 2021,
-      "date_end": 2021,
-      "display": "November 19, 2021",
-      "confidence": "high",
-      "basis": "EXIF DateTimeOriginal 2021-11-19 12:56:19, Apple iPhone 7 (read from source file); fall banners (pomegranates, persimmons, pumpkin-season crops) are consistent. Old range 1952-1968 was off by over 50 years."
-    },
-    "img_72b5acdf8b88fc6c": {
-      "date_start": 2010,
-      "date_end": 2021,
-      "display": "c. 2010s",
-      "confidence": "low",
-      "basis": "Modern plastic produce bags, printed packaging, and pricing (roma tomatoes 99c/lb, 5-lb carrots $1.99) plus fixtures identical to the EXIF-dated November 2021 photos place this in the stand's final decade; no EXIF exists to pin it. The old 1952-1968 range was off by roughly half a century."
-    },
-    "img_eebd80e2b2180cca": {
-      "date_start": 2021,
-      "date_end": 2021,
-      "display": "November 10, 2021",
-      "confidence": "high",
-      "basis": "EXIF DateTimeOriginal 2021-11-10 13:23:59, Apple iPhone 7 (read from source file); pumpkins and pomegranate season corroborate late fall. The old 1952-1968 range was off by over 50 years."
-    },
-    "img_4eeb78c48b2bca4b": {
-      "date_start": 2015,
-      "date_end": 2025,
-      "display": "2010s-2020s",
-      "confidence": "high",
-      "basis": "Filename 'contemporary'; modern photo of the Dowling store."
-    },
-    "img_291537b3068812cf": {
-      "date_start": 1915,
-      "date_end": 1925,
-      "display": "c. 1915-1925",
-      "confidence": "medium",
-      "basis": "Signature across the photograph and embossed seal match U.S. passport-application photo conventions in force from Dec. 1914; Eyer appears markedly older than in his published Apr. 11, 1909 LA Herald portrait. Replaces the earlier c. 1890-1915 guess."
-    },
-    "img_dbf7e0bb619c1c74": {
-      "date_start": 1915,
-      "date_end": 1925,
-      "display": "c. 1915-1925",
-      "confidence": "medium",
-      "basis": "Same passport-photo format as the companion Clarendon B. Eyer portrait (name inscribed across the top); passport photos were required from Dec. 1914, and the Eyers were documented international travelers (S.S. Mongolia, 1910). Replaces the earlier c. 1890-1915 guess."
-    },
-    "img_2fa19df607bf43e1": {
-      "date_start": 1908,
-      "date_end": 1915,
-      "display": "c. 1908-1915",
-      "confidence": "medium",
-      "basis": "LA Herald (Apr. 5, 1908) reports Eyer selecting the Sixth St./Magnolia Ave. site with plans in preparation, so the photograph postdates c. 1908-09 construction; the halftone belongs to the company's 1908-1915 promotional-campaign era (publication as late as c. 1920 cannot be fully excluded). Replaces the filename-derived 'circa 1915-1920,' whose 'confirmed' confidence was overstated."
-    },
-    "img_4e6f8597cedbda5b": {
-      "date_start": 1915,
-      "date_end": 1925,
-      "display": "c. 1915-1925",
-      "confidence": "low",
-      "basis": "Subject (b. Dec. 1859) appears roughly 55-65 with fully white hair; wide sailor-style collar typical of the mid-1910s-early 1920s; halftone plate in a pre-1930s-style printed volume. Replaces the earlier 1885-1920 filename-derived range, whose low end is far too early for her apparent age."
-    },
-    "img_a7581c3a3616e8da": {
-      "date_start": 1914,
-      "date_end": 1915,
-      "display": "c. 1915",
-      "confidence": "medium",
-      "basis": "Pixel-identical to the Find a Grave image captioned 'Passport photo'; her application is dated Oct. 20, 1915, and passport photos (required from Dec. 1914) had to be recent. Replaces the 1885-1920 filename-derived range."
-    },
-    "img_317c261e7e95cb9d": {
-      "date_start": 1919,
-      "date_end": 1920,
-      "display": "c. 1920",
-      "confidence": "medium",
-      "basis": "The photo accompanies Kenneth's passport application; the passport was issued Nov. 29, 1920, and application photos had to be recent. The previous 1885-1915 range is impossible for this artifact — both subjects appear elderly and the signature block matches the application form."
-    },
-    "img_e6c2b250138da121": {
-      "date_start": 1908,
-      "date_end": 1913,
-      "display": "c. 1908-1913",
-      "confidence": "high",
-      "basis": "Stewart family at the ranch barn; women in Edwardian long skirts and oversized 'Merry Widow' hats (c.1908-12)."
-    },
-    "img_68556e4afecfa748": {
-      "date_start": 1902,
-      "date_end": 1910,
-      "display": "c. 1902-1910",
-      "confidence": "medium",
-      "basis": "Laura May Stewart was born 18 Sep 1884 (Find a Grave, Stewart Sunnyslope Cemetery); both sitters appear late-teens to mid-twenties, and the pouched shirtwaists with large sleeves and pompadours are c. 1903-1908 fashion — placing the sitting c. 1902-1910, earlier than the previous 1908-1918 guess."
-    },
-    "img_4a82e2c89eb4a27d": {
-      "date_start": 1910,
-      "date_end": 1920,
-      "display": "c. 1910-1920",
-      "confidence": "medium",
-      "basis": "Reznor on horseback and Laura May 'at the wheel' of an early automobile; Laura May's 1911 era."
-    },
-    "img_7b302ec1a5a6c157": {
-      "date_start": 1910,
-      "date_end": 1933,
-      "display": "c. 1910-1933",
-      "confidence": "medium",
-      "basis": "Stewart died in November 1933 aged 88, so he was born c. 1845; the fully white-bearded man photographed appears at least in his mid-sixties, placing the snapshot roughly between 1910 and his death. The previous 1900-1915 range had no documented basis and would make him only 55-70."
-    },
-    "img_e223c8fe27b85e0d": {
-      "date_start": 1890,
-      "date_end": 1910,
-      "display": "c. 1890–1910",
-      "confidence": "low",
-      "basis": "Vignetted cabinet-style bust and costume (standing collar, four-in-hand tie, high-lapel sack coat) point to the 1890s-1900s; subject appears roughly 45-60, consistent with a man established enough to homestead in 1883. Replaces the previous 1900-1915 range, which had no stated basis."
-    },
-    "img_1dfdd8cac1f62558": {
-      "date_start": 1870,
-      "date_end": 1890,
-      "display": "c. 1870s-1880s",
-      "confidence": "low",
-      "basis": "Oval-vignette album-card format and costume (wide soft bow tie, sack coat) are 1870s-1880s conventions; Stewart homesteaded in 1883 and his children were born c. 1884 and 1890, placing a portrait of him at this apparent age in that window. Replaces the unsupported 1900-1915 folder guess."
-    },
-    "img_df9bd9231a83651c": {
-      "date_start": 1905,
-      "date_end": 1920,
-      "display": "c. 1905-1920",
-      "confidence": "low",
-      "basis": "Stewart was born 3 Nov 1845 (Find a Grave) and died 12 Nov 1933; in the portrait he appears to be in his sixties or seventies, giving c. 1905-1920 — slightly later than the previous 1900-1915 guess, which would start him at 55."
-    },
-    "img_2846f7be40e9aff6": {
-      "date_start": 1900,
-      "date_end": 1930,
-      "display": "c. 1900-1930",
-      "confidence": "low",
-      "basis": "Farm equipment at the Stewart Ranch."
-    },
-    "img_cfdaf786f32d7ba0": {
-      "date_start": 1928,
-      "date_end": 1945,
-      "display": "c. 1930s",
-      "confidence": "low",
-      "basis": "Scene is fully mechanized: two crawler tractors pulling tandem grain drills and a gang harrow; tank lettering appears to read Allis-Chalmers, a marque applied to crawlers only after the 1928 Monarch Tractor acquisition. Supersedes the c. 1900–1930 range, which fits the horse-drawn companion print (photo a) but not this one."
-    },
-    "img_b3dcb09d831e2058": {
-      "date_start": 1950,
-      "date_end": 1974,
-      "display": "c. 1955-1970",
-      "confidence": "low",
-      "basis": "Stewart was born c. 1885 (died 1974 at 89) and appears roughly 70-85 here, pointing to the mid-1950s through about 1970 rather than the previous 1945 start (when she would have been only 60). Refinement rests on apparent age only."
-    },
-    "img_64fee8a381ae5df5": {
-      "date_start": 2020,
-      "date_end": 2020,
-      "display": "May 2020",
-      "confidence": "confirmed",
-      "basis": "Filename dated 5-15-20; Google image of Stewart Sunnyslope Cemetery."
-    },
-    "img_a85c852bf4ca3f39": {
-      "date_start": 1950,
-      "date_end": 1957,
-      "display": "c. 1955",
-      "confidence": "medium",
-      "basis": "Same home office and 'Easter Sunrise' poster as the related SGPHS photograph dated 1955 (Calisphere c84x574n, 545 Euclid Ave.); Bogart appears similarly aged, and his death on Nov. 13, 1957 caps the range. Supersedes the earlier c. 1935-1948 estimate, which predated the 1955 comparison."
-    },
-    "img_b0d82053666b74fe": {
-      "date_start": 1955,
-      "date_end": 1955,
-      "display": "1955",
-      "confidence": "medium",
-      "basis": "Same sitting as Calisphere item ark:/13030/c84x574n ('Guy Bogart in 1955, sitting and working at his desk at 545 Euclid Ave'), dated 1955 by BLD — identical office contents, clothing, and kitten, different exposure. Replaces the unsupported c. 1935-1948 range."
-    },
-    "img_da155fda02d882ee": {
-      "date_start": 1950,
-      "date_end": 1957,
-      "display": "c. 1950-1957",
-      "confidence": "medium",
-      "basis": "Bogart appears at the same advanced age as in his 1955 desk portrait (Calisphere c84x574n); companions wear 1950s clothing and eyewear; terminus ante quem is Bogart's death on 13 Nov 1957 (Find a Grave). Supersedes the prior 1925-1945 guess, which is inconsistent with his evident age."
-    },
-    "img_0092d056a315fe98": {
-      "date_start": 2020,
-      "date_end": 2020,
-      "display": "Feb 2020",
-      "confidence": "confirmed",
-      "basis": "Filename dated 2-8-20; modern photo of the Bogart House."
-    },
-    "img_c8be9dda2808f47c": {
-      "date_start": 1915,
-      "date_end": 1940,
-      "display": "c. 1915-1940",
-      "confidence": "low",
-      "basis": "Historical photo of Guy Bogart's house from the Library District archive."
-    },
-    "img_ef0e1fe665c580a0": {
-      "date_start": 1938,
-      "date_end": 1946,
-      "display": "c. 1940",
-      "confidence": "high",
-      "basis": "Frasher's postcard 'Beaumont on U.S. Highways 60 and 99' showing Sam's Cafe with late-1930s/early-1940s automobiles."
-    },
-    "img_21f5dda0d6f26b4a": {
-      "date_start": 1942,
-      "date_end": 1946,
-      "display": "c. 1944",
-      "confidence": "medium",
-      "basis": "Calisphere item date: circa 1944"
-    },
-    "img_484acf24f5126598": {
-      "date_start": 1940,
-      "date_end": 1949,
-      "display": "1940s",
-      "confidence": "medium",
-      "basis": "Calisphere item date: 1940s"
-    },
-    "img_92af244203629094": {
-      "date_start": 1945,
-      "date_end": 1946,
-      "display": "c. 1945-1946",
-      "confidence": "medium",
-      "basis": "Frasher negative F-6330 is consecutive with F6331, which is dated c. 1946 by its theatre marquee ('Masquerade in Mexico,' released Dec. 3, 1945); a c. 1940 automobile is visible at the motel entrance. Replaces the previous 1947-1953 estimate."
-    },
-    "img_2d0928cd5901f761": {
-      "date_start": 1945,
-      "date_end": 1955,
-      "display": "c. late 1940s-1950s",
-      "confidence": "medium",
-      "basis": "Colorized linen postcard of the Streamline Moderne Fireside Inn."
-    },
-    "img_6feb4c505e0a58be": {
-      "date_start": 1960,
-      "date_end": 1978,
-      "display": "c. 1960s-1970s",
-      "confidence": "medium",
-      "basis": "Matchbook for Joe's Cafe (1232 E. 6th St.) with an all-numeric 7-digit phone number, indicating the 1960s-70s."
-    },
-    "img_e91452d502f8cc96": {
-      "date_start": 1951,
-      "date_end": 1955,
-      "display": "c. early-mid 1950s",
-      "confidence": "high",
-      "basis": "RPPC of Sixth Street with early-1950s automobiles, 'George's 5&10' and 'Bob's Cafe'."
-    },
-    "img_228a900cb9c1637b": {
-      "date_start": 1945,
-      "date_end": 1946,
-      "display": "c. 1946",
-      "confidence": "high",
-      "basis": "Marquee shows 'Masquerade in Mexico' (Paramount, released Dec. 3, 1945) double-billed with 'City for Conquest'; a small-town play date puts the exposure at the end of 1945 or, more likely, in 1946. Range unchanged; display shifted from 'c. 1945' to 'c. 1946.'"
-    },
-    "img_a83e9024f8e65c3f": {
-      "date_start": 1955,
-      "date_end": 1960,
-      "display": "c. 1955-1960",
-      "confidence": "medium",
-      "basis": "Mid-1950s vehicles in the scene; two eBay listings date the apparently identical Max Mahan chrome card to c. 1959. Widens the previous 1955-1958 estimate to include the c. 1959 publication."
-    },
-    "img_e3de81c2cb7655c8": {
-      "date_start": 1925,
-      "date_end": 1932,
-      "display": "c. mid-late 1920s",
-      "confidence": "high",
-      "basis": "RPPC of the Spanish Revival Triangle Service Station with 1920s visible-register pumps and a Model T-era car."
-    },
-    "img_8241a89edda429c5": {
-      "date_start": 1937,
-      "date_end": 1942,
-      "display": "c. late 1930s",
-      "confidence": "high",
-      "basis": "Frasher's postcard showing the former Triangle station repurposed as Chamber of Commerce/Logan's, with a late-1930s sedan."
-    },
-    "img_fd15a86cd86982d6": {
-      "date_start": 1922,
-      "date_end": 1930,
-      "display": "c. 1920s",
-      "confidence": "high",
-      "basis": "RPPC of the Triangle Service Station with flat-capped attendants and 1920s visible-register gas pumps."
-    },
-    "img_1c61ef08adc421b9": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Filename 'today'; modern reference photo of the Triangle Gas Station site."
-    },
-    "img_2ffb4cd6b691c887": {
-      "date_start": 1965,
-      "date_end": 1975,
-      "display": "c. 1970",
-      "confidence": "low",
-      "basis": "Frank (b. Sept. 28, 1913) appears roughly 55-65 and Ramona (b. Jan. 24, 1917) wears a tall bouffant fashionable mid-1960s to early 1970s; refines the previous unsourced 1958-1970 range, whose early end is too early for Frank's apparent age. Appearance-based only."
-    },
-    "img_f3ff85c652f90c21": {
-      "date_start": 1958,
-      "date_end": 1970,
-      "display": "c. 1960s",
-      "confidence": "low",
-      "basis": "Ramona and Frank Torres portrait; 1960s."
-    },
-    "img_ba7b9a02b3a0292c": {
-      "date_start": 1958,
-      "date_end": 1970,
-      "display": "c. 1960s",
-      "confidence": "low",
-      "basis": "Ramona and Frank Torres portrait; 1960s."
-    },
-    "img_6b0ff0ed19b0fb9e": {
-      "date_start": 1937,
-      "date_end": 1950,
-      "display": "c. 1940s",
-      "confidence": "medium",
-      "basis": "Ramona was born Jan. 24, 1917 (Record Gazette obituary) and appears here in her twenties; flowers-in-hair styling and curled updo are characteristic of the late 1930s-1940s. Replaces the unsourced 1955-1975 range. Note the object actually photographed — the laminated menu — is modern (the restaurant's later years, pre-2025)."
-    },
-    "img_dec634939b47e13c": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Modern smartphone snapshot of the elderly Vargas couple at a birthday in a contemporary home."
-    },
-    "img_1098cac0279a0fdd": {
-      "date_start": 1970,
-      "date_end": 1985,
-      "display": "c. 1970s",
-      "confidence": "low",
-      "basis": "White-bordered snapshot print with 1970s hairstyles and clothing; consistent with the couple's ages around the early-1970s founding era of Ramona's Mexican Cafe. The catalog's 2018-2025 range reflects the rephotograph, not the original print."
-    },
-    "img_4b3616cbe2898cea": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Modern photo of Christine and Gil Vargas Sr."
-    },
-    "img_21b5c2878b287c35": {
-      "date_start": 2025,
-      "date_end": 2025,
-      "display": "May 31, 2025",
-      "confidence": "confirmed",
-      "basis": "Filename dated 5-31-25; Cherry Festival parade."
-    },
-    "img_5bcc7a2a42f3de62": {
-      "date_start": 2025,
-      "date_end": 2025,
-      "display": "May 31, 2025",
-      "confidence": "confirmed",
-      "basis": "Filename dated 5-31-25; Cherry Festival parade."
-    },
-    "img_cb8fe08683e0e832": {
-      "date_start": 2025,
-      "date_end": 2025,
-      "display": "May 31, 2025",
-      "confidence": "confirmed",
-      "basis": "Filename dated 5-31-25; Cherry Festival parade."
-    },
-    "img_3f4c4ca617098fd8": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "medium",
-      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
-    },
-    "img_d36ca3005fd7406a": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "medium",
-      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
-    },
-    "img_8ee30e567a4b5e66": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "medium",
-      "basis": "Modern photo of the current Ramona's Mexican Cafe (brick facade)."
-    },
-    "img_a04b2576fd8d515e": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "medium",
-      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
-    },
-    "img_87313621a59a7991": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "medium",
-      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
-    },
-    "img_040513e8698b345f": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "medium",
-      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
-    },
-    "img_11892e76e7df49d3": {
-      "date_start": 1985,
-      "date_end": 2000,
-      "display": "c. 1985-1995",
-      "confidence": "low",
-      "basis": "Film-print color and grain plus late-1980s/1990s clothing styles (color-block blouse, high-waisted jeans); clearly not the 2018-2025 range currently in the catalog."
-    },
-    "img_8da5c565955aa314": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "medium",
-      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
-    },
-    "img_99255ef1fe8299f3": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "medium",
-      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
-    },
-    "img_9ae52f4064af37bc": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "medium",
-      "basis": "Modern photo of the current Ramona's Mexican Cafe building."
-    },
-    "img_00cfeb70e204b1b8": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "medium",
-      "basis": "Modern photo of the current Ramona's Mexican Cafe (sombrero bushes)."
-    },
-    "img_591fdce9e557db2e": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Modern photo of the surviving WCTU stone fountain in Triangle Park (with a 2014+ SUV)."
-    },
-    "img_284993317d64a5e4": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
-    },
-    "img_8aa40ef6d2dbc201": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
-    },
-    "img_40d6c2b8e19fd527": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
-    },
-    "img_a999fd2c808b66bb": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
-    },
-    "img_3c8f15b64eec6c9e": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
-    },
-    "img_7d409eb4d324e61e": {
-      "date_start": 1923,
-      "date_end": 1940,
-      "display": "c. 1923-1940",
-      "confidence": "medium",
-      "basis": "WCTU Fountain (1910) at its original Fifth & Egan location beside the Bank of Beaumont (that corner's bank erected 1923); later moved to Triangle Park."
-    },
-    "img_7dbe92a607028a11": {
-      "date_start": 2022,
-      "date_end": 2022,
-      "display": "March 2022",
-      "confidence": "confirmed",
-      "basis": "Filename dated 3-16-22; Google photo of Triangle Park."
-    },
-    "img_f711da54b73a8423": {
-      "date_start": 1908,
-      "date_end": 1910,
-      "display": "c. 1908-1910",
-      "confidence": "medium",
-      "basis": "The printed caption \"as it now appears\" points to the office being newly completed; the LA Herald (Jan 19, 1908) reports the building about completed with the first issue due the following Thursday, and the card's blue-halftone booster style matches Beaumont's 1907-09 boom promotion. Tightened from the prior 1908-1912 guess."
-    },
-    "img_19665af80792888c": {
-      "date_start": 1908,
-      "date_end": 1912,
-      "display": "c. 1908-1912",
-      "confidence": "medium",
-      "basis": "Gateway Gazette interior advertising postcard, contemporary with the paper's ~1908 era."
-    },
-    "img_e0a4861e5d654fdb": {
-      "date_start": 1908,
-      "date_end": 1915,
-      "display": "c. 1908-1915",
-      "confidence": "medium",
-      "basis": "Hand-colored divided-back postcard of mature eucalyptus (planted ~1900) with a Craftsman bungalow."
-    },
-    "img_67656824cbb42ffc": {
-      "date_start": 1955,
-      "date_end": 1970,
-      "display": "c. 1955-1970",
-      "confidence": "medium",
-      "basis": "Changed from 1940-1965: borderless color photochrome cards belong to the mid-1950s and later, and the deodars (planted in the 1930s per the Record-Gazette) appear fully mature — visibly larger than in the c. 1950 RPPC of the same avenue."
-    },
-    "img_8ecf8879b0fffd2d": {
-      "date_start": 1945,
-      "date_end": 1958,
-      "display": "c. 1950",
-      "confidence": "medium",
-      "basis": "Tightened from the prior 1935-1960: the deodars were planted in the 1930s (Record-Gazette) and here are mature multi-story trees, ruling out the 1930s; the visible automobile is a late-1940s sedan; real photo postcard format is consistent with the late 1940s-1950s."
-    },
-    "img_38d2d7286d1a066a": {
-      "date_start": 2018,
-      "date_end": 2025,
-      "display": "2020s",
-      "confidence": "high",
-      "basis": "Filename 'today'; modern photo of the deodar avenue."
-    },
-    "img_31bfa277fbd3230d": {
-      "date_start": 1890,
-      "date_end": 1900,
-      "display": "c. 1890s",
-      "confidence": "low",
-      "basis": "Same-hand companion album print annotated 'Beaumont School 1890-1893'; new picket fence and young saplings here versus mature trees in the 1910 Calisphere view of the same building."
-    },
-    "img_35a3c2b0b73a7892": {
-      "date_start": 1970,
-      "date_end": 1974,
-      "display": "c. 1970-1974",
-      "confidence": "medium",
-      "basis": "The rendering credits Harry T. MacDonald & Associates, the architect introduced at Summit School's May 19, 1974 dedication; the board accepted the completed school in late February 1974 (Sun-Telegram, Mar. 2 and May 23, 1974), so the presentation rendering belongs to the funded design/construction phase. An earlier date is possible only if it was drawn for one of the failed bond campaigns that preceded state funding."
-    },
-    "img_477fd73b5434521f": {
-      "date_start": 1890,
-      "date_end": 1910,
-      "display": "c. 1890-1910",
-      "confidence": "medium",
-      "basis": "The McCoy lumberyard supplied building materials to Beaumont in the late 19th and early 20th centuries."
-    },
-    "img_37bbc779f837532c": {
-      "date_start": 2015,
-      "date_end": 2024,
-      "display": "c. 2015-2024",
-      "confidence": "medium",
-      "basis": "Contemporary Historical Society house-tour photo (McCoy House) credited to Pat Murkland."
-    },
-    "img_816fb6e3233bbf73": {
-      "date_start": 2025,
-      "date_end": 2025,
-      "display": "April 2025 (historic hotel)",
-      "confidence": "confirmed",
-      "basis": "Filename dated 4-28-25; modern photo of the Sunset Plaza Hotel building (the hotel dates to c.1948)."
-    },
-    "img_c39e3df610ea24d9": {
-      "date_start": 1920,
-      "date_end": 1929,
-      "display": "Likely 1920s (posthumous sketch; Weaver d. 1867)",
-      "confidence": "medium",
-      "basis": "Not a photograph and not from life — an imagined commemorative likeness. Most plausibly drawn in the 1920s: publicity around Weaver's 1929 reinterment at Prescott produced Weaver artwork, and the Arizona Historical Society dates this sketch (portrait file #61659) c. 1920s. Replaces 'c. 1850s-1860s', which implied a photograph from life."
-    },
-    "img_e5e3407036c3c2c5": {
-      "date_start": 2010,
-      "date_end": 2010,
-      "display": "April 2010",
-      "confidence": "confirmed",
-      "basis": "Scrapbook page annotated 'April 2010'; color aerial of built-out Beaumont with I-10."
-    },
-    "img_17d9fad337a3fded": {
-      "date_start": 1890,
-      "date_end": 1899,
-      "display": "c. 1890s",
-      "confidence": "medium",
-      "basis": "Huntington dates the 'Potrero Photographs' album 1880-1900; the Weinland mission (at Morongo from c. 1890) and Sarah Morris's tenure narrow it to the 1890s. Replaces the impossible '1800'."
-    },
-    "img_4e8d4526096e0dd7": {
-      "date_start": 1890,
-      "date_end": 1899,
-      "display": "1890s",
-      "confidence": "high",
-      "basis": "Calisphere dates the item to the 1890's (CBEA_146); the mercantile still wears the town's pre-1887 name San Gorgonio, and the young eucalyptus match the 1886-87 street plantings."
-    },
-    "img_c15c20a838d86c18": {
-      "date_start": 1884,
-      "date_end": 1909,
-      "display": "c. 1884-1900s",
-      "confidence": "medium",
-      "basis": "Calisphere carries no date for this photo; '1883' (the filename and old caption) is the homestead year, not a documented photo date. Holmes (1912) has R. P. Stewart raising grain from 1884; an established harvest crew of this size implies the operation's later years — the honest range is c. 1884-1900s."
-    },
-    "img_45720d2a6586237d": {
-      "date_start": 1895,
-      "date_end": 1905,
-      "display": "c. 1900",
-      "confidence": "high",
-      "basis": "Calisphere dates the item 'circa 1900' (CBAN_093); Kroeber recorded the 'airy brush-house' still in everyday use at the Banning-area reservation in this era."
-    },
-    "img_72d13585ff607c22": {
-      "date_start": 1885,
-      "date_end": 1898,
-      "display": "c. 1890 (before July 1898)",
-      "confidence": "high",
-      "basis": "Morongo died in July 1898 (Los Angeles Herald, July 21, 1898, p. 9 — primary), so a life portrait cannot postdate that; the Banning Library District dates its own print of this portrait circa 1890. '1908' is the year the reservation formally took the Morongo name (land patented to the Morongo Band), ten years after his death."
-    },
-    "img_b08de96dbf496fab": {
-      "date_start": 1890,
-      "date_end": 1900,
-      "display": "c. 1895",
-      "confidence": "high",
-      "basis": "Calisphere dates the photograph circa 1895 and supplies the photographer (C. C. Pierce & Co.). The hotel stood 1887-1909. Replaces the '1890' guess."
-    },
-    "img_96cb1ed10cb5a0fd": {
-      "date_start": 1917,
-      "date_end": 1929,
-      "display": "c. 1917-1920s",
-      "confidence": "high",
-      "basis": "The clubhouse was dedicated May 11, 1917 (club's own history; lots bought 1914, $3,000 loan) — an unbuilt building cannot appear in a 1911 photo; the 1910s-20s automobiles in frame fit the corrected range."
-    },
-    "img_2ba02d1a7deddfd1": {
-      "date_start": 1911,
-      "date_end": 1914,
-      "display": "c. 1911-1914",
-      "confidence": "medium",
-      "basis": "The building (built 1911) appears brand-new — brick above a stuccoed ground floor with striped awnings; the library rented its ground-floor rooms here October 1911 - June 1914."
-    },
-    "img_a3f413e8c9ed23bb": {
-      "date_start": 1900,
-      "date_end": 1919,
-      "display": "c. 1900s-1910s",
-      "confidence": "low",
-      "basis": "Calisphere carries no date; Priest's dress (bowler hat, walrus mustache, waistcoat) reads c. 1900s-1910s. The filename's '1927' is unsupported by any source."
-    },
-    "img_cfb583d7492fe063": {
-      "date_start": 1966,
-      "date_end": 1977,
-      "display": "c. 1966-1977",
-      "confidence": "medium",
-      "basis": "The halftone shows the building after the mid-1960s rear addition (1965 per BLD website / 1966 per centennial marker — the district's sources conflict) and before the 1977/78 mansard roof. Replaces the bare '1965'."
-    },
-    "img_b0c11e36c32bf11b": {
-      "date_start": 1978,
-      "date_end": 2008,
-      "display": "c. 1978-2008",
-      "confidence": "high",
-      "basis": "The tile mansard was added in 1977/78 (marker: 'Year 1978: A new facade for the roof is designed and erected...') and removed in 2008 when the original parapet roofline was restored — this color photo must fall inside that window. '1965' is doubly wrong."
-    },
-    "img_a5619ddcb9e94fc3": {
-      "date_start": 1982,
-      "date_end": 1982,
-      "display": "1982",
-      "confidence": "medium",
-      "basis": "Client-supplied date for their own scanned print; era corroborated by the 1980 census population (6,818) and the pre-boom townsite/freeway pattern in frame."
-    },
-    "img_fb90b64a110cd45f": {
-      "date_start": 2010,
-      "date_end": 2010,
-      "display": "2010",
-      "confidence": "medium",
-      "basis": "Client-supplied date for their own print/scan; consistent with the built-out scene (named 2000s master-planned tracts and freeway-corridor warehouses present; 2010 census 36,877, up from 11,384 in 2000)."
-    },
-    "img_dd956905449c7642": {
-      "date_start": 1977,
-      "date_end": 1977,
-      "display": "1977",
-      "confidence": "medium",
-      "basis": "Library of Congress catalogs the photograph as 1977 (item 2017707321, LC-DIG-mrg-05228); the record's 2024 date was the eBay listing date, not the photograph date."
-    },
-    "img_366a85910d2e675f": {
-      "date_start": 1948,
-      "date_end": 1960,
-      "display": "c. 1950s (postcard image; eBay listing photographed September 2024)",
-      "confidence": "medium",
-      "basis": "The automobiles visible on the card are late-1940s/early-1950s sedans and the card is a mid-century photo postcard; the catalog's 2024 date reflects only the eBay capture, not the depicted scene."
-    },
-    "img_d5db437b82ea712d": {
-      "date_start": 1945,
-      "date_end": 1960,
-      "display": "c. 1950s (postcard view; digitized from a 2024 eBay listing)",
-      "confidence": "medium",
-      "basis": "Automobile models and the Mobilgas and Standard Stations signage visible in the image indicate a late-1940s-1950s street scene; the catalog's 2024 date is the eBay acquisition date, not the date of the photograph."
-    },
-    "img_19d3efd814020eed": {
-      "date_start": 1947,
-      "date_end": 1952,
-      "display": "c. 1949-50",
-      "confidence": "medium",
-      "basis": "Calisphere item date: circa 1949-50"
-    },
-    "img_8dec862cc0cae6ba": {
-      "date_start": 1940,
-      "date_end": 1949,
-      "display": "1940s",
-      "confidence": "medium",
-      "basis": "Calisphere item date: 1940s"
-    },
-    "img_2880f54eaa19145f": {
-      "date_start": 1911,
-      "date_end": 1911,
-      "display": "January 5, 1911",
-      "confidence": "high",
-      "basis": "Calisphere item date 1911; Calisphere description records the photo as taken Jan. 5, 1911, matching the mount inscription."
-    },
-    "img_3a78cd9990a52f8f": {
-      "date_start": 1946,
-      "date_end": 1950,
-      "display": "c. 1948",
-      "confidence": "medium",
-      "basis": "Calisphere item date: circa 1948"
-    },
-    "img_3f09693198e8de04": {
-      "date_start": 1890,
-      "date_end": 1899,
-      "display": "c. 1890s",
-      "confidence": "medium",
-      "basis": "Calisphere item date: circa 1890s"
-    },
-    "img_e8c5738ad26c5ffc": {
-      "date_start": 1914,
-      "date_end": 1914,
-      "display": "1914",
-      "confidence": "high",
-      "basis": "Calisphere item date: 1914"
-    },
-    "img_0f63f186060123e4": {
-      "date_start": 2020,
-      "date_end": 2020,
-      "display": "November 26, 2020 (badge c. 1960s–1978)",
-      "confidence": "high",
-      "basis": "EXIF DateTimeOriginal 2020:11:26 (Apple iPhone 7). The prior 1970 point date described the artifact's annotated era, not the photograph."
-    },
-    "img_865e3dceea5cb7ba": {
-      "date_start": 1975,
-      "date_end": 1979,
-      "display": "late 1970s",
-      "confidence": "medium",
-      "basis": "Collection annotation 'late 1970s' plus 1970s-era silk-finish color print stock; the engine's parade role is documented at the Maple Ave station by 1971. Replaces the incorrect 1970 point date, which was a bad parse of 'late 1970s'. The 2023 EXIF date is only the re-photographing of the print."
-    },
-    "img_5b02c2385f9cb46d": {
-      "date_start": 2020,
-      "date_end": 2020,
-      "display": "November 24, 2020 (plate c. 1960s–1970s)",
-      "confidence": "high",
-      "basis": "EXIF DateTimeOriginal 2020:11:24 (Apple iPhone 7). The prior 1970 point date described the artifact's annotated era, not the photograph."
-    },
-    "img_6f617c49fb8ae29d": {
-      "date_start": 1963,
-      "date_end": 1978,
-      "display": "c. 1963–1978 (annotated '1970s')",
-      "confidence": "medium",
-      "basis": "Black California exempt plate: black-base plates issued from 1963, so the photo is 1963 or later; the municipal department ended in 1978; folder annotation says 1970s. Replaces the false 1970 point date parsed from '1970s'."
-    },
-    "img_97db6b297170b04e": {
-      "date_start": 1980,
-      "date_end": 1984,
-      "display": "early 1980s",
-      "confidence": "low",
-      "basis": "The filename descriptor 'early 1980s' had been flattened to an exact 1980 in the catalog; restored as a range. Color print stock and McLaughlin's documented 1976–1977 service are consistent; nothing in the frame fixes a single year."
-    },
-    "img_9c808818200e7a56": {
-      "date_start": 1985,
-      "date_end": 1989,
-      "display": "late 1980s",
-      "confidence": "low",
-      "basis": "The filename descriptor 'late 1980s' had been flattened to an exact 1980 in the catalog; restored as a range. The tan-and-green CDF-style uniforms confirm the post-1978 county era but do not narrow the date further."
-    },
-    "img_a08051acb6b37033": {
-      "date_start": 1980,
-      "date_end": 1984,
-      "display": "early 1980s",
-      "confidence": "low",
-      "basis": "The filename descriptor 'early 1980s' had been flattened to an exact 1980 in the catalog; restored as a range. The Natural Light T-shirt (brand introduced 1977) and print stock are consistent; nothing fixes a single festival year."
-    },
-    "img_d94679a3a45f55c0": {
-      "date_start": 1905,
-      "date_end": 1912,
-      "display": "c. 1905–1912",
-      "confidence": "medium",
-      "basis": "Print stamped by the Beaumont Land and Water Company, incorporated at Riverside in mid-Aug. 1907 (it bought the townsite that month per LA Herald, Aug. 18, 1909), so the stamped print belongs to the company's promotional files; the scene (buggy, pole lines, tree growth) fits the 1900s. Replaces the timeline's unsourced 'c. 1900'.",
-      "source": "Deep research 2026-07-21"
-    },
-    "img_f525afa6dc4390a8": {
-      "date_start": 1908,
-      "date_end": 1908,
-      "display": "April 30, 1908",
-      "confidence": "high",
-      "basis": "CDNC holds the exact issue: Daily Gazette (Beaumont) [masthead: The Gateway Gazette], Vol. I, No. 15, April 30, 1908; visible headlines 'Products of Beaumont Soil' and 'Will Hold An Apple Fair' match the issue's contents list.",
-      "source": "Deep research 2026-07-21"
-    },
-    "img_7cc7f95ae75d9aa6": {
-      "date_start": 1909,
-      "date_end": 1909,
-      "display": "Postmarked March 28, 1909",
-      "confidence": "high",
-      "basis": "Portal to Texas History metadata dates the card by its March 28, 1909 postmark (addressed to Melrose, Texas; the '…GDOCHES' Nacogdoches cancel is visible on the catalog copy). The photograph was necessarily taken on or shortly before that date.",
-      "source": "Deep research 2026-07-21"
-    },
-    "img_e5061c07708726ac": {
-      "date_start": 1909,
-      "date_end": 1909,
-      "display": "August 18, 1909 (fire: night of August 16–17, 1909)",
-      "confidence": "high",
-      "basis": "The record depicts page 6 of the Los Angeles Herald of Aug. 18, 1909 (CDNC LAH19090818.2.84); the article's Aug. 17 dateline says the fire broke out 'about 11 o'clock last night'.",
-      "source": "Deep research 2026-07-21"
-    },
-    "img_02861b7cd39cd162": {
-      "date_start": 1908,
-      "date_end": 1913,
-      "display": "c. 1910",
-      "confidence": "medium",
-      "basis": "Filename annotation '1910'; the scene must postdate A. T. Gantt's general-merchandise signage era (advertising from Jan. 1908), and the women's fashions fit c. 1908–1913. Widened from a flat 1910 because the annotation itself is unverified.",
-      "source": "Deep research 2026-07-21"
-    },
-    "img_0b3ce9bbcc89c40d": {
-      "date_start": 1925,
-      "date_end": 1931,
-      "display": "c. late 1920s",
-      "confidence": "medium",
-      "basis": "Collector's margin note reads 'Circa 1925', but the parked closed sedans read as late-1920s models, so the exact-1925 date in the previous record over-claims; widened to 1925-1931 pending a negative date from the Pomona Public Library Frasher Foto collection."
-    },
-    "img_433403e951bbabcd": {
-      "date_start": 1940,
-      "date_end": 1949,
-      "display": "c. 1940s",
-      "confidence": "medium",
-      "basis": "Previous record collapsed the filename's '1940s' to an exact 1940; widened to the decade. Car is a c. 1938 Chevrolet and the dark license plate with light characters matches early-1940s California issues, so the photo cannot be much earlier than 1940."
-    },
-    "img_c323e4a9718d30b7": {
-      "date_start": 1940,
-      "date_end": 1949,
-      "display": "1940s",
-      "confidence": "medium",
-      "basis": "Previous record collapsed the family-supplied '1940s' to an exact 1940; widened to the decade. Her padded-shoulder polka-dot dress and his suit are consistent with the 1940s."
-    },
-    "img_5216d93c22702ca5": {
-      "date_start": 1970,
-      "date_end": 1979,
-      "display": "1970s",
-      "confidence": "medium",
-      "basis": "The family-supplied filename dates the print to the 1970s; the catalog's exact 1970 was a parsing artifact of '1970s'. Color print stock, dress, and the couple's census-consistent ages fit the decade."
-    },
-    "img_bad44539e3bf4b42": {
-      "date_start": 1971,
-      "date_end": 1972,
-      "display": "1971-72 school year (probably fall 1971)",
-      "confidence": "high",
-      "basis": "The class sign reads '1971-72'; the autumn foliage behind the group points to the standard fall class-photo sitting, i.e., roughly October-November 1971. The catalog's 1971-only range is widened to cover the school year."
-    },
-    "img_c66b2fd607cf422f": {
-      "date_start": 1928,
-      "date_end": 1930,
-      "display": "c. 1928–1930",
-      "confidence": "medium",
-      "basis": "The building opened as Beaumont High School in 1928 (City of Beaumont blog), and publication in the 1930 BHS yearbook (per BLD source filename) is the terminus ante quem; the bare, newly planted grounds and unpaved street fit the building's first years."
-    },
-    "img_5f9b3935055576a5": {
-      "date_start": 1890,
-      "date_end": 1893,
-      "display": "1890–1893",
-      "confidence": "high",
-      "basis": "The mount is inscribed 'Beaumont School 1890–1893' in a period hand; the previous flat 1890 date collapsed this inscribed range."
-    },
-    "img_092d2807a0231929": {
-      "date_start": 1916,
-      "date_end": 1917,
-      "display": "c. 1916–17",
-      "confidence": "low",
-      "basis": "BLD collection annotation embedded in the source filename 'Wellwood school old building circa 1916-17'; end year extended from 1916 to 1917 to match the annotation. Children's dress (hair bows, sailor collars, overalls) fits the mid-1910s; the frame building predates the 1921 replacement."
-    },
-    "img_4b219d837a3d6f6a": {
-      "date_start": 1960,
-      "date_end": 1965,
-      "display": "early 1960s",
-      "confidence": "medium",
-      "basis": "The filename annotation says 'circa early 1960s'; the catalog's 1960-1960 pin was a parsing artifact that overstated precision."
-    },
-    "img_cc7036a752144a64": {
-      "date_start": 1940,
-      "date_end": 1949,
-      "display": "1940s",
-      "confidence": "medium",
-      "basis": "The filename says '1940s'; the catalog's 1940-1940 pin was a filename-parsing artifact. Clothing (woman's rolled-cuff dungarees, men's work clothes) is consistent with the decade."
-    },
-    "img_62e54c6518d7403e": {
-      "date_start": 1910,
-      "date_end": 1911,
-      "display": "1910-1911",
-      "confidence": "medium",
-      "basis": "The collection filename says 1910; BLD's own Calisphere metadata for the related dedication postcard (CBEA_040) says 'About 1910-1911' and dates it Spring 1911 — the sources disagree by a year, so the range spans both."
-    },
-    "img_3e64932e3b8abfb7": {
-      "date_start": 1910,
-      "date_end": 1915,
-      "display": "c. 1910–1915 (postmarked 1915)",
-      "confidence": "medium",
-      "basis": "The 1915 postmark (recorded in the collection filename) is only a latest bound for the street scene; A.T. Gantt's store (Gantt arrived c. 1907), the Beaumont Heights & Farms Co. real-estate office (advertised c. 1908), and multiple brass-era autos place the view in the early 1910s."
-    },
-    "img_a0defa8112930d8b": {
-      "date_start": 1973,
-      "date_end": 1973,
-      "display": "January 31, 1973 (publication)",
-      "confidence": "high",
-      "basis": "Handwritten dateline '1/31/73' on the clipping; the printed caption and staff-photo credit confirm Record-Gazette publication. The photograph itself was presumably taken shortly before publication."
-    },
-    "img_634101dcee127994": {
-      "date_start": 1942,
-      "date_end": 1952,
-      "display": "c. 1942–1952",
-      "confidence": "low",
-      "basis": "Folder label says '1940s'; the Ford sedan's 1942–48 front-end styling (fender-mounted sealed-beam headlights, low horizontal-bar grille) makes 1942 the earliest plausible year, and a few years' vehicle age allows the early 1950s."
-    },
-    "img_ecbadf0d854de4dc": {
-      "date_start": 1955,
-      "date_end": 1965,
-      "display": "c. late 1950s–early 1960s",
-      "confidence": "low",
-      "basis": "BLD filename ('late 1950s or early 1960s') plus clothing and eyewear styles; the previous exact '1960' was an artifact of the timeline image slug, not evidence."
-    },
-    "img_47cf3e6c1c4e364b": {
-      "date_start": 1940,
-      "date_end": 1975,
-      "display": "mid-20th century (building erected 1921)",
-      "confidence": "low",
-      "basis": "1921 in the filename is the building's construction year, not the photo date; the halftone shows mature shade trees decades after construction and is itself a newspaper reproduction of unknown issue date."
-    },
-    "img_d92bd24434ee74d1": {
-      "date_start": 1968,
-      "date_end": 1968,
-      "display": "April 30, 1968",
-      "confidence": "high",
-      "basis": "Publication date printed on the photographed page ('The Daily Record-Gazette Tuesday, April 30, 1968', p. 2); the halftone was taken on or shortly before that date — bare deciduous trees are consistent with early 1968. Raises the prior low-confidence '1968' to an exact publication date."
-    },
-    "img_7547c2a1a3855993": {
-      "date_start": 1910,
-      "date_end": 1911,
-      "display": "c. 1910-1911",
-      "confidence": "medium",
-      "basis": "BLD's own catalog of this exact postcard (CBEA_040 / c86d5scv) dates it 'Spring 1911' under the title 'About 1910-1911', while the local filename says 1910; the span is retained until a contemporary newspaper account fixes the day (CDNC was bot-blocked this session)."
-    },
-    "img_7dad1702b8b44459": {
-      "date_start": 1962,
-      "date_end": 1962,
-      "display": "May 30, 1962",
-      "confidence": "high",
-      "basis": "Hand-written 'May 30, 1962' on the print, corroborated by Record-Gazette (Banning) 17 Oct 1962: the Beaumont Cemetery District dedicated its new entrance gate on Memorial Day, May 30, 1962. Replaces the vague '1960s' / 1960 catalog date."
-    },
-    "img_9a697957b7ea88b0": {
-      "date_start": 1957,
-      "date_end": 1961,
-      "display": "c. 1957-1961",
-      "confidence": "medium",
-      "basis": "Signboard names minister F. E. Wodell. Rev. Frank E. Wodell is documented as pastor of the Beaumont Christian Church by 13 June 1957 (San Bernardino Sun) and was honored at a farewell the week before 9 March 1961 (Pass Observer); Chester A. Rice was announced as new minister 22 March 1961 (Beaumont News). His arrival year is unestablished (CDNC's Record-Gazette run only begins late 1957), so the start could be slightly earlier than 1957."
-    }
+  "img_6f833a14a7764e47": {
+   "date_start": 1905,
+   "date_end": 1915,
+   "display": "c. 1905-1915",
+   "confidence": "medium",
+   "basis": "Calisphere carries no date for the photo; the depot was built 1887. c. 1905-1915 rests on the crowd's dress, the long steel consist and the electric/telegraph poles (editorial estimate, flagged as such). '1875' untenable — that is when the SP line crossed the pass, not this depot or town name."
+  },
+  "img_a4ddc941e94d3eed": {
+   "date_start": 1909,
+   "date_end": 1909,
+   "display": "1909",
+   "confidence": "high",
+   "basis": "Calisphere dates the item 1909 (CBEA_067) and the album mount is typed 'BEAUMONT ORCHARD 1909' / 'MELLEN RANCH 1909'. Corrects 'Cherry Tree Farm, 1930'."
+  },
+  "img_5a70b41831a92160": {
+   "date_start": 1945,
+   "date_end": 1946,
+   "display": "c. 1945–1946",
+   "confidence": "medium",
+   "basis": "Printed in the 1946 annual, so exposed no later than spring 1946; the all-prewar car population on the street fits the mid-1940s. Medium confidence because an annual could reuse a slightly older photo."
+  },
+  "img_c228028c8fdfc647": {
+   "date_start": 1948,
+   "date_end": 1949,
+   "display": "1948–1949 school year",
+   "confidence": "high",
+   "basis": "Printed in the 1949 annual; a group portrait of the current band would have been made during the school year the annual covers."
+  },
+  "img_ada3474936428467": {
+   "date_start": 1949,
+   "date_end": 1950,
+   "display": "1949–1950 school year",
+   "confidence": "high",
+   "basis": "Printed in the 1950 annual; the majorette squad pictured is the year's squad, photographed during the 1949–50 school year."
+  },
+  "img_7d31166d85dd49bd": {
+   "date_start": 1949,
+   "date_end": 1950,
+   "display": "1949–1950 school year",
+   "confidence": "high",
+   "basis": "Printed in the 1950 annual; candid classroom coverage in an annual is shot during the school year it covers."
+  },
+  "img_4ac86175e34cb48f": {
+   "date_start": 1938,
+   "date_end": 1948,
+   "display": "c. 1938-1948",
+   "confidence": "medium",
+   "basis": "Real-photo postcard of the ~1930 Mission Revival high school (later Civic Center) with mature landscaping and paved street."
+  },
+  "img_9160017c82292a64": {
+   "date_start": 1969,
+   "date_end": 1969,
+   "display": "March 21, 1969",
+   "confidence": "confirmed",
+   "basis": "Record-Gazette masthead 3-21-69 in filename; new fire station under construction on Maple Ave (SGPHS timeline confirmed)."
+  },
+  "img_a48b18e93521487b": {
+   "date_start": 1978,
+   "date_end": 1978,
+   "display": "Nov 28, 1978",
+   "confidence": "confirmed",
+   "basis": "Record-Gazette masthead 11-28-78 in filename; council vote to contract fire services with CDF (SGPHS timeline confirmed)."
+  },
+  "img_06355ab9cdf953fb": {
+   "date_start": 1968,
+   "date_end": 1968,
+   "display": "April 30, 1968",
+   "confidence": "confirmed",
+   "basis": "Daily Record-Gazette masthead 4-30-68 in filename (SGPHS timeline confirmed)."
+  },
+  "img_530924ee0ded82c6": {
+   "date_start": 1977,
+   "date_end": 1977,
+   "display": "May 26, 1977",
+   "confidence": "confirmed",
+   "basis": "Letter dated 5-26-77 in filename."
+  },
+  "img_4b0acbe1458e33c0": {
+   "date_start": 1908,
+   "date_end": 1909,
+   "display": "1908-1909",
+   "confidence": "high",
+   "basis": "Bids for the building were called after August 27, 1908 and the bank opened in the completed building April 12, 1909 (Beaumont Gazette); the photo shows walls topped out but no roof, i.e., mid-construction, and photographer Salvage left Beaumont in June 1909. Widens the former bare '1909' to the documented construction window."
+  },
+  "img_863f0fc9e94e4ebb": {
+   "date_start": 2015,
+   "date_end": 2025,
+   "display": "c. 2015-2025 (1923 building)",
+   "confidence": "medium",
+   "basis": "Contemporary color photo of the carved cornice 'Bank of Beaumont - Founded 1909 - Erected 1923'; the photo is recent, the building dates to 1923."
+  },
+  "img_e6fe5e33e99cc68f": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Filename 'today'; modern reference photo of the standing bank building."
+  },
+  "img_66a9280d1c1afbf9": {
+   "date_start": 1918,
+   "date_end": 1922,
+   "display": "c. 1920",
+   "confidence": "medium",
+   "basis": "Calisphere item date: circa 1920"
+  },
+  "img_cd302d98752b29e0": {
+   "date_start": 1923,
+   "date_end": 1940,
+   "display": "c. 1923-1940",
+   "confidence": "medium",
+   "basis": "The second Bank of Beaumont (Fifth & Egan) was erected in 1923."
+  },
+  "img_e227a30890d191f3": {
+   "date_start": 2010,
+   "date_end": 2025,
+   "display": "2010s-2020s",
+   "confidence": "low",
+   "basis": "Generic digital-camera filename (IMG_3030); a modern photo tied to the first Bank of Beaumont site."
+  },
+  "img_9c26cfc39eca4fc9": {
+   "date_start": 1910,
+   "date_end": 1915,
+   "display": "c. 1910-1915",
+   "confidence": "medium",
+   "basis": "RPPC of the wooden Post Office; dirt street, horse wagon, Edwardian dress, and the WCTU fountain shelter (1910) present."
+  },
+  "img_5658eba56b079aef": {
+   "date_start": 1885,
+   "date_end": 1895,
+   "display": "c. 1885-1895",
+   "confidence": "high",
+   "basis": "SGPHS timeline's opening image 'Egan Avenue in its earliest days' - frontier strip, unpaved, no autos, dated c.1885-1895."
+  },
+  "img_157678621f95c278": {
+   "date_start": 1907,
+   "date_end": 1918,
+   "display": "c. 1907–1918",
+   "confidence": "medium",
+   "basis": "The Beaumont Land & Water Co. named on the kiosk was formed in October 1907 (Holmes 1912) — a hard earliest bound; BLD dates the company's office building to 1909; the unpaved street, dress, and absence of automobiles argue against a date much past the mid-1910s."
+  },
+  "img_7835865b7e46b59c": {
+   "date_start": 1905,
+   "date_end": 1915,
+   "display": "c. 1905–1915",
+   "confidence": "low",
+   "basis": "Street scene shows only wooden false-fronts and horse-drawn vehicles, predating the stone A.T. Ganty General Merchandise block and automobiles visible in a 1915-postmarked card of the same street (BLD Egan Avenue folder); tinted card with front title band typical of c. 1907–1915 printing. Supersedes the prior c. 1908–1925 range."
+  },
+  "img_92d81318b1127f4b": {
+   "date_start": 1905,
+   "date_end": 1920,
+   "display": "c. 1905-1920",
+   "confidence": "low",
+   "basis": "An automobile in the street rules out the earliest years of the old 1900-1915 range; the Summit House still stands (it burned in 1925) and related Calisphere views show it operating around January 1911; the letterpress-caption postcard format is typical of c. 1907-1920. Replaces the unsupported 1900-1915 range."
+  },
+  "img_676c1d159bb01165": {
+   "date_start": 1951,
+   "date_end": 1963,
+   "display": "c. 1950s",
+   "confidence": "medium",
+   "basis": "Don Stock active as a Beaumont realtor 1949-1965 (CDNC, Beaumont Gazette); '3 Ring Ranch' annotation — the ranch is first attested September 1951; US 70/99 and US 60 shields predate the 1964 Interstate renumbering. Replaces the former 1887-1895 range, which mistook this mid-century map for the original plat."
+  },
+  "img_82f263746528ece8": {
+   "date_start": 1937,
+   "date_end": 1941,
+   "display": "c. late 1930s",
+   "confidence": "high",
+   "basis": "Frasher's 'Street Scene, Beaumont' with the classical bank, Rexall Drugs and late-1930s automobiles."
+  },
+  "img_4239365a9df07707": {
+   "date_start": 1915,
+   "date_end": 1925,
+   "display": "c. 1920",
+   "confidence": "medium",
+   "basis": "Automobiles are mid-1910s to early-1920s touring cars; the A. T. Gantt & Bro. store operated from c. 1906-08 into the late 1920s. Slightly widens the prior unexplained 1918-1924 range; no element pins it tighter."
+  },
+  "img_88e0efbd8026acce": {
+   "date_start": 1933,
+   "date_end": 1937,
+   "display": "c. 1933-1937",
+   "confidence": "medium",
+   "basis": "The Maloof men's and women's shop opened in Beaumont in mid-May 1933 (Daily Gazette, 18 May 1933), a hard earliest bound; the Grunow appliance sign fits that brand's c. 1933-1937 market run; the car is an early-1930s model. Corrects the 1929-1933 range."
+  },
+  "img_e9f375f1600bc4d0": {
+   "date_start": 2015,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Filename 'today'; modern reference photo of Fifth Street."
+  },
+  "img_37e600853baf16af": {
+   "date_start": 1955,
+   "date_end": 1962,
+   "display": "c. late 1950s",
+   "confidence": "low",
+   "basis": "A 1953-54 Chevrolet and a mid-1950s Plymouth whose raised, chrome-capped tailfin reads as 1956 (1955 not fully excludable) are parked at the curb; color-snapshot stock consistent with the late 1950s. Nothing supports the previous hard 1958 end bound."
+  },
+  "img_0880ba793548d705": {
+   "date_start": 1932,
+   "date_end": 1940,
+   "display": "c. 1932-1940",
+   "confidence": "medium",
+   "basis": "Harvey's Cafe signage (cafe in press from Oct 1932, run by Harvey O'Day; building repurposed by 1944) sets the start; newest visible cars are c. 1929-31 models; Gilmore Gasoline branding is consistent with the 1930s. Replaces the untenable 1908-1925 range."
+  },
+  "img_9dee891466dac007": {
+   "date_start": 1925,
+   "date_end": 1934,
+   "display": "c. 1930",
+   "confidence": "medium",
+   "basis": "Matches the documented S. and S./Sumner era (name attested Jan 1928, recent as of Nov 1928; McDaris family by Feb 1935); parked mid-1920s tourers plus a later truck fit. Replaces the 1923-1929 range."
+  },
+  "img_03ae9abaca02013c": {
+   "date_start": 1925,
+   "date_end": 1934,
+   "display": "c. 1930",
+   "confidence": "medium",
+   "basis": "The S. and S. name is attested from January 1928 (and described as recent in November 1928); Sumner ran the store until c. 1934 (McDaris family by Feb 1935). Nabisco 'Uneeda Bakers' cartons (slogan from 1923) and late-1920s dress fit. Replaces the 1920-1930 range."
+  },
+  "img_0fe6d3036afcd3d6": {
+   "date_start": 2015,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Filename 'today'; references I-10, modern reference photo."
+  },
+  "img_934590dec97e3d15": {
+   "date_start": 1905,
+   "date_end": 1915,
+   "display": "c. 1905-1915",
+   "confidence": "medium",
+   "basis": "Pre-WWI printed-postcard conventions (face caption style) and platform dress; the depicted building is SP's large depot built about 1887 (Holmes 1912), still standing and considered inadequate in January 1914 (Gazette retrospective). Replaces 1909-1918, which was anchored to an undocumented 'expansion remodel.'"
+  },
+  "img_d5b3e8d2100926fd": {
+   "date_start": 1908,
+   "date_end": 1918,
+   "display": "c. 1908-1918",
+   "confidence": "medium",
+   "basis": "Rail-yard panorama with steam locomotive, water tower and lumber yard; no automobiles."
+  },
+  "img_eabd3578774e347f": {
+   "date_start": 1908,
+   "date_end": 1918,
+   "display": "c. 1908-1918",
+   "confidence": "medium",
+   "basis": "Multiple steam locomotives at the Beaumont roundhouse."
+  },
+  "img_07a9db15e22db499": {
+   "date_start": 1905,
+   "date_end": 1915,
+   "display": "c. 1905-1915",
+   "confidence": "medium",
+   "basis": "The C-9 class was built ~1905; the high-mounted oil headlight predates SP's 1910s electric conversions; Calisphere's description places the scene in the early 1900s. Supersedes the SGPHS timeline's '1890s'."
+  },
+  "img_3b097e0808432587": {
+   "date_start": 1942,
+   "date_end": 1945,
+   "display": "c. 1943 (WWII)",
+   "confidence": "medium",
+   "basis": "Women's railroad track ('maintenance-of-way') crews were a WWII phenomenon: 7,200 SP men left for the armed forces in a single year and women — including Mexican-American traqueras on the SP — were hired to replace them, 1942-45. Dress (women in jeans/work shirts) fits the 1940s. Supersedes the filename-guess range 1915-1940."
+  },
+  "img_0ab722136d7bd1be": {
+   "date_start": 1945,
+   "date_end": 1955,
+   "display": "c. late 1940s–early 1950s",
+   "confidence": "low",
+   "basis": "Square snapshot format and furnishings fit the late 1940s–early 1950s, and the children's apparent ages are consistent with the census-recorded birth years of the Estrada children (c. 1930–1947). Widened from the catalog's 1940–1949."
+  },
+  "img_ca02842503e130c9": {
+   "date_start": 1944,
+   "date_end": 1947,
+   "display": "c. mid-1940s",
+   "confidence": "low",
+   "basis": "Children's apparent ages align with census-recorded birth years around 1945–47, and the youngest daughter Beatrice (b. c. 1947 per the 1950 census) is absent. Tightened from the catalog's 1940–1949. End tightened to 1947: Beatrice (b. c. 1947 per the 1950 census) is absent."
+  },
+  "img_a7a6b112d9c297dd": {
+   "date_start": 1915,
+   "date_end": 1930,
+   "display": "c. 1915-1930",
+   "confidence": "low",
+   "basis": "Youthful portrait of Luis Estrada, who worked for the SP for decades."
+  },
+  "img_4ec3e978a2772b6b": {
+   "date_start": 1930,
+   "date_end": 1950,
+   "display": "c. 1930s–1940s",
+   "confidence": "low",
+   "basis": "Luis Estrada was born c. 1895 (1950 census, age 55). He appears middle-aged here and the crew's workwear fits the 1930s–40s; the prior 1910–1935 range is too early at its lower end (he would have been 15 in 1910)."
+  },
+  "img_4a9ee3f3baeb6a26": {
+   "date_start": 1930,
+   "date_end": 1950,
+   "display": "c. 1930s–1940s",
+   "confidence": "low",
+   "basis": "Luis Estrada was born c. 1895 (1950 census). The man identified as Estrada appears to be in his 40s or older, and the workwear fits the 1930s–40s; the prior 1910–1935 range is too early."
+  },
+  "img_6ddebbe0de2a589d": {
+   "date_start": 2018,
+   "date_end": 2021,
+   "display": "c. 2018-2021",
+   "confidence": "medium",
+   "basis": "Photo of the Luis Estrada Road street sign; the road's 20th anniversary was marked in 2021."
+  },
+  "img_c822a8c6bb7c2f67": {
+   "date_start": 2018,
+   "date_end": 2021,
+   "display": "c. 2018-2021",
+   "confidence": "medium",
+   "basis": "Photo of the Luis Estrada Road street sign (modern)."
+  },
+  "img_3c18a28de48c53d4": {
+   "date_start": 2018,
+   "date_end": 2021,
+   "display": "c. 2018-2021",
+   "confidence": "medium",
+   "basis": "Photo of the Luis Estrada Road street sign with stop sign (modern)."
+  },
+  "img_48e0a1029b9b35cf": {
+   "date_start": 2010,
+   "date_end": 2024,
+   "display": "2010s-2020s",
+   "confidence": "low",
+   "basis": "Family snapshot of the California State Railroad Museum's life-size figure of Luis Estrada, which the museum created in 2005 (CSRM finding aid MS 871); exact visit date unknown."
+  },
+  "img_39722a07ed88a499": {
+   "date_start": 2010,
+   "date_end": 2024,
+   "display": "2010s-2020s",
+   "confidence": "low",
+   "basis": "Family snapshot of the California State Railroad Museum's life-size figure of Luis Estrada, which the museum created in 2005 (CSRM finding aid MS 871); exact visit date unknown."
+  },
+  "img_9acdf5b823073389": {
+   "date_start": 2010,
+   "date_end": 2024,
+   "display": "2010s-2020s",
+   "confidence": "low",
+   "basis": "Family snapshot of the California State Railroad Museum's life-size figure of Luis Estrada, which the museum created in 2005 (CSRM finding aid MS 871); exact visit date unknown."
+  },
+  "img_99913db9881316f3": {
+   "date_start": 2005,
+   "date_end": 2005,
+   "display": "2005",
+   "confidence": "high",
+   "basis": "The subject is the California State Railroad Museum's life-size figure of Luis Estrada, created in 2005 (finding aid MS 871); the scanned page carries a 2/23/2005 print date."
+  },
+  "img_70f5802804fd1652": {
+   "date_start": 1887,
+   "date_end": 1909,
+   "display": "c. 1887–1909",
+   "confidence": "medium",
+   "basis": "Bracketed by the 1887 'larger train depot' and Hotel Beaumont construction and by the hotel's destruction by fire in 1909 (August 1909 per prior catalog research). The former 1900-1908 range had no documented basis; note the card's printing may postdate the negative."
+  },
+  "img_049b709d6ffb773a": {
+   "date_start": 1887,
+   "date_end": 1909,
+   "display": "c. 1887–1909",
+   "confidence": "medium",
+   "basis": "The Hotel Beaumont, built 1887 by the Southern California Investment Co. and destroyed by fire in 1909, stands at right; start moved from 1890 to 1887 to match the hotel's construction date. The town's sparseness favors the earlier half of the range."
+  },
+  "img_c6fa941a29b0f0cd": {
+   "date_start": 1907,
+   "date_end": 1909,
+   "display": "c. 1907-1909",
+   "confidence": "medium",
+   "basis": "The hotel bore the 'Edinburgh' name only from its 1907 renovation/reopening until it burned August 16, 1909 (BLD/Calisphere c81v5d9b, c8z31wpb); a postcard captioned 'Hotel Edinburgh' must date from (or immediately around) that window. Narrows the previous 1900-1909 guess."
+  },
+  "img_6345c804830d0a07": {
+   "date_start": 2023,
+   "date_end": 2023,
+   "display": "August 2023 (Street View capture; screenshot saved May 2025)",
+   "confidence": "medium",
+   "basis": "The on-screen Street View panel and watermark both read 'Aug 2023'; the catalog's 2025 date reflects only when the screenshot was saved."
+  },
+  "img_c01f0729b7635aa7": {
+   "date_start": 1910,
+   "date_end": 1960,
+   "display": "Undated newspaper clipping, early-to-mid 20th century",
+   "confidence": "low",
+   "basis": "Letterpress typography and fire-report content indicate a vintage clipping; the catalog's May 2025 date belongs to the filename's claimed Street View capture, not to this image."
+  },
+  "img_b2764c9151e44824": {
+   "date_start": 1907,
+   "date_end": 1915,
+   "display": "c. 1907-1915",
+   "confidence": "medium",
+   "basis": "The Beaumont Land and Water Company is undocumented before Oct. 6, 1907 (Chronicling America phrase search, 453 hits 1907-1910; Apr. 11, 1909 LA Herald: the company 'purchased the townsite of Beaumont and several thousand acres of land adjoining'). The Mission Revival office and fresh sidewalk indicate recent construction during the company's promotion years."
+  },
+  "img_6278e20aa65dd6a8": {
+   "date_start": 1895,
+   "date_end": 1910,
+   "display": "c. 1895-1910",
+   "confidence": "medium",
+   "basis": "Beaumont Land & Water Co. pumping station; Edgar Canyon well drilling documented 1908."
+  },
+  "img_83b4208d7a588795": {
+   "date_start": 1900,
+   "date_end": 1912,
+   "display": "c. 1900-1912",
+   "confidence": "medium",
+   "basis": "Beaumont water well; Edgar Canyon well drilling documented 1908."
+  },
+  "img_9a09c6788b0dddf1": {
+   "date_start": 1895,
+   "date_end": 1915,
+   "display": "c. 1895-1915",
+   "confidence": "low",
+   "basis": "Early ranch scene at the Bliss Ranch well."
+  },
+  "img_3e252c3b2ce712aa": {
+   "date_start": 1907,
+   "date_end": 1915,
+   "display": "c. 1907-1912",
+   "confidence": "medium",
+   "basis": "The Beaumont Land & Water Co. named as owner in the cartouche was formed in October 1907 and immediately replatted and marketed the townsite (Holmes 1912); the map names Riverside County (created 1893); the company's documented advertising campaign runs 1907-1912 (Calisphere CBEA_020 apple-planting ad of 1909; La Mesa Miravilla brochure). Narrowed from the prior c. 1900-1925."
+  },
+  "img_5430b97f619e1088": {
+   "date_start": 1934,
+   "date_end": 1960,
+   "display": "c. 1935-1960 (real-photo postcard)",
+   "confidence": "low",
+   "basis": "Black-and-white real-photo-postcard format with hand-lettered caption cannot be a 2010s-2020s digital photograph; the depicted building is identified by the collection as the 1934 church, so the view postdates 1934."
+  },
+  "img_da743e866c6368cc": {
+   "date_start": 2010,
+   "date_end": 2025,
+   "display": "2010s-2020s (1934 building)",
+   "confidence": "high",
+   "basis": "Modern color photo of the stone Presbyterian rock church (built 1934) with current signage."
+  },
+  "img_b4e6ea6952262482": {
+   "date_start": 2010,
+   "date_end": 2025,
+   "display": "2010s-2020s (1934 building)",
+   "confidence": "medium",
+   "basis": "Modern photo of the 1934 stone Presbyterian church."
+  },
+  "img_1ace86d145209734": {
+   "date_start": 2000,
+   "date_end": 2023,
+   "display": "c. 2000s-early 2020s",
+   "confidence": "low",
+   "basis": "Consumer digital color capture with modern electric lighting and cellophane-wrapped floral arrangements; upper bound from the BLD digital folder's assembly period (sibling files dated received 2020-2023). The previous 1934 start was the building's completion date, not the photograph's."
+  },
+  "img_3d84769134889400": {
+   "date_start": 2010,
+   "date_end": 2025,
+   "display": "2010s-2020s",
+   "confidence": "low",
+   "basis": "Close-up of the church's rock construction; modern documentation of the 1934 building."
+  },
+  "img_a144edcec7a50be8": {
+   "date_start": 1913,
+   "date_end": 1922,
+   "display": "c. January 1916",
+   "confidence": "medium",
+   "basis": "Later blue-ink annotation on the postcard most plausibly reads '1916' (a '1946' reading is excluded for the photo itself by the mid-1910s touring car at the curb); the original inscription calls it 'the new Presbyterian Church... after snow storm Jan.'. The building was Presbyterian until sold to First Christian Church in 1934, ruling out the previous 1930-1940 range. Exact construction/dedication year not yet found in newspapers, hence the range."
+  },
+  "img_1d5ad1237f7755e2": {
+   "date_start": 1930,
+   "date_end": 1955,
+   "display": "c. 1930-1955",
+   "confidence": "medium",
+   "basis": "Diocesan history: the chapel opened in 1930 and was replaced by a new church building in 1956. Old range (1925-1945) predated the chapel's documented opening; the building shown is the pre-1956 chapel, so the frame falls in the 1930-1955 chapel era."
+  },
+  "img_add874f3a7967842": {
+   "date_start": 1956,
+   "date_end": 1962,
+   "display": "c. 1956-1962",
+   "confidence": "medium",
+   "basis": "The 1956-built church appears with a 1956-issue yellow-base California plate (black-on-yellow, ABC 123 format, used 1956-1962 and replaced by gold-on-black plates in 1963); car models (mid-1950s Chevrolet, early-1950s Mopar) are consistent. Tightens the prior 1956-1963 end year by one."
+  },
+  "img_22f62627c5d79f7e": {
+   "date_start": 1956,
+   "date_end": 1964,
+   "display": "c. 1956-1964",
+   "confidence": "medium",
+   "basis": "The building shown was not constructed until 1956 (diocesan history), and the parish closed March 5, 1964; a parish-era photograph is most likely, though the building survived the closure as private property, so a slightly later view cannot be fully excluded. Old range (1930-1960) began before the building existed."
+  },
+  "img_7a0159037504313e": {
+   "date_start": 1955,
+   "date_end": 1969,
+   "display": "c. 1955–1968",
+   "confidence": "low",
+   "basis": "Mid-1950s Chevrolet Task Force utility truck (1955-57 cab) at right sets the earliest date; the department left 500 Grace when the 650 Maple Ave. station (groundbreaking Nov. 27, 1968) was completed c. 1969, per the Record-Gazette of March 21, 1969."
+  },
+  "img_f03f7f375191edf6": {
+   "date_start": 1973,
+   "date_end": 1980,
+   "display": "c. 1975",
+   "confidence": "medium",
+   "basis": "Antique hand hose-cart displayed at a 1960s breeze-block fire station, with a mid-1970s GMC engine in the bay."
+  },
+  "img_1ac667107bd74996": {
+   "date_start": 2021,
+   "date_end": 2021,
+   "display": "March 27, 2021",
+   "confidence": "high",
+   "basis": "EXIF DateTimeOriginal 2021:03:27 10:30 (Apple iPhone 7) on the source file; the image is a modern photograph of exhibited artifacts, not a vintage photo."
+  },
+  "img_04328f685390128c": {
+   "date_start": 2000,
+   "date_end": 2020,
+   "display": "c. 2000s-2010s",
+   "confidence": "low",
+   "basis": "Photo of a memorial to volunteer firefighter Scott Karnitz; a modern commemorative image."
+  },
+  "img_8a20e0efb687510c": {
+   "date_start": 2000,
+   "date_end": 2020,
+   "display": "c. 2000s-2010s",
+   "confidence": "low",
+   "basis": "Photo of a memorial to volunteer firefighter Scott Karnitz; a modern commemorative image."
+  },
+  "img_67d561c6f67c1ba2": {
+   "date_start": 1970,
+   "date_end": 1990,
+   "display": "c. 1970s-1980s",
+   "confidence": "low",
+   "basis": "Letterpress-era typography and halftone style, plus the article citing a 1967 incident as the only prior volunteer death, indicate a clipping decades older than the cataloged 1995-2020 range. Exact year of Karnitz's death not yet confirmed."
+  },
+  "img_a9b8f17ec8b1a61d": {
+   "date_start": 1939,
+   "date_end": 1950,
+   "display": "c. 1940-1950",
+   "confidence": "low",
+   "basis": "The building's dedication plaque 'ERECTED 1938-39' (verified in a sibling scan) sets the earliest possible date; the parked automobiles are late-1930s and 1940s models."
+  },
+  "img_03056ebb373ddd81": {
+   "date_start": 2000,
+   "date_end": 2023,
+   "display": "2000s–early 2020s (plaque cast 1938-39)",
+   "confidence": "low",
+   "basis": "Sharp digital color close-up — a recent record shot, not a mid-century photograph; latest bound is the assembly of the BLD project folder (files received into it as late as January 2023). '1938-39' is the building's construction date, read from the plaque itself."
+  },
+  "img_ed9a0626308ebccf": {
+   "date_start": 1918,
+   "date_end": 1925,
+   "display": "c. 1918-1925",
+   "confidence": "medium",
+   "basis": "Young Francis Dowling Sr. beside a Model T-based 'Golden State Cherry Orchard' truck with wooden-spoke wheels."
+  },
+  "img_9299c7a090b03878": {
+   "date_start": 1910,
+   "date_end": 1918,
+   "display": "c. 1910-1918",
+   "confidence": "medium",
+   "basis": "Born April 1892 and appears about 18-26; the tall stiff detachable collar was standard through the mid-1910s and faded rapidly after WWI. Shifts the former 1915-1925 range earlier."
+  },
+  "img_6205c940ef544e0b": {
+   "date_start": 1965,
+   "date_end": 1979,
+   "display": "c. 1970s",
+   "confidence": "medium",
+   "basis": "Both sitters appear in their mid-70s to 80s (born 1892 and 1898); color chromogenic studio print with period dye fading; browline glasses (post-1947 style). Upper bound is Francis Sr.'s death, February 17, 1979. Former catalog range 1900-1920 was untenable."
+  },
+  "img_953fbfaa8e42a2fb": {
+   "date_start": 1915,
+   "date_end": 1924,
+   "display": "c. 1915-1924",
+   "confidence": "medium",
+   "basis": "Born September 1898 and appears roughly 17-25; hairstyle and portrait style fit the late 1910s-early 1920s; the Stower maiden name implies before her May 1924 marriage. Former range 1900-1918 included childhood years incompatible with the sitter's apparent age."
+  },
+  "img_57a9c9df6e55e692": {
+   "date_start": 1955,
+   "date_end": 1972,
+   "display": "c. 1955-1972",
+   "confidence": "medium",
+   "basis": "Sr. (b. 1892) appears about 65-80 and Jr. (b. 1925) about 30-45, overlapping c. 1955-1972; Sr.'s browline glasses postdate 1947; the family ranch the sign presumably marks was planted in the early 1950s. Former range 1930-1945 would make Jr. ages 5-20."
+  },
+  "img_fe6493dfb389b7f5": {
+   "date_start": 1948,
+   "date_end": 1958,
+   "display": "c. 1950s",
+   "confidence": "medium",
+   "basis": "Francis Jr. was born February 13, 1925 and appears in his mid-20s to early 30s; clothing styles are postwar. The former catalog range 1930-1945 would make him 5-20 years old, contradicting the adult in the photo."
+  },
+  "img_36bc04455099c9d7": {
+   "date_start": 1980,
+   "date_end": 1995,
+   "display": "c. 1980s–early 1990s",
+   "confidence": "low",
+   "basis": "John Dowling was born c. 1962 (aged 59 in the Nov 2021 Record Gazette closing article) and appears here as a young adult in his twenties or early thirties (c. 1982–1995); Francis Jr. (b. 1925) appears in his sixties; color print stock and mesh-back trucker cap fit the same window. The old 1945–1958 range predates John's birth."
+  },
+  "img_a6ec55f14a4d13dc": {
+   "date_start": 2005,
+   "date_end": 2016,
+   "display": "c. 2005-2016",
+   "confidence": "medium",
+   "basis": "Francis Dowling Jr. died Oct 8, 2016 at age 91 (obituary) and appears here in his late 80s amid modern store fittings; the file's EXIF DateTimeOriginal of 2022-05-18 (Windows Photo Editor) records digitization, not capture. Old range of 1945-1960 was impossible."
+  },
+  "img_1ad76840ab48ba0e": {
+   "date_start": 2021,
+   "date_end": 2021,
+   "display": "November 19, 2021",
+   "confidence": "high",
+   "basis": "EXIF DateTimeOriginal 2021-11-19 11:51:46, Apple iPhone 7 (read from source file); corroborated by the stand's documented closure at the end of November 2021. The old 1950-1968 range was impossible — John Dowling was born c. 1962 (age 59 at closing per Record-Gazette)."
+  },
+  "img_dc9b98dd0bb1264f": {
+   "date_start": 1952,
+   "date_end": 1970,
+   "display": "c. 1950s-1960s",
+   "confidence": "low",
+   "basis": "Store opened in 1952 (Record-Gazette), grounding the start; the 'Dried Fruit Dates Eggs Nuts' boards predate the later 'Dried Fruit Nuts Candy' signage seen in dated 2021 photos, but nothing pins the previous 1965 end date, so the window is widened to 1970."
+  },
+  "img_2eee4fa95a275d4d": {
+   "date_start": 2021,
+   "date_end": 2021,
+   "display": "November 19, 2021",
+   "confidence": "high",
+   "basis": "EXIF DateTimeOriginal 2021-11-19 12:56:19, Apple iPhone 7 (read from source file); fall banners (pomegranates, persimmons, pumpkin-season crops) are consistent. Old range 1952-1968 was off by over 50 years."
+  },
+  "img_72b5acdf8b88fc6c": {
+   "date_start": 2010,
+   "date_end": 2021,
+   "display": "c. 2010s",
+   "confidence": "low",
+   "basis": "Modern plastic produce bags, printed packaging, and pricing (roma tomatoes 99c/lb, 5-lb carrots $1.99) plus fixtures identical to the EXIF-dated November 2021 photos place this in the stand's final decade; no EXIF exists to pin it. The old 1952-1968 range was off by roughly half a century."
+  },
+  "img_eebd80e2b2180cca": {
+   "date_start": 2021,
+   "date_end": 2021,
+   "display": "November 10, 2021",
+   "confidence": "high",
+   "basis": "EXIF DateTimeOriginal 2021-11-10 13:23:59, Apple iPhone 7 (read from source file); pumpkins and pomegranate season corroborate late fall. The old 1952-1968 range was off by over 50 years."
+  },
+  "img_4eeb78c48b2bca4b": {
+   "date_start": 2015,
+   "date_end": 2025,
+   "display": "2010s-2020s",
+   "confidence": "high",
+   "basis": "Filename 'contemporary'; modern photo of the Dowling store."
+  },
+  "img_291537b3068812cf": {
+   "date_start": 1915,
+   "date_end": 1925,
+   "display": "c. 1915-1925",
+   "confidence": "medium",
+   "basis": "Signature across the photograph and embossed seal match U.S. passport-application photo conventions in force from Dec. 1914; Eyer appears markedly older than in his published Apr. 11, 1909 LA Herald portrait. Replaces the earlier c. 1890-1915 guess."
+  },
+  "img_dbf7e0bb619c1c74": {
+   "date_start": 1915,
+   "date_end": 1925,
+   "display": "c. 1915-1925",
+   "confidence": "medium",
+   "basis": "Same passport-photo format as the companion Clarendon B. Eyer portrait (name inscribed across the top); passport photos were required from Dec. 1914, and the Eyers were documented international travelers (S.S. Mongolia, 1910). Replaces the earlier c. 1890-1915 guess."
+  },
+  "img_2fa19df607bf43e1": {
+   "date_start": 1908,
+   "date_end": 1915,
+   "display": "c. 1908-1915",
+   "confidence": "medium",
+   "basis": "LA Herald (Apr. 5, 1908) reports Eyer selecting the Sixth St./Magnolia Ave. site with plans in preparation, so the photograph postdates c. 1908-09 construction; the halftone belongs to the company's 1908-1915 promotional-campaign era (publication as late as c. 1920 cannot be fully excluded). Replaces the filename-derived 'circa 1915-1920,' whose 'confirmed' confidence was overstated."
+  },
+  "img_4e6f8597cedbda5b": {
+   "date_start": 1915,
+   "date_end": 1925,
+   "display": "c. 1915-1925",
+   "confidence": "low",
+   "basis": "Subject (b. Dec. 1859) appears roughly 55-65 with fully white hair; wide sailor-style collar typical of the mid-1910s-early 1920s; halftone plate in a pre-1930s-style printed volume. Replaces the earlier 1885-1920 filename-derived range, whose low end is far too early for her apparent age."
+  },
+  "img_a7581c3a3616e8da": {
+   "date_start": 1914,
+   "date_end": 1915,
+   "display": "c. 1915",
+   "confidence": "medium",
+   "basis": "Pixel-identical to the Find a Grave image captioned 'Passport photo'; her application is dated Oct. 20, 1915, and passport photos (required from Dec. 1914) had to be recent. Replaces the 1885-1920 filename-derived range."
+  },
+  "img_317c261e7e95cb9d": {
+   "date_start": 1919,
+   "date_end": 1920,
+   "display": "c. 1920",
+   "confidence": "medium",
+   "basis": "The photo accompanies Kenneth's passport application; the passport was issued Nov. 29, 1920, and application photos had to be recent. The previous 1885-1915 range is impossible for this artifact — both subjects appear elderly and the signature block matches the application form."
+  },
+  "img_e6c2b250138da121": {
+   "date_start": 1908,
+   "date_end": 1913,
+   "display": "c. 1908-1913",
+   "confidence": "high",
+   "basis": "Stewart family at the ranch barn; women in Edwardian long skirts and oversized 'Merry Widow' hats (c.1908-12)."
+  },
+  "img_68556e4afecfa748": {
+   "date_start": 1902,
+   "date_end": 1910,
+   "display": "c. 1902-1910",
+   "confidence": "medium",
+   "basis": "Laura May Stewart was born 18 Sep 1884 (Find a Grave, Stewart Sunnyslope Cemetery); both sitters appear late-teens to mid-twenties, and the pouched shirtwaists with large sleeves and pompadours are c. 1903-1908 fashion — placing the sitting c. 1902-1910, earlier than the previous 1908-1918 guess."
+  },
+  "img_4a82e2c89eb4a27d": {
+   "date_start": 1910,
+   "date_end": 1920,
+   "display": "c. 1910-1920",
+   "confidence": "medium",
+   "basis": "Reznor on horseback and Laura May 'at the wheel' of an early automobile; Laura May's 1911 era."
+  },
+  "img_7b302ec1a5a6c157": {
+   "date_start": 1910,
+   "date_end": 1933,
+   "display": "c. 1910-1933",
+   "confidence": "medium",
+   "basis": "Stewart died in November 1933 aged 88, so he was born c. 1845; the fully white-bearded man photographed appears at least in his mid-sixties, placing the snapshot roughly between 1910 and his death. The previous 1900-1915 range had no documented basis and would make him only 55-70."
+  },
+  "img_e223c8fe27b85e0d": {
+   "date_start": 1890,
+   "date_end": 1910,
+   "display": "c. 1890–1910",
+   "confidence": "low",
+   "basis": "Vignetted cabinet-style bust and costume (standing collar, four-in-hand tie, high-lapel sack coat) point to the 1890s-1900s; subject appears roughly 45-60, consistent with a man established enough to homestead in 1883. Replaces the previous 1900-1915 range, which had no stated basis."
+  },
+  "img_1dfdd8cac1f62558": {
+   "date_start": 1870,
+   "date_end": 1890,
+   "display": "c. 1870s-1880s",
+   "confidence": "low",
+   "basis": "Oval-vignette album-card format and costume (wide soft bow tie, sack coat) are 1870s-1880s conventions; Stewart homesteaded in 1883 and his children were born c. 1884 and 1890, placing a portrait of him at this apparent age in that window. Replaces the unsupported 1900-1915 folder guess."
+  },
+  "img_df9bd9231a83651c": {
+   "date_start": 1905,
+   "date_end": 1920,
+   "display": "c. 1905-1920",
+   "confidence": "low",
+   "basis": "Stewart was born 3 Nov 1845 (Find a Grave) and died 12 Nov 1933; in the portrait he appears to be in his sixties or seventies, giving c. 1905-1920 — slightly later than the previous 1900-1915 guess, which would start him at 55."
+  },
+  "img_2846f7be40e9aff6": {
+   "date_start": 1900,
+   "date_end": 1930,
+   "display": "c. 1900-1930",
+   "confidence": "low",
+   "basis": "Farm equipment at the Stewart Ranch."
+  },
+  "img_cfdaf786f32d7ba0": {
+   "date_start": 1928,
+   "date_end": 1945,
+   "display": "c. 1930s",
+   "confidence": "low",
+   "basis": "Scene is fully mechanized: two crawler tractors pulling tandem grain drills and a gang harrow; tank lettering appears to read Allis-Chalmers, a marque applied to crawlers only after the 1928 Monarch Tractor acquisition. Supersedes the c. 1900–1930 range, which fits the horse-drawn companion print (photo a) but not this one."
+  },
+  "img_b3dcb09d831e2058": {
+   "date_start": 1950,
+   "date_end": 1974,
+   "display": "c. 1955-1970",
+   "confidence": "low",
+   "basis": "Stewart was born c. 1885 (died 1974 at 89) and appears roughly 70-85 here, pointing to the mid-1950s through about 1970 rather than the previous 1945 start (when she would have been only 60). Refinement rests on apparent age only."
+  },
+  "img_64fee8a381ae5df5": {
+   "date_start": 2020,
+   "date_end": 2020,
+   "display": "May 2020",
+   "confidence": "confirmed",
+   "basis": "Filename dated 5-15-20; Google image of Stewart Sunnyslope Cemetery."
+  },
+  "img_a85c852bf4ca3f39": {
+   "date_start": 1950,
+   "date_end": 1957,
+   "display": "c. 1955",
+   "confidence": "medium",
+   "basis": "Same home office and 'Easter Sunrise' poster as the related SGPHS photograph dated 1955 (Calisphere c84x574n, 545 Euclid Ave.); Bogart appears similarly aged, and his death on Nov. 13, 1957 caps the range. Supersedes the earlier c. 1935-1948 estimate, which predated the 1955 comparison."
+  },
+  "img_b0d82053666b74fe": {
+   "date_start": 1955,
+   "date_end": 1955,
+   "display": "1955",
+   "confidence": "medium",
+   "basis": "Same sitting as Calisphere item ark:/13030/c84x574n ('Guy Bogart in 1955, sitting and working at his desk at 545 Euclid Ave'), dated 1955 by BLD — identical office contents, clothing, and kitten, different exposure. Replaces the unsupported c. 1935-1948 range."
+  },
+  "img_da155fda02d882ee": {
+   "date_start": 1950,
+   "date_end": 1957,
+   "display": "c. 1950-1957",
+   "confidence": "medium",
+   "basis": "Bogart appears at the same advanced age as in his 1955 desk portrait (Calisphere c84x574n); companions wear 1950s clothing and eyewear; terminus ante quem is Bogart's death on 13 Nov 1957 (Find a Grave). Supersedes the prior 1925-1945 guess, which is inconsistent with his evident age."
+  },
+  "img_0092d056a315fe98": {
+   "date_start": 2020,
+   "date_end": 2020,
+   "display": "Feb 2020",
+   "confidence": "confirmed",
+   "basis": "Filename dated 2-8-20; modern photo of the Bogart House."
+  },
+  "img_c8be9dda2808f47c": {
+   "date_start": 1915,
+   "date_end": 1940,
+   "display": "c. 1915-1940",
+   "confidence": "low",
+   "basis": "Historical photo of Guy Bogart's house from the Library District archive."
+  },
+  "img_ef0e1fe665c580a0": {
+   "date_start": 1938,
+   "date_end": 1946,
+   "display": "c. 1940",
+   "confidence": "high",
+   "basis": "Frasher's postcard 'Beaumont on U.S. Highways 60 and 99' showing Sam's Cafe with late-1930s/early-1940s automobiles."
+  },
+  "img_21f5dda0d6f26b4a": {
+   "date_start": 1942,
+   "date_end": 1946,
+   "display": "c. 1944",
+   "confidence": "medium",
+   "basis": "Calisphere item date: circa 1944"
+  },
+  "img_484acf24f5126598": {
+   "date_start": 1940,
+   "date_end": 1949,
+   "display": "1940s",
+   "confidence": "medium",
+   "basis": "Calisphere item date: 1940s"
+  },
+  "img_92af244203629094": {
+   "date_start": 1945,
+   "date_end": 1946,
+   "display": "c. 1945-1946",
+   "confidence": "medium",
+   "basis": "Frasher negative F-6330 is consecutive with F6331, which is dated c. 1946 by its theatre marquee ('Masquerade in Mexico,' released Dec. 3, 1945); a c. 1940 automobile is visible at the motel entrance. Replaces the previous 1947-1953 estimate."
+  },
+  "img_2d0928cd5901f761": {
+   "date_start": 1945,
+   "date_end": 1955,
+   "display": "c. late 1940s-1950s",
+   "confidence": "medium",
+   "basis": "Colorized linen postcard of the Streamline Moderne Fireside Inn."
+  },
+  "img_6feb4c505e0a58be": {
+   "date_start": 1960,
+   "date_end": 1978,
+   "display": "c. 1960s-1970s",
+   "confidence": "medium",
+   "basis": "Matchbook for Joe's Cafe (1232 E. 6th St.) with an all-numeric 7-digit phone number, indicating the 1960s-70s."
+  },
+  "img_e91452d502f8cc96": {
+   "date_start": 1951,
+   "date_end": 1955,
+   "display": "c. early-mid 1950s",
+   "confidence": "high",
+   "basis": "RPPC of Sixth Street with early-1950s automobiles, 'George's 5&10' and 'Bob's Cafe'."
+  },
+  "img_228a900cb9c1637b": {
+   "date_start": 1945,
+   "date_end": 1946,
+   "display": "c. 1946",
+   "confidence": "high",
+   "basis": "Marquee shows 'Masquerade in Mexico' (Paramount, released Dec. 3, 1945) double-billed with 'City for Conquest'; a small-town play date puts the exposure at the end of 1945 or, more likely, in 1946. Range unchanged; display shifted from 'c. 1945' to 'c. 1946.'"
+  },
+  "img_a83e9024f8e65c3f": {
+   "date_start": 1955,
+   "date_end": 1960,
+   "display": "c. 1955-1960",
+   "confidence": "medium",
+   "basis": "Mid-1950s vehicles in the scene; two eBay listings date the apparently identical Max Mahan chrome card to c. 1959. Widens the previous 1955-1958 estimate to include the c. 1959 publication."
+  },
+  "img_e3de81c2cb7655c8": {
+   "date_start": 1925,
+   "date_end": 1932,
+   "display": "c. mid-late 1920s",
+   "confidence": "high",
+   "basis": "RPPC of the Spanish Revival Triangle Service Station with 1920s visible-register pumps and a Model T-era car."
+  },
+  "img_8241a89edda429c5": {
+   "date_start": 1937,
+   "date_end": 1942,
+   "display": "c. late 1930s",
+   "confidence": "high",
+   "basis": "Frasher's postcard showing the former Triangle station repurposed as Chamber of Commerce/Logan's, with a late-1930s sedan."
+  },
+  "img_fd15a86cd86982d6": {
+   "date_start": 1922,
+   "date_end": 1930,
+   "display": "c. 1920s",
+   "confidence": "high",
+   "basis": "RPPC of the Triangle Service Station with flat-capped attendants and 1920s visible-register gas pumps."
+  },
+  "img_1c61ef08adc421b9": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Filename 'today'; modern reference photo of the Triangle Gas Station site."
+  },
+  "img_2ffb4cd6b691c887": {
+   "date_start": 1965,
+   "date_end": 1975,
+   "display": "c. 1970",
+   "confidence": "low",
+   "basis": "Frank (b. Sept. 28, 1913) appears roughly 55-65 and Ramona (b. Jan. 24, 1917) wears a tall bouffant fashionable mid-1960s to early 1970s; refines the previous unsourced 1958-1970 range, whose early end is too early for Frank's apparent age. Appearance-based only."
+  },
+  "img_f3ff85c652f90c21": {
+   "date_start": 1958,
+   "date_end": 1970,
+   "display": "c. 1960s",
+   "confidence": "low",
+   "basis": "Ramona and Frank Torres portrait; 1960s."
+  },
+  "img_ba7b9a02b3a0292c": {
+   "date_start": 1958,
+   "date_end": 1970,
+   "display": "c. 1960s",
+   "confidence": "low",
+   "basis": "Ramona and Frank Torres portrait; 1960s."
+  },
+  "img_6b0ff0ed19b0fb9e": {
+   "date_start": 1937,
+   "date_end": 1950,
+   "display": "c. 1940s",
+   "confidence": "medium",
+   "basis": "Ramona was born Jan. 24, 1917 (Record Gazette obituary) and appears here in her twenties; flowers-in-hair styling and curled updo are characteristic of the late 1930s-1940s. Replaces the unsourced 1955-1975 range. Note the object actually photographed — the laminated menu — is modern (the restaurant's later years, pre-2025)."
+  },
+  "img_dec634939b47e13c": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Modern smartphone snapshot of the elderly Vargas couple at a birthday in a contemporary home."
+  },
+  "img_1098cac0279a0fdd": {
+   "date_start": 1970,
+   "date_end": 1985,
+   "display": "c. 1970s",
+   "confidence": "low",
+   "basis": "White-bordered snapshot print with 1970s hairstyles and clothing; consistent with the couple's ages around the early-1970s founding era of Ramona's Mexican Cafe. The catalog's 2018-2025 range reflects the rephotograph, not the original print."
+  },
+  "img_4b3616cbe2898cea": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Modern photo of Christine and Gil Vargas Sr."
+  },
+  "img_21b5c2878b287c35": {
+   "date_start": 2025,
+   "date_end": 2025,
+   "display": "May 31, 2025",
+   "confidence": "confirmed",
+   "basis": "Filename dated 5-31-25; Cherry Festival parade."
+  },
+  "img_5bcc7a2a42f3de62": {
+   "date_start": 2025,
+   "date_end": 2025,
+   "display": "May 31, 2025",
+   "confidence": "confirmed",
+   "basis": "Filename dated 5-31-25; Cherry Festival parade."
+  },
+  "img_cb8fe08683e0e832": {
+   "date_start": 2025,
+   "date_end": 2025,
+   "display": "May 31, 2025",
+   "confidence": "confirmed",
+   "basis": "Filename dated 5-31-25; Cherry Festival parade."
+  },
+  "img_3f4c4ca617098fd8": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "medium",
+   "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+  },
+  "img_d36ca3005fd7406a": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "medium",
+   "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+  },
+  "img_8ee30e567a4b5e66": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "medium",
+   "basis": "Modern photo of the current Ramona's Mexican Cafe (brick facade)."
+  },
+  "img_a04b2576fd8d515e": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "medium",
+   "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+  },
+  "img_87313621a59a7991": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "medium",
+   "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+  },
+  "img_040513e8698b345f": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "medium",
+   "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+  },
+  "img_11892e76e7df49d3": {
+   "date_start": 1985,
+   "date_end": 2000,
+   "display": "c. 1985-1995",
+   "confidence": "low",
+   "basis": "Film-print color and grain plus late-1980s/1990s clothing styles (color-block blouse, high-waisted jeans); clearly not the 2018-2025 range currently in the catalog."
+  },
+  "img_8da5c565955aa314": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "medium",
+   "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+  },
+  "img_99255ef1fe8299f3": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "medium",
+   "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+  },
+  "img_9ae52f4064af37bc": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "medium",
+   "basis": "Modern photo of the current Ramona's Mexican Cafe building."
+  },
+  "img_00cfeb70e204b1b8": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "medium",
+   "basis": "Modern photo of the current Ramona's Mexican Cafe (sombrero bushes)."
+  },
+  "img_591fdce9e557db2e": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Modern photo of the surviving WCTU stone fountain in Triangle Park (with a 2014+ SUV)."
+  },
+  "img_284993317d64a5e4": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
+  },
+  "img_8aa40ef6d2dbc201": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
+  },
+  "img_40d6c2b8e19fd527": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
+  },
+  "img_a999fd2c808b66bb": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
+  },
+  "img_3c8f15b64eec6c9e": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Modern photo of the WCTU stone fountain in Triangle Park."
+  },
+  "img_7d409eb4d324e61e": {
+   "date_start": 1923,
+   "date_end": 1940,
+   "display": "c. 1923-1940",
+   "confidence": "medium",
+   "basis": "WCTU Fountain (1910) at its original Fifth & Egan location beside the Bank of Beaumont (that corner's bank erected 1923); later moved to Triangle Park."
+  },
+  "img_7dbe92a607028a11": {
+   "date_start": 2022,
+   "date_end": 2022,
+   "display": "March 2022",
+   "confidence": "confirmed",
+   "basis": "Filename dated 3-16-22; Google photo of Triangle Park."
+  },
+  "img_f711da54b73a8423": {
+   "date_start": 1908,
+   "date_end": 1910,
+   "display": "c. 1908-1910",
+   "confidence": "medium",
+   "basis": "The printed caption \"as it now appears\" points to the office being newly completed; the LA Herald (Jan 19, 1908) reports the building about completed with the first issue due the following Thursday, and the card's blue-halftone booster style matches Beaumont's 1907-09 boom promotion. Tightened from the prior 1908-1912 guess."
+  },
+  "img_19665af80792888c": {
+   "date_start": 1908,
+   "date_end": 1912,
+   "display": "c. 1908-1912",
+   "confidence": "medium",
+   "basis": "Gateway Gazette interior advertising postcard, contemporary with the paper's ~1908 era."
+  },
+  "img_e0a4861e5d654fdb": {
+   "date_start": 1908,
+   "date_end": 1915,
+   "display": "c. 1908-1915",
+   "confidence": "medium",
+   "basis": "Hand-colored divided-back postcard of mature eucalyptus (planted ~1900) with a Craftsman bungalow."
+  },
+  "img_67656824cbb42ffc": {
+   "date_start": 1955,
+   "date_end": 1970,
+   "display": "c. 1955-1970",
+   "confidence": "medium",
+   "basis": "Changed from 1940-1965: borderless color photochrome cards belong to the mid-1950s and later, and the deodars (planted in the 1930s per the Record-Gazette) appear fully mature — visibly larger than in the c. 1950 RPPC of the same avenue."
+  },
+  "img_8ecf8879b0fffd2d": {
+   "date_start": 1945,
+   "date_end": 1958,
+   "display": "c. 1950",
+   "confidence": "medium",
+   "basis": "Tightened from the prior 1935-1960: the deodars were planted in the 1930s (Record-Gazette) and here are mature multi-story trees, ruling out the 1930s; the visible automobile is a late-1940s sedan; real photo postcard format is consistent with the late 1940s-1950s."
+  },
+  "img_38d2d7286d1a066a": {
+   "date_start": 2018,
+   "date_end": 2025,
+   "display": "2020s",
+   "confidence": "high",
+   "basis": "Filename 'today'; modern photo of the deodar avenue."
+  },
+  "img_31bfa277fbd3230d": {
+   "date_start": 1890,
+   "date_end": 1900,
+   "display": "c. 1890s",
+   "confidence": "low",
+   "basis": "Same-hand companion album print annotated 'Beaumont School 1890-1893'; new picket fence and young saplings here versus mature trees in the 1910 Calisphere view of the same building."
+  },
+  "img_35a3c2b0b73a7892": {
+   "date_start": 1970,
+   "date_end": 1974,
+   "display": "c. 1970-1974",
+   "confidence": "medium",
+   "basis": "The rendering credits Harry T. MacDonald & Associates, the architect introduced at Summit School's May 19, 1974 dedication; the board accepted the completed school in late February 1974 (Sun-Telegram, Mar. 2 and May 23, 1974), so the presentation rendering belongs to the funded design/construction phase. An earlier date is possible only if it was drawn for one of the failed bond campaigns that preceded state funding."
+  },
+  "img_477fd73b5434521f": {
+   "date_start": 1890,
+   "date_end": 1910,
+   "display": "c. 1890-1910",
+   "confidence": "medium",
+   "basis": "The McCoy lumberyard supplied building materials to Beaumont in the late 19th and early 20th centuries."
+  },
+  "img_37bbc779f837532c": {
+   "date_start": 2015,
+   "date_end": 2024,
+   "display": "c. 2015-2024",
+   "confidence": "medium",
+   "basis": "Contemporary Historical Society house-tour photo (McCoy House) credited to Pat Murkland."
+  },
+  "img_816fb6e3233bbf73": {
+   "date_start": 2025,
+   "date_end": 2025,
+   "display": "April 2025 (historic hotel)",
+   "confidence": "confirmed",
+   "basis": "Filename dated 4-28-25; modern photo of the Sunset Plaza Hotel building (the hotel dates to c.1948)."
+  },
+  "img_c39e3df610ea24d9": {
+   "date_start": 1920,
+   "date_end": 1929,
+   "display": "Likely 1920s (posthumous sketch; Weaver d. 1867)",
+   "confidence": "low",
+   "basis": "Not a photograph and not from life — an imagined commemorative likeness. Most plausibly drawn in the 1920s: publicity around Weaver's 1929 reinterment at Prescott produced Weaver artwork, and the Arizona Historical Society dates its other Weaver sketch c. 1920s. Replaces 'c. 1850s-1860s', which implied a photograph from life."
+  },
+  "img_e5e3407036c3c2c5": {
+   "date_start": 2010,
+   "date_end": 2010,
+   "display": "April 2010",
+   "confidence": "confirmed",
+   "basis": "Scrapbook page annotated 'April 2010'; color aerial of built-out Beaumont with I-10."
+  },
+  "img_17d9fad337a3fded": {
+   "date_start": 1890,
+   "date_end": 1899,
+   "display": "c. 1890s",
+   "confidence": "medium",
+   "basis": "Huntington dates the 'Potrero Photographs' album 1880-1900; the Weinland mission (at Morongo from c. 1890) and Sarah Morris's tenure narrow it to the 1890s. Replaces the impossible '1800'."
+  },
+  "img_4e8d4526096e0dd7": {
+   "date_start": 1890,
+   "date_end": 1899,
+   "display": "1890s",
+   "confidence": "high",
+   "basis": "Calisphere dates the item to the 1890's (CBEA_146); the mercantile still wears the town's pre-1887 name San Gorgonio, and the young eucalyptus match the 1886-87 street plantings."
+  },
+  "img_c15c20a838d86c18": {
+   "date_start": 1884,
+   "date_end": 1909,
+   "display": "c. 1884-1900s",
+   "confidence": "medium",
+   "basis": "Calisphere carries no date for this photo; '1883' (the filename and old caption) is the homestead year, not a documented photo date. Holmes (1912) has R. P. Stewart raising grain from 1884; an established harvest crew of this size implies the operation's later years — the honest range is c. 1884-1900s."
+  },
+  "img_45720d2a6586237d": {
+   "date_start": 1895,
+   "date_end": 1905,
+   "display": "c. 1900",
+   "confidence": "high",
+   "basis": "Calisphere dates the item 'circa 1900' (CBAN_093); Kroeber recorded the 'airy brush-house' still in everyday use at the Banning-area reservation in this era."
+  },
+  "img_72d13585ff607c22": {
+   "date_start": 1885,
+   "date_end": 1898,
+   "display": "c. 1890 (before July 1898)",
+   "confidence": "high",
+   "basis": "Morongo died in July 1898 (Los Angeles Herald, July 21, 1898, p. 9 — primary), so a life portrait cannot postdate that; the Banning Library District dates its own print of this portrait circa 1890. '1908' is the year the reservation formally took the Morongo name (land patented to the Morongo Band), ten years after his death."
+  },
+  "img_b08de96dbf496fab": {
+   "date_start": 1890,
+   "date_end": 1900,
+   "display": "c. 1895",
+   "confidence": "high",
+   "basis": "Calisphere dates the photograph circa 1895 and supplies the photographer (C. C. Pierce & Co.). The hotel stood 1887-1909. Replaces the '1890' guess."
+  },
+  "img_96cb1ed10cb5a0fd": {
+   "date_start": 1917,
+   "date_end": 1929,
+   "display": "c. 1917-1920s",
+   "confidence": "high",
+   "basis": "The clubhouse was dedicated May 11, 1917 (club's own history; lots bought 1914, $3,000 loan) — an unbuilt building cannot appear in a 1911 photo; the 1910s-20s automobiles in frame fit the corrected range."
+  },
+  "img_2ba02d1a7deddfd1": {
+   "date_start": 1911,
+   "date_end": 1914,
+   "display": "c. 1911-1914",
+   "confidence": "medium",
+   "basis": "The building (built 1911) appears brand-new — brick above a stuccoed ground floor with striped awnings; the library rented its ground-floor rooms here October 1911 - June 1914."
+  },
+  "img_a3f413e8c9ed23bb": {
+   "date_start": 1900,
+   "date_end": 1919,
+   "display": "c. 1900s-1910s",
+   "confidence": "low",
+   "basis": "Calisphere carries no date; Priest's dress (bowler hat, walrus mustache, waistcoat) reads c. 1900s-1910s. The filename's '1927' is unsupported by any source."
+  },
+  "img_cfb583d7492fe063": {
+   "date_start": 1966,
+   "date_end": 1977,
+   "display": "c. 1966-1977",
+   "confidence": "medium",
+   "basis": "The halftone shows the building after the mid-1960s rear addition (1965 per BLD website / 1966 per centennial marker — the district's sources conflict) and before the 1977/78 mansard roof. Replaces the bare '1965'."
+  },
+  "img_b0c11e36c32bf11b": {
+   "date_start": 1978,
+   "date_end": 2008,
+   "display": "c. 1978-2008",
+   "confidence": "high",
+   "basis": "The tile mansard was added in 1977/78 (marker: 'Year 1978: A new facade for the roof is designed and erected...') and removed in 2008 when the original parapet roofline was restored — this color photo must fall inside that window. '1965' is doubly wrong."
+  },
+  "img_a5619ddcb9e94fc3": {
+   "date_start": 1982,
+   "date_end": 1982,
+   "display": "1982",
+   "confidence": "medium",
+   "basis": "Client-supplied date for their own scanned print; era corroborated by the 1980 census population (6,818) and the pre-boom townsite/freeway pattern in frame."
+  },
+  "img_fb90b64a110cd45f": {
+   "date_start": 2010,
+   "date_end": 2010,
+   "display": "2010",
+   "confidence": "medium",
+   "basis": "Client-supplied date for their own print/scan; consistent with the built-out scene (named 2000s master-planned tracts and freeway-corridor warehouses present; 2010 census 36,877, up from 11,384 in 2000)."
+  },
+  "img_0f63f186060123e4": {
+   "date_start": 2020,
+   "date_end": 2020,
+   "display": "November 26, 2020 (badge c. 1960s–1978)",
+   "confidence": "high",
+   "basis": "EXIF DateTimeOriginal 2020:11:26 (Apple iPhone 7). The prior 1970 point date described the artifact's annotated era, not the photograph."
+  },
+  "img_865e3dceea5cb7ba": {
+   "date_start": 1975,
+   "date_end": 1979,
+   "display": "late 1970s",
+   "confidence": "medium",
+   "basis": "Collection annotation 'late 1970s' plus 1970s-era silk-finish color print stock; the engine's parade role is documented at the Maple Ave station by 1971. Replaces the incorrect 1970 point date, which was a bad parse of 'late 1970s'. The 2023 EXIF date is only the re-photographing of the print."
+  },
+  "img_5b02c2385f9cb46d": {
+   "date_start": 2020,
+   "date_end": 2020,
+   "display": "November 24, 2020 (plate c. 1960s–1970s)",
+   "confidence": "high",
+   "basis": "EXIF DateTimeOriginal 2020:11:24 (Apple iPhone 7). The prior 1970 point date described the artifact's annotated era, not the photograph."
+  },
+  "img_6f617c49fb8ae29d": {
+   "date_start": 1963,
+   "date_end": 1978,
+   "display": "c. 1963–1978 (annotated '1970s')",
+   "confidence": "medium",
+   "basis": "Black California exempt plate: black-base plates issued from 1963, so the photo is 1963 or later; the municipal department ended in 1978; folder annotation says 1970s. Replaces the false 1970 point date parsed from '1970s'."
+  },
+  "img_97db6b297170b04e": {
+   "date_start": 1980,
+   "date_end": 1984,
+   "display": "early 1980s",
+   "confidence": "low",
+   "basis": "The filename descriptor 'early 1980s' had been flattened to an exact 1980 in the catalog; restored as a range. Color print stock and McLaughlin's documented 1976–1977 service are consistent; nothing in the frame fixes a single year."
+  },
+  "img_9c808818200e7a56": {
+   "date_start": 1985,
+   "date_end": 1989,
+   "display": "late 1980s",
+   "confidence": "low",
+   "basis": "The filename descriptor 'late 1980s' had been flattened to an exact 1980 in the catalog; restored as a range. The tan-and-green CDF-style uniforms confirm the post-1978 county era but do not narrow the date further."
+  },
+  "img_a08051acb6b37033": {
+   "date_start": 1980,
+   "date_end": 1984,
+   "display": "early 1980s",
+   "confidence": "low",
+   "basis": "The filename descriptor 'early 1980s' had been flattened to an exact 1980 in the catalog; restored as a range. The Natural Light T-shirt (brand introduced 1977) and print stock are consistent; nothing fixes a single festival year."
+  },
+  "img_d94679a3a45f55c0": {
+   "date_start": 1905,
+   "date_end": 1912,
+   "display": "c. 1905–1912",
+   "confidence": "medium",
+   "basis": "Print stamped by the Beaumont Land and Water Company, incorporated at Riverside in mid-Aug. 1907 (it bought the townsite that month per LA Herald, Aug. 18, 1909), so the stamped print belongs to the company's promotional files; the scene (buggy, pole lines, tree growth) fits the 1900s. Replaces the timeline's unsourced 'c. 1900'.",
+   "source": "Deep research 2026-07-21"
+  },
+  "img_f525afa6dc4390a8": {
+   "date_start": 1908,
+   "date_end": 1908,
+   "display": "April 30, 1908",
+   "confidence": "high",
+   "basis": "CDNC holds the exact issue: Daily Gazette (Beaumont) [masthead: The Gateway Gazette], Vol. I, No. 15, April 30, 1908; visible headlines 'Products of Beaumont Soil' and 'Will Hold An Apple Fair' match the issue's contents list.",
+   "source": "Deep research 2026-07-21"
+  },
+  "img_7cc7f95ae75d9aa6": {
+   "date_start": 1909,
+   "date_end": 1909,
+   "display": "Postmarked March 28, 1909",
+   "confidence": "high",
+   "basis": "Portal to Texas History metadata dates the card by its March 28, 1909 postmark (addressed to Melrose, Texas; the '…GDOCHES' Nacogdoches cancel is visible on the catalog copy). The photograph was necessarily taken on or shortly before that date.",
+   "source": "Deep research 2026-07-21"
+  },
+  "img_e5061c07708726ac": {
+   "date_start": 1909,
+   "date_end": 1909,
+   "display": "August 18, 1909 (fire: night of August 16–17, 1909)",
+   "confidence": "high",
+   "basis": "The record depicts page 6 of the Los Angeles Herald of Aug. 18, 1909 (CDNC LAH19090818.2.84); the article's Aug. 17 dateline says the fire broke out 'about 11 o'clock last night'.",
+   "source": "Deep research 2026-07-21"
+  },
+  "img_02861b7cd39cd162": {
+   "date_start": 1908,
+   "date_end": 1913,
+   "display": "c. 1910",
+   "confidence": "medium",
+   "basis": "Filename annotation '1910'; the scene must postdate A. T. Gantt's general-merchandise signage era (advertising from Jan. 1908), and the women's fashions fit c. 1908–1913. Widened from a flat 1910 because the annotation itself is unverified.",
+   "source": "Deep research 2026-07-21"
+  },
+  "img_0b3ce9bbcc89c40d": {
+   "date_start": 1925,
+   "date_end": 1931,
+   "display": "c. late 1920s",
+   "confidence": "medium",
+   "basis": "Collector's margin note reads 'Circa 1925', but the parked closed sedans read as late-1920s models, so the exact-1925 date in the previous record over-claims; widened to 1925-1931 pending a negative date from the Pomona Public Library Frasher Foto collection."
+  },
+  "img_433403e951bbabcd": {
+   "date_start": 1940,
+   "date_end": 1949,
+   "display": "c. 1940s",
+   "confidence": "medium",
+   "basis": "Previous record collapsed the filename's '1940s' to an exact 1940; widened to the decade. Car is a c. 1938 Chevrolet and the dark license plate with light characters matches early-1940s California issues, so the photo cannot be much earlier than 1940."
+  },
+  "img_c323e4a9718d30b7": {
+   "date_start": 1940,
+   "date_end": 1949,
+   "display": "1940s",
+   "confidence": "medium",
+   "basis": "Previous record collapsed the family-supplied '1940s' to an exact 1940; widened to the decade. Her padded-shoulder polka-dot dress and his suit are consistent with the 1940s."
+  },
+  "img_5216d93c22702ca5": {
+   "date_start": 1970,
+   "date_end": 1979,
+   "display": "1970s",
+   "confidence": "medium",
+   "basis": "The family-supplied filename dates the print to the 1970s; the catalog's exact 1970 was a parsing artifact of '1970s'. Color print stock, dress, and the couple's census-consistent ages fit the decade."
+  },
+  "img_bad44539e3bf4b42": {
+   "date_start": 1971,
+   "date_end": 1972,
+   "display": "1971-72 school year (probably fall 1971)",
+   "confidence": "high",
+   "basis": "The class sign reads '1971-72'; the autumn foliage behind the group points to the standard fall class-photo sitting, i.e., roughly October-November 1971. The catalog's 1971-only range is widened to cover the school year."
+  },
+  "img_c66b2fd607cf422f": {
+   "date_start": 1928,
+   "date_end": 1930,
+   "display": "c. 1928–1930",
+   "confidence": "medium",
+   "basis": "The building opened as Beaumont High School in 1928 (City of Beaumont blog), and publication in the 1930 BHS yearbook (per BLD source filename) is the terminus ante quem; the bare, newly planted grounds and unpaved street fit the building's first years."
+  },
+  "img_5f9b3935055576a5": {
+   "date_start": 1890,
+   "date_end": 1893,
+   "display": "1890–1893",
+   "confidence": "high",
+   "basis": "The mount is inscribed 'Beaumont School 1890–1893' in a period hand; the previous flat 1890 date collapsed this inscribed range."
+  },
+  "img_092d2807a0231929": {
+   "date_start": 1916,
+   "date_end": 1917,
+   "display": "c. 1916–17",
+   "confidence": "low",
+   "basis": "BLD collection annotation embedded in the source filename 'Wellwood school old building circa 1916-17'; end year extended from 1916 to 1917 to match the annotation. Children's dress (hair bows, sailor collars, overalls) fits the mid-1910s; the frame building predates the 1921 replacement."
+  },
+  "img_4b219d837a3d6f6a": {
+   "date_start": 1960,
+   "date_end": 1965,
+   "display": "early 1960s",
+   "confidence": "medium",
+   "basis": "The filename annotation says 'circa early 1960s'; the catalog's 1960-1960 pin was a parsing artifact that overstated precision."
+  },
+  "img_cc7036a752144a64": {
+   "date_start": 1940,
+   "date_end": 1949,
+   "display": "1940s",
+   "confidence": "medium",
+   "basis": "The filename says '1940s'; the catalog's 1940-1940 pin was a filename-parsing artifact. Clothing (woman's rolled-cuff dungarees, men's work clothes) is consistent with the decade."
+  },
+  "img_62e54c6518d7403e": {
+   "date_start": 1910,
+   "date_end": 1911,
+   "display": "1910-1911",
+   "confidence": "medium",
+   "basis": "The collection filename says 1910; BLD's own Calisphere metadata for the related dedication postcard (CBEA_040) says 'About 1910-1911' and dates it Spring 1911 — the sources disagree by a year, so the range spans both."
+  },
+  "img_3e64932e3b8abfb7": {
+   "date_start": 1910,
+   "date_end": 1915,
+   "display": "c. 1910–1915 (postmarked 1915)",
+   "confidence": "medium",
+   "basis": "The 1915 postmark (recorded in the collection filename) is only a latest bound for the street scene; A.T. Gantt's store (Gantt arrived c. 1907), the Beaumont Heights & Farms Co. real-estate office (advertised c. 1908), and multiple brass-era autos place the view in the early 1910s."
+  },
+  "img_a0defa8112930d8b": {
+   "date_start": 1973,
+   "date_end": 1973,
+   "display": "January 31, 1973 (publication)",
+   "confidence": "high",
+   "basis": "Handwritten dateline '1/31/73' on the clipping; the printed caption and staff-photo credit confirm Record-Gazette publication. The photograph itself was presumably taken shortly before publication."
+  },
+  "img_634101dcee127994": {
+   "date_start": 1942,
+   "date_end": 1952,
+   "display": "c. 1942–1952",
+   "confidence": "low",
+   "basis": "Folder label says '1940s'; the Ford sedan's 1942–48 front-end styling (fender-mounted sealed-beam headlights, low horizontal-bar grille) makes 1942 the earliest plausible year, and a few years' vehicle age allows the early 1950s."
+  },
+  "img_ecbadf0d854de4dc": {
+   "date_start": 1955,
+   "date_end": 1965,
+   "display": "c. late 1950s–early 1960s",
+   "confidence": "low",
+   "basis": "BLD filename ('late 1950s or early 1960s') plus clothing and eyewear styles; the previous exact '1960' was an artifact of the timeline image slug, not evidence."
+  },
+  "img_47cf3e6c1c4e364b": {
+   "date_start": 1940,
+   "date_end": 1975,
+   "display": "mid-20th century (building erected 1921)",
+   "confidence": "low",
+   "basis": "1921 in the filename is the building's construction year, not the photo date; the halftone shows mature shade trees decades after construction and is itself a newspaper reproduction of unknown issue date."
+  },
+  "img_d92bd24434ee74d1": {
+   "date_start": 1968,
+   "date_end": 1968,
+   "display": "April 30, 1968",
+   "confidence": "high",
+   "basis": "Publication date printed on the photographed page ('The Daily Record-Gazette Tuesday, April 30, 1968', p. 2); the halftone was taken on or shortly before that date — bare deciduous trees are consistent with early 1968. Raises the prior low-confidence '1968' to an exact publication date."
+  },
+  "img_7547c2a1a3855993": {
+   "date_start": 1910,
+   "date_end": 1911,
+   "display": "c. 1910-1911",
+   "confidence": "medium",
+   "basis": "BLD's own catalog of this exact postcard (CBEA_040 / c86d5scv) dates it 'Spring 1911' under the title 'About 1910-1911', while the local filename says 1910; the span is retained until a contemporary newspaper account fixes the day (CDNC was bot-blocked this session)."
+  },
+  "img_7dad1702b8b44459": {
+   "date_start": 1962,
+   "date_end": 1962,
+   "display": "May 30, 1962",
+   "confidence": "high",
+   "basis": "Hand-written 'May 30, 1962' on the print, corroborated by Record-Gazette (Banning) 17 Oct 1962: the Beaumont Cemetery District dedicated its new entrance gate on Memorial Day, May 30, 1962. Replaces the vague '1960s' / 1960 catalog date."
+  },
+  "img_9a697957b7ea88b0": {
+   "date_start": 1957,
+   "date_end": 1961,
+   "display": "c. 1957-1961",
+   "confidence": "medium",
+   "basis": "Signboard names minister F. E. Wodell. Rev. Frank E. Wodell is documented as pastor of the Beaumont Christian Church by 13 June 1957 (San Bernardino Sun) and was honored at a farewell the week before 9 March 1961 (Pass Observer); Chester A. Rice was announced as new minister 22 March 1961 (Beaumont News). His arrival year is unestablished (CDNC's Record-Gazette run only begins late 1957), so the start could be slightly earlier than 1957."
+  },
+  "img_dd956905449c7642": {
+   "date_start": 1977,
+   "date_end": 1977,
+   "display": "1977",
+   "confidence": "medium",
+   "basis": "Library of Congress catalogs the photograph as 1977 (item 2017707321, LC-DIG-mrg-05228); the record's 2024 date was the eBay listing date, not the photograph date."
+  },
+  "img_366a85910d2e675f": {
+   "date_start": 1948,
+   "date_end": 1960,
+   "display": "c. 1950s (postcard image; eBay listing photographed September 2024)",
+   "confidence": "medium",
+   "basis": "The automobiles visible on the card are late-1940s/early-1950s sedans and the card is a mid-century photo postcard; the catalog's 2024 date reflects only the eBay capture, not the depicted scene."
+  },
+  "img_d5db437b82ea712d": {
+   "date_start": 1945,
+   "date_end": 1960,
+   "display": "c. 1950s (postcard view; digitized from a 2024 eBay listing)",
+   "confidence": "medium",
+   "basis": "Automobile models and the Mobilgas and Standard Stations signage visible in the image indicate a late-1940s-1950s street scene; the catalog's 2024 date is the eBay acquisition date, not the date of the photograph."
+  },
+  "img_19d3efd814020eed": {
+   "date_start": 1947,
+   "date_end": 1952,
+   "display": "c. 1949-50",
+   "confidence": "medium",
+   "basis": "Calisphere item date: circa 1949-50"
+  },
+  "img_8dec862cc0cae6ba": {
+   "date_start": 1940,
+   "date_end": 1949,
+   "display": "1940s",
+   "confidence": "medium",
+   "basis": "Calisphere item date: 1940s"
+  },
+  "img_2880f54eaa19145f": {
+   "date_start": 1911,
+   "date_end": 1911,
+   "display": "January 5, 1911",
+   "confidence": "high",
+   "basis": "Calisphere item date 1911; Calisphere description records the photo as taken Jan. 5, 1911, matching the mount inscription."
+  },
+  "img_3a78cd9990a52f8f": {
+   "date_start": 1946,
+   "date_end": 1950,
+   "display": "c. 1948",
+   "confidence": "medium",
+   "basis": "Calisphere item date: circa 1948"
+  },
+  "img_3f09693198e8de04": {
+   "date_start": 1890,
+   "date_end": 1899,
+   "display": "c. 1890s",
+   "confidence": "medium",
+   "basis": "Calisphere item date: circa 1890s"
+  },
+  "img_e8c5738ad26c5ffc": {
+   "date_start": 1914,
+   "date_end": 1914,
+   "display": "1914",
+   "confidence": "high",
+   "basis": "Calisphere item date: 1914"
   }
+ }
 }

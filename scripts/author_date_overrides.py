@@ -78,10 +78,10 @@ O = {
     "img_6ddebbe0de2a589d": (2018, 2021, "c. 2018-2021", "medium", "Photo of the Luis Estrada Road street sign; the road's 20th anniversary was marked in 2021."),
     "img_c822a8c6bb7c2f67": (2018, 2021, "c. 2018-2021", "medium", "Photo of the Luis Estrada Road street sign (modern)."),
     "img_3c18a28de48c53d4": (2018, 2021, "c. 2018-2021", "medium", "Photo of the Luis Estrada Road street sign with stop sign (modern)."),
-    "img_48e0a1029b9b35cf": (2010, 2024, "2010s-2020s", "medium", "Photo of the Luis Estrada statue at the California State Railroad Museum (modern memorial)."),
-    "img_39722a07ed88a499": (2010, 2024, "2010s-2020s", "medium", "Photo of the Luis Estrada statue at the California State Railroad Museum (modern memorial)."),
-    "img_9acdf5b823073389": (2010, 2024, "2010s-2020s", "medium", "Photo of the Luis Estrada statue at the California State Railroad Museum (modern memorial)."),
-    "img_99913db9881316f3": (2010, 2024, "2010s-2020s", "medium", "Photo of the Luis Estrada statue at the California State Railroad Museum (modern memorial)."),
+    "img_48e0a1029b9b35cf": (2010, 2024, "2010s-2020s", "low", "Family snapshot of the California State Railroad Museum's life-size figure of Luis Estrada, which the museum created in 2005 (CSRM finding aid MS 871); exact visit date unknown."),
+    "img_39722a07ed88a499": (2010, 2024, "2010s-2020s", "low", "Family snapshot of the California State Railroad Museum's life-size figure of Luis Estrada, which the museum created in 2005 (CSRM finding aid MS 871); exact visit date unknown."),
+    "img_9acdf5b823073389": (2010, 2024, "2010s-2020s", "low", "Family snapshot of the California State Railroad Museum's life-size figure of Luis Estrada, which the museum created in 2005 (CSRM finding aid MS 871); exact visit date unknown."),
+    "img_99913db9881316f3": (2005, 2005, "2005", "high", "Close-up of the California State Railroad Museum's life-size figure of Luis Estrada, created 2005 (CSRM finding aid MS 871); the scanned page is dated 2/23/2005."),
 
     # --- Hotel Beaumont ---
     "img_70f5802804fd1652": (1900, 1908, "c. 1900-1908", "medium", "Elevated townscape with the pre-1909 single-story depot, Peter Allen Store, and the Hotel Beaumont on the hill (burned 1909)."),
