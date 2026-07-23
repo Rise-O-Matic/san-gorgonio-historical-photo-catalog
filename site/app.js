@@ -81,6 +81,20 @@ const assetVer = r => r.original_pixels ? `${r.original_pixels.width}x${r.origin
 const thumbSrc = r => `${encodeURI(r.thumbnail)}?v=${assetVer(r)}`;
 const previewSrc = r => `${encodeURI(r.preview)}?v=${assetVer(r)}`;
 
+/* Copyright status → compact colour-coded pill. Labels are shortened to fit the
+   card corners; the title attribute keeps the full status for hover/screen readers. */
+const RIGHTS_META = {
+  'Public domain':       { tone: 'pd',      label: 'Public domain' },
+  'Permission required': { tone: 'perm',    label: 'Permission' },
+  'Copyrighted':         { tone: 'copy',    label: 'Copyrighted' },
+  'Unclear':             { tone: 'unclear', label: 'Unclear' },
+};
+function rightsPill(r, extra = '') {
+  const status = r.rights_status || 'Unclear';
+  const meta = RIGHTS_META[status] || RIGHTS_META['Unclear'];
+  return `<span class="rights-pill rp-${meta.tone}${extra ? ' ' + extra : ''}" title="Rights: ${esc(status)}">${esc(meta.label)}</span>`;
+}
+
 /* ————— Events ————— */
 
 function bindEvents() {
@@ -245,6 +259,7 @@ function trayCard(r, placed) {
     <figure class="t-fig">
       <img src="${BLANK}" data-src="${thumbSrc(r)}" alt="${esc(r.title)}" draggable="false">
       <span class="t-year">${esc(yearLabel(r))}</span>
+      ${rightsPill(r, 't-rights')}
       ${placed ? '<span class="placed-flag">On timeline</span>' : ''}
     </figure>
     <div class="t-body">
@@ -275,7 +290,10 @@ function muralCard(r, i) {
     <button class="m-remove" type="button" data-remove title="Remove from timeline">×</button>
     <div class="m-matte"><img src="${BLANK}" data-src="${thumbSrc(r)}" alt="${esc(r.title)}" draggable="false"></div>
     <div class="m-plate">
-      <p class="m-year">${esc(shortDate(r))}</p>
+      <div class="m-plate-head">
+        <p class="m-year">${esc(shortDate(r))}</p>
+        ${rightsPill(r, 'm-rights')}
+      </div>
       <h3 class="m-title">${esc(r.title)}</h3>
       <p class="m-cap">${esc(r.research?.description || r.caption)}</p>
     </div>
