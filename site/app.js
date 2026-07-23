@@ -1,254 +1,758 @@
-const STORAGE_KEY = 'bld-historical-catalog-v1';
-const state = { catalog: null, records: [], filtered: [], view: 'timeline', limit: 80, filters: {}, saved: loadSaved() };
-const $ = (selector, root = document) => root.querySelector(selector);
-const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
-const escapeHtml = value => String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+'use strict';
 
-function loadSaved() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || { records: {} }; } catch { return { records: {} }; } }
-function persist() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.saved)); updateCounts(); }
-function savedFor(record) { return state.saved.records[record.id] || { selected: record.selected_default, comment: '', edits: {} }; }
-function updateSaved(record, patch) { state.saved.records[record.id] = { ...savedFor(record), ...patch }; persist(); }
-function isSelected(record) { return Boolean(savedFor(record).selected); }
-function edited(record, field, fallback) { return savedFor(record).edits?.[field] ?? fallback; }
-function effectiveDate(record) { const value = edited(record, 'date', record.date.start); return value === '' || value == null ? null : Number(value); }
-function effectiveQuality(record) { return Number(edited(record, 'quality', record.quality.factor)); }
-function calculatedPrint(record, ppi = 100) { const crop = 1 - record.print_viability.crop_allowance_percent / 100; const factor = effectiveQuality(record); return { width: Math.round(record.original_pixels.width * crop * factor / ppi * 10) / 10, height: Math.round(record.original_pixels.height * crop * factor / ppi * 10) / 10 }; }
-function effectiveClassification(record) { const size = calculatedPrint(record); const shortSide = Math.min(size.width, size.height); return shortSide >= 16 ? 'Production Ready' : shortSide >= 8 ? 'Potentially Usable' : 'Reference Only'; }
-function byChrono(a, b) { const ya = effectiveDate(a), yb = effectiveDate(b); if (ya == null && yb == null) return edited(a,'title',a.title).localeCompare(edited(b,'title',b.title)); if (ya == null) return 1; if (yb == null) return -1; return ya - yb || edited(a,'title',a.title).localeCompare(edited(b,'title',b.title)); }
-function orderedSelection() { const selected = state.records.filter(isSelected); const byId = new Map(selected.map(r => [r.id, r])); const ordered = []; (state.saved.sequence || []).forEach(id => { if (byId.has(id)) { ordered.push(byId.get(id)); byId.delete(id); } }); return [...ordered, ...[...byId.values()].sort(byChrono)]; }
-function saveSequence(ids) { state.saved.sequence = ids; persist(); }
+/* Beaumont Timeline Builder — drag photographs from the chronological
+   collection tray onto the timeline canvas, arrange, approve, export. */
 
-async function init() {
+const KEY = 'bld-timeline-builder-v2';
+const BLANK = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+const $ = (sel, root = document) => root.querySelector(sel);
+const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
+const esc = value => String(value ?? '').replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[c]));
+
+let catalog = null, records = [], byId = new Map(), chrono = [];
+let working = [], approved = [], approvedAt = null;
+let trayRecords = [];
+const loadedImgs = new Set();
+let io = null;
+
+boot();
+
+async function boot() {
   try {
-    const response = await fetch('data/catalog.json', { cache: 'no-store' });
-    if (!response.ok) throw new Error(`Catalog request failed (${response.status})`);
-    state.catalog = await response.json(); state.records = state.catalog.records;
-    seedDefaults(); populateFilters(); bindEvents(); applyFilters();
-    $('#catalogNotice').hidden = true;
-  } catch (error) {
-    $('#catalogNotice').innerHTML = `<strong>Catalog data could not be loaded.</strong><br>${escapeHtml(error.message)}<br><small>Serve the site over HTTP after running the ingestion pipeline.</small>`;
+    const res = await fetch('data/catalog.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`Catalog request failed (${res.status})`);
+    catalog = await res.json();
+    records = catalog.records;
+    byId = new Map(records.map(r => [r.id, r]));
+    chrono = records.slice().sort(chronoCompare);
+    loadState();
+    bindEvents();
+    applyFilters();
+    renderTimeline();
+    $('#loadVeil').classList.add('done');
+    document.fonts?.ready.then(layoutScrubber);
+  } catch (err) {
+    $('#loadVeil').innerHTML = `<p>The catalog could not be loaded.<br><small>${esc(err.message)} — serve the site over HTTP after running the pipeline.</small></p>`;
   }
 }
 
-function seedDefaults() {
-  let changed = false;
-  state.records.forEach(record => { if (!state.saved.records[record.id] && record.selected_default) { state.saved.records[record.id] = { selected: true, comment: '', edits: {} }; changed = true; } });
-  if (changed) persist();
+/* ————— State ————— */
+
+function chronoCompare(a, b) {
+  const ya = a.date?.start ?? 9999, yb = b.date?.start ?? 9999;
+  return ya - yb || (a.date?.end ?? ya) - (b.date?.end ?? yb) || a.title.localeCompare(b.title);
 }
 
-function populateFilters() {
-  const decades = [...new Set(state.records.map(r => r.decade).filter(Boolean))].sort();
-  decades.forEach(value => $('#dateFilter').insertAdjacentHTML('beforeend', `<option value="${value}">${value}s</option>`));
+function seedApproved() {
+  /* The client's select set and order live in research.select_position
+     (2026-07-17 selects); the curated flag tracks folder membership and lags. */
+  const selects = records.filter(r => Number.isFinite(r.research?.select_position));
+  if (selects.length) {
+    return selects
+      .sort((a, b) => a.research.select_position - b.research.select_position)
+      .map(r => r.id);
+  }
+  return records.filter(r => r.curated).sort(chronoCompare).map(r => r.id);
 }
+
+function loadState() {
+  let saved = null;
+  try { saved = JSON.parse(localStorage.getItem(KEY)); } catch { /* corrupted state falls back to seed */ }
+  const valid = ids => Array.isArray(ids) ? ids.filter(id => byId.has(id)) : null;
+  approved = valid(saved?.approved) ?? seedApproved();
+  working = valid(saved?.working) ?? approved.slice();
+  approvedAt = saved?.approvedAt ?? null;
+}
+
+function persist() {
+  localStorage.setItem(KEY, JSON.stringify({ working, approved, approvedAt }));
+}
+
+const startYear = r => r.date?.start ?? null;
+const yearLabel = r => startYear(r) ? String(startYear(r)) : 'Undated';
+const displayDate = r => r.date?.display || yearLabel(r);
+const shortDate = r => (r.date?.display && r.date.display.length <= 15) ? r.date.display : yearLabel(r);
+
+/* ————— Events ————— */
 
 function bindEvents() {
-  $('#search').addEventListener('input', applyFilters);
-  ['dateFilter','resolutionFilter','selectionFilter'].forEach(id => $(`#${id}`).addEventListener('change', applyFilters));
-  $('#filterToggle').addEventListener('click', () => { const panel = $('#filterPanel'); panel.hidden = !panel.hidden; $('#filterToggle').setAttribute('aria-expanded', String(!panel.hidden)); });
-  $('#clearFilters').addEventListener('click', () => { $('#search').value = ''; $$('#filterPanel select').forEach(select => select.value = ''); applyFilters(); });
-  $$('.view-switcher button').forEach(button => button.addEventListener('click', () => setView(button.dataset.view)));
-  $('#loadMore').addEventListener('click', () => { state.limit += 80; render(); });
-  $('#catalog').addEventListener('click', catalogClick);
-  $('#reviewSelected').addEventListener('click', showSelectionPage);
-  $('#backToCatalog').addEventListener('click', showCatalogPage);
-  $('#openMural').addEventListener('click', showMuralPage);
-  $('#backFromMural').addEventListener('click', showSelectionPage);
-  $('#sortChrono').addEventListener('click', () => { saveSequence(orderedSelection().sort(byChrono).map(r => r.id)); renderMural(); });
-  $('#downloadMural').addEventListener('click', downloadMural);
-  $$('#muralPage .height-switcher button').forEach(button => button.addEventListener('click', () => {
-    $$('#muralPage .height-switcher button').forEach(b => b.classList.remove('active')); button.classList.add('active');
-    $('#muralRibbon').style.setProperty('--frame-h', `${button.dataset.frameHeight}px`);
-  }));
-  bindMuralInteractions();
-  $('#downloadReport').addEventListener('click', downloadReport);
-  $('#copyReport').addEventListener('click', copyReport);
-  $('#clearSelection').addEventListener('click', () => { if (confirm('Remove all photographs from the selection?')) { state.records.forEach(r => updateSaved(r, { selected: false })); showSelectionPage(); } });
-  $('#selectedGrid').addEventListener('input', event => { const area = event.target.closest('textarea[data-id]'); if (area) { const record = recordById(area.dataset.id); updateSaved(record, { comment: area.value }); } });
-  $('#selectedGrid').addEventListener('click', event => { const button = event.target.closest('[data-remove]'); if (button) { const record = recordById(button.dataset.remove); updateSaved(record, { selected: false }); showSelectionPage(); } });
-  $$('dialog [data-close]').forEach(button => button.addEventListener('click', () => button.closest('dialog').close()));
-  $$('dialog').forEach(dialog => dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); }));
+  let searchTimer = null;
+  $('#searchInput').addEventListener('input', () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(applyFilters, 140);
+  });
+  ['viabilityFilter', 'rightsFilter'].forEach(id => $(`#${id}`).addEventListener('change', applyFilters));
+  $('#hidePlaced').addEventListener('change', applyFilters);
+
+  $('#sortBtn').addEventListener('click', () => {
+    working.sort((a, b) => chronoCompare(byId.get(a), byId.get(b)));
+    persist();
+    flipCards($('#canvasRow'), renderTimeline);
+  });
+  $('#clearBtn').addEventListener('click', () => {
+    if (!working.length) return;
+    if (confirm('Remove every photograph from the timeline?')) {
+      working = []; persist(); renderTimeline(); applyFilters();
+    }
+  });
+  $('#approveBtn').addEventListener('click', () => {
+    approved = working.slice();
+    approvedAt = new Date().toISOString();
+    persist(); updateStats();
+    flashButton($('#approveBtn'), 'Approved ✓');
+  });
+  $('#revertBtn').addEventListener('click', () => {
+    if (confirm('Discard changes and restore the last approved timeline?')) {
+      working = approved.slice();
+      persist();
+      flipCards($('#canvasRow'), renderTimeline);
+      applyFilters();
+    }
+  });
+  $('#exportBtn').addEventListener('click', exportDoc);
+
+  $('#canvasRow').addEventListener('click', event => {
+    const remove = event.target.closest('[data-remove]');
+    if (remove) { removeFromTimeline(remove.closest('.m-card').dataset.id); return; }
+    const card = event.target.closest('.m-card');
+    if (card) quickView(byId.get(card.dataset.id));
+  });
+
+  $('#trayRow').addEventListener('click', event => {
+    const add = event.target.closest('[data-add]');
+    const card = event.target.closest('.t-card');
+    if (!card) return;
+    const id = card.dataset.id;
+    if (add) {
+      if (working.includes(id)) removeFromTimeline(id);
+      else addToTimeline(id);
+      return;
+    }
+    quickView(byId.get(id));
+  });
+  $('#trayRow').addEventListener('dblclick', event => {
+    const card = event.target.closest('.t-card');
+    if (card && !working.includes(card.dataset.id)) addToTimeline(card.dataset.id);
+  });
+
+  // Reveal the full caption overlay only when the clamped text actually overflows
+  $('#trayRow').addEventListener('mouseover', event => {
+    const card = event.target.closest('.t-card');
+    if (!card || card.dataset.ovChecked) return;
+    card.dataset.ovChecked = '1';
+    const cap = $('.t-cap', card), title = $('.t-title', card), more = $('.t-more', card);
+    const clipped = el => el && el.scrollHeight > el.clientHeight + 1;
+    if (more && (clipped(cap) || clipped(title))) more.classList.add('has-overflow');
+  });
+
+  $$('dialog [data-close]').forEach(btn => btn.addEventListener('click', () => btn.closest('dialog').close()));
+  $('#quickView').addEventListener('click', event => { if (event.target === $('#quickView')) $('#quickView').close(); });
+
+  bindDragAndDrop();
+  bindScrubber();
+
+  let resizeTimer = null;
+  addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(layoutScrubber, 160); });
 }
 
-function setView(view) { state.view = view; $$('.view-switcher button').forEach(button => { const active = button.dataset.view === view; button.classList.toggle('active', active); button.setAttribute('aria-pressed', String(active)); }); render(); }
-function recordById(id) { return state.records.find(record => record.id === id); }
-function fileById(id) { return state.catalog.files.find(file => file.file_id === id); }
+function flashButton(btn, text) {
+  const old = btn.textContent;
+  btn.textContent = text;
+  setTimeout(() => { btn.textContent = old; }, 1500);
+}
+
+/* ————— Timeline mutations ————— */
+
+function addToTimeline(id) { insertAt(id, working.length); }
+
+function insertAt(id, index) {
+  const without = working.filter(x => x !== id);
+  index = Math.max(0, Math.min(index, without.length));
+  without.splice(index, 0, id);
+  working = without;
+  persist();
+  flipCards($('#canvasRow'), renderTimeline, id);
+  $(`#canvasRow .m-card[data-id="${id}"]`)?.scrollIntoView({ behavior: 'smooth', inline: 'nearest', block: 'nearest' });
+  applyFilters();
+}
+
+function removeFromTimeline(id) {
+  working = working.filter(x => x !== id);
+  persist();
+  flipCards($('#canvasRow'), renderTimeline);
+  applyFilters();
+}
+
+/* FLIP: measure card positions, mutate the DOM, then slide every surviving
+   card from its old spot to its new one. Cards that didn't exist before —
+   and the just-dropped card, which already rode in under the cursor — get
+   the landing pulse instead. */
+function flipCards(container, mutate, pulseId = null) {
+  const before = new Map($$('.m-card', container).map(card => [card.dataset.id, card.getBoundingClientRect().left]));
+  mutate();
+  $$('.m-card', container).forEach(card => {
+    if (card.classList.contains('drag-hidden')) return;
+    const old = before.get(card.dataset.id);
+    if (old == null || card.dataset.id === pulseId) {
+      card.classList.add('just-dropped');
+      card.addEventListener('animationend', () => card.classList.remove('just-dropped'), { once: true });
+      return;
+    }
+    const dx = old - card.getBoundingClientRect().left;
+    if (Math.abs(dx) < 1) return;
+    card.style.transition = 'none';
+    card.style.transform = `translateX(${dx}px)`;
+    card.getBoundingClientRect(); // force reflow so the transition below animates
+    card.style.transition = 'transform 260ms cubic-bezier(0.2, 0.72, 0.24, 1)';
+    card.style.transform = '';
+    card.addEventListener('transitionend', () => { card.style.transition = ''; }, { once: true });
+  });
+}
+
+/* ————— Rendering ————— */
 
 function applyFilters() {
-  const query = $('#search')?.value.trim().toLowerCase() || '';
-  const values = {
-    date: $('#dateFilter')?.value || '',
-    resolution: $('#resolutionFilter')?.value || '', selection: $('#selectionFilter')?.value || ''
-  };
-  state.filters = values; state.limit = 80;
-  state.filtered = state.records.filter(record => {
-    const year = effectiveDate(record);
-    const haystack = [edited(record,'title',record.title), edited(record,'caption',record.caption), edited(record,'attribution',record.attribution), record.visible_text, ...(record.subjects||[]), ...(record.locations||[]), ...(record.people||[]), ...(record.search_terms||[])].join(' ').toLowerCase();
-    return (!query || haystack.includes(query))
-      && (!values.date || (values.date === 'undated' ? !year : Math.floor(year / 10) * 10 === Number(values.date)))
-      && (!values.resolution || effectiveClassification(record) === values.resolution)
-      && (!values.selection || (values.selection === 'selected' ? isSelected(record) : values.selection === 'unselected' ? !isSelected(record) : record.curated));
+  const q = $('#searchInput').value.trim().toLowerCase();
+  const viability = $('#viabilityFilter').value;
+  const rights = $('#rightsFilter').value;
+  const hidePlaced = $('#hidePlaced').checked;
+  const placed = new Set(working);
+  trayRecords = chrono.filter(r => {
+    if (hidePlaced && placed.has(r.id)) return false;
+    if (viability && r.print_viability?.classification !== viability) return false;
+    if (rights && r.rights_status !== rights) return false;
+    if (q) {
+      const hay = [r.title, r.caption, r.visible_text, ...(r.subjects || []), ...(r.people || []), ...(r.locations || []), ...(r.search_terms || [])].join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
   });
-  const active = Object.values(values).filter(Boolean).length + Number(Boolean(query));
-  $('#filterCount').textContent = active; render(); updateCounts();
+  renderTray();
 }
 
-function updateCounts() {
-  if (!state.catalog) return;
-  $('#visibleCount').textContent = state.filtered.length.toLocaleString();
-  $('#catalogCount').textContent = state.records.length.toLocaleString();
-  $('#selectedCount').textContent = state.records.filter(isSelected).length.toLocaleString();
-}
-
-function card(record) {
-  const selected = isSelected(record); const year = effectiveDate(record); const classification = effectiveClassification(record);
-  return `<article class="photo-card" data-id="${record.id}">
-    <div class="photo-media"><img src="${encodeURI(record.thumbnail)}" loading="lazy" alt="${escapeHtml(edited(record,'title',record.title))}">
-    ${record.curated ? '<span class="flag">Mural set</span>' : ''}<button class="select-box ${selected?'selected':''}" type="button" data-select aria-label="${selected?'Remove from':'Add to'} mural selection">${selected?'✓':'＋'}</button></div>
-    <div class="photo-body"><p class="photo-date">${year || 'Date unknown'}</p><h3 class="photo-title">${escapeHtml(edited(record,'title',record.title))}</h3>
-    <p class="photo-caption">${escapeHtml(edited(record,'caption',record.caption))}</p>
-    <p class="photo-credit">Credit: ${escapeHtml(edited(record,'attribution',record.attribution||'Unknown'))}</p>
-    <div class="photo-meta"><span class="quality-pill ${classification==='Reference Only'?'reference':''}">${escapeHtml(classification)}</span><span>${record.original_pixels.width.toLocaleString()} × ${record.original_pixels.height.toLocaleString()} px</span></div></div>
-    <div class="card-actions"><button type="button" data-detail>View details</button>${record.version_file_ids.length>1?`<button type="button" data-compare>${record.version_file_ids.length} versions</button>`:''}</div>
+function trayCard(r, placed) {
+  return `<article class="t-card${placed ? ' placed' : ''}" draggable="true" data-id="${r.id}">
+    <figure class="t-fig">
+      <img src="${BLANK}" data-src="${encodeURI(r.thumbnail)}" alt="${esc(r.title)}" draggable="false">
+      <span class="t-year">${esc(yearLabel(r))}</span>
+      ${placed ? '<span class="placed-flag">On timeline</span>' : ''}
+    </figure>
+    <div class="t-body">
+      <h3 class="t-title">${esc(r.title)}</h3>
+      <p class="t-cap">${esc(r.caption)}</p>
+    </div>
+    <div class="t-more"><div><p class="t-more-year">${esc(displayDate(r))}</p><p class="t-more-title">${esc(r.title)}</p><p class="t-more-cap">${esc(r.caption)}</p></div></div>
+    <button class="t-add" type="button" data-add title="${placed ? 'Remove from timeline' : 'Add to end of timeline'}">${placed ? '−' : '+'}</button>
   </article>`;
 }
 
-function render() {
-  const root = $('#catalog'); if (!root) return;
-  root.className = `catalog ${state.view}-view`; const visible = state.filtered.slice(0, state.limit);
-  if (!visible.length) { root.innerHTML = '<div class="notice"><strong>No photographs match these filters.</strong><br>Try clearing one or more filters.</div>'; $('#loadMore').hidden = true; return; }
-  if (state.view === 'grid') root.innerHTML = visible.map(card).join('');
-  else {
-    const groups = new Map(); visible.forEach(record => { const year = effectiveDate(record); const label = year ? `${Math.floor(year/10)*10}s` : 'Undated'; if (!groups.has(label)) groups.set(label, []); groups.get(label).push(record); });
-    root.innerHTML = [...groups].map(([label, records]) => `<section class="timeline-group"><h2 class="timeline-year">${label}</h2><div class="timeline-items">${records.map(card).join('')}</div></section>`).join('');
-  }
-  $('#loadMore').hidden = state.filtered.length <= state.limit;
+function renderTray() {
+  const row = $('#trayRow');
+  const keep = row.scrollLeft;
+  const placed = new Set(working);
+  $('#trayCount').textContent = `${trayRecords.length} of ${records.length} photographs`;
+  row.innerHTML = trayRecords.length
+    ? trayRecords.map(r => trayCard(r, placed.has(r.id))).join('')
+    : '<p class="tray-empty">No photographs match these filters.</p>';
+  row.scrollLeft = keep;
+  observeImages(row);
+  layoutScrubber();
 }
 
-function catalogClick(event) {
-  const article = event.target.closest('.photo-card'); if (!article) return; const record = recordById(article.dataset.id);
-  if (event.target.closest('[data-select]')) { updateSaved(record, { selected: !isSelected(record) }); applyFilters(); }
-  else if (event.target.closest('[data-compare]')) showCompare(record);
-  else showDetail(record);
-}
-
-function metricRows(record) { return Object.entries(record.print_viability.ppi).map(([ppi, value]) => `<tr><td>${ppi} PPI</td><td>${value.width_inches} × ${value.height_inches} in</td><td>${value.native_crop_width_inches} × ${value.native_crop_height_inches} in</td></tr>`).join(''); }
-function researchPanel(record) {
-  const research = record.research; if (!research) return '';
-  const evidenceItem = e => `<li>${escapeHtml(e.label)}${e.url ? ` — <a href="${escapeHtml(e.url)}" target="_blank" rel="noopener">source</a>` : ''}</li>`;
-  return `<div class="research-box">
-    <p class="eyebrow">${escapeHtml(record.research_status === 'Provenance verified' ? 'Provenance-verified record' : 'Researched record')}${research.researched ? ` · ${escapeHtml(research.researched)}` : ''}${research.select_position ? ` · mural select #${research.select_position}` : ''}</p>
-    ${research.description ? `<p class="research-desc">${escapeHtml(research.description)}</p>` : ''}
-    ${research.holding ? `<p class="research-line"><strong>Holding:</strong> ${escapeHtml(research.holding.institution)}${research.holding.item_id ? ` · ${escapeHtml(research.holding.item_id)}` : ''}${research.holding.url ? ` · <a href="${escapeHtml(research.holding.url)}" target="_blank" rel="noopener">item record</a>` : ''}</p>` : ''}
-    ${record.rights_note && research ? `<p class="research-line"><strong>Rights:</strong> ${escapeHtml(record.rights_note)}</p>` : ''}
-    ${research.best_master ? `<p class="research-line"><strong>Best known master:</strong> ${escapeHtml(research.best_master.pixels || '')} — ${escapeHtml(research.best_master.location || '')}${research.best_master.note ? `<br><small>${escapeHtml(research.best_master.note)}</small>` : ''}</p>` : ''}
-    ${(research.corrections || []).length ? `<h4>Corrections</h4><ul class="research-list">${research.corrections.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul>` : ''}
-    ${(research.evidence || []).length ? `<h4>Evidence</h4><ul class="research-list evidence-list">${research.evidence.map(evidenceItem).join('')}</ul>` : ''}
-    ${(research.open_questions || []).length ? `<h4>Open questions</h4><ul class="research-list">${research.open_questions.map(q => `<li>${escapeHtml(q)}</li>`).join('')}</ul>` : ''}
-  </div>`;
-}
-function showDetail(record) {
-  const saved = savedFor(record); const master = fileById(record.master_file_id);
-  const livePrint = calculatedPrint(record);
-  $('#detailContent').innerHTML = `<div class="detail-layout"><div class="detail-image"><img src="${encodeURI(record.preview)}" alt="${escapeHtml(edited(record,'title',record.title))}"></div>
-  <div class="detail-copy"><p class="eyebrow">${record.curated?'Curated mural candidate':'Collection photograph'}</p><h2>${escapeHtml(edited(record,'title',record.title))}</h2>
-  <button class="${isSelected(record)?'secondary-button':'primary-button'}" id="detailSelect" type="button">${isSelected(record)?'✓ Selected for mural':'Select for mural'}</button>
-  <label>Working title<input id="editTitle" value="${escapeHtml(edited(record,'title',record.title))}"></label>
-  <label>Estimated year<input id="editDate" type="number" min="1800" max="2100" value="${escapeHtml(edited(record,'date',record.date.start)||'')}" placeholder="Unknown"></label>
-  <label>Working caption<textarea id="editCaption" placeholder="Add a verified or provisional caption…">${escapeHtml(edited(record,'caption',record.caption))}</textarea></label>
-  <label>Attribution / credit<input id="editAttribution" value="${escapeHtml(edited(record,'attribution',record.attribution||'Unknown'))}" placeholder="Holding institution, collection, or creator — 'Unknown' if unestablished"><small class="attribution-note">Source: ${escapeHtml(record.caption_source||'—')} · confidence: ${escapeHtml(record.attribution_confidence||'unknown')}</small></label>
-  <label>Research status<select id="editResearch">${[record.research_status, 'In progress', 'Researched', 'Provenance verified'].filter((status, index, all) => all.indexOf(status) === index).map(status => `<option>${escapeHtml(status)}</option>`).join('')}</select></label>
-  <label>Scan quality factor<select id="editQuality"><option value="1" ${effectiveQuality(record)===1?'selected':''}>Sharp · 100%</option><option value="0.75" ${effectiveQuality(record)===0.75?'selected':''}>Moderate · 75%</option><option value="0.5" ${effectiveQuality(record)===0.5?'selected':''}>Soft or damaged · 50%</option></select></label>
-  <label>Client comment<textarea id="detailComment" placeholder="Why this image works, preferred crop, questions…">${escapeHtml(saved.comment)}</textarea></label>
-  <div class="metric-box"><span id="liveClass">${escapeHtml(effectiveClassification(record))}</span><strong id="livePrint">Recommended native maximum: ${livePrint.width} × ${livePrint.height} in at 100 PPI</strong><small>${master.image.width.toLocaleString()} × ${master.image.height.toLocaleString()} original pixels · ${(record.print_viability.crop_allowance_percent)}% crop allowance · <span id="liveQuality">${Math.round(effectiveQuality(record)*100)}</span>% quality factor</small></div>
-  <table class="metric-table"><thead><tr><th>Output</th><th>Quality-adjusted</th><th>Native after crop</th></tr></thead><tbody>${metricRows(record)}</tbody></table>
-  ${researchPanel(record)}
-  <p class="disclaimer">Quality factors prevent soft or damaged scans from being overrated. AI-upscaled dimensions are not shown as native detail. Dates and machine suggestions require human verification.</p>
-  ${record.version_file_ids.length>1?`<button class="secondary-button" id="detailCompare" type="button">Compare ${record.version_file_ids.length} available versions</button>`:''}
-  </div></div>`;
-  const dialog = $('#detailDialog'); dialog.showModal();
-  $('#detailSelect').addEventListener('click', () => { updateSaved(record, { selected: !isSelected(record) }); dialog.close(); applyFilters(); });
-  ['Title','Date','Caption','Attribution'].forEach(name => $(`#edit${name}`).addEventListener('change', event => { const current = savedFor(record); updateSaved(record, { edits: { ...(current.edits||{}), [name.toLowerCase()]: event.target.value } }); }));
-  $('#editQuality').addEventListener('change', event => { const current = savedFor(record); updateSaved(record, { edits: { ...(current.edits||{}), quality: Number(event.target.value) } }); const value = calculatedPrint(record); $('#livePrint').textContent = `Recommended native maximum: ${value.width} × ${value.height} in at 100 PPI`; $('#liveQuality').textContent = Math.round(effectiveQuality(record)*100); $('#liveClass').textContent = effectiveClassification(record); });
-  $('#detailComment').addEventListener('input', event => updateSaved(record, { comment: event.target.value }));
-  $('#detailCompare')?.addEventListener('click', () => { dialog.close(); showCompare(record); });
-}
-
-function showCompare(record) {
-  const files = record.version_file_ids.map(fileById).filter(Boolean);
-  $('#compareContent').innerHTML = `<div class="compare-wrap"><p class="eyebrow">Alternate-version review</p><h2>${escapeHtml(edited(record,'title',record.title))}</h2><p>${escapeHtml(record.master_reason)}</p><div class="compare-grid">${files.map(file => `<article class="compare-item"><img src="${encodeURI(file.preview)}" alt="Version ${escapeHtml(file.filename)}"><div><strong>${file.file_id===record.master_file_id?'Recommended master · ':''}${escapeHtml(file.filename)}</strong><br>${file.image.width.toLocaleString()} × ${file.image.height.toLocaleString()} px · ${escapeHtml(file.image.format)}<br>Sharpness measure: ${file.image.sharpness_score}<br><small>${escapeHtml(file.path)}</small></div></article>`).join('')}</div></div>`;
-  $('#compareDialog').showModal();
-}
-
-function showSelectionPage() {
-  $('#catalog').hidden = true; $('.controls').hidden = true; $('#filterPanel').hidden = true; $('#loadMore').hidden = true; $('#muralPage').hidden = true; $('#selectionPage').hidden = false;
-  const records = state.records.filter(isSelected); $('#selectionSummary').textContent = `${records.length} photograph${records.length===1?'':'s'} in this browser’s saved shortlist.`;
-  $('#selectedGrid').innerHTML = records.length ? records.map(record => { const size=calculatedPrint(record); return `<article class="selected-row"><img src="${encodeURI(record.thumbnail)}" alt=""><div><strong>${escapeHtml(edited(record,'title',record.title))}</strong><p>${effectiveDate(record)||'Undated'} · ${escapeHtml(effectiveClassification(record))} · ${size.width} × ${size.height} in at 100 PPI</p><textarea data-id="${record.id}" placeholder="Client comment">${escapeHtml(savedFor(record).comment)}</textarea></div><button class="text-button danger" data-remove="${record.id}" type="button">Remove</button></article>`; }).join('') : '<div class="notice">No photographs are selected yet.</div>';
-  scrollTo({top:0, behavior:'smooth'});
-}
-function showCatalogPage() { $('#selectionPage').hidden = true; $('#muralPage').hidden = true; $('#catalog').hidden = false; $('.controls').hidden = false; applyFilters(); scrollTo({top:0, behavior:'smooth'}); }
-
-function showMuralPage() {
-  $('#catalog').hidden = true; $('.controls').hidden = true; $('#filterPanel').hidden = true; $('#loadMore').hidden = true; $('#selectionPage').hidden = true; $('#muralPage').hidden = false;
-  renderMural(); scrollTo({top:0, behavior:'smooth'});
-}
-
-function muralFrame(record, index) {
-  const year = effectiveDate(record); const size = calculatedPrint(record); const classification = effectiveClassification(record);
-  return `<article class="mural-frame" draggable="true" data-id="${record.id}">
-    <button class="frame-remove" type="button" data-remove-seq="${record.id}" aria-label="Remove from mural">×</button>
-    <div class="frame-media"><img src="${encodeURI(record.preview)}" loading="lazy" alt="${escapeHtml(edited(record,'title',record.title))}"><span class="frame-index">${index+1}</span></div>
-    <div class="frame-body">
-      <p class="frame-year">${year || 'Undated'}</p>
-      <h3 class="frame-title">${escapeHtml(edited(record,'title',record.title))}</h3>
-      <p class="frame-caption">${escapeHtml(edited(record,'caption',record.caption))}</p>
-      <p class="frame-credit">${escapeHtml(edited(record,'attribution',record.attribution||'Unknown'))}</p>
-      <p class="frame-print"><span class="quality-pill ${classification==='Reference Only'?'reference':''}">${escapeHtml(classification)}</span> ${size.width} × ${size.height} in · 100 PPI</p>
+function muralCard(r, i) {
+  return `<article class="m-card" draggable="true" data-id="${r.id}">
+    <span class="m-pos">${String(i + 1).padStart(2, '0')}</span>
+    <button class="m-remove" type="button" data-remove title="Remove from timeline">×</button>
+    <div class="m-matte"><img src="${BLANK}" data-src="${encodeURI(r.thumbnail)}" alt="${esc(r.title)}" draggable="false"></div>
+    <div class="m-plate">
+      <p class="m-year">${esc(shortDate(r))}</p>
+      <h3 class="m-title">${esc(r.title)}</h3>
+      <p class="m-cap">${esc(r.caption)}</p>
     </div>
   </article>`;
 }
 
-function renderMural() {
-  const records = orderedSelection(); const ribbon = $('#muralRibbon');
-  const years = records.map(effectiveDate).filter(v => v != null);
-  const span = years.length ? ` · ${Math.min(...years)}–${Math.max(...years)}` : '';
-  $('#muralSummary').textContent = records.length ? `${records.length} photograph${records.length===1?'':'s'} in sequence${span}. Drag to reorder.` : 'No photographs selected yet.';
-  $('#downloadMural').disabled = !records.length;
-  ribbon.innerHTML = records.length ? records.map(muralFrame).join('') : '<div class="notice">Nothing selected yet. Choose photographs in the catalog, then return here to arrange them.</div>';
+function renderTimeline() {
+  const row = $('#canvasRow');
+  const keep = row.scrollLeft;
+  if (!working.length) {
+    row.innerHTML = `<div class="canvas-empty"><strong>An empty wall.</strong>Drag photographs up from the collection below to build the mural timeline.<br>Rearrange them at any time — everything is saved in this browser.</div>`;
+  } else {
+    row.innerHTML = working.map((id, i) => muralCard(byId.get(id), i)).join('');
+    observeImages(row);
+  }
+  row.scrollLeft = keep;
+  updateStats();
 }
 
-function bindMuralInteractions() {
-  const ribbon = $('#muralRibbon');
-  ribbon.addEventListener('dragstart', event => { const frame = event.target.closest('.mural-frame'); if (!frame) return; frame.classList.add('dragging'); event.dataTransfer.effectAllowed = 'move'; });
-  ribbon.addEventListener('dragend', event => { event.target.closest('.mural-frame')?.classList.remove('dragging'); saveSequence($$('.mural-frame', ribbon).map(frame => frame.dataset.id)); renderMural(); });
-  ribbon.addEventListener('dragover', event => {
-    event.preventDefault(); const dragging = $('.dragging', ribbon); if (!dragging) return;
-    const after = frameAfterPoint(ribbon, event.clientX, event.clientY);
-    if (after == null) ribbon.appendChild(dragging); else if (after !== dragging) ribbon.insertBefore(dragging, after);
+function updateStats() {
+  const recs = working.map(id => byId.get(id));
+  const years = recs.map(startYear).filter(Boolean);
+  const span = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : '';
+  const n = working.length;
+  $('#timelineStat').textContent = n ? `${n} photograph${n === 1 ? '' : 's'} on the timeline${span ? ` · ${span}` : ''}` : 'Timeline is empty';
+  $('#canvasMeta').textContent = n
+    ? `${n} placed${span ? ` · spanning ${span}` : ''} · drag to reorder · drag down to the collection to remove`
+    : 'Drag photographs up from the collection to begin';
+  const dirty = JSON.stringify(working) !== JSON.stringify(approved);
+  $('#dirtyDot').hidden = !dirty;
+  $('#revertBtn').disabled = !dirty;
+  $('#approvedNote').textContent = approvedAt
+    ? `Approved ${new Date(approvedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`
+    : 'Seeded from the client selects (2026-07-17)';
+}
+
+/* ————— Lazy loading ————— */
+
+function observeImages(container) {
+  if (!io) {
+    io = new IntersectionObserver(entries => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        const img = entry.target;
+        io.unobserve(img);
+        img.addEventListener('load', () => { img.classList.add('loaded'); loadedImgs.add(img.dataset.src); }, { once: true });
+        img.src = img.dataset.src;
+      }
+    }, { rootMargin: '400px 1000px 400px 1000px' });
+  }
+  $$('img[data-src]', container).forEach(img => {
+    if (loadedImgs.has(img.dataset.src)) { img.src = img.dataset.src; img.classList.add('loaded'); }
+    else io.observe(img);
   });
-  ribbon.addEventListener('click', event => {
-    const remove = event.target.closest('[data-remove-seq]');
-    if (remove) { updateSaved(recordById(remove.dataset.removeSeq), { selected: false }); renderMural(); return; }
-    if ($('.dragging', ribbon)) return;
-    const frame = event.target.closest('.mural-frame'); if (frame) showDetail(recordById(frame.dataset.id));
+}
+
+/* ————— Drag & drop ————— */
+
+let drag = null;
+let slotEl = null;
+
+function ensureSlot() {
+  if (!slotEl) { slotEl = document.createElement('div'); slotEl.className = 'drop-slot'; }
+  return slotEl;
+}
+function removeSlot() { slotEl?.remove(); }
+
+function placeSlot(canvas, x) {
+  const slot = ensureSlot();
+  const cards = $$('.m-card:not(.dragging):not(.drag-hidden)', canvas);
+  let target = null;
+  for (const card of cards) {
+    const rect = card.getBoundingClientRect();
+    if (x < rect.left + rect.width / 2) { target = card; break; }
+  }
+  if (!slotMoved(canvas, target)) return;
+  flipCards(canvas, () => {
+    if (target) canvas.insertBefore(slot, target);
+    else canvas.appendChild(slot);
   });
 }
 
-function frameAfterPoint(container, x, y) {
-  const frames = $$('.mural-frame:not(.dragging)', container);
-  let closest = { distance: Infinity, element: null };
-  frames.forEach(frame => { const box = frame.getBoundingClientRect(); const cx = box.left + box.width / 2; const cy = box.top + box.height / 2; if (x < cx) { const distance = Math.hypot(x - cx, y - cy); if (distance < closest.distance) closest = { distance, element: frame }; } });
-  return closest.element;
+/* True when the slot is absent or not already sitting just before `target`
+   (ignoring the collapsed dragged card), so we only re-insert on real moves. */
+function slotMoved(canvas, target) {
+  if (!slotEl || slotEl.parentNode !== canvas) return true;
+  let sibling = slotEl.nextElementSibling;
+  while (sibling && (sibling.classList.contains('dragging') || sibling.classList.contains('drag-hidden'))) sibling = sibling.nextElementSibling;
+  return sibling !== target;
 }
 
-function muralData() {
-  const records = orderedSelection();
-  return { generated_at: new Date().toISOString(), project: state.catalog.project_title, sequence_length: records.length, sequence: records.map((record, index) => { const size = calculatedPrint(record); return { position: index+1, id: record.id, title: edited(record,'title',record.title), estimated_year: effectiveDate(record), caption: edited(record,'caption',record.caption), attribution: edited(record,'attribution',record.attribution||'Unknown'), classification: effectiveClassification(record), recommended_native_maximum: `${size.width} × ${size.height} in at 100 PPI`, comment: savedFor(record).comment, master_file_id: record.master_file_id, source_paths: record.version_file_ids.map(id => fileById(id)?.path).filter(Boolean) }; }) };
+function slotIndex(canvas) {
+  if (!slotEl || !slotEl.parentNode) return working.length;
+  let i = 0;
+  for (const child of canvas.children) {
+    if (child === slotEl) return i;
+    if (child.classList.contains('m-card') && !child.classList.contains('dragging') && !child.classList.contains('drag-hidden')) i++;
+  }
+  return i;
 }
-function downloadMural() { const blob = new Blob([JSON.stringify(muralData(), null, 2)], {type:'application/json'}); const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = `beaumont-mural-sequence-${new Date().toISOString().slice(0,10)}.json`; link.click(); URL.revokeObjectURL(url); }
 
-function reportData() { return { generated_at: new Date().toISOString(), project: state.catalog.project_title, note: 'Selections and comments are browser-local until this report is shared.', selections: state.records.filter(isSelected).map(record => { const size=calculatedPrint(record); return { id: record.id, title: edited(record,'title',record.title), caption: edited(record,'caption',record.caption), attribution: edited(record,'attribution',record.attribution||'Unknown'), attribution_confidence: record.attribution_confidence||'unknown', caption_source: record.caption_source||'', estimated_year: effectiveDate(record), comment: savedFor(record).comment, classification: effectiveClassification(record), recommended_native_maximum: `${size.width} × ${size.height} in at 100 PPI`, quality_factor: effectiveQuality(record), master_file_id: record.master_file_id, source_paths: record.version_file_ids.map(id => fileById(id)?.path).filter(Boolean) }; }) }; }
-function reportText() { const data = reportData(); return `${data.project}\nSelection report · ${new Date(data.generated_at).toLocaleString()}\n\n${data.selections.map((item,i) => `${i+1}. ${item.title} (${item.estimated_year||'undated'})\n   ID: ${item.id}\n   Caption: ${item.caption||'—'}\n   Credit: ${item.attribution||'Unknown'} (${item.attribution_confidence})\n   Print: ${item.classification}; ${item.recommended_native_maximum}\n   Comment: ${item.comment||'—'}\n   Master: ${item.source_paths[0]||item.master_file_id}`).join('\n\n')}`; }
-function downloadReport() { const blob = new Blob([JSON.stringify(reportData(), null, 2)], {type:'application/json'}); const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href=url; link.download=`beaumont-mural-selection-${new Date().toISOString().slice(0,10)}.json`; link.click(); URL.revokeObjectURL(url); }
-async function copyReport() { await navigator.clipboard.writeText(reportText()); const button=$('#copyReport'); const old=button.textContent; button.textContent='Copied'; setTimeout(()=>button.textContent=old,1600); }
+function autoScroll(el, x) {
+  const rect = el.getBoundingClientRect(), edge = 90, speed = 16;
+  if (x < rect.left + edge) el.scrollLeft -= speed;
+  else if (x > rect.right - edge) el.scrollLeft += speed;
+}
 
-init();
+function bindDragAndDrop() {
+  const canvas = $('#canvasRow');
+  const trayZone = $('.tray-zone');
+
+  document.addEventListener('dragstart', event => {
+    const card = event.target.closest?.('.m-card, .t-card');
+    if (!card) return;
+    drag = { id: card.dataset.id, origin: card.classList.contains('m-card') ? 'timeline' : 'tray' };
+    card.classList.add('dragging');
+    event.dataTransfer.effectAllowed = 'move';
+    try { event.dataTransfer.setData('text/plain', card.dataset.id); } catch { /* IE-era quirk guard */ }
+    // Collapse the card's spot on the timeline so the row closes around it.
+    // Deferred a tick: hiding the source synchronously would cancel the drag.
+    setTimeout(() => {
+      if (!drag) return;
+      const twin = $(`#canvasRow .m-card[data-id="${drag.id}"]`);
+      if (twin) flipCards(canvas, () => twin.classList.add('drag-hidden'));
+    }, 0);
+  });
+
+  document.addEventListener('dragend', () => {
+    $$('.dragging').forEach(el => el.classList.remove('dragging'));
+    // Reopen any collapsed spot (drag cancelled or dropped elsewhere)
+    if ($('.drag-hidden', canvas)) {
+      flipCards(canvas, () => $$('.drag-hidden', canvas).forEach(el => el.classList.remove('drag-hidden')));
+    }
+    removeSlot();
+    canvas.classList.remove('drop-ready');
+    trayZone.classList.remove('remove-intent');
+    drag = null;
+  });
+
+  canvas.addEventListener('dragover', event => {
+    if (!drag) return;
+    event.preventDefault();
+    event.dataTransfer.dropEffect = 'move';
+    canvas.classList.add('drop-ready');
+    autoScroll(canvas, event.clientX);
+    placeSlot(canvas, event.clientX);
+  });
+
+  canvas.addEventListener('dragleave', event => {
+    if (!canvas.contains(event.relatedTarget)) {
+      removeSlot();
+      canvas.classList.remove('drop-ready');
+    }
+  });
+
+  canvas.addEventListener('drop', event => {
+    if (!drag) return;
+    event.preventDefault();
+    const index = slotIndex(canvas);
+    removeSlot();
+    canvas.classList.remove('drop-ready');
+    insertAt(drag.id, index);
+  });
+
+  trayZone.addEventListener('dragover', event => {
+    if (drag?.origin !== 'timeline') return;
+    event.preventDefault();
+    event.dataTransfer.dropEffect = 'move';
+    trayZone.classList.add('remove-intent');
+  });
+
+  trayZone.addEventListener('dragleave', event => {
+    if (!trayZone.contains(event.relatedTarget)) trayZone.classList.remove('remove-intent');
+  });
+
+  trayZone.addEventListener('drop', event => {
+    if (drag?.origin !== 'timeline') return;
+    event.preventDefault();
+    trayZone.classList.remove('remove-intent');
+    removeFromTimeline(drag.id);
+  });
+}
+
+/* ————— Scrubber ————— */
+
+function layoutScrubber() {
+  const tray = $('#trayRow'), ticks = $('#scrubTicks');
+  const sw = tray.scrollWidth, cw = tray.clientWidth;
+  const scrollable = sw > cw + 4;
+  $('#scrubber').style.visibility = scrollable ? 'visible' : 'hidden';
+  if (!scrollable) { ticks.innerHTML = ''; return; }
+  const seen = new Set();
+  const minGap = (44 / Math.max(ticks.clientWidth, 1)) * 100; // keep labels from colliding
+  let lastPct = -Infinity;
+  let html = '';
+  $$('.t-card', tray).forEach(card => {
+    const record = byId.get(card.dataset.id);
+    const year = startYear(record);
+    if (year == null) return;
+    const decade = Math.floor(year / 10) * 10;
+    if (seen.has(decade)) return;
+    seen.add(decade);
+    const pct = (card.offsetLeft / sw) * 100;
+    if (pct - lastPct < minGap) return;
+    lastPct = pct;
+    html += `<button class="scrub-tick" type="button" style="left:${pct.toFixed(2)}%" data-left="${card.offsetLeft}">${decade}s</button>`;
+  });
+  ticks.innerHTML = html;
+  updateHandle();
+}
+
+function updateHandle() {
+  const tray = $('#trayRow'), track = $('#scrubTrack'), handle = $('#scrubHandle');
+  const sw = tray.scrollWidth, cw = tray.clientWidth, max = sw - cw;
+  const width = Math.max(34, track.clientWidth * (cw / sw));
+  handle.style.width = `${width}px`;
+  const pct = max > 0 ? tray.scrollLeft / max : 0;
+  handle.style.left = `${pct * (track.clientWidth - width)}px`;
+}
+
+function bindScrubber() {
+  const tray = $('#trayRow'), track = $('#scrubTrack');
+  let ticking = false;
+  tray.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => { updateHandle(); ticking = false; });
+  });
+  $('#scrubTicks').addEventListener('click', event => {
+    const tick = event.target.closest('.scrub-tick');
+    if (tick) tray.scrollTo({ left: Number(tick.dataset.left) - 26, behavior: 'smooth' });
+  });
+  let scrubbing = false;
+  const scrubTo = event => {
+    const handle = $('#scrubHandle');
+    const rect = track.getBoundingClientRect(), hw = handle.offsetWidth;
+    const pct = Math.min(1, Math.max(0, (event.clientX - rect.left - hw / 2) / (rect.width - hw)));
+    tray.scrollLeft = pct * (tray.scrollWidth - tray.clientWidth);
+  };
+  track.addEventListener('pointerdown', event => {
+    scrubbing = true;
+    track.setPointerCapture(event.pointerId);
+    scrubTo(event);
+  });
+  track.addEventListener('pointermove', event => { if (scrubbing) scrubTo(event); });
+  track.addEventListener('pointerup', () => { scrubbing = false; });
+  track.addEventListener('pointercancel', () => { scrubbing = false; });
+}
+
+/* ————— Quick view ————— */
+
+/* Evidence links recorded by the research campaign — every record carries
+   them; entries without a URL (offline sources) render as plain text. */
+function sourceCitations(record) {
+  return (record.research?.evidence || []).filter(e => e && (e.label || e.url));
+}
+
+function citationsBlock(record) {
+  const sources = sourceCitations(record);
+  if (!sources.length) return '';
+  const items = sources.map(e => {
+    const label = esc(e.label || e.url);
+    return `<li>${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${label}</a>` : label}</li>`;
+  }).join('');
+  return `<details class="qv-sources"><summary>Sources &amp; citations (${sources.length})</summary><ul>${items}</ul></details>`;
+}
+
+function quickView(record) {
+  const placed = working.includes(record.id);
+  const research = record.research;
+  $('#quickViewBody').innerHTML = `<div class="qv-grid">
+    <div class="qv-photo">
+      <img src="${encodeURI(record.preview)}" alt="${esc(record.title)}" draggable="false">
+      <span class="qv-zoom-hint">Scroll to zoom · drag to pan · double-click to reset</span>
+      <button class="qv-zoom-reset" type="button" hidden></button>
+    </div>
+    <div class="qv-copy">
+      <p class="qv-year">${esc(displayDate(record))}</p>
+      <h3 class="qv-title">${esc(record.title)}</h3>
+      <p class="qv-cap">${esc(record.caption)}</p>
+      ${research?.description ? `<p class="qv-desc">${esc(research.description)}</p>` : ''}
+      <p class="qv-facts">
+        ${record.attribution ? `<strong>Credit</strong> ${esc(record.attribution)}<br>` : ''}
+        <strong>Rights</strong> ${esc(record.rights_status || '—')}${record.rights_note ? ` — ${esc(record.rights_note)}` : ''}<br>
+        ${record.caption_source ? `<strong>Caption source</strong> ${esc(record.caption_source)}<br>` : ''}
+        <strong>Print</strong> ${esc(record.print_viability?.classification || '—')} · ${record.original_pixels.width.toLocaleString()} × ${record.original_pixels.height.toLocaleString()} px
+      </p>
+      ${citationsBlock(record)}
+      <div class="qv-actions">
+        <button class="btn ${placed ? 'outline' : 'brass'}" id="qvToggle" type="button">${placed ? 'Remove from timeline' : 'Add to timeline'}</button>
+      </div>
+    </div>
+  </div>`;
+  const dialog = $('#quickView');
+  dialog.showModal();
+  bindPhotoZoom($('.qv-photo', dialog));
+  $('#qvToggle').addEventListener('click', () => {
+    if (working.includes(record.id)) removeFromTimeline(record.id);
+    else addToTimeline(record.id);
+    dialog.close();
+  });
+}
+
+/* Wheel/pinch to zoom toward the cursor, drag to pan, double-click or the
+   chip to reset. State lives per open — the markup is rebuilt each view. */
+function bindPhotoZoom(stage) {
+  const img = $('img', stage);
+  const resetChip = $('.qv-zoom-reset', stage);
+  const MAX_SCALE = 8;
+  let scale = 1, tx = 0, ty = 0, drag = null;
+
+  const apply = () => {
+    img.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
+    stage.classList.toggle('zoomed', scale > 1);
+    resetChip.hidden = scale <= 1;
+    if (!resetChip.hidden) resetChip.textContent = `${Math.round(scale * 100)}% · Reset`;
+  };
+
+  const clampPan = () => {
+    const boundX = Math.max(0, (img.offsetWidth * scale - stage.clientWidth) / 2);
+    const boundY = Math.max(0, (img.offsetHeight * scale - stage.clientHeight) / 2);
+    tx = Math.min(boundX, Math.max(-boundX, tx));
+    ty = Math.min(boundY, Math.max(-boundY, ty));
+  };
+
+  const animate = () => {
+    stage.classList.add('anim');
+    img.addEventListener('transitionend', () => stage.classList.remove('anim'), { once: true });
+  };
+
+  const reset = () => { scale = 1; tx = 0; ty = 0; animate(); apply(); };
+
+  const zoomAt = (clientX, clientY, factor) => {
+    const rect = stage.getBoundingClientRect();
+    const px = clientX - rect.left - rect.width / 2;
+    const py = clientY - rect.top - rect.height / 2;
+    const next = Math.min(MAX_SCALE, Math.max(1, scale * factor));
+    if (next === scale) return;
+    tx = px - (next / scale) * (px - tx);
+    ty = py - (next / scale) * (py - ty);
+    scale = next;
+    if (scale === 1) { tx = 0; ty = 0; }
+    clampPan();
+    apply();
+  };
+
+  stage.addEventListener('wheel', event => {
+    event.preventDefault();
+    /* ctrlKey marks a trackpad pinch, whose deltas are much finer */
+    zoomAt(event.clientX, event.clientY, Math.exp(-event.deltaY * (event.ctrlKey ? 0.01 : 0.0022)));
+  }, { passive: false });
+
+  stage.addEventListener('dblclick', event => {
+    if (scale > 1) reset();
+    else { animate(); zoomAt(event.clientX, event.clientY, 2.5); }
+  });
+
+  stage.addEventListener('pointerdown', event => {
+    if (scale <= 1 || event.button !== 0 || event.target === resetChip) return;
+    drag = { x: event.clientX, y: event.clientY };
+    stage.classList.add('dragging');
+    stage.setPointerCapture(event.pointerId);
+  });
+  stage.addEventListener('pointermove', event => {
+    if (!drag) return;
+    tx += event.clientX - drag.x;
+    ty += event.clientY - drag.y;
+    drag = { x: event.clientX, y: event.clientY };
+    clampPan();
+    apply();
+  });
+  const endDrag = () => { drag = null; stage.classList.remove('dragging'); };
+  stage.addEventListener('pointerup', endDrag);
+  stage.addEventListener('pointercancel', endDrag);
+
+  resetChip.addEventListener('click', reset);
+}
+
+/* ————— Export ————— */
+
+async function exportDoc() {
+  if (!working.length) { alert('The timeline is empty — add photographs before exporting.'); return; }
+  const btn = $('#exportBtn');
+  const old = btn.textContent;
+  btn.disabled = true;
+  try {
+    const recs = working.map(id => byId.get(id));
+    const images = [];
+    for (let i = 0; i < recs.length; i++) {
+      btn.textContent = `Embedding ${i + 1}/${recs.length}…`;
+      images.push(await imageDataUri(recs[i].preview));
+    }
+    btn.textContent = 'Writing document…';
+    const blob = new Blob([exportHtml(recs, images)], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `beaumont-timeline-${new Date().toISOString().slice(0, 10)}.html`;
+    link.click();
+    URL.revokeObjectURL(url);
+  } finally {
+    btn.textContent = old;
+    btn.disabled = false;
+  }
+}
+
+function imageDataUri(src) {
+  return new Promise(resolve => {
+    const img = new Image();
+    img.onload = () => {
+      const MAX = 1200;
+      const scale = Math.min(1, MAX / Math.max(img.naturalWidth, img.naturalHeight));
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.max(1, Math.round(img.naturalWidth * scale));
+      canvas.height = Math.max(1, Math.round(img.naturalHeight * scale));
+      canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+      try { resolve(canvas.toDataURL('image/jpeg', 0.85)); } catch { resolve(null); }
+    };
+    img.onerror = () => resolve(null);
+    img.src = encodeURI(src);
+  });
+}
+
+function exportHtml(recs, images) {
+  const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  const years = recs.map(startYear).filter(Boolean);
+  const span = years.length ? `${Math.min(...years)} – ${Math.max(...years)}` : '—';
+  const entries = recs.map((r, i) => {
+    const sources = sourceCitations(r);
+    return `
+    <article class="entry">
+      <header><span class="pos">${i + 1}</span><span class="year">${esc(displayDate(r))}</span></header>
+      ${images[i] ? `<img src="${images[i]}" alt="${esc(r.title)}">` : '<p class="missing">[This image could not be embedded]</p>'}
+      <h2>${esc(r.title)}</h2>
+      <p class="cap">${esc(r.caption)}</p>
+      ${r.research?.description ? `<p class="desc">${esc(r.research.description)}</p>` : ''}
+      <p class="credit">Credit: ${esc(r.attribution || 'Unknown')} · Rights: ${esc(r.rights_status || 'Undetermined')}${r.caption_source ? ` · Caption source: ${esc(r.caption_source)}` : ''}</p>
+      ${sources.length ? `<div class="sources"><p class="sources-head">Sources &amp; citations</p><ol>${sources.map(e => `<li>${esc(e.label || '')}${e.url ? `${e.label ? ' — ' : ''}<a href="${esc(e.url)}">${esc(e.url)}</a>` : ''}</li>`).join('')}</ol></div>` : ''}
+    </article>`;
+  }).join('\n');
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Beaumont in Pictures — Timeline Sequence</title>
+<style>
+  body { margin: 0; background: #f6f0e2; color: #23282a; font-family: Georgia, "Times New Roman", serif; line-height: 1.55; }
+  .doc { max-width: 780px; margin: 0 auto; padding: 56px 32px 72px; }
+  .cover { text-align: center; border-bottom: 3px double #b09a5e; padding-bottom: 34px; margin-bottom: 12px; }
+  .cover .rule { font-size: 11px; letter-spacing: .3em; text-transform: uppercase; color: #8c5a1c; margin: 0 0 14px; font-family: "Franklin Gothic Medium", "Helvetica Neue", sans-serif; }
+  .cover h1 { font-size: 40px; font-weight: normal; margin: 0 0 8px; }
+  .cover h1 em { color: #8c5a1c; }
+  .cover p { margin: 4px 0; color: #55504a; font-size: 14px; }
+  .entry { border-top: 1px solid #d8ccae; padding: 34px 0 26px; page-break-inside: avoid; break-inside: avoid; }
+  .entry:first-of-type { border-top: none; }
+  .entry header { display: flex; align-items: baseline; gap: 14px; margin-bottom: 14px; font-family: "Franklin Gothic Medium", "Helvetica Neue", sans-serif; }
+  .entry .pos { background: #15424a; color: #f2e9d8; font-size: 12px; padding: 3px 9px; border-radius: 2px; letter-spacing: .08em; }
+  .entry .year { font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: #8c5a1c; font-weight: bold; }
+  .entry img { max-width: 100%; max-height: 540px; display: block; margin: 0 auto 16px; box-shadow: 0 4px 18px rgba(35,40,42,.25); background: #0b0b0a; padding: 8px; box-sizing: border-box; }
+  .entry h2 { font-size: 22px; font-weight: normal; margin: 0 0 8px; }
+  .entry .cap { margin: 0 0 10px; font-size: 15px; }
+  .entry .desc { margin: 0 0 10px; font-size: 13.5px; color: #55504a; }
+  .entry .credit { margin: 0; font-size: 12px; color: #7a736a; font-style: italic; }
+  .entry .sources { margin-top: 10px; }
+  .entry .sources-head { margin: 0 0 4px; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: #8c5a1c; font-family: "Franklin Gothic Medium", "Helvetica Neue", sans-serif; }
+  .entry .sources ol { margin: 0; padding-left: 18px; font-size: 11px; line-height: 1.6; color: #7a736a; }
+  .entry .sources a { color: #8c5a1c; overflow-wrap: anywhere; }
+  .missing { color: #a33; font-style: italic; }
+  footer { border-top: 3px double #b09a5e; margin-top: 20px; padding-top: 18px; text-align: center; font-size: 12px; color: #7a736a; }
+  @media print { body { background: #fff; } .doc { padding: 24px 0; } .entry img { box-shadow: none; } }
+</style>
+</head>
+<body>
+<div class="doc">
+  <header class="cover">
+    <p class="rule">Beaumont Library District · Timeline Mural</p>
+    <h1>Beaumont <em>in Pictures</em></h1>
+    <p>Approved timeline sequence — ${recs.length} photograph${recs.length === 1 ? '' : 's'}, spanning ${esc(span)}</p>
+    <p>Prepared ${esc(today)}</p>
+  </header>
+  ${entries}
+  <footer>
+    <p>Generated from the Beaumont historical photo catalog. Photographs run in mural order, left to right.<br>
+    Dates marked “c.” are estimates; credits and rights determinations are recorded per photograph above.</p>
+  </footer>
+</div>
+</body>
+</html>`;
+}

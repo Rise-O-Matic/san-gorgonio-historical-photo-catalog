@@ -323,31 +323,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.8,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.8
+            "width_inches": 4.6,
+            "height_inches": 3.7,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.7
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.4,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.4
+            "width_inches": 6.1,
+            "height_inches": 4.9,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.9
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.6,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.6
+            "width_inches": 9.2,
+            "height_inches": 7.4,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.4
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 7.2,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 7.2
+            "width_inches": 18.4,
+            "height_inches": 14.7,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 14.7
           }
         },
-        "recommended": "4.5 × 3.6 in at 100 PPI",
+        "recommended": "9.2 × 7.4 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -499,8 +499,8 @@
       "thumbnail": "assets/thumbs/file_a7f6a7d24337d6c4.jpg",
       "preview": "assets/previews/file_a7f6a7d24337d6c4.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 399
+        "width": 1024,
+        "height": 818
       },
       "attribution": "Beaumont Library District, via Calisphere (CBEA_147, ark:/13030/c87p8xrn); rights: Copyrighted — Laura May Stewart Trust",
       "attribution_confidence": "confirmed",
@@ -606,31 +606,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 2.2,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 2.2
+            "width_inches": 2.1,
+            "height_inches": 2.7,
+            "native_crop_width_inches": 2.1,
+            "native_crop_height_inches": 2.7
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 3.0,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 3.0
+            "width_inches": 2.8,
+            "height_inches": 3.6,
+            "native_crop_width_inches": 2.8,
+            "native_crop_height_inches": 3.6
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 4.5,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 4.5
+            "width_inches": 4.1,
+            "height_inches": 5.3,
+            "native_crop_width_inches": 4.1,
+            "native_crop_height_inches": 5.3
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 9.0,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 9.0
+            "width_inches": 8.3,
+            "height_inches": 10.7,
+            "native_crop_width_inches": 8.3,
+            "native_crop_height_inches": 10.7
           }
         },
-        "recommended": "4.5 × 4.5 in at 100 PPI",
+        "recommended": "4.1 × 5.3 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -794,10 +794,10 @@
       "thumbnail": "assets/thumbs/file_30cab5e4d7341ae5.jpg",
       "preview": "assets/previews/file_30cab5e4d7341ae5.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 500
+        "width": 459,
+        "height": 593
       },
-      "attribution": "Huntington Library, Weinland Collection (photCL 39 (126)); Banning Library District print via Calisphere (CBAN_120, ark:/13030/c8d798dr); photograph by Cramer's California Gallery, 402 Kearny St., San Francisco",
+      "attribution": "Huntington Library, Weinland Collection (photCL 39 (126)); Banning Library District print via Calisphere (CBAN_120, ark:/13030/c8d798dr); photograph by Cramer's California Gallery, 402 Kearny St., San Francisco; complete-portrait copy via the Morongo Band of Mission Indians",
       "attribution_confidence": "confirmed",
       "caption_source": "Huntington Library Weinland Collection — exact print visually confirmed (2026-07-20)",
       "research": {
@@ -807,7 +807,8 @@
         "corrections": [
           "The old label 'Morongo Band of Mission Indians, 1908' misdescribed a named individual as an anonymous group.",
           "The 1908 date is impossible for a life portrait: two 1898 newspapers report Morongo's death at the Banning reservation in July 1898. '1908' is the year the reservation formally took the Morongo name.",
-          "Likely source of the date confusion: his brother Francisco died in 1906."
+          "Likely source of the date confusion: his brother Francisco died in 1906.",
+          "2026-07-22: display image upgraded from the 500×500 square head crop to the complete arched cabinet-card portrait (459×593, Morongo Band of Mission Indians copy). The old tight crop carried marginally more facial pixel detail; the complete portrait is preferred for display. A permissioned Huntington IIIF scan remains the best possible master."
         ],
         "evidence": [
           {
@@ -863,7 +864,7 @@
         "best_master": {
           "location": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12408/",
           "pixels": "higher-resolution IIIF scan available from the Huntington",
-          "note": "Exact print at the Huntington (photCL 39 (126), inscribed 'The late Capt. John Morongo'); this archive's copy is 500×500 px. Requires Huntington permission; the Banning Library District print (CBAN_120) is an alternative source."
+          "note": "Exact print at the Huntington (photCL 39 (126), inscribed 'The late Capt. John Morongo'); a permissioned high-res scan from them would supersede everything. This archive now displays the complete 459×593 MBMI-copy portrait (data/masters/img_72d13585ff607c22.jpg) in place of the earlier 500×500 square crop. The Banning Library District print (CBAN_120) is an alternative source."
         },
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
@@ -938,31 +939,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.8,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.8
+            "width_inches": 4.6,
+            "height_inches": 3.6,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.6
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.4,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.4
+            "width_inches": 6.1,
+            "height_inches": 4.8,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.8
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.5,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.5
+            "width_inches": 9.2,
+            "height_inches": 7.3,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.3
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 7.1,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 7.1
+            "width_inches": 18.4,
+            "height_inches": 14.5,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 14.5
           }
         },
-        "recommended": "4.5 × 3.5 in at 100 PPI",
+        "recommended": "9.2 × 7.3 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -1138,8 +1139,8 @@
       "thumbnail": "assets/thumbs/file_a2d68236077282d5.jpg",
       "preview": "assets/previews/file_a2d68236077282d5.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 394
+        "width": 1024,
+        "height": 806
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_174)",
       "attribution_confidence": "confirmed",
@@ -2561,32 +2562,32 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 1.1,
-            "height_inches": 0.9,
-            "native_crop_width_inches": 1.1,
-            "native_crop_height_inches": 0.9
+            "width_inches": 8.8,
+            "height_inches": 7.0,
+            "native_crop_width_inches": 8.8,
+            "native_crop_height_inches": 7.0
           },
           "150": {
-            "width_inches": 1.5,
-            "height_inches": 1.2,
-            "native_crop_width_inches": 1.5,
-            "native_crop_height_inches": 1.2
+            "width_inches": 11.7,
+            "height_inches": 9.4,
+            "native_crop_width_inches": 11.7,
+            "native_crop_height_inches": 9.4
           },
           "100": {
-            "width_inches": 2.3,
-            "height_inches": 1.8,
-            "native_crop_width_inches": 2.3,
-            "native_crop_height_inches": 1.8
+            "width_inches": 17.6,
+            "height_inches": 14.1,
+            "native_crop_width_inches": 17.6,
+            "native_crop_height_inches": 14.1
           },
           "50": {
-            "width_inches": 4.6,
-            "height_inches": 3.6,
-            "native_crop_width_inches": 4.6,
-            "native_crop_height_inches": 3.6
+            "width_inches": 35.1,
+            "height_inches": 28.1,
+            "native_crop_width_inches": 35.1,
+            "native_crop_height_inches": 28.1
           }
         },
-        "recommended": "2.3 × 1.8 in at 100 PPI",
-        "classification": "Reference Only",
+        "recommended": "17.6 × 14.1 in at 100 PPI",
+        "classification": "Potentially Usable",
         "ai_upscaled_estimate": null
       },
       "metadata_suggestions": [
@@ -2745,8 +2746,8 @@
       "thumbnail": "assets/thumbs/file_102c647a7603cb35.jpg",
       "preview": "assets/previews/file_102c647a7603cb35.jpg",
       "original_pixels": {
-        "width": 253,
-        "height": 199
+        "width": 1952,
+        "height": 1563
       },
       "attribution": "Huntington Library, William H. Weinland Photograph Collection (photCL 39 vol. 3 (20)); the catalog file is a low-resolution comp",
       "attribution_confidence": "confirmed",
@@ -2895,31 +2896,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.6,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.6
+            "width_inches": 4.6,
+            "height_inches": 3.3,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.3
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.1,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.1
+            "width_inches": 6.1,
+            "height_inches": 4.4,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.4
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.2,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.2
+            "width_inches": 9.2,
+            "height_inches": 6.6,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 6.6
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 6.4,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 6.4
+            "width_inches": 18.4,
+            "height_inches": 13.1,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 13.1
           }
         },
-        "recommended": "4.5 × 3.2 in at 100 PPI",
+        "recommended": "9.2 × 6.6 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -3180,8 +3181,8 @@
       "thumbnail": "assets/thumbs/file_1afe8689e66cecfb.jpg",
       "preview": "assets/previews/file_1afe8689e66cecfb.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 355
+        "width": 1024,
+        "height": 728
       },
       "attribution": "Beaumont Library District, via Calisphere (CBEA_146, ark:/13030/c8h70f56); rights: Copyrighted — Laura May Stewart Trust",
       "attribution_confidence": "confirmed",
@@ -3280,31 +3281,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.6,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.6
+            "width_inches": 4.6,
+            "height_inches": 3.2,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.2
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.1,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.1
+            "width_inches": 6.1,
+            "height_inches": 4.3,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.3
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.1,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.1
+            "width_inches": 9.2,
+            "height_inches": 6.4,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 6.4
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 6.3,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 6.3
+            "width_inches": 18.4,
+            "height_inches": 12.9,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 12.9
           }
         },
-        "recommended": "4.5 × 3.1 in at 100 PPI",
+        "recommended": "9.2 × 6.4 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -3425,8 +3426,8 @@
       "thumbnail": "assets/thumbs/file_e8eae5f89cf755e3.jpg",
       "preview": "assets/previews/file_e8eae5f89cf755e3.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 349
+        "width": 1024,
+        "height": 714
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_159)",
       "attribution_confidence": "confirmed",
@@ -4054,31 +4055,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.5,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.5
+            "width_inches": 4.6,
+            "height_inches": 3.1,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.1
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.0,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.0
+            "width_inches": 6.1,
+            "height_inches": 4.1,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.1
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.0,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.0
+            "width_inches": 9.2,
+            "height_inches": 6.2,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 6.2
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 6.1,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 6.1
+            "width_inches": 18.4,
+            "height_inches": 12.4,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 12.4
           }
         },
-        "recommended": "4.5 × 3 in at 100 PPI",
+        "recommended": "9.2 × 6.2 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -4246,8 +4247,8 @@
       "thumbnail": "assets/thumbs/file_3017aa80d1cfd66f.jpg",
       "preview": "assets/previews/file_3017aa80d1cfd66f.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 337
+        "width": 1024,
+        "height": 690
       },
       "attribution": "Banning Library District Local History Collection, via Calisphere (CBAN_098)",
       "attribution_confidence": "confirmed",
@@ -4354,31 +4355,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.8,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.8
+            "width_inches": 4.6,
+            "height_inches": 3.7,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.7
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.4,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.4
+            "width_inches": 6.1,
+            "height_inches": 4.9,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.9
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.6,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.6
+            "width_inches": 9.2,
+            "height_inches": 7.4,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.4
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 7.2,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 7.2
+            "width_inches": 18.4,
+            "height_inches": 14.7,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 14.7
           }
         },
-        "recommended": "4.5 × 3.6 in at 100 PPI",
+        "recommended": "9.2 × 7.4 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -4513,8 +4514,8 @@
       "thumbnail": "assets/thumbs/file_07f89426b311c2c6.jpg",
       "preview": "assets/previews/file_07f89426b311c2c6.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 400
+        "width": 1024,
+        "height": 819
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_055)",
       "attribution_confidence": "confirmed",
@@ -4615,31 +4616,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.6,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.6
+            "width_inches": 4.6,
+            "height_inches": 3.3,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.3
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.2,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.2
+            "width_inches": 6.1,
+            "height_inches": 4.4,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.4
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.2,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.2
+            "width_inches": 9.2,
+            "height_inches": 6.6,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 6.6
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 6.5,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 6.5
+            "width_inches": 18.4,
+            "height_inches": 13.2,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 13.2
           }
         },
-        "recommended": "4.5 × 3.2 in at 100 PPI",
+        "recommended": "9.2 × 6.6 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -4771,8 +4772,8 @@
       "thumbnail": "assets/thumbs/file_4e8cb17b9375d119.jpg",
       "preview": "assets/previews/file_4e8cb17b9375d119.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 359
+        "width": 1024,
+        "height": 735
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_157)",
       "attribution_confidence": "confirmed",
@@ -4871,31 +4872,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.5,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.5
+            "width_inches": 4.6,
+            "height_inches": 3.1,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.1
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.0,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.0
+            "width_inches": 6.1,
+            "height_inches": 4.1,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.1
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.0,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.0
+            "width_inches": 9.2,
+            "height_inches": 6.2,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 6.2
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 6.0,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 6.0
+            "width_inches": 18.4,
+            "height_inches": 12.3,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 12.3
           }
         },
-        "recommended": "4.5 × 3 in at 100 PPI",
+        "recommended": "9.2 × 6.2 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -5059,8 +5060,8 @@
       "thumbnail": "assets/thumbs/file_d4cbc371f3177146.jpg",
       "preview": "assets/previews/file_d4cbc371f3177146.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 335
+        "width": 1024,
+        "height": 686
       },
       "attribution": "Banning Library District, via Calisphere (CBAN_093, ark:/13030/c8fb5109); contributor C. O. Barker",
       "attribution_confidence": "confirmed",
@@ -5161,31 +5162,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 1.4,
-            "height_inches": 2.2,
-            "native_crop_width_inches": 1.4,
-            "native_crop_height_inches": 2.2
+            "width_inches": 2.9,
+            "height_inches": 4.6,
+            "native_crop_width_inches": 2.9,
+            "native_crop_height_inches": 4.6
           },
           "150": {
-            "width_inches": 1.9,
-            "height_inches": 3.0,
-            "native_crop_width_inches": 1.9,
-            "native_crop_height_inches": 3.0
+            "width_inches": 3.8,
+            "height_inches": 6.1,
+            "native_crop_width_inches": 3.8,
+            "native_crop_height_inches": 6.1
           },
           "100": {
-            "width_inches": 2.8,
-            "height_inches": 4.5,
-            "native_crop_width_inches": 2.8,
-            "native_crop_height_inches": 4.5
+            "width_inches": 5.8,
+            "height_inches": 9.2,
+            "native_crop_width_inches": 5.8,
+            "native_crop_height_inches": 9.2
           },
           "50": {
-            "width_inches": 5.6,
-            "height_inches": 9.0,
-            "native_crop_width_inches": 5.6,
-            "native_crop_height_inches": 9.0
+            "width_inches": 11.5,
+            "height_inches": 18.4,
+            "native_crop_width_inches": 11.5,
+            "native_crop_height_inches": 18.4
           }
         },
-        "recommended": "2.8 × 4.5 in at 100 PPI",
+        "recommended": "5.8 × 9.2 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -5310,8 +5311,8 @@
       "thumbnail": "assets/thumbs/file_1d58df53c7349e36.jpg",
       "preview": "assets/previews/file_1d58df53c7349e36.jpg",
       "original_pixels": {
-        "width": 312,
-        "height": 500
+        "width": 640,
+        "height": 1024
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_063)",
       "attribution_confidence": "confirmed",
@@ -5408,31 +5409,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 1.6,
-            "height_inches": 2.2,
-            "native_crop_width_inches": 1.6,
-            "native_crop_height_inches": 2.2
+            "width_inches": 3.4,
+            "height_inches": 4.6,
+            "native_crop_width_inches": 3.4,
+            "native_crop_height_inches": 4.6
           },
           "150": {
-            "width_inches": 2.2,
-            "height_inches": 3.0,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 3.0
+            "width_inches": 4.5,
+            "height_inches": 6.1,
+            "native_crop_width_inches": 4.5,
+            "native_crop_height_inches": 6.1
           },
           "100": {
-            "width_inches": 3.3,
-            "height_inches": 4.5,
-            "native_crop_width_inches": 3.3,
-            "native_crop_height_inches": 4.5
+            "width_inches": 6.7,
+            "height_inches": 9.2,
+            "native_crop_width_inches": 6.7,
+            "native_crop_height_inches": 9.2
           },
           "50": {
-            "width_inches": 6.6,
-            "height_inches": 9.0,
-            "native_crop_width_inches": 6.6,
-            "native_crop_height_inches": 9.0
+            "width_inches": 13.5,
+            "height_inches": 18.4,
+            "native_crop_width_inches": 13.5,
+            "native_crop_height_inches": 18.4
           }
         },
-        "recommended": "3.3 × 4.5 in at 100 PPI",
+        "recommended": "6.7 × 9.2 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -5592,8 +5593,8 @@
       "thumbnail": "assets/thumbs/file_348736affdb526d1.jpg",
       "preview": "assets/previews/file_348736affdb526d1.jpg",
       "original_pixels": {
-        "width": 366,
-        "height": 500
+        "width": 749,
+        "height": 1024
       },
       "attribution": "Beaumont Library District, via Calisphere (CBEA_064, ark:/13030/c83f4nzv)",
       "attribution_confidence": "confirmed",
@@ -7847,31 +7848,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.5,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.5
+            "width_inches": 3.6,
+            "height_inches": 2.6,
+            "native_crop_width_inches": 3.6,
+            "native_crop_height_inches": 2.6
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.0,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.0
+            "width_inches": 4.8,
+            "height_inches": 3.5,
+            "native_crop_width_inches": 4.8,
+            "native_crop_height_inches": 3.5
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.0,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.0
+            "width_inches": 7.1,
+            "height_inches": 5.2,
+            "native_crop_width_inches": 7.1,
+            "native_crop_height_inches": 5.2
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 6.0,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 6.0
+            "width_inches": 14.3,
+            "height_inches": 10.4,
+            "native_crop_width_inches": 14.3,
+            "native_crop_height_inches": 10.4
           }
         },
-        "recommended": "4.5 × 3 in at 100 PPI",
+        "recommended": "7.1 × 5.2 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -8053,8 +8054,8 @@
       "thumbnail": "assets/thumbs/file_6cdaa20c842dae91.jpg",
       "preview": "assets/previews/file_6cdaa20c842dae91.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 335
+        "width": 794,
+        "height": 576
       },
       "attribution": "Beaumont Library District, via Calisphere (CBEA_005, ark:/13030/c8g1605q); also cited as Banning Library District by the SGPHS timeline",
       "attribution_confidence": "confirmed",
@@ -8652,31 +8653,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 4.3,
-            "height_inches": 3.4,
-            "native_crop_width_inches": 4.3,
-            "native_crop_height_inches": 3.4
+            "width_inches": 4.6,
+            "height_inches": 3.6,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.6
           },
           "150": {
-            "width_inches": 5.8,
-            "height_inches": 4.5,
-            "native_crop_width_inches": 5.8,
-            "native_crop_height_inches": 4.5
+            "width_inches": 6.1,
+            "height_inches": 4.8,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.8
           },
           "100": {
-            "width_inches": 8.6,
-            "height_inches": 6.8,
-            "native_crop_width_inches": 8.6,
-            "native_crop_height_inches": 6.8
+            "width_inches": 9.2,
+            "height_inches": 7.2,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.2
           },
           "50": {
-            "width_inches": 17.3,
-            "height_inches": 13.5,
-            "native_crop_width_inches": 17.3,
-            "native_crop_height_inches": 13.5
+            "width_inches": 18.4,
+            "height_inches": 14.5,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 14.5
           }
         },
-        "recommended": "8.6 × 6.8 in at 100 PPI",
+        "recommended": "9.2 × 7.2 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -8846,8 +8847,8 @@
       "thumbnail": "assets/thumbs/file_ba7bc8aa7a702431.jpg",
       "preview": "assets/previews/file_ba7bc8aa7a702431.jpg",
       "original_pixels": {
-        "width": 960,
-        "height": 752
+        "width": 1024,
+        "height": 803
       },
       "attribution": "Beaumont Library District, via Calisphere (CBEA_011, ark:/13030/c8tb167d)",
       "attribution_confidence": "confirmed",
@@ -8955,31 +8956,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.5,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.5
+            "width_inches": 3.6,
+            "height_inches": 2.5,
+            "native_crop_width_inches": 3.6,
+            "native_crop_height_inches": 2.5
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.0,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.0
+            "width_inches": 4.9,
+            "height_inches": 3.4,
+            "native_crop_width_inches": 4.9,
+            "native_crop_height_inches": 3.4
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.0,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.0
+            "width_inches": 7.3,
+            "height_inches": 5.0,
+            "native_crop_width_inches": 7.3,
+            "native_crop_height_inches": 5.0
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 6.0,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 6.0
+            "width_inches": 14.6,
+            "height_inches": 10.1,
+            "native_crop_width_inches": 14.6,
+            "native_crop_height_inches": 10.1
           }
         },
-        "recommended": "4.5 × 3 in at 100 PPI",
+        "recommended": "7.3 × 5 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -9139,8 +9140,8 @@
       "thumbnail": "assets/thumbs/file_4a86cb8481b40b1c.jpg",
       "preview": "assets/previews/file_4a86cb8481b40b1c.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 335
+        "width": 810,
+        "height": 560
       },
       "attribution": "Beaumont Library District, via Calisphere (CBEA_011, ark:/13030/c8tb167d)",
       "attribution_confidence": "confirmed",
@@ -9245,31 +9246,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.6,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.6
+            "width_inches": 4.6,
+            "height_inches": 3.2,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.2
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.1,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.1
+            "width_inches": 6.1,
+            "height_inches": 4.3,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.3
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.1,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.1
+            "width_inches": 9.2,
+            "height_inches": 6.4,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 6.4
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 6.2,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 6.2
+            "width_inches": 18.4,
+            "height_inches": 12.8,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 12.8
           }
         },
-        "recommended": "4.5 × 3.1 in at 100 PPI",
+        "recommended": "9.2 × 6.4 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -9393,8 +9394,8 @@
       "thumbnail": "assets/thumbs/file_24a2639d97872010.jpg",
       "preview": "assets/previews/file_24a2639d97872010.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 346
+        "width": 1024,
+        "height": 709
       },
       "attribution": "Beaumont Land & Water Co. advertisement; slide copy held by Beaumont Library District (Calisphere CBEA_069)",
       "attribution_confidence": "confirmed",
@@ -10487,31 +10488,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.8,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.8
+            "width_inches": 4.6,
+            "height_inches": 3.6,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.6
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.4,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.4
+            "width_inches": 6.1,
+            "height_inches": 4.8,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.8
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.5,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.5
+            "width_inches": 9.2,
+            "height_inches": 7.2,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.2
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 7.1,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 7.1
+            "width_inches": 18.4,
+            "height_inches": 14.5,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 14.5
           }
         },
-        "recommended": "4.5 × 3.5 in at 100 PPI",
+        "recommended": "9.2 × 7.2 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -10638,8 +10639,8 @@
       "thumbnail": "assets/thumbs/file_f0dccb003fc35106.jpg",
       "preview": "assets/previews/file_f0dccb003fc35106.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 393
+        "width": 1024,
+        "height": 804
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_007)",
       "attribution_confidence": "confirmed",
@@ -12043,31 +12044,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.4,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.4
+            "width_inches": 4.6,
+            "height_inches": 2.9,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 2.9
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 1.9,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 1.9
+            "width_inches": 6.1,
+            "height_inches": 3.8,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 3.8
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 2.8,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 2.8
+            "width_inches": 9.2,
+            "height_inches": 5.8,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 5.8
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 5.6,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 5.6
+            "width_inches": 18.4,
+            "height_inches": 11.5,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 11.5
           }
         },
-        "recommended": "4.5 × 2.8 in at 100 PPI",
+        "recommended": "9.2 × 5.8 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -12204,8 +12205,8 @@
       "thumbnail": "assets/thumbs/file_96dbd886a952432e.jpg",
       "preview": "assets/previews/file_96dbd886a952432e.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 313
+        "width": 1024,
+        "height": 640
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_073)",
       "attribution_confidence": "confirmed",
@@ -12597,31 +12598,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.8,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.8
+            "width_inches": 4.6,
+            "height_inches": 3.6,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.6
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.3,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.3
+            "width_inches": 6.1,
+            "height_inches": 4.8,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.8
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.5,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.5
+            "width_inches": 9.2,
+            "height_inches": 7.2,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.2
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 7.0,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 7.0
+            "width_inches": 18.4,
+            "height_inches": 14.3,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 14.3
           }
         },
-        "recommended": "4.5 × 3.5 in at 100 PPI",
+        "recommended": "9.2 × 7.2 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -12793,8 +12794,8 @@
       "thumbnail": "assets/thumbs/file_70127c4bb43d1fb5.jpg",
       "preview": "assets/previews/file_70127c4bb43d1fb5.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 389
+        "width": 1024,
+        "height": 797
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_071)",
       "attribution_confidence": "confirmed",
@@ -13213,31 +13214,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.9,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.9
+            "width_inches": 4.6,
+            "height_inches": 3.9,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.9
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.5,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.5
+            "width_inches": 6.1,
+            "height_inches": 5.2,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 5.2
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.8,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.8
+            "width_inches": 9.2,
+            "height_inches": 7.7,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.7
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 7.5,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 7.5
+            "width_inches": 18.4,
+            "height_inches": 15.5,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 15.5
           }
         },
-        "recommended": "4.5 × 3.8 in at 100 PPI",
+        "recommended": "9.2 × 7.7 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -13411,8 +13412,8 @@
       "thumbnail": "assets/thumbs/file_be5479c722bc34f0.jpg",
       "preview": "assets/previews/file_be5479c722bc34f0.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 419
+        "width": 1024,
+        "height": 859
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_004)",
       "attribution_confidence": "confirmed",
@@ -13507,32 +13508,32 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 2.0,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 2.0
+            "width_inches": 4.6,
+            "height_inches": 4.2,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 4.2
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.7,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.7
+            "width_inches": 6.1,
+            "height_inches": 5.6,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 5.6
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 4.1,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 4.1
+            "width_inches": 9.2,
+            "height_inches": 8.4,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 8.4
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 8.2,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 8.2
+            "width_inches": 18.4,
+            "height_inches": 16.7,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 16.7
           }
         },
-        "recommended": "4.5 × 4.1 in at 100 PPI",
-        "classification": "Reference Only",
+        "recommended": "9.2 × 8.4 in at 100 PPI",
+        "classification": "Potentially Usable",
         "ai_upscaled_estimate": null
       },
       "metadata_suggestions": [
@@ -13687,8 +13688,8 @@
       "thumbnail": "assets/thumbs/file_c457e234b1aac96e.jpg",
       "preview": "assets/previews/file_c457e234b1aac96e.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 453
+        "width": 1024,
+        "height": 928
       },
       "attribution": "Beaumont Library District, via Calisphere (CBEA_067, ark:/13030/c8kh0mpc)",
       "attribution_confidence": "confirmed",
@@ -14035,32 +14036,32 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 3.3,
-            "height_inches": 2.1,
-            "native_crop_width_inches": 3.3,
-            "native_crop_height_inches": 2.1
+            "width_inches": 6.8,
+            "height_inches": 4.4,
+            "native_crop_width_inches": 6.8,
+            "native_crop_height_inches": 4.4
           },
           "150": {
-            "width_inches": 4.4,
-            "height_inches": 2.8,
-            "native_crop_width_inches": 4.4,
-            "native_crop_height_inches": 2.8
+            "width_inches": 9.0,
+            "height_inches": 5.9,
+            "native_crop_width_inches": 9.0,
+            "native_crop_height_inches": 5.9
           },
           "100": {
-            "width_inches": 6.6,
-            "height_inches": 4.1,
-            "native_crop_width_inches": 6.6,
-            "native_crop_height_inches": 4.1
+            "width_inches": 13.5,
+            "height_inches": 8.8,
+            "native_crop_width_inches": 13.5,
+            "native_crop_height_inches": 8.8
           },
           "50": {
-            "width_inches": 13.1,
-            "height_inches": 8.3,
-            "native_crop_width_inches": 13.1,
-            "native_crop_height_inches": 8.3
+            "width_inches": 27.0,
+            "height_inches": 17.6,
+            "native_crop_width_inches": 27.0,
+            "native_crop_height_inches": 17.6
           }
         },
-        "recommended": "6.6 × 4.1 in at 100 PPI",
-        "classification": "Reference Only",
+        "recommended": "13.5 × 8.8 in at 100 PPI",
+        "classification": "Potentially Usable",
         "ai_upscaled_estimate": null
       },
       "metadata_suggestions": [
@@ -14225,8 +14226,8 @@
       "thumbnail": "assets/thumbs/file_8bd56950f54193ed.jpg",
       "preview": "assets/previews/file_8bd56950f54193ed.jpg",
       "original_pixels": {
-        "width": 729,
-        "height": 461
+        "width": 1500,
+        "height": 980
       },
       "attribution": "Tyrrell Historical Library (Beaumont, Texas), Southeast Texas Postcards Collection — via The Portal to Texas History",
       "attribution_confidence": "confirmed",
@@ -14266,7 +14267,7 @@
         "best_master": {
           "location": "https://texashistory.unt.edu/ark:/67531/metapth416275/m1/1/high_res/",
           "pixels": "1500×980 (front); verso 1500×990 — confirmed via IIIF info.json",
-          "note": "Unwatermarked scan from The Portal to Texas History, replacing the catalog's 729×461 'TYRRELL HISTORICAL LIBRARY'-watermarked viewer screenshot. Contact Tyrrell Historical Library if a larger TIFF is ever needed."
+          "note": "Unwatermarked 1500x980 scan from The Portal to Texas History - pulled 2026-07-22 into data/masters/img_7cc7f95ae75d9aa6.jpg, replacing the 729x461 'TYRRELL HISTORICAL LIBRARY'-watermarked viewer screenshot. Contact Tyrrell Historical Library if a larger TIFF is ever needed."
         },
         "open_questions": [
           "Photographer and exact capture date of the view are unknown (only the mailing date is documented) — a divided-back check on the verso scan could set a 1907 terminus post quem; examine the Portal's back image.",
@@ -14861,31 +14862,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.4,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.4
-          },
-          "150": {
-            "width_inches": 3.0,
-            "height_inches": 1.9,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 1.9
-          },
-          "100": {
-            "width_inches": 4.5,
+            "width_inches": 4.6,
             "height_inches": 2.9,
-            "native_crop_width_inches": 4.5,
+            "native_crop_width_inches": 4.6,
             "native_crop_height_inches": 2.9
           },
+          "150": {
+            "width_inches": 6.1,
+            "height_inches": 3.9,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 3.9
+          },
+          "100": {
+            "width_inches": 9.2,
+            "height_inches": 5.8,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 5.8
+          },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 5.7,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 5.7
+            "width_inches": 18.4,
+            "height_inches": 11.7,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 11.7
           }
         },
-        "recommended": "4.5 × 2.9 in at 100 PPI",
+        "recommended": "9.2 × 5.8 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -15067,8 +15068,8 @@
       "thumbnail": "assets/thumbs/file_dcb7ac191e289893.jpg",
       "preview": "assets/previews/file_dcb7ac191e289893.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 317
+        "width": 1024,
+        "height": 650
       },
       "attribution": "Beaumont Library District",
       "attribution_confidence": "confirmed",
@@ -15719,31 +15720,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 3.2,
-            "height_inches": 2.8,
-            "native_crop_width_inches": 3.2,
-            "native_crop_height_inches": 2.8
+            "width_inches": 4.6,
+            "height_inches": 3.9,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.9
           },
           "150": {
-            "width_inches": 4.3,
-            "height_inches": 3.7,
-            "native_crop_width_inches": 4.3,
-            "native_crop_height_inches": 3.7
+            "width_inches": 6.1,
+            "height_inches": 5.2,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 5.2
           },
           "100": {
-            "width_inches": 6.5,
-            "height_inches": 5.5,
-            "native_crop_width_inches": 6.5,
-            "native_crop_height_inches": 5.5
+            "width_inches": 9.2,
+            "height_inches": 7.9,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.9
           },
           "50": {
-            "width_inches": 13.0,
-            "height_inches": 11.1,
-            "native_crop_width_inches": 13.0,
-            "native_crop_height_inches": 11.1
+            "width_inches": 18.4,
+            "height_inches": 15.7,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 15.7
           }
         },
-        "recommended": "6.5 × 5.5 in at 100 PPI",
+        "recommended": "9.2 × 7.9 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -15881,8 +15882,8 @@
       "thumbnail": "assets/thumbs/file_0a2ee1e5fc910c7f.jpg",
       "preview": "assets/previews/file_0a2ee1e5fc910c7f.jpg",
       "original_pixels": {
-        "width": 720,
-        "height": 614
+        "width": 1024,
+        "height": 874
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_170)",
       "attribution_confidence": "confirmed",
@@ -16777,31 +16778,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.4,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.4
+            "width_inches": 4.6,
+            "height_inches": 2.9,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 2.9
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 1.9,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 1.9
+            "width_inches": 6.1,
+            "height_inches": 3.9,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 3.9
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 2.8,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 2.8
+            "width_inches": 9.2,
+            "height_inches": 5.8,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 5.8
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 5.7,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 5.7
+            "width_inches": 18.4,
+            "height_inches": 11.6,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 11.6
           }
         },
-        "recommended": "4.5 × 2.8 in at 100 PPI",
+        "recommended": "9.2 × 5.8 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -17016,8 +17017,8 @@
       "thumbnail": "assets/thumbs/file_a535ec86c657664c.jpg",
       "preview": "assets/previews/file_a535ec86c657664c.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 315
+        "width": 1024,
+        "height": 645
       },
       "attribution": "Beaumont Library District, via Calisphere (CBEA_108, ark:/13030/c8dn44db)",
       "attribution_confidence": "confirmed",
@@ -17143,31 +17144,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.7,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.7
+            "width_inches": 4.6,
+            "height_inches": 3.5,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.5
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.3,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.3
+            "width_inches": 6.1,
+            "height_inches": 4.6,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.6
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.4,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.4
+            "width_inches": 9.2,
+            "height_inches": 7.0,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.0
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 6.8,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 6.8
+            "width_inches": 18.4,
+            "height_inches": 13.9,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 13.9
           }
         },
-        "recommended": "4.5 × 3.4 in at 100 PPI",
+        "recommended": "9.2 × 7 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -17323,8 +17324,8 @@
       "thumbnail": "assets/thumbs/file_516045c0027e010a.jpg",
       "preview": "assets/previews/file_516045c0027e010a.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 378
+        "width": 1024,
+        "height": 774
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_145)",
       "attribution_confidence": "confirmed",
@@ -22856,15 +22857,15 @@
     {
       "id": "img_c39e3df610ea24d9",
       "title": "Pauline Weaver (posthumous artist's sketch)",
-      "caption": "Pauline Weaver (c. 1797-1867), first settler of the San Gorgonio Pass — posthumous artist's sketch; no photograph of Weaver is known.",
+      "caption": "Pauline Weaver (c. 1797-1867), first settler of the San Gorgonio Pass — posthumous profile sketch, c. 1920s (Arizona Historical Society portrait file #61659); no photograph of Weaver is known.",
       "date": {
         "start": 1920,
         "end": 1929,
         "display": "Likely 1920s (posthumous sketch; Weaver d. 1867)",
-        "confidence": "low",
+        "confidence": "medium",
         "editable": true,
         "source": "editorial_research",
-        "basis": "Not a photograph and not from life — an imagined commemorative likeness. Most plausibly drawn in the 1920s: publicity around Weaver's 1929 reinterment at Prescott produced Weaver artwork, and the Arizona Historical Society dates its other Weaver sketch c. 1920s. Replaces 'c. 1850s-1860s', which implied a photograph from life."
+        "basis": "Not a photograph and not from life — an imagined commemorative likeness. Most plausibly drawn in the 1920s: publicity around Weaver's 1929 reinterment at Prescott produced Weaver artwork, and the Arizona Historical Society dates this sketch (portrait file #61659) c. 1920s. Replaces 'c. 1850s-1860s', which implied a photograph from life."
       },
       "decade": 1920,
       "locations": [],
@@ -22879,8 +22880,8 @@
         "weaver"
       ],
       "research_status": "Researched",
-      "rights_status": "Unclear",
-      "rights_note": "Do not infer reuse rights from age; verify against the holding institution or rights statement.",
+      "rights_status": "Copyrighted",
+      "rights_note": "The Arizona Historical Society's Arizona Memory Project record for this sketch ('Portrait — Weaver, Pauline' file #61659) marks it In Copyright; clear reproduction with AHS (ahsreference@azhs.gov) before print or publication use.",
       "selected_default": true,
       "curated": true,
       "master_file_id": "file_e5d7e62a8efa93d5",
@@ -22910,32 +22911,32 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 0.8,
-            "height_inches": 1.2,
-            "native_crop_width_inches": 0.8,
-            "native_crop_height_inches": 1.2
+            "width_inches": 9.0,
+            "height_inches": 12.5,
+            "native_crop_width_inches": 9.0,
+            "native_crop_height_inches": 12.5
           },
           "150": {
-            "width_inches": 1.1,
-            "height_inches": 1.6,
-            "native_crop_width_inches": 1.1,
-            "native_crop_height_inches": 1.6
+            "width_inches": 12.0,
+            "height_inches": 16.7,
+            "native_crop_width_inches": 12.0,
+            "native_crop_height_inches": 16.7
           },
           "100": {
-            "width_inches": 1.7,
-            "height_inches": 2.4,
-            "native_crop_width_inches": 1.7,
-            "native_crop_height_inches": 2.4
+            "width_inches": 18.0,
+            "height_inches": 25.1,
+            "native_crop_width_inches": 18.0,
+            "native_crop_height_inches": 25.1
           },
           "50": {
-            "width_inches": 3.4,
-            "height_inches": 4.8,
-            "native_crop_width_inches": 3.4,
-            "native_crop_height_inches": 4.8
+            "width_inches": 36.0,
+            "height_inches": 50.1,
+            "native_crop_width_inches": 36.0,
+            "native_crop_height_inches": 50.1
           }
         },
-        "recommended": "1.7 × 2.4 in at 100 PPI",
-        "classification": "Reference Only",
+        "recommended": "18 × 25.1 in at 100 PPI",
+        "classification": "Production Ready",
         "ai_upscaled_estimate": null
       },
       "metadata_suggestions": [
@@ -23117,20 +23118,21 @@
       "thumbnail": "assets/thumbs/file_e5d7e62a8efa93d5.jpg",
       "preview": "assets/previews/file_e5d7e62a8efa93d5.jpg",
       "original_pixels": {
-        "width": 188,
-        "height": 268
+        "width": 2000,
+        "height": 2784
       },
-      "attribution": "Artist unknown; no institutional provenance established (the circulating 'Sharlot Hall Museum' credit is unverified; cf. Arizona Historical Society portrait file #61659)",
-      "attribution_confidence": "unknown",
-      "caption_source": "Provenance research 2026-07-21 — Sharlot Hall Museum photo archive + collections catalog and Arizona Memory Project searched directly",
+      "attribution": "Arizona Historical Society, 'Portrait — Weaver, Pauline' file #61659, via the Arizona Memory Project; artist unknown",
+      "attribution_confidence": "confirmed",
+      "caption_source": "Arizona Historical Society portrait file #61659 (Arizona Memory Project); display image swapped to this sketch 2026-07-22",
       "research": {
         "select_position": 2,
         "original_title": "Weaver",
-        "description": "A crosshatched artist's sketch of the bearded frontiersman in his wide-brimmed hat — not a photograph, and not a portrait from life. No verified photograph or documented life portrait of Weaver exists, so this is an imagined commemorative likeness, most plausibly drawn in the 1920s. Powell 'Pauline' Weaver, Tennessee-born trapper, scout and prospector of part-Cherokee descent, petitioned Mexican authorities in 1845 (with partner Isaac Williams) for possession of the abandoned Rancho San Gorgonio, lived in an adobe near the future Beaumont running cattle in the pass, and conveyed the ranch to Dr. Isaac W. Smith before leaving in 1857; he later sparked the 1862 La Paz gold rush, camped at the future site of Prescott, and died at Camp Verde, Arizona Territory, on June 21, 1867. He is buried on the Sharlot Hall Museum grounds in Prescott.",
+        "description": "A posthumous profile sketch of the bearded frontiersman in his wide-brimmed hat — Arizona Historical Society 'Portrait — Weaver, Pauline' file #61659, an undated drawing the Society places c. 1920s — not a photograph, and not a portrait from life. No verified photograph or documented life portrait of Weaver exists, so this is an imagined commemorative likeness, most plausibly drawn in the 1920s. Powell 'Pauline' Weaver, Tennessee-born trapper, scout and prospector of part-Cherokee descent, petitioned Mexican authorities in 1845 (with partner Isaac Williams) for possession of the abandoned Rancho San Gorgonio, lived in an adobe near the future Beaumont running cattle in the pass, and conveyed the ranch to Dr. Isaac W. Smith before leaving in 1857; he later sparked the 1862 La Paz gold rush, camped at the future site of Prescott, and died at Camp Verde, Arizona Territory, on June 21, 1867. He is buried on the Sharlot Hall Museum grounds in Prescott.",
         "corrections": [
           "The old caption 'c. 1850s-1860s' implied a photograph from life — no verified photograph of Weaver is known to exist; the defensible claim is 'posthumous likeness', likely 1920s.",
           "Weaver applied for possession of Rancho San Gorgonio in 1845 (with Isaac Williams); no confirmed Mexican land grant to him is documented — avoid 'granted'.",
-          "Provenance hunt 2026-07-21: Sharlot Hall Museum's photo archive (~12,000 of 90,000+ images online) and CatalogAccess collections catalog were searched directly — the portrait is in neither; the circulating 'Sharlot Hall Museum' credit is unverified (SHM could hold it undigitized)."
+          "Provenance hunt 2026-07-21: Sharlot Hall Museum's photo archive (~12,000 of 90,000+ images online) and CatalogAccess collections catalog were searched directly — the portrait is in neither; the circulating 'Sharlot Hall Museum' credit is unverified (SHM could hold it undigitized).",
+          "2026-07-22: display image replaced — the previous 188×268 frontal sketch (no institutional provenance established) was swapped for the Arizona Historical Society profile sketch, portrait file #61659 (2000×2784), the only institutionally held Weaver portrait located; caption, attribution and rights updated to match."
         ],
         "evidence": [
           {
@@ -23180,14 +23182,19 @@
         ],
         "best_master": {
           "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\02-ref_ahs-61659-weaver-profile-sketch.jpg",
-          "pixels": "2000×2784 (300 DPI) — reference only",
-          "note": "A DIFFERENT, profile Weaver sketch (Arizona Historical Society #61659, In Copyright — clear with AHS before use). No better copy of the catalog's three-quarter sketch is known; the archive file (188×268 px) is the only copy located."
+          "pixels": "2000×2784 (300 DPI)",
+          "note": "AHS 'Portrait — Weaver, Pauline' file #61659 (In Copyright — clear with AHS before use), now the record's display image; hand-placed as data/masters/img_c39e3df610ea24d9.jpg. The old three-quarter sketch survives only as the 188×268 file previously shown here."
         },
         "open_questions": [
           "Original artist, date and holding institution of the sketch. Best lead: Arizona Historical Society 'Portrait-Weaver, Pauline' file #61659 (ahsreference@azhs.gov); also ask SHM's order desk (orderdesk@sharlot.org) about undigitized holdings (~87% of their images are offline)."
         ],
         "researched": "2026-07-20",
-        "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
+        "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
+        "holding": {
+          "institution": "Arizona Historical Society",
+          "item_id": "'Portrait — Weaver, Pauline' file #61659",
+          "url": null
+        }
       }
     },
     {
@@ -23262,31 +23269,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.6,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.6
+            "width_inches": 4.6,
+            "height_inches": 3.3,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.3
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.1,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.1
+            "width_inches": 6.1,
+            "height_inches": 4.4,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.4
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.2,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.2
+            "width_inches": 9.2,
+            "height_inches": 6.6,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 6.6
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 6.4,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 6.4
+            "width_inches": 18.4,
+            "height_inches": 13.2,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 13.2
           }
         },
-        "recommended": "4.5 × 3.2 in at 100 PPI",
+        "recommended": "9.2 × 6.6 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -23464,8 +23471,8 @@
       "thumbnail": "assets/thumbs/file_eb4021f72b25f094.jpg",
       "preview": "assets/previews/file_eb4021f72b25f094.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 357
+        "width": 1024,
+        "height": 732
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_133)",
       "attribution_confidence": "confirmed",
@@ -34229,31 +34236,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.8,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.8
+            "width_inches": 4.6,
+            "height_inches": 3.7,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.7
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.4,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.4
+            "width_inches": 6.1,
+            "height_inches": 5.0,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 5.0
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.6,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.6
+            "width_inches": 9.2,
+            "height_inches": 7.4,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.4
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 7.3,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 7.3
+            "width_inches": 18.4,
+            "height_inches": 14.9,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 14.9
           }
         },
-        "recommended": "4.5 × 3.6 in at 100 PPI",
+        "recommended": "9.2 × 7.4 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -34419,8 +34426,8 @@
       "thumbnail": "assets/thumbs/file_a5f569fa3541715f.jpg",
       "preview": "assets/previews/file_a5f569fa3541715f.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 403
+        "width": 1024,
+        "height": 827
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_130)",
       "attribution_confidence": "confirmed",
@@ -34838,31 +34845,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.8,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.8
+            "width_inches": 4.6,
+            "height_inches": 3.6,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.6
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.4,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.4
+            "width_inches": 6.1,
+            "height_inches": 4.8,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.8
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.5,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.5
+            "width_inches": 9.2,
+            "height_inches": 7.2,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.2
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 7.1,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 7.1
+            "width_inches": 18.4,
+            "height_inches": 14.5,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 14.5
           }
         },
-        "recommended": "4.5 × 3.5 in at 100 PPI",
+        "recommended": "9.2 × 7.2 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -35040,8 +35047,8 @@
       "thumbnail": "assets/thumbs/file_83dd3466728e72a4.jpg",
       "preview": "assets/previews/file_83dd3466728e72a4.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 393
+        "width": 1024,
+        "height": 805
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_084)",
       "attribution_confidence": "confirmed",
@@ -50273,31 +50280,31 @@
         "quality_factor": 1.0,
         "ppi": {
           "200": {
-            "width_inches": 2.2,
-            "height_inches": 1.8,
-            "native_crop_width_inches": 2.2,
-            "native_crop_height_inches": 1.8
+            "width_inches": 4.6,
+            "height_inches": 3.7,
+            "native_crop_width_inches": 4.6,
+            "native_crop_height_inches": 3.7
           },
           "150": {
-            "width_inches": 3.0,
-            "height_inches": 2.4,
-            "native_crop_width_inches": 3.0,
-            "native_crop_height_inches": 2.4
+            "width_inches": 6.1,
+            "height_inches": 4.9,
+            "native_crop_width_inches": 6.1,
+            "native_crop_height_inches": 4.9
           },
           "100": {
-            "width_inches": 4.5,
-            "height_inches": 3.6,
-            "native_crop_width_inches": 4.5,
-            "native_crop_height_inches": 3.6
+            "width_inches": 9.2,
+            "height_inches": 7.3,
+            "native_crop_width_inches": 9.2,
+            "native_crop_height_inches": 7.3
           },
           "50": {
-            "width_inches": 9.0,
-            "height_inches": 7.1,
-            "native_crop_width_inches": 9.0,
-            "native_crop_height_inches": 7.1
+            "width_inches": 18.4,
+            "height_inches": 14.6,
+            "native_crop_width_inches": 18.4,
+            "native_crop_height_inches": 14.6
           }
         },
-        "recommended": "4.5 × 3.6 in at 100 PPI",
+        "recommended": "9.2 × 7.3 in at 100 PPI",
         "classification": "Reference Only",
         "ai_upscaled_estimate": null
       },
@@ -50449,8 +50456,8 @@
       "thumbnail": "assets/thumbs/file_9c12327decce65ee.jpg",
       "preview": "assets/previews/file_9c12327decce65ee.jpg",
       "original_pixels": {
-        "width": 500,
-        "height": 397
+        "width": 1024,
+        "height": 813
       },
       "attribution": "Beaumont Library District Local History Collection, via Calisphere (CBEA_183)",
       "attribution_confidence": "confirmed",

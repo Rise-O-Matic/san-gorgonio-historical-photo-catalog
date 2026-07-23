@@ -10,7 +10,8 @@ Two master pools:
 A master only replaces a record's preview when (1) it is perceptually the
 same image (average-hash distance) and (2) it actually adds pixels. Previews
 and thumbs are regenerated with the pipeline's own settings (1600px/560px,
-JPEG q84) under the same file ids, so catalog data needs no changes.
+JPEG q84) under the same file ids. Catalog original_pixels/print_viability
+still reflect the old sources afterwards — run sync_catalog_dims.py next.
 
 Usage: python scripts/upgrade_previews_from_masters.py [--dry-run] [--skip-download]
 """
@@ -29,6 +30,7 @@ REPO = Path(__file__).resolve().parents[1]
 SITE = REPO / "site"
 SELECTS_DIR = Path(r"X:\My Drive\Projects\Beaumont Library District\projects\timeline-mural\2026-07-17_selects\source-photos")
 CLIP_DIR = REPO / "data" / "calisphere" / "masters"
+CROP_DIR = REPO / "data" / "masters"  # hand-verified per-record masters, named {rid}.jpg
 
 PREVIEW_SIZE, THUMB_SIZE, QUALITY = 1600, 560, 84
 HASH_THRESHOLD = 14  # of 256 bits; same image incl. crop/tone differences
@@ -144,6 +146,27 @@ def main() -> None:
             consider(rid, rec["title"][:40], rec["master_file_id"], dest, results)
         else:
             results.append((rid, rec["title"][:40], "PENDING-DL", url[:80]))
+
+    # --- Pool C: hand-verified per-record masters (data/masters/{rid}.jpg) ---
+    # Trusted by construction: crops of album-mounted scans that fail the
+    # same-image hash check, or deliberate image substitutions (e.g. a better
+    # artwork of the same subject). Always regenerated, no guards; keep
+    # sync_catalog_dims.py's CROP_DIR handling in step with this pool.
+    for path in sorted(CROP_DIR.glob("img_*.jpg")):
+        rec = records.get(path.stem)
+        if not rec:
+            results.append((path.stem, path.name, "SKIP", "no record for crop master"))
+            continue
+        try:
+            master = Image.open(path)
+            master.load()
+        except OSError as exc:
+            results.append((path.stem, path.name, "SKIP", f"unreadable crop master: {exc}"))
+            continue
+        if not DRY:
+            regenerate(master, rec["master_file_id"])
+        results.append((path.stem, rec["title"][:40], "CROP-REGEN" if not DRY else "WOULD-REGEN",
+                        f"{master.width}x{master.height} (trusted hand-verified master)"))
 
     width = max((len(r[1]) for r in results), default=10)
     for rid, title, status, detail in results:

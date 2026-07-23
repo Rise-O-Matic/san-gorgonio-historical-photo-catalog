@@ -159,6 +159,49 @@ MANUAL_OVERRIDES: dict[str, dict] = {
                  "The catalog's 'Cherry Tree Farm, 1930' is wrong — it is the Mellen "
                  "Ranch orchard, 1909.",
     },
+    # 02 — Pauline Weaver: display image swapped 2026-07-22 to the Arizona
+    # Historical Society profile sketch #61659 (2000×2784), replacing the
+    # 188×268 frontal sketch of unestablished provenance. Different artwork,
+    # same subject — caption/attribution/rights follow the AHS sketch.
+    "img_c39e3df610ea24d9": {
+        "caption": "Pauline Weaver (c. 1797-1867), first settler of the San "
+                   "Gorgonio Pass — posthumous profile sketch, c. 1920s (Arizona "
+                   "Historical Society portrait file #61659); no photograph of "
+                   "Weaver is known.",
+        "attribution": "Arizona Historical Society, 'Portrait — Weaver, Pauline' "
+                       "file #61659, via the Arizona Memory Project; artist unknown",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Arizona Historical Society portrait file #61659 (Arizona "
+                          "Memory Project); display image swapped to this sketch 2026-07-22",
+        "basis": "The displayed image is the Arizona Historical Society's 'Portrait "
+                 "— Weaver, Pauline' file #61659 — an undated posthumous profile "
+                 "sketch the Society places c. 1920s — swapped in 2026-07-22 for the "
+                 "low-resolution (188×268) frontal sketch of unestablished provenance "
+                 "that previously represented this record. No verified photograph or "
+                 "documented life portrait of Weaver exists; both artworks are "
+                 "imagined commemorative likenesses.",
+    },
+    # 09 — Capt. John Morongo: display image upgraded 2026-07-22 from the
+    # 500×500 square head crop to the complete 459×593 arched portrait
+    # (Morongo Band of Mission Indians copy). Same photograph.
+    "img_72d13585ff607c22": {
+        "caption": "Captain John Morongo (c. 1843/46 - July 1898), the Serrano "
+                   "leader for whom the reservation is named — studio portrait, c. 1890.",
+        "attribution": "Huntington Library, Weinland Collection (photCL 39 (126)); "
+                       "Banning Library District print via Calisphere (CBAN_120, "
+                       "ark:/13030/c8d798dr); photograph by Cramer's California "
+                       "Gallery, 402 Kearny St., San Francisco; complete-portrait "
+                       "copy via the Morongo Band of Mission Indians",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Huntington Library Weinland Collection — exact print "
+                          "visually confirmed (2026-07-20)",
+        "basis": "A studio cabinet-card portrait made at Cramer's California "
+                 "Gallery, San Francisco; the exact print survives at the Huntington "
+                 "among W. H. Weinland's papers, inscribed 'The late Capt. John "
+                 "Morongo... A noble Indian.' Display image is the complete 459×593 "
+                 "arched portrait (MBMI copy), which replaced the 500×500 square "
+                 "head crop on 2026-07-22.",
+    },
 }
 
 # --- 1. Harvest the SGPHS timeline (caption + credit per image) --------------

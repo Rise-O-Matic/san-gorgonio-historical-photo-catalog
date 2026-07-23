@@ -3,90 +3,98 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#24342d">
-  <title>Beaumont Historical Photo Catalog</title>
-  <meta name="description" content="Review and select historical photographs for the Beaumont Library District timeline mural.">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <meta name="theme-color" content="#0a1e23">
+  <title>Beaumont Timeline Builder</title>
+  <meta name="description" content="Arrange the Beaumont Library District mural timeline: drag photographs from the collection onto the canvas, reorder, and export the approved sequence.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Franklin:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="timeline.css?v=2">
 </head>
 <body>
-  <a class="skip-link" href="#catalog">Skip to catalog</a>
-  <header class="masthead">
-    <div class="brand-lockup">
-      <div class="brand-mark" aria-hidden="true">BLD</div>
-      <div><p class="eyebrow">Timeline mural image review</p><h1>Beaumont in pictures</h1></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-plate" aria-hidden="true">BLD</span>
+      <div class="brand-words">
+        <span class="eyebrow">Library District Mural · Timeline Builder</span>
+        <h1>Beaumont <em>in Pictures</em></h1>
+      </div>
     </div>
-    <p class="intro">Explore the historical photograph collection, compare available scans, and build a shortlist for the mural. <a class="research-link" href="research.html">Open the research workspace →</a> <a class="research-link" href="mural-mockup.html">See the timeline mural mockup →</a></p>
-    <div class="summary-strip" aria-live="polite">
-      <div><strong id="visibleCount">—</strong><span>shown</span></div>
-      <div><strong id="catalogCount">—</strong><span>photographs</span></div>
-      <div><strong id="selectedCount">—</strong><span>selected</span></div>
-      <button class="summary-action" id="reviewSelected" type="button">Review selection <span aria-hidden="true">→</span></button>
+    <div class="top-status" aria-live="polite">
+      <span id="timelineStat">—</span>
+      <span class="dirty-dot" id="dirtyDot" hidden title="Unsaved changes since last approval"></span>
+      <span class="approved-note" id="approvedNote"></span>
     </div>
+    <nav class="top-actions">
+      <a class="ghost-link" href="research.html">Research workspace</a>
+      <button class="btn ghost" id="revertBtn" type="button" title="Restore the last approved arrangement">Revert</button>
+      <button class="btn outline" id="approveBtn" type="button" title="Save this arrangement as the approved timeline">Approve timeline</button>
+      <button class="btn brass" id="exportBtn" type="button">Export document</button>
+    </nav>
   </header>
 
-  <main>
-    <section class="controls" aria-label="Catalog controls">
-      <label class="search-control"><span class="sr-only">Search catalog</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg><input id="search" type="search" placeholder="Search people, places, signs, subjects…"></label>
-      <button class="filter-toggle" id="filterToggle" type="button" aria-expanded="false">Filters <span id="filterCount" class="badge">0</span></button>
-      <div class="view-switcher" aria-label="View">
-        <button class="active" type="button" data-view="timeline" aria-pressed="true">Timeline</button>
-        <button type="button" data-view="grid" aria-pressed="false">Grid</button>
-      </div>
-    </section>
-
-    <section class="filter-panel" id="filterPanel" hidden>
-      <label>Era<select id="dateFilter"><option value="">All eras</option><option value="undated">Undated</option></select></label>
-      <label>Print viability<select id="resolutionFilter"><option value="">All levels</option><option>Production Ready</option><option>Potentially Usable</option><option>Reference Only</option></select></label>
-      <label>Selection<select id="selectionFilter"><option value="">All photographs</option><option value="selected">Selected</option><option value="curated">Curated mural set</option><option value="unselected">Not selected</option></select></label>
-      <button class="text-button" id="clearFilters" type="button">Clear all filters</button>
-    </section>
-
-    <div class="notice" id="catalogNotice" role="status">Loading catalog…</div>
-    <section id="catalog" class="catalog timeline-view" aria-label="Historical photographs"></section>
-    <button id="loadMore" class="load-more" type="button" hidden>Show more photographs</button>
-
-    <section class="selection-page" id="selectionPage" hidden>
-      <div class="section-heading"><div><p class="eyebrow">Your shortlist</p><h2>Selected for mural</h2><p id="selectionSummary"></p></div><button class="secondary-button" id="backToCatalog" type="button">← Back to catalog</button></div>
-      <div class="selection-tools">
-        <button class="primary-button" id="openMural" type="button">Arrange &amp; preview mural <span aria-hidden="true">→</span></button>
-        <button class="secondary-button" id="downloadReport" type="button">Download selection report</button>
-        <button class="secondary-button" id="copyReport" type="button">Copy report</button>
-        <button class="text-button danger" id="clearSelection" type="button">Clear selection</button>
-      </div>
-      <div id="selectedGrid" class="selected-grid"></div>
-    </section>
-
-    <section class="mural-page" id="muralPage" hidden>
-      <div class="section-heading">
-        <div><p class="eyebrow">Mural proof</p><h2>Timeline mural sequence</h2><p id="muralSummary"></p></div>
-        <button class="secondary-button" id="backFromMural" type="button">← Back to selection</button>
-      </div>
-      <div class="mural-tools">
-        <button class="secondary-button" id="sortChrono" type="button">Sort by date</button>
-        <div class="height-switcher" role="group" aria-label="Frame height">
-          <span>Frame height</span>
-          <button type="button" data-frame-height="170">S</button>
-          <button class="active" type="button" data-frame-height="230">M</button>
-          <button type="button" data-frame-height="320">L</button>
+  <main class="workspace">
+    <section class="canvas-zone" aria-label="Timeline canvas">
+      <div class="zone-head">
+        <h2 class="zone-title">The Timeline</h2>
+        <span class="zone-meta" id="canvasMeta"></span>
+        <div class="zone-tools">
+          <button class="tool-btn" id="sortBtn" type="button">Sort by date</button>
+          <button class="tool-btn danger" id="clearBtn" type="button">Clear</button>
         </div>
-        <button class="secondary-button" id="downloadMural" type="button">Download sequence</button>
       </div>
-      <p class="mural-hint">Photographs run left to right in timeline order. Drag any frame to reposition it; the order is saved in this browser.</p>
-      <div id="muralRibbon" class="mural-ribbon"></div>
+      <div class="canvas-row" id="canvasRow" aria-live="polite"></div>
+    </section>
+
+    <section class="tray-zone" aria-label="Photograph collection">
+      <div class="tray-filters">
+        <h2 class="zone-title tray-title">The Collection</h2>
+        <label class="search-field">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+          <input id="searchInput" type="search" placeholder="Filter by keyword — people, places, signs, subjects…" autocomplete="off">
+        </label>
+        <label class="select-field"><span>Print</span>
+          <select id="viabilityFilter">
+            <option value="">All</option>
+            <option>Production Ready</option>
+            <option>Potentially Usable</option>
+            <option>Reference Only</option>
+          </select>
+        </label>
+        <label class="select-field"><span>Rights</span>
+          <select id="rightsFilter">
+            <option value="">All</option>
+            <option>Public domain</option>
+            <option>Permission required</option>
+            <option>Copyrighted</option>
+            <option>Unclear</option>
+          </select>
+        </label>
+        <label class="check-field"><input id="hidePlaced" type="checkbox"><span>Hide placed</span></label>
+        <span class="tray-count" id="trayCount" aria-live="polite"></span>
+      </div>
+      <div class="tray-row" id="trayRow"></div>
+      <div class="scrubber" id="scrubber" aria-label="Scrub through the collection by decade">
+        <div class="scrub-ticks" id="scrubTicks"></div>
+        <div class="scrub-track" id="scrubTrack"><div class="scrub-handle" id="scrubHandle"></div></div>
+      </div>
     </section>
   </main>
 
-  <dialog id="detailDialog" class="detail-dialog">
-    <button class="dialog-close" type="button" data-close aria-label="Close">×</button>
-    <div id="detailContent"></div>
+  <dialog id="quickView" class="quick-view">
+    <button class="qv-close" type="button" data-close aria-label="Close">×</button>
+    <div id="quickViewBody"></div>
   </dialog>
 
-  <dialog id="compareDialog" class="compare-dialog">
-    <button class="dialog-close" type="button" data-close aria-label="Close">×</button>
-    <div id="compareContent"></div>
-  </dialog>
+  <div class="desktop-gate" role="note">
+    <p class="gate-mark" aria-hidden="true">BLD</p>
+    <p>This timeline workspace is built for a desktop screen.<br>Please open it on a larger display.</p>
+  </div>
 
-  <footer><p>Beaumont Library District timeline mural · Working research catalog</p><p>Dates and machine suggestions remain provisional until verified.</p></footer>
-  <script src="app.js?v=3" defer></script>
+  <div class="load-veil" id="loadVeil"><p>Opening the collection…</p></div>
+
+  <script src="app.js?v=5" defer></script>
 </body>
 </html>
