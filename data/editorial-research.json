@@ -640,9 +640,10 @@
   "img_a3f413e8c9ed23bb": {
    "title": "H. L. Priest and his fruit tree",
    "original_title": "Man And Fruit Tree",
-   "description": "H. L. Priest — bowler hat, walrus mustache, waistcoat and rolled sleeves — stands beside a young fruit tree in freshly worked ground, a long, low colonnaded building crowning the bare rise behind him (unidentified; possibly one of the town's early institutional buildings). The holding library captions him simply: 'H. L. Priest is shown standing next to his fruit tree in the early days.'",
+   "description": "H. L. Priest — bowler hat, walrus mustache, waistcoat and rolled sleeves — stands beside a young fruit tree in freshly worked ground on open, newly graded land. On the knoll behind him sits a long, low, single-story institutional building: flat parapeted roof, a raised central pavilion with a pergola, and continuous banks of multi-pane windows — probably a 1910s-1920s school, but unidentified. The holding library captions him simply: 'H. L. Priest is shown standing next to his fruit tree in the early days.'",
    "corrections": [
-    "The old 'Man and Fruit Tree, 1927' dropped the man's name — which Calisphere records as H. L. Priest — and asserted a date Calisphere does not carry."
+    "Restored the man's name: Calisphere records him as H. L. Priest, which the old 'Man And Fruit Tree' title dropped.",
+    "A hypothesis (2026-07-23) identifying the hilltop building as Beaumont's 1921 Wellwood School was withdrawn 2026-07-24: on close inspection the building has a flat parapeted roof, not Wellwood's gabled tile roof (Calisphere ark c8416wdh), and the Wellwood site at Seventh and Wellwood is not on a distinct knoll like the one shown. The building is a 1910s-1920s institutional type, probably a school, but remains unidentified; the date reverts to an uncertain c. 1910s-1920s."
    ],
    "evidence": [
     {
@@ -668,13 +669,15 @@
    "best_master": {
     "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\13_man-and-fruit-tree-1927-scraped.jpg",
     "pixels": "749×1024",
-    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 366×500 px comp. (Filename's date is unsupported; kept for link continuity.)"
+    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 366×500 px comp. (Filename's '1927' date is uncorroborated; kept for link continuity.)"
    },
    "open_questions": [
-    "The colonnaded hilltop building behind H. L. Priest is unidentified."
+    "The hilltop building is unidentified — a 1910s-1920s single-story, flat-roofed institutional building (probably a school) on a graded knoll. A proposed match to the 1921 Wellwood School was rejected (roof form and site topography don't fit). Which Pass-area school/institution sat on a distinct knoll?",
+    "Where was this taken? The bare, newly graded setting suggests developing ranch/subdivision land rather than Priest's residence; the tree's location is not established.",
+    "Who was H. L. Priest, and where was his orchard/property? No biographical source located yet."
    ],
    "research_status": "Researched",
-   "researched": "2026-07-20",
+   "researched": "2026-07-24",
    "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
    "select_position": 13
   },

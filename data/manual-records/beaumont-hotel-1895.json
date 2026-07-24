@@ -1,0 +1,42 @@
+{
+  "image": "X:/My Drive/Projects/Beaumont Library District/projects/timeline-mural/Steven's Finds/master-gmd-gmd436m-g4364m-g4364bm-g4364bm_g004111895-00411_1895-0001.png",
+  "title": "Sanborn Fire Insurance Map of Beaumont, 1895 (The Beaumont Hotel)",
+  "original_title": "Sanborn Fire Insurance Map from Beaumont, Riverside County, California",
+  "date": {
+    "start": 1895,
+    "end": 1895,
+    "display": "February 1895",
+    "confidence": "high",
+    "basis": "Dated “Feb. 1895” in the Sanborn title cartouche (Beaumont, Riverside Co., Cal.)."
+  },
+  "caption": "Sheet 1 of the February 1895 Sanborn fire-insurance survey of Beaumont (then a town of 350), centered on “The Beaumont Hotel” — a resort hotel with a dining room set in landscaped grounds of lawns, carriage drives and flower beds on block 202 at Beaumont Avenue and 5th Street. The sheet also records the Hotel Del Paso, the Summit House, the Southern Pacific depot and freight house, C. R. Swett’s grain warehouse, and the town’s public school.",
+  "description": "A Sanborn Map Company fire-insurance sheet documenting Beaumont’s built core in February 1895, when the population was 350. Its most prominent feature is “The Beaumont Hotel,” drawn on block 202 between Beaumont Avenue and 5th Street: a rambling resort hotel with a dining room, set within formal grounds of lawns, curved carriage drives, walks and flower beds, noted as located about half a mile east of the railroad depot and lit by gasoline gas. The same sheet captures the Hotel Del Paso by the railroad, the Summit House lodging, the Southern Pacific Railroad depot and freight house, C. R. Swett’s grain warehouse, and the public school on block 201; mapped streets include Beaumont, Welwood, Egan, Grace and California avenues and 5th Street. Held by the Library of Congress, Geography and Map Division, whose online Sanborn collection is public domain. Located by Steven Brown while searching LOC Sanborn coverage of Beaumont, 2026-07-24.",
+  "attribution": "Sanborn Map Company. Library of Congress, Geography and Map Division, Sanborn Maps Collection.",
+  "attribution_confidence": "confirmed",
+  "caption_source": "Library of Congress, Sanborn Fire Insurance Maps — Beaumont, Riverside County, California (item sanborn00411, sheet 1, Feb. 1895).",
+  "rights_status": "Public domain",
+  "rights_note": "Library of Congress: content of the online Sanborn Maps collection is in the public domain and free to use and reuse.",
+  "locations": ["Beaumont"],
+  "people": [],
+  "subjects": ["beaumont", "hotel", "sanborn map", "fire insurance", "1895"],
+  "search_terms": ["1895", "beaumont", "beaumont hotel", "depot", "fire insurance", "hotel", "hotel del paso", "map", "public school", "sanborn", "summit house"],
+  "evidence": [
+    {"label": "Library of Congress — Sanborn Fire Insurance Map from Beaumont, Riverside County, California (Feb. 1895), sheet 1", "url": "https://www.loc.gov/item/sanborn00411_001/"},
+    {"label": "Library of Congress — Sanborn Maps digital collection (public domain)", "url": "https://www.loc.gov/collections/sanborn-maps/"},
+    {"label": "Full-resolution sheet — LOC image service (IIIF)", "url": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd436m:g4364m:g4364bm:g4364bm_g004111895:00411_1895-0001/full/pct:100/0/default.jpg"}
+  ],
+  "holding": {
+    "institution": "Library of Congress, Geography and Map Division",
+    "item_id": "sanborn00411 (Feb. 1895, sheet 1)",
+    "url": "https://www.loc.gov/item/sanborn00411_001/"
+  },
+  "open_questions": [
+    "Is this “Beaumont Hotel” the boom-era hotel reported to have burned Aug. 16, 1909 (afterward the Edinburgh Hotel, near 5th & Beaumont Ave.)? Plausible by location, unconfirmed."
+  ],
+  "provenance": "Downloaded from the Library of Congress Sanborn Maps collection (item sanborn00411, Feb. 1895, sheet 1) by Steven Brown; saved under timeline-mural/Steven's Finds.",
+  "researched": "2026-07-24",
+  "curated": false,
+  "selected_default": false,
+  "source_key": "loc-sanborn",
+  "source_priority": 90
+}
