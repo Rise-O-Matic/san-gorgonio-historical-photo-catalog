@@ -125,6 +125,44 @@ regional contributor. The client portal shows the caption and credit on every
 card, exposes an editable **Attribution / credit** field in the detail view, and
 includes both in the downloaded/copied selection report.
 
+### Adding a found record (manual insertion)
+
+Most records are *generated* by the pipeline scanning the source directories in
+`config/catalog.config.json`; the editorial layers above only overlay onto
+records that already exist. For a one-off **found item** that is not in a scanned
+source dir — a Library of Congress Sanborn sheet, a Calisphere scan, a
+newly-acquired print — use `scripts/add_manual_record.py`, which reproduces
+everything the pipeline would compute for that image (a `files` entry with
+perceptual hashes, a 560px thumbnail and 1600px preview under `site/assets/`, and
+the print-viability math) and bakes a fully-authored record into **both**
+`data/catalog.json` and `site/data/catalog.json`, re-sorts chronologically,
+updates the summary counts, and rewrites `data/catalog.csv`.
+
+Write a small metadata JSON (keep it under `data/manual-records/` so the record
+can be re-applied), then run:
+
+```
+python scripts/add_manual_record.py data/manual-records/<name>.json
+```
+
+Only `image` and `title` are required; every other field is optional. `date`
+(`start` / `end` / `display` / `confidence` / `basis`), `caption`,
+`description`, `attribution`, `caption_source`, `evidence` (a list of
+`{label, url}`), `holding`, `open_questions`, `subjects`, and `provenance` fill
+out the card and its citations. **`rights_status` must be exactly one of
+`Public domain`, `Permission required`, `Copyrighted`, or `Unclear`** or the
+site's colour-coded rights pill will not render. Re-running with the same image
+replaces the record in place (idempotent), so the JSON is the source of truth.
+
+Caveat: manual records are not re-scanned by a full `catalog_pipeline.py`
+rebuild, so a rebuild will drop them — re-apply by re-running the script.
+
+Worked example: [`data/manual-records/beaumont-hotel-1895.json`](data/manual-records/beaumont-hotel-1895.json)
+adds the February 1895 Sanborn fire-insurance sheet of Beaumont (showing "The
+Beaumont Hotel"), pulled from the public-domain LOC Sanborn collection. LOC's
+own pages sit behind a bot-check, but the tile server is open — a full sheet is
+`https://tile.loc.gov/image-services/iiif/service:gmd:gmd436m:g4364m:g4364bm:g4364bm_g00411<YEAR>:00411_<YEAR>-000<SHEET>/full/pct:100/0/default.jpg`.
+
 ## Deployment
 
 **Live site: https://rise-o-matic.github.io/san-gorgonio-historical-photo-catalog/**
