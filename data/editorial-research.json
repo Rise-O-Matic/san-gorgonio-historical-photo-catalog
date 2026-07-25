@@ -640,23 +640,47 @@
   "img_a3f413e8c9ed23bb": {
    "title": "H. L. Priest and his fruit tree",
    "original_title": "Man And Fruit Tree",
-   "description": "H. L. Priest — bowler hat, walrus mustache, waistcoat and rolled sleeves — stands beside a young fruit tree in freshly worked ground on open, newly graded land. On the knoll behind him sits a long, low, single-story institutional building: flat parapeted roof, a raised central pavilion with a pergola, and continuous banks of multi-pane windows — probably a 1910s-1920s school, but unidentified. The holding library captions him simply: 'H. L. Priest is shown standing next to his fruit tree in the early days.'",
+   "description": "H. L. Priest — identified by family genealogy as Herbert Loren 'Pete' Priest (January 11, 1862 – August 31, 1946), a Beaumont resident buried at Mountain View Cemetery — stands in bowler hat, walrus mustache, waistcoat and rolled sleeves beside a young grafted citrus tree in freshly worked ground on open, newly graded land. The tree stands about 7-8 ft with a 2.5-ft clear trunk under a dense evergreen head of thick, glossy, entire-margined leaves 3-5 in long — characters that exclude every deciduous crop the San Gorgonio Pass was known for (apple, cherry, apricot, almond, pear) and mark it as citrus, most consistent with a sweet orange. No fruit is visible. On the knoll behind sits a long, low, single-story institutional building: flat parapeted roof, a raised central pavilion with pergola, and continuous banks of multi-pane windows — probably a 1910s-1920s school, but unidentified. Photometric analysis of the master (2026-07-24) adds two constraints. The sky holds a flat 209-214 luminance to within about twelve rows of the skyline with no gradual haze ramp, so the empty horizon is genuine and not an orthochromatic wash-out — though the left skyline is a nearby bare rounded knoll at roughly camera eye level, not a far horizon. And the lighting (trunk lit on its left face, hat crown shaded on the right, cast shadow running to image-right) puts the sun to the image-left, which places the camera between SSW and WNW, centred on W/WSW — the one bearing in the Pass with neither San Gorgonio nor San Jacinto in frame. The holding library captions him simply: 'H. L. Priest is shown standing next to his fruit tree in the early days.'",
    "corrections": [
-    "Restored the man's name: Calisphere records him as H. L. Priest, which the old 'Man And Fruit Tree' title dropped.",
-    "A hypothesis (2026-07-23) identifying the hilltop building as Beaumont's 1921 Wellwood School was withdrawn 2026-07-24: on close inspection the building has a flat parapeted roof, not Wellwood's gabled tile roof (Calisphere ark c8416wdh), and the Wellwood site at Seventh and Wellwood is not on a distinct knoll like the one shown. The building is a 1910s-1920s institutional type, probably a school, but remains unidentified; the date reverts to an uncertain c. 1910s-1920s."
+    "Restored the man's name: Calisphere records him as H. L. Priest, which the old “Man And Fruit Tree” title dropped.",
+    "A hypothesis (2026-07-23) identifying the hilltop building as Beaumont's 1921 Wellwood School was withdrawn 2026-07-24 and is now closed with a primary source: the Enterprise (Riverside), 14 July 1921, reports the new Beaumont district school as a $49,000 bond job by Witmer & Watson of Los Angeles, “Spanish court style”, reinforced concrete, TILE ROOF, eight rooms, built on the site of the existing school, which was razed. Our building has a flat parapeted roof and stands alone on a graded knoll, not on an in-town lot.",
+    "Tree identified 2026-07-24: the generic “fruit tree” is a young grafted CITRUS, probably a sweet orange (Citrus x sinensis). Diagnostic at 4-9x on the master. This excludes apple, cherry, apricot, almond, plum and pear (all serrate-margined, and the Pass's actual crops) and, on habit, avocado and persimmon. Lemon is disfavoured by the entire margins, grapefruit by the absence of an obvious broad winged petiole.",
+    "Man CONFIRMED 2026-07-24 (b) from primary sources, upgrading the earlier unverified genealogy: Herbert Loren “Pete” Priest, 11 January 1862 - 31 August 1946. San Bernardino Sun, 3 September 1946, p.10: funeral services for “Herbert Loren Priest, 84, for 35 years a newspaper writer and civic leader in Beaumont”; born in Michigan, taught in Michigan and Minnesota, served overseas in France as a Y.M.C.A. secretary in the first World War, several years clerk in the Beaumont post office, buried Mountain View cemetery. Corroborated by the Daily Gazette (Beaumont), 15 November 1928, on J. V. R. Priest's ninety-first birthday, “father of H. L. Priest, assistant postmaster”. He is styled “Prof. H. L. Priest” throughout 1917-21.",
+    "Date revised 2026-07-24 (b) from “c. 1915-1930 / medium” to “c. 1917-1922 / medium” - see the date basis. The controlling new fact is that Priest was still a Minneapolis resident visiting Beaumont in August 1916 and January 1917, so the frame cannot predate c. 1917; costume and apparent age then close the window at c. 1922.",
+    "Photometry and photogrammetry on the plate (2026-07-24): shadows run image-right at c. 0.29x subject height, giving a solar elevation of c. 70-75 degrees near solar noon and a camera bearing of c. W (WSW-WNW), so the building lies west to south-west of the camera; and the building scales to c. 160-200 ft long, c. 800 ft from the camera, one storey of c. 15 ft - a substantial 6-10 room institution, not a one-room rural schoolhouse."
    ],
    "evidence": [
     {
-     "label": "Calisphere item (title 'A man and fruit tree'; description naming H. L. Priest; no date) — CBEA_064",
+     "label": "Calisphere item (title 'A man and fruit tree'; description naming H. L. Priest; no date) - CBEA_064",
      "url": "https://calisphere.org/item/ark:/13030/c83f4nzv/"
     },
     {
-     "label": "Beaumont's fruit-boom context (Beaumont Land & Water Co. plantings, orchard promotion) — BLD local history",
+     "label": "PRIMARY: San Bernardino Sun, 3 September 1946, p.10 - 'Funeral Services This Morning for Herbert L. Priest' (age 84; 35 years a Beaumont newspaper writer; born Michigan; taught Michigan and Minnesota; Y.M.C.A. secretary in France; Beaumont post office clerk; burial Mountain View)",
+     "url": "https://cdnc.ucr.edu/?a=d&d=SBS19460903.1.10"
+    },
+    {
+     "label": "PRIMARY: Daily Gazette (Beaumont), 15 November 1928 - J. V. R. Priest's 91st birthday, 'father of H. L. Priest, assistant postmaster'",
+     "url": "https://cdnc.ucr.edu/?a=q&hs=1&r=1&results=1&txq=%22H.+L.+Priest%22&txf=txIN&puq=BMTG"
+    },
+    {
+     "label": "PRIMARY (residence floor): Riverside Daily Press, 19 August 1916 and 26 January 1917 - 'H. L. Priest of Minneapolis, Minn.' visiting his parents in Beaumont; he becomes a Beaumont resident only from c. 1917-18",
+     "url": "https://cdnc.ucr.edu/?a=q&hs=1&r=1&results=1&txq=%22H.+L.+Priest%22&txf=txIN&dafyq=1908&datyq=1927&so=byDA"
+    },
+    {
+     "label": "Closes the Wellwood hypothesis: Enterprise (Riverside), 14 July 1921 - new Beaumont district school, $49,000 bonds, Witmer & Watson architects, 'Spanish court style', reinforced concrete, TILE ROOF, eight rooms, on the razed site of the existing school",
+     "url": "https://cdnc.ucr.edu/?a=d&d=MPE19210714.2.33"
+    },
+    {
+     "label": "Beaumont's fruit-boom context (Beaumont Land & Water Co. plantings, orchard promotion) - BLD local history",
      "url": "https://www.mybld.org/local-history"
     },
     {
-     "label": "Companion Calisphere orchard item ('Beaumont Fruit Orchard, 1911')",
-     "url": "https://calisphere.org/item/ark:/13030/c8r49q35/"
+     "label": "Elevation/topography context for the bearing argument: Beaumont ~2,600 ft in the Pass, between San Gorgonio (11,503 ft, NE) and San Jacinto (10,834 ft, SE)",
+     "url": "https://en.wikipedia.org/wiki/San_Gorgonio_Pass"
+    },
+    {
+     "label": "Full investigation ledger for the unidentified building (constraints, eliminations, tooling, open leads) - in this repo",
+     "url": "data/research-assets/priest-building-ledger.md"
     }
    ],
    "rights": null,
@@ -669,12 +693,13 @@
    "best_master": {
     "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\13_man-and-fruit-tree-1927-scraped.jpg",
     "pixels": "749×1024",
-    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 366×500 px comp. (Filename's '1927' date is uncorroborated; kept for link continuity.)"
+    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 366×500 px comp. (Filename's date is unsupported; kept for link continuity.)"
    },
    "open_questions": [
-    "The hilltop building is unidentified — a 1910s-1920s single-story, flat-roofed institutional building (probably a school) on a graded knoll. A proposed match to the 1921 Wellwood School was rejected (roof form and site topography don't fit). Which Pass-area school/institution sat on a distinct knoll?",
-    "Where was this taken? The bare, newly graded setting suggests developing ranch/subdivision land rather than Priest's residence; the tree's location is not established.",
-    "Who was H. L. Priest, and where was his orchard/property? No biographical source located yet."
+    "The hilltop building is unidentified — a 1910s-1920s single-story, flat-roofed institutional building (probably a school) on a graded knoll. Ruled out so far: Wellwood School (1910 and 1921), Beaumont Grammar 1911, and both Beaumont High buildings; the 1915 Sanborn sheets map only the dense core, so a building alone on graded outskirts is off-map. NEW CONSTRAINT (2026-07-24): the camera faces W/WSW, so the building lies west to southwest of the camera position.",
+    "Where was this taken? The rolling dissected terrain (bare rounded knolls, a swale, terraced and furrowed slopes), the newly graded ground and the W/WSW bearing together argue against flat Beaumont proper — and the citrus argues against Cherry Valley, a frost pocket at ~2,800 ft that grew cherries precisely for the winter chill. Working hypothesis (unconfirmed): the warmer, lower, air-drained western margin of the Pass — the San Timoteo Canyon / Badlands corridor toward Redlands.",
+    "DECISIVE NEXT TEST: Herbert L. Priest in the 1910 or 1920 federal census (enumeration district plus occupation — 'farmer'/'orchardist'), or Riverside County deed and assessor records. Land records should put his orchard on a map and settle both the location and the citrus question. Burial at Mountain View confirms residence in Beaumont, not the photo site.",
+    "Species rank of the citrus would need a scan better than Calisphere's 1024 px ceiling; the original print is small."
    ],
    "research_status": "Researched",
    "researched": "2026-07-24",

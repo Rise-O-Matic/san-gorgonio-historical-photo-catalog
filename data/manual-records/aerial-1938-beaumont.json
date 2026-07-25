@@ -1,0 +1,42 @@
+{
+  "image": "C:/GitHub/san-gorgonio-historical-photo-catalog/data/aerials/axm-1938a_61-70.jpg",
+  "title": "Beaumont from the air, 4 July 1938 — USDA aerial survey frame AXM-61-70",
+  "original_title": "AXM-61-70",
+  "date": {
+    "start": 1938,
+    "end": 1938,
+    "display": "4 July 1938",
+    "confidence": "high",
+    "basis": "Exposure date \u201c7-4-38\u201d is written on the frame itself, in the emulsion margin at upper left, alongside the frame number \u201cAXM-61-70\u201d. The companion frame AXM-61-68 from the same line carries the fuller stamp \u201c7-4-38-3:49  AAA-1:20,000\u201d, giving the time of exposure and confirming the nominal scale. UCSB's index records 24 May 1938 as the BEGIN date of flight AXM_1938A as a whole; individual frames were exposed over following weeks, so the frame stamp is the authority for this image."
+  },
+  "caption": "Beaumont from directly overhead on 4 July 1938, in a U.S. Department of Agriculture aerial survey flown at 1:20,000. The town's street grid fills the right of the frame, still far larger than the built-up area \u2014 whole graded blocks stand empty between scattered houses, a legacy of the 1880s boom plat. Orchards in tight rows occupy the blocks east and south of the centre; the Southern Pacific and the highway run diagonally through the town, and the dissected San Timoteo Badlands open out to the west and south-west. The frame predates the freeway, which would later cut the town in two.",
+  "description": "One 9\u00d79-inch frame from flight AXM_1938A, a 1938 U.S. Department of Agriculture (Agricultural Adjustment Administration) aerial survey of Riverside County flown at a nominal scale of 1:20,000, so that each frame covers roughly 2.8 miles square. The frame centre is 33.9193 N, 116.9777 W \u2014 about 0.7 mile south of downtown Beaumont \u2014 so coverage runs from the north side of town southward across the low rolling ground and into the badlands. Visible are the full platted street grid with its many undeveloped blocks, the orchard tracts, the Southern Pacific line and adjoining highway, and the drainage pattern of the ground west and south of town. Scanned at 5483\u00d74309 px by the UCSB Library Geospatial Collection and released as a free download. Located 2026-07-24 while searching pre-war aerial coverage of Beaumont for an unrelated identification problem (see data/research-assets/priest-building-ledger.md).",
+  "attribution": "U.S. Department of Agriculture, Agricultural Adjustment Administration \u2014 aerial survey flight AXM_1938A, frame 61-70. Scan courtesy UCSB Library Geospatial Collection.",
+  "attribution_confidence": "confirmed",
+  "caption_source": "Frame margin annotations (date, frame number, and on companion frame 61-68 the \u201cAAA-1:20,000\u201d scale stamp), plus UCSB Library FrameFinder flight metadata (FlightID AXM_1938A, Scale 20000, centre 33.9193/-116.9777).",
+  "rights_status": "Public domain",
+  "rights_note": "A 1938 U.S. Department of Agriculture (Agricultural Adjustment Administration) survey frame \u2014 a U.S. federal government work, public domain under 17 U.S.C. \u00a7 105 (catalog rights rule 3). UCSB Library scanned and distributes it free of charge and is credited as a courtesy, not as a rights holder; UCSB publishes no rights statement of its own for these scans. Caveat: 1930s AAA survey flights were commonly flown by contractors under federal contract, so public-domain status rests on the negatives having passed to the government as well as on \u00a7 105; no copyright notice or registration is known and the frames are distributed without restriction.",
+  "locations": ["Beaumont"],
+  "people": [],
+  "subjects": ["beaumont", "aerial photograph", "1938", "usda", "orchards", "street grid", "southern pacific", "san timoteo badlands"],
+  "search_terms": ["1938", "aerial", "aerial photograph", "aerial survey", "axm", "beaumont", "badlands", "orchards", "overhead", "railroad", "san timoteo", "southern pacific", "street grid", "usda"],
+  "evidence": [
+    {"label": "UCSB Library FrameFinder \u2014 aerial photograph index (flight AXM_1938A, frame 61-70; scale 1:20,000; centre 33.9193, -116.9777)", "url": "https://mil.library.ucsb.edu/ap_indexes/FrameFinder/"},
+    {"label": "Full-resolution scan \u2014 UCSB Library Geospatial Collection (23.6 MB TIFF, 5483\u00d74309)", "url": "https://mil.library.ucsb.edu/ap_images/axm-1938a/axm-1938a_61-70.tif"},
+    {"label": "UCSB Library \u2014 about the aerial photography collection", "url": "https://www.library.ucsb.edu/geospatial/aerial-photography"}
+  ],
+  "holding": {
+    "institution": "UCSB Library, Geospatial Collection (Map & Imagery Laboratory)",
+    "item_id": "AXM_1938A frame 61-70",
+    "url": "https://mil.library.ucsb.edu/ap_images/axm-1938a/axm-1938a_61-70.tif"
+  },
+  "open_questions": [
+    "Confirm the public-domain determination with UCSB's Geospatial Collection: their website states the scans are free to download but publishes no explicit rights statement, and 1930s AAA flights were typically contractor-flown for the federal government."
+  ],
+  "provenance": "Downloaded from the UCSB Library Geospatial Collection via FrameFinder, 2026-07-24. Repo master is a full-resolution JPEG (quality 88) derived from the 23.6 MB source TIFF, kept at data/aerials/axm-1938a_61-70.jpg; the TIFF is not committed.",
+  "researched": "2026-07-24",
+  "curated": false,
+  "selected_default": false,
+  "source_key": "ucsb-aerial",
+  "source_priority": 90
+}

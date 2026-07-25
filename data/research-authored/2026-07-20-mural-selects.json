@@ -1,1052 +1,1082 @@
 {
- "batch": "2026-07-20-mural-selects",
- "description": "Deep-research batch for the 18 mural-select records, transcribed from the evidence-linked selects manifest (2026-07-20/21 research pass): corrected titles, long descriptions, corrections logs, per-claim evidence links, rights, holding institutions, best-known masters and open questions.",
- "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
- "researched": "2026-07-20",
- "entries": {
-  "img_17d9fad337a3fded": {
-   "position": 1,
-   "title": "Council house (kishumnawat), Morongo Reservation",
-   "original_title": "Ceremonial Big House Morongo",
-   "caption": {
-    "caption": "Council house (ceremonial big house), Morongo Reservation, c. 1890s.",
-    "attribution": "Huntington Library, William H. Weinland Photograph Collection (photCL 39 vol. 3 (20)); the catalog file is a low-resolution comp",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Huntington Library Weinland Collection — exact print verified by direct image comparison (2026-07-20)",
-    "basis": "Exact print located at the Huntington Library: 'Council house.', photCL 39 vol. 3 (20), in the album 'Potrero Photographs' (1880-1900) compiled by Sarah Morris, one of the reservation's first schoolteachers. The old label '1800' is impossible — photography did not exist until 1839. In Cahuilla ethnography the ceremonial big house (kishumnawat) housed the sacred bundle, the net (hereditary clan leader) and the nukil mourning ceremony; 'council house' is the period settlers' term on the album mount."
-   },
-   "date": {
-    "date_start": 1890,
-    "date_end": 1899,
-    "display": "c. 1890s",
-    "confidence": "medium",
-    "basis": "Huntington dates the 'Potrero Photographs' album 1880-1900; the Weinland mission (at Morongo from c. 1890) and Sarah Morris's tenure narrow it to the 1890s. Replaces the impossible '1800'."
-   },
-   "rights_status": "Permission required",
-   "rights": "Huntington Library (photCL 39); reproduction for the mural requires their permission.",
-   "holding": {
-    "institution": "Huntington Library, William H. Weinland Photograph Collection",
-    "item_id": "photCL 39 vol. 3 (20)",
-    "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/13004/"
-   },
-   "best_master": {
-    "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\01_council-house-morongo-c1890s-huntington.jpg",
-    "pixels": "3000×2858",
-    "note": "IIIF scan of the Huntington album page (20.0×19.1 in at 150 PPI); supersedes this archive's 253 px comp."
-   },
-   "description": "The ceremonial big house of the Morongo (Potrero) Reservation — a long, low council house of pole framework heaped with arrowweed and brush thatch, a plank door let into its left side and an elderly woman seated near the entrance — photographed for the 'Potrero Photographs' album kept by Sarah Morris, one of the reservation's first schoolteachers. In Cahuilla ethnography the ceremonial big house (kishumnawat) stood at the village center as the home of the sacred ceremonial bundle and the net (hereditary clan leader), and housed the nukil mourning ceremony; 'council house' is the period settlers' term written on the album mount.",
-   "corrections": [
-    "The old label 'Ceremonial Big House Morongo, 1800' is impossible — photography did not exist until 1839, and none reached inland Southern California before the 1850s.",
-    "The exact print was located at the Huntington Library (Weinland Collection), which dates the album 1880-1900; the Weinland mission and Sarah Morris's tenure narrow it to c. 1890s.",
-    "A 3000 px IIIF scan of the album page was downloaded as the new master — the 253 px comp is superseded."
-   ],
-   "evidence": [
-    {
-     "label": "Exact item — 'Council house.', Huntington Library, Weinland Photograph Collection, photCL 39 vol. 3 (20), c. 1880-1900 (verified by direct image comparison)",
-     "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/13004/"
+  "batch": "2026-07-20-mural-selects",
+  "description": "Deep-research batch for the 18 mural-select records, transcribed from the evidence-linked selects manifest (2026-07-20/21 research pass): corrected titles, long descriptions, corrections logs, per-claim evidence links, rights, holding institutions, best-known masters and open questions.",
+  "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
+  "researched": "2026-07-20",
+  "entries": {
+    "img_17d9fad337a3fded": {
+      "position": 1,
+      "title": "Council house (kishumnawat), Morongo Reservation",
+      "original_title": "Ceremonial Big House Morongo",
+      "caption": {
+        "caption": "Council house (ceremonial big house), Morongo Reservation, c. 1890s.",
+        "attribution": "Huntington Library, William H. Weinland Photograph Collection (photCL 39 vol. 3 (20)); the catalog file is a low-resolution comp",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Huntington Library Weinland Collection — exact print verified by direct image comparison (2026-07-20)",
+        "basis": "Exact print located at the Huntington Library: 'Council house.', photCL 39 vol. 3 (20), in the album 'Potrero Photographs' (1880-1900) compiled by Sarah Morris, one of the reservation's first schoolteachers. The old label '1800' is impossible — photography did not exist until 1839. In Cahuilla ethnography the ceremonial big house (kishumnawat) housed the sacred bundle, the net (hereditary clan leader) and the nukil mourning ceremony; 'council house' is the period settlers' term on the album mount."
+      },
+      "date": {
+        "date_start": 1890,
+        "date_end": 1899,
+        "display": "c. 1890s",
+        "confidence": "medium",
+        "basis": "Huntington dates the 'Potrero Photographs' album 1880-1900; the Weinland mission (at Morongo from c. 1890) and Sarah Morris's tenure narrow it to the 1890s. Replaces the impossible '1800'."
+      },
+      "rights_status": "Permission required",
+      "rights": "Huntington Library (photCL 39); reproduction for the mural requires their permission.",
+      "holding": {
+        "institution": "Huntington Library, William H. Weinland Photograph Collection",
+        "item_id": "photCL 39 vol. 3 (20)",
+        "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/13004/"
+      },
+      "best_master": {
+        "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\01_council-house-morongo-c1890s-huntington.jpg",
+        "pixels": "3000×2858",
+        "note": "IIIF scan of the Huntington album page (20.0×19.1 in at 150 PPI); supersedes this archive's 253 px comp."
+      },
+      "description": "The ceremonial big house of the Morongo (Potrero) Reservation — a long, low council house of pole framework heaped with arrowweed and brush thatch, a plank door let into its left side and an elderly woman seated near the entrance — photographed for the 'Potrero Photographs' album kept by Sarah Morris, one of the reservation's first schoolteachers. In Cahuilla ethnography the ceremonial big house (kishumnawat) stood at the village center as the home of the sacred ceremonial bundle and the net (hereditary clan leader), and housed the nukil mourning ceremony; 'council house' is the period settlers' term written on the album mount.",
+      "corrections": [
+        "The old label 'Ceremonial Big House Morongo, 1800' is impossible — photography did not exist until 1839, and none reached inland Southern California before the 1850s.",
+        "The exact print was located at the Huntington Library (Weinland Collection), which dates the album 1880-1900; the Weinland mission and Sarah Morris's tenure narrow it to c. 1890s.",
+        "A 3000 px IIIF scan of the album page was downloaded as the new master — the 253 px comp is superseded."
+      ],
+      "evidence": [
+        {
+          "label": "Exact item — 'Council house.', Huntington Library, Weinland Photograph Collection, photCL 39 vol. 3 (20), c. 1880-1900 (verified by direct image comparison)",
+          "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/13004/"
+        },
+        {
+          "label": "The album it sits in — 'Potrero Photographs,' 1880-1900",
+          "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/13020/"
+        },
+        {
+          "label": "Companion image 'New council house'",
+          "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/13007/"
+        },
+        {
+          "label": "Weinland biography (Moravian missionary at Morongo from c. 1890) and Sarah Morris as compiler of albums 2-3 — OAC finding aid",
+          "url": "https://oac.cdlib.org/findaid/ark:/13030/tf667nb1n8/"
+        },
+        {
+          "label": "Terminology and role of the big house — Lucile Hooper, The Cahuilla Indians (1920): kishumnawat, the net, the nukil ceremony",
+          "url": "https://accessgenealogy.com/native/cahuilla-religious-life.htm"
+        },
+        {
+          "label": "Ceremonial kishamnawet at village center — Agua Caliente Band, Our Story",
+          "url": "https://www.aguacaliente.org/documents/OurStory-20.pdf"
+        },
+        {
+          "label": "Morongo Reservation history (1865 origins; Grant's executive order May 15, 1876; originally the Potrero, called Malki)",
+          "url": "https://morongonation.org/about-us/"
+        },
+        {
+          "label": "Malki Museum history",
+          "url": "https://malkimuseum.org/pages/museum-history"
+        }
+      ]
     },
-    {
-     "label": "The album it sits in — 'Potrero Photographs,' 1880-1900",
-     "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/13020/"
+    "img_c39e3df610ea24d9": {
+      "position": 2,
+      "title": "Pauline Weaver (posthumous artist's sketch)",
+      "original_title": "Weaver",
+      "caption": {
+        "caption": "Pauline Weaver (c. 1797-1867), first settler of the San Gorgonio Pass — posthumous artist's sketch; no photograph of Weaver is known.",
+        "attribution": "Artist unknown; no institutional provenance established (the circulating 'Sharlot Hall Museum' credit is unverified; cf. Arizona Historical Society portrait file #61659)",
+        "attribution_confidence": "unknown",
+        "caption_source": "Provenance research 2026-07-21 — Sharlot Hall Museum photo archive + collections catalog and Arizona Memory Project searched directly",
+        "basis": "A crosshatched artist's sketch, not a photograph and not a portrait from life: no verified photograph or documented life portrait of Weaver exists. Most plausibly a 1920s memorial-era drawing — publicity around his 1929 reinterment at Prescott produced Weaver artwork, and the Arizona Historical Society institutionally dates its companion Weaver sketch (file #61659) c. 1920s. Weaver petitioned Mexican authorities in 1845 (with Isaac Williams) for possession of the abandoned Rancho San Gorgonio — no confirmed grant is documented, so avoid 'granted'. He conveyed the ranch to Dr. Isaac W. Smith and left by 1857; died Camp Verde, A.T., June 21, 1867."
+      },
+      "date": {
+        "date_start": 1920,
+        "date_end": 1929,
+        "display": "Likely 1920s (posthumous sketch; Weaver d. 1867)",
+        "confidence": "low",
+        "basis": "Not a photograph and not from life — an imagined commemorative likeness. Most plausibly drawn in the 1920s: publicity around Weaver's 1929 reinterment at Prescott produced Weaver artwork, and the Arizona Historical Society dates its other Weaver sketch c. 1920s. Replaces 'c. 1850s-1860s', which implied a photograph from life."
+      },
+      "holding": null,
+      "best_master": {
+        "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\02-ref_ahs-61659-weaver-profile-sketch.jpg",
+        "pixels": "2000×2784 (300 DPI) — reference only",
+        "note": "A DIFFERENT, profile Weaver sketch (Arizona Historical Society #61659, In Copyright — clear with AHS before use). No better copy of the catalog's three-quarter sketch is known; the archive file (188×268 px) is the only copy located."
+      },
+      "description": "A crosshatched artist's sketch of the bearded frontiersman in his wide-brimmed hat — not a photograph, and not a portrait from life. No verified photograph or documented life portrait of Weaver exists, so this is an imagined commemorative likeness, most plausibly drawn in the 1920s. Powell 'Pauline' Weaver, Tennessee-born trapper, scout and prospector of part-Cherokee descent, petitioned Mexican authorities in 1845 (with partner Isaac Williams) for possession of the abandoned Rancho San Gorgonio, lived in an adobe near the future Beaumont running cattle in the pass, and conveyed the ranch to Dr. Isaac W. Smith before leaving in 1857; he later sparked the 1862 La Paz gold rush, camped at the future site of Prescott, and died at Camp Verde, Arizona Territory, on June 21, 1867. He is buried on the Sharlot Hall Museum grounds in Prescott.",
+      "corrections": [
+        "The old caption 'c. 1850s-1860s' implied a photograph from life — no verified photograph of Weaver is known to exist; the defensible claim is 'posthumous likeness', likely 1920s.",
+        "Weaver applied for possession of Rancho San Gorgonio in 1845 (with Isaac Williams); no confirmed Mexican land grant to him is documented — avoid 'granted'.",
+        "Provenance hunt 2026-07-21: Sharlot Hall Museum's photo archive (~12,000 of 90,000+ images online) and CatalogAccess collections catalog were searched directly — the portrait is in neither; the circulating 'Sharlot Hall Museum' credit is unverified (SHM could hold it undigitized)."
+      ],
+      "open_questions": [
+        "Original artist, date and holding institution of the sketch. Best lead: Arizona Historical Society 'Portrait-Weaver, Pauline' file #61659 (ahsreference@azhs.gov); also ask SHM's order desk (orderdesk@sharlot.org) about undigitized holdings (~87% of their images are offline)."
+      ],
+      "evidence": [
+        {
+          "label": "Biography (birth c. 1797/1800 Tennessee; 1845 San Gorgonio petition with Isaac Williams; conveyance to Dr. Isaac Smith, gone by 1857) — Sharlot Hall Museum 'Days Past'",
+          "url": "https://archives.sharlothallmuseum.org/articles/days-past-articles/1/pauline-weaver-prescott-pioneer-part-1"
+        },
+        {
+          "label": "Weaver, trapper and scout — Sharlot Hall Museum blog",
+          "url": "https://la.sharlothallmuseum.org/index.php/blog/cat/2000DP/post/pauline-weaver-trapper-and-scout/"
+        },
+        {
+          "label": "Weaver 'living in an adobe at Beaumont and running cattle in the San Gorgonio Pass in partnership with Isaac Williams' — County of San Bernardino historic place names",
+          "url": "https://www.sanbernardino.gov/1034/S-5-Historic-Place-Names"
+        },
+        {
+          "label": "Death June 21, 1867, Camp Verde; triple burial ending at Sharlot Hall Museum 1929",
+          "url": "https://archives.sharlothallmuseum.org/articles/days-past-articles/1/pauline-weaver-prescotts-first-citizen-comes-home-part-2"
+        },
+        {
+          "label": "Grave monument",
+          "url": "https://www.hmdb.org/m.asp?m=33051"
+        },
+        {
+          "label": "Find a Grave memorial (Powell Weaver)",
+          "url": "https://www.findagrave.com/memorial/7585066/powell-weaver"
+        },
+        {
+          "label": "SHM overview PDF (La Paz 1862; Prescott 1863; Mexican War guide work)",
+          "url": "https://sharlothallmuseum.org/wp-content/uploads/2022/07/Pauline-Weaver.pdf"
+        },
+        {
+          "label": "The circulating image file and its lack of provenance (source is a hobby site; artist/date unknown; SHM's own publications never use this image)",
+          "url": "https://commons.wikimedia.org/wiki/File:Pauline_Weaver_Arizona_Frontiersman.jpg"
+        },
+        {
+          "label": "SHM photo archive searched 2026-07-21 — 'Pauline Weaver' returns 17 non-portrait items",
+          "url": "https://archives.sharlothallmuseum.org/photos"
+        },
+        {
+          "label": "SHM collections catalog searched 2026-07-21 — no portrait among 14 Weaver items",
+          "url": "https://shm.catalogaccess.com/"
+        },
+        {
+          "label": "Arizona Historical Society 'Portrait-Weaver, Pauline' file #61659 — undated c. 1920s drawing (different, profile sketch), the only Weaver image on the Arizona Memory Project",
+          "url": "https://azmemory.azlibrary.gov/nodes/view/106787"
+        }
+      ]
     },
-    {
-     "label": "Companion image 'New council house'",
-     "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/13007/"
+    "img_650198dd9e4987ea": {
+      "position": 3,
+      "title": "Egan Avenue, Beaumont, 1907",
+      "original_title": "1860S Stagecoach Downtown Beaumont",
+      "caption": {
+        "caption": "Egan Avenue near the railroad crossing, Beaumont, 1907 — Burt Carter's livery stable and the Funk Realty Co. office.",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_011, ark:/13030/c8tb167d)",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_011) + sign readings at high magnification (2026-07-20)",
+        "basis": "Same photograph as Calisphere CBEA_011; the album mount is typed 'BEAUMONT 1907'. The old label 'Stagecoach downtown Beaumont, 1860' was wrong twice over: no stagecoach appears (these are freight and livery rigs), and no town existed here in 1860 — George Egan laid out San Gorgonio (renamed Beaumont 1886-87) only in 1884. The realty office's photographed sign reads 'FUNK REALTY CO'; Calisphere's title 'J. Drew Frank Realty' is most likely a cataloger's misreading, corroborated by the 'FUNK REALTY CO. REAL ESTATE' sign beside the 1911 Beaumont Bank (CBEA_108), a building BLD itself titles the Funk Building."
+      },
+      "date": {
+        "date_start": 1907,
+        "date_end": 1907,
+        "display": "1907",
+        "confidence": "high",
+        "basis": "The album mount is typed 'BEAUMONT 1907' and Calisphere dates the item 1907 (CBEA_011). Corrects the catalog's erroneous 'stagecoach, 1860'."
+      },
+      "holding": {
+        "institution": "Beaumont Library District, via Calisphere",
+        "item_id": "CBEA_011",
+        "url": "https://calisphere.org/item/ark:/13030/c8tb167d/"
+      },
+      "best_master": {
+        "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\03_egan-ave-livery-stable-1907-scraped.jpg",
+        "pixels": "1024×803",
+        "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
+      },
+      "description": "Teamsters' wagons and buggies line the dirt roadway of Egan Avenue near the railroad crossing — the shingled two-story livery stable with its painted wall sign at center, the porch-fronted Funk Realty Co. office beside it (its 'FUNK REALTY CO' sign legible under the awning), and the young town's false-front blocks beyond; the album mount is typed 'BEAUMONT 1907'. Calisphere's catalog entry names the surroundings — a realty office, Burt Carter's livery stable, Grant's Mercantile (then under construction) and Charles Budden's hotel — and notes the view was taken from in front of the Egan Avenue post office, looking south.",
+      "corrections": [
+        "'Stagecoach downtown Beaumont, 1860' was wrong twice over: no stagecoach appears (freight and livery rigs), and no town existed here in 1860 — George Egan laid out San Gorgonio (renamed Beaumont 1886-87) only in 1884.",
+        "The mount itself is dated 1907 and Calisphere dates the item 1907.",
+        "Realty-office identity: Calisphere's title says 'J. Drew Frank Realty' but the photographed sign reads 'FUNK REALTY CO' — likely a cataloger's misreading; confirm against BLD's accession notes."
+      ],
+      "open_questions": [
+        "'Funk Realty Co.' vs Calisphere's 'J. Drew Frank Realty' — three sign readings support Funk; confirm with BLD's accession notes (and whether a J. Drew Frank existed at all)."
+      ],
+      "evidence": [
+        {
+          "label": "Calisphere item (title, 1907 date, buildings named, 'taken from the front of the post office of Egan Ave, looking south') — CBEA_011",
+          "url": "https://calisphere.org/item/ark:/13030/c8tb167d/"
+        },
+        {
+          "label": "Sign readings 'FUNK REALTY CO' / livery wall sign / mount label 'BEAUMONT 1907' — legible in the 1024 px scrape (verified at high magnification 2026-07-20)",
+          "url": ""
+        },
+        {
+          "label": "Town chronology (Egan founds San Gorgonio 1884; renamed Beaumont 1886-87) — Beaumont Library District local history",
+          "url": "https://www.mybld.org/local-history"
+        },
+        {
+          "label": "Holmes, History of Riverside County (1912), pp. 229-231",
+          "url": "https://archive.org/details/historyriversid00unkngoog"
+        },
+        {
+          "label": "Corroborating Funk-sign photo beside the 1911 Beaumont Bank — CBEA_108",
+          "url": "https://calisphere.org/item/ark:/13030/c8dn44db/"
+        }
+      ]
     },
-    {
-     "label": "Weinland biography (Moravian missionary at Morongo from c. 1890) and Sarah Morris as compiler of albums 2-3 — OAC finding aid",
-     "url": "https://oac.cdlib.org/findaid/ark:/13030/tf667nb1n8/"
+    "img_6f833a14a7764e47": {
+      "position": 4,
+      "title": "Southern Pacific depot, Beaumont",
+      "original_title": "Beaumont Train Depot Calisphere",
+      "caption": {
+        "caption": "The Southern Pacific depot (built 1887), looking east, c. 1905-1915.",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_134, ark:/13030/c85x2881)",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_134)",
+        "basis": "Same photograph as Calisphere CBEA_134, 'Southern Pacific Depot in Beaumont, looking east.' Calisphere records this larger depot was built in 1887 but carries no date for the photo; c. 1905-1915 is an editorial estimate from the Edwardian crowd's dress, the long steel consist and the electric/telegraph poles. The old date '1875' is untenable — 1875-76 is when the SP line itself crossed the pass (the stop was then called 'Summit'); the town wasn't named Beaumont until 1886-87."
+      },
+      "date": {
+        "date_start": 1905,
+        "date_end": 1915,
+        "display": "c. 1905-1915",
+        "confidence": "medium",
+        "basis": "Calisphere carries no date for the photo; the depot was built 1887. c. 1905-1915 rests on the crowd's dress, the long steel consist and the electric/telegraph poles (editorial estimate, flagged as such). '1875' untenable — that is when the SP line crossed the pass, not this depot or town name."
+      },
+      "holding": {
+        "institution": "Beaumont Library District, via Calisphere",
+        "item_id": "CBEA_134",
+        "url": "https://calisphere.org/item/ark:/13030/c85x2881/"
+      },
+      "best_master": null,
+      "description": "An Edwardian crowd fills the platform of the Southern Pacific depot, looking east down the main line past a standing passenger train toward the water tower and oil tanks of the yard; under the station board, a Sunset Route mileage sign reads 'TO NEW ORLEANS'. Calisphere records that this larger depot was built in 1887, when Beaumont's business district amounted to two stores, a saloon, a post office, a livery stable, three hotels, a grain warehouse, a schoolhouse and two churches.",
+      "corrections": [
+        "The old date '1875' (still in the working filename) is untenable — 1875-76 is when the SP line itself crossed the pass (the stop was then called 'Summit'); this depot was built in 1887.",
+        "Calisphere carries no date for the photo; c. 1905-1915 is an editorial estimate, flagged as such."
+      ],
+      "evidence": [
+        {
+          "label": "Calisphere item (title 'Southern Pacific Depot in Beaumont, looking east'; depot built 1887; 1887 business-district description; no photo date) — CBEA_134",
+          "url": "https://calisphere.org/item/ark:/13030/c85x2881/"
+        },
+        {
+          "label": "Railroad reaches the pass 1875-76, station renamed Beaumont 1887 — BLD local history",
+          "url": "https://www.mybld.org/local-history"
+        },
+        {
+          "label": "'BEAUMONT / TO NEW ORLEANS' sign reading — legible in the 1024 px file (verified at high magnification 2026-07-20)",
+          "url": ""
+        }
+      ]
     },
-    {
-     "label": "Terminology and role of the big house — Lucile Hooper, The Cahuilla Indians (1920): kishumnawat, the net, the nukil ceremony",
-     "url": "https://accessgenealogy.com/native/cahuilla-religious-life.htm"
+    "img_4e8d4526096e0dd7": {
+      "position": 5,
+      "title": "Fifth Street & Egan Avenue, Beaumont, 1890s",
+      "original_title": "Post Office",
+      "caption": {
+        "caption": "Fifth & Egan — the San Gorgonio Mercantile Co., the post office (far left) and a pool hall, 1890s.",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_146, ark:/13030/c8h70f56); rights: Copyrighted — Laura May Stewart Trust",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_146, matched 2026-07-20)",
+        "basis": "Same photograph as Calisphere CBEA_146. The old caption made the post office the subject; per the Calisphere description the post office is the small building at far left on the southwest corner, and the dominant two-story false-front is the San Gorgonio Mercantile Company ('GENERAL MERCHANDISE' on its sign) — still wearing the town's pre-1887 name. Previously thought absent from Calisphere; found 2026-07-20."
+      },
+      "date": {
+        "date_start": 1890,
+        "date_end": 1899,
+        "display": "1890s",
+        "confidence": "high",
+        "basis": "Calisphere dates the item to the 1890's (CBEA_146); the mercantile still wears the town's pre-1887 name San Gorgonio, and the young eucalyptus match the 1886-87 street plantings."
+      },
+      "rights_status": "Copyrighted",
+      "rights": "Copyrighted — Laura May Stewart Trust (per the Calisphere record; contact via BLD).",
+      "holding": {
+        "institution": "Beaumont Library District, via Calisphere",
+        "item_id": "CBEA_146",
+        "url": "https://calisphere.org/item/ark:/13030/c8h70f56/"
+      },
+      "best_master": {
+        "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\05_fifth-and-egan-post-office-mercantile-1890s-scraped.jpg",
+        "pixels": "1024×728",
+        "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
+      },
+      "description": "An elevated view of Beaumont's main business corner in the 1890s, among young eucalyptus: the two-story false-front San Gorgonio Mercantile Company ('GENERAL MERCHANDISE' on its sign) at center, the small Beaumont Post Office building at the extreme left on the southwest corner of Fifth and Egan, and the town's pool hall at right; a delivery wagon stands in the street. The store still wore the town's pre-1887 name, San Gorgonio — the post office itself had operated out of corners of Beaumont's general stores since George Egan first kept it in his own store in 1884.",
+      "corrections": [
+        "The old caption made the post office the subject; per the Calisphere description the post office is the small building at far left — the dominant building is the San Gorgonio Mercantile Co.",
+        "Previously thought absent from Calisphere — it is item CBEA_146 (found 2026-07-20); a 1024 px master was scraped."
+      ],
+      "evidence": [
+        {
+          "label": "Calisphere item (title and description naming all three buildings, '1890's' date, Stewart Trust rights) — CBEA_146",
+          "url": "https://calisphere.org/item/ark:/13030/c8h70f56/"
+        },
+        {
+          "label": "Sign reading 'SAN GORGONIO MERC CO / GENERAL MERCHANDISE' — legible in the 1024 px scrape (verified 2026-07-20)",
+          "url": ""
+        },
+        {
+          "label": "Post office history (San Gorgonia P.O. 1879-81; reopened in Egan's store 1884; renamed Beaumont Sept 8, 1886; kept 'in some corner of different store buildings') — BLD local history",
+          "url": "https://www.mybld.org/local-history"
+        },
+        {
+          "label": "Holmes (1912) pp. 229-234",
+          "url": "https://archive.org/details/historyriversid00unkngoog"
+        },
+        {
+          "label": "Eucalyptus street plantings 1886-87 (supports 1890s tree size)",
+          "url": "https://www.mybld.org/local-history"
+        }
+      ]
     },
-    {
-     "label": "Ceremonial kishamnawet at village center — Agua Caliente Band, Our Story",
-     "url": "https://www.aguacaliente.org/documents/OurStory-20.pdf"
+    "img_07a9db15e22db499": {
+      "position": 6,
+      "title": "SP shop crew with locomotive No. 2789, Beaumont yard",
+      "original_title": "Railroad Workers 1890S",
+      "caption": {
+        "caption": "SP shop crew with locomotive No. 2789 at the Beaumont yard, c. 1905-1915.",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_005, ark:/13030/c8g1605q); also cited as Banning Library District by the SGPHS timeline",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_005) + locomotive identification research (2026-07)",
+        "basis": "Foreground locomotive is Southern Pacific No. 2789, read directly from the engine in three places that agree — the oval smokebox number plate, the headlight number board and the painted last digit on the smokebox shoulder — on a high-resolution Calisphere scan (CBEA_005). SP 2789 sits in the C-9 Consolidation batch 2752-2830 (Baldwin, ~1905), a Harriman Common Standard 2-8-0. The album mount is typed 'ENGINES AT BEAUMONT'. The old 'Railroad workers at Beaumont Train Depot, 1890s' (from the SGPHS timeline, whose captions are not evidentiary) is superseded: the C-9 class was built ~1905 and the high oil headlight predates SP's 1910s electric conversions."
+      },
+      "date": {
+        "date_start": 1905,
+        "date_end": 1915,
+        "display": "c. 1905-1915",
+        "confidence": "medium",
+        "basis": "The C-9 class was built ~1905; the high-mounted oil headlight predates SP's 1910s electric conversions; Calisphere's description places the scene in the early 1900s. Supersedes the SGPHS timeline's '1890s'."
+      },
+      "holding": {
+        "institution": "Beaumont Library District, via Calisphere",
+        "item_id": "CBEA_005 (89-01-07)",
+        "url": "https://calisphere.org/item/ark:/13030/c8g1605q/"
+      },
+      "best_master": {
+        "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\06_railroad-workers-1890s-scraped.jpg",
+        "pixels": "1024×801",
+        "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
+      },
+      "description": "A Southern Pacific shop crew posed on the pilot of locomotive No. 2789 at the Beaumont yard; a whaleback oil tender and the 30,000-gallon oil tank stand behind, with further engines beyond. The engine is a C-9 Harriman Common Standard 2-8-0 'Consolidation' (Baldwin, ~1905), its road number read independently from the smokebox plate, the headlight number board and the smokebox shoulder. The album mount is typed 'ENGINES AT BEAUMONT'.",
+      "corrections": [
+        "The old 'Railroad workers at Beaumont Train Depot, 1890s' (from the SGPHS timeline, whose captions are not evidentiary) is superseded: the C-9 class was built ~1905, the high oil headlight predates SP's 1910s electric conversions, and Calisphere's description places the scene in the early 1900s.",
+        "Attribution: the timeline credited Banning Library District; Calisphere holds it as Beaumont Library District (CBEA_005) — reconcile with the holding institution."
+      ],
+      "open_questions": [
+        "Holder: Calisphere holds the print as Beaumont Library District CBEA_005; the SGPHS timeline credited Banning Library District. Also offer BLD the SP No. 2789 identification for their record."
+      ],
+      "evidence": [
+        {
+          "label": "Calisphere item (title 'Demonstration train'; 30,000-gal oil tank, whaleback tender, early-1900s oil firing; CBEA_005 / 89-01-07)",
+          "url": "https://calisphere.org/item/ark:/13030/c8g1605q/"
+        },
+        {
+          "label": "Locomotive identification dossier (SP No. 2789, C-9 2-8-0, dating logic, enhanced number readings); supporting roster/class sources cited there: espee.railfan.net, steamlocomotive.com, utahrails.net, trainweb.org High Desert Rails, markschutzer.com",
+          "url": "https://claude.ai/code/artifact/6dd1f6b3-aefe-4db7-8c2b-66f4277eeedc"
+        },
+        {
+          "label": "Distinct from the roundhouse photo 'Engines at Beaumont' (CBEA_007) — same yard, different image",
+          "url": "https://calisphere.org/item/ark:/13030/c86h4gq8/"
+        }
+      ]
     },
-    {
-     "label": "Morongo Reservation history (1865 origins; Grant's executive order May 15, 1876; originally the Potrero, called Malki)",
-     "url": "https://morongonation.org/about-us/"
+    "img_c15c20a838d86c18": {
+      "position": 7,
+      "title": "Stewart Ranch grain harvest",
+      "original_title": "Stewart Ranch",
+      "caption": {
+        "caption": "Grain harvest on the Stewart Ranch — traditionally dated 1883, the year Stewart homesteaded.",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_147, ark:/13030/c87p8xrn); rights: Copyrighted — Laura May Stewart Trust",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_147)",
+        "basis": "Same photograph as Calisphere 'Stewart Ranch; men with horses and thrashing machines. Looking south with the railroad...' (CBEA_147). Calisphere carries no date; '1883' is the homestead year, not a documented photo date — Holmes (1912) has Stewart raising grain from 1884, and an established harvest crew of this size implies the operation's later years. A handwritten note on the mount reads (partly legibly) 'Stewart's thrashers — RR track in back.'"
+      },
+      "date": {
+        "date_start": 1884,
+        "date_end": 1909,
+        "display": "c. 1884-1900s",
+        "confidence": "medium",
+        "basis": "Calisphere carries no date for this photo; '1883' (the filename and old caption) is the homestead year, not a documented photo date. Holmes (1912) has R. P. Stewart raising grain from 1884; an established harvest crew of this size implies the operation's later years — the honest range is c. 1884-1900s."
+      },
+      "rights_status": "Copyrighted",
+      "rights": "Copyrighted — Laura May Stewart Trust (Marilyn Vonderheide, per the Calisphere record).",
+      "holding": {
+        "institution": "Beaumont Library District, via Calisphere",
+        "item_id": "CBEA_147",
+        "url": "https://calisphere.org/item/ark:/13030/c87p8xrn/"
+      },
+      "best_master": {
+        "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\07_stewart-ranch-1883-scraped.jpg",
+        "pixels": "1024×818",
+        "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
+      },
+      "description": "Crop hands pause with their horse teams, header wagons and harvesting machinery in a cut grain field on the Stewart Ranch, looking south past the Southern Pacific line toward the San Jacinto foothills; a handwritten note on the mount reads (partly legibly) 'Stewart's thrashers — RR track in back.' Reznor Perry Stewart homesteaded at Beaumont in 1883 and, buying railroad land, built a grain and hay ranch that reached some 2,200 acres; Holmes' county history has him raising grain from 1884.",
+      "corrections": [
+        "Calisphere carries no date for this photo; '1883' is the homestead year, not a documented photo date — the honest range is c. 1884-1900s."
+      ],
+      "evidence": [
+        {
+          "label": "Calisphere item (title 'Stewart Ranch; men with horses and thrashing machines...'; subjects Laura May & Reznor Stewart; no date; Stewart Trust rights) — CBEA_147",
+          "url": "https://calisphere.org/item/ark:/13030/c87p8xrn/"
+        },
+        {
+          "label": "Stewart homestead 1883, 2,200-acre grain ranch — BLD local history",
+          "url": "https://www.mybld.org/local-history"
+        },
+        {
+          "label": "'R. P. Stewart and Dan Scott commenced raising grain' in 1884 — Holmes (1912) p. 230",
+          "url": "https://archive.org/details/historyriversid00unkngoog"
+        },
+        {
+          "label": "Mount inscription reading — 1024 px scrape, enhanced (verified 2026-07-20)",
+          "url": ""
+        },
+        {
+          "label": "Family context (Laura Mae Stewart, first Cherry Festival queen)",
+          "url": "https://calisphere.org/item/ark:/13030/c86q1wmt/"
+        }
+      ]
     },
-    {
-     "label": "Malki Museum history",
-     "url": "https://malkimuseum.org/pages/museum-history"
+    "img_45720d2a6586237d": {
+      "position": 8,
+      "title": "Traditional house (kish), Morongo Reservation",
+      "original_title": "Traditional House On Morongo Reservation",
+      "caption": {
+        "caption": "A summer house (kish) on the Morongo Reservation, c. 1900.",
+        "attribution": "Banning Library District, via Calisphere (CBAN_093, ark:/13030/c8fb5109); contributor C. O. Barker",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Calisphere Banning Library District collection (CBAN_093, matched 2026-07-20)",
+        "basis": "Same photograph as Banning Library District item CBAN_093 ('circa 1900', contributor C. O. Barker, sepia copy slide), whose description calls it a 'summer traditional house... sometimes referred to as a wickie-up' — a Cahuilla kish. The old caption was accurate in substance; the exact Calisphere match is newly established (previously thought absent from Calisphere)."
+      },
+      "date": {
+        "date_start": 1895,
+        "date_end": 1905,
+        "display": "c. 1900",
+        "confidence": "high",
+        "basis": "Calisphere dates the item 'circa 1900' (CBAN_093); Kroeber recorded the 'airy brush-house' still in everyday use at the Banning-area reservation in this era."
+      },
+      "holding": {
+        "institution": "Banning Library District, via Calisphere",
+        "item_id": "CBAN_093",
+        "url": "https://calisphere.org/item/ark:/13030/c8fb5109/"
+      },
+      "best_master": {
+        "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\08_traditional-house-morongo-reservation-1900-scraped.jpg",
+        "pixels": "1024×686",
+        "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
+      },
+      "description": "A woman sits at the entrance of a brush-thatched summer house — a Cahuilla kish, 'sometimes referred to as a wickie-up' in the holding library's words — her cook-pot beside her on the swept ground, with the reservation's fields, a farm building and the mountain wall of the pass behind. Kroeber, visiting the Banning reservation in this same era, recorded the 'airy brush-house' still in everyday use.",
+      "corrections": [
+        "None to the substance — the old caption was accurate. Newly established: the exact photo is Banning Library District item CBAN_093 ('circa 1900', contributor C. O. Barker), previously thought absent from Calisphere; a 1024 px master was scraped."
+      ],
+      "evidence": [
+        {
+          "label": "Calisphere item (title, 'circa 1900', Barker, 'summer traditional house... wickie-up' description) — CBAN_093",
+          "url": "https://calisphere.org/item/ark:/13030/c8fb5109/"
+        },
+        {
+          "label": "Brush houses in use at the Banning (Morongo) reservation c. 1900 — A. L. Kroeber, Ethnography of the Cahuilla Indians (1908)",
+          "url": "https://sacred-texts.com/nam/ca/eci/eci09.htm"
+        },
+        {
+          "label": "Kish terminology — Agua Caliente Band, Our Story",
+          "url": "https://www.aguacaliente.org/documents/OurStory-20.pdf"
+        },
+        {
+          "label": "Related Banning items (companions, same collection)",
+          "url": "https://calisphere.org/item/ark:/13030/c83x84nz/"
+        },
+        {
+          "label": "Related Banning item (companion)",
+          "url": "https://calisphere.org/item/ark:/13030/c88g8hp1/"
+        }
+      ]
+    },
+    "img_72d13585ff607c22": {
+      "position": 9,
+      "title": "Captain John Morongo, c. 1890",
+      "original_title": "Morongo Band Of Mission Indians",
+      "caption": {
+        "caption": "Captain John Morongo (c. 1843/46 - July 1898), the Serrano leader for whom the reservation is named — studio portrait, c. 1890.",
+        "attribution": "Huntington Library, Weinland Collection (photCL 39 (126)); Banning Library District print via Calisphere (CBAN_120, ark:/13030/c8d798dr); photograph by Cramer's California Gallery, 402 Kearny St., San Francisco",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Huntington Library Weinland Collection — exact print visually confirmed (2026-07-20)",
+        "basis": "A studio cabinet-card portrait made at Cramer's California Gallery, San Francisco; the exact print survives at the Huntington among W. H. Weinland's papers, inscribed 'The late Capt. John Morongo... A noble Indian.' The old label 'Morongo Band of Mission Indians, 1908' misdescribed a named individual as an anonymous group, and the date is impossible for a life portrait: two 1898 newspapers report Morongo's death at the Banning reservation in July 1898. '1908' is instead the year the reservation formally took the Morongo name — ten years after his death."
+      },
+      "date": {
+        "date_start": 1885,
+        "date_end": 1898,
+        "display": "c. 1890 (before July 1898)",
+        "confidence": "high",
+        "basis": "Morongo died in July 1898 (Los Angeles Herald, July 21, 1898, p. 9 — primary), so a life portrait cannot postdate that; the Banning Library District dates its own print of this portrait circa 1890. '1908' is the year the reservation formally took the Morongo name (land patented to the Morongo Band), ten years after his death."
+      },
+      "rights": "Huntington Library print (photCL 39) requires their permission for reproduction; the Banning Library District also holds a print (CBAN_120).",
+      "holding": {
+        "institution": "Huntington Library, Weinland Collection (also Banning Library District via Calisphere)",
+        "item_id": "photCL 39 (126) / CBAN_120",
+        "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12408/"
+      },
+      "best_master": {
+        "location": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12408/",
+        "pixels": "higher-resolution IIIF scan available from the Huntington",
+        "note": "Exact print at the Huntington (photCL 39 (126), inscribed 'The late Capt. John Morongo'); this archive's copy is 500×500 px. Requires Huntington permission; the Banning Library District print (CBAN_120) is an alternative source."
+      },
+      "description": "A studio cabinet-card portrait of Captain John Morongo in a three-piece suit and bow tie, made at Cramer's California Gallery, 402 Kearny Street, San Francisco. Hereditary leader of the Serrano Maarrenga'yam clan and the first officially recognized 'captain' of the Potrero (San Gorgonio) reservation, Morongo served for years on the U.S. Indian police, spoke fluent English, campaigned for public schooling and against liquor sales, and was the leader whose family name the reservation and Band formally adopted. The exact print survives at the Huntington Library among the papers of W. H. Weinland, the Moravian missionary at Morongo, inscribed 'The late Capt. John Morongo... A noble Indian.'",
+      "corrections": [
+        "The old label 'Morongo Band of Mission Indians, 1908' misdescribed a named individual as an anonymous group.",
+        "The 1908 date is impossible for a life portrait: two 1898 newspapers report Morongo's death at the Banning reservation in July 1898. '1908' is the year the reservation formally took the Morongo name.",
+        "Likely source of the date confusion: his brother Francisco died in 1906."
+      ],
+      "evidence": [
+        {
+          "label": "Exact photo (visually confirmed match) — 'The late Capt. John Morongo,' Huntington Library photCL 39 (126), Weinland Collection; card printed 'Cramer, 402 Kearny Street, S.F.'",
+          "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12408/"
+        },
+        {
+          "label": "Calisphere mirror of the Huntington item",
+          "url": "https://calisphere.org/item/81e109d9cfed923ca16b1c45273ea8db/"
+        },
+        {
+          "label": "Same man, different sitting — 'Capt. John Morongo,' photCL 39 (124)",
+          "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12407/"
+        },
+        {
+          "label": "Death, July 1898 (primary) — Los Angeles Herald, July 21, 1898, p. 9 ('The death of John Morongo at the Banning reservation...')",
+          "url": "https://www.loc.gov/resource/sn85042461/1898-07-21/ed-1/?sp=9&q=%22john+morongo%22"
+        },
+        {
+          "label": "The Argus (Holbrook, A.T.), July 30, 1898, p. 1",
+          "url": "https://www.loc.gov/resource/sn94051341/1898-07-30/ed-1/?sp=1&q=%22john+morongo%22"
+        },
+        {
+          "label": "Title/role in life (primary) — Los Angeles Herald, Jan 25, 1893, p. 5: 'John Morongo, captain of the Portrero Indians'",
+          "url": "https://www.loc.gov/resource/sn85042461/1893-01-25/ed-1/?sp=5&q=%22john+morongo%22"
+        },
+        {
+          "label": "Banning Library District print and biography ('a native Serrano who... was instrumental in establishing the settlements of the San Gorgonio Pass,' circa 1890) — CBAN_120",
+          "url": "https://calisphere.org/item/ark:/13030/c8d798dr/"
+        },
+        {
+          "label": "Clan leadership and family (Maarrenga'yam; brother Francisco d. 1906 — likely source of date confusion)",
+          "url": "https://morongonation.org/about-us/"
+        },
+        {
+          "label": "Dorothy Ramon Learning Center — 'A Sacred Week'",
+          "url": "https://dorothyramonlearningcenter.substack.com/p/a-sacred-week"
+        },
+        {
+          "label": "Reservation named for him — Malki Museum history",
+          "url": "https://malkimuseum.org/pages/museum-history"
+        },
+        {
+          "label": "The Cramer studio (Charles Lake Cramer, San Francisco, active 1863-1906)",
+          "url": "https://cabinetcardgallery.com/tag/cramers-california-gallery/"
+        }
+      ]
+    },
+    "img_b08de96dbf496fab": {
+      "position": 10,
+      "title": "The Beaumont Hotel (later Hotel Edinburgh)",
+      "original_title": "Beaumont Hotel C1890",
+      "caption": {
+        "caption": "The Beaumont Hotel, built 1887 — later the Hotel Edinburgh; burned August 1909.",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_009, ark:/13030/c81v5d9b); photograph by C. C. Pierce & Co., Los Angeles",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_009)",
+        "basis": "Same photograph as Calisphere CBEA_009, which dates it circa 1895 and credits C. C. Pierce & Co. of Los Angeles. The $40,000 Queen Anne showpiece was built in 1887 by the Southern California Investment Company, stood empty after the 1888 bust, reopened 1907 as the Hotel Edinburgh (proprietor David Cochrane) and burned in August 1909 — BLD metadata says August 16, an SGPHS post says August 17, so 'August 1909' until BLD confirms the day. The old '1890' was a guess."
+      },
+      "date": {
+        "date_start": 1890,
+        "date_end": 1900,
+        "display": "c. 1895",
+        "confidence": "high",
+        "basis": "Calisphere dates the photograph circa 1895 and supplies the photographer (C. C. Pierce & Co.). The hotel stood 1887-1909. Replaces the '1890' guess."
+      },
+      "holding": {
+        "institution": "Beaumont Library District, via Calisphere",
+        "item_id": "CBEA_009",
+        "url": "https://calisphere.org/item/ark:/13030/c81v5d9b/"
+      },
+      "best_master": null,
+      "description": "Guests pose along the wraparound veranda of the Beaumont Hotel, the $40,000 Queen Anne showpiece the Southern California Investment Company raised in 1887 to sell boom-time land buyers on the pass, its corner tower and turrets standing alone against the bare hills; photographed by C. C. Pierce & Co. of Los Angeles. Empty for years after the 1888 bust, it reopened in 1907 as the Hotel Edinburgh (proprietor David Cochrane, 'Unsurpassed For Health, Rest And Recreation') and burned to the ground in August 1909, three years before cityhood.",
+      "corrections": [
+        "The old date '1890' was a guess; Calisphere dates the photograph circa 1895 and supplies the photographer (C. C. Pierce & Co.).",
+        "Fire date: BLD metadata says August 16, 1909; an SGPHS post says Aug 17 — say 'August 1909' unless BLD confirms the day."
+      ],
+      "open_questions": [
+        "Day of the 1909 hotel fire: Aug 16 (BLD metadata) vs Aug 17 (SGPHS post) — a CDNC newspaper check would settle it (site currently blocks automation)."
+      ],
+      "evidence": [
+        {
+          "label": "Calisphere item (title, c. 1895 date, full history: $40,000 1887 investment-company build, 1907 Edinburgh reopening, 1909 fire, C. C. Pierce & Co. credit, site at 5th & Beaumont Ave) — CBEA_009",
+          "url": "https://calisphere.org/item/ark:/13030/c81v5d9b/"
+        },
+        {
+          "label": "Holmes (1912) p. 233 — built 1887 'at the cost of $40,000... a financial failure'; reopened 1907 as the Edinburgh; 'destroyed by fire' August 1909",
+          "url": "https://archive.org/details/historyriversid00unkngoog"
+        },
+        {
+          "label": "BLD local history (German Savings & Loan takeover; 'stood unused for years')",
+          "url": "https://www.mybld.org/local-history"
+        },
+        {
+          "label": "Later press retrospective (site now El Rancho/Best Western on Beaumont Ave; brochure rates $9-15/week)",
+          "url": "https://patch.com/california/banning-beaumont/long-lost-beaumont-hotel-a-legacy-for-fire-protection"
+        },
+        {
+          "label": "Companion Calisphere item (Edinburgh-era banquet)",
+          "url": "https://calisphere.org/item/ark:/13030/c8b56j3k/"
+        }
+      ]
+    },
+    "img_96cb1ed10cb5a0fd": {
+      "position": 11,
+      "title": "Beaumont Woman's Club clubhouse",
+      "original_title": "Beaumont Woman S Club From Beaumont Library District",
+      "caption": {
+        "caption": "The Woman's Club clubhouse at Sixth & Euclid, dedicated May 11, 1917.",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_088, ark:/13030/c80k27x4)",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_088)",
+        "basis": "Same real-photo postcard as Calisphere CBEA_088, captioned on the mount 'Ladie's Club House, Beaumont'. The old date '1911' is impossible — the club (organized February 7, 1908, and the founding force behind Beaumont's public library) bought the corner lots in 1914 and dedicated this hall, built with a $3,000 loan, on May 11, 1917. The 1910s-20s automobiles in frame fit the corrected range. It still occupies the site at 306 E. Sixth Street."
+      },
+      "date": {
+        "date_start": 1917,
+        "date_end": 1929,
+        "display": "c. 1917-1920s",
+        "confidence": "high",
+        "basis": "The clubhouse was dedicated May 11, 1917 (club's own history; lots bought 1914, $3,000 loan) — an unbuilt building cannot appear in a 1911 photo; the 1910s-20s automobiles in frame fit the corrected range."
+      },
+      "holding": {
+        "institution": "Beaumont Library District, via Calisphere",
+        "item_id": "CBEA_088",
+        "url": "https://calisphere.org/item/ark:/13030/c80k27x4/"
+      },
+      "best_master": null,
+      "description": "A real-photo postcard captioned 'Ladie's Club House, Beaumont': the low clubhouse of the Beaumont Woman's Club behind its street trees on Sixth Street west of Euclid Avenue, with members' automobiles nosed in under the branches. The club — organized February 7, 1908, and the founding force behind Beaumont's public library — bought the two corner lots in 1914 and dedicated this hall, built with a $3,000 loan, on May 11, 1917. It still occupies the site at 306 E. Sixth Street.",
+      "corrections": [
+        "The old date '1911' is impossible — the clubhouse wasn't built until 1917. (The club itself, not the building, existed by 1911 — it founded the library that year.)"
+      ],
+      "evidence": [
+        {
+          "label": "Calisphere item (postcard; clubhouse 'on 6th Street West of Euclid Avenue'; no date) — CBEA_088",
+          "url": "https://calisphere.org/item/ark:/13030/c80k27x4/"
+        },
+        {
+          "label": "Club organized Feb 7, 1908 — BLD local history",
+          "url": "https://www.mybld.org/local-history"
+        },
+        {
+          "label": "Club's own history ('Founded in 1908... first project was establishing the public library'); lots bought 1914; clubhouse dedicated May 11, 1917 ($3,000 loan)",
+          "url": "https://beaumontwomansclub.org/our-history"
+        },
+        {
+          "label": "Centennial coverage",
+          "url": "https://www.recordgazette.net/community/beaumont-woman-s-clubhouse-celebrates-centennial/article_2f63ae04-3bfa-11e7-b5aa-5bec70edeaa7.html"
+        },
+        {
+          "label": "Postcard caption 'Ladie's Club House, Beaumont' — legible in the 1024 px file",
+          "url": ""
+        }
+      ]
+    },
+    "img_2ba02d1a7deddfd1": {
+      "position": 12,
+      "title": "Beaumont Bank / Funk Building — first home of the library",
+      "original_title": "First Library House In Basement Of Bank Building",
+      "caption": {
+        "caption": "The Beaumont Bank (Funk Building, 1911) — the library's first home, two ground-floor rooms rented from October 1911.",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_108, ark:/13030/c8dn44db)",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_108, matched 2026-07-20)",
+        "basis": "Exact match to Calisphere CBEA_108: 'Funk Building, 248 West 5th Street. The Beaumont Bank, built in 1911' — Reznor Stewart (of the Stewart Ranch) was a founder and long-time president. When Beaumont voted itself a library district on August 12, 1911, the new library opened that October in two rented GROUND-FLOOR rooms here at $10 a month (News Notes of California Libraries vol. 7, 1912; Holmes 1912; BLD today) and stayed until the Carnegie building opened in June 1914 — 'basement' is wrong. Previously mis-tied to the First Bank construction photo at 5th & California (CBEA_034)."
+      },
+      "date": {
+        "date_start": 1911,
+        "date_end": 1914,
+        "display": "c. 1911-1914",
+        "confidence": "medium",
+        "basis": "The building (built 1911) appears brand-new — brick above a stuccoed ground floor with striped awnings; the library rented its ground-floor rooms here October 1911 - June 1914."
+      },
+      "holding": {
+        "institution": "Beaumont Library District, via Calisphere",
+        "item_id": "CBEA_108",
+        "url": "https://calisphere.org/item/ark:/13030/c8dn44db/"
+      },
+      "best_master": {
+        "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\12_beaumont-bank-funk-building-1911-scraped.jpg",
+        "pixels": "1024×645",
+        "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
+      },
+      "description": "The brand-new Beaumont Bank building — brick above a stuccoed ground floor, striped awnings at every window, two men idling by the chamfered corner entrance, and a 'FUNK REALTY CO. REAL ESTATE' sign on the frontage beyond. Reznor Stewart (of the Stewart Ranch) was a founder and long-time president of the bank, built in 1911 as the Funk Building at 248 West 5th Street. When Beaumont voted itself a library district on August 12, 1911 — the only library-district library in the State Library's 1912 census of California — the new library opened that October in two rented rooms on this building's ground floor, at $10 a month, and stayed until the Carnegie building opened in June 1914.",
+      "corrections": [
+        "Building identity: the record was previously tied to the 'First Bank' construction photo at 5th & California — it is actually Calisphere item CBEA_108, the Beaumont Bank / Funk Building (exact match verified; 1024 px master scraped).",
+        "'Basement' is wrong: the period sources (State Library 1912; Holmes 1912; BLD today) all say rented ground-floor rooms."
+      ],
+      "open_questions": [
+        "Which corner: BLD's own sources place the Beaumont Bank building variously at 5th & California, 5th & Egan, and 5th & Grace — the street corner is left unstated."
+      ],
+      "evidence": [
+        {
+          "label": "Calisphere item (exact photo; 'Funk Building, 248 West 5th Street. The Beaumont Bank, built in 1911'; 'Reznor Stewart was one of its founders and its President for several years') — CBEA_108",
+          "url": "https://calisphere.org/item/ark:/13030/c8dn44db/"
+        },
+        {
+          "label": "Library district established by vote Aug 12, 1911; 'Rents room in Beaumont Bank bldg., rent $10 per mo.' — News Notes of California Libraries vol. 7 (1912), California State Library",
+          "url": "https://archive.org/details/newsnotesofcalif07cali"
+        },
+        {
+          "label": "Repeated in News Notes vol. 9 (1914)",
+          "url": "https://archive.org/details/newsnotesofcalif09cali"
+        },
+        {
+          "label": "'In 1911 the present public library, which occupies a room in the Beaumont bank building, was established.' — Holmes (1912)",
+          "url": "https://archive.org/details/historyriversid00unkngoog"
+        },
+        {
+          "label": "BLD today: 'two rooms on the ground floor of the Beaumont Bank building... rented for $125 per year'",
+          "url": "https://www.mybld.org/local-history"
+        },
+        {
+          "label": "District newsletter (Oct 2024)",
+          "url": "https://www.mybld.org/files/141ed5435/news1024.pdf"
+        },
+        {
+          "label": "Enabling statute — Unincorporated Towns Library Act (approved April 12, 1909), text in News Notes vol. 4 (1909)",
+          "url": "https://archive.org/details/newsnotesofcalif04cali"
+        },
+        {
+          "label": "Today one of 12 independent special-district libraries in California",
+          "url": "https://library.ca.gov/wp-content/uploads/2021/08/CAPubLibOrg_2013.pdf"
+        },
+        {
+          "label": "Centennial marker (vote 59-27; district chronology)",
+          "url": "https://www.hmdb.org/m.asp?m=175955"
+        },
+        {
+          "label": "The other bank photo it was confused with (First Bank at 5th & California, under construction, 'also housed the library' per BLD metadata — the two BLD records conflict) — CBEA_034",
+          "url": "https://calisphere.org/item/ark:/13030/c8qc02td/"
+        }
+      ]
+    },
+    "img_a3f413e8c9ed23bb": {
+      "position": 13,
+      "title": "H. L. Priest and his fruit tree",
+      "original_title": "Man And Fruit Tree",
+      "caption": {
+        "caption": "H. L. Priest - Herbert Loren “Pete” Priest (1862-1946), teacher, newspaper writer and later assistant postmaster of Beaumont - beside a young citrus tree, probably a sweet orange, on freshly worked, newly graded land; on the knoll behind him stands a long, low, single-story institutional building that remains unidentified.",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_064, ark:/13030/c83f4nzv)",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_064)",
+        "basis": "Same photograph as Calisphere CBEA_064, whose description names the man: “H. L. Priest is shown standing next to his fruit tree in the early days.” His identity is now confirmed from primary sources (San Bernardino Sun, 3 September 1946, p.10, funeral notice for Herbert Loren Priest, 84; Daily Gazette, Beaumont, 15 November 1928, naming J. V. R. Priest as “father of H. L. Priest, assistant postmaster”), superseding the earlier unverified howderfamily.com attribution. The tree is a young grafted citrus - probably a sweet orange - from leaf morphology examined at 4-9x on the 749x1024 master (entire untoothed margins, thick glossy leathery evergreen blades, dense short internodes, alternate phyllotaxy), which excludes every deciduous crop the Pass actually grew; species rank is not resolvable at this resolution and no fruit is visible. Priest was a townsman - teacher, newspaperman, postal clerk - never a farmer, so the tree is a dooryard or small-acreage planting rather than commercial orchard work. The building on the knoll remains unidentified."
+      },
+      "date": {
+        "date_start": 1917,
+        "date_end": 1922,
+        "display": "c. 1917-1922",
+        "confidence": "medium",
+        "basis": "Revised 2026-07-24 (b) from c. 1915-1930 on two independent lines, both now resting on primary sources rather than on user-compiled genealogy. (1) RESIDENCE FLOOR. Riverside Daily Press notices of 19 August 1916 and 26 January 1917 call him “H. L. Priest of Minneapolis, Minn.”, visiting his parents, who were already Beaumont residents; he appears as a Beaumont resident only from January 1918 (organising the local Y.M.C.A.), served overseas in France as a Y.M.C.A. secretary in 1918-19, and is a fixture of Beaumont civic life from 1919 on. The photograph therefore cannot predate c. 1917; his obituary's “35 years” in Beaumont is loose. (2) COSTUME AND APPARENT AGE, read at 5-9x on the 749x1024 master: a bowler with a tall domed crown and a narrow, sharply up-curled brim (a 1900-1915 shape; bowlers had left US casual wear by the mid-1920s); a tall stiff white detachable turndown collar (collar heights collapsed after WWI); a narrow four-in-hand with a small knot; a striped shirt worn in rolled sleeves under a lapelled single-breasted waistcoat; and narrow, PLAIN-BOTTOM trousers of c. 16-17 in at the hem, where 1920s trousers are wider and turn-ups had become near-universal. A round light lapel button is pinned to the waistcoat but is not resolvable at this resolution. Costume centroid c. 1908-1918. The face - lean, hollow-cheeked, deep nasolabial folds, full drooping grey walrus moustache - reads late 50s to mid 60s, i.e. 55-60 for a man born 11 January 1862 in 1917-22. The intersection is c. 1917-1922. The collection filename “1927” is unsupported and is kept only for link continuity. The tree does not date the frame: a grafted citrus of this size is only 3-5 years old and the ground is newly graded."
+      },
+      "holding": {
+        "institution": "Beaumont Library District, via Calisphere",
+        "item_id": "CBEA_064",
+        "url": "https://calisphere.org/item/ark:/13030/c83f4nzv/"
+      },
+      "best_master": {
+        "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\13_man-and-fruit-tree-1927-scraped.jpg",
+        "pixels": "749×1024",
+        "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 366×500 px comp. (Filename's date is unsupported; kept for link continuity.)"
+      },
+      "description": "H. L. Priest — identified by family genealogy as Herbert Loren 'Pete' Priest (January 11, 1862 – August 31, 1946), a Beaumont resident buried at Mountain View Cemetery — stands in bowler hat, walrus mustache, waistcoat and rolled sleeves beside a young grafted citrus tree in freshly worked ground on open, newly graded land. The tree stands about 7-8 ft with a 2.5-ft clear trunk under a dense evergreen head of thick, glossy, entire-margined leaves 3-5 in long — characters that exclude every deciduous crop the San Gorgonio Pass was known for (apple, cherry, apricot, almond, pear) and mark it as citrus, most consistent with a sweet orange. No fruit is visible. On the knoll behind sits a long, low, single-story institutional building: flat parapeted roof, a raised central pavilion with pergola, and continuous banks of multi-pane windows — probably a 1910s-1920s school, but unidentified. Photometric analysis of the master (2026-07-24) adds two constraints. The sky holds a flat 209-214 luminance to within about twelve rows of the skyline with no gradual haze ramp, so the empty horizon is genuine and not an orthochromatic wash-out — though the left skyline is a nearby bare rounded knoll at roughly camera eye level, not a far horizon. And the lighting (trunk lit on its left face, hat crown shaded on the right, cast shadow running to image-right) puts the sun to the image-left, which places the camera between SSW and WNW, centred on W/WSW — the one bearing in the Pass with neither San Gorgonio nor San Jacinto in frame. The holding library captions him simply: 'H. L. Priest is shown standing next to his fruit tree in the early days.'",
+      "corrections": [
+        "Restored the man's name: Calisphere records him as H. L. Priest, which the old “Man And Fruit Tree” title dropped.",
+        "A hypothesis (2026-07-23) identifying the hilltop building as Beaumont's 1921 Wellwood School was withdrawn 2026-07-24 and is now closed with a primary source: the Enterprise (Riverside), 14 July 1921, reports the new Beaumont district school as a $49,000 bond job by Witmer & Watson of Los Angeles, “Spanish court style”, reinforced concrete, TILE ROOF, eight rooms, built on the site of the existing school, which was razed. Our building has a flat parapeted roof and stands alone on a graded knoll, not on an in-town lot.",
+        "Tree identified 2026-07-24: the generic “fruit tree” is a young grafted CITRUS, probably a sweet orange (Citrus x sinensis). Diagnostic at 4-9x on the master. This excludes apple, cherry, apricot, almond, plum and pear (all serrate-margined, and the Pass's actual crops) and, on habit, avocado and persimmon. Lemon is disfavoured by the entire margins, grapefruit by the absence of an obvious broad winged petiole.",
+        "Man CONFIRMED 2026-07-24 (b) from primary sources, upgrading the earlier unverified genealogy: Herbert Loren “Pete” Priest, 11 January 1862 - 31 August 1946. San Bernardino Sun, 3 September 1946, p.10: funeral services for “Herbert Loren Priest, 84, for 35 years a newspaper writer and civic leader in Beaumont”; born in Michigan, taught in Michigan and Minnesota, served overseas in France as a Y.M.C.A. secretary in the first World War, several years clerk in the Beaumont post office, buried Mountain View cemetery. Corroborated by the Daily Gazette (Beaumont), 15 November 1928, on J. V. R. Priest's ninety-first birthday, “father of H. L. Priest, assistant postmaster”. He is styled “Prof. H. L. Priest” throughout 1917-21.",
+        "Date revised 2026-07-24 (b) from “c. 1915-1930 / medium” to “c. 1917-1922 / medium” - see the date basis. The controlling new fact is that Priest was still a Minneapolis resident visiting Beaumont in August 1916 and January 1917, so the frame cannot predate c. 1917; costume and apparent age then close the window at c. 1922.",
+        "Photometry and photogrammetry on the plate (2026-07-24): shadows run image-right at c. 0.29x subject height, giving a solar elevation of c. 70-75 degrees near solar noon and a camera bearing of c. W (WSW-WNW), so the building lies west to south-west of the camera; and the building scales to c. 160-200 ft long, c. 800 ft from the camera, one storey of c. 15 ft - a substantial 6-10 room institution, not a one-room rural schoolhouse."
+      ],
+      "open_questions": [
+        "The hilltop building is unidentified — a 1910s-1920s single-story, flat-roofed institutional building (probably a school) on a graded knoll. Ruled out so far: Wellwood School (1910 and 1921), Beaumont Grammar 1911, and both Beaumont High buildings; the 1915 Sanborn sheets map only the dense core, so a building alone on graded outskirts is off-map. NEW CONSTRAINT (2026-07-24): the camera faces W/WSW, so the building lies west to southwest of the camera position.",
+        "Where was this taken? The rolling dissected terrain (bare rounded knolls, a swale, terraced and furrowed slopes), the newly graded ground and the W/WSW bearing together argue against flat Beaumont proper — and the citrus argues against Cherry Valley, a frost pocket at ~2,800 ft that grew cherries precisely for the winter chill. Working hypothesis (unconfirmed): the warmer, lower, air-drained western margin of the Pass — the San Timoteo Canyon / Badlands corridor toward Redlands.",
+        "DECISIVE NEXT TEST: Herbert L. Priest in the 1910 or 1920 federal census (enumeration district plus occupation — 'farmer'/'orchardist'), or Riverside County deed and assessor records. Land records should put his orchard on a map and settle both the location and the citrus question. Burial at Mountain View confirms residence in Beaumont, not the photo site.",
+        "Species rank of the citrus would need a scan better than Calisphere's 1024 px ceiling; the original print is small."
+      ],
+      "evidence": [
+        {
+          "label": "Calisphere item (title 'A man and fruit tree'; description naming H. L. Priest; no date) - CBEA_064",
+          "url": "https://calisphere.org/item/ark:/13030/c83f4nzv/"
+        },
+        {
+          "label": "PRIMARY: San Bernardino Sun, 3 September 1946, p.10 - 'Funeral Services This Morning for Herbert L. Priest' (age 84; 35 years a Beaumont newspaper writer; born Michigan; taught Michigan and Minnesota; Y.M.C.A. secretary in France; Beaumont post office clerk; burial Mountain View)",
+          "url": "https://cdnc.ucr.edu/?a=d&d=SBS19460903.1.10"
+        },
+        {
+          "label": "PRIMARY: Daily Gazette (Beaumont), 15 November 1928 - J. V. R. Priest's 91st birthday, 'father of H. L. Priest, assistant postmaster'",
+          "url": "https://cdnc.ucr.edu/?a=q&hs=1&r=1&results=1&txq=%22H.+L.+Priest%22&txf=txIN&puq=BMTG"
+        },
+        {
+          "label": "PRIMARY (residence floor): Riverside Daily Press, 19 August 1916 and 26 January 1917 - 'H. L. Priest of Minneapolis, Minn.' visiting his parents in Beaumont; he becomes a Beaumont resident only from c. 1917-18",
+          "url": "https://cdnc.ucr.edu/?a=q&hs=1&r=1&results=1&txq=%22H.+L.+Priest%22&txf=txIN&dafyq=1908&datyq=1927&so=byDA"
+        },
+        {
+          "label": "Closes the Wellwood hypothesis: Enterprise (Riverside), 14 July 1921 - new Beaumont district school, $49,000 bonds, Witmer & Watson architects, 'Spanish court style', reinforced concrete, TILE ROOF, eight rooms, on the razed site of the existing school",
+          "url": "https://cdnc.ucr.edu/?a=d&d=MPE19210714.2.33"
+        },
+        {
+          "label": "Beaumont's fruit-boom context (Beaumont Land & Water Co. plantings, orchard promotion) - BLD local history",
+          "url": "https://www.mybld.org/local-history"
+        },
+        {
+          "label": "Elevation/topography context for the bearing argument: Beaumont ~2,600 ft in the Pass, between San Gorgonio (11,503 ft, NE) and San Jacinto (10,834 ft, SE)",
+          "url": "https://en.wikipedia.org/wiki/San_Gorgonio_Pass"
+        },
+        {
+          "label": "Full investigation ledger for the unidentified building (constraints, eliminations, tooling, open leads) - in this repo",
+          "url": "data/research-assets/priest-building-ledger.md"
+        }
+      ],
+      "research_status": "Researched",
+      "researched": "2026-07-24"
+    },
+    "img_a4ddc941e94d3eed": {
+      "position": 14,
+      "title": "Mellen Ranch orchard in bloom, 1909",
+      "original_title": "Cherry Tree Farm",
+      "caption": {
+        "caption": "The Mellen Ranch orchard in bloom, Beaumont, 1909.",
+        "attribution": "Beaumont Library District, via Calisphere (CBEA_067, ark:/13030/c8kh0mpc)",
+        "attribution_confidence": "confirmed",
+        "caption_source": "Calisphere Beaumont Library District collection (CBEA_067)",
+        "basis": "Same photograph as Calisphere CBEA_067, 'Mellen Ranch, 1909'. The album page is typed 'BEAUMONT ORCHARD 1909' and 'MELLEN RANCH 1909' under the embossed header of the Beaumont Land and Water Company. The old 'Cherry Tree Farm, 1930' was wrong on subject, owner and date."
+      },
+      "date": {
+        "date_start": 1909,
+        "date_end": 1909,
+        "display": "1909",
+        "confidence": "high",
+        "basis": "Calisphere dates the item 1909 (CBEA_067) and the album mount is typed 'BEAUMONT ORCHARD 1909' / 'MELLEN RANCH 1909'. Corrects 'Cherry Tree Farm, 1930'."
+      },
+      "holding": {
+        "institution": "Beaumont Library District, via Calisphere",
+        "item_id": "CBEA_067",
+        "url": "https://calisphere.org/item/ark:/13030/c8kh0mpc/"
+      },
+      "best_master": {
+        "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\14_mellen-ranch-orchard-1909-scraped.jpg",
+        "pixels": "1024×928",
+        "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
+      },
+      "description": "Rows of fruit trees in full blossom stripe the ploughed ground of the Mellen Ranch in 1909 — the album page is typed 'BEAUMONT ORCHARD 1909' and 'MELLEN RANCH 1909', under the faint embossed header of the Beaumont Land and Water Company, whose promotional albums sold the pass as an orchard paradise. T. J. Mellen's fruit took prizes at local exhibitions in the same years.",
+      "corrections": [
+        "The old 'Cherry Tree Farm, 1930' was wrong on subject, owner and date — corrected from the Calisphere item and the mount's own typed labels."
+      ],
+      "evidence": [
+        {
+          "label": "Calisphere item (title 'Mellen Ranch, 1909'; date 1909) — CBEA_067",
+          "url": "https://calisphere.org/item/ark:/13030/c8kh0mpc/"
+        },
+        {
+          "label": "Mount labels 'BEAUMONT ORCHARD 1909' / 'MELLEN RANCH 1909' and the 'BEAUMONT LAND AND WATER COMPANY' album header — legible in the 1024 px scrape",
+          "url": ""
+        },
+        {
+          "label": "T. J. Mellen prize item",
+          "url": "https://calisphere.org/item/ark:/13030/c8s181w3/"
+        },
+        {
+          "label": "Beaumont Land & Water Co. context — BLD local history",
+          "url": "https://www.mybld.org/local-history"
+        }
+      ]
+    },
+    "img_cfb583d7492fe063": {
+      "position": 15,
+      "title": "Beaumont District Library with rear addition",
+      "original_title": "Expansion",
+      "caption": {
+        "caption": "The Carnegie library with its 1965/66 rear addition and new entrance.",
+        "attribution": "Beaumont Library District collection; halftone from an unidentified printed publication",
+        "attribution_confidence": "medium",
+        "caption_source": "Building history research 2026-07-20 (carnegie-libraries.org, News Notes 1914, BLD, centennial marker)",
+        "basis": "A halftone reproduction (screened print from a publication) of the Beaumont District Library: the 1914 Carnegie building — $10,000 grant accepted May 6, 1913, architect E. L. Hopkins of Los Angeles, cornerstone February 12, 1914, opened June 16, 1914 — behind the low modern entrance wing added in the mid-1960s. The addition year is conflicted in the district's own sources (1965 per BLD website and Record Gazette timeline; 1966 per the centennial marker and carnegie-libraries.org), so '1965/66'. The photo shows the building before the 1977/78 mansard, hence c. 1966-1977."
+      },
+      "date": {
+        "date_start": 1966,
+        "date_end": 1977,
+        "display": "c. 1966-1977",
+        "confidence": "medium",
+        "basis": "The halftone shows the building after the mid-1960s rear addition (1965 per BLD website / 1966 per centennial marker — the district's sources conflict) and before the 1977/78 mansard roof. Replaces the bare '1965'."
+      },
+      "holding": null,
+      "best_master": {
+        "location": "Client holds a physical original print (client select #17 pair)",
+        "pixels": "644×425 (halftone scan on file)",
+        "note": "Scanning the client's physical original beats this screened 644 px halftone; source publication unidentified."
+      },
+      "description": "A halftone reproduction (from a printed publication) of the Beaumont District Library: the 1914 Carnegie building's arched windows and cypresses behind the low modern entrance wing lettered 'BEAUMONT DISTRICT LIBRARY'. The Carnegie building — a $10,000 grant accepted May 6, 1913, architect E. L. Hopkins of Los Angeles, cornerstone February 12, 1914, opened June 16, 1914 at 8th and California — gained a rear addition and new entrance in the mid-1960s that more than doubled its floor space.",
+      "corrections": [
+        "The addition year is conflicted in the district's own sources — 1965 (BLD website, Record Gazette timeline) vs. 1966 (BLD centennial marker, carnegie-libraries.org) — so '1965/66'.",
+        "The photo (screened halftone, source publication unidentified) shows the building before the 1977/78 mansard, hence c. 1966-1977."
+      ],
+      "open_questions": [
+        "1965 vs 1966 for the library addition (BLD's own sources split).",
+        "Client notes a physical original exists — scanning it beats the 644 px halftone."
+      ],
+      "evidence": [
+        {
+          "label": "Carnegie grant, architect E. L. Hopkins, 1966 rear addition, 1977 mansard — carnegie-libraries.org",
+          "url": "https://www.carnegie-libraries.org/california/beaumont.html"
+        },
+        {
+          "label": "Cornerstone Feb 12, 1914; opened June 16, 1914 (quoting the Gateway Gazette) — News Notes of California Libraries vol. 9 (1914)",
+          "url": "https://archive.org/details/newsnotesofcalif09cali"
+        },
+        {
+          "label": "BLD: 'An addition was built in 1965...'",
+          "url": "https://www.mybld.org/about-the-library"
+        },
+        {
+          "label": "Grant resolution May 6, 1913, site vote Sept 5, 1913, 'Year 1966: An addition is made...' — centennial marker",
+          "url": "https://www.hmdb.org/m.asp?m=175955"
+        },
+        {
+          "label": "Renovation timeline calling it 'the 1965 addition' — Record Gazette",
+          "url": "https://www.recordgazette.net/news/library-renovation-and-expansion-timeline/article_f92f17b6-6487-11ee-83fa-9f2727b0d4b8.html"
+        }
+      ]
+    },
+    "img_b0c11e36c32bf11b": {
+      "position": 16,
+      "title": "Carnegie library under the mansard roof",
+      "original_title": "Expansion Mansard Roof",
+      "caption": {
+        "caption": "The library under its 1977/78 tile mansard — removed in 2008.",
+        "attribution": "Beaumont Library District working files (client-supplied color snapshot; photographer unknown)",
+        "attribution_confidence": "low",
+        "caption_source": "Building history research 2026-07-20 (carnegie-libraries.org, centennial marker)",
+        "basis": "A small color snapshot of the library's front elevation wearing the shallow tile mansard added in 1977/78 to unify the 1914 Carnegie building visually with the 1960s addition and cure roof drainage — a facade removed in 2008, when the original parapet roofline was restored. The old 'Expansion Mansard Roof, 1965' is doubly wrong: the mansard came in 1977/78, and this color photo therefore dates c. 1978-2008."
+      },
+      "date": {
+        "date_start": 1978,
+        "date_end": 2008,
+        "display": "c. 1978-2008",
+        "confidence": "high",
+        "basis": "The tile mansard was added in 1977/78 (marker: 'Year 1978: A new facade for the roof is designed and erected...') and removed in 2008 when the original parapet roofline was restored — this color photo must fall inside that window. '1965' is doubly wrong."
+      },
+      "holding": null,
+      "best_master": {
+        "location": "Client holds a physical original print (client select #17 pair)",
+        "pixels": "250×131 (weakest file in the select set)",
+        "note": "The client's physical original should be scanned instead — even 4x upscaling of the 250 px file lands short of print quality."
+      },
+      "description": "A small color snapshot of the library's front elevation between its twin conifers: the 1914 Carnegie building wearing the shallow tile mansard added in 1977/78 to unify it visually with the 1960s addition and cure roof drainage — a facade removed in 2008, when the original parapet roofline was restored.",
+      "corrections": [
+        "The old 'Expansion Mansard Roof, 1965' is doubly wrong: the mansard came in 1977/78 (not with the 1960s addition), and this color photo therefore dates c. 1978-2008."
+      ],
+      "open_questions": [
+        "At 250 px this is the weakest file in the set — the client's physical original (client #17 pair) should be scanned."
+      ],
+      "evidence": [
+        {
+          "label": "'In 1977 the building was concealed under a new mansard roof intended to unite the old building with a rear addition and new entrance constructed in 1966' — carnegie-libraries.org",
+          "url": "https://www.carnegie-libraries.org/california/beaumont.html"
+        },
+        {
+          "label": "Marker: 'Year 1978: A new facade for the roof is designed and erected to solve problems with water drainage... Year 2008: 1978 roof facade is removed and the original parapet roofline is restored'",
+          "url": "https://www.hmdb.org/m.asp?m=175955"
+        },
+        {
+          "label": "Still Riverside County's last operating Carnegie",
+          "url": "https://patch.com/california/banning-beaumont/beaumont-library-measure-m-preserve-last-carnegie-library-county"
+        }
+      ]
+    },
+    "img_a5619ddcb9e94fc3": {
+      "position": 17,
+      "title": "Beaumont from the air, 1982",
+      "original_title": "Beaumont Aerial",
+      "caption": {
+        "caption": "Beaumont from the south, 1982 — a pass town of about 6,800 between the freeway and the foothills.",
+        "attribution": "Client-supplied print, scanned (photographer unknown); related BLD aerials on Calisphere (CBEA_150, CBEA_075)",
+        "attribution_confidence": "low",
+        "caption_source": "Client-supplied scan; era verified against census and highway history (2026-07-20)",
+        "basis": "Client-supplied physical print, scanned; date 1982 per client. Era corroborated: Beaumont counted 6,818 residents at the 1980 census, and the scene matches — the original townsite grid an island of trees and rooftops around the Interstate 10 corridor (the 1962 freeway bypass), with open grain land where the 2000s subdivisions would later spread. Calisphere holds related BLD aerials of the same era (not this print)."
+      },
+      "date": {
+        "date_start": 1982,
+        "date_end": 1982,
+        "display": "1982",
+        "confidence": "medium",
+        "basis": "Client-supplied date for their own scanned print; era corroborated by the 1980 census population (6,818) and the pre-boom townsite/freeway pattern in frame."
+      },
+      "holding": null,
+      "best_master": null,
+      "description": "An oblique color aerial looking north across Beaumont to the San Gorgonio foothills in 1982: the original townsite grid is still an island of trees and rooftops around the Interstate 10 corridor — the 1962 freeway bypass that pulled US 99/60/70 traffic off 6th Street — with open grain land and scattered ranchettes filling the foreground where the 2000s subdivisions would later spread. Beaumont counted 6,818 residents at the 1980 census.",
+      "corrections": [
+        "Confirmed era (client-supplied date): 1980 census population 6,818 and the pre-boom landscape are consistent with 1982."
+      ],
+      "evidence": [
+        {
+          "label": "1980 census population 6,818 (census table)",
+          "url": "https://en.wikipedia.org/wiki/Beaumont,_California"
+        },
+        {
+          "label": "I-10 history through the pass (1962 freeway bypass of Beaumont-Banning; US 99/60/70 heritage; 1957 Interstate designation)",
+          "url": "http://www.gribblenation.org/2022/04/former-us-routes-99-60-70-in-san.html"
+        },
+        {
+          "label": "Interstate 10 in California",
+          "url": "https://en.wikipedia.org/wiki/Interstate_10_in_California"
+        },
+        {
+          "label": "Related BLD aerial on Calisphere (CBEA_150, color oblique — not this print)",
+          "url": "https://calisphere.org/item/ark:/13030/c8sf2vgh/"
+        },
+        {
+          "label": "Related BLD aerial on Calisphere (CBEA_075, by Aerial Enterprises — not this print)",
+          "url": "https://calisphere.org/item/ark:/13030/c8p84b78/"
+        }
+      ]
+    },
+    "img_fb90b64a110cd45f": {
+      "position": 18,
+      "title": "Beaumont from the air, 2010",
+      "original_title": "Beaumont Aerial",
+      "caption": {
+        "caption": "Beaumont from the south, 2010 — after the boom that more than tripled the city in a decade.",
+        "attribution": "Client-supplied print/scan (photographer unknown)",
+        "attribution_confidence": "low",
+        "caption_source": "Client-supplied scan; era verified against census, subdivisions and warehouse corridor (2026-07-20)",
+        "basis": "Client-supplied print/scan; date 2010 per client, consistent with the built-out scene — red-roofed master-planned tracts (Pardee's Sundance and Tournament Hills, Del Webb/Pulte's Solera, K. Hovnanian's Four Seasons) blanket the old ranchland, and distribution warehouses (the Lowe's flatbed distribution center and the 572,000 sq ft Beaumont Logistics Center) line the freeway corridor. Between the 2000 and 2010 censuses Beaumont grew from 11,384 to 36,877 residents."
+      },
+      "date": {
+        "date_start": 2010,
+        "date_end": 2010,
+        "display": "2010",
+        "confidence": "medium",
+        "basis": "Client-supplied date for their own print/scan; consistent with the built-out scene (named 2000s master-planned tracts and freeway-corridor warehouses present; 2010 census 36,877, up from 11,384 in 2000)."
+      },
+      "holding": null,
+      "best_master": null,
+      "description": "An oblique color aerial looking north up the Beaumont Avenue/SR-79 corridor in 2010: red-roofed master-planned tracts — Pardee's Sundance and Tournament Hills, Del Webb/Pulte's Solera, K. Hovnanian's Four Seasons among them — blanket the old ranchland to the foothills, while distribution warehouses (the Lowe's flatbed distribution center and the 572,000 sq ft Beaumont Logistics Center on West Fourth Street) line the freeway corridor in mid-frame. Between the 2000 and 2010 censuses Beaumont grew from 11,384 to 36,877 residents — the fastest-growing city in Riverside County over the following decade as well.",
+      "corrections": [
+        "Confirmed era (client-supplied date): the built-out scene, named subdivisions and warehouse corridor are consistent with 2010."
+      ],
+      "evidence": [
+        {
+          "label": "2000 census 11,384 -> 2010 census 36,877 (+223.9%); master-planned communities named",
+          "url": "https://en.wikipedia.org/wiki/Beaumont,_California"
+        },
+        {
+          "label": "Fastest-growing city in Riverside County 2010-2020",
+          "url": "https://patch.com/california/banning-beaumont/beaumont-fastest-growing-city-riverside-county-census-data"
+        },
+        {
+          "label": "SR-60's eastern terminus merges into I-10 at Beaumont",
+          "url": "https://en.wikipedia.org/wiki/California_State_Route_60"
+        },
+        {
+          "label": "SR-79 ends at I-10/Beaumont Ave",
+          "url": "https://en.wikipedia.org/wiki/California_State_Route_79"
+        },
+        {
+          "label": "Warehouse corridor — Lowe's FDC, 862/864 W. Fourth St",
+          "url": "https://www.spscommerce.com/community/articles/lowes-distribution-center-list"
+        },
+        {
+          "label": "Beaumont Logistics Center, 920 Fourth St, 572,143 sq ft",
+          "url": "https://rebusinessonline.com/rudolph-foods-co-buys-beaumont-logistics-center-for-6-3m/"
+        }
+      ]
     }
-   ]
-  },
-  "img_c39e3df610ea24d9": {
-   "position": 2,
-   "title": "Pauline Weaver (posthumous artist's sketch)",
-   "original_title": "Weaver",
-   "caption": {
-    "caption": "Pauline Weaver (c. 1797-1867), first settler of the San Gorgonio Pass — posthumous artist's sketch; no photograph of Weaver is known.",
-    "attribution": "Artist unknown; no institutional provenance established (the circulating 'Sharlot Hall Museum' credit is unverified; cf. Arizona Historical Society portrait file #61659)",
-    "attribution_confidence": "unknown",
-    "caption_source": "Provenance research 2026-07-21 — Sharlot Hall Museum photo archive + collections catalog and Arizona Memory Project searched directly",
-    "basis": "A crosshatched artist's sketch, not a photograph and not a portrait from life: no verified photograph or documented life portrait of Weaver exists. Most plausibly a 1920s memorial-era drawing — publicity around his 1929 reinterment at Prescott produced Weaver artwork, and the Arizona Historical Society institutionally dates its companion Weaver sketch (file #61659) c. 1920s. Weaver petitioned Mexican authorities in 1845 (with Isaac Williams) for possession of the abandoned Rancho San Gorgonio — no confirmed grant is documented, so avoid 'granted'. He conveyed the ranch to Dr. Isaac W. Smith and left by 1857; died Camp Verde, A.T., June 21, 1867."
-   },
-   "date": {
-    "date_start": 1920,
-    "date_end": 1929,
-    "display": "Likely 1920s (posthumous sketch; Weaver d. 1867)",
-    "confidence": "low",
-    "basis": "Not a photograph and not from life — an imagined commemorative likeness. Most plausibly drawn in the 1920s: publicity around Weaver's 1929 reinterment at Prescott produced Weaver artwork, and the Arizona Historical Society dates its other Weaver sketch c. 1920s. Replaces 'c. 1850s-1860s', which implied a photograph from life."
-   },
-   "holding": null,
-   "best_master": {
-    "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\02-ref_ahs-61659-weaver-profile-sketch.jpg",
-    "pixels": "2000×2784 (300 DPI) — reference only",
-    "note": "A DIFFERENT, profile Weaver sketch (Arizona Historical Society #61659, In Copyright — clear with AHS before use). No better copy of the catalog's three-quarter sketch is known; the archive file (188×268 px) is the only copy located."
-   },
-   "description": "A crosshatched artist's sketch of the bearded frontiersman in his wide-brimmed hat — not a photograph, and not a portrait from life. No verified photograph or documented life portrait of Weaver exists, so this is an imagined commemorative likeness, most plausibly drawn in the 1920s. Powell 'Pauline' Weaver, Tennessee-born trapper, scout and prospector of part-Cherokee descent, petitioned Mexican authorities in 1845 (with partner Isaac Williams) for possession of the abandoned Rancho San Gorgonio, lived in an adobe near the future Beaumont running cattle in the pass, and conveyed the ranch to Dr. Isaac W. Smith before leaving in 1857; he later sparked the 1862 La Paz gold rush, camped at the future site of Prescott, and died at Camp Verde, Arizona Territory, on June 21, 1867. He is buried on the Sharlot Hall Museum grounds in Prescott.",
-   "corrections": [
-    "The old caption 'c. 1850s-1860s' implied a photograph from life — no verified photograph of Weaver is known to exist; the defensible claim is 'posthumous likeness', likely 1920s.",
-    "Weaver applied for possession of Rancho San Gorgonio in 1845 (with Isaac Williams); no confirmed Mexican land grant to him is documented — avoid 'granted'.",
-    "Provenance hunt 2026-07-21: Sharlot Hall Museum's photo archive (~12,000 of 90,000+ images online) and CatalogAccess collections catalog were searched directly — the portrait is in neither; the circulating 'Sharlot Hall Museum' credit is unverified (SHM could hold it undigitized)."
-   ],
-   "open_questions": [
-    "Original artist, date and holding institution of the sketch. Best lead: Arizona Historical Society 'Portrait-Weaver, Pauline' file #61659 (ahsreference@azhs.gov); also ask SHM's order desk (orderdesk@sharlot.org) about undigitized holdings (~87% of their images are offline)."
-   ],
-   "evidence": [
-    {
-     "label": "Biography (birth c. 1797/1800 Tennessee; 1845 San Gorgonio petition with Isaac Williams; conveyance to Dr. Isaac Smith, gone by 1857) — Sharlot Hall Museum 'Days Past'",
-     "url": "https://archives.sharlothallmuseum.org/articles/days-past-articles/1/pauline-weaver-prescott-pioneer-part-1"
-    },
-    {
-     "label": "Weaver, trapper and scout — Sharlot Hall Museum blog",
-     "url": "https://la.sharlothallmuseum.org/index.php/blog/cat/2000DP/post/pauline-weaver-trapper-and-scout/"
-    },
-    {
-     "label": "Weaver 'living in an adobe at Beaumont and running cattle in the San Gorgonio Pass in partnership with Isaac Williams' — County of San Bernardino historic place names",
-     "url": "https://www.sanbernardino.gov/1034/S-5-Historic-Place-Names"
-    },
-    {
-     "label": "Death June 21, 1867, Camp Verde; triple burial ending at Sharlot Hall Museum 1929",
-     "url": "https://archives.sharlothallmuseum.org/articles/days-past-articles/1/pauline-weaver-prescotts-first-citizen-comes-home-part-2"
-    },
-    {
-     "label": "Grave monument",
-     "url": "https://www.hmdb.org/m.asp?m=33051"
-    },
-    {
-     "label": "Find a Grave memorial (Powell Weaver)",
-     "url": "https://www.findagrave.com/memorial/7585066/powell-weaver"
-    },
-    {
-     "label": "SHM overview PDF (La Paz 1862; Prescott 1863; Mexican War guide work)",
-     "url": "https://sharlothallmuseum.org/wp-content/uploads/2022/07/Pauline-Weaver.pdf"
-    },
-    {
-     "label": "The circulating image file and its lack of provenance (source is a hobby site; artist/date unknown; SHM's own publications never use this image)",
-     "url": "https://commons.wikimedia.org/wiki/File:Pauline_Weaver_Arizona_Frontiersman.jpg"
-    },
-    {
-     "label": "SHM photo archive searched 2026-07-21 — 'Pauline Weaver' returns 17 non-portrait items",
-     "url": "https://archives.sharlothallmuseum.org/photos"
-    },
-    {
-     "label": "SHM collections catalog searched 2026-07-21 — no portrait among 14 Weaver items",
-     "url": "https://shm.catalogaccess.com/"
-    },
-    {
-     "label": "Arizona Historical Society 'Portrait-Weaver, Pauline' file #61659 — undated c. 1920s drawing (different, profile sketch), the only Weaver image on the Arizona Memory Project",
-     "url": "https://azmemory.azlibrary.gov/nodes/view/106787"
-    }
-   ]
-  },
-  "img_650198dd9e4987ea": {
-   "position": 3,
-   "title": "Egan Avenue, Beaumont, 1907",
-   "original_title": "1860S Stagecoach Downtown Beaumont",
-   "caption": {
-    "caption": "Egan Avenue near the railroad crossing, Beaumont, 1907 — Burt Carter's livery stable and the Funk Realty Co. office.",
-    "attribution": "Beaumont Library District, via Calisphere (CBEA_011, ark:/13030/c8tb167d)",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Calisphere Beaumont Library District collection (CBEA_011) + sign readings at high magnification (2026-07-20)",
-    "basis": "Same photograph as Calisphere CBEA_011; the album mount is typed 'BEAUMONT 1907'. The old label 'Stagecoach downtown Beaumont, 1860' was wrong twice over: no stagecoach appears (these are freight and livery rigs), and no town existed here in 1860 — George Egan laid out San Gorgonio (renamed Beaumont 1886-87) only in 1884. The realty office's photographed sign reads 'FUNK REALTY CO'; Calisphere's title 'J. Drew Frank Realty' is most likely a cataloger's misreading, corroborated by the 'FUNK REALTY CO. REAL ESTATE' sign beside the 1911 Beaumont Bank (CBEA_108), a building BLD itself titles the Funk Building."
-   },
-   "date": {
-    "date_start": 1907,
-    "date_end": 1907,
-    "display": "1907",
-    "confidence": "high",
-    "basis": "The album mount is typed 'BEAUMONT 1907' and Calisphere dates the item 1907 (CBEA_011). Corrects the catalog's erroneous 'stagecoach, 1860'."
-   },
-   "holding": {
-    "institution": "Beaumont Library District, via Calisphere",
-    "item_id": "CBEA_011",
-    "url": "https://calisphere.org/item/ark:/13030/c8tb167d/"
-   },
-   "best_master": {
-    "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\03_egan-ave-livery-stable-1907-scraped.jpg",
-    "pixels": "1024×803",
-    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
-   },
-   "description": "Teamsters' wagons and buggies line the dirt roadway of Egan Avenue near the railroad crossing — the shingled two-story livery stable with its painted wall sign at center, the porch-fronted Funk Realty Co. office beside it (its 'FUNK REALTY CO' sign legible under the awning), and the young town's false-front blocks beyond; the album mount is typed 'BEAUMONT 1907'. Calisphere's catalog entry names the surroundings — a realty office, Burt Carter's livery stable, Grant's Mercantile (then under construction) and Charles Budden's hotel — and notes the view was taken from in front of the Egan Avenue post office, looking south.",
-   "corrections": [
-    "'Stagecoach downtown Beaumont, 1860' was wrong twice over: no stagecoach appears (freight and livery rigs), and no town existed here in 1860 — George Egan laid out San Gorgonio (renamed Beaumont 1886-87) only in 1884.",
-    "The mount itself is dated 1907 and Calisphere dates the item 1907.",
-    "Realty-office identity: Calisphere's title says 'J. Drew Frank Realty' but the photographed sign reads 'FUNK REALTY CO' — likely a cataloger's misreading; confirm against BLD's accession notes."
-   ],
-   "open_questions": [
-    "'Funk Realty Co.' vs Calisphere's 'J. Drew Frank Realty' — three sign readings support Funk; confirm with BLD's accession notes (and whether a J. Drew Frank existed at all)."
-   ],
-   "evidence": [
-    {
-     "label": "Calisphere item (title, 1907 date, buildings named, 'taken from the front of the post office of Egan Ave, looking south') — CBEA_011",
-     "url": "https://calisphere.org/item/ark:/13030/c8tb167d/"
-    },
-    {
-     "label": "Sign readings 'FUNK REALTY CO' / livery wall sign / mount label 'BEAUMONT 1907' — legible in the 1024 px scrape (verified at high magnification 2026-07-20)",
-     "url": ""
-    },
-    {
-     "label": "Town chronology (Egan founds San Gorgonio 1884; renamed Beaumont 1886-87) — Beaumont Library District local history",
-     "url": "https://www.mybld.org/local-history"
-    },
-    {
-     "label": "Holmes, History of Riverside County (1912), pp. 229-231",
-     "url": "https://archive.org/details/historyriversid00unkngoog"
-    },
-    {
-     "label": "Corroborating Funk-sign photo beside the 1911 Beaumont Bank — CBEA_108",
-     "url": "https://calisphere.org/item/ark:/13030/c8dn44db/"
-    }
-   ]
-  },
-  "img_6f833a14a7764e47": {
-   "position": 4,
-   "title": "Southern Pacific depot, Beaumont",
-   "original_title": "Beaumont Train Depot Calisphere",
-   "caption": {
-    "caption": "The Southern Pacific depot (built 1887), looking east, c. 1905-1915.",
-    "attribution": "Beaumont Library District, via Calisphere (CBEA_134, ark:/13030/c85x2881)",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Calisphere Beaumont Library District collection (CBEA_134)",
-    "basis": "Same photograph as Calisphere CBEA_134, 'Southern Pacific Depot in Beaumont, looking east.' Calisphere records this larger depot was built in 1887 but carries no date for the photo; c. 1905-1915 is an editorial estimate from the Edwardian crowd's dress, the long steel consist and the electric/telegraph poles. The old date '1875' is untenable — 1875-76 is when the SP line itself crossed the pass (the stop was then called 'Summit'); the town wasn't named Beaumont until 1886-87."
-   },
-   "date": {
-    "date_start": 1905,
-    "date_end": 1915,
-    "display": "c. 1905-1915",
-    "confidence": "medium",
-    "basis": "Calisphere carries no date for the photo; the depot was built 1887. c. 1905-1915 rests on the crowd's dress, the long steel consist and the electric/telegraph poles (editorial estimate, flagged as such). '1875' untenable — that is when the SP line crossed the pass, not this depot or town name."
-   },
-   "holding": {
-    "institution": "Beaumont Library District, via Calisphere",
-    "item_id": "CBEA_134",
-    "url": "https://calisphere.org/item/ark:/13030/c85x2881/"
-   },
-   "best_master": null,
-   "description": "An Edwardian crowd fills the platform of the Southern Pacific depot, looking east down the main line past a standing passenger train toward the water tower and oil tanks of the yard; under the station board, a Sunset Route mileage sign reads 'TO NEW ORLEANS'. Calisphere records that this larger depot was built in 1887, when Beaumont's business district amounted to two stores, a saloon, a post office, a livery stable, three hotels, a grain warehouse, a schoolhouse and two churches.",
-   "corrections": [
-    "The old date '1875' (still in the working filename) is untenable — 1875-76 is when the SP line itself crossed the pass (the stop was then called 'Summit'); this depot was built in 1887.",
-    "Calisphere carries no date for the photo; c. 1905-1915 is an editorial estimate, flagged as such."
-   ],
-   "evidence": [
-    {
-     "label": "Calisphere item (title 'Southern Pacific Depot in Beaumont, looking east'; depot built 1887; 1887 business-district description; no photo date) — CBEA_134",
-     "url": "https://calisphere.org/item/ark:/13030/c85x2881/"
-    },
-    {
-     "label": "Railroad reaches the pass 1875-76, station renamed Beaumont 1887 — BLD local history",
-     "url": "https://www.mybld.org/local-history"
-    },
-    {
-     "label": "'BEAUMONT / TO NEW ORLEANS' sign reading — legible in the 1024 px file (verified at high magnification 2026-07-20)",
-     "url": ""
-    }
-   ]
-  },
-  "img_4e8d4526096e0dd7": {
-   "position": 5,
-   "title": "Fifth Street & Egan Avenue, Beaumont, 1890s",
-   "original_title": "Post Office",
-   "caption": {
-    "caption": "Fifth & Egan — the San Gorgonio Mercantile Co., the post office (far left) and a pool hall, 1890s.",
-    "attribution": "Beaumont Library District, via Calisphere (CBEA_146, ark:/13030/c8h70f56); rights: Copyrighted — Laura May Stewart Trust",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Calisphere Beaumont Library District collection (CBEA_146, matched 2026-07-20)",
-    "basis": "Same photograph as Calisphere CBEA_146. The old caption made the post office the subject; per the Calisphere description the post office is the small building at far left on the southwest corner, and the dominant two-story false-front is the San Gorgonio Mercantile Company ('GENERAL MERCHANDISE' on its sign) — still wearing the town's pre-1887 name. Previously thought absent from Calisphere; found 2026-07-20."
-   },
-   "date": {
-    "date_start": 1890,
-    "date_end": 1899,
-    "display": "1890s",
-    "confidence": "high",
-    "basis": "Calisphere dates the item to the 1890's (CBEA_146); the mercantile still wears the town's pre-1887 name San Gorgonio, and the young eucalyptus match the 1886-87 street plantings."
-   },
-   "rights_status": "Copyrighted",
-   "rights": "Copyrighted — Laura May Stewart Trust (per the Calisphere record; contact via BLD).",
-   "holding": {
-    "institution": "Beaumont Library District, via Calisphere",
-    "item_id": "CBEA_146",
-    "url": "https://calisphere.org/item/ark:/13030/c8h70f56/"
-   },
-   "best_master": {
-    "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\05_fifth-and-egan-post-office-mercantile-1890s-scraped.jpg",
-    "pixels": "1024×728",
-    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
-   },
-   "description": "An elevated view of Beaumont's main business corner in the 1890s, among young eucalyptus: the two-story false-front San Gorgonio Mercantile Company ('GENERAL MERCHANDISE' on its sign) at center, the small Beaumont Post Office building at the extreme left on the southwest corner of Fifth and Egan, and the town's pool hall at right; a delivery wagon stands in the street. The store still wore the town's pre-1887 name, San Gorgonio — the post office itself had operated out of corners of Beaumont's general stores since George Egan first kept it in his own store in 1884.",
-   "corrections": [
-    "The old caption made the post office the subject; per the Calisphere description the post office is the small building at far left — the dominant building is the San Gorgonio Mercantile Co.",
-    "Previously thought absent from Calisphere — it is item CBEA_146 (found 2026-07-20); a 1024 px master was scraped."
-   ],
-   "evidence": [
-    {
-     "label": "Calisphere item (title and description naming all three buildings, '1890's' date, Stewart Trust rights) — CBEA_146",
-     "url": "https://calisphere.org/item/ark:/13030/c8h70f56/"
-    },
-    {
-     "label": "Sign reading 'SAN GORGONIO MERC CO / GENERAL MERCHANDISE' — legible in the 1024 px scrape (verified 2026-07-20)",
-     "url": ""
-    },
-    {
-     "label": "Post office history (San Gorgonia P.O. 1879-81; reopened in Egan's store 1884; renamed Beaumont Sept 8, 1886; kept 'in some corner of different store buildings') — BLD local history",
-     "url": "https://www.mybld.org/local-history"
-    },
-    {
-     "label": "Holmes (1912) pp. 229-234",
-     "url": "https://archive.org/details/historyriversid00unkngoog"
-    },
-    {
-     "label": "Eucalyptus street plantings 1886-87 (supports 1890s tree size)",
-     "url": "https://www.mybld.org/local-history"
-    }
-   ]
-  },
-  "img_07a9db15e22db499": {
-   "position": 6,
-   "title": "SP shop crew with locomotive No. 2789, Beaumont yard",
-   "original_title": "Railroad Workers 1890S",
-   "caption": {
-    "caption": "SP shop crew with locomotive No. 2789 at the Beaumont yard, c. 1905-1915.",
-    "attribution": "Beaumont Library District, via Calisphere (CBEA_005, ark:/13030/c8g1605q); also cited as Banning Library District by the SGPHS timeline",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Calisphere Beaumont Library District collection (CBEA_005) + locomotive identification research (2026-07)",
-    "basis": "Foreground locomotive is Southern Pacific No. 2789, read directly from the engine in three places that agree — the oval smokebox number plate, the headlight number board and the painted last digit on the smokebox shoulder — on a high-resolution Calisphere scan (CBEA_005). SP 2789 sits in the C-9 Consolidation batch 2752-2830 (Baldwin, ~1905), a Harriman Common Standard 2-8-0. The album mount is typed 'ENGINES AT BEAUMONT'. The old 'Railroad workers at Beaumont Train Depot, 1890s' (from the SGPHS timeline, whose captions are not evidentiary) is superseded: the C-9 class was built ~1905 and the high oil headlight predates SP's 1910s electric conversions."
-   },
-   "date": {
-    "date_start": 1905,
-    "date_end": 1915,
-    "display": "c. 1905-1915",
-    "confidence": "medium",
-    "basis": "The C-9 class was built ~1905; the high-mounted oil headlight predates SP's 1910s electric conversions; Calisphere's description places the scene in the early 1900s. Supersedes the SGPHS timeline's '1890s'."
-   },
-   "holding": {
-    "institution": "Beaumont Library District, via Calisphere",
-    "item_id": "CBEA_005 (89-01-07)",
-    "url": "https://calisphere.org/item/ark:/13030/c8g1605q/"
-   },
-   "best_master": {
-    "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\06_railroad-workers-1890s-scraped.jpg",
-    "pixels": "1024×801",
-    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
-   },
-   "description": "A Southern Pacific shop crew posed on the pilot of locomotive No. 2789 at the Beaumont yard; a whaleback oil tender and the 30,000-gallon oil tank stand behind, with further engines beyond. The engine is a C-9 Harriman Common Standard 2-8-0 'Consolidation' (Baldwin, ~1905), its road number read independently from the smokebox plate, the headlight number board and the smokebox shoulder. The album mount is typed 'ENGINES AT BEAUMONT'.",
-   "corrections": [
-    "The old 'Railroad workers at Beaumont Train Depot, 1890s' (from the SGPHS timeline, whose captions are not evidentiary) is superseded: the C-9 class was built ~1905, the high oil headlight predates SP's 1910s electric conversions, and Calisphere's description places the scene in the early 1900s.",
-    "Attribution: the timeline credited Banning Library District; Calisphere holds it as Beaumont Library District (CBEA_005) — reconcile with the holding institution."
-   ],
-   "open_questions": [
-    "Holder: Calisphere holds the print as Beaumont Library District CBEA_005; the SGPHS timeline credited Banning Library District. Also offer BLD the SP No. 2789 identification for their record."
-   ],
-   "evidence": [
-    {
-     "label": "Calisphere item (title 'Demonstration train'; 30,000-gal oil tank, whaleback tender, early-1900s oil firing; CBEA_005 / 89-01-07)",
-     "url": "https://calisphere.org/item/ark:/13030/c8g1605q/"
-    },
-    {
-     "label": "Locomotive identification dossier (SP No. 2789, C-9 2-8-0, dating logic, enhanced number readings); supporting roster/class sources cited there: espee.railfan.net, steamlocomotive.com, utahrails.net, trainweb.org High Desert Rails, markschutzer.com",
-     "url": "https://claude.ai/code/artifact/6dd1f6b3-aefe-4db7-8c2b-66f4277eeedc"
-    },
-    {
-     "label": "Distinct from the roundhouse photo 'Engines at Beaumont' (CBEA_007) — same yard, different image",
-     "url": "https://calisphere.org/item/ark:/13030/c86h4gq8/"
-    }
-   ]
-  },
-  "img_c15c20a838d86c18": {
-   "position": 7,
-   "title": "Stewart Ranch grain harvest",
-   "original_title": "Stewart Ranch",
-   "caption": {
-    "caption": "Grain harvest on the Stewart Ranch — traditionally dated 1883, the year Stewart homesteaded.",
-    "attribution": "Beaumont Library District, via Calisphere (CBEA_147, ark:/13030/c87p8xrn); rights: Copyrighted — Laura May Stewart Trust",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Calisphere Beaumont Library District collection (CBEA_147)",
-    "basis": "Same photograph as Calisphere 'Stewart Ranch; men with horses and thrashing machines. Looking south with the railroad...' (CBEA_147). Calisphere carries no date; '1883' is the homestead year, not a documented photo date — Holmes (1912) has Stewart raising grain from 1884, and an established harvest crew of this size implies the operation's later years. A handwritten note on the mount reads (partly legibly) 'Stewart's thrashers — RR track in back.'"
-   },
-   "date": {
-    "date_start": 1884,
-    "date_end": 1909,
-    "display": "c. 1884-1900s",
-    "confidence": "medium",
-    "basis": "Calisphere carries no date for this photo; '1883' (the filename and old caption) is the homestead year, not a documented photo date. Holmes (1912) has R. P. Stewart raising grain from 1884; an established harvest crew of this size implies the operation's later years — the honest range is c. 1884-1900s."
-   },
-   "rights_status": "Copyrighted",
-   "rights": "Copyrighted — Laura May Stewart Trust (Marilyn Vonderheide, per the Calisphere record).",
-   "holding": {
-    "institution": "Beaumont Library District, via Calisphere",
-    "item_id": "CBEA_147",
-    "url": "https://calisphere.org/item/ark:/13030/c87p8xrn/"
-   },
-   "best_master": {
-    "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\07_stewart-ranch-1883-scraped.jpg",
-    "pixels": "1024×818",
-    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
-   },
-   "description": "Crop hands pause with their horse teams, header wagons and harvesting machinery in a cut grain field on the Stewart Ranch, looking south past the Southern Pacific line toward the San Jacinto foothills; a handwritten note on the mount reads (partly legibly) 'Stewart's thrashers — RR track in back.' Reznor Perry Stewart homesteaded at Beaumont in 1883 and, buying railroad land, built a grain and hay ranch that reached some 2,200 acres; Holmes' county history has him raising grain from 1884.",
-   "corrections": [
-    "Calisphere carries no date for this photo; '1883' is the homestead year, not a documented photo date — the honest range is c. 1884-1900s."
-   ],
-   "evidence": [
-    {
-     "label": "Calisphere item (title 'Stewart Ranch; men with horses and thrashing machines...'; subjects Laura May & Reznor Stewart; no date; Stewart Trust rights) — CBEA_147",
-     "url": "https://calisphere.org/item/ark:/13030/c87p8xrn/"
-    },
-    {
-     "label": "Stewart homestead 1883, 2,200-acre grain ranch — BLD local history",
-     "url": "https://www.mybld.org/local-history"
-    },
-    {
-     "label": "'R. P. Stewart and Dan Scott commenced raising grain' in 1884 — Holmes (1912) p. 230",
-     "url": "https://archive.org/details/historyriversid00unkngoog"
-    },
-    {
-     "label": "Mount inscription reading — 1024 px scrape, enhanced (verified 2026-07-20)",
-     "url": ""
-    },
-    {
-     "label": "Family context (Laura Mae Stewart, first Cherry Festival queen)",
-     "url": "https://calisphere.org/item/ark:/13030/c86q1wmt/"
-    }
-   ]
-  },
-  "img_45720d2a6586237d": {
-   "position": 8,
-   "title": "Traditional house (kish), Morongo Reservation",
-   "original_title": "Traditional House On Morongo Reservation",
-   "caption": {
-    "caption": "A summer house (kish) on the Morongo Reservation, c. 1900.",
-    "attribution": "Banning Library District, via Calisphere (CBAN_093, ark:/13030/c8fb5109); contributor C. O. Barker",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Calisphere Banning Library District collection (CBAN_093, matched 2026-07-20)",
-    "basis": "Same photograph as Banning Library District item CBAN_093 ('circa 1900', contributor C. O. Barker, sepia copy slide), whose description calls it a 'summer traditional house... sometimes referred to as a wickie-up' — a Cahuilla kish. The old caption was accurate in substance; the exact Calisphere match is newly established (previously thought absent from Calisphere)."
-   },
-   "date": {
-    "date_start": 1895,
-    "date_end": 1905,
-    "display": "c. 1900",
-    "confidence": "high",
-    "basis": "Calisphere dates the item 'circa 1900' (CBAN_093); Kroeber recorded the 'airy brush-house' still in everyday use at the Banning-area reservation in this era."
-   },
-   "holding": {
-    "institution": "Banning Library District, via Calisphere",
-    "item_id": "CBAN_093",
-    "url": "https://calisphere.org/item/ark:/13030/c8fb5109/"
-   },
-   "best_master": {
-    "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\08_traditional-house-morongo-reservation-1900-scraped.jpg",
-    "pixels": "1024×686",
-    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
-   },
-   "description": "A woman sits at the entrance of a brush-thatched summer house — a Cahuilla kish, 'sometimes referred to as a wickie-up' in the holding library's words — her cook-pot beside her on the swept ground, with the reservation's fields, a farm building and the mountain wall of the pass behind. Kroeber, visiting the Banning reservation in this same era, recorded the 'airy brush-house' still in everyday use.",
-   "corrections": [
-    "None to the substance — the old caption was accurate. Newly established: the exact photo is Banning Library District item CBAN_093 ('circa 1900', contributor C. O. Barker), previously thought absent from Calisphere; a 1024 px master was scraped."
-   ],
-   "evidence": [
-    {
-     "label": "Calisphere item (title, 'circa 1900', Barker, 'summer traditional house... wickie-up' description) — CBAN_093",
-     "url": "https://calisphere.org/item/ark:/13030/c8fb5109/"
-    },
-    {
-     "label": "Brush houses in use at the Banning (Morongo) reservation c. 1900 — A. L. Kroeber, Ethnography of the Cahuilla Indians (1908)",
-     "url": "https://sacred-texts.com/nam/ca/eci/eci09.htm"
-    },
-    {
-     "label": "Kish terminology — Agua Caliente Band, Our Story",
-     "url": "https://www.aguacaliente.org/documents/OurStory-20.pdf"
-    },
-    {
-     "label": "Related Banning items (companions, same collection)",
-     "url": "https://calisphere.org/item/ark:/13030/c83x84nz/"
-    },
-    {
-     "label": "Related Banning item (companion)",
-     "url": "https://calisphere.org/item/ark:/13030/c88g8hp1/"
-    }
-   ]
-  },
-  "img_72d13585ff607c22": {
-   "position": 9,
-   "title": "Captain John Morongo, c. 1890",
-   "original_title": "Morongo Band Of Mission Indians",
-   "caption": {
-    "caption": "Captain John Morongo (c. 1843/46 - July 1898), the Serrano leader for whom the reservation is named — studio portrait, c. 1890.",
-    "attribution": "Huntington Library, Weinland Collection (photCL 39 (126)); Banning Library District print via Calisphere (CBAN_120, ark:/13030/c8d798dr); photograph by Cramer's California Gallery, 402 Kearny St., San Francisco",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Huntington Library Weinland Collection — exact print visually confirmed (2026-07-20)",
-    "basis": "A studio cabinet-card portrait made at Cramer's California Gallery, San Francisco; the exact print survives at the Huntington among W. H. Weinland's papers, inscribed 'The late Capt. John Morongo... A noble Indian.' The old label 'Morongo Band of Mission Indians, 1908' misdescribed a named individual as an anonymous group, and the date is impossible for a life portrait: two 1898 newspapers report Morongo's death at the Banning reservation in July 1898. '1908' is instead the year the reservation formally took the Morongo name — ten years after his death."
-   },
-   "date": {
-    "date_start": 1885,
-    "date_end": 1898,
-    "display": "c. 1890 (before July 1898)",
-    "confidence": "high",
-    "basis": "Morongo died in July 1898 (Los Angeles Herald, July 21, 1898, p. 9 — primary), so a life portrait cannot postdate that; the Banning Library District dates its own print of this portrait circa 1890. '1908' is the year the reservation formally took the Morongo name (land patented to the Morongo Band), ten years after his death."
-   },
-   "rights": "Huntington Library print (photCL 39) requires their permission for reproduction; the Banning Library District also holds a print (CBAN_120).",
-   "holding": {
-    "institution": "Huntington Library, Weinland Collection (also Banning Library District via Calisphere)",
-    "item_id": "photCL 39 (126) / CBAN_120",
-    "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12408/"
-   },
-   "best_master": {
-    "location": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12408/",
-    "pixels": "higher-resolution IIIF scan available from the Huntington",
-    "note": "Exact print at the Huntington (photCL 39 (126), inscribed 'The late Capt. John Morongo'); this archive's copy is 500×500 px. Requires Huntington permission; the Banning Library District print (CBAN_120) is an alternative source."
-   },
-   "description": "A studio cabinet-card portrait of Captain John Morongo in a three-piece suit and bow tie, made at Cramer's California Gallery, 402 Kearny Street, San Francisco. Hereditary leader of the Serrano Maarrenga'yam clan and the first officially recognized 'captain' of the Potrero (San Gorgonio) reservation, Morongo served for years on the U.S. Indian police, spoke fluent English, campaigned for public schooling and against liquor sales, and was the leader whose family name the reservation and Band formally adopted. The exact print survives at the Huntington Library among the papers of W. H. Weinland, the Moravian missionary at Morongo, inscribed 'The late Capt. John Morongo... A noble Indian.'",
-   "corrections": [
-    "The old label 'Morongo Band of Mission Indians, 1908' misdescribed a named individual as an anonymous group.",
-    "The 1908 date is impossible for a life portrait: two 1898 newspapers report Morongo's death at the Banning reservation in July 1898. '1908' is the year the reservation formally took the Morongo name.",
-    "Likely source of the date confusion: his brother Francisco died in 1906."
-   ],
-   "evidence": [
-    {
-     "label": "Exact photo (visually confirmed match) — 'The late Capt. John Morongo,' Huntington Library photCL 39 (126), Weinland Collection; card printed 'Cramer, 402 Kearny Street, S.F.'",
-     "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12408/"
-    },
-    {
-     "label": "Calisphere mirror of the Huntington item",
-     "url": "https://calisphere.org/item/81e109d9cfed923ca16b1c45273ea8db/"
-    },
-    {
-     "label": "Same man, different sitting — 'Capt. John Morongo,' photCL 39 (124)",
-     "url": "https://hdl.huntington.org/digital/collection/p15150coll2/id/12407/"
-    },
-    {
-     "label": "Death, July 1898 (primary) — Los Angeles Herald, July 21, 1898, p. 9 ('The death of John Morongo at the Banning reservation...')",
-     "url": "https://www.loc.gov/resource/sn85042461/1898-07-21/ed-1/?sp=9&q=%22john+morongo%22"
-    },
-    {
-     "label": "The Argus (Holbrook, A.T.), July 30, 1898, p. 1",
-     "url": "https://www.loc.gov/resource/sn94051341/1898-07-30/ed-1/?sp=1&q=%22john+morongo%22"
-    },
-    {
-     "label": "Title/role in life (primary) — Los Angeles Herald, Jan 25, 1893, p. 5: 'John Morongo, captain of the Portrero Indians'",
-     "url": "https://www.loc.gov/resource/sn85042461/1893-01-25/ed-1/?sp=5&q=%22john+morongo%22"
-    },
-    {
-     "label": "Banning Library District print and biography ('a native Serrano who... was instrumental in establishing the settlements of the San Gorgonio Pass,' circa 1890) — CBAN_120",
-     "url": "https://calisphere.org/item/ark:/13030/c8d798dr/"
-    },
-    {
-     "label": "Clan leadership and family (Maarrenga'yam; brother Francisco d. 1906 — likely source of date confusion)",
-     "url": "https://morongonation.org/about-us/"
-    },
-    {
-     "label": "Dorothy Ramon Learning Center — 'A Sacred Week'",
-     "url": "https://dorothyramonlearningcenter.substack.com/p/a-sacred-week"
-    },
-    {
-     "label": "Reservation named for him — Malki Museum history",
-     "url": "https://malkimuseum.org/pages/museum-history"
-    },
-    {
-     "label": "The Cramer studio (Charles Lake Cramer, San Francisco, active 1863-1906)",
-     "url": "https://cabinetcardgallery.com/tag/cramers-california-gallery/"
-    }
-   ]
-  },
-  "img_b08de96dbf496fab": {
-   "position": 10,
-   "title": "The Beaumont Hotel (later Hotel Edinburgh)",
-   "original_title": "Beaumont Hotel C1890",
-   "caption": {
-    "caption": "The Beaumont Hotel, built 1887 — later the Hotel Edinburgh; burned August 1909.",
-    "attribution": "Beaumont Library District, via Calisphere (CBEA_009, ark:/13030/c81v5d9b); photograph by C. C. Pierce & Co., Los Angeles",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Calisphere Beaumont Library District collection (CBEA_009)",
-    "basis": "Same photograph as Calisphere CBEA_009, which dates it circa 1895 and credits C. C. Pierce & Co. of Los Angeles. The $40,000 Queen Anne showpiece was built in 1887 by the Southern California Investment Company, stood empty after the 1888 bust, reopened 1907 as the Hotel Edinburgh (proprietor David Cochrane) and burned in August 1909 — BLD metadata says August 16, an SGPHS post says August 17, so 'August 1909' until BLD confirms the day. The old '1890' was a guess."
-   },
-   "date": {
-    "date_start": 1890,
-    "date_end": 1900,
-    "display": "c. 1895",
-    "confidence": "high",
-    "basis": "Calisphere dates the photograph circa 1895 and supplies the photographer (C. C. Pierce & Co.). The hotel stood 1887-1909. Replaces the '1890' guess."
-   },
-   "holding": {
-    "institution": "Beaumont Library District, via Calisphere",
-    "item_id": "CBEA_009",
-    "url": "https://calisphere.org/item/ark:/13030/c81v5d9b/"
-   },
-   "best_master": null,
-   "description": "Guests pose along the wraparound veranda of the Beaumont Hotel, the $40,000 Queen Anne showpiece the Southern California Investment Company raised in 1887 to sell boom-time land buyers on the pass, its corner tower and turrets standing alone against the bare hills; photographed by C. C. Pierce & Co. of Los Angeles. Empty for years after the 1888 bust, it reopened in 1907 as the Hotel Edinburgh (proprietor David Cochrane, 'Unsurpassed For Health, Rest And Recreation') and burned to the ground in August 1909, three years before cityhood.",
-   "corrections": [
-    "The old date '1890' was a guess; Calisphere dates the photograph circa 1895 and supplies the photographer (C. C. Pierce & Co.).",
-    "Fire date: BLD metadata says August 16, 1909; an SGPHS post says Aug 17 — say 'August 1909' unless BLD confirms the day."
-   ],
-   "open_questions": [
-    "Day of the 1909 hotel fire: Aug 16 (BLD metadata) vs Aug 17 (SGPHS post) — a CDNC newspaper check would settle it (site currently blocks automation)."
-   ],
-   "evidence": [
-    {
-     "label": "Calisphere item (title, c. 1895 date, full history: $40,000 1887 investment-company build, 1907 Edinburgh reopening, 1909 fire, C. C. Pierce & Co. credit, site at 5th & Beaumont Ave) — CBEA_009",
-     "url": "https://calisphere.org/item/ark:/13030/c81v5d9b/"
-    },
-    {
-     "label": "Holmes (1912) p. 233 — built 1887 'at the cost of $40,000... a financial failure'; reopened 1907 as the Edinburgh; 'destroyed by fire' August 1909",
-     "url": "https://archive.org/details/historyriversid00unkngoog"
-    },
-    {
-     "label": "BLD local history (German Savings & Loan takeover; 'stood unused for years')",
-     "url": "https://www.mybld.org/local-history"
-    },
-    {
-     "label": "Later press retrospective (site now El Rancho/Best Western on Beaumont Ave; brochure rates $9-15/week)",
-     "url": "https://patch.com/california/banning-beaumont/long-lost-beaumont-hotel-a-legacy-for-fire-protection"
-    },
-    {
-     "label": "Companion Calisphere item (Edinburgh-era banquet)",
-     "url": "https://calisphere.org/item/ark:/13030/c8b56j3k/"
-    }
-   ]
-  },
-  "img_96cb1ed10cb5a0fd": {
-   "position": 11,
-   "title": "Beaumont Woman's Club clubhouse",
-   "original_title": "Beaumont Woman S Club From Beaumont Library District",
-   "caption": {
-    "caption": "The Woman's Club clubhouse at Sixth & Euclid, dedicated May 11, 1917.",
-    "attribution": "Beaumont Library District, via Calisphere (CBEA_088, ark:/13030/c80k27x4)",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Calisphere Beaumont Library District collection (CBEA_088)",
-    "basis": "Same real-photo postcard as Calisphere CBEA_088, captioned on the mount 'Ladie's Club House, Beaumont'. The old date '1911' is impossible — the club (organized February 7, 1908, and the founding force behind Beaumont's public library) bought the corner lots in 1914 and dedicated this hall, built with a $3,000 loan, on May 11, 1917. The 1910s-20s automobiles in frame fit the corrected range. It still occupies the site at 306 E. Sixth Street."
-   },
-   "date": {
-    "date_start": 1917,
-    "date_end": 1929,
-    "display": "c. 1917-1920s",
-    "confidence": "high",
-    "basis": "The clubhouse was dedicated May 11, 1917 (club's own history; lots bought 1914, $3,000 loan) — an unbuilt building cannot appear in a 1911 photo; the 1910s-20s automobiles in frame fit the corrected range."
-   },
-   "holding": {
-    "institution": "Beaumont Library District, via Calisphere",
-    "item_id": "CBEA_088",
-    "url": "https://calisphere.org/item/ark:/13030/c80k27x4/"
-   },
-   "best_master": null,
-   "description": "A real-photo postcard captioned 'Ladie's Club House, Beaumont': the low clubhouse of the Beaumont Woman's Club behind its street trees on Sixth Street west of Euclid Avenue, with members' automobiles nosed in under the branches. The club — organized February 7, 1908, and the founding force behind Beaumont's public library — bought the two corner lots in 1914 and dedicated this hall, built with a $3,000 loan, on May 11, 1917. It still occupies the site at 306 E. Sixth Street.",
-   "corrections": [
-    "The old date '1911' is impossible — the clubhouse wasn't built until 1917. (The club itself, not the building, existed by 1911 — it founded the library that year.)"
-   ],
-   "evidence": [
-    {
-     "label": "Calisphere item (postcard; clubhouse 'on 6th Street West of Euclid Avenue'; no date) — CBEA_088",
-     "url": "https://calisphere.org/item/ark:/13030/c80k27x4/"
-    },
-    {
-     "label": "Club organized Feb 7, 1908 — BLD local history",
-     "url": "https://www.mybld.org/local-history"
-    },
-    {
-     "label": "Club's own history ('Founded in 1908... first project was establishing the public library'); lots bought 1914; clubhouse dedicated May 11, 1917 ($3,000 loan)",
-     "url": "https://beaumontwomansclub.org/our-history"
-    },
-    {
-     "label": "Centennial coverage",
-     "url": "https://www.recordgazette.net/community/beaumont-woman-s-clubhouse-celebrates-centennial/article_2f63ae04-3bfa-11e7-b5aa-5bec70edeaa7.html"
-    },
-    {
-     "label": "Postcard caption 'Ladie's Club House, Beaumont' — legible in the 1024 px file",
-     "url": ""
-    }
-   ]
-  },
-  "img_2ba02d1a7deddfd1": {
-   "position": 12,
-   "title": "Beaumont Bank / Funk Building — first home of the library",
-   "original_title": "First Library House In Basement Of Bank Building",
-   "caption": {
-    "caption": "The Beaumont Bank (Funk Building, 1911) — the library's first home, two ground-floor rooms rented from October 1911.",
-    "attribution": "Beaumont Library District, via Calisphere (CBEA_108, ark:/13030/c8dn44db)",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Calisphere Beaumont Library District collection (CBEA_108, matched 2026-07-20)",
-    "basis": "Exact match to Calisphere CBEA_108: 'Funk Building, 248 West 5th Street. The Beaumont Bank, built in 1911' — Reznor Stewart (of the Stewart Ranch) was a founder and long-time president. When Beaumont voted itself a library district on August 12, 1911, the new library opened that October in two rented GROUND-FLOOR rooms here at $10 a month (News Notes of California Libraries vol. 7, 1912; Holmes 1912; BLD today) and stayed until the Carnegie building opened in June 1914 — 'basement' is wrong. Previously mis-tied to the First Bank construction photo at 5th & California (CBEA_034)."
-   },
-   "date": {
-    "date_start": 1911,
-    "date_end": 1914,
-    "display": "c. 1911-1914",
-    "confidence": "medium",
-    "basis": "The building (built 1911) appears brand-new — brick above a stuccoed ground floor with striped awnings; the library rented its ground-floor rooms here October 1911 - June 1914."
-   },
-   "holding": {
-    "institution": "Beaumont Library District, via Calisphere",
-    "item_id": "CBEA_108",
-    "url": "https://calisphere.org/item/ark:/13030/c8dn44db/"
-   },
-   "best_master": {
-    "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\12_beaumont-bank-funk-building-1911-scraped.jpg",
-    "pixels": "1024×645",
-    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
-   },
-   "description": "The brand-new Beaumont Bank building — brick above a stuccoed ground floor, striped awnings at every window, two men idling by the chamfered corner entrance, and a 'FUNK REALTY CO. REAL ESTATE' sign on the frontage beyond. Reznor Stewart (of the Stewart Ranch) was a founder and long-time president of the bank, built in 1911 as the Funk Building at 248 West 5th Street. When Beaumont voted itself a library district on August 12, 1911 — the only library-district library in the State Library's 1912 census of California — the new library opened that October in two rented rooms on this building's ground floor, at $10 a month, and stayed until the Carnegie building opened in June 1914.",
-   "corrections": [
-    "Building identity: the record was previously tied to the 'First Bank' construction photo at 5th & California — it is actually Calisphere item CBEA_108, the Beaumont Bank / Funk Building (exact match verified; 1024 px master scraped).",
-    "'Basement' is wrong: the period sources (State Library 1912; Holmes 1912; BLD today) all say rented ground-floor rooms."
-   ],
-   "open_questions": [
-    "Which corner: BLD's own sources place the Beaumont Bank building variously at 5th & California, 5th & Egan, and 5th & Grace — the street corner is left unstated."
-   ],
-   "evidence": [
-    {
-     "label": "Calisphere item (exact photo; 'Funk Building, 248 West 5th Street. The Beaumont Bank, built in 1911'; 'Reznor Stewart was one of its founders and its President for several years') — CBEA_108",
-     "url": "https://calisphere.org/item/ark:/13030/c8dn44db/"
-    },
-    {
-     "label": "Library district established by vote Aug 12, 1911; 'Rents room in Beaumont Bank bldg., rent $10 per mo.' — News Notes of California Libraries vol. 7 (1912), California State Library",
-     "url": "https://archive.org/details/newsnotesofcalif07cali"
-    },
-    {
-     "label": "Repeated in News Notes vol. 9 (1914)",
-     "url": "https://archive.org/details/newsnotesofcalif09cali"
-    },
-    {
-     "label": "'In 1911 the present public library, which occupies a room in the Beaumont bank building, was established.' — Holmes (1912)",
-     "url": "https://archive.org/details/historyriversid00unkngoog"
-    },
-    {
-     "label": "BLD today: 'two rooms on the ground floor of the Beaumont Bank building... rented for $125 per year'",
-     "url": "https://www.mybld.org/local-history"
-    },
-    {
-     "label": "District newsletter (Oct 2024)",
-     "url": "https://www.mybld.org/files/141ed5435/news1024.pdf"
-    },
-    {
-     "label": "Enabling statute — Unincorporated Towns Library Act (approved April 12, 1909), text in News Notes vol. 4 (1909)",
-     "url": "https://archive.org/details/newsnotesofcalif04cali"
-    },
-    {
-     "label": "Today one of 12 independent special-district libraries in California",
-     "url": "https://library.ca.gov/wp-content/uploads/2021/08/CAPubLibOrg_2013.pdf"
-    },
-    {
-     "label": "Centennial marker (vote 59-27; district chronology)",
-     "url": "https://www.hmdb.org/m.asp?m=175955"
-    },
-    {
-     "label": "The other bank photo it was confused with (First Bank at 5th & California, under construction, 'also housed the library' per BLD metadata — the two BLD records conflict) — CBEA_034",
-     "url": "https://calisphere.org/item/ark:/13030/c8qc02td/"
-    }
-   ]
-  },
-  "img_a3f413e8c9ed23bb": {
-   "position": 13,
-   "title": "H. L. Priest and his fruit tree",
-   "original_title": "Man And Fruit Tree",
-   "caption": {
-    "caption": "H. L. Priest beside a young fruit tree 'in the early days'.",
-    "attribution": "Beaumont Library District, via Calisphere (CBEA_064, ark:/13030/c83f4nzv)",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Calisphere Beaumont Library District collection (CBEA_064)",
-    "basis": "Same photograph as Calisphere CBEA_064, 'A man and fruit tree', whose description names him: 'H. L. Priest is shown standing next to his fruit tree in the early days.' The old 'Man and Fruit Tree, 1927' dropped the man's name — which Calisphere records — and asserted a date Calisphere does not carry; his dress reads c. 1900s-1910s, so the filename's '1927' is flagged unsupported rather than restated."
-   },
-   "date": {
-    "date_start": 1900,
-    "date_end": 1919,
-    "display": "c. 1900s-1910s",
-    "confidence": "low",
-    "basis": "Calisphere carries no date; Priest's dress (bowler hat, walrus mustache, waistcoat) reads c. 1900s-1910s. The filename's '1927' is unsupported by any source."
-   },
-   "holding": {
-    "institution": "Beaumont Library District, via Calisphere",
-    "item_id": "CBEA_064",
-    "url": "https://calisphere.org/item/ark:/13030/c83f4nzv/"
-   },
-   "best_master": {
-    "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\13_man-and-fruit-tree-1927-scraped.jpg",
-    "pixels": "749×1024",
-    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 366×500 px comp. (Filename's date is unsupported; kept for link continuity.)"
-   },
-   "description": "H. L. Priest — bowler hat, walrus mustache, waistcoat and rolled sleeves — stands beside a young fruit tree in freshly worked ground, a long, low colonnaded building crowning the bare rise behind him (unidentified; possibly one of the town's early institutional buildings). The holding library captions him simply: 'H. L. Priest is shown standing next to his fruit tree in the early days.'",
-   "corrections": [
-    "The old 'Man and Fruit Tree, 1927' dropped the man's name — which Calisphere records as H. L. Priest — and asserted a date Calisphere does not carry."
-   ],
-   "open_questions": [
-    "The colonnaded hilltop building behind H. L. Priest is unidentified."
-   ],
-   "evidence": [
-    {
-     "label": "Calisphere item (title 'A man and fruit tree'; description naming H. L. Priest; no date) — CBEA_064",
-     "url": "https://calisphere.org/item/ark:/13030/c83f4nzv/"
-    },
-    {
-     "label": "Beaumont's fruit-boom context (Beaumont Land & Water Co. plantings, orchard promotion) — BLD local history",
-     "url": "https://www.mybld.org/local-history"
-    },
-    {
-     "label": "Companion Calisphere orchard item ('Beaumont Fruit Orchard, 1911')",
-     "url": "https://calisphere.org/item/ark:/13030/c8r49q35/"
-    }
-   ]
-  },
-  "img_a4ddc941e94d3eed": {
-   "position": 14,
-   "title": "Mellen Ranch orchard in bloom, 1909",
-   "original_title": "Cherry Tree Farm",
-   "caption": {
-    "caption": "The Mellen Ranch orchard in bloom, Beaumont, 1909.",
-    "attribution": "Beaumont Library District, via Calisphere (CBEA_067, ark:/13030/c8kh0mpc)",
-    "attribution_confidence": "confirmed",
-    "caption_source": "Calisphere Beaumont Library District collection (CBEA_067)",
-    "basis": "Same photograph as Calisphere CBEA_067, 'Mellen Ranch, 1909'. The album page is typed 'BEAUMONT ORCHARD 1909' and 'MELLEN RANCH 1909' under the embossed header of the Beaumont Land and Water Company. The old 'Cherry Tree Farm, 1930' was wrong on subject, owner and date."
-   },
-   "date": {
-    "date_start": 1909,
-    "date_end": 1909,
-    "display": "1909",
-    "confidence": "high",
-    "basis": "Calisphere dates the item 1909 (CBEA_067) and the album mount is typed 'BEAUMONT ORCHARD 1909' / 'MELLEN RANCH 1909'. Corrects 'Cherry Tree Farm, 1930'."
-   },
-   "holding": {
-    "institution": "Beaumont Library District, via Calisphere",
-    "item_id": "CBEA_067",
-    "url": "https://calisphere.org/item/ark:/13030/c8kh0mpc/"
-   },
-   "best_master": {
-    "location": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\source-photos\\14_mellen-ranch-orchard-1909-scraped.jpg",
-    "pixels": "1024×928",
-    "note": "Calisphere /clip scrape at collection maximum; supersedes this archive's 500 px comp."
-   },
-   "description": "Rows of fruit trees in full blossom stripe the ploughed ground of the Mellen Ranch in 1909 — the album page is typed 'BEAUMONT ORCHARD 1909' and 'MELLEN RANCH 1909', under the faint embossed header of the Beaumont Land and Water Company, whose promotional albums sold the pass as an orchard paradise. T. J. Mellen's fruit took prizes at local exhibitions in the same years.",
-   "corrections": [
-    "The old 'Cherry Tree Farm, 1930' was wrong on subject, owner and date — corrected from the Calisphere item and the mount's own typed labels."
-   ],
-   "evidence": [
-    {
-     "label": "Calisphere item (title 'Mellen Ranch, 1909'; date 1909) — CBEA_067",
-     "url": "https://calisphere.org/item/ark:/13030/c8kh0mpc/"
-    },
-    {
-     "label": "Mount labels 'BEAUMONT ORCHARD 1909' / 'MELLEN RANCH 1909' and the 'BEAUMONT LAND AND WATER COMPANY' album header — legible in the 1024 px scrape",
-     "url": ""
-    },
-    {
-     "label": "T. J. Mellen prize item",
-     "url": "https://calisphere.org/item/ark:/13030/c8s181w3/"
-    },
-    {
-     "label": "Beaumont Land & Water Co. context — BLD local history",
-     "url": "https://www.mybld.org/local-history"
-    }
-   ]
-  },
-  "img_cfb583d7492fe063": {
-   "position": 15,
-   "title": "Beaumont District Library with rear addition",
-   "original_title": "Expansion",
-   "caption": {
-    "caption": "The Carnegie library with its 1965/66 rear addition and new entrance.",
-    "attribution": "Beaumont Library District collection; halftone from an unidentified printed publication",
-    "attribution_confidence": "medium",
-    "caption_source": "Building history research 2026-07-20 (carnegie-libraries.org, News Notes 1914, BLD, centennial marker)",
-    "basis": "A halftone reproduction (screened print from a publication) of the Beaumont District Library: the 1914 Carnegie building — $10,000 grant accepted May 6, 1913, architect E. L. Hopkins of Los Angeles, cornerstone February 12, 1914, opened June 16, 1914 — behind the low modern entrance wing added in the mid-1960s. The addition year is conflicted in the district's own sources (1965 per BLD website and Record Gazette timeline; 1966 per the centennial marker and carnegie-libraries.org), so '1965/66'. The photo shows the building before the 1977/78 mansard, hence c. 1966-1977."
-   },
-   "date": {
-    "date_start": 1966,
-    "date_end": 1977,
-    "display": "c. 1966-1977",
-    "confidence": "medium",
-    "basis": "The halftone shows the building after the mid-1960s rear addition (1965 per BLD website / 1966 per centennial marker — the district's sources conflict) and before the 1977/78 mansard roof. Replaces the bare '1965'."
-   },
-   "holding": null,
-   "best_master": {
-    "location": "Client holds a physical original print (client select #17 pair)",
-    "pixels": "644×425 (halftone scan on file)",
-    "note": "Scanning the client's physical original beats this screened 644 px halftone; source publication unidentified."
-   },
-   "description": "A halftone reproduction (from a printed publication) of the Beaumont District Library: the 1914 Carnegie building's arched windows and cypresses behind the low modern entrance wing lettered 'BEAUMONT DISTRICT LIBRARY'. The Carnegie building — a $10,000 grant accepted May 6, 1913, architect E. L. Hopkins of Los Angeles, cornerstone February 12, 1914, opened June 16, 1914 at 8th and California — gained a rear addition and new entrance in the mid-1960s that more than doubled its floor space.",
-   "corrections": [
-    "The addition year is conflicted in the district's own sources — 1965 (BLD website, Record Gazette timeline) vs. 1966 (BLD centennial marker, carnegie-libraries.org) — so '1965/66'.",
-    "The photo (screened halftone, source publication unidentified) shows the building before the 1977/78 mansard, hence c. 1966-1977."
-   ],
-   "open_questions": [
-    "1965 vs 1966 for the library addition (BLD's own sources split).",
-    "Client notes a physical original exists — scanning it beats the 644 px halftone."
-   ],
-   "evidence": [
-    {
-     "label": "Carnegie grant, architect E. L. Hopkins, 1966 rear addition, 1977 mansard — carnegie-libraries.org",
-     "url": "https://www.carnegie-libraries.org/california/beaumont.html"
-    },
-    {
-     "label": "Cornerstone Feb 12, 1914; opened June 16, 1914 (quoting the Gateway Gazette) — News Notes of California Libraries vol. 9 (1914)",
-     "url": "https://archive.org/details/newsnotesofcalif09cali"
-    },
-    {
-     "label": "BLD: 'An addition was built in 1965...'",
-     "url": "https://www.mybld.org/about-the-library"
-    },
-    {
-     "label": "Grant resolution May 6, 1913, site vote Sept 5, 1913, 'Year 1966: An addition is made...' — centennial marker",
-     "url": "https://www.hmdb.org/m.asp?m=175955"
-    },
-    {
-     "label": "Renovation timeline calling it 'the 1965 addition' — Record Gazette",
-     "url": "https://www.recordgazette.net/news/library-renovation-and-expansion-timeline/article_f92f17b6-6487-11ee-83fa-9f2727b0d4b8.html"
-    }
-   ]
-  },
-  "img_b0c11e36c32bf11b": {
-   "position": 16,
-   "title": "Carnegie library under the mansard roof",
-   "original_title": "Expansion Mansard Roof",
-   "caption": {
-    "caption": "The library under its 1977/78 tile mansard — removed in 2008.",
-    "attribution": "Beaumont Library District working files (client-supplied color snapshot; photographer unknown)",
-    "attribution_confidence": "low",
-    "caption_source": "Building history research 2026-07-20 (carnegie-libraries.org, centennial marker)",
-    "basis": "A small color snapshot of the library's front elevation wearing the shallow tile mansard added in 1977/78 to unify the 1914 Carnegie building visually with the 1960s addition and cure roof drainage — a facade removed in 2008, when the original parapet roofline was restored. The old 'Expansion Mansard Roof, 1965' is doubly wrong: the mansard came in 1977/78, and this color photo therefore dates c. 1978-2008."
-   },
-   "date": {
-    "date_start": 1978,
-    "date_end": 2008,
-    "display": "c. 1978-2008",
-    "confidence": "high",
-    "basis": "The tile mansard was added in 1977/78 (marker: 'Year 1978: A new facade for the roof is designed and erected...') and removed in 2008 when the original parapet roofline was restored — this color photo must fall inside that window. '1965' is doubly wrong."
-   },
-   "holding": null,
-   "best_master": {
-    "location": "Client holds a physical original print (client select #17 pair)",
-    "pixels": "250×131 (weakest file in the select set)",
-    "note": "The client's physical original should be scanned instead — even 4x upscaling of the 250 px file lands short of print quality."
-   },
-   "description": "A small color snapshot of the library's front elevation between its twin conifers: the 1914 Carnegie building wearing the shallow tile mansard added in 1977/78 to unify it visually with the 1960s addition and cure roof drainage — a facade removed in 2008, when the original parapet roofline was restored.",
-   "corrections": [
-    "The old 'Expansion Mansard Roof, 1965' is doubly wrong: the mansard came in 1977/78 (not with the 1960s addition), and this color photo therefore dates c. 1978-2008."
-   ],
-   "open_questions": [
-    "At 250 px this is the weakest file in the set — the client's physical original (client #17 pair) should be scanned."
-   ],
-   "evidence": [
-    {
-     "label": "'In 1977 the building was concealed under a new mansard roof intended to unite the old building with a rear addition and new entrance constructed in 1966' — carnegie-libraries.org",
-     "url": "https://www.carnegie-libraries.org/california/beaumont.html"
-    },
-    {
-     "label": "Marker: 'Year 1978: A new facade for the roof is designed and erected to solve problems with water drainage... Year 2008: 1978 roof facade is removed and the original parapet roofline is restored'",
-     "url": "https://www.hmdb.org/m.asp?m=175955"
-    },
-    {
-     "label": "Still Riverside County's last operating Carnegie",
-     "url": "https://patch.com/california/banning-beaumont/beaumont-library-measure-m-preserve-last-carnegie-library-county"
-    }
-   ]
-  },
-  "img_a5619ddcb9e94fc3": {
-   "position": 17,
-   "title": "Beaumont from the air, 1982",
-   "original_title": "Beaumont Aerial",
-   "caption": {
-    "caption": "Beaumont from the south, 1982 — a pass town of about 6,800 between the freeway and the foothills.",
-    "attribution": "Client-supplied print, scanned (photographer unknown); related BLD aerials on Calisphere (CBEA_150, CBEA_075)",
-    "attribution_confidence": "low",
-    "caption_source": "Client-supplied scan; era verified against census and highway history (2026-07-20)",
-    "basis": "Client-supplied physical print, scanned; date 1982 per client. Era corroborated: Beaumont counted 6,818 residents at the 1980 census, and the scene matches — the original townsite grid an island of trees and rooftops around the Interstate 10 corridor (the 1962 freeway bypass), with open grain land where the 2000s subdivisions would later spread. Calisphere holds related BLD aerials of the same era (not this print)."
-   },
-   "date": {
-    "date_start": 1982,
-    "date_end": 1982,
-    "display": "1982",
-    "confidence": "medium",
-    "basis": "Client-supplied date for their own scanned print; era corroborated by the 1980 census population (6,818) and the pre-boom townsite/freeway pattern in frame."
-   },
-   "holding": null,
-   "best_master": null,
-   "description": "An oblique color aerial looking north across Beaumont to the San Gorgonio foothills in 1982: the original townsite grid is still an island of trees and rooftops around the Interstate 10 corridor — the 1962 freeway bypass that pulled US 99/60/70 traffic off 6th Street — with open grain land and scattered ranchettes filling the foreground where the 2000s subdivisions would later spread. Beaumont counted 6,818 residents at the 1980 census.",
-   "corrections": [
-    "Confirmed era (client-supplied date): 1980 census population 6,818 and the pre-boom landscape are consistent with 1982."
-   ],
-   "evidence": [
-    {
-     "label": "1980 census population 6,818 (census table)",
-     "url": "https://en.wikipedia.org/wiki/Beaumont,_California"
-    },
-    {
-     "label": "I-10 history through the pass (1962 freeway bypass of Beaumont-Banning; US 99/60/70 heritage; 1957 Interstate designation)",
-     "url": "http://www.gribblenation.org/2022/04/former-us-routes-99-60-70-in-san.html"
-    },
-    {
-     "label": "Interstate 10 in California",
-     "url": "https://en.wikipedia.org/wiki/Interstate_10_in_California"
-    },
-    {
-     "label": "Related BLD aerial on Calisphere (CBEA_150, color oblique — not this print)",
-     "url": "https://calisphere.org/item/ark:/13030/c8sf2vgh/"
-    },
-    {
-     "label": "Related BLD aerial on Calisphere (CBEA_075, by Aerial Enterprises — not this print)",
-     "url": "https://calisphere.org/item/ark:/13030/c8p84b78/"
-    }
-   ]
-  },
-  "img_fb90b64a110cd45f": {
-   "position": 18,
-   "title": "Beaumont from the air, 2010",
-   "original_title": "Beaumont Aerial",
-   "caption": {
-    "caption": "Beaumont from the south, 2010 — after the boom that more than tripled the city in a decade.",
-    "attribution": "Client-supplied print/scan (photographer unknown)",
-    "attribution_confidence": "low",
-    "caption_source": "Client-supplied scan; era verified against census, subdivisions and warehouse corridor (2026-07-20)",
-    "basis": "Client-supplied print/scan; date 2010 per client, consistent with the built-out scene — red-roofed master-planned tracts (Pardee's Sundance and Tournament Hills, Del Webb/Pulte's Solera, K. Hovnanian's Four Seasons) blanket the old ranchland, and distribution warehouses (the Lowe's flatbed distribution center and the 572,000 sq ft Beaumont Logistics Center) line the freeway corridor. Between the 2000 and 2010 censuses Beaumont grew from 11,384 to 36,877 residents."
-   },
-   "date": {
-    "date_start": 2010,
-    "date_end": 2010,
-    "display": "2010",
-    "confidence": "medium",
-    "basis": "Client-supplied date for their own print/scan; consistent with the built-out scene (named 2000s master-planned tracts and freeway-corridor warehouses present; 2010 census 36,877, up from 11,384 in 2000)."
-   },
-   "holding": null,
-   "best_master": null,
-   "description": "An oblique color aerial looking north up the Beaumont Avenue/SR-79 corridor in 2010: red-roofed master-planned tracts — Pardee's Sundance and Tournament Hills, Del Webb/Pulte's Solera, K. Hovnanian's Four Seasons among them — blanket the old ranchland to the foothills, while distribution warehouses (the Lowe's flatbed distribution center and the 572,000 sq ft Beaumont Logistics Center on West Fourth Street) line the freeway corridor in mid-frame. Between the 2000 and 2010 censuses Beaumont grew from 11,384 to 36,877 residents — the fastest-growing city in Riverside County over the following decade as well.",
-   "corrections": [
-    "Confirmed era (client-supplied date): the built-out scene, named subdivisions and warehouse corridor are consistent with 2010."
-   ],
-   "evidence": [
-    {
-     "label": "2000 census 11,384 -> 2010 census 36,877 (+223.9%); master-planned communities named",
-     "url": "https://en.wikipedia.org/wiki/Beaumont,_California"
-    },
-    {
-     "label": "Fastest-growing city in Riverside County 2010-2020",
-     "url": "https://patch.com/california/banning-beaumont/beaumont-fastest-growing-city-riverside-county-census-data"
-    },
-    {
-     "label": "SR-60's eastern terminus merges into I-10 at Beaumont",
-     "url": "https://en.wikipedia.org/wiki/California_State_Route_60"
-    },
-    {
-     "label": "SR-79 ends at I-10/Beaumont Ave",
-     "url": "https://en.wikipedia.org/wiki/California_State_Route_79"
-    },
-    {
-     "label": "Warehouse corridor — Lowe's FDC, 862/864 W. Fourth St",
-     "url": "https://www.spscommerce.com/community/articles/lowes-distribution-center-list"
-    },
-    {
-     "label": "Beaumont Logistics Center, 920 Fourth St, 572,143 sq ft",
-     "url": "https://rebusinessonline.com/rudolph-foods-co-buys-beaumont-logistics-center-for-6-3m/"
-    }
-   ]
   }
- }
 }

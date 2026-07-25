@@ -1,0 +1,42 @@
+{
+  "image": "C:/GitHub/san-gorgonio-historical-photo-catalog/data/aerials/axm-1938a_53-89.jpg",
+  "title": "Cherry Valley orchards from the air, 16 June 1938 — USDA aerial survey frame AXM-53-89",
+  "original_title": "AXM-53-89",
+  "date": {
+    "start": 1938,
+    "end": 1938,
+    "display": "16 June 1938",
+    "confidence": "high",
+    "basis": "Exposure date \u201c6-16-38\u201d is written on the frame itself, in the emulsion margin at upper left, alongside the frame number \u201cAXM-53-89\u201d. UCSB's index records 24 May 1938 as the BEGIN date of flight AXM_1938A as a whole; individual frames were exposed over following weeks, so the frame stamp is the authority for this image. Mid-June also places the frame at the end of the cherry harvest."
+  },
+  "caption": "Cherry Valley from directly overhead on 16 June 1938, in a U.S. Department of Agriculture aerial survey flown at 1:20,000. The valley floor is almost solid orchard \u2014 block after block of trees in tight rows, the planting that gave the place its name \u2014 threaded by the pale braided washes of Little San Gorgonio Creek and its tributaries running down from the north-east. Ranch headquarters sit in the middle of their own blocks, and the chaparral wall of the San Bernardino Mountain front closes the frame at upper right.",
+  "description": "One 9\u00d79-inch frame from flight AXM_1938A, a 1938 U.S. Department of Agriculture (Agricultural Adjustment Administration) aerial survey of Riverside County flown at a nominal scale of 1:20,000, so that each frame covers roughly 2.8 miles square. The frame centre is 33.9775 N, 116.9770 W, placing Cherry Valley squarely in the middle of the image. It records the community at its agricultural height: the orchard grid at its fullest extent before post-war subdivision, the section-line road network, isolated ranch complexes, the braided wash system draining the mountain front, and the abrupt boundary between irrigated valley floor and unimproved chaparral slope. Scanned at 5502\u00d74328 px by the UCSB Library Geospatial Collection and released as a free download. Located 2026-07-24 while searching pre-war aerial coverage of the San Gorgonio Pass.",
+  "attribution": "U.S. Department of Agriculture, Agricultural Adjustment Administration \u2014 aerial survey flight AXM_1938A, frame 53-89. Scan courtesy UCSB Library Geospatial Collection.",
+  "attribution_confidence": "confirmed",
+  "caption_source": "Frame margin annotations (date \u201c6-16-38\u201d and frame number \u201cAXM-53-89\u201d), plus UCSB Library FrameFinder flight metadata (FlightID AXM_1938A, Scale 20000, centre 33.9775/-116.9770).",
+  "rights_status": "Public domain",
+  "rights_note": "A 1938 U.S. Department of Agriculture (Agricultural Adjustment Administration) survey frame \u2014 a U.S. federal government work, public domain under 17 U.S.C. \u00a7 105 (catalog rights rule 3). UCSB Library scanned and distributes it free of charge and is credited as a courtesy, not as a rights holder; UCSB publishes no rights statement of its own for these scans. Caveat: 1930s AAA survey flights were commonly flown by contractors under federal contract, so public-domain status rests on the negatives having passed to the government as well as on \u00a7 105; no copyright notice or registration is known and the frames are distributed without restriction.",
+  "locations": ["Cherry Valley"],
+  "people": [],
+  "subjects": ["cherry valley", "aerial photograph", "1938", "usda", "orchards", "agriculture", "little san gorgonio creek"],
+  "search_terms": ["1938", "aerial", "aerial photograph", "aerial survey", "axm", "cherry valley", "creek", "little san gorgonio", "orchards", "overhead", "ranch", "usda", "wash"],
+  "evidence": [
+    {"label": "UCSB Library FrameFinder \u2014 aerial photograph index (flight AXM_1938A, frame 53-89; scale 1:20,000; centre 33.9775, -116.9770)", "url": "https://mil.library.ucsb.edu/ap_indexes/FrameFinder/"},
+    {"label": "Full-resolution scan \u2014 UCSB Library Geospatial Collection (TIFF, 5502\u00d74328)", "url": "https://mil.library.ucsb.edu/ap_images/axm-1938a/axm-1938a_53-89.tif"},
+    {"label": "UCSB Library \u2014 about the aerial photography collection", "url": "https://www.library.ucsb.edu/geospatial/aerial-photography"}
+  ],
+  "holding": {
+    "institution": "UCSB Library, Geospatial Collection (Map & Imagery Laboratory)",
+    "item_id": "AXM_1938A frame 53-89",
+    "url": "https://mil.library.ucsb.edu/ap_images/axm-1938a/axm-1938a_53-89.tif"
+  },
+  "open_questions": [
+    "Confirm the public-domain determination with UCSB's Geospatial Collection: their website states the scans are free to download but publishes no explicit rights statement, and 1930s AAA flights were typically contractor-flown for the federal government."
+  ],
+  "provenance": "Downloaded from the UCSB Library Geospatial Collection via FrameFinder, 2026-07-24. Repo master is a full-resolution JPEG (quality 88) derived from the source TIFF, kept at data/aerials/axm-1938a_53-89.jpg; the TIFF is not committed.",
+  "researched": "2026-07-24",
+  "curated": false,
+  "selected_default": false,
+  "source_key": "ucsb-aerial",
+  "source_priority": 90
+}
