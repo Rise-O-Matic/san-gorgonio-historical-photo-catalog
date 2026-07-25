@@ -582,10 +582,15 @@ def apply_editorial_captions(records: list[dict[str, Any]], captions_path: Path)
         if entry.get("caption_source"):
             record["caption_source"] = entry["caption_source"]
         if entry.get("basis"):
-            record.setdefault("facts", []).append({
+            fact = {
                 "field": "caption_basis", "value": entry["basis"],
                 "source": "editorial_research", "confidence": "provided",
-            })
+            }
+            # Idempotent: this overlay is re-run on every apply_*.py pass, so an
+            # unconditional append accumulates a duplicate caption_basis fact per run.
+            facts = record.setdefault("facts", [])
+            if fact not in facts:
+                facts.append(fact)
         applied += 1
     return applied
 
