@@ -13,6 +13,7 @@ const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 const esc = value => String(value ?? '').replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[c]));
 
 let catalog = null, records = [], byId = new Map(), chrono = [];
+let milestoneData = null, milestoneById = new Map();
 let working = [], approved = [], approvedAt = null;
 let trayRecords = [];
 const loadedImgs = new Set();
@@ -22,11 +23,17 @@ boot();
 
 async function boot() {
   try {
-    const res = await fetch('data/catalog.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error(`Catalog request failed (${res.status})`);
-    catalog = await res.json();
+    const [catalogRes, milestoneRes] = await Promise.all([
+      fetch('data/catalog.json', { cache: 'no-store' }),
+      fetch('data/timeline-milestones.json', { cache: 'no-store' }),
+    ]);
+    if (!catalogRes.ok) throw new Error(`Catalog request failed (${catalogRes.status})`);
+    if (!milestoneRes.ok) throw new Error(`Milestone request failed (${milestoneRes.status})`);
+    catalog = await catalogRes.json();
+    milestoneData = await milestoneRes.json();
     records = catalog.records;
     byId = new Map(records.map(r => [r.id, r]));
+    milestoneById = new Map((milestoneData.milestones || []).map(m => [m.record_id, m]));
     chrono = records.slice().sort(chronoCompare);
     loadState();
     bindEvents();
@@ -75,6 +82,7 @@ const startYear = r => r.date?.start ?? null;
 const yearLabel = r => startYear(r) ? String(startYear(r)) : 'Undated';
 const displayDate = r => r.date?.display || yearLabel(r);
 const shortDate = r => (r.date?.display && r.date.display.length <= 15) ? r.date.display : yearLabel(r);
+const milestoneFor = r => milestoneById.get(r.id) || null;
 
 /* Previews/thumbs are regenerated under a stable file id, so an image swap or
    upgrade reuses the same URL and browsers serve the stale bytes. Keying a
@@ -289,9 +297,14 @@ function renderTray() {
 }
 
 function muralCard(r, i) {
+  const milestone = milestoneFor(r);
   return `<article class="m-card" draggable="true" data-id="${r.id}">
     <span class="m-pos">${String(i + 1).padStart(2, '0')}</span>
     <button class="m-remove" type="button" data-remove title="Remove from timeline">×</button>
+    ${milestone ? `<header class="m-milestone">
+      <p class="m-milestone-date">${esc(milestone.date)}</p>
+      <p class="m-milestone-title">${esc(milestone.headline)}</p>
+    </header>` : ''}
     <div class="m-matte"><img src="${BLANK}" data-src="${thumbSrc(r)}" alt="${esc(r.title)}" draggable="false"></div>
     <div class="m-plate">
       <div class="m-plate-head">
@@ -582,9 +595,19 @@ function citationsBlock(record) {
   return `<details class="qv-sources"><summary>Sources &amp; citations (${sources.length})</summary><ul>${items}</ul></details>`;
 }
 
+function milestoneSourcesBlock(milestone) {
+  const sources = milestone?.sources || [];
+  if (!sources.length) return '';
+  const items = sources.map(source => `<li>${source.url
+    ? `<a href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.label || source.url)}</a>`
+    : esc(source.label || '')}</li>`).join('');
+  return `<details class="qv-sources"><summary>Milestone sources (${sources.length})</summary><ul>${items}</ul></details>`;
+}
+
 function quickView(record) {
   const placed = working.includes(record.id);
   const research = record.research;
+  const milestone = milestoneFor(record);
   $('#quickViewBody').innerHTML = `<div class="qv-grid">
     <div class="qv-photo">
       <img src="${previewSrc(record)}" alt="${esc(record.title)}" draggable="false">
@@ -592,6 +615,12 @@ function quickView(record) {
       <button class="qv-zoom-reset" type="button" hidden></button>
     </div>
     <div class="qv-copy">
+      ${milestone ? `<section class="qv-milestone" aria-label="Historical milestone">
+        <p class="qv-milestone-date">${esc(milestone.date)} · Historical milestone</p>
+        <h3 class="qv-milestone-title">${esc(milestone.headline)}</h3>
+        <p>${esc(milestone.context)}</p>
+        ${milestoneSourcesBlock(milestone)}
+      </section>` : ''}
       <p class="qv-year">${esc(record.reference_number)} · ${esc(displayDate(record))}</p>
       <h3 class="qv-title">${esc(record.title)}</h3>
       <p class="qv-cap">${esc(record.caption)}</p>
@@ -817,6 +846,7 @@ function coverXml(recs, stamp) {
 }
 
 function entryXml(r, i, img) {
+  const milestone = milestoneFor(r);
   const border = i === 0 ? '' : '<w:pBdr><w:top w:val="single" w:sz="6" w:space="10" w:color="D8CCAE"/></w:pBdr>';
   const out = [
     pgraph(
@@ -825,6 +855,11 @@ function entryXml(r, i, img) {
       rn(displayDate(r), rp({ font: 'Libre Franklin', b: true, caps: true, sz: 18, color: '8C5A1C', spc: 30 })),
       pp({ keepNext: true, border, before: i === 0 ? 0 : 240, after: 100 })
     ),
+    ...(milestone ? [
+      pgraph(rn(`${milestone.date} · HISTORICAL MILESTONE`, rp({ font: 'Libre Franklin', b: true, caps: true, sz: 16, color: '8C5A1C', spc: 28 })), pp({ keepNext: true, after: 30 })),
+      pgraph(rn(milestone.headline, rp({ font: 'Georgia', b: true, sz: 28, color: '15424A' })), pp({ keepNext: true, after: 40 })),
+      pgraph(rn(milestone.context, rp({ font: 'Georgia', sz: 19, color: '55504A' })), pp({ keepNext: true, after: 100 })),
+    ] : []),
     img
       ? pgraph(pictureXml(img, r), pp({ keepNext: true, after: 100 }))
       : pgraph(rn('[This image could not be embedded]', rp({ font: 'Georgia', i: true, sz: 20, color: 'A33333' })), pp({ after: 100 })),
@@ -838,6 +873,13 @@ function entryXml(r, i, img) {
     out.push(pgraph(rn('Sources & citations', rp({ font: 'Libre Franklin', b: true, caps: true, sz: 15, color: '8C5A1C', spc: 20 })), pp({ before: 40, after: 20 })));
     sources.forEach(e => {
       const line = e.label ? (e.url ? `${e.label} — ${e.url}` : e.label) : (e.url || '');
+      out.push(pgraph(rn(`•  ${line}`, rp({ font: 'Georgia', sz: 16, color: '7A736A' })), pp({ after: 10 })));
+    });
+  }
+  if (milestone?.sources?.length) {
+    out.push(pgraph(rn('Milestone sources', rp({ font: 'Libre Franklin', b: true, caps: true, sz: 15, color: '15424A', spc: 20 })), pp({ before: 40, after: 20 })));
+    milestone.sources.forEach(source => {
+      const line = source.label ? (source.url ? `${source.label} — ${source.url}` : source.label) : (source.url || '');
       out.push(pgraph(rn(`•  ${line}`, rp({ font: 'Georgia', sz: 16, color: '7A736A' })), pp({ after: 10 })));
     });
   }
@@ -858,12 +900,12 @@ function manifestJson(recs, thumbPaths, stamp) {
   const years = recs.map(startYear).filter(Boolean);
   return JSON.stringify({
     kind: 'beaumont-timeline',
-    version: 2,
+    version: 3,
     exportedAt: stamp.toISOString(),
     localStorageKey: KEY,
     count: recs.length,
     span: years.length ? [Math.min(...years), Math.max(...years)] : null,
-    note: 'order[].id, in position order, is the timeline. Rebuild by setting the working array to these ids.',
+    note: 'order[].id, in position order, is the timeline. Each milestone is bound to its photograph by record ID.',
     order: recs.map((r, i) => ({
       position: i + 1,
       reference_number: r.reference_number,
@@ -871,6 +913,12 @@ function manifestJson(recs, thumbPaths, stamp) {
       title: r.title,
       date: displayDate(r),
       date_start: startYear(r),
+      milestone: milestoneFor(r) ? {
+        date: milestoneFor(r).date,
+        headline: milestoneFor(r).headline,
+        context: milestoneFor(r).context,
+        sources: milestoneFor(r).sources || [],
+      } : null,
       caption: r.caption || '',
       attribution: r.attribution || '',
       rights: r.rights_status || '',
