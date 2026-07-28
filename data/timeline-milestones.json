@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "updated": "2026-07-28",
+  "policy": "The published 20-photo lineup is fixed. Each milestone follows its photograph by record ID; pairing fidelity takes precedence over forcing the photographs into strict date order, so neighboring milestone dates may overlap.",
+  "milestones": [
+    {
+      "position": 1,
+      "record_id": "img_17d9fad337a3fded",
+      "reference_number": "BLD-0011",
+      "date": "Since time immemorial",
+      "headline": "Native peoples make the San Gorgonio Pass their homeland",
+      "context": "The Morongo council house opens the story with the Native communities whose cultural life in the Pass long predates the city of Beaumont.",
+      "sources": [
+        { "label": "City of Beaumont, Existing Conditions Report", "url": "https://www.beaumontca.gov/DocumentCenter/View/36624/City-of-Beaumont-Existing-Conditions-Final" },
+        { "label": "Morongo Band of Mission Indians — About Us", "url": "https://morongonation.org/about-us/" }
+      ]
+    },
+    {
+      "position": 2,
+      "record_id": "img_c39e3df610ea24d9",
+      "reference_number": "BLD-0090",
+      "date": "1845",
+      "headline": "Pauline Weaver and his partners petition for Rancho San Gorgonio",
+      "context": "Weaver, Isaac Williams and Wallace Woodruff petitioned for the former mission rancho, took possession without a completed grant, and ran cattle in the Pass.",
+      "sources": [
+        { "label": "City of Banning General Plan — Cultural Resources", "url": "https://www.ci.banning.ca.us/DocumentCenter/View/664/GP-Ch-IV-Environmental-Resources?bidId=" },
+        { "label": "Library of Congress — Michael C. White narrative", "url": "https://tile.loc.gov/storage-services/service/gdc/calbk/080.pdf" }
+      ]
+    },
+    {
+      "position": 3,
+      "record_id": "img_650198dd9e4987ea",
+      "reference_number": "BLD-0037",
+      "date": "1884–1887",
+      "headline": "The railroad town of San Gorgonio becomes Beaumont",
+      "context": "The townsite was established beside the railroad in 1884, renamed Beaumont in 1886, and officially surveyed and filed in 1887; the 1907 street view shows the commercial town that followed.",
+      "sources": [
+        { "label": "City of Beaumont General Plan — historic setting", "url": "https://beaumontca.gov/DocumentCenter/View/63/General-Plan" },
+        { "label": "Calisphere — Egan Avenue, 1907", "url": "https://calisphere.org/item/ark:/13030/c8tb167d/" }
+      ]
+    },
+    {
+      "position": 4,
+      "record_id": "img_6f833a14a7764e47",
+      "reference_number": "BLD-0031",
+      "date": "1887",
+      "headline": "A larger Southern Pacific depot anchors the growing town",
+      "context": "The depot linked Beaumont to regional markets and travel while concentrating hotels, stores, warehouses and civic life near the tracks.",
+      "sources": [
+        { "label": "Calisphere — Southern Pacific depot, Beaumont", "url": "https://calisphere.org/item/ark:/13030/c85x2881/" }
+      ]
+    },
+    {
+      "position": 5,
+      "record_id": "img_07a9db15e22db499",
+      "reference_number": "BLD-0033",
+      "date": "Early 1900s",
+      "headline": "Beaumont’s rail yard keeps Southern Pacific traffic moving",
+      "context": "Shop crews, locomotives, fuel tanks and yard facilities made Beaumont a working railroad service point, not merely a passenger stop.",
+      "sources": [
+        { "label": "Calisphere — Southern Pacific engines at Beaumont", "url": "https://calisphere.org/item/ark:/13030/c8g1605q/" }
+      ]
+    },
+    {
+      "position": 6,
+      "record_id": "img_4e8d4526096e0dd7",
+      "reference_number": "BLD-0012",
+      "date": "1890s",
+      "headline": "Fifth and Egan become Beaumont’s commercial crossroads",
+      "context": "The post office, San Gorgonio Mercantile Company and pool hall clustered at the intersection that became the young town’s business center.",
+      "sources": [
+        { "label": "Calisphere — Fifth Street and Egan Avenue", "url": "https://calisphere.org/item/ark:/13030/c8h70f56/" },
+        { "label": "Beaumont Library District — Local History", "url": "https://www.mybld.org/local-history" }
+      ]
+    },
+    {
+      "position": 7,
+      "record_id": "img_c15c20a838d86c18",
+      "reference_number": "BLD-0002",
+      "date": "1880s–1900s",
+      "headline": "Grain ranching drives Beaumont’s first agricultural economy",
+      "context": "Reznor Perry Stewart’s large grain-and-hay operation represents the dry-farming economy that preceded Beaumont’s orchard boom.",
+      "sources": [
+        { "label": "City of Beaumont, Existing Conditions Report", "url": "https://www.beaumontca.gov/DocumentCenter/View/36624/City-of-Beaumont-Existing-Conditions-Final" },
+        { "label": "Calisphere — Stewart Ranch grain harvest", "url": "https://calisphere.org/item/ark:/13030/c87p8xrn/" }
+      ]
+    },
+    {
+      "position": 8,
+      "record_id": "img_45720d2a6586237d",
+      "reference_number": "BLD-0021",
+      "date": "1876",
+      "headline": "The Morongo Reservation is established in the Pass",
+      "context": "A presidential executive order created the reservation; the traditional kish records the continuity of Cahuilla daily life there around 1900.",
+      "sources": [
+        { "label": "Morongo Band of Mission Indians — About Us", "url": "https://morongonation.org/about-us/" },
+        { "label": "Calisphere — traditional house on Morongo Reservation", "url": "https://calisphere.org/item/ark:/13030/c8fb5109/" }
+      ]
+    },
+    {
+      "position": 9,
+      "record_id": "img_72d13585ff607c22",
+      "reference_number": "BLD-0004",
+      "date": "Late 1800s",
+      "headline": "Captain John Morongo leads and advocates for his community",
+      "context": "The Serrano leader served his community, pressed for schooling, and became the figure most closely associated with the reservation’s enduring name.",
+      "sources": [
+        { "label": "Morongo Band of Mission Indians — About Us", "url": "https://morongonation.org/about-us/" },
+        { "label": "Calisphere — Captain John Morongo", "url": "https://calisphere.org/item/ark:/13030/c8d798dr/" }
+      ]
+    },
+    {
+      "position": 10,
+      "record_id": "img_b08de96dbf496fab",
+      "reference_number": "BLD-0016",
+      "date": "1887",
+      "headline": "Hotel Beaumont opens as the boom town’s showpiece",
+      "context": "The Queen Anne resort embodied the Southern California Investment Company’s campaign to attract land buyers and visitors to its newly renamed town.",
+      "sources": [
+        { "label": "Calisphere — Hotel Beaumont", "url": "https://calisphere.org/item/ark:/13030/c81v5d9b/" },
+        { "label": "City of Beaumont General Plan — historic setting", "url": "https://beaumontca.gov/DocumentCenter/View/63/General-Plan" }
+      ]
+    },
+    {
+      "position": 11,
+      "record_id": "img_96cb1ed10cb5a0fd",
+      "reference_number": "BLD-0085",
+      "date": "1908",
+      "headline": "The Woman’s Club organizes—and starts a public library movement",
+      "context": "The club assembled a subscription collection in 1909 and then led the campaign for a tax-supported library district before women could vote statewide.",
+      "sources": [
+        { "label": "Beaumont Library District — About the Library", "url": "https://www.mybld.org/about-the-library" },
+        { "label": "Calisphere — Beaumont Woman’s Club", "url": "https://calisphere.org/item/ark:/13030/c80k27x4/" }
+      ]
+    },
+    {
+      "position": 12,
+      "record_id": "img_2ba02d1a7deddfd1",
+      "reference_number": "BLD-0067",
+      "date": "1911",
+      "headline": "Voters establish the Beaumont Library District",
+      "context": "Created by public vote in August, the district opened that October in two rented ground-floor rooms of the Beaumont Bank building.",
+      "sources": [
+        { "label": "Beaumont Library District — 2024 financial statements, Note 1", "url": "https://www.mybld.org/files/8a5e039e6/BLD%2B2024%2BFS%2BFINAL.pdf" },
+        { "label": "Calisphere — Beaumont Bank building", "url": "https://calisphere.org/item/ark:/13030/c8dn44db/" }
+      ]
+    },
+    {
+      "position": 13,
+      "record_id": "img_96cdf4349eff3950",
+      "reference_number": "BLD-0073",
+      "date": "1912",
+      "headline": "Beaumont incorporates as a city",
+      "context": "On November 18, 1912, the railroad-and-orchard town became an incorporated California city with its own municipal government.",
+      "sources": [
+        { "label": "City of Beaumont — Your Government", "url": "https://www.beaumontca.gov/27/Government" }
+      ]
+    },
+    {
+      "position": 14,
+      "record_id": "img_19838f7b9bf2e3f2",
+      "reference_number": "BLD-0276",
+      "date": "1914",
+      "headline": "Beaumont’s Carnegie library opens",
+      "context": "The $10,000 Carnegie-funded building opened in June as the library district’s first permanent home and remains in library use.",
+      "sources": [
+        { "label": "Beaumont Library District — About the Library", "url": "https://www.mybld.org/about-the-library" },
+        { "label": "Calisphere — Beaumont Carnegie Library image", "url": "https://calisphere.org/clip/2000x2000/1828/7409d8c3b2d6a498d1eab3466b840310" }
+      ]
+    },
+    {
+      "position": 15,
+      "record_id": "img_a3f413e8c9ed23bb",
+      "reference_number": "BLD-0086",
+      "date": "1907–1910s",
+      "headline": "Irrigation spreads fruit orchards across Beaumont",
+      "context": "New water infrastructure helped replace dry grain land with fruit trees, doubled the population by 1910, and reshaped Beaumont’s economy and identity.",
+      "sources": [
+        { "label": "City of Beaumont, Existing Conditions Report", "url": "https://www.beaumontca.gov/DocumentCenter/View/36624/City-of-Beaumont-Existing-Conditions-Final" },
+        { "label": "Calisphere — H. L. Priest and fruit tree", "url": "https://calisphere.org/item/ark:/13030/c83f4nzv/" }
+      ]
+    },
+    {
+      "position": 16,
+      "record_id": "img_a4ddc941e94d3eed",
+      "reference_number": "BLD-0055",
+      "date": "1909",
+      "headline": "Beaumont is promoted as an orchard paradise",
+      "context": "The Beaumont Land and Water Company used flowering ranch views like Mellen’s to market irrigated land and make orchards central to the town’s public image.",
+      "sources": [
+        { "label": "Calisphere — Mellen Ranch orchard", "url": "https://calisphere.org/item/ark:/13030/c8kh0mpc/" },
+        { "label": "City of Beaumont, Existing Conditions Report", "url": "https://www.beaumontca.gov/DocumentCenter/View/36624/City-of-Beaumont-Existing-Conditions-Final" }
+      ]
+    },
+    {
+      "position": 17,
+      "record_id": "img_b0c11e36c32bf11b",
+      "reference_number": "BLD-0187",
+      "date": "1965–1981",
+      "headline": "The Carnegie library expands with its growing district",
+      "context": "A rear addition more than doubled the building in 1965, a mansard unified the old and new sections in 1977–78, and a community room followed in 1981.",
+      "sources": [
+        { "label": "Beaumont Library District — About the Library", "url": "https://www.mybld.org/about-the-library" },
+        { "label": "Carnegie Libraries of California — Beaumont", "url": "https://www.carnegie-libraries.org/california/beaumont.html" }
+      ]
+    },
+    {
+      "position": 18,
+      "record_id": "img_a5619ddcb9e94fc3",
+      "reference_number": "BLD-0192",
+      "date": "1982",
+      "headline": "Beaumont remains a compact freeway-era town",
+      "context": "Twenty years after the Interstate 10 bypass redirected through traffic, the city still held 6,818 residents within a small grid surrounded by open fields and foothills.",
+      "sources": [
+        { "label": "City of Beaumont — Housing Element population trends", "url": "https://www.beaumontca.gov/DocumentCenter/View/68/Housing-Element?bidId=" },
+        { "label": "California Highways — Route 10 history", "url": "https://cahighways.org/ROUTE010.html" }
+      ]
+    },
+    {
+      "position": 19,
+      "record_id": "img_fb90b64a110cd45f",
+      "reference_number": "BLD-0204",
+      "date": "2000–2010",
+      "headline": "Beaumont more than triples in population",
+      "context": "Master-planned neighborhoods and freeway-oriented development accompanied growth from 11,384 residents in 2000 to 36,877 in 2010—a 223.9 percent increase.",
+      "sources": [
+        { "label": "U.S. Census Bureau — Population Distribution and Change, 2000 to 2010", "url": "https://www2.census.gov/library/publications/cen2010/briefs/c2010br-01.pdf" },
+        { "label": "U.S. Census Bureau — Beaumont QuickFacts", "url": "https://www.census.gov/quickfacts/fact/table/beaumontcitycalifornia/POP060210" }
+      ]
+    },
+    {
+      "position": 20,
+      "record_id": "img_e60d929f9f608b1c",
+      "reference_number": "BLD-0277",
+      "date": "2011",
+      "headline": "The Beaumont Library District marks a century of service",
+      "context": "The district celebrated its centennial on August 12, 2011; the restored Carnegie building remained the visible center of a library founded before the city itself.",
+      "sources": [
+        { "label": "Beaumont Library District — About the Library", "url": "https://www.mybld.org/about-the-library" },
+        { "label": "Beaumont Library District historical marker chronology", "url": "https://www.hmdb.org/m.asp?m=175955" }
+      ]
+    }
+  ]
+}

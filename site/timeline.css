@@ -238,7 +238,7 @@ body {
   flex: none;
   width: 496px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto minmax(0, 1fr) minmax(0, 1fr);
   background: linear-gradient(175deg, var(--teal-soft) 0%, var(--teal) 55%);
   border: 1px solid var(--teal-line);
   border-radius: 4px;
@@ -249,6 +249,28 @@ body {
 }
 .m-card:hover { transform: translateY(-3px); box-shadow: 0 24px 48px rgba(2, 10, 12, 0.65); }
 .m-card.dragging { opacity: 0.35; cursor: grabbing; }
+
+.m-milestone {
+  min-height: 66px;
+  padding: 10px 42px 9px 48px;
+  color: var(--ink-deep);
+  background: linear-gradient(120deg, #f5efdf, #e7d8b9);
+  border-bottom: 3px solid var(--brass);
+}
+
+.m-milestone-date {
+  margin: 0 0 2px;
+  font-size: 9.5px; font-weight: 800; letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8c5a1c;
+}
+
+.m-milestone-title {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 16px; line-height: 1.15;
+  color: #15383f;
+}
 
 .m-pos {
   position: absolute; top: 8px; left: 8px; z-index: 2;
@@ -735,6 +757,35 @@ body {
 .qv-zoom-reset:hover { background: var(--sienna); }
 
 .qv-copy { padding: 26px 28px 24px; max-height: 74vh; overflow-y: auto; }
+
+.qv-milestone {
+  margin: 0 0 18px;
+  padding: 14px 16px;
+  color: #243337;
+  background: linear-gradient(120deg, #f6efdf, #e9dabb);
+  border-left: 4px solid var(--brass);
+  border-radius: 2px;
+}
+
+.qv-milestone-date {
+  margin: 0 0 4px;
+  font-size: 10px; font-weight: 800; letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8c5a1c;
+}
+
+.qv-milestone-title {
+  margin: 0 0 7px;
+  font-family: var(--serif);
+  font-size: 21px; font-weight: 400; line-height: 1.15;
+  color: #15383f;
+}
+
+.qv-milestone > p:last-of-type { margin: 0; line-height: 1.55; }
+.qv-milestone .qv-sources { margin: 10px 0 0; }
+.qv-milestone .qv-sources summary,
+.qv-milestone .qv-sources li { color: #5d5548; }
+.qv-milestone .qv-sources a { color: #76501f; }
 
 .qv-year {
   margin: 0 0 4px;
