@@ -267,7 +267,7 @@
    "research_status": "Researched",
    "researched": "2026-07-20",
    "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
-   "select_position": 5
+   "select_position": 6
   },
   "img_07a9db15e22db499": {
    "title": "SP shop crew with locomotive No. 2789, Beaumont yard",
@@ -309,7 +309,7 @@
    "research_status": "Researched",
    "researched": "2026-07-20",
    "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
-   "select_position": 6
+   "select_position": 5
   },
   "img_c15c20a838d86c18": {
    "title": "Stewart Ranch grain harvest",
@@ -704,7 +704,7 @@
    "research_status": "Researched",
    "researched": "2026-07-24",
    "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
-   "select_position": 13
+   "select_position": 15
   },
   "img_a4ddc941e94d3eed": {
    "title": "Mellen Ranch orchard in bloom, 1909",
@@ -747,7 +747,7 @@
    "research_status": "Researched",
    "researched": "2026-07-20",
    "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
-   "select_position": 14
+   "select_position": 16
   },
   "img_cfb583d7492fe063": {
    "title": "Beaumont District Library with rear addition",
@@ -793,8 +793,7 @@
    ],
    "research_status": "Researched",
    "researched": "2026-07-20",
-   "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
-   "select_position": 15
+   "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
   },
   "img_b0c11e36c32bf11b": {
    "title": "Carnegie library under the mansard roof",
@@ -831,7 +830,7 @@
    "research_status": "Researched",
    "researched": "2026-07-20",
    "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
-   "select_position": 16
+   "select_position": 17
   },
   "img_a5619ddcb9e94fc3": {
    "title": "Beaumont from the air, 1982",
@@ -870,7 +869,7 @@
    "research_status": "Researched",
    "researched": "2026-07-20",
    "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
-   "select_position": 17
+   "select_position": 18
   },
   "img_fb90b64a110cd45f": {
    "title": "Beaumont from the air, 2010",
@@ -913,7 +912,7 @@
    "research_status": "Researched",
    "researched": "2026-07-20",
    "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md",
-   "select_position": 18
+   "select_position": 19
   },
   "img_6205c940ef544e0b": {
    "title": "Francis Marion Dowling Sr. and Iola (Stower) Dowling, color studio portrait",
@@ -8846,7 +8845,8 @@
    ],
    "research_status": "Researched",
    "researched": "2026-07-21",
-   "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
+   "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21",
+   "select_position": 13
   },
   "img_2880f54eaa19145f": {
    "title": "Beaumont Grammar School",

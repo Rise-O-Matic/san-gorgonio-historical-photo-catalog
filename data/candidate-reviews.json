@@ -346,7 +346,7 @@
     },
     {
       "id": "candidate_cali_beaumont_carnegie_library",
-      "record_id": "",
+      "record_id": "img_19838f7b9bf2e3f2",
       "institution": "Beaumont Library District via Calisphere",
       "source_page": "https://calisphere.org/clip/2000x2000/1828/7409d8c3b2d6a498d1eab3466b840310",
       "asset_url": "https://calisphere.org/clip/2000x2000/1828/7409d8c3b2d6a498d1eab3466b840310",
@@ -359,12 +359,12 @@
       "rights_status": "Permission Required",
       "rights_statement": "The Beaumont Library District Local History Collection finding aid states that images are available online and directs users to contact the Beaumont Library District for permission to publish or reproduce.",
       "validation_notes": "The user supplied this same Calisphere clip URL as both the image and its context. Visual inspection shows the original Carnegie library facade; Calisphere collection 1828 is the Beaumont Library District collection, and official district history identifies the Carnegie-funded building at 125 East 8th Street as opened in 1914. The photograph's own date, item title, local identifier, creator, and item-page permalink remain unverified, so no date is assigned. A perceptual-hash comparison found no close match among the current catalog previews.",
-      "review_status": "pending",
+      "review_status": "promoted-to-catalog",
       "reference_number": "BLD-C020"
     },
     {
       "id": "candidate_pressenterprise_beaumont_library_centennial_2010",
-      "record_id": "",
+      "record_id": "img_e60d929f9f608b1c",
       "institution": "The Press-Enterprise",
       "source_page": "https://www.pressenterprise.com/2010/08/27/beaumont-library-district-prepares-for-100th-anniversary/",
       "asset_url": "",
@@ -378,7 +378,7 @@
       "rights_status": "Copyrighted",
       "rights_statement": "No reuse license or image credit was supplied. Treat the 2010 newspaper image as copyrighted and obtain permission from the Press-Enterprise or the credited photographer before publication or reproduction.",
       "validation_notes": "The user supplied the image and full article text. The article reports that the district was approved by a 59-27 vote on August 12, 1911; first operated from two rooms in a local bank; received a $10,000 Andrew Carnegie grant; and opened this 3,800-square-foot Classical Revival building on Eighth Street in 1914, with an expansion in 1965. The photograph is a later view of the same facade represented by candidate_cali_beaumont_carnegie_library, not the same photograph. The article page was blocked to automated retrieval on 2026-07-28, and the supplied image contains no embedded credit, so the photographer and exact capture date remain unverified. An unrelated UPS earnings sentence embedded in the pasted article text was excluded from the historical context.",
-      "review_status": "pending",
+      "review_status": "promoted-to-catalog",
       "reference_number": "BLD-C021"
     }
   ]

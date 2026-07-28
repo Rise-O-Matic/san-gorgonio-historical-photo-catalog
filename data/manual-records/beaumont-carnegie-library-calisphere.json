@@ -1,0 +1,39 @@
+{
+  "image": "C:/GitHub/san-gorgonio-historical-photo-catalog/data/research-assets/sources/calisphere/beaumont-carnegie-library.jpg",
+  "title": "Beaumont Carnegie Library — historic exterior view (date unknown)",
+  "original_title": "Beaumont Carnegie Library",
+  "caption": "Historic exterior view of the Beaumont Library District's Carnegie library building at 125 East 8th Street, Beaumont. The photograph's capture date is not identified in the available Calisphere image record.",
+  "description": "An undated historical exterior photograph of Beaumont's Carnegie library building. The image is distinct from the modern view published with the Press-Enterprise's 2010 centennial article. The building opened in 1914, but that construction date does not establish when this photograph was taken.",
+  "attribution": "Beaumont Library District Local History Collection via Calisphere; photographer unknown",
+  "attribution_confidence": "medium",
+  "caption_source": "Visual inspection of the Calisphere image and Beaumont Library District collection context supplied by the user.",
+  "rights_status": "Permission required",
+  "rights_note": "The Beaumont Library District Local History Collection finding aid directs users to contact the district for permission to publish or reproduce collection images. Obtain item-level permission before external reuse.",
+  "locations": ["Beaumont", "125 East 8th Street", "Beaumont Carnegie Library"],
+  "people": [],
+  "subjects": ["Carnegie library", "public library", "library architecture", "historic building", "Beaumont Library District"],
+  "search_terms": ["beaumont carnegie library", "beaumont library district", "calisphere", "carnegie", "east 8th street", "historic library", "public library"],
+  "evidence": [
+    {
+      "label": "Calisphere image supplied by the user from the Beaumont Library District collection.",
+      "url": "https://calisphere.org/clip/2000x2000/1828/7409d8c3b2d6a498d1eab3466b840310"
+    }
+  ],
+  "holding": {
+    "institution": "Beaumont Library District Local History Collection via Calisphere",
+    "item_id": "Calisphere collection 1828; item identifier unverified",
+    "url": "https://calisphere.org/clip/2000x2000/1828/7409d8c3b2d6a498d1eab3466b840310"
+  },
+  "open_questions": [
+    "Identify the photograph's item-page permalink, local identifier, creator and capture date.",
+    "Obtain item-level publication permission from the Beaumont Library District before external reuse."
+  ],
+  "provenance": "Downloaded from the exact Calisphere clip URL supplied by the user on 2026-07-28 and preserved byte-for-byte under data/research-assets/sources/calisphere/beaumont-carnegie-library.jpg. SHA-256 matches the reviewed candidate record.",
+  "researched": "2026-07-28",
+  "select_position": 14,
+  "curated": false,
+  "selected_default": false,
+  "source_key": "calisphere-beaumont-library-district",
+  "source_priority": 90,
+  "research_status": "Provenance partially verified"
+}
