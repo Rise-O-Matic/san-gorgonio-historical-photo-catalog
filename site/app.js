@@ -3,7 +3,10 @@
 /* Beaumont Timeline Builder — drag photographs from the chronological
    collection tray onto the timeline canvas, arrange, approve, export. */
 
-const KEY = 'bld-timeline-builder-v2';
+// Bump the key when the Library publishes a replacement official lineup.
+// Keeping the prior key intact preserves the old browser-local arrangement
+// for recovery while preventing it from overriding the newly published seed.
+const KEY = 'bld-timeline-builder-v3';
 const BLANK = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
