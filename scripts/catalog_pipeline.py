@@ -78,6 +78,59 @@ def stable_id(prefix: str, value: str, length: int = 16) -> str:
     return f"{prefix}_{digest}"
 
 
+def assign_reference_numbers(
+    records: list[dict[str, Any]],
+    candidates: list[dict[str, Any]],
+    registry_path: Path,
+) -> dict[str, Any]:
+    """Attach stable human-readable references and persist their ID mapping.
+
+    Opaque record IDs remain the machine identity.  References are never
+    renumbered or reused: removed entries stay in the registry so citations in
+    notes, email, and agent work remain valid across catalog rebuilds.
+    """
+    if registry_path.exists():
+        registry = json.loads(registry_path.read_text(encoding="utf-8"))
+    else:
+        registry = {
+            "schema_version": "1.0.0",
+            "record_prefix": "BLD-",
+            "candidate_prefix": "BLD-C",
+            "next_record_number": 1,
+            "next_candidate_number": 1,
+            "records": {},
+            "candidates": {},
+        }
+
+    record_refs = registry.setdefault("records", {})
+    candidate_refs = registry.setdefault("candidates", {})
+    if len(set(record_refs.values())) != len(record_refs):
+        raise RuntimeError(f"Duplicate catalog references in {registry_path}")
+    if len(set(candidate_refs.values())) != len(candidate_refs):
+        raise RuntimeError(f"Duplicate candidate references in {registry_path}")
+
+    next_record = int(registry.get("next_record_number", 1))
+    next_candidate = int(registry.get("next_candidate_number", 1))
+    for record in records:
+        entry_id = record["id"]
+        if entry_id not in record_refs:
+            record_refs[entry_id] = f"BLD-{next_record:04d}"
+            next_record += 1
+        record["reference_number"] = record_refs[entry_id]
+    for candidate in candidates:
+        entry_id = candidate["id"]
+        if entry_id not in candidate_refs:
+            candidate_refs[entry_id] = f"BLD-C{next_candidate:03d}"
+            next_candidate += 1
+        candidate["reference_number"] = candidate_refs[entry_id]
+
+    registry["next_record_number"] = next_record
+    registry["next_candidate_number"] = next_candidate
+    registry["updated_at"] = now_iso()
+    json_dump(registry_path, registry)
+    return registry
+
+
 def sha256_file(path: Path, chunk_size: int = 1024 * 1024) -> str:
     hasher = hashlib.sha256()
     with path.open("rb") as handle:
@@ -650,6 +703,38 @@ def write_csv(path: Path, rows: list[dict[str, Any]], fields: list[str]) -> None
         writer.writerows(rows)
 
 
+def research_queue_entry(record: dict[str, Any], sources: list[dict[str, Any]]) -> dict[str, Any]:
+    completed = record.get("research_status") in {"Researched", "Provenance verified"}
+    priority = 100 if record["curated"] else 40
+    if record["print_viability"]["classification"] != "Production Ready":
+        priority += 20
+    if not record["date"]["start"]:
+        priority += 10
+    if completed:
+        priority = 0
+    status = record.get("research_status") if completed else "Queued"
+    reason = (
+        "Provenance verified — source and rights documented"
+        if status == "Provenance verified"
+        else "Researched — evidence-linked record in the catalog"
+        if completed
+        else "Curated mural candidate"
+        if record["curated"]
+        else "Low native print viability or missing historical context"
+    )
+    return {
+        "record_id": record["id"],
+        "reference_number": record["reference_number"],
+        "title": record["title"],
+        "priority": priority,
+        "reason": reason,
+        "status": status,
+        "search_terms": record["search_terms"],
+        "candidate_sources": sources,
+        "candidates": [],
+    }
+
+
 def ingest(config_path: Path, repo: Path, skip_ocr: bool = False) -> dict[str, Any]:
     config = json.loads(config_path.read_text(encoding="utf-8"))
     output = repo / config.get("output_directory", "data")
@@ -728,6 +813,9 @@ def ingest(config_path: Path, repo: Path, skip_ocr: bool = False) -> dict[str, A
     apply_editorial_captions(records, repo / config.get("output_directory", "data") / "editorial-captions.json")
     apply_editorial_research(records, repo / config.get("output_directory", "data") / "editorial-research.json")
     records.sort(key=lambda item: (item["date"]["start"] is None, item["date"]["start"] or 9999, item["title"].lower()))
+    research_candidates = config.get("research_candidates", [])
+    reference_registry = assign_reference_numbers(records, research_candidates, output / "reference-numbers.json")
+    json_dump(site / "data" / "reference-numbers.json", reference_registry)
     file_index = {item["file_id"]: item for item in files}
     for record in records:
         master = file_index[record["master_file_id"]]
@@ -735,23 +823,10 @@ def ingest(config_path: Path, repo: Path, skip_ocr: bool = False) -> dict[str, A
         record["preview"] = master["preview"]
         record["original_pixels"] = {"width": master["image"]["width"], "height": master["image"]["height"]}
 
-    research_queue = []
-    for record in records:
-        researched = record.get("research_status") == "Researched"
-        priority = 100 if record["curated"] else 40
-        if record["print_viability"]["classification"] != "Production Ready":
-            priority += 20
-        if not record["date"]["start"]:
-            priority += 10
-        if researched:
-            priority = 0
-        research_queue.append({
-            "record_id": record["id"], "title": record["title"], "priority": priority,
-            "reason": "Researched — evidence-linked record in the catalog" if researched
-            else ("Curated mural candidate" if record["curated"] else "Low native print viability or missing historical context"),
-            "status": "Researched" if researched else "Queued", "search_terms": record["search_terms"],
-            "candidate_sources": config.get("research_sources", []), "candidates": []
-        })
+    research_queue = [
+        research_queue_entry(record, config.get("research_sources", []))
+        for record in records
+    ]
     research_queue.sort(key=lambda item: (-item["priority"], item["title"]))
 
     counts = Counter(item["extension"] for item in files)
@@ -766,7 +841,7 @@ def ingest(config_path: Path, repo: Path, skip_ocr: bool = False) -> dict[str, A
     json_dump(site / "data" / "catalog.json", catalog)
     json_dump(output / "research-queue.json", research_queue)
     json_dump(site / "data" / "research-queue.json", research_queue)
-    candidate_reviews = {"schema_version": "1.0.0", "generated_at": now_iso(), "candidates": config.get("research_candidates", [])}
+    candidate_reviews = {"schema_version": "1.0.0", "generated_at": now_iso(), "candidates": research_candidates}
     json_dump(output / "candidate-reviews.json", candidate_reviews)
     json_dump(site / "data" / "candidate-reviews.json", candidate_reviews)
     inventory.update({"generated_at": now_iso(), "readable_files": len(files), "unreadable_files": len(unreadable), "formats": dict(sorted(counts.items()))})
@@ -774,7 +849,7 @@ def ingest(config_path: Path, repo: Path, skip_ocr: bool = False) -> dict[str, A
     json_dump(output / "reports" / "unreadable-files.json", unreadable)
     json_dump(output / "reports" / "duplicate-review.json", {"pairs": review_pairs})
     write_csv(output / "files.csv", [{**item, "width": item["image"]["width"], "height": item["image"]["height"], "format": item["image"]["format"]} for item in files], ["file_id", "path", "filename", "source_key", "source_priority", "curated", "sha256", "size_bytes", "format", "width", "height", "thumbnail", "preview"])
-    write_csv(output / "catalog.csv", [{"id": item["id"], "title": item["title"], "caption": item.get("caption", ""), "attribution": item.get("attribution", "Unknown"), "attribution_confidence": item.get("attribution_confidence", "unknown"), "caption_source": item.get("caption_source", ""), "date_start": item["date"]["start"], "date_end": item["date"]["end"], "decade": item["decade"], "curated": item["curated"], "selected_default": item["selected_default"], "classification": item["print_viability"]["classification"], "recommended_print": item["print_viability"]["recommended"], "master_file_id": item["master_file_id"], "rights_status": item["rights_status"], "research_status": item["research_status"], "evidence_urls": "; ".join(evidence["url"] for evidence in (item.get("research") or {}).get("evidence", []) if evidence.get("url"))} for item in records], ["id", "title", "caption", "attribution", "attribution_confidence", "caption_source", "date_start", "date_end", "decade", "curated", "selected_default", "classification", "recommended_print", "master_file_id", "rights_status", "research_status", "evidence_urls"])
+    write_csv(output / "catalog.csv", [{"reference_number": item["reference_number"], "id": item["id"], "title": item["title"], "caption": item.get("caption", ""), "attribution": item.get("attribution", "Unknown"), "attribution_confidence": item.get("attribution_confidence", "unknown"), "caption_source": item.get("caption_source", ""), "date_start": item["date"]["start"], "date_end": item["date"]["end"], "decade": item["decade"], "curated": item["curated"], "selected_default": item["selected_default"], "classification": item["print_viability"]["classification"], "recommended_print": item["print_viability"]["recommended"], "master_file_id": item["master_file_id"], "rights_status": item["rights_status"], "research_status": item["research_status"], "evidence_urls": "; ".join(evidence["url"] for evidence in (item.get("research") or {}).get("evidence", []) if evidence.get("url"))} for item in records], ["reference_number", "id", "title", "caption", "attribution", "attribution_confidence", "caption_source", "date_start", "date_end", "decade", "curated", "selected_default", "classification", "recommended_print", "master_file_id", "rights_status", "research_status", "evidence_urls"])
     write_csv(output / "reports" / "unreadable-files.csv", unreadable, ["path", "filename", "source_key", "reason", "classification", "action"])
     write_csv(output / "reports" / "duplicate-review.csv", review_pairs, ["classification", "confidence", "distance", "reason", "left_file_id", "right_file_id", "left_path", "right_path"])
     return catalog

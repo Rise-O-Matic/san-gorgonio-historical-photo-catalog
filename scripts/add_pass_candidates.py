@@ -17,6 +17,8 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+import catalog_pipeline as cp
+
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config" / "catalog.config.json"
 RETRIEVAL = "2026-07-10"
@@ -277,6 +279,11 @@ def main():
         else:
             existing.append(cand)
             added += 1
+    catalog = json.loads((ROOT / "data" / "catalog.json").read_text(encoding="utf-8"))
+    registry = cp.assign_reference_numbers(
+        catalog["records"], existing, ROOT / "data" / "reference-numbers.json"
+    )
+    cp.json_dump(ROOT / "site" / "data" / "reference-numbers.json", registry)
     CONFIG.write_text(json.dumps(config, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     reviews = {

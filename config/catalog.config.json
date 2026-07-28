@@ -78,7 +78,8 @@
       "rights_status": "Unclear",
       "rights_statement": "No item-level reuse statement found; page footer is copyright Beaumont Library District.",
       "validation_notes": "Official page uses a depot image matching the local record's subject and broad composition. Direct image request returned 403, so pixel-level comparison and genuine-detail validation remain pending.",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C001"
     },
     {
       "id": "candidate_unt_depot_postcard",
@@ -95,7 +96,8 @@
       "rights_status": "Permission Required",
       "rights_statement": "Repository provides research access and directs publication or reproduction questions to the holding library.",
       "validation_notes": "Same depot, but a different composition: posed group and bicycles rather than the local elevated track view. Preserve as a separate linked historical image. The holding repository is in Texas, but its metadata explicitly identifies Beaumont, Riverside County, California.",
-      "review_status": "reviewed-related"
+      "review_status": "reviewed-related",
+      "reference_number": "BLD-C002"
     },
     {
       "id": "candidate_womans_club_history",
@@ -112,7 +114,8 @@
       "rights_status": "Unclear",
       "rights_statement": "No item-level reuse statement verified.",
       "validation_notes": "Authoritative organization page supplies history and a circa-1950 image. Treat as a related source until visual comparison establishes whether it matches any local version.",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C003"
     },
     {
       "id": "candidate_cali_banning_sp_depot",
@@ -129,7 +132,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Southern Pacific through the San Gorgonio Pass; complements the Beaumont depot records already in the set. Banning Library District Local History Collection, id CBAN_003; place: Banning (Calif.); date: circa 1910. Title: \"The Banning Southern Pacific Railroad Depot\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C004"
     },
     {
       "id": "candidate_cali_banning_hotel",
@@ -146,7 +150,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Landmark Banning hostelry that survives as the San Gorgonio Inn. Banning Library District Local History Collection, id CBAN_363; place: Banning (Calif.); date: circa 1890. Title: \"\"The Banning\" hotel (Bryant House / San Gorgonio Inn)\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C005"
     },
     {
       "id": "candidate_cali_banning_union_ice",
@@ -163,7 +168,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Everyday commerce in early Banning. Banning Library District Local History Collection, id CBAN_349; place: Banning (Calif.); date: early 1900s. Title: \"Union Ice Company delivery wagon in Banning\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C006"
     },
     {
       "id": "candidate_cali_banning_fruit_drying",
@@ -180,7 +186,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Pass-area deciduous-fruit agriculture (prunes/apricots/almonds). Banning Library District Local History Collection, id CBAN_052; place: Banning (Calif.); date: circa 1910. Title: \"Banning fruit drying yard\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C007"
     },
     {
       "id": "candidate_cali_cabazon_sp_depot",
@@ -197,7 +204,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Extends railroad coverage east through the Pass to Cabazon. Banning Library District Local History Collection, id CBAN_357; place: Cabazon (Calif.); date: 1930-09. Title: \"Cabazon Southern Pacific Railroad Depot in 1930\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C008"
     },
     {
       "id": "candidate_cali_aqueduct_tunnel_cabazon",
@@ -214,7 +222,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. The Metropolitan Water District aqueduct that reshaped the Pass economy. Banning Library District Local History Collection, id CBAN_226; place: Banning (Calif.); date: 1936. Title: \"Inside the Colorado River Aqueduct tunnel during construction in Cabazon\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C009"
     },
     {
       "id": "candidate_cali_aqueduct_sanjacinto_tunnel",
@@ -231,7 +240,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Companion to the Cabazon tunnel-interior view. Banning Library District Local History Collection, id CBAN_149; place: Banning (Calif.); date: circa 1930s. Title: \"West approach to the San Jacinto tunnel (Colorado River Aqueduct)\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C010"
     },
     {
       "id": "candidate_cali_gilman_ranch_house",
@@ -248,7 +258,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Anchors early ranching/stagecoach history of the Pass. Banning Library District Local History Collection, id CBAN_179; place: Banning (Calif.); date: circa 1900. Title: \"The Gilman Ranch House in Banning\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C011"
     },
     {
       "id": "candidate_cali_gilman_stage_station",
@@ -265,7 +276,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Bradshaw Trail / overland stage era at the eastern Pass. Banning Library District Local History Collection, id CBAN_335; place: Banning (Calif.); date: circa 1890s. Title: \"Pope adobe 'old stage station' on the Gilman Ranch\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C012"
     },
     {
       "id": "candidate_cali_captain_john_morongo",
@@ -282,7 +294,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Named individual behind the reservation the catalog already depicts. Banning Library District Local History Collection, id CBAN_120; place: Morongo Indian Reservation (Calif.); date: circa 1890. Title: \"Portrait photograph of Captain John Morongo\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C013"
     },
     {
       "id": "candidate_cali_fig_tree_john",
@@ -299,7 +312,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Regionally famous Cahuilla figure of the desert edge of the Pass. Banning Library District Local History Collection, id CBAN_382; place: Banning (Calif.); date: early 1900s. Title: \"Fig Tree John, Cahuilla tribal leader\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C014"
     },
     {
       "id": "candidate_cali_morongo_basket_maker",
@@ -316,7 +330,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Documents Cahuilla basketry, absent from the current set. Banning Library District Local History Collection, id CBAN_112; place: Morongo Indian Reservation (Calif.); date: circa 1900. Title: \"Basket maker on the Morongo Indian Reservation\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C015"
     },
     {
       "id": "candidate_cali_beaumont_aerial_99_60",
@@ -333,7 +348,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject not represented in the current catalog. Mid-century townscape/highway view of Beaumont not otherwise in the set. Banning Library District Local History Collection, id CBAN_325; place: Beaumont (Calif.); date: circa 1960. Title: \"Late-1950s aerial of downtown Beaumont at the 99/60 junction\".",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C016"
     },
     {
       "id": "candidate_cali_sangorgonio_catholic_church",
@@ -350,7 +366,8 @@
       "rights_status": "Unclear",
       "rights_statement": "Copyright status unknown (Banning Library District Local History Collection via Calisphere). Some materials may be protected by U.S. copyright, gift/purchase terms, donor restrictions, or privacy/publicity rights; responsibility for any use rests with the user.",
       "validation_notes": "New subject. Metadata drawn from the Calisphere search-result preview; the full item page returned HTTP 403 on 2026-07-10, so date/format/dimensions should be reconfirmed on next access. Banning Library District Local History Collection; place: Beaumont (Calif.); date: 1908.",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C017"
     },
     {
       "id": "candidate_frasher_pass_whitewater",
@@ -367,7 +384,8 @@
       "rights_status": "Permission Required",
       "rights_statement": "Pomona Public Library asserts no ownership of original copyrights; images are intended for personal or research use only. Other uses may be subject to additional restrictions; users are responsible for determining rights and obtaining permissions. Frasher Foto Postcard Collection, F6945.",
       "validation_notes": "New subject: a wide view of the Pass from its eastern (desert) end near Whitewater — a geographic vantage absent from the town-centric catalog. Contributing institution: Pomona Public Library; creator Burton Frasher Sr. (1888–1955); date 1947.",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C018"
     },
     {
       "id": "candidate_usc_chs_sangorgonio_summit_waterfall",
@@ -384,7 +402,45 @@
       "rights_status": "Public Domain",
       "rights_statement": "Public Domain, released under CC BY 3.0 (http://creativecommons.org/licenses/by/3.0/). Credit both 'University of Southern California. Libraries' and 'California Historical Society.' Digitally reproduced by the USC Digital Library. DOI: 10.25549/chs-m2795.",
       "validation_notes": "New subject AND the only rights-clear item in this batch: CC BY / public domain, so it could be downloaded and added as an actual catalog record with attribution rather than kept as a pending candidate. Depicts the namesake San Gorgonio summit trail. USC/CHS identifier chs-m2795; thumbnail at http://thumbnails.digitallibrary.usc.edu/CHS-43008.jpg.",
-      "review_status": "pending"
+      "review_status": "pending",
+      "reference_number": "BLD-C019"
+    },
+    {
+      "id": "candidate_cali_beaumont_carnegie_library",
+      "record_id": "",
+      "institution": "Beaumont Library District via Calisphere",
+      "source_page": "https://calisphere.org/clip/2000x2000/1828/7409d8c3b2d6a498d1eab3466b840310",
+      "asset_url": "https://calisphere.org/clip/2000x2000/1828/7409d8c3b2d6a498d1eab3466b840310",
+      "retrieval_date": "2026-07-28",
+      "caption": "Historic exterior view of the Beaumont Library District's Carnegie library building at 125 East 8th Street, Beaumont.",
+      "dimensions": "1024 × 703 px JPEG (156,549 bytes; Calisphere 2000 × 2000 clip endpoint returned this size)",
+      "asset_hash": "sha256:80b254d486ec860b12af8487ff0ca96a5df89c2e21e0c413ab696ad0360d175f",
+      "match_classification": "new to collection",
+      "match_confidence": "medium",
+      "rights_status": "Permission Required",
+      "rights_statement": "The Beaumont Library District Local History Collection finding aid states that images are available online and directs users to contact the Beaumont Library District for permission to publish or reproduce.",
+      "validation_notes": "The user supplied this same Calisphere clip URL as both the image and its context. Visual inspection shows the original Carnegie library facade; Calisphere collection 1828 is the Beaumont Library District collection, and official district history identifies the Carnegie-funded building at 125 East 8th Street as opened in 1914. The photograph's own date, item title, local identifier, creator, and item-page permalink remain unverified, so no date is assigned. A perceptual-hash comparison found no close match among the current catalog previews.",
+      "review_status": "pending",
+      "reference_number": "BLD-C020"
+    },
+    {
+      "id": "candidate_pressenterprise_beaumont_library_centennial_2010",
+      "record_id": "",
+      "institution": "The Press-Enterprise",
+      "source_page": "https://www.pressenterprise.com/2010/08/27/beaumont-library-district-prepares-for-100th-anniversary/",
+      "asset_url": "",
+      "local_asset": "data/research-assets/sources/press-enterprise/beaumont-library-centennial-2010.png",
+      "retrieval_date": "2026-07-28",
+      "caption": "Modern exterior view of the Beaumont Library District's Carnegie library building, published with an August 27, 2010 Press-Enterprise article about preparations for the district's centennial.",
+      "dimensions": "585 × 384 px PNG (429,144 bytes)",
+      "asset_hash": "sha256:289c2c3d2f49e76cd2f906a95afc81704ce78416e1c0719bb7d08edf8a3bb0bc",
+      "match_classification": "related",
+      "match_confidence": "high",
+      "rights_status": "Copyrighted",
+      "rights_statement": "No reuse license or image credit was supplied. Treat the 2010 newspaper image as copyrighted and obtain permission from the Press-Enterprise or the credited photographer before publication or reproduction.",
+      "validation_notes": "The user supplied the image and full article text. The article reports that the district was approved by a 59-27 vote on August 12, 1911; first operated from two rooms in a local bank; received a $10,000 Andrew Carnegie grant; and opened this 3,800-square-foot Classical Revival building on Eighth Street in 1914, with an expansion in 1965. The photograph is a later view of the same facade represented by candidate_cali_beaumont_carnegie_library, not the same photograph. The article page was blocked to automated retrieval on 2026-07-28, and the supplied image contains no embedded credit, so the photographer and exact capture date remain unverified. An unrelated UPS earnings sentence embedded in the pasted article text was excluded from the historical context.",
+      "review_status": "pending",
+      "reference_number": "BLD-C021"
     }
   ]
 }

@@ -17,7 +17,7 @@ sys.path.insert(0, str(REPO / "scripts"))
 from catalog_pipeline import apply_editorial_captions  # noqa: E402
 
 CAPTIONS = REPO / "data" / "editorial-captions.json"
-CSV_FIELDS = ["id", "title", "caption", "attribution", "attribution_confidence",
+CSV_FIELDS = ["reference_number", "id", "title", "caption", "attribution", "attribution_confidence",
               "caption_source", "date_start", "date_end", "decade", "curated",
               "selected_default", "classification", "recommended_print",
               "master_file_id", "rights_status", "research_status"]
@@ -44,6 +44,7 @@ def main():
     rows = []
     for r in cat["records"]:
         rows.append({
+            "reference_number": r.get("reference_number", ""),
             "id": r["id"], "title": r["title"], "caption": r.get("caption", ""),
             "attribution": r.get("attribution", "Unknown"),
             "attribution_confidence": r.get("attribution_confidence", "unknown"),

@@ -246,7 +246,7 @@ function applyFilters() {
     if (viability && r.print_viability?.classification !== viability) return false;
     if (rights && r.rights_status !== rights) return false;
     if (q) {
-      const hay = [r.title, r.caption, r.visible_text, ...(r.subjects || []), ...(r.people || []), ...(r.locations || []), ...(r.search_terms || [])].join(' ').toLowerCase();
+      const hay = [r.reference_number, r.id, r.title, r.caption, r.visible_text, ...(r.subjects || []), ...(r.people || []), ...(r.locations || []), ...(r.search_terms || [])].join(' ').toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -263,10 +263,11 @@ function trayCard(r, placed) {
       ${placed ? '<span class="placed-flag">On timeline</span>' : ''}
     </figure>
     <div class="t-body">
+      <p class="t-ref">${esc(r.reference_number)}</p>
       <h3 class="t-title">${esc(r.title)}</h3>
       <p class="t-cap">${esc(r.caption)}</p>
     </div>
-    <div class="t-more"><div><p class="t-more-year">${esc(displayDate(r))}</p><p class="t-more-title">${esc(r.title)}</p><p class="t-more-cap">${esc(r.caption)}</p></div></div>
+    <div class="t-more"><div><p class="t-more-year">${esc(r.reference_number)} · ${esc(displayDate(r))}</p><p class="t-more-title">${esc(r.title)}</p><p class="t-more-cap">${esc(r.caption)}</p></div></div>
     <button class="t-add" type="button" data-add title="${placed ? 'Remove from timeline' : 'Add to end of timeline'}">${placed ? '−' : '+'}</button>
   </article>`;
 }
@@ -291,7 +292,7 @@ function muralCard(r, i) {
     <div class="m-matte"><img src="${BLANK}" data-src="${thumbSrc(r)}" alt="${esc(r.title)}" draggable="false"></div>
     <div class="m-plate">
       <div class="m-plate-head">
-        <p class="m-year">${esc(shortDate(r))}</p>
+        <p class="m-year">${esc(r.reference_number)} · ${esc(shortDate(r))}</p>
         ${rightsPill(r, 'm-rights')}
       </div>
       <h3 class="m-title">${esc(r.title)}</h3>
@@ -588,11 +589,13 @@ function quickView(record) {
       <button class="qv-zoom-reset" type="button" hidden></button>
     </div>
     <div class="qv-copy">
-      <p class="qv-year">${esc(displayDate(record))}</p>
+      <p class="qv-year">${esc(record.reference_number)} · ${esc(displayDate(record))}</p>
       <h3 class="qv-title">${esc(record.title)}</h3>
       <p class="qv-cap">${esc(record.caption)}</p>
       ${research?.description ? `<p class="qv-desc">${esc(research.description)}</p>` : ''}
       <p class="qv-facts">
+        <strong>Reference</strong> ${esc(record.reference_number)}<br>
+        <strong>Internal ID</strong> ${esc(record.id)}<br>
         ${record.attribution ? `<strong>Credit</strong> ${esc(record.attribution)}<br>` : ''}
         <strong>Rights</strong> ${esc(record.rights_status || '—')}${record.rights_note ? ` — ${esc(record.rights_note)}` : ''}<br>
         ${record.caption_source ? `<strong>Caption source</strong> ${esc(record.caption_source)}<br>` : ''}
@@ -744,7 +747,7 @@ function renderThumb(src) {
    client can QC the sequence, and let the exact order be rebuilt from the file.
    A real .docx (not HTML-saved-as-.doc) renders embedded images reliably; the
    ordered manifest rides along as beaumont-timeline.json inside the package,
-   and every entry also prints its catalog ID as a human-readable fallback. */
+   and every entry also prints its stable reference and internal catalog ID. */
 
 const EMU_PER_IN = 914400;
 const MAX_IMG_IN = 6.0;                 // fits US Letter with 1" margins
@@ -806,7 +809,7 @@ function coverXml(recs, stamp) {
     pgraph(rn('Beaumont ', rp({ font: 'Georgia', sz: 52, color: '23282A' })) + rn('in Pictures', rp({ font: 'Georgia', i: true, sz: 52, color: '8C5A1C' })), pp({ after: 80, align: 'center' })),
     pgraph(rn(`Approved timeline sequence — ${recs.length} photograph${recs.length === 1 ? '' : 's'}, spanning ${span}`, rp({ font: 'Georgia', sz: 22, color: '55504A' })), pp({ after: 40, align: 'center' })),
     pgraph(rn(`Prepared ${date}`, rp({ font: 'Georgia', sz: 20, color: '7A736A' })), pp({ after: 100, align: 'center' })),
-    pgraph(rn('Photographs run in mural order, left to right. Each entry lists its catalog ID for reference.', rp({ font: 'Libre Franklin', i: true, sz: 16, color: '7A736A' })), pp({ after: 240, align: 'center' })),
+    pgraph(rn('Photographs run in mural order, left to right. Each entry lists its stable BLD reference number.', rp({ font: 'Libre Franklin', i: true, sz: 16, color: '7A736A' })), pp({ after: 240, align: 'center' })),
   ].join('');
 }
 
@@ -835,7 +838,7 @@ function entryXml(r, i, img) {
       out.push(pgraph(rn(`•  ${line}`, rp({ font: 'Georgia', sz: 16, color: '7A736A' })), pp({ after: 10 })));
     });
   }
-  out.push(pgraph(rn(`Catalog ID: ${r.id}`, rp({ font: 'Consolas', sz: 15, color: 'A79D8E' })), pp({ before: 40, after: 80 })));
+  out.push(pgraph(rn(`Reference: ${r.reference_number} · Internal ID: ${r.id}`, rp({ font: 'Consolas', sz: 15, color: 'A79D8E' })), pp({ before: 40, after: 80 })));
   return out.join('');
 }
 
@@ -860,6 +863,7 @@ function manifestJson(recs, thumbPaths, stamp) {
     note: 'order[].id, in position order, is the timeline. Rebuild by setting the working array to these ids.',
     order: recs.map((r, i) => ({
       position: i + 1,
+      reference_number: r.reference_number,
       id: r.id,
       title: r.title,
       date: displayDate(r),

@@ -1,0 +1,42 @@
+{
+  "image": "C:/GitHub/san-gorgonio-historical-photo-catalog/data/research-assets/sources/peggy-christian-2002/cover.jpg",
+  "title": "Historic San Timoteo Canyon — book cover (Peggy Christian, 2002)",
+  "original_title": "Historic San Timoteo Canyon: A Pictorial Tour, Myths and Legends",
+  "date": {
+    "start": 2002,
+    "end": 2002,
+    "display": "2002 publication",
+    "confidence": "confirmed",
+    "basis": "The accompanying copyright page states Copyright 2002 by Peggy Christian and supplies ISBN 0-930704-33-9."
+  },
+  "caption": "Front cover of Peggy Christian's Historic San Timoteo Canyon: A Pictorial Tour, Myths and Legends, featuring an unidentified historical photograph of a ranch house, cattle and ranch workers.",
+  "description": "A user-supplied photograph of the 2002 book's front cover. The cover preserves the publication title, subtitle and author credit and serves as provenance for the two Pauline Weaver drawings supplied with it. The historical photograph reproduced on the cover is not identified in the visible cover text; its location, date, photographer and original holding institution remain unverified, so the cover is cataloged as source documentation rather than as an identified historical photograph.",
+  "attribution": "Book by Peggy Christian; cover photograph unidentified",
+  "attribution_confidence": "confirmed",
+  "caption_source": "Visible cover text and accompanying copyright page supplied by the user, 2026-07-28.",
+  "rights_status": "Copyrighted",
+  "rights_note": "The accompanying page states Copyright 2002 by Peggy Christian and all rights reserved. The cover photograph may carry separate rights. Permission is required before reproduction or publication.",
+  "locations": ["San Timoteo Canyon"],
+  "people": ["Peggy Christian"],
+  "subjects": ["book cover", "local history", "ranch house", "cattle", "San Timoteo Canyon"],
+  "search_terms": ["2002", "book", "cattle", "cover", "historic san timoteo canyon", "peggy christian", "ranch", "san timoteo canyon"],
+  "evidence": [
+    {"label": "User-supplied front-cover photograph; title, subtitle and author are visible on the image."},
+    {"label": "User-supplied copyright page: Copyright 2002 by Peggy Christian; ISBN 0-930704-33-9."}
+  ],
+  "holding": {
+    "institution": "User-supplied copy of Historic San Timoteo Canyon",
+    "item_id": "ISBN 0-930704-33-9"
+  },
+  "open_questions": [
+    "Identify the ranch, people, date, photographer and original repository of the historical image reproduced on the cover.",
+    "Locate full publication metadata and an item-level rights contact before any external reuse."
+  ],
+  "provenance": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/cover.jpg; the inbox original was not altered.",
+  "researched": "2026-07-28",
+  "curated": false,
+  "selected_default": false,
+  "source_key": "user-inbox-peggy-christian-2002",
+  "source_priority": 90,
+  "research_status": "Provenance verified"
+}

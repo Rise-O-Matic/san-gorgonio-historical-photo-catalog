@@ -562,6 +562,12 @@ body {
   background: linear-gradient(180deg, rgba(242,233,216,0.045), rgba(242,233,216,0));
 }
 
+.t-ref {
+  margin: 0 0 3px;
+  font-size: 8.5px; font-weight: 800; letter-spacing: 0.14em;
+  color: var(--brass-soft);
+}
+
 .t-title {
   margin: 0 0 3px;
   font-family: var(--serif);

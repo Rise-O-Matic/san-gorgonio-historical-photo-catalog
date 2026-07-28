@@ -27,7 +27,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0115"
   },
   {
     "record_id": "img_9160017c82292a64",
@@ -60,7 +61,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0171"
   },
   {
     "record_id": "img_03056ebb373ddd81",
@@ -85,7 +87,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0197"
   },
   {
     "record_id": "img_2fa19df607bf43e1",
@@ -97,6 +100,36 @@
       "circa",
       "eyer",
       "house"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0041"
+  },
+  {
+    "record_id": "img_0e0e59f901586c2a",
+    "reference_number": "BLD-0003",
+    "title": "'Old Maria' weaving a basket, Morongo Reservation",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "old maria",
+      "basket",
+      "basketry",
+      "weaving",
+      "morongo",
+      "cahuilla"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -139,7 +172,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0053"
   },
   {
     "record_id": "img_eebd80e2b2180cca",
@@ -164,7 +198,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0258"
   },
   {
     "record_id": "img_9ae52f4064af37bc",
@@ -191,7 +226,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0222"
   },
   {
     "record_id": "img_a04b2576fd8d515e",
@@ -218,7 +254,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0223"
   },
   {
     "record_id": "img_19d3efd814020eed",
@@ -251,7 +288,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0136"
   },
   {
     "record_id": "img_4239365a9df07707",
@@ -276,7 +314,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0077"
   },
   {
     "record_id": "img_9a09c6788b0dddf1",
@@ -308,7 +347,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0018"
   },
   {
     "record_id": "img_e5e3407036c3c2c5",
@@ -331,7 +371,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0203"
   },
   {
     "record_id": "img_35a3c2b0b73a7892",
@@ -357,7 +398,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0173"
   },
   {
     "record_id": "img_e6fe5e33e99cc68f",
@@ -383,7 +425,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0224"
   },
   {
     "record_id": "img_863f0fc9e94e4ebb",
@@ -410,7 +453,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0216"
   },
   {
     "record_id": "img_4b0acbe1458e33c0",
@@ -439,39 +483,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_049b709d6ffb773a",
-    "title": "Beaumont and the San Gorgonio Pass from the hills south of town (Hotel Beaumont at right), negative no. 2099",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "beaumont",
-      "hotel",
-      "of",
-      "right",
-      "to",
-      "town",
-      "undated",
-      "visible",
-      "vista",
-      "with"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0042"
   },
   {
     "record_id": "img_e0a4861e5d654fdb",
@@ -503,7 +516,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0043"
   },
   {
     "record_id": "img_2ba02d1a7deddfd1",
@@ -534,7 +548,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0067"
   },
   {
     "record_id": "img_96cdf4349eff3950",
@@ -571,7 +586,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0073"
   },
   {
     "record_id": "img_a9b8f17ec8b1a61d",
@@ -605,7 +621,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0116"
   },
   {
     "record_id": "img_cfb583d7492fe063",
@@ -628,7 +645,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0167"
   },
   {
     "record_id": "img_865e3dceea5cb7ba",
@@ -662,32 +680,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_b690890e951ac18c",
-    "title": "Beaumont Fire Department at the Maple Avenue Station, 1972",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "beaumont",
-      "department",
-      "fire"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0183"
   },
   {
     "record_id": "img_0f63f186060123e4",
@@ -715,37 +709,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_f03f7f375191edf6",
-    "title": "Beaumont Fire Department hose cart displayed at the fire station, 628 Maple Avenue",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "beaumont",
-      "calisphere",
-      "cart",
-      "department",
-      "fire",
-      "from",
-      "hose",
-      "with"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0252"
   },
   {
     "record_id": "img_5b02c2385f9cb46d",
@@ -775,34 +740,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_7a0159037504313e",
-    "title": "Beaumont Fire Department quarters at old City Hall, 500 Grace Avenue, with three fire trucks",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "at",
-      "beaumont",
-      "department",
-      "fire",
-      "grace"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0253"
   },
   {
     "record_id": "img_1ac667107bd74996",
@@ -831,7 +770,93 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0259"
+  },
+  {
+    "record_id": "img_b690890e951ac18c",
+    "title": "Beaumont Fire Department at the Maple Avenue Station, 1972",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "beaumont",
+      "department",
+      "fire"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0180"
+  },
+  {
+    "record_id": "img_f03f7f375191edf6",
+    "title": "Beaumont Fire Department hose cart displayed at the fire station, 628 Maple Avenue",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "beaumont",
+      "calisphere",
+      "cart",
+      "department",
+      "fire",
+      "from",
+      "hose",
+      "with"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0181"
+  },
+  {
+    "record_id": "img_7a0159037504313e",
+    "title": "Beaumont Fire Department quarters at old City Hall, 500 Grace Avenue, with three fire trucks",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "at",
+      "beaumont",
+      "department",
+      "fire",
+      "grace"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0149"
   },
   {
     "record_id": "img_a0defa8112930d8b",
@@ -858,7 +883,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0182"
   },
   {
     "record_id": "img_5e377e16d199a2eb",
@@ -887,7 +913,612 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0177"
+  },
+  {
+    "record_id": "img_2880f54eaa19145f",
+    "title": "Beaumont Grammar School",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "built",
+      "grammar",
+      "school"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0068"
+  },
+  {
+    "record_id": "img_99f7111cab26b389",
+    "title": "Beaumont High School (now Beaumont Civic Center), from the 1942 BHS yearbook",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "beaumont",
+      "high",
+      "in",
+      "pictured",
+      "school",
+      "yearbook"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0123"
+  },
+  {
+    "record_id": "img_4ac86175e34cb48f",
+    "title": "Beaumont High School (now Beaumont Civic Center), real-photo postcard, c. 1938-1948",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "a",
+      "beaumont",
+      "city",
+      "hall",
+      "high",
+      "now",
+      "school"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0112"
+  },
+  {
+    "record_id": "img_ada3474936428467",
+    "title": "Beaumont High School majorettes — Staton, Clark, Rundall, Dale, Silver, Bond, Isgro — from the 1950 annual",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "bmt",
+      "by",
+      "donated",
+      "fb",
+      "high",
+      "in",
+      "leslie",
+      "majorettes",
+      "on",
+      "rios",
+      "yearbook"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0141"
+  },
+  {
+    "record_id": "img_7d31166d85dd49bd",
+    "title": "Beaumont High School typing class — 'Their Aim: Speed and Accuracy' — from the 1950 annual",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "bmt",
+      "by",
+      "class",
+      "donated",
+      "high",
+      "in",
+      "leslie",
+      "rios",
+      "typing",
+      "yearbook"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0142"
+  },
+  {
+    "record_id": "img_c66b2fd607cf422f",
+    "title": "Beaumont High School, E. 6th Street (now Beaumont Civic Center), from the 1930 BHS yearbook",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "beaumont",
+      "bhs",
+      "center",
+      "civic",
+      "from",
+      "high",
+      "now",
+      "school",
+      "yearbook"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0099"
+  },
+  {
+    "record_id": "img_6278e20aa65dd6a8",
+    "title": "Beaumont Land & Water Company Pumping Plant #1",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "and",
+      "beaumont",
+      "district",
+      "from",
+      "land",
+      "library",
+      "pumping",
+      "station",
+      "water"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0019"
+  },
+  {
+    "record_id": "img_b2764c9151e44824",
+    "title": "Beaumont Land and Water Company office, Beaumont, c. 1907-1915",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "and",
+      "beaumont",
+      "company",
+      "district",
+      "from",
+      "land",
+      "library",
+      "water"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0034"
+  },
+  {
+    "record_id": "img_9c26cfc39eca4fc9",
+    "title": "Beaumont Post Office with W.C.T.U. fountain pavilion, Fifth Street and Egan Avenue",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "and",
+      "ave",
+      "beaumont",
+      "corner",
+      "egan",
+      "fifth",
+      "ne",
+      "office",
+      "post",
+      "st"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0058"
+  },
+  {
+    "record_id": "img_d92bd24434ee74d1",
+    "title": "Beaumont Presbyterian Church in the Daily Record-Gazette, April 30, 1968",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "april",
+      "beaumont",
+      "church",
+      "daily",
+      "gazetter",
+      "in",
+      "presbyterian",
+      "record",
+      "the"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0168"
+  },
+  {
+    "record_id": "img_3d84769134889400",
+    "title": "Beaumont Presbyterian Church — River-Rock Facade Detail",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "church",
+      "presbyterian",
+      "rocks"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0205"
+  },
+  {
+    "record_id": "img_b4e6ea6952262482",
+    "title": "Beaumont Presbyterian Church, 702 Euclid Ave.",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "church",
+      "presbyterian"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0206"
+  },
+  {
+    "record_id": "img_da743e866c6368cc",
+    "title": "Beaumont Presbyterian Church, 702 Euclid Avenue",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "church",
+      "presbyterian"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0207"
+  },
+  {
+    "record_id": "img_5f9b3935055576a5",
+    "title": "Beaumont School students and teachers, 1890–1893 (identified by BLD as the first Wellwood School building)",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "building",
+      "school",
+      "wellwood"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0009"
+  },
+  {
+    "record_id": "img_c228028c8fdfc647",
+    "title": "Beaumont Union High School band with school banner, from the 1949 annual",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "band",
+      "bmt",
+      "by",
+      "donated",
+      "fr",
+      "high",
+      "leslie",
+      "rios",
+      "yearbook"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0138"
+  },
+  {
+    "record_id": "img_ecbadf0d854de4dc",
+    "title": "Beaumont Volunteer Fire Department group portrait with fire engine",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "1950s",
+      "1960s",
+      "beaumont",
+      "department",
+      "dept",
+      "early",
+      "fire",
+      "late",
+      "or",
+      "volunteer"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0150"
+  },
+  {
+    "record_id": "img_a08051acb6b37033",
+    "title": "Beaumont Volunteer Fire Department taco booth at the Cherry Festival, early 1980s",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "1980s",
+      "beaumont",
+      "booth",
+      "cherry",
+      "department",
+      "early",
+      "festival",
+      "fire",
+      "taco",
+      "volunteer"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0190"
+  },
+  {
+    "record_id": "img_96cb1ed10cb5a0fd",
+    "title": "Beaumont Woman's Club clubhouse",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "beaumont",
+      "club",
+      "clubhouse",
+      "district",
+      "from",
+      "library",
+      "s",
+      "woman"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0085"
+  },
+  {
+    "record_id": "img_e4260d9b7f031559",
+    "title": "Beaumont Woman's Club community center (Google Street View), 2020",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "beaumont",
+      "club",
+      "google",
+      "s",
+      "woman"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0254"
+  },
+  {
+    "record_id": "img_049b709d6ffb773a",
+    "title": "Beaumont and the San Gorgonio Pass from the hills south of town (Hotel Beaumont at right), negative no. 2099",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "beaumont",
+      "hotel",
+      "of",
+      "right",
+      "to",
+      "town",
+      "undated",
+      "visible",
+      "vista",
+      "with"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0006"
   },
   {
     "record_id": "img_97db6b297170b04e",
@@ -922,7 +1553,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0189"
   },
   {
     "record_id": "img_a5619ddcb9e94fc3",
@@ -946,7 +1578,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0192"
   },
   {
     "record_id": "img_fb90b64a110cd45f",
@@ -970,393 +1603,31 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0204"
   },
   {
-    "record_id": "img_2880f54eaa19145f",
-    "title": "Beaumont Grammar School",
+    "record_id": "img_1bad9a378c6916e3",
+    "reference_number": "BLD-0111",
+    "title": "Beaumont from the air, 4 July 1938 — USDA aerial survey frame AXM-61-70",
     "priority": 0,
     "reason": "Researched — evidence-linked record in the catalog",
     "status": "Researched",
     "search_terms": [
-      "built",
-      "grammar",
-      "school"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_99f7111cab26b389",
-    "title": "Beaumont High School (now Beaumont Civic Center), from the 1942 BHS yearbook",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
+      "1938",
+      "aerial",
+      "aerial photograph",
+      "aerial survey",
+      "axm",
       "beaumont",
-      "high",
-      "in",
-      "pictured",
-      "school",
-      "yearbook"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_4ac86175e34cb48f",
-    "title": "Beaumont High School (now Beaumont Civic Center), real-photo postcard, c. 1938-1948",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "a",
-      "beaumont",
-      "city",
-      "hall",
-      "high",
-      "now",
-      "school"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_ada3474936428467",
-    "title": "Beaumont High School majorettes — Staton, Clark, Rundall, Dale, Silver, Bond, Isgro — from the 1950 annual",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "bmt",
-      "by",
-      "donated",
-      "fb",
-      "high",
-      "in",
-      "leslie",
-      "majorettes",
-      "on",
-      "rios",
-      "yearbook"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_7d31166d85dd49bd",
-    "title": "Beaumont High School typing class — 'Their Aim: Speed and Accuracy' — from the 1950 annual",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "bmt",
-      "by",
-      "class",
-      "donated",
-      "high",
-      "in",
-      "leslie",
-      "rios",
-      "typing",
-      "yearbook"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_c66b2fd607cf422f",
-    "title": "Beaumont High School, E. 6th Street (now Beaumont Civic Center), from the 1930 BHS yearbook",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "beaumont",
-      "bhs",
-      "center",
-      "civic",
-      "from",
-      "high",
-      "now",
-      "school",
-      "yearbook"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_6278e20aa65dd6a8",
-    "title": "Beaumont Land & Water Company Pumping Plant #1",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "and",
-      "beaumont",
-      "district",
-      "from",
-      "land",
-      "library",
-      "pumping",
-      "station",
-      "water"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_b2764c9151e44824",
-    "title": "Beaumont Land and Water Company office, Beaumont, c. 1907-1915",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "and",
-      "beaumont",
-      "company",
-      "district",
-      "from",
-      "land",
-      "library",
-      "water"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_9c26cfc39eca4fc9",
-    "title": "Beaumont Post Office with W.C.T.U. fountain pavilion, Fifth Street and Egan Avenue",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "and",
-      "ave",
-      "beaumont",
-      "corner",
-      "egan",
-      "fifth",
-      "ne",
-      "office",
-      "post",
-      "st"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_d92bd24434ee74d1",
-    "title": "Beaumont Presbyterian Church in the Daily Record-Gazette, April 30, 1968",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "april",
-      "beaumont",
-      "church",
-      "daily",
-      "gazetter",
-      "in",
-      "presbyterian",
-      "record",
-      "the"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_3d84769134889400",
-    "title": "Beaumont Presbyterian Church — River-Rock Facade Detail",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "church",
-      "presbyterian",
-      "rocks"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_b4e6ea6952262482",
-    "title": "Beaumont Presbyterian Church, 702 Euclid Ave.",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "church",
-      "presbyterian"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_da743e866c6368cc",
-    "title": "Beaumont Presbyterian Church, 702 Euclid Avenue",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "church",
-      "presbyterian"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_5f9b3935055576a5",
-    "title": "Beaumont School students and teachers, 1890–1893 (identified by BLD as the first Wellwood School building)",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "building",
-      "school",
-      "wellwood"
+      "badlands",
+      "orchards",
+      "overhead",
+      "railroad",
+      "san timoteo",
+      "southern pacific",
+      "street grid",
+      "usda"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -1396,102 +1667,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_c228028c8fdfc647",
-    "title": "Beaumont Union High School band with school banner, from the 1949 annual",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "band",
-      "bmt",
-      "by",
-      "donated",
-      "fr",
-      "high",
-      "leslie",
-      "rios",
-      "yearbook"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_ecbadf0d854de4dc",
-    "title": "Beaumont Volunteer Fire Department group portrait with fire engine",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "1950s",
-      "1960s",
-      "beaumont",
-      "department",
-      "dept",
-      "early",
-      "fire",
-      "late",
-      "or",
-      "volunteer"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_a08051acb6b37033",
-    "title": "Beaumont Volunteer Fire Department taco booth at the Cherry Festival, early 1980s",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "1980s",
-      "beaumont",
-      "booth",
-      "cherry",
-      "department",
-      "early",
-      "festival",
-      "fire",
-      "taco",
-      "volunteer"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0010"
   },
   {
     "record_id": "img_9c808818200e7a56",
@@ -1519,64 +1696,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_96cb1ed10cb5a0fd",
-    "title": "Beaumont Woman's Club clubhouse",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "beaumont",
-      "club",
-      "clubhouse",
-      "district",
-      "from",
-      "library",
-      "s",
-      "woman"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_e4260d9b7f031559",
-    "title": "Beaumont Woman's Club community center (Google Street View), 2020",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "beaumont",
-      "club",
-      "google",
-      "s",
-      "woman"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0193"
   },
   {
     "record_id": "img_c8be9dda2808f47c",
@@ -1604,7 +1725,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0078"
   },
   {
     "record_id": "img_0092d056a315fe98",
@@ -1628,7 +1750,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0255"
   },
   {
     "record_id": "img_72d13585ff607c22",
@@ -1655,7 +1778,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0004"
   },
   {
     "record_id": "img_b0c11e36c32bf11b",
@@ -1680,7 +1804,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0187"
   },
   {
     "record_id": "img_e3b0eb2e257855ca",
@@ -1704,7 +1829,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0213"
   },
   {
     "record_id": "img_8241a89edda429c5",
@@ -1733,7 +1859,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0108"
   },
   {
     "record_id": "img_1ace86d145209734",
@@ -1745,6 +1872,43 @@
       "church",
       "interior",
       "presbyterian"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0198"
+  },
+  {
+    "record_id": "img_9379263df5b97a24",
+    "reference_number": "BLD-0113",
+    "title": "Cherry Valley orchards from the air, 16 June 1938 — USDA aerial survey frame AXM-53-89",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "1938",
+      "aerial",
+      "aerial photograph",
+      "aerial survey",
+      "axm",
+      "cherry valley",
+      "creek",
+      "little san gorgonio",
+      "orchards",
+      "overhead",
+      "ranch",
+      "usda",
+      "wash"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -1786,7 +1950,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0225"
   },
   {
     "record_id": "img_1098cac0279a0fdd",
@@ -1814,7 +1979,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0174"
   },
   {
     "record_id": "img_dec634939b47e13c",
@@ -1842,31 +2008,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_9537c0e4968709f8",
-    "title": "City of Beaumont aerial photo map of present and planned developments",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "beaumont",
-      "developments"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0226"
   },
   {
     "record_id": "img_530924ee0ded82c6",
@@ -1892,7 +2035,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0185"
   },
   {
     "record_id": "img_6f617c49fb8ae29d",
@@ -1919,7 +2063,33 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0164"
+  },
+  {
+    "record_id": "img_9537c0e4968709f8",
+    "title": "City of Beaumont aerial photo map of present and planned developments",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "beaumont",
+      "developments"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0196"
   },
   {
     "record_id": "img_676c1d159bb01165",
@@ -1953,7 +2123,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0146"
   },
   {
     "record_id": "img_68556e4afecfa748",
@@ -1982,7 +2153,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0026"
   },
   {
     "record_id": "img_291537b3068812cf",
@@ -2007,7 +2179,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0079"
   },
   {
     "record_id": "img_092d2807a0231929",
@@ -2033,7 +2206,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0084"
   },
   {
     "record_id": "img_c8cee9c9c1dee867",
@@ -2066,7 +2240,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0172"
   },
   {
     "record_id": "img_add874f3a7967842",
@@ -2082,6 +2257,36 @@
       "leslie",
       "rios",
       "sacred"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0156"
+  },
+  {
+    "record_id": "img_7235362ef72b0a0b",
+    "reference_number": "BLD-0023",
+    "title": "Cooking shelter and brush windbreak, Morongo Reservation, 1900",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "cooking shelter",
+      "ramada",
+      "windbreak",
+      "kish",
+      "morongo",
+      "thresher"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -2121,7 +2326,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0080"
   },
   {
     "record_id": "img_17d9fad337a3fded",
@@ -2147,7 +2353,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0011"
   },
   {
     "record_id": "img_cfdaf786f32d7ba0",
@@ -2174,7 +2381,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0100"
   },
   {
     "record_id": "img_62e54c6518d7403e",
@@ -2206,7 +2414,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0059"
   },
   {
     "record_id": "img_7547c2a1a3855993",
@@ -2238,7 +2447,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0060"
   },
   {
     "record_id": "img_4ae2f58167bd00f1",
@@ -2274,7 +2484,37 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0054"
+  },
+  {
+    "record_id": "img_38d2d7286d1a066a",
+    "title": "Deodar Trees on Beaumont Avenue (Google Street View)",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "avenue",
+      "beaumont",
+      "deodar",
+      "on",
+      "today",
+      "trees"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0227"
   },
   {
     "record_id": "img_67656824cbb42ffc",
@@ -2304,7 +2544,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0151"
   },
   {
     "record_id": "img_8ecf8879b0fffd2d",
@@ -2334,35 +2575,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_38d2d7286d1a066a",
-    "title": "Deodar Trees on Beaumont Avenue (Google Street View)",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "avenue",
-      "beaumont",
-      "deodar",
-      "on",
-      "today",
-      "trees"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0128"
   },
   {
     "record_id": "img_72b5acdf8b88fc6c",
@@ -2388,7 +2602,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0208"
   },
   {
     "record_id": "img_dc9b98dd0bb1264f",
@@ -2413,7 +2628,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0148"
   },
   {
     "record_id": "img_2eee4fa95a275d4d",
@@ -2445,7 +2661,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0260"
   },
   {
     "record_id": "img_4eeb78c48b2bca4b",
@@ -2471,7 +2688,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0217"
   },
   {
     "record_id": "img_92d81318b1127f4b",
@@ -2503,7 +2721,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0027"
   },
   {
     "record_id": "img_43eb34083eb2296d",
@@ -2527,7 +2746,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0008"
   },
   {
     "record_id": "img_5658eba56b079aef",
@@ -2559,33 +2779,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_157678621f95c278",
-    "title": "Egan Avenue looking north with the Beaumont Land & Water Company office, Beaumont",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "ave",
-      "egan",
-      "looking",
-      "north"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0005"
   },
   {
     "record_id": "img_0fe6d3036afcd3d6",
@@ -2622,7 +2817,35 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0218"
+  },
+  {
+    "record_id": "img_157678621f95c278",
+    "title": "Egan Avenue looking north with the Beaumont Land & Water Company office, Beaumont",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "ave",
+      "egan",
+      "looking",
+      "north"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0035"
   },
   {
     "record_id": "img_3e64932e3b8abfb7",
@@ -2653,7 +2876,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0061"
   },
   {
     "record_id": "img_7835865b7e46b59c",
@@ -2682,7 +2906,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0028"
   },
   {
     "record_id": "img_179919b175fe6648",
@@ -2713,7 +2938,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0036"
   },
   {
     "record_id": "img_650198dd9e4987ea",
@@ -2739,7 +2965,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0037"
   },
   {
     "record_id": "img_92af244203629094",
@@ -2767,7 +2994,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0129"
   },
   {
     "record_id": "img_5216d93c22702ca5",
@@ -2794,7 +3022,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0175"
   },
   {
     "record_id": "img_c323e4a9718d30b7",
@@ -2822,7 +3051,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0117"
   },
   {
     "record_id": "img_eabd3578774e347f",
@@ -2851,35 +3081,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_95da879f3752095a",
-    "title": "Estrada family at the Luis Estrada Road street sign",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "celebrating",
-      "estrada",
-      "family",
-      "luis",
-      "road",
-      "years"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0044"
   },
   {
     "record_id": "img_0ab722136d7bd1be",
@@ -2907,7 +3110,37 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0130"
+  },
+  {
+    "record_id": "img_95da879f3752095a",
+    "title": "Estrada family at the Luis Estrada Road street sign",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "celebrating",
+      "estrada",
+      "family",
+      "luis",
+      "road",
+      "years"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0261"
   },
   {
     "record_id": "img_d94679a3a45f55c0",
@@ -2934,7 +3167,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0029"
   },
   {
     "record_id": "img_661c04fefa693750",
@@ -2958,7 +3192,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0250"
   },
   {
     "record_id": "img_4e8d4526096e0dd7",
@@ -2994,7 +3229,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0012"
   },
   {
     "record_id": "img_0880ba793548d705",
@@ -3022,7 +3258,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0105"
   },
   {
     "record_id": "img_02861b7cd39cd162",
@@ -3050,7 +3287,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0045"
   },
   {
     "record_id": "img_0b3ce9bbcc89c40d",
@@ -3082,7 +3320,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0095"
   },
   {
     "record_id": "img_82f263746528ece8",
@@ -3117,7 +3356,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0109"
   },
   {
     "record_id": "img_e9f375f1600bc4d0",
@@ -3149,7 +3389,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0219"
   },
   {
     "record_id": "img_4b219d837a3d6f6a",
@@ -3187,7 +3428,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0161"
   },
   {
     "record_id": "img_c45feec31675704d",
@@ -3217,7 +3459,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0169"
   },
   {
     "record_id": "img_2aaf83f6b9ef8d97",
@@ -3244,7 +3487,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0101"
   },
   {
     "record_id": "img_7c01fc3dab547cc4",
@@ -3272,7 +3516,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0221"
   },
   {
     "record_id": "img_acf4949ced58906e",
@@ -3300,7 +3545,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0263"
   },
   {
     "record_id": "img_9a697957b7ea88b0",
@@ -3331,7 +3577,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0158"
   },
   {
     "record_id": "img_83b4208d7a588795",
@@ -3358,7 +3605,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0024"
   },
   {
     "record_id": "img_4085f2ec04e2579d",
@@ -3385,7 +3633,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0228"
   },
   {
     "record_id": "img_82595c1c9806db2a",
@@ -3412,7 +3661,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0229"
   },
   {
     "record_id": "img_31a2aed058e380fd",
@@ -3437,7 +3687,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0267"
   },
   {
     "record_id": "img_1c61ef08adc421b9",
@@ -3463,7 +3714,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0230"
   },
   {
     "record_id": "img_36bc04455099c9d7",
@@ -3493,7 +3745,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0191"
   },
   {
     "record_id": "img_a6ec55f14a4d13dc",
@@ -3521,7 +3774,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0201"
   },
   {
     "record_id": "img_57a9c9df6e55e692",
@@ -3547,7 +3801,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0152"
   },
   {
     "record_id": "img_ed9a0626308ebccf",
@@ -3577,7 +3832,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0087"
   },
   {
     "record_id": "img_fe6493dfb389b7f5",
@@ -3603,7 +3859,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0139"
   },
   {
     "record_id": "img_6205c940ef544e0b",
@@ -3632,7 +3889,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0165"
   },
   {
     "record_id": "img_9299c7a090b03878",
@@ -3658,7 +3916,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0062"
   },
   {
     "record_id": "img_3e252c3b2ce712aa",
@@ -3685,7 +3944,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0038"
   },
   {
     "record_id": "img_19665af80792888c",
@@ -3713,7 +3973,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0046"
   },
   {
     "record_id": "img_21b5c2878b287c35",
@@ -3743,7 +4004,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0268"
   },
   {
     "record_id": "img_37aa1bf5e6a5fe7d",
@@ -3777,34 +4039,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_11892e76e7df49d3",
-    "title": "Group Portrait in Front of Ramona's Mexican Food Restaurant",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "cafe",
-      "f",
-      "mexican",
-      "ramona",
-      "s"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0137"
   },
   {
     "record_id": "img_87313621a59a7991",
@@ -3831,7 +4067,36 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0231"
+  },
+  {
+    "record_id": "img_11892e76e7df49d3",
+    "title": "Group Portrait in Front of Ramona's Mexican Food Restaurant",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "cafe",
+      "f",
+      "mexican",
+      "ramona",
+      "s"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0194"
   },
   {
     "record_id": "img_da155fda02d882ee",
@@ -3861,7 +4126,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0143"
   },
   {
     "record_id": "img_b0d82053666b74fe",
@@ -3890,7 +4156,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0153"
   },
   {
     "record_id": "img_a85c852bf4ca3f39",
@@ -3920,7 +4187,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0144"
   },
   {
     "record_id": "img_a3f413e8c9ed23bb",
@@ -3933,6 +4201,68 @@
       "fruit",
       "man",
       "tree"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0086"
+  },
+  {
+    "record_id": "img_249f0f6378f9b2c4",
+    "reference_number": "BLD-0272",
+    "title": "Historic San Timoteo Canyon — book cover (Peggy Christian, 2002)",
+    "priority": 0,
+    "reason": "Provenance verified — source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "2002",
+      "book",
+      "cattle",
+      "cover",
+      "historic san timoteo canyon",
+      "peggy christian",
+      "ranch",
+      "san timoteo canyon"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": []
+  },
+  {
+    "record_id": "img_02236570d4b27a6c",
+    "reference_number": "BLD-0273",
+    "title": "Historic San Timoteo Canyon — copyright and publication page (2002)",
+    "priority": 0,
+    "reason": "Provenance verified — source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "2002",
+      "copyright",
+      "historic san timoteo canyon",
+      "isbn 0-930704-33-9",
+      "peggy christian",
+      "publication",
+      "sagebrush press"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -3973,7 +4303,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0025"
   },
   {
     "record_id": "img_6345c804830d0a07",
@@ -4000,7 +4331,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0265"
   },
   {
     "record_id": "img_c6fa941a29b0f0cd",
@@ -4027,7 +4359,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0039"
   },
   {
     "record_id": "img_03ae9abaca02013c",
@@ -4058,7 +4391,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0096"
   },
   {
     "record_id": "img_953fbfaa8e42a2fb",
@@ -4084,7 +4418,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0081"
   },
   {
     "record_id": "img_4e6f8597cedbda5b",
@@ -4109,7 +4444,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0082"
   },
   {
     "record_id": "img_a7581c3a3616e8da",
@@ -4134,7 +4470,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0075"
   },
   {
     "record_id": "img_6feb4c505e0a58be",
@@ -4161,7 +4498,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0162"
   },
   {
     "record_id": "img_1ad76840ab48ba0e",
@@ -4185,7 +4523,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0262"
   },
   {
     "record_id": "img_477fd73b5434521f",
@@ -4198,6 +4537,36 @@
       "john",
       "lumberyard",
       "mccoy"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0013"
+  },
+  {
+    "record_id": "img_c005864c8b7938d0",
+    "reference_number": "BLD-0014",
+    "title": "John Morongo's grandchildren at the Potrero, c. 1895–1905",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "children",
+      "potrero",
+      "morongo",
+      "victoria miguel",
+      "family",
+      "home"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -4239,7 +4608,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0089"
   },
   {
     "record_id": "img_4a82e2c89eb4a27d",
@@ -4274,7 +4644,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0063"
   },
   {
     "record_id": "img_e8c5738ad26c5ffc",
@@ -4307,7 +4678,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0076"
   },
   {
     "record_id": "img_e6c2b250138da121",
@@ -4343,7 +4715,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0047"
   },
   {
     "record_id": "img_2a51e22c51021029",
@@ -4368,7 +4741,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0069"
   },
   {
     "record_id": "img_dee5615ad57181f9",
@@ -4395,7 +4769,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0070"
   },
   {
     "record_id": "img_056f22949c5d906e",
@@ -4423,7 +4798,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0071"
   },
   {
     "record_id": "img_b3dcb09d831e2058",
@@ -4459,7 +4835,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0145"
   },
   {
     "record_id": "img_d5b3e8d2100926fd",
@@ -4490,27 +4867,20 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0048"
   },
   {
-    "record_id": "img_ca02842503e130c9",
-    "title": "Luis and Emeteria Estrada Family Portrait, Beaumont",
+    "record_id": "img_c822a8c6bb7c2f67",
+    "title": "Luis Estrada Road Street Sign",
     "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
     "search_terms": [
-      "collection",
       "estrada",
-      "family",
-      "house",
-      "in",
-      "leslie",
       "luis",
-      "pacific",
-      "railroad",
-      "section",
-      "southern",
-      "their"
+      "road",
+      "sign"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -4524,7 +4894,65 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0232"
+  },
+  {
+    "record_id": "img_6ddebbe0de2a589d",
+    "title": "Luis Estrada Road Street Sign at Veile Avenue",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "b",
+      "estrad",
+      "luis",
+      "road",
+      "sign"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0233"
+  },
+  {
+    "record_id": "img_3c18a28de48c53d4",
+    "title": "Luis Estrada Road street sign at Veile Avenue",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "estrada",
+      "luis",
+      "road",
+      "sign",
+      "stop",
+      "with"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0234"
   },
   {
     "record_id": "img_9acdf5b823073389",
@@ -4562,7 +4990,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0209"
   },
   {
     "record_id": "img_39722a07ed88a499",
@@ -4595,7 +5024,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0210"
   },
   {
     "record_id": "img_99913db9881316f3",
@@ -4627,7 +5057,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0202"
   },
   {
     "record_id": "img_48e0a1029b9b35cf",
@@ -4660,19 +5091,28 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0211"
   },
   {
-    "record_id": "img_c822a8c6bb7c2f67",
-    "title": "Luis Estrada Road Street Sign",
+    "record_id": "img_ca02842503e130c9",
+    "title": "Luis and Emeteria Estrada Family Portrait, Beaumont",
     "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
     "search_terms": [
+      "collection",
       "estrada",
+      "family",
+      "house",
+      "in",
+      "leslie",
       "luis",
-      "road",
-      "sign"
+      "pacific",
+      "railroad",
+      "section",
+      "southern",
+      "their"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -4686,62 +5126,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_6ddebbe0de2a589d",
-    "title": "Luis Estrada Road Street Sign at Veile Avenue",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "b",
-      "estrad",
-      "luis",
-      "road",
-      "sign"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_3c18a28de48c53d4",
-    "title": "Luis Estrada Road street sign at Veile Avenue",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "estrada",
-      "luis",
-      "road",
-      "sign",
-      "stop",
-      "with"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0127"
   },
   {
     "record_id": "img_99255ef1fe8299f3",
@@ -4768,7 +5154,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0235"
   },
   {
     "record_id": "img_d6de78f86c47985e",
@@ -4795,7 +5182,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0195"
   },
   {
     "record_id": "img_61eb33f53f56982d",
@@ -4820,7 +5208,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0236"
   },
   {
     "record_id": "img_a4ddc941e94d3eed",
@@ -4845,7 +5234,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0055"
   },
   {
     "record_id": "img_bad44539e3bf4b42",
@@ -4871,7 +5261,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0178"
   },
   {
     "record_id": "img_8da5c565955aa314",
@@ -4898,7 +5289,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0237"
   },
   {
     "record_id": "img_366a85910d2e675f",
@@ -4925,7 +5317,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0140"
   },
   {
     "record_id": "img_8dec862cc0cae6ba",
@@ -4951,7 +5344,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0118"
   },
   {
     "record_id": "img_a144edcec7a50be8",
@@ -4978,7 +5372,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0074"
   },
   {
     "record_id": "img_67d561c6f67c1ba2",
@@ -5008,7 +5403,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0176"
   },
   {
     "record_id": "img_c01f0729b7635aa7",
@@ -5035,7 +5431,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0064"
   },
   {
     "record_id": "img_f711da54b73a8423",
@@ -5063,7 +5460,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0049"
   },
   {
     "record_id": "img_dd956905449c7642",
@@ -5089,7 +5487,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0186"
   },
   {
     "record_id": "img_1d5ad1237f7755e2",
@@ -5119,7 +5518,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0102"
   },
   {
     "record_id": "img_e227a30890d191f3",
@@ -5140,7 +5540,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0212"
   },
   {
     "record_id": "img_37e600853baf16af",
@@ -5169,7 +5570,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0154"
   },
   {
     "record_id": "img_c39e3df610ea24d9",
@@ -5180,6 +5582,73 @@
     "search_terms": [
       "pauline",
       "weaver"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0090"
+  },
+  {
+    "record_id": "img_9e1894c555b3bc53",
+    "reference_number": "BLD-0274",
+    "title": "Pauline Weaver — portrait drawing by Paul Christian (published 2002)",
+    "priority": 0,
+    "reason": "Provenance verified — source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "2002",
+      "drawing",
+      "historic san timoteo canyon",
+      "page 169",
+      "paul christian",
+      "pauline weaver",
+      "portrait",
+      "san gorgonio pass"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": []
+  },
+  {
+    "record_id": "img_8a9c10dc19758b76",
+    "reference_number": "BLD-0275",
+    "title": "Pauline Weaver's San Gorgonio Pass home — reconstruction drawing by Sharon Estrada (published 2002)",
+    "priority": 0,
+    "reason": "Provenance verified — source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "1834",
+      "1845",
+      "1856",
+      "2002",
+      "drawing",
+      "historic san timoteo canyon",
+      "o.c. ord",
+      "page 166",
+      "pauline weaver",
+      "rancho",
+      "san gorgonio pass",
+      "sharon estrada"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -5227,7 +5696,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0050"
   },
   {
     "record_id": "img_5430b97f619e1088",
@@ -5252,7 +5722,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0107"
   },
   {
     "record_id": "img_cc7036a752144a64",
@@ -5280,7 +5751,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0119"
   },
   {
     "record_id": "img_634101dcee127994",
@@ -5308,7 +5780,33 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0124"
+  },
+  {
+    "record_id": "img_6b0ff0ed19b0fb9e",
+    "title": "Ramona V. Torres — c. 1940s portrait as reproduced on the Ramona's Restaurant menu",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "ramona",
+      "torres"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0110"
   },
   {
     "record_id": "img_2ffb4cd6b691c887",
@@ -5335,7 +5833,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0166"
   },
   {
     "record_id": "img_f3ff85c652f90c21",
@@ -5362,7 +5861,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0159"
   },
   {
     "record_id": "img_ba7b9a02b3a0292c",
@@ -5389,31 +5889,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_6b0ff0ed19b0fb9e",
-    "title": "Ramona V. Torres — c. 1940s portrait as reproduced on the Ramona's Restaurant menu",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "ramona",
-      "torres"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0160"
   },
   {
     "record_id": "img_3f4c4ca617098fd8",
@@ -5440,7 +5917,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0238"
   },
   {
     "record_id": "img_040513e8698b345f",
@@ -5467,7 +5945,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0239"
   },
   {
     "record_id": "img_8ee30e567a4b5e66",
@@ -5495,7 +5974,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0240"
   },
   {
     "record_id": "img_d36ca3005fd7406a",
@@ -5522,7 +6002,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0241"
   },
   {
     "record_id": "img_cc1a3e9d9b7f9b76",
@@ -5546,7 +6027,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0214"
   },
   {
     "record_id": "img_78e4dd6ee33f5c18",
@@ -5571,7 +6053,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0215"
   },
   {
     "record_id": "img_a48b18e93521487b",
@@ -5606,7 +6089,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0188"
   },
   {
     "record_id": "img_7b302ec1a5a6c157",
@@ -5630,7 +6114,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0065"
   },
   {
     "record_id": "img_df9bd9231a83651c",
@@ -5656,7 +6141,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0030"
   },
   {
     "record_id": "img_e223c8fe27b85e0d",
@@ -5682,667 +6168,22 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0015"
   },
   {
-    "record_id": "img_2a8133ae8e586364",
-    "title": "Sacred Heart Barrio Church, 2018 (view C)",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "barrio",
-      "c",
-      "church",
-      "heart",
-      "sacred"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_22f62627c5d79f7e",
-    "title": "Sacred Heart Church (built 1956), Beaumont barrio — printed halftone reproduction",
+    "record_id": "img_9b7ed2e698bcc615",
+    "reference_number": "BLD-0040",
+    "title": "Rice and his children, Morongo Reservation, c. 1912",
     "priority": 0,
     "reason": "Researched — evidence-linked record in the catalog",
     "status": "Researched",
     "search_terms": [
-      "barrio",
-      "beaumont",
-      "date",
-      "heart",
-      "in",
-      "parish",
-      "sared"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_21f5dda0d6f26b4a",
-    "title": "Sam's Cafe on 6th Street, northeast corner of 6th and Edgar Streets",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "cafe",
-      "courtesy",
-      "deforge",
-      "s",
-      "sam",
-      "scott"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_ef0e1fe665c580a0",
-    "title": "Sam's Cafe on Sixth Street (U.S. 60-70-99), Beaumont — Frasher's Fotos postcard F6335",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "cafe",
-      "hwy",
-      "on",
-      "sixth",
-      "street"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_58bba051858fd716",
-    "title": "Scott DeForge and John McLaughlin, Beaumont Fire Department, 1976",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "and",
-      "beaumont",
-      "deforge",
-      "department",
-      "dept",
-      "fire",
-      "john",
-      "left",
-      "mclaughlin",
-      "right",
-      "scott"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_04328f685390128c",
-    "title": "Scott Karnitz memorial plaque, Beaumont fire station",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "aaa",
-      "at",
-      "beaumont",
-      "fire",
-      "firefighter",
-      "karnitz",
-      "memorial",
-      "scott",
-      "station",
-      "volunteer"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_8a20e0efb687510c",
-    "title": "Scott Karnitz memorial tree and plaque at Beaumont fire station",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "at",
-      "bbb",
-      "beaumont",
-      "fire",
-      "firefighter",
-      "karnitz",
-      "memorial",
-      "scott",
-      "station",
-      "volunteer"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_37bbc779f837532c",
-    "title": "Sean Balingit leading a Historical Society tour at the McCoy House",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "at",
-      "balingit",
-      "credit",
-      "during",
-      "house",
-      "is",
-      "mccoy",
-      "murkland",
-      "pat",
-      "sean",
-      "society",
-      "the",
-      "tour"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_cd302d98752b29e0",
-    "title": "Second Bank of Beaumont Entrance, Fifth Street and California Avenue, c. 1923-1940",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "bank",
-      "beaumont",
-      "district",
-      "from",
-      "library",
-      "of",
-      "second"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_4a9ee3f3baeb6a26",
-    "title": "Section Gang with Track Tools, Luis Estrada at Far Right",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "estrada",
-      "far",
-      "luis",
-      "railworkers",
-      "right"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_5a70b41831a92160",
-    "title": "Sixth Street (then U.S. Highway 99), from the 1946 Beaumont High School annual",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "6th",
-      "bmt",
-      "by",
-      "donated",
-      "fr",
-      "high",
-      "leslie",
-      "rios",
-      "st",
-      "yearbook"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_228a900cb9c1637b",
-    "title": "Sixth Street (U.S. 60-99) with Greyhound bus and Beaumont Theatre — Frasher Fotos postcard F6331",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "bus",
-      "leslie",
-      "postcard",
-      "rios",
-      "sixth",
-      "street",
-      "with"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_e91452d502f8cc96",
-    "title": "Sixth Street looking along U.S. 60-99, Beaumont — Bob's Cafe, Kelt's Sporting Goods, George's 5 & 10 (real photo postcard no. 111)",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "postcard",
-      "sixth",
-      "street"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_6ddd05571b501d15",
-    "title": "Sixth Street north side between Egan and California avenues (Google Street View, 2019)",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "and",
-      "between",
-      "california",
-      "egan",
-      "google",
-      "northside",
-      "sixth",
-      "st"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_a83e9024f8e65c3f",
-    "title": "Sixth Street with roller rink sign and Leonard Real Estate — chrome postcard attributed to Max Mahan",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "collection",
-      "leslie",
-      "postcard",
-      "rink",
-      "rios",
-      "roller",
-      "sign",
-      "sixth",
-      "street",
-      "with"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_d5db437b82ea712d",
-    "title": "Sixth Street, Beaumont — real-photo postcard, c. 1950s (from eBay listing)",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "ebay",
-      "front",
-      "postcard",
-      "sixth",
-      "street"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_00cfeb70e204b1b8",
-    "title": "Sombrero-Shaped Topiary at Ramona's Mexican Cafe",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "bushes",
-      "cafe",
-      "mexican",
-      "ramona",
-      "s",
-      "sombrero"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_88e0efbd8026acce",
-    "title": "South side of West 5th Street, Beaumont — Crowther Real Estate, Beaumont Variety Store, Pass City Grocery, and Maloof's, c. 1933-1937",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "calisphere",
-      "fifth",
-      "street"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_6f833a14a7764e47",
-    "title": "Southern Pacific depot, Beaumont",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "beaumont",
-      "calisphere",
-      "depot",
-      "railroad",
-      "train"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_98c82304eed8a985",
-    "title": "Southern Pacific Depot, Beaumont — real photo postcard, c. 1909",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "beaumont",
-      "depot",
-      "ebay",
-      "from",
-      "postcard",
-      "train"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_7cc7f95ae75d9aa6",
-    "title": "Southern Pacific depot, Beaumont, California — real-photo postcard, postmarked March 28, 1909",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "beaumont",
-      "collections",
-      "depot",
-      "digital",
-      "libary",
-      "tyrrell"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_934590dec97e3d15",
-    "title": "Southern Pacific depot, Beaumont, with arriving train (printed postcard)",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "after",
-      "beaumont",
-      "depot",
-      "expansion",
-      "remodel",
-      "train"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_70f5802804fd1652",
-    "title": "Southern Pacific depot, Peter Allen's store, and the Hotel Beaumont — postcard view of early Beaumont",
-    "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
-    "search_terms": [
-      "allen",
-      "and",
-      "beaumont",
-      "fr",
-      "front",
-      "hotel",
-      "karen",
-      "noordman",
-      "peter",
-      "postcard",
-      "station",
-      "store",
-      "sumner",
-      "train"
+      "rice",
+      "family",
+      "children",
+      "morongo",
+      "portrait"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -6392,7 +6233,739 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
+    "candidates": [],
+    "reference_number": "BLD-0033"
+  },
+  {
+    "record_id": "img_2a8133ae8e586364",
+    "title": "Sacred Heart Barrio Church, 2018 (view C)",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "barrio",
+      "c",
+      "church",
+      "heart",
+      "sacred"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0242"
+  },
+  {
+    "record_id": "img_22f62627c5d79f7e",
+    "title": "Sacred Heart Church (built 1956), Beaumont barrio — printed halftone reproduction",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "barrio",
+      "beaumont",
+      "date",
+      "heart",
+      "in",
+      "parish",
+      "sared"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0157"
+  },
+  {
+    "record_id": "img_21f5dda0d6f26b4a",
+    "title": "Sam's Cafe on 6th Street, northeast corner of 6th and Edgar Streets",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "cafe",
+      "courtesy",
+      "deforge",
+      "s",
+      "sam",
+      "scott"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0125"
+  },
+  {
+    "record_id": "img_ef0e1fe665c580a0",
+    "title": "Sam's Cafe on Sixth Street (U.S. 60-70-99), Beaumont — Frasher's Fotos postcard F6335",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "cafe",
+      "hwy",
+      "on",
+      "sixth",
+      "street"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0114"
+  },
+  {
+    "record_id": "img_8c0bb840c893921b",
+    "reference_number": "BLD-0020",
+    "title": "Sanborn Fire Insurance Map of Beaumont, 1895 (The Beaumont Hotel)",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "1895",
+      "beaumont",
+      "beaumont hotel",
+      "depot",
+      "fire insurance",
+      "hotel",
+      "hotel del paso",
+      "map",
+      "public school",
+      "sanborn",
+      "summit house"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
     "candidates": []
+  },
+  {
+    "record_id": "img_58bba051858fd716",
+    "title": "Scott DeForge and John McLaughlin, Beaumont Fire Department, 1976",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "and",
+      "beaumont",
+      "deforge",
+      "department",
+      "dept",
+      "fire",
+      "john",
+      "left",
+      "mclaughlin",
+      "right",
+      "scott"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0184"
+  },
+  {
+    "record_id": "img_04328f685390128c",
+    "title": "Scott Karnitz memorial plaque, Beaumont fire station",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "aaa",
+      "at",
+      "beaumont",
+      "fire",
+      "firefighter",
+      "karnitz",
+      "memorial",
+      "scott",
+      "station",
+      "volunteer"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0199"
+  },
+  {
+    "record_id": "img_8a20e0efb687510c",
+    "title": "Scott Karnitz memorial tree and plaque at Beaumont fire station",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "at",
+      "bbb",
+      "beaumont",
+      "fire",
+      "firefighter",
+      "karnitz",
+      "memorial",
+      "scott",
+      "station",
+      "volunteer"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0200"
+  },
+  {
+    "record_id": "img_37bbc779f837532c",
+    "title": "Sean Balingit leading a Historical Society tour at the McCoy House",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "at",
+      "balingit",
+      "credit",
+      "during",
+      "house",
+      "is",
+      "mccoy",
+      "murkland",
+      "pat",
+      "sean",
+      "society",
+      "the",
+      "tour"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0220"
+  },
+  {
+    "record_id": "img_cd302d98752b29e0",
+    "title": "Second Bank of Beaumont Entrance, Fifth Street and California Avenue, c. 1923-1940",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "bank",
+      "beaumont",
+      "district",
+      "from",
+      "library",
+      "of",
+      "second"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0093"
+  },
+  {
+    "record_id": "img_4a9ee3f3baeb6a26",
+    "title": "Section Gang with Track Tools, Luis Estrada at Far Right",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "estrada",
+      "far",
+      "luis",
+      "railworkers",
+      "right"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0103"
+  },
+  {
+    "record_id": "img_228a900cb9c1637b",
+    "title": "Sixth Street (U.S. 60-99) with Greyhound bus and Beaumont Theatre — Frasher Fotos postcard F6331",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "bus",
+      "leslie",
+      "postcard",
+      "rios",
+      "sixth",
+      "street",
+      "with"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0132"
+  },
+  {
+    "record_id": "img_5a70b41831a92160",
+    "title": "Sixth Street (then U.S. Highway 99), from the 1946 Beaumont High School annual",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "6th",
+      "bmt",
+      "by",
+      "donated",
+      "fr",
+      "high",
+      "leslie",
+      "rios",
+      "st",
+      "yearbook"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0131"
+  },
+  {
+    "record_id": "img_e91452d502f8cc96",
+    "title": "Sixth Street looking along U.S. 60-99, Beaumont — Bob's Cafe, Kelt's Sporting Goods, George's 5 & 10 (real photo postcard no. 111)",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "postcard",
+      "sixth",
+      "street"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0147"
+  },
+  {
+    "record_id": "img_6ddd05571b501d15",
+    "title": "Sixth Street north side between Egan and California avenues (Google Street View, 2019)",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "and",
+      "between",
+      "california",
+      "egan",
+      "google",
+      "northside",
+      "sixth",
+      "st"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0251"
+  },
+  {
+    "record_id": "img_a83e9024f8e65c3f",
+    "title": "Sixth Street with roller rink sign and Leonard Real Estate — chrome postcard attributed to Max Mahan",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "collection",
+      "leslie",
+      "postcard",
+      "rink",
+      "rios",
+      "roller",
+      "sign",
+      "sixth",
+      "street",
+      "with"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0155"
+  },
+  {
+    "record_id": "img_d5db437b82ea712d",
+    "title": "Sixth Street, Beaumont — real-photo postcard, c. 1950s (from eBay listing)",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "ebay",
+      "front",
+      "postcard",
+      "sixth",
+      "street"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0133"
+  },
+  {
+    "record_id": "img_00cfeb70e204b1b8",
+    "title": "Sombrero-Shaped Topiary at Ramona's Mexican Cafe",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "bushes",
+      "cafe",
+      "mexican",
+      "ramona",
+      "s",
+      "sombrero"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0243"
+  },
+  {
+    "record_id": "img_88e0efbd8026acce",
+    "title": "South side of West 5th Street, Beaumont — Crowther Real Estate, Beaumont Variety Store, Pass City Grocery, and Maloof's, c. 1933-1937",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "calisphere",
+      "fifth",
+      "street"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0106"
+  },
+  {
+    "record_id": "img_98c82304eed8a985",
+    "title": "Southern Pacific Depot, Beaumont — real photo postcard, c. 1909",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "beaumont",
+      "depot",
+      "ebay",
+      "from",
+      "postcard",
+      "train"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0056"
+  },
+  {
+    "record_id": "img_6f833a14a7764e47",
+    "title": "Southern Pacific depot, Beaumont",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "beaumont",
+      "calisphere",
+      "depot",
+      "railroad",
+      "train"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0031"
+  },
+  {
+    "record_id": "img_7cc7f95ae75d9aa6",
+    "title": "Southern Pacific depot, Beaumont, California — real-photo postcard, postmarked March 28, 1909",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "beaumont",
+      "collections",
+      "depot",
+      "digital",
+      "libary",
+      "tyrrell"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0057"
+  },
+  {
+    "record_id": "img_934590dec97e3d15",
+    "title": "Southern Pacific depot, Beaumont, with arriving train (printed postcard)",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "after",
+      "beaumont",
+      "depot",
+      "expansion",
+      "remodel",
+      "train"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0032"
+  },
+  {
+    "record_id": "img_70f5802804fd1652",
+    "title": "Southern Pacific depot, Peter Allen's store, and the Hotel Beaumont — postcard view of early Beaumont",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "allen",
+      "and",
+      "beaumont",
+      "fr",
+      "front",
+      "hotel",
+      "karen",
+      "noordman",
+      "peter",
+      "postcard",
+      "station",
+      "store",
+      "sumner",
+      "train"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0007"
   },
   {
     "record_id": "img_c15c20a838d86c18",
@@ -6416,7 +6989,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0002"
   },
   {
     "record_id": "img_56f78e949de648f8",
@@ -6441,7 +7015,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0256"
   },
   {
     "record_id": "img_7dad1702b8b44459",
@@ -6473,7 +7048,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0163"
   },
   {
     "record_id": "img_64fee8a381ae5df5",
@@ -6499,7 +7075,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0257"
   },
   {
     "record_id": "img_06355ab9cdf953fb",
@@ -6526,7 +7103,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0170"
   },
   {
     "record_id": "img_a7a6b112d9c297dd",
@@ -6552,7 +7130,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0083"
   },
   {
     "record_id": "img_1dfdd8cac1f62558",
@@ -6578,7 +7157,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0001"
   },
   {
     "record_id": "img_299b9a16b53340ed",
@@ -6603,7 +7183,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0072"
   },
   {
     "record_id": "img_816fb6e3233bbf73",
@@ -6628,7 +7209,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0269"
   },
   {
     "record_id": "img_3a78cd9990a52f8f",
@@ -6655,7 +7237,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0135"
   },
   {
     "record_id": "img_66a9280d1c1afbf9",
@@ -6695,7 +7278,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0088"
   },
   {
     "record_id": "img_dec6944cb7b040ba",
@@ -6729,7 +7313,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0179"
   },
   {
     "record_id": "img_b08de96dbf496fab",
@@ -6754,7 +7339,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0016"
   },
   {
     "record_id": "img_484acf24f5126598",
@@ -6788,7 +7374,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0120"
   },
   {
     "record_id": "img_2d0928cd5901f761",
@@ -6815,7 +7402,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0134"
   },
   {
     "record_id": "img_f525afa6dc4390a8",
@@ -6840,7 +7428,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0051"
   },
   {
     "record_id": "img_9dee891466dac007",
@@ -6871,7 +7460,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0097"
   },
   {
     "record_id": "img_3f09693198e8de04",
@@ -6899,7 +7489,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0017"
   },
   {
     "record_id": "img_433403e951bbabcd",
@@ -6927,7 +7518,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0121"
   },
   {
     "record_id": "img_4ec3e978a2772b6b",
@@ -6956,7 +7548,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0104"
   },
   {
     "record_id": "img_23a4b70023473f20",
@@ -6981,7 +7574,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0266"
   },
   {
     "record_id": "img_45720d2a6586237d",
@@ -7008,7 +7602,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0021"
   },
   {
     "record_id": "img_7dbe92a607028a11",
@@ -7033,7 +7628,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0264"
   },
   {
     "record_id": "img_fd15a86cd86982d6",
@@ -7061,7 +7657,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0092"
   },
   {
     "record_id": "img_e3de81c2cb7655c8",
@@ -7086,39 +7683,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_cb8fe08683e0e832",
-    "title": "Vargas family of Ramona's Mexican Cafe on the Historical Society float, Cherry Festival parade, 2025",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "cafe",
-      "cherry",
-      "family",
-      "festival",
-      "mexican",
-      "of",
-      "parade",
-      "ramona",
-      "s",
-      "vargas"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0098"
   },
   {
     "record_id": "img_5bcc7a2a42f3de62",
@@ -7150,7 +7716,41 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0271"
+  },
+  {
+    "record_id": "img_cb8fe08683e0e832",
+    "title": "Vargas family of Ramona's Mexican Cafe on the Historical Society float, Cherry Festival parade, 2025",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "cafe",
+      "cherry",
+      "family",
+      "festival",
+      "mexican",
+      "of",
+      "parade",
+      "ramona",
+      "s",
+      "vargas"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0270"
   },
   {
     "record_id": "img_7d409eb4d324e61e",
@@ -7188,24 +7788,21 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0094"
   },
   {
-    "record_id": "img_240a367ade7eccf1",
-    "title": "Water well drilling in Edgar Canyon",
+    "record_id": "img_40d6c2b8e19fd527",
+    "title": "WCTU Fountain Inscription 'W.C.T.U. Dec. 25, 1910', Triangle Park",
     "priority": 0,
-    "reason": "Researched — evidence-linked record in the catalog",
-    "status": "Researched",
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
     "search_terms": [
-      "beaumont",
-      "canyon",
-      "district",
-      "drilling",
-      "edgar",
-      "from",
-      "library",
-      "water",
-      "well"
+      "fountain",
+      "in",
+      "park",
+      "triangle",
+      "wctu"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -7219,7 +7816,36 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0246"
+  },
+  {
+    "record_id": "img_a999fd2c808b66bb",
+    "title": "WCTU Fountain Masonry Detail",
+    "priority": 0,
+    "reason": "Provenance verified — modern record; source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "fountain",
+      "in",
+      "park",
+      "triangle",
+      "wctu"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0247"
   },
   {
     "record_id": "img_50e61a8496f4bfd2",
@@ -7252,7 +7878,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0066"
   },
   {
     "record_id": "img_8aa40ef6d2dbc201",
@@ -7279,7 +7906,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0244"
   },
   {
     "record_id": "img_3c8f15b64eec6c9e",
@@ -7306,61 +7934,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_40d6c2b8e19fd527",
-    "title": "WCTU Fountain Inscription 'W.C.T.U. Dec. 25, 1910', Triangle Park",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "fountain",
-      "in",
-      "park",
-      "triangle",
-      "wctu"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
-    "record_id": "img_a999fd2c808b66bb",
-    "title": "WCTU Fountain Masonry Detail",
-    "priority": 0,
-    "reason": "Provenance verified — modern record; source and rights documented",
-    "status": "Provenance verified",
-    "search_terms": [
-      "fountain",
-      "in",
-      "park",
-      "triangle",
-      "wctu"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0245"
   },
   {
     "record_id": "img_284993317d64a5e4",
@@ -7387,7 +7962,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0248"
   },
   {
     "record_id": "img_591fdce9e557db2e",
@@ -7414,7 +7990,40 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0249"
+  },
+  {
+    "record_id": "img_240a367ade7eccf1",
+    "title": "Water well drilling in Edgar Canyon",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "beaumont",
+      "canyon",
+      "district",
+      "drilling",
+      "edgar",
+      "from",
+      "library",
+      "water",
+      "well"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0052"
   },
   {
     "record_id": "img_47cf3e6c1c4e364b",
@@ -7440,7 +8049,8 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0122"
   },
   {
     "record_id": "img_530a9cbb25c298f7",
@@ -7461,6 +8071,37 @@
       "soon",
       "was",
       "wellwood"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": [],
+    "reference_number": "BLD-0091"
+  },
+  {
+    "record_id": "img_c453ab61e0df544e",
+    "reference_number": "BLD-0022",
+    "title": "Wickiup (arrowweed dwelling), Morongo Reservation",
+    "priority": 0,
+    "reason": "Researched — evidence-linked record in the catalog",
+    "status": "Researched",
+    "search_terms": [
+      "wickiup",
+      "kish",
+      "dwelling",
+      "morongo",
+      "thresher",
+      "cahuilla",
+      "serrano"
     ],
     "candidate_sources": [
       "San Gorgonio Pass Historical Society",
@@ -7502,6 +8143,7 @@
       "Wikimedia Commons",
       "Universities, museums, and free newspaper archives"
     ],
-    "candidates": []
+    "candidates": [],
+    "reference_number": "BLD-0126"
   }
 ]

@@ -22,7 +22,7 @@ from catalog_pipeline import (  # noqa: E402
 )
 
 DATA = REPO / "data"
-CSV_FIELDS = ["id", "title", "caption", "attribution", "attribution_confidence",
+CSV_FIELDS = ["reference_number", "id", "title", "caption", "attribution", "attribution_confidence",
               "caption_source", "date_start", "date_end", "decade", "curated",
               "selected_default", "classification", "recommended_print",
               "master_file_id", "rights_status", "research_status",
@@ -57,6 +57,7 @@ def main():
     for r in cat["records"]:
         evidence = (r.get("research") or {}).get("evidence", [])
         rows.append({
+            "reference_number": r.get("reference_number", ""),
             "id": r["id"], "title": r["title"], "caption": r.get("caption", ""),
             "attribution": r.get("attribution", "Unknown"),
             "attribution_confidence": r.get("attribution_confidence", "unknown"),
@@ -89,6 +90,7 @@ def main():
             record = by_id.get(item.get("record_id"))
             if not record:
                 continue
+            item["reference_number"] = record.get("reference_number", "")
             item["title"] = record["title"]
             status = record.get("research_status")
             reasons = {

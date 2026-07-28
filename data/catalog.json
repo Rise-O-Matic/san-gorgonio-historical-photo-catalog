@@ -13,15 +13,15 @@
   },
   "summary": {
     "candidate_files": 353,
-    "readable_files": 356,
+    "readable_files": 360,
     "unreadable_files": 0,
-    "historical_records": 271,
+    "historical_records": 275,
     "curated_records": 17,
     "selected_by_default": 17,
     "formats": {
       ".heic": 1,
       ".jpeg": 35,
-      ".jpg": 296,
+      ".jpg": 300,
       ".pdf": 1,
       ".png": 20,
       ".webp": 3
@@ -215,7 +215,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0001"
     },
     {
       "id": "img_c15c20a838d86c18",
@@ -438,7 +439,8 @@
         },
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0002"
     },
     {
       "id": "img_0e0e59f901586c2a",
@@ -572,7 +574,8 @@
         },
         "researched": "2026-07-22",
         "source_manifest": "Huntington Weinland album (photCL 39); see data/research-assets/sources/huntington-weinland/"
-      }
+      },
+      "reference_number": "BLD-0003"
     },
     {
       "id": "img_72d13585ff607c22",
@@ -833,7 +836,8 @@
         },
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0004"
     },
     {
       "id": "img_5658eba56b079aef",
@@ -1089,7 +1093,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0005"
     },
     {
       "id": "img_049b709d6ffb773a",
@@ -1297,7 +1302,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0006"
     },
     {
       "id": "img_70f5802804fd1652",
@@ -1517,7 +1523,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0007"
     },
     {
       "id": "img_43eb34083eb2296d",
@@ -1734,7 +1741,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0008"
     },
     {
       "id": "img_5f9b3935055576a5",
@@ -1963,7 +1971,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0009"
     },
     {
       "id": "img_31bfa277fbd3230d",
@@ -2145,7 +2154,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0010"
     },
     {
       "id": "img_17d9fad337a3fded",
@@ -2388,7 +2398,8 @@
         },
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0011"
     },
     {
       "id": "img_4e8d4526096e0dd7",
@@ -2750,7 +2761,8 @@
         },
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0012"
     },
     {
       "id": "img_477fd73b5434521f",
@@ -2932,7 +2944,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0013"
     },
     {
       "id": "img_c005864c8b7938d0",
@@ -3068,7 +3081,8 @@
         },
         "researched": "2026-07-22",
         "source_manifest": "Huntington Weinland album (photCL 39); see data/research-assets/sources/huntington-weinland/"
-      }
+      },
+      "reference_number": "BLD-0014"
     },
     {
       "id": "img_e223c8fe27b85e0d",
@@ -3258,7 +3272,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0015"
     },
     {
       "id": "img_b08de96dbf496fab",
@@ -3492,7 +3507,8 @@
         ],
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0016"
     },
     {
       "id": "img_3f09693198e8de04",
@@ -3738,7 +3754,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0017"
     },
     {
       "id": "img_9a09c6788b0dddf1",
@@ -3947,7 +3964,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0018"
     },
     {
       "id": "img_6278e20aa65dd6a8",
@@ -4151,7 +4169,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0019"
     },
     {
       "id": "img_8c0bb840c893921b",
@@ -4340,7 +4359,8 @@
           "Is this “Beaumont Hotel” the boom-era hotel reported to have burned Aug. 16, 1909 (afterward the Edinburgh Hotel, near 5th & Beaumont Ave.)? Plausible by location, unconfirmed."
         ],
         "researched": "2026-07-24"
-      }
+      },
+      "reference_number": "BLD-0020"
     },
     {
       "id": "img_45720d2a6586237d",
@@ -4575,7 +4595,8 @@
         },
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0021"
     },
     {
       "id": "img_c453ab61e0df544e",
@@ -4709,7 +4730,8 @@
         },
         "researched": "2026-07-22",
         "source_manifest": "Huntington Weinland album (photCL 39); see data/research-assets/sources/huntington-weinland/"
-      }
+      },
+      "reference_number": "BLD-0022"
     },
     {
       "id": "img_7235362ef72b0a0b",
@@ -4843,7 +4865,8 @@
         },
         "researched": "2026-07-22",
         "source_manifest": "Huntington Weinland album (photCL 39); see data/research-assets/sources/huntington-weinland/"
-      }
+      },
+      "reference_number": "BLD-0023"
     },
     {
       "id": "img_83b4208d7a588795",
@@ -5033,7 +5056,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0024"
     },
     {
       "id": "img_2846f7be40e9aff6",
@@ -5222,7 +5246,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0025"
     },
     {
       "id": "img_68556e4afecfa748",
@@ -5424,7 +5449,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0026"
     },
     {
       "id": "img_92d81318b1127f4b",
@@ -5683,7 +5709,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0027"
     },
     {
       "id": "img_7835865b7e46b59c",
@@ -5875,7 +5902,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0028"
     },
     {
       "id": "img_d94679a3a45f55c0",
@@ -6102,7 +6130,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0029"
     },
     {
       "id": "img_df9bd9231a83651c",
@@ -6288,7 +6317,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0030"
     },
     {
       "id": "img_6f833a14a7764e47",
@@ -6549,7 +6579,8 @@
         },
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0031"
     },
     {
       "id": "img_934590dec97e3d15",
@@ -6738,7 +6769,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0032"
     },
     {
       "id": "img_07a9db15e22db499",
@@ -7015,7 +7047,8 @@
         ],
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0033"
     },
     {
       "id": "img_b2764c9151e44824",
@@ -7213,7 +7246,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0034"
     },
     {
       "id": "img_157678621f95c278",
@@ -7396,7 +7430,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0035"
     },
     {
       "id": "img_179919b175fe6648",
@@ -7654,7 +7689,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0036"
     },
     {
       "id": "img_650198dd9e4987ea",
@@ -7894,7 +7930,8 @@
         ],
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0037"
     },
     {
       "id": "img_3e252c3b2ce712aa",
@@ -8093,7 +8130,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0038"
     },
     {
       "id": "img_c6fa941a29b0f0cd",
@@ -8277,7 +8315,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0039"
     },
     {
       "id": "img_9b7ed2e698bcc615",
@@ -8409,7 +8448,8 @@
         },
         "researched": "2026-07-22",
         "source_manifest": "Huntington Weinland album (photCL 39); see data/research-assets/sources/huntington-weinland/"
-      }
+      },
+      "reference_number": "BLD-0040"
     },
     {
       "id": "img_2fa19df607bf43e1",
@@ -8591,7 +8631,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0041"
     },
     {
       "id": "img_4b0acbe1458e33c0",
@@ -8796,7 +8837,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0042"
     },
     {
       "id": "img_e0a4861e5d654fdb",
@@ -8994,7 +9036,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0043"
     },
     {
       "id": "img_eabd3578774e347f",
@@ -9196,7 +9239,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0044"
     },
     {
       "id": "img_02861b7cd39cd162",
@@ -9427,7 +9471,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0045"
     },
     {
       "id": "img_19665af80792888c",
@@ -9616,7 +9661,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0046"
     },
     {
       "id": "img_e6c2b250138da121",
@@ -9836,7 +9882,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0047"
     },
     {
       "id": "img_d5b3e8d2100926fd",
@@ -10034,7 +10081,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0048"
     },
     {
       "id": "img_f711da54b73a8423",
@@ -10224,7 +10272,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0049"
     },
     {
       "id": "img_c3a4436f12810d6d",
@@ -10437,7 +10486,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0050"
     },
     {
       "id": "img_f525afa6dc4390a8",
@@ -10668,7 +10718,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0051"
     },
     {
       "id": "img_240a367ade7eccf1",
@@ -10918,7 +10969,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0052"
     },
     {
       "id": "img_e5061c07708726ac",
@@ -11168,7 +11220,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0053"
     },
     {
       "id": "img_4ae2f58167bd00f1",
@@ -11428,7 +11481,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0054"
     },
     {
       "id": "img_a4ddc941e94d3eed",
@@ -11653,7 +11707,8 @@
         },
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0055"
     },
     {
       "id": "img_98c82304eed8a985",
@@ -11840,7 +11895,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0056"
     },
     {
       "id": "img_7cc7f95ae75d9aa6",
@@ -12089,7 +12145,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0057"
     },
     {
       "id": "img_9c26cfc39eca4fc9",
@@ -12292,7 +12349,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0058"
     },
     {
       "id": "img_62e54c6518d7403e",
@@ -12498,7 +12556,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0059"
     },
     {
       "id": "img_7547c2a1a3855993",
@@ -12768,7 +12827,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0060"
     },
     {
       "id": "img_3e64932e3b8abfb7",
@@ -13020,7 +13080,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0061"
     },
     {
       "id": "img_9299c7a090b03878",
@@ -13196,7 +13257,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0062"
     },
     {
       "id": "img_4a82e2c89eb4a27d",
@@ -13412,7 +13474,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0063"
     },
     {
       "id": "img_c01f0729b7635aa7",
@@ -13587,7 +13650,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0064"
     },
     {
       "id": "img_7b302ec1a5a6c157",
@@ -13768,7 +13832,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0065"
     },
     {
       "id": "img_50e61a8496f4bfd2",
@@ -14032,7 +14097,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0066"
     },
     {
       "id": "img_2ba02d1a7deddfd1",
@@ -14356,7 +14422,8 @@
         ],
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0067"
     },
     {
       "id": "img_2880f54eaa19145f",
@@ -14572,7 +14639,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0068"
     },
     {
       "id": "img_2a51e22c51021029",
@@ -14800,7 +14868,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0069"
     },
     {
       "id": "img_dee5615ad57181f9",
@@ -14987,7 +15056,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0070"
     },
     {
       "id": "img_056f22949c5d906e",
@@ -15178,7 +15248,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0071"
     },
     {
       "id": "img_299b9a16b53340ed",
@@ -15350,7 +15421,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0072"
     },
     {
       "id": "img_96cdf4349eff3950",
@@ -15739,7 +15811,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0073"
     },
     {
       "id": "img_a144edcec7a50be8",
@@ -15927,7 +16000,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0074"
     },
     {
       "id": "img_a7581c3a3616e8da",
@@ -16113,7 +16187,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0075"
     },
     {
       "id": "img_e8c5738ad26c5ffc",
@@ -16372,7 +16447,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0076"
     },
     {
       "id": "img_4239365a9df07707",
@@ -16559,7 +16635,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0077"
     },
     {
       "id": "img_c8be9dda2808f47c",
@@ -16747,7 +16824,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0078"
     },
     {
       "id": "img_291537b3068812cf",
@@ -16941,7 +17019,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0079"
     },
     {
       "id": "img_dbf7e0bb619c1c74",
@@ -17168,7 +17247,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0080"
     },
     {
       "id": "img_953fbfaa8e42a2fb",
@@ -17344,7 +17424,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0081"
     },
     {
       "id": "img_4e6f8597cedbda5b",
@@ -17530,7 +17611,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0082"
     },
     {
       "id": "img_a7a6b112d9c297dd",
@@ -17706,7 +17788,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0083"
     },
     {
       "id": "img_092d2807a0231929",
@@ -17934,7 +18017,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0084"
     },
     {
       "id": "img_96cb1ed10cb5a0fd",
@@ -18219,7 +18303,8 @@
         },
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0085"
     },
     {
       "id": "img_a3f413e8c9ed23bb",
@@ -18501,7 +18586,8 @@
         ],
         "researched": "2026-07-24",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0086"
     },
     {
       "id": "img_ed9a0626308ebccf",
@@ -18699,7 +18785,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0087"
     },
     {
       "id": "img_66a9280d1c1afbf9",
@@ -19037,7 +19124,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0088"
     },
     {
       "id": "img_317c261e7e95cb9d",
@@ -19250,7 +19338,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0089"
     },
     {
       "id": "img_c39e3df610ea24d9",
@@ -19527,7 +19616,8 @@
         ],
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0090"
     },
     {
       "id": "img_530a9cbb25c298f7",
@@ -19788,7 +19878,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0091"
     },
     {
       "id": "img_fd15a86cd86982d6",
@@ -19972,7 +20063,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0092"
     },
     {
       "id": "img_cd302d98752b29e0",
@@ -20215,7 +20307,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0093"
     },
     {
       "id": "img_7d409eb4d324e61e",
@@ -20440,7 +20533,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0094"
     },
     {
       "id": "img_0b3ce9bbcc89c40d",
@@ -20695,7 +20789,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0095"
     },
     {
       "id": "img_03ae9abaca02013c",
@@ -20901,7 +20996,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0096"
     },
     {
       "id": "img_9dee891466dac007",
@@ -21108,7 +21204,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0097"
     },
     {
       "id": "img_e3de81c2cb7655c8",
@@ -21288,7 +21385,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0098"
     },
     {
       "id": "img_c66b2fd607cf422f",
@@ -21550,7 +21648,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0099"
     },
     {
       "id": "img_cfdaf786f32d7ba0",
@@ -21737,7 +21836,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0100"
     },
     {
       "id": "img_2aaf83f6b9ef8d97",
@@ -21971,7 +22071,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0101"
     },
     {
       "id": "img_1d5ad1237f7755e2",
@@ -22169,7 +22270,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0102"
     },
     {
       "id": "img_4a9ee3f3baeb6a26",
@@ -22394,7 +22496,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0103"
     },
     {
       "id": "img_4ec3e978a2772b6b",
@@ -22631,7 +22734,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0104"
     },
     {
       "id": "img_0880ba793548d705",
@@ -22829,7 +22933,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0105"
     },
     {
       "id": "img_88e0efbd8026acce",
@@ -23020,7 +23125,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0106"
     },
     {
       "id": "img_5430b97f619e1088",
@@ -23200,7 +23306,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0107"
     },
     {
       "id": "img_8241a89edda429c5",
@@ -23388,7 +23495,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0108"
     },
     {
       "id": "img_82f263746528ece8",
@@ -23610,7 +23718,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0109"
     },
     {
       "id": "img_6b0ff0ed19b0fb9e",
@@ -23787,7 +23896,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0110"
     },
     {
       "id": "img_1bad9a378c6916e3",
@@ -23988,7 +24098,8 @@
           "Confirm the public-domain determination with UCSB's Geospatial Collection: their website states the scans are free to download but publishes no explicit rights statement, and 1930s AAA flights were typically contractor-flown for the federal government."
         ],
         "researched": "2026-07-24"
-      }
+      },
+      "reference_number": "BLD-0111"
     },
     {
       "id": "img_4ac86175e34cb48f",
@@ -24180,7 +24291,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0112"
     },
     {
       "id": "img_9379263df5b97a24",
@@ -24377,7 +24489,8 @@
           "Confirm the public-domain determination with UCSB's Geospatial Collection: their website states the scans are free to download but publishes no explicit rights statement, and 1930s AAA flights were typically contractor-flown for the federal government."
         ],
         "researched": "2026-07-24"
-      }
+      },
+      "reference_number": "BLD-0113"
     },
     {
       "id": "img_ef0e1fe665c580a0",
@@ -24553,7 +24666,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0114"
     },
     {
       "id": "img_7707eba1df237c65",
@@ -24799,7 +24913,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0115"
     },
     {
       "id": "img_a9b8f17ec8b1a61d",
@@ -25011,7 +25126,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0116"
     },
     {
       "id": "img_c323e4a9718d30b7",
@@ -25249,7 +25365,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0117"
     },
     {
       "id": "img_8dec862cc0cae6ba",
@@ -25432,7 +25549,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0118"
     },
     {
       "id": "img_cc7036a752144a64",
@@ -25618,7 +25736,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0119"
     },
     {
       "id": "img_484acf24f5126598",
@@ -25827,7 +25946,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0120"
     },
     {
       "id": "img_433403e951bbabcd",
@@ -26058,7 +26178,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0121"
     },
     {
       "id": "img_47cf3e6c1c4e364b",
@@ -26238,7 +26359,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0122"
     },
     {
       "id": "img_99f7111cab26b389",
@@ -26479,7 +26601,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0123"
     },
     {
       "id": "img_634101dcee127994",
@@ -26661,7 +26784,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0124"
     },
     {
       "id": "img_21f5dda0d6f26b4a",
@@ -26846,7 +26970,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0125"
     },
     {
       "id": "img_3b097e0808432587",
@@ -27038,7 +27163,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0126"
     },
     {
       "id": "img_ca02842503e130c9",
@@ -27251,7 +27377,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0127"
     },
     {
       "id": "img_8ecf8879b0fffd2d",
@@ -27449,7 +27576,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0128"
     },
     {
       "id": "img_92af244203629094",
@@ -27637,7 +27765,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0129"
     },
     {
       "id": "img_0ab722136d7bd1be",
@@ -27824,7 +27953,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0130"
     },
     {
       "id": "img_5a70b41831a92160",
@@ -28084,7 +28214,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0131"
     },
     {
       "id": "img_228a900cb9c1637b",
@@ -28271,7 +28402,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0132"
     },
     {
       "id": "img_d5db437b82ea712d",
@@ -28442,7 +28574,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0133"
     },
     {
       "id": "img_2d0928cd5901f761",
@@ -28620,7 +28753,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0134"
     },
     {
       "id": "img_3a78cd9990a52f8f",
@@ -28855,7 +28989,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0135"
     },
     {
       "id": "img_19d3efd814020eed",
@@ -29110,7 +29245,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0136"
     },
     {
       "id": "img_37aa1bf5e6a5fe7d",
@@ -29367,7 +29503,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0137"
     },
     {
       "id": "img_c228028c8fdfc647",
@@ -29576,7 +29713,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0138"
     },
     {
       "id": "img_fe6493dfb389b7f5",
@@ -29756,7 +29894,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0139"
     },
     {
       "id": "img_366a85910d2e675f",
@@ -29927,7 +30066,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0140"
     },
     {
       "id": "img_ada3474936428467",
@@ -30136,7 +30276,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0141"
     },
     {
       "id": "img_7d31166d85dd49bd",
@@ -30341,7 +30482,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0142"
     },
     {
       "id": "img_da155fda02d882ee",
@@ -30537,7 +30679,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0143"
     },
     {
       "id": "img_a85c852bf4ca3f39",
@@ -30736,7 +30879,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0144"
     },
     {
       "id": "img_b3dcb09d831e2058",
@@ -30948,7 +31092,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0145"
     },
     {
       "id": "img_676c1d159bb01165",
@@ -31161,7 +31306,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0146"
     },
     {
       "id": "img_e91452d502f8cc96",
@@ -31329,7 +31475,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0147"
     },
     {
       "id": "img_dc9b98dd0bb1264f",
@@ -31501,7 +31648,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0148"
     },
     {
       "id": "img_7a0159037504313e",
@@ -31685,7 +31833,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0149"
     },
     {
       "id": "img_ecbadf0d854de4dc",
@@ -31933,7 +32082,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0150"
     },
     {
       "id": "img_67656824cbb42ffc",
@@ -32126,7 +32276,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0151"
     },
     {
       "id": "img_57a9c9df6e55e692",
@@ -32307,7 +32458,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0152"
     },
     {
       "id": "img_b0d82053666b74fe",
@@ -32500,7 +32652,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0153"
     },
     {
       "id": "img_37e600853baf16af",
@@ -32693,7 +32846,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0154"
     },
     {
       "id": "img_a83e9024f8e65c3f",
@@ -32898,7 +33052,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0155"
     },
     {
       "id": "img_add874f3a7967842",
@@ -33092,7 +33247,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0156"
     },
     {
       "id": "img_22f62627c5d79f7e",
@@ -33282,7 +33438,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0157"
     },
     {
       "id": "img_9a697957b7ea88b0",
@@ -33491,7 +33648,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0158"
     },
     {
       "id": "img_f3ff85c652f90c21",
@@ -33676,7 +33834,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0159"
     },
     {
       "id": "img_ba7b9a02b3a0292c",
@@ -33860,7 +34019,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0160"
     },
     {
       "id": "img_4b219d837a3d6f6a",
@@ -34075,7 +34235,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0161"
     },
     {
       "id": "img_6feb4c505e0a58be",
@@ -34259,7 +34420,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0162"
     },
     {
       "id": "img_7dad1702b8b44459",
@@ -34526,7 +34688,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0163"
     },
     {
       "id": "img_6f617c49fb8ae29d",
@@ -34720,7 +34883,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0164"
     },
     {
       "id": "img_6205c940ef544e0b",
@@ -34913,7 +35077,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0165"
     },
     {
       "id": "img_2ffb4cd6b691c887",
@@ -35097,7 +35262,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0166"
     },
     {
       "id": "img_cfb583d7492fe063",
@@ -35308,7 +35474,8 @@
         ],
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0167"
     },
     {
       "id": "img_d92bd24434ee74d1",
@@ -35503,7 +35670,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0168"
     },
     {
       "id": "img_c45feec31675704d",
@@ -35742,7 +35910,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0169"
     },
     {
       "id": "img_06355ab9cdf953fb",
@@ -35925,7 +36094,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0170"
     },
     {
       "id": "img_9160017c82292a64",
@@ -36138,7 +36308,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0171"
     },
     {
       "id": "img_c8cee9c9c1dee867",
@@ -36393,7 +36564,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0172"
     },
     {
       "id": "img_35a3c2b0b73a7892",
@@ -36587,7 +36759,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0173"
     },
     {
       "id": "img_1098cac0279a0fdd",
@@ -36762,7 +36935,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0174"
     },
     {
       "id": "img_5216d93c22702ca5",
@@ -36946,7 +37120,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0175"
     },
     {
       "id": "img_67d561c6f67c1ba2",
@@ -37129,7 +37304,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0176"
     },
     {
       "id": "img_5e377e16d199a2eb",
@@ -37366,7 +37542,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0177"
     },
     {
       "id": "img_bad44539e3bf4b42",
@@ -37555,7 +37732,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0178"
     },
     {
       "id": "img_dec6944cb7b040ba",
@@ -37764,7 +37942,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0179"
     },
     {
       "id": "img_b690890e951ac18c",
@@ -37952,7 +38131,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0180"
     },
     {
       "id": "img_f03f7f375191edf6",
@@ -38208,7 +38388,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0181"
     },
     {
       "id": "img_a0defa8112930d8b",
@@ -38384,7 +38565,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0182"
     },
     {
       "id": "img_865e3dceea5cb7ba",
@@ -38604,7 +38786,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0183"
     },
     {
       "id": "img_58bba051858fd716",
@@ -38853,7 +39036,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0184"
     },
     {
       "id": "img_530924ee0ded82c6",
@@ -39032,7 +39216,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0185"
     },
     {
       "id": "img_dd956905449c7642",
@@ -39204,7 +39389,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0186"
     },
     {
       "id": "img_b0c11e36c32bf11b",
@@ -39417,7 +39603,8 @@
         ],
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0187"
     },
     {
       "id": "img_a48b18e93521487b",
@@ -39632,7 +39819,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0188"
     },
     {
       "id": "img_97db6b297170b04e",
@@ -39844,7 +40032,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0189"
     },
     {
       "id": "img_a08051acb6b37033",
@@ -40046,7 +40235,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0190"
     },
     {
       "id": "img_36bc04455099c9d7",
@@ -40243,7 +40433,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0191"
     },
     {
       "id": "img_a5619ddcb9e94fc3",
@@ -40526,7 +40717,8 @@
         ],
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0192"
     },
     {
       "id": "img_9c808818200e7a56",
@@ -40709,7 +40901,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0193"
     },
     {
       "id": "img_11892e76e7df49d3",
@@ -40880,7 +41073,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0194"
     },
     {
       "id": "img_d6de78f86c47985e",
@@ -41115,7 +41309,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0195"
     },
     {
       "id": "img_9537c0e4968709f8",
@@ -41322,7 +41517,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Calisphere item records (data/calisphere/item-metadata.json), matched by direct image comparison 2026-07-21"
-      }
+      },
+      "reference_number": "BLD-0196"
     },
     {
       "id": "img_03056ebb373ddd81",
@@ -41497,7 +41693,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0197"
     },
     {
       "id": "img_1ace86d145209734",
@@ -41669,7 +41866,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0198"
     },
     {
       "id": "img_04328f685390128c",
@@ -41861,7 +42059,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0199"
     },
     {
       "id": "img_8a20e0efb687510c",
@@ -42052,7 +42251,759 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0200"
+    },
+    {
+      "id": "img_249f0f6378f9b2c4",
+      "title": "Historic San Timoteo Canyon — book cover (Peggy Christian, 2002)",
+      "caption": "Front cover of Peggy Christian's Historic San Timoteo Canyon: A Pictorial Tour, Myths and Legends, featuring an unidentified historical photograph of a ranch house, cattle and ranch workers.",
+      "date": {
+        "start": 2002,
+        "end": 2002,
+        "display": "2002 publication",
+        "confidence": "confirmed",
+        "editable": true,
+        "source": "editorial_research",
+        "basis": "The accompanying copyright page states Copyright 2002 by Peggy Christian and supplies ISBN 0-930704-33-9."
+      },
+      "decade": 2000,
+      "locations": [
+        "San Timoteo Canyon"
+      ],
+      "people": [
+        "Peggy Christian"
+      ],
+      "subjects": [
+        "book cover",
+        "local history",
+        "ranch house",
+        "cattle",
+        "San Timoteo Canyon"
+      ],
+      "visible_text": "",
+      "search_terms": [
+        "2002",
+        "book",
+        "cattle",
+        "cover",
+        "historic san timoteo canyon",
+        "peggy christian",
+        "ranch",
+        "san timoteo canyon"
+      ],
+      "research_status": "Provenance verified",
+      "rights_status": "Copyrighted",
+      "rights_note": "The accompanying page states Copyright 2002 by Peggy Christian and all rights reserved. The cover photograph may carry separate rights. Permission is required before reproduction or publication.",
+      "selected_default": false,
+      "curated": false,
+      "master_file_id": "file_a5dea5612417fe6b",
+      "master_reason": "Single-source manual addition via scripts/add_manual_record.py.",
+      "version_file_ids": [
+        "file_a5dea5612417fe6b"
+      ],
+      "alternates": [],
+      "quality": {
+        "label": "sharp",
+        "factor": 1.0,
+        "editable": true
+      },
+      "print_viability": {
+        "crop_allowance_percent": 10.0,
+        "quality_factor": 1.0,
+        "ppi": {
+          "200": {
+            "width_inches": 6.6,
+            "height_inches": 9.1,
+            "native_crop_width_inches": 6.6,
+            "native_crop_height_inches": 9.1
+          },
+          "150": {
+            "width_inches": 8.7,
+            "height_inches": 12.1,
+            "native_crop_width_inches": 8.7,
+            "native_crop_height_inches": 12.1
+          },
+          "100": {
+            "width_inches": 13.1,
+            "height_inches": 18.1,
+            "native_crop_width_inches": 13.1,
+            "native_crop_height_inches": 18.1
+          },
+          "50": {
+            "width_inches": 26.2,
+            "height_inches": 36.3,
+            "native_crop_width_inches": 26.2,
+            "native_crop_height_inches": 36.3
+          }
+        },
+        "recommended": "13.1 × 18.1 in at 100 PPI",
+        "classification": "Potentially Usable",
+        "ai_upscaled_estimate": null
+      },
+      "metadata_suggestions": [
+        {
+          "file_id": "file_a5dea5612417fe6b",
+          "suggestion": {
+            "title": "Historic San Timoteo Canyon: A Pictorial Tour, Myths and Legends",
+            "caption": "",
+            "date_start": 2002,
+            "date_end": 2002,
+            "decade": 2000,
+            "locations": [
+              "San Timoteo Canyon"
+            ],
+            "people": [
+              "Peggy Christian"
+            ],
+            "subjects": [
+              "book cover",
+              "local history",
+              "ranch house",
+              "cattle",
+              "San Timoteo Canyon"
+            ],
+            "visible_text": "",
+            "search_terms": [
+              "2002",
+              "book",
+              "cattle",
+              "cover",
+              "historic san timoteo canyon",
+              "peggy christian",
+              "ranch",
+              "san timoteo canyon"
+            ],
+            "confidence": "high",
+            "review_note": "Manually added record; provenance verified in the metadata JSON."
+          }
+        }
+      ],
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\cover.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "filename",
+          "value": "cover.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "provenance",
+          "value": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/cover.jpg; the inbox original was not altered.",
+          "source": "editorial_research",
+          "confidence": "provided"
+        }
+      ],
+      "conflicts": [],
+      "client": {
+        "selected": false,
+        "comment": ""
+      },
+      "thumbnail": "assets/thumbs/file_a5dea5612417fe6b.jpg",
+      "preview": "assets/previews/file_a5dea5612417fe6b.jpg",
+      "original_pixels": {
+        "width": 1458,
+        "height": 2016
+      },
+      "attribution": "Book by Peggy Christian; cover photograph unidentified",
+      "attribution_confidence": "confirmed",
+      "caption_source": "Visible cover text and accompanying copyright page supplied by the user, 2026-07-28.",
+      "research": {
+        "original_title": "Historic San Timoteo Canyon: A Pictorial Tour, Myths and Legends",
+        "description": "A user-supplied photograph of the 2002 book's front cover. The cover preserves the publication title, subtitle and author credit and serves as provenance for the two Pauline Weaver drawings supplied with it. The historical photograph reproduced on the cover is not identified in the visible cover text; its location, date, photographer and original holding institution remain unverified, so the cover is cataloged as source documentation rather than as an identified historical photograph.",
+        "evidence": [
+          {
+            "label": "User-supplied front-cover photograph; title, subtitle and author are visible on the image."
+          },
+          {
+            "label": "User-supplied copyright page: Copyright 2002 by Peggy Christian; ISBN 0-930704-33-9."
+          }
+        ],
+        "holding": {
+          "institution": "User-supplied copy of Historic San Timoteo Canyon",
+          "item_id": "ISBN 0-930704-33-9"
+        },
+        "open_questions": [
+          "Identify the ranch, people, date, photographer and original repository of the historical image reproduced on the cover.",
+          "Locate full publication metadata and an item-level rights contact before any external reuse."
+        ],
+        "researched": "2026-07-28"
+      },
+      "reference_number": "BLD-0272"
+    },
+    {
+      "id": "img_02236570d4b27a6c",
+      "title": "Historic San Timoteo Canyon — copyright and publication page (2002)",
+      "caption": "Copyright and publication page for Peggy Christian's Historic San Timoteo Canyon, documenting the 2002 copyright, all-rights-reserved notice, ISBN 0-930704-33-9, Sagebrush Press design credit and United States printing.",
+      "date": {
+        "start": 2002,
+        "end": 2002,
+        "display": "2002 publication",
+        "confidence": "confirmed",
+        "editable": true,
+        "source": "editorial_research",
+        "basis": "The photographed page explicitly states Copyright 2002 by Peggy Christian."
+      },
+      "decade": 2000,
+      "locations": [
+        "San Timoteo Canyon"
+      ],
+      "people": [
+        "Peggy Christian"
+      ],
+      "subjects": [
+        "copyright page",
+        "publication metadata",
+        "local history",
+        "San Timoteo Canyon"
+      ],
+      "visible_text": "",
+      "search_terms": [
+        "2002",
+        "copyright",
+        "historic san timoteo canyon",
+        "isbn 0-930704-33-9",
+        "peggy christian",
+        "publication",
+        "sagebrush press"
+      ],
+      "research_status": "Provenance verified",
+      "rights_status": "Copyrighted",
+      "rights_note": "The page explicitly states Copyright 2002 by Peggy Christian and reserves translation and reproduction rights in all media. Permission is required before reproduction or publication.",
+      "selected_default": false,
+      "curated": false,
+      "master_file_id": "file_f04fd644b8e393e9",
+      "master_reason": "Single-source manual addition via scripts/add_manual_record.py.",
+      "version_file_ids": [
+        "file_f04fd644b8e393e9"
+      ],
+      "alternates": [],
+      "quality": {
+        "label": "sharp",
+        "factor": 1.0,
+        "editable": true
+      },
+      "print_viability": {
+        "crop_allowance_percent": 10.0,
+        "quality_factor": 1.0,
+        "ppi": {
+          "200": {
+            "width_inches": 5.4,
+            "height_inches": 9.1,
+            "native_crop_width_inches": 5.4,
+            "native_crop_height_inches": 9.1
+          },
+          "150": {
+            "width_inches": 7.1,
+            "height_inches": 12.1,
+            "native_crop_width_inches": 7.1,
+            "native_crop_height_inches": 12.1
+          },
+          "100": {
+            "width_inches": 10.7,
+            "height_inches": 18.1,
+            "native_crop_width_inches": 10.7,
+            "native_crop_height_inches": 18.1
+          },
+          "50": {
+            "width_inches": 21.4,
+            "height_inches": 36.3,
+            "native_crop_width_inches": 21.4,
+            "native_crop_height_inches": 36.3
+          }
+        },
+        "recommended": "10.7 × 18.1 in at 100 PPI",
+        "classification": "Potentially Usable",
+        "ai_upscaled_estimate": null
+      },
+      "metadata_suggestions": [
+        {
+          "file_id": "file_f04fd644b8e393e9",
+          "suggestion": {
+            "title": "Copyright page — Historic San Timoteo Canyon",
+            "caption": "",
+            "date_start": 2002,
+            "date_end": 2002,
+            "decade": 2000,
+            "locations": [
+              "San Timoteo Canyon"
+            ],
+            "people": [
+              "Peggy Christian"
+            ],
+            "subjects": [
+              "copyright page",
+              "publication metadata",
+              "local history",
+              "San Timoteo Canyon"
+            ],
+            "visible_text": "",
+            "search_terms": [
+              "2002",
+              "copyright",
+              "historic san timoteo canyon",
+              "isbn 0-930704-33-9",
+              "peggy christian",
+              "publication",
+              "sagebrush press"
+            ],
+            "confidence": "high",
+            "review_note": "Manually added record; provenance verified in the metadata JSON."
+          }
+        }
+      ],
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\copyright-page.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "filename",
+          "value": "copyright-page.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "provenance",
+          "value": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/copyright-page.jpg; the inbox original was not altered.",
+          "source": "editorial_research",
+          "confidence": "provided"
+        }
+      ],
+      "conflicts": [],
+      "client": {
+        "selected": false,
+        "comment": ""
+      },
+      "thumbnail": "assets/thumbs/file_f04fd644b8e393e9.jpg",
+      "preview": "assets/previews/file_f04fd644b8e393e9.jpg",
+      "original_pixels": {
+        "width": 1191,
+        "height": 2016
+      },
+      "attribution": "Peggy Christian; book design credited to Sagebrush Press",
+      "attribution_confidence": "confirmed",
+      "caption_source": "Text visible on the user-supplied copyright page.",
+      "research": {
+        "original_title": "Copyright page — Historic San Timoteo Canyon",
+        "description": "This source-document image establishes the publication and rights context for the accompanying book cover and Pauline Weaver drawings. Personal contact details printed on the page are intentionally omitted from the catalog description; consult the preserved source image only when a legitimate provenance or rights-clearance need requires it.",
+        "evidence": [
+          {
+            "label": "User-supplied copyright-page photograph with copyright year, rights notice, ISBN and design credit visible."
+          }
+        ],
+        "holding": {
+          "institution": "User-supplied copy of Historic San Timoteo Canyon",
+          "item_id": "ISBN 0-930704-33-9"
+        },
+        "open_questions": [
+          "Locate a current rights contact for the book and its contributed illustrations before external reuse."
+        ],
+        "researched": "2026-07-28"
+      },
+      "reference_number": "BLD-0273"
+    },
+    {
+      "id": "img_9e1894c555b3bc53",
+      "title": "Pauline Weaver — portrait drawing by Paul Christian (published 2002)",
+      "caption": "Posthumous, front-facing portrait drawing of Pauline Weaver in a broad-brimmed hat, signed Paul Christian and reproduced in Historic San Timoteo Canyon, page 169.",
+      "date": {
+        "start": 2002,
+        "end": 2002,
+        "display": "Published 2002; drawing date unknown",
+        "confidence": "medium",
+        "editable": true,
+        "source": "editorial_research",
+        "basis": "The user identifies the reproduction as page 169 of Peggy Christian's 2002 book. The drawing is signed Paul Christian, but no creation date is visible."
+      },
+      "decade": 2000,
+      "locations": [
+        "San Gorgonio Pass",
+        "San Timoteo Canyon"
+      ],
+      "people": [
+        "Pauline Weaver",
+        "Paul Christian",
+        "Peggy Christian"
+      ],
+      "subjects": [
+        "artist's drawing",
+        "posthumous portrait",
+        "frontiersman",
+        "Pauline Weaver",
+        "local history"
+      ],
+      "visible_text": "",
+      "search_terms": [
+        "2002",
+        "drawing",
+        "historic san timoteo canyon",
+        "page 169",
+        "paul christian",
+        "pauline weaver",
+        "portrait",
+        "san gorgonio pass"
+      ],
+      "research_status": "Provenance verified",
+      "rights_status": "Copyrighted",
+      "rights_note": "The book states Copyright 2002 by Peggy Christian and all rights reserved; the drawing may also be protected as Paul Christian's artwork. Permission is required before reproduction or publication.",
+      "selected_default": false,
+      "curated": false,
+      "master_file_id": "file_a3fef4d7a60863d4",
+      "master_reason": "Single-source manual addition via scripts/add_manual_record.py.",
+      "version_file_ids": [
+        "file_a3fef4d7a60863d4"
+      ],
+      "alternates": [],
+      "quality": {
+        "label": "sharp",
+        "factor": 1.0,
+        "editable": true
+      },
+      "print_viability": {
+        "crop_allowance_percent": 10.0,
+        "quality_factor": 1.0,
+        "ppi": {
+          "200": {
+            "width_inches": 3.7,
+            "height_inches": 6.2,
+            "native_crop_width_inches": 3.7,
+            "native_crop_height_inches": 6.2
+          },
+          "150": {
+            "width_inches": 4.9,
+            "height_inches": 8.3,
+            "native_crop_width_inches": 4.9,
+            "native_crop_height_inches": 8.3
+          },
+          "100": {
+            "width_inches": 7.4,
+            "height_inches": 12.4,
+            "native_crop_width_inches": 7.4,
+            "native_crop_height_inches": 12.4
+          },
+          "50": {
+            "width_inches": 14.7,
+            "height_inches": 24.8,
+            "native_crop_width_inches": 14.7,
+            "native_crop_height_inches": 24.8
+          }
+        },
+        "recommended": "7.4 × 12.4 in at 100 PPI",
+        "classification": "Reference Only",
+        "ai_upscaled_estimate": null
+      },
+      "metadata_suggestions": [
+        {
+          "file_id": "file_a3fef4d7a60863d4",
+          "suggestion": {
+            "title": "Pauline Weaver drawing",
+            "caption": "",
+            "date_start": 2002,
+            "date_end": 2002,
+            "decade": 2000,
+            "locations": [
+              "San Gorgonio Pass",
+              "San Timoteo Canyon"
+            ],
+            "people": [
+              "Pauline Weaver",
+              "Paul Christian",
+              "Peggy Christian"
+            ],
+            "subjects": [
+              "artist's drawing",
+              "posthumous portrait",
+              "frontiersman",
+              "Pauline Weaver",
+              "local history"
+            ],
+            "visible_text": "",
+            "search_terms": [
+              "2002",
+              "drawing",
+              "historic san timoteo canyon",
+              "page 169",
+              "paul christian",
+              "pauline weaver",
+              "portrait",
+              "san gorgonio pass"
+            ],
+            "confidence": "high",
+            "review_note": "Manually added record; provenance verified in the metadata JSON."
+          }
+        }
+      ],
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\pauline-weaver-paul-christian-page-169.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "filename",
+          "value": "pauline-weaver-paul-christian-page-169.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "provenance",
+          "value": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/pauline-weaver-paul-christian-page-169.jpg; the inbox original was not altered. No exact or close catalog duplicate was found.",
+          "source": "editorial_research",
+          "confidence": "provided"
+        }
+      ],
+      "conflicts": [],
+      "client": {
+        "selected": false,
+        "comment": ""
+      },
+      "thumbnail": "assets/thumbs/file_a3fef4d7a60863d4.jpg",
+      "preview": "assets/previews/file_a3fef4d7a60863d4.jpg",
+      "original_pixels": {
+        "width": 818,
+        "height": 1376
+      },
+      "attribution": "Drawing by Paul Christian; reproduced in Peggy Christian, Historic San Timoteo Canyon (2002), p. 169",
+      "attribution_confidence": "confirmed",
+      "caption_source": "Visible artist signature plus the user-supplied filename identifying the book and page number.",
+      "research": {
+        "original_title": "Pauline Weaver drawing",
+        "description": "A modern artistic interpretation of frontiersman Pauline Weaver, photographed from Peggy Christian's 2002 local-history book. It is not a photograph or a documented portrait from life. This is a distinct composition from catalog record BLD-0090, another posthumous Weaver drawing shown in three-quarter profile; the two should remain separate and should not be treated as independent evidence of Weaver's appearance.",
+        "evidence": [
+          {
+            "label": "User-supplied photograph of the page; Paul Christian's signature is visible on the drawing."
+          },
+          {
+            "label": "User-supplied filename identifies Historic San Timoteo Canyon, page 169."
+          },
+          {
+            "label": "Accompanying copyright page: Copyright 2002 by Peggy Christian; all rights reserved; ISBN 0-930704-33-9."
+          }
+        ],
+        "holding": {
+          "institution": "User-supplied copy of Historic San Timoteo Canyon",
+          "item_id": "Page 169; ISBN 0-930704-33-9"
+        },
+        "open_questions": [
+          "Determine when Paul Christian created the drawing and what visual source, if any, he used.",
+          "Confirm the artist's rights contact and the book publisher's current rights contact before external reuse."
+        ],
+        "researched": "2026-07-28"
+      },
+      "reference_number": "BLD-0274"
+    },
+    {
+      "id": "img_8a9c10dc19758b76",
+      "title": "Pauline Weaver's San Gorgonio Pass home — reconstruction drawing by Sharon Estrada (published 2002)",
+      "caption": "Reconstruction drawing of Pauline Weaver's home in the San Gorgonio Pass, showing a low rancho complex beneath the mountains; drawn by Sharon Estrada and published in Historic San Timoteo Canyon, page 166.",
+      "date": {
+        "start": 2002,
+        "end": 2002,
+        "display": "Published 2002; drawing date unknown",
+        "confidence": "medium",
+        "editable": true,
+        "source": "editorial_research",
+        "basis": "The user identifies the reproduction as page 166 of Peggy Christian's 2002 book. The caption credits Sharon Estrada and cites a book by O.C. Ord from 1856 as a source; it does not date the drawing to 1856."
+      },
+      "decade": 2000,
+      "locations": [
+        "San Gorgonio Pass",
+        "San Timoteo Canyon"
+      ],
+      "people": [
+        "Pauline Weaver",
+        "Sharon Estrada",
+        "Peggy Christian",
+        "O.C. Ord"
+      ],
+      "subjects": [
+        "artist's drawing",
+        "architectural reconstruction",
+        "rancho",
+        "mission circuit",
+        "Pauline Weaver",
+        "San Gorgonio Pass"
+      ],
+      "visible_text": "",
+      "search_terms": [
+        "1834",
+        "1845",
+        "1856",
+        "2002",
+        "drawing",
+        "historic san timoteo canyon",
+        "o.c. ord",
+        "page 166",
+        "pauline weaver",
+        "rancho",
+        "san gorgonio pass",
+        "sharon estrada"
+      ],
+      "research_status": "Provenance verified",
+      "rights_status": "Copyrighted",
+      "rights_note": "The book states Copyright 2002 by Peggy Christian and all rights reserved; Sharon Estrada's reconstruction may carry a separate artist copyright. Permission is required before reproduction or publication.",
+      "selected_default": false,
+      "curated": false,
+      "master_file_id": "file_6c186f841b38cdf7",
+      "master_reason": "Single-source manual addition via scripts/add_manual_record.py.",
+      "version_file_ids": [
+        "file_6c186f841b38cdf7"
+      ],
+      "alternates": [],
+      "quality": {
+        "label": "sharp",
+        "factor": 1.0,
+        "editable": true
+      },
+      "print_viability": {
+        "crop_allowance_percent": 10.0,
+        "quality_factor": 1.0,
+        "ppi": {
+          "200": {
+            "width_inches": 7.8,
+            "height_inches": 4.9,
+            "native_crop_width_inches": 7.8,
+            "native_crop_height_inches": 4.9
+          },
+          "150": {
+            "width_inches": 10.3,
+            "height_inches": 6.5,
+            "native_crop_width_inches": 10.3,
+            "native_crop_height_inches": 6.5
+          },
+          "100": {
+            "width_inches": 15.5,
+            "height_inches": 9.7,
+            "native_crop_width_inches": 15.5,
+            "native_crop_height_inches": 9.7
+          },
+          "50": {
+            "width_inches": 31.0,
+            "height_inches": 19.4,
+            "native_crop_width_inches": 31.0,
+            "native_crop_height_inches": 19.4
+          }
+        },
+        "recommended": "15.5 × 9.7 in at 100 PPI",
+        "classification": "Potentially Usable",
+        "ai_upscaled_estimate": null
+      },
+      "metadata_suggestions": [
+        {
+          "file_id": "file_6c186f841b38cdf7",
+          "suggestion": {
+            "title": "Pauline Weaver's home in San Gorgonio Pass",
+            "caption": "",
+            "date_start": 2002,
+            "date_end": 2002,
+            "decade": 2000,
+            "locations": [
+              "San Gorgonio Pass",
+              "San Timoteo Canyon"
+            ],
+            "people": [
+              "Pauline Weaver",
+              "Sharon Estrada",
+              "Peggy Christian",
+              "O.C. Ord"
+            ],
+            "subjects": [
+              "artist's drawing",
+              "architectural reconstruction",
+              "rancho",
+              "mission circuit",
+              "Pauline Weaver",
+              "San Gorgonio Pass"
+            ],
+            "visible_text": "",
+            "search_terms": [
+              "1834",
+              "1845",
+              "1856",
+              "2002",
+              "drawing",
+              "historic san timoteo canyon",
+              "o.c. ord",
+              "page 166",
+              "pauline weaver",
+              "rancho",
+              "san gorgonio pass",
+              "sharon estrada"
+            ],
+            "confidence": "high",
+            "review_note": "Manually added record; provenance verified in the metadata JSON."
+          }
+        }
+      ],
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\pauline-weaver-home-sharon-estrada-page-166.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "filename",
+          "value": "pauline-weaver-home-sharon-estrada-page-166.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "provenance",
+          "value": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/pauline-weaver-home-sharon-estrada-page-166.jpg; the inbox original was not altered. No exact or close catalog duplicate was found.",
+          "source": "editorial_research",
+          "confidence": "provided"
+        }
+      ],
+      "conflicts": [],
+      "client": {
+        "selected": false,
+        "comment": ""
+      },
+      "thumbnail": "assets/thumbs/file_6c186f841b38cdf7.jpg",
+      "preview": "assets/previews/file_6c186f841b38cdf7.jpg",
+      "original_pixels": {
+        "width": 1724,
+        "height": 1080
+      },
+      "attribution": "Drawing by Sharon Estrada, based on a book by O.C. Ord (1856); reproduced in Peggy Christian, Historic San Timoteo Canyon (2002), p. 166",
+      "attribution_confidence": "confirmed",
+      "caption_source": "Caption and artist signature visible on the user-supplied page photograph; book and page number supplied in the filename.",
+      "research": {
+        "original_title": "Pauline Weaver's home in San Gorgonio Pass",
+        "description": "A modern reconstruction rather than a contemporaneous view. The printed caption says the site was the third rancho on the mission circuit, that Weaver took over after the mission's 1834 abandonment, and that he never received title; it credits Sharon Estrada's drawing as based on a book by O.C. Ord dated 1856. Those historical statements are preserved as the book's claims and have not been independently verified here. The 1856 citation is source context, not the artwork's creation date.",
+        "evidence": [
+          {
+            "label": "User-supplied page photograph with the printed caption and Sharon Estrada signature visible."
+          },
+          {
+            "label": "User-supplied filename identifies Historic San Timoteo Canyon, page 166."
+          },
+          {
+            "label": "Accompanying copyright page: Copyright 2002 by Peggy Christian; all rights reserved; ISBN 0-930704-33-9."
+          }
+        ],
+        "holding": {
+          "institution": "User-supplied copy of Historic San Timoteo Canyon",
+          "item_id": "Page 166; ISBN 0-930704-33-9"
+        },
+        "open_questions": [
+          "Identify the exact 1856 O.C. Ord publication and the passage or illustration Sharon Estrada used.",
+          "Verify the book's claims about the rancho chronology and title history against primary land records.",
+          "Confirm the artist's and book rights contacts before external reuse."
+        ],
+        "researched": "2026-07-28"
+      },
+      "reference_number": "BLD-0275"
     },
     {
       "id": "img_a6ec55f14a4d13dc",
@@ -42235,7 +43186,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0201"
     },
     {
       "id": "img_99913db9881316f3",
@@ -42441,7 +43393,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0202"
     },
     {
       "id": "img_e5e3407036c3c2c5",
@@ -42633,7 +43586,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0203"
     },
     {
       "id": "img_fb90b64a110cd45f",
@@ -42882,7 +43836,8 @@
         ],
         "researched": "2026-07-20",
         "source_manifest": "X:\\My Drive\\Projects\\Beaumont Library District\\projects\\timeline-mural\\2026-07-17_selects\\selects-manifest.md"
-      }
+      },
+      "reference_number": "BLD-0204"
     },
     {
       "id": "img_3d84769134889400",
@@ -43043,7 +43998,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0205"
     },
     {
       "id": "img_b4e6ea6952262482",
@@ -43240,7 +44196,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0206"
     },
     {
       "id": "img_da743e866c6368cc",
@@ -43391,7 +44348,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0207"
     },
     {
       "id": "img_72b5acdf8b88fc6c",
@@ -43566,7 +44524,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0208"
     },
     {
       "id": "img_9acdf5b823073389",
@@ -43824,7 +44783,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0209"
     },
     {
       "id": "img_39722a07ed88a499",
@@ -44028,7 +44988,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0210"
     },
     {
       "id": "img_48e0a1029b9b35cf",
@@ -44232,7 +45193,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0211"
     },
     {
       "id": "img_e227a30890d191f3",
@@ -44378,7 +45340,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0212"
     },
     {
       "id": "img_e3b0eb2e257855ca",
@@ -44533,7 +45496,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0213"
     },
     {
       "id": "img_cc1a3e9d9b7f9b76",
@@ -44688,7 +45652,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0214"
     },
     {
       "id": "img_78e4dd6ee33f5c18",
@@ -44894,7 +45859,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0215"
     },
     {
       "id": "img_863f0fc9e94e4ebb",
@@ -45104,7 +46070,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0216"
     },
     {
       "id": "img_4eeb78c48b2bca4b",
@@ -45270,7 +46237,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0217"
     },
     {
       "id": "img_0fe6d3036afcd3d6",
@@ -45473,7 +46441,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0218"
     },
     {
       "id": "img_e9f375f1600bc4d0",
@@ -45662,7 +46631,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0219"
     },
     {
       "id": "img_37bbc779f837532c",
@@ -45861,7 +46831,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0220"
     },
     {
       "id": "img_7c01fc3dab547cc4",
@@ -46035,7 +47006,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0221"
     },
     {
       "id": "img_9ae52f4064af37bc",
@@ -46204,7 +47176,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0222"
     },
     {
       "id": "img_a04b2576fd8d515e",
@@ -46373,7 +47346,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0223"
     },
     {
       "id": "img_e6fe5e33e99cc68f",
@@ -46578,7 +47552,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0224"
     },
     {
       "id": "img_4b3616cbe2898cea",
@@ -46743,7 +47718,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0225"
     },
     {
       "id": "img_dec634939b47e13c",
@@ -46920,7 +47896,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0226"
     },
     {
       "id": "img_38d2d7286d1a066a",
@@ -47097,7 +48074,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0227"
     },
     {
       "id": "img_4085f2ec04e2579d",
@@ -47266,7 +48244,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0228"
     },
     {
       "id": "img_82595c1c9806db2a",
@@ -47434,7 +48413,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0229"
     },
     {
       "id": "img_1c61ef08adc421b9",
@@ -47600,7 +48580,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0230"
     },
     {
       "id": "img_87313621a59a7991",
@@ -47770,7 +48751,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0231"
     },
     {
       "id": "img_c822a8c6bb7c2f67",
@@ -47932,7 +48914,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0232"
     },
     {
       "id": "img_6ddebbe0de2a589d",
@@ -48101,7 +49084,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0233"
     },
     {
       "id": "img_3c18a28de48c53d4",
@@ -48275,7 +49259,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0234"
     },
     {
       "id": "img_99255ef1fe8299f3",
@@ -48444,7 +49429,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0235"
     },
     {
       "id": "img_61eb33f53f56982d",
@@ -48608,7 +49594,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0236"
     },
     {
       "id": "img_8da5c565955aa314",
@@ -48778,7 +49765,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0237"
     },
     {
       "id": "img_3f4c4ca617098fd8",
@@ -48945,7 +49933,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0238"
     },
     {
       "id": "img_040513e8698b345f",
@@ -49118,7 +50107,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0239"
     },
     {
       "id": "img_8ee30e567a4b5e66",
@@ -49291,7 +50281,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0240"
     },
     {
       "id": "img_d36ca3005fd7406a",
@@ -49460,7 +50451,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0241"
     },
     {
       "id": "img_2a8133ae8e586364",
@@ -49628,7 +50620,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0242"
     },
     {
       "id": "img_00cfeb70e204b1b8",
@@ -49802,7 +50795,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0243"
     },
     {
       "id": "img_8aa40ef6d2dbc201",
@@ -49971,7 +50965,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0244"
     },
     {
       "id": "img_3c8f15b64eec6c9e",
@@ -50134,7 +51129,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0245"
     },
     {
       "id": "img_40d6c2b8e19fd527",
@@ -50303,7 +51299,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0246"
     },
     {
       "id": "img_a999fd2c808b66bb",
@@ -50472,7 +51469,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0247"
     },
     {
       "id": "img_284993317d64a5e4",
@@ -50644,7 +51642,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0248"
     },
     {
       "id": "img_591fdce9e557db2e",
@@ -50814,7 +51813,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0249"
     },
     {
       "id": "img_661c04fefa693750",
@@ -50960,7 +51960,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0250"
     },
     {
       "id": "img_6ddd05571b501d15",
@@ -51143,7 +52144,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0251"
     },
     {
       "id": "img_0f63f186060123e4",
@@ -51329,7 +52331,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0252"
     },
     {
       "id": "img_5b02c2385f9cb46d",
@@ -51523,7 +52526,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0253"
     },
     {
       "id": "img_e4260d9b7f031559",
@@ -51695,7 +52699,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0254"
     },
     {
       "id": "img_0092d056a315fe98",
@@ -51852,7 +52857,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0255"
     },
     {
       "id": "img_56f78e949de648f8",
@@ -52011,7 +53017,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0256"
     },
     {
       "id": "img_64fee8a381ae5df5",
@@ -52181,7 +53188,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0257"
     },
     {
       "id": "img_eebd80e2b2180cca",
@@ -52351,7 +53359,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0258"
     },
     {
       "id": "img_1ac667107bd74996",
@@ -52542,7 +53551,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0259"
     },
     {
       "id": "img_2eee4fa95a275d4d",
@@ -52749,7 +53759,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0260"
     },
     {
       "id": "img_95da879f3752095a",
@@ -52970,7 +53981,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0261"
     },
     {
       "id": "img_1ad76840ab48ba0e",
@@ -53136,7 +54148,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "workflow deepdive-wave1/wave2 + gap agent (session transcripts)"
-      }
+      },
+      "reference_number": "BLD-0262"
     },
     {
       "id": "img_acf4949ced58906e",
@@ -53307,7 +54320,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0263"
     },
     {
       "id": "img_7dbe92a607028a11",
@@ -53473,7 +54487,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0264"
     },
     {
       "id": "img_6345c804830d0a07",
@@ -53647,7 +54662,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0265"
     },
     {
       "id": "img_23a4b70023473f20",
@@ -53816,7 +54832,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0266"
     },
     {
       "id": "img_31a2aed058e380fd",
@@ -53966,7 +54983,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0267"
     },
     {
       "id": "img_21b5c2878b287c35",
@@ -54148,7 +55166,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0268"
     },
     {
       "id": "img_816fb6e3233bbf73",
@@ -54307,7 +55326,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0269"
     },
     {
       "id": "img_cb8fe08683e0e832",
@@ -54496,7 +55516,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0270"
     },
     {
       "id": "img_5bcc7a2a42f3de62",
@@ -54689,7 +55710,8 @@
         ],
         "researched": "2026-07-21",
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
-      }
+      },
+      "reference_number": "BLD-0271"
     }
   ],
   "files": [
@@ -89059,6 +90081,426 @@
       ],
       "thumbnail": "assets/thumbs/file_752b81eeb09f9c84.jpg",
       "preview": "assets/previews/file_752b81eeb09f9c84.jpg"
+    },
+    {
+      "file_id": "file_a5dea5612417fe6b",
+      "path": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\cover.jpg",
+      "filename": "cover.jpg",
+      "extension": ".jpg",
+      "size_bytes": 739917,
+      "modified_at": "2026-07-28T18:07:11.147247+00:00",
+      "modified_at_is_historical_date": false,
+      "sha256": "c2a033dd9773edd86ed812f7552f0765b03a43fe5bce53e07f70784328038953",
+      "source_key": "user-inbox-peggy-christian-2002",
+      "source_priority": 90,
+      "curated": false,
+      "source_memberships": [
+        "user-inbox-peggy-christian-2002"
+      ],
+      "image": {
+        "format": "JPEG",
+        "width": 1458,
+        "height": 2016,
+        "megapixels": 2.94,
+        "mode": "RGB",
+        "frames": 1,
+        "exif": {
+          "ExifOffset": 306,
+          "59932": "\u001c�\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+        },
+        "sharpness_score": 2028.229,
+        "dhash": "9190fb733c292100",
+        "ahash": "ff01fffe20000000",
+        "transform_hashes": {
+          "normal": "9190fb733c292100",
+          "rot90": "b19b99999d9d9f9d",
+          "rot180": "ff796bc33100f476",
+          "rot270": "0606464666662672",
+          "mirror": "76f40031c36b79ff"
+        },
+        "crop_hashes": [
+          "90d0f1733c2c6100",
+          "10c4b1713e6c6031",
+          "52e6b1f13a5e4030"
+        ]
+      },
+      "ocr": {
+        "status": "unavailable",
+        "text": "",
+        "engine": null,
+        "confidence": null
+      },
+      "suggestions": {
+        "title": "Historic San Timoteo Canyon: A Pictorial Tour, Myths and Legends",
+        "caption": "",
+        "date_start": 2002,
+        "date_end": 2002,
+        "decade": 2000,
+        "locations": [
+          "San Timoteo Canyon"
+        ],
+        "people": [
+          "Peggy Christian"
+        ],
+        "subjects": [
+          "book cover",
+          "local history",
+          "ranch house",
+          "cattle",
+          "San Timoteo Canyon"
+        ],
+        "visible_text": "",
+        "search_terms": [
+          "2002",
+          "book",
+          "cattle",
+          "cover",
+          "historic san timoteo canyon",
+          "peggy christian",
+          "ranch",
+          "san timoteo canyon"
+        ],
+        "confidence": "high",
+        "review_note": "Manually added record; provenance verified in the metadata JSON."
+      },
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\cover.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "filename",
+          "value": "cover.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "provenance",
+          "value": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/cover.jpg; the inbox original was not altered.",
+          "source": "editorial_research",
+          "confidence": "provided"
+        }
+      ],
+      "thumbnail": "assets/thumbs/file_a5dea5612417fe6b.jpg",
+      "preview": "assets/previews/file_a5dea5612417fe6b.jpg"
+    },
+    {
+      "file_id": "file_f04fd644b8e393e9",
+      "path": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\copyright-page.jpg",
+      "filename": "copyright-page.jpg",
+      "extension": ".jpg",
+      "size_bytes": 573253,
+      "modified_at": "2026-07-28T18:07:11.146247+00:00",
+      "modified_at_is_historical_date": false,
+      "sha256": "51c2eb5b9b991ef4fedbeeeb663088ad96a946f482fb5322af172350fb2adcc1",
+      "source_key": "user-inbox-peggy-christian-2002",
+      "source_priority": 90,
+      "curated": false,
+      "source_memberships": [
+        "user-inbox-peggy-christian-2002"
+      ],
+      "image": {
+        "format": "JPEG",
+        "width": 1191,
+        "height": 2016,
+        "megapixels": 2.4,
+        "mode": "RGB",
+        "frames": 1,
+        "exif": {},
+        "sharpness_score": 1525.64,
+        "dhash": "3b5b6cbdb1b070e4",
+        "ahash": "fffff98020000000",
+        "transform_hashes": {
+          "normal": "3b5b6cbdb1b070e4",
+          "rot90": "f7e7eefcefefffff",
+          "rot180": "d8e1723200c92000",
+          "rot270": "00000808c0881810",
+          "mirror": "0020c9003272e1d8"
+        },
+        "crop_hashes": [
+          "597b6cbfb1387064",
+          "396f6e3731387870",
+          "bdceee3d71b8b8f0"
+        ]
+      },
+      "ocr": {
+        "status": "unavailable",
+        "text": "",
+        "engine": null,
+        "confidence": null
+      },
+      "suggestions": {
+        "title": "Copyright page — Historic San Timoteo Canyon",
+        "caption": "",
+        "date_start": 2002,
+        "date_end": 2002,
+        "decade": 2000,
+        "locations": [
+          "San Timoteo Canyon"
+        ],
+        "people": [
+          "Peggy Christian"
+        ],
+        "subjects": [
+          "copyright page",
+          "publication metadata",
+          "local history",
+          "San Timoteo Canyon"
+        ],
+        "visible_text": "",
+        "search_terms": [
+          "2002",
+          "copyright",
+          "historic san timoteo canyon",
+          "isbn 0-930704-33-9",
+          "peggy christian",
+          "publication",
+          "sagebrush press"
+        ],
+        "confidence": "high",
+        "review_note": "Manually added record; provenance verified in the metadata JSON."
+      },
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\copyright-page.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "filename",
+          "value": "copyright-page.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "provenance",
+          "value": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/copyright-page.jpg; the inbox original was not altered.",
+          "source": "editorial_research",
+          "confidence": "provided"
+        }
+      ],
+      "thumbnail": "assets/thumbs/file_f04fd644b8e393e9.jpg",
+      "preview": "assets/previews/file_f04fd644b8e393e9.jpg"
+    },
+    {
+      "file_id": "file_a3fef4d7a60863d4",
+      "path": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\pauline-weaver-paul-christian-page-169.jpg",
+      "filename": "pauline-weaver-paul-christian-page-169.jpg",
+      "extension": ".jpg",
+      "size_bytes": 399920,
+      "modified_at": "2026-07-28T18:07:11.146247+00:00",
+      "modified_at_is_historical_date": false,
+      "sha256": "939d535e1d5b31dab54cafb3084d7f2ed7acbdd1ef1c209368a5ab4b0277ccaa",
+      "source_key": "user-inbox-peggy-christian-2002",
+      "source_priority": 90,
+      "curated": false,
+      "source_memberships": [
+        "user-inbox-peggy-christian-2002"
+      ],
+      "image": {
+        "format": "JPEG",
+        "width": 818,
+        "height": 1376,
+        "megapixels": 1.13,
+        "mode": "RGB",
+        "frames": 1,
+        "exif": {},
+        "sharpness_score": 2054.241,
+        "dhash": "b974f8ec68e8b290",
+        "ahash": "e7e3c1c3c3c3e7f7",
+        "transform_hashes": {
+          "normal": "b974f8ec68e8b290",
+          "rot90": "6ec6c8dcc8e96cee",
+          "rot180": "72b2e8e9c0e0d162",
+          "rot270": "08c968ecc4ec9c89",
+          "mirror": "62d1e0c0e9e8b272"
+        },
+        "crop_hashes": [
+          "6574f87478ecf032",
+          "64f0e85478ccf031",
+          "72f0ecd2d8ccfcb0"
+        ]
+      },
+      "ocr": {
+        "status": "unavailable",
+        "text": "",
+        "engine": null,
+        "confidence": null
+      },
+      "suggestions": {
+        "title": "Pauline Weaver drawing",
+        "caption": "",
+        "date_start": 2002,
+        "date_end": 2002,
+        "decade": 2000,
+        "locations": [
+          "San Gorgonio Pass",
+          "San Timoteo Canyon"
+        ],
+        "people": [
+          "Pauline Weaver",
+          "Paul Christian",
+          "Peggy Christian"
+        ],
+        "subjects": [
+          "artist's drawing",
+          "posthumous portrait",
+          "frontiersman",
+          "Pauline Weaver",
+          "local history"
+        ],
+        "visible_text": "",
+        "search_terms": [
+          "2002",
+          "drawing",
+          "historic san timoteo canyon",
+          "page 169",
+          "paul christian",
+          "pauline weaver",
+          "portrait",
+          "san gorgonio pass"
+        ],
+        "confidence": "high",
+        "review_note": "Manually added record; provenance verified in the metadata JSON."
+      },
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\pauline-weaver-paul-christian-page-169.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "filename",
+          "value": "pauline-weaver-paul-christian-page-169.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "provenance",
+          "value": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/pauline-weaver-paul-christian-page-169.jpg; the inbox original was not altered. No exact or close catalog duplicate was found.",
+          "source": "editorial_research",
+          "confidence": "provided"
+        }
+      ],
+      "thumbnail": "assets/thumbs/file_a3fef4d7a60863d4.jpg",
+      "preview": "assets/previews/file_a3fef4d7a60863d4.jpg"
+    },
+    {
+      "file_id": "file_6c186f841b38cdf7",
+      "path": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\pauline-weaver-home-sharon-estrada-page-166.jpg",
+      "filename": "pauline-weaver-home-sharon-estrada-page-166.jpg",
+      "extension": ".jpg",
+      "size_bytes": 539659,
+      "modified_at": "2026-07-28T18:07:11.146247+00:00",
+      "modified_at_is_historical_date": false,
+      "sha256": "78bdcc0844bcee8c19ba18878e1d77b01e6fbe79a927e7ece657df176f374adb",
+      "source_key": "user-inbox-peggy-christian-2002",
+      "source_priority": 90,
+      "curated": false,
+      "source_memberships": [
+        "user-inbox-peggy-christian-2002"
+      ],
+      "image": {
+        "format": "JPEG",
+        "width": 1724,
+        "height": 1080,
+        "megapixels": 1.86,
+        "mode": "RGB",
+        "frames": 1,
+        "exif": {
+          "ExifOffset": 306,
+          "59932": "\u001c�\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+        },
+        "sharpness_score": 3279.369,
+        "dhash": "6569c8debaaaece0",
+        "ahash": "ffcf91f0a080c1e7",
+        "transform_hashes": {
+          "normal": "6569c8debaaaece0",
+          "rot90": "74f4f2f6ba8ecada",
+          "rot180": "f8c8aa8284ec6858",
+          "rot270": "a4ac8ca290b090d0",
+          "mirror": "5868ec8482aac8f8"
+        },
+        "crop_hashes": [
+          "e1c888de2aa9ece0",
+          "c0c88cbf6e694d64",
+          "8d8d2dbb6e655d46"
+        ]
+      },
+      "ocr": {
+        "status": "unavailable",
+        "text": "",
+        "engine": null,
+        "confidence": null
+      },
+      "suggestions": {
+        "title": "Pauline Weaver's home in San Gorgonio Pass",
+        "caption": "",
+        "date_start": 2002,
+        "date_end": 2002,
+        "decade": 2000,
+        "locations": [
+          "San Gorgonio Pass",
+          "San Timoteo Canyon"
+        ],
+        "people": [
+          "Pauline Weaver",
+          "Sharon Estrada",
+          "Peggy Christian",
+          "O.C. Ord"
+        ],
+        "subjects": [
+          "artist's drawing",
+          "architectural reconstruction",
+          "rancho",
+          "mission circuit",
+          "Pauline Weaver",
+          "San Gorgonio Pass"
+        ],
+        "visible_text": "",
+        "search_terms": [
+          "1834",
+          "1845",
+          "1856",
+          "2002",
+          "drawing",
+          "historic san timoteo canyon",
+          "o.c. ord",
+          "page 166",
+          "pauline weaver",
+          "rancho",
+          "san gorgonio pass",
+          "sharon estrada"
+        ],
+        "confidence": "high",
+        "review_note": "Manually added record; provenance verified in the metadata JSON."
+      },
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\peggy-christian-2002\\pauline-weaver-home-sharon-estrada-page-166.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "filename",
+          "value": "pauline-weaver-home-sharon-estrada-page-166.jpg",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "provenance",
+          "value": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/pauline-weaver-home-sharon-estrada-page-166.jpg; the inbox original was not altered. No exact or close catalog duplicate was found.",
+          "source": "editorial_research",
+          "confidence": "provided"
+        }
+      ],
+      "thumbnail": "assets/thumbs/file_6c186f841b38cdf7.jpg",
+      "preview": "assets/previews/file_6c186f841b38cdf7.jpg"
     }
   ]
 }

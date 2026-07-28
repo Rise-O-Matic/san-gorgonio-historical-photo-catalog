@@ -87,11 +87,25 @@ The separate [`site/research.html`](site/research.html) workspace prioritizes cu
 - `data/files.csv`: source-file manifest
 - `data/research-queue.json`: prioritized research queue
 - `data/candidate-reviews.json`: source candidates kept separate from masters
+- `data/reference-numbers.json`: permanent mapping from internal IDs to human-readable references
 - `data/editorial-captions.json`: maintained caption + attribution layer (every record captioned and credited)
 - `data/reports/`: inventory, duplicate-review, and unreadable-file reports
 - `site/data/` and `site/assets/`: deployable portal data and optimized images
 
 Generated catalog edits made in the browser are local review overrides. To make verified changes authoritative for every visitor, update the source metadata/configuration or edit the maintained editorial-override JSON layer before rerunning.
+
+## Reference numbers
+
+Every catalog photograph has a stable reference in the form `BLD-0001`; every
+external research candidate has a reference in the form `BLD-C001`. Use these
+numbers in agent prompts, review notes, email, and selection discussions. The
+opaque `img_…` and `candidate_…` IDs remain the machine identifiers.
+
+Assignments live in `data/reference-numbers.json`. They are never renumbered or
+reused, even if the chronological sort changes or an entry is removed. The full
+pipeline and manual-record helper preserve the registry automatically. Run
+`python scripts/assign_reference_numbers.py` to backfill or repair generated
+catalog, CSV, research-queue, and candidate-review copies.
 
 ### Editorial date overrides
 
@@ -184,4 +198,3 @@ No source originals are deployed. This generated site is about 94 MB and contain
 The first authoritative-source pass is seeded in `candidate-reviews.json`. It found the Beaumont Library District local-history page, a related Southern Pacific depot postcard held by Tyrrell Historical Library/UNT with IIIF support, and the Beaumont Woman's Club history page. Search results frequently confuse Beaumont, California with Beaumont, Texas; candidates therefore require place and composition validation before acceptance.
 
 A second, Pass-wide pass (2026-07-10) added 16 externally sourced candidates for subjects **not** in the current, Beaumont-town-centric set: the town of Banning, Cabazon, the Colorado River Aqueduct, the Gilman Ranch stage station, and Native leaders/artisans of the Pass (Captain John Morongo, Fig Tree John, a Cahuilla basket maker). The richest open source is the **Banning Library District Local History Collection on Calisphere** (381 items covering Banning, Beaumont, Cabazon, and Cherry Valley from the 1880s on); single items also came from the Pomona Public Library Frasher Foto Collection and the USC / California Historical Society collection. Rights are tiered per item — one is Public Domain/CC BY (the USC summit-trail photo, the natural first real acquisition), one is permission-required (Frasher), and the fourteen Banning items carry the collection's uniform "copyright status unknown" statement, so none is promoted to a master until reuse is cleared. Full write-up and next steps: [`data/research-assets/san-gorgonio-pass-new-candidates.md`](data/research-assets/san-gorgonio-pass-new-candidates.md). Re-apply with `python scripts/add_pass_candidates.py`.
-

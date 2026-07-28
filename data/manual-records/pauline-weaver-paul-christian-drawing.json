@@ -1,0 +1,43 @@
+{
+  "image": "C:/GitHub/san-gorgonio-historical-photo-catalog/data/research-assets/sources/peggy-christian-2002/pauline-weaver-paul-christian-page-169.jpg",
+  "title": "Pauline Weaver — portrait drawing by Paul Christian (published 2002)",
+  "original_title": "Pauline Weaver drawing",
+  "date": {
+    "start": 2002,
+    "end": 2002,
+    "display": "Published 2002; drawing date unknown",
+    "confidence": "medium",
+    "basis": "The user identifies the reproduction as page 169 of Peggy Christian's 2002 book. The drawing is signed Paul Christian, but no creation date is visible."
+  },
+  "caption": "Posthumous, front-facing portrait drawing of Pauline Weaver in a broad-brimmed hat, signed Paul Christian and reproduced in Historic San Timoteo Canyon, page 169.",
+  "description": "A modern artistic interpretation of frontiersman Pauline Weaver, photographed from Peggy Christian's 2002 local-history book. It is not a photograph or a documented portrait from life. This is a distinct composition from catalog record BLD-0090, another posthumous Weaver drawing shown in three-quarter profile; the two should remain separate and should not be treated as independent evidence of Weaver's appearance.",
+  "attribution": "Drawing by Paul Christian; reproduced in Peggy Christian, Historic San Timoteo Canyon (2002), p. 169",
+  "attribution_confidence": "confirmed",
+  "caption_source": "Visible artist signature plus the user-supplied filename identifying the book and page number.",
+  "rights_status": "Copyrighted",
+  "rights_note": "The book states Copyright 2002 by Peggy Christian and all rights reserved; the drawing may also be protected as Paul Christian's artwork. Permission is required before reproduction or publication.",
+  "locations": ["San Gorgonio Pass", "San Timoteo Canyon"],
+  "people": ["Pauline Weaver", "Paul Christian", "Peggy Christian"],
+  "subjects": ["artist's drawing", "posthumous portrait", "frontiersman", "Pauline Weaver", "local history"],
+  "search_terms": ["2002", "drawing", "historic san timoteo canyon", "page 169", "paul christian", "pauline weaver", "portrait", "san gorgonio pass"],
+  "evidence": [
+    {"label": "User-supplied photograph of the page; Paul Christian's signature is visible on the drawing."},
+    {"label": "User-supplied filename identifies Historic San Timoteo Canyon, page 169."},
+    {"label": "Accompanying copyright page: Copyright 2002 by Peggy Christian; all rights reserved; ISBN 0-930704-33-9."}
+  ],
+  "holding": {
+    "institution": "User-supplied copy of Historic San Timoteo Canyon",
+    "item_id": "Page 169; ISBN 0-930704-33-9"
+  },
+  "open_questions": [
+    "Determine when Paul Christian created the drawing and what visual source, if any, he used.",
+    "Confirm the artist's rights contact and the book publisher's current rights contact before external reuse."
+  ],
+  "provenance": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/pauline-weaver-paul-christian-page-169.jpg; the inbox original was not altered. No exact or close catalog duplicate was found.",
+  "researched": "2026-07-28",
+  "curated": false,
+  "selected_default": false,
+  "source_key": "user-inbox-peggy-christian-2002",
+  "source_priority": 90,
+  "research_status": "Provenance verified"
+}

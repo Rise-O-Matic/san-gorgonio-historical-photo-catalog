@@ -1,0 +1,40 @@
+{
+  "image": "C:/GitHub/san-gorgonio-historical-photo-catalog/data/research-assets/sources/peggy-christian-2002/copyright-page.jpg",
+  "title": "Historic San Timoteo Canyon — copyright and publication page (2002)",
+  "original_title": "Copyright page — Historic San Timoteo Canyon",
+  "date": {
+    "start": 2002,
+    "end": 2002,
+    "display": "2002 publication",
+    "confidence": "confirmed",
+    "basis": "The photographed page explicitly states Copyright 2002 by Peggy Christian."
+  },
+  "caption": "Copyright and publication page for Peggy Christian's Historic San Timoteo Canyon, documenting the 2002 copyright, all-rights-reserved notice, ISBN 0-930704-33-9, Sagebrush Press design credit and United States printing.",
+  "description": "This source-document image establishes the publication and rights context for the accompanying book cover and Pauline Weaver drawings. Personal contact details printed on the page are intentionally omitted from the catalog description; consult the preserved source image only when a legitimate provenance or rights-clearance need requires it.",
+  "attribution": "Peggy Christian; book design credited to Sagebrush Press",
+  "attribution_confidence": "confirmed",
+  "caption_source": "Text visible on the user-supplied copyright page.",
+  "rights_status": "Copyrighted",
+  "rights_note": "The page explicitly states Copyright 2002 by Peggy Christian and reserves translation and reproduction rights in all media. Permission is required before reproduction or publication.",
+  "locations": ["San Timoteo Canyon"],
+  "people": ["Peggy Christian"],
+  "subjects": ["copyright page", "publication metadata", "local history", "San Timoteo Canyon"],
+  "search_terms": ["2002", "copyright", "historic san timoteo canyon", "isbn 0-930704-33-9", "peggy christian", "publication", "sagebrush press"],
+  "evidence": [
+    {"label": "User-supplied copyright-page photograph with copyright year, rights notice, ISBN and design credit visible."}
+  ],
+  "holding": {
+    "institution": "User-supplied copy of Historic San Timoteo Canyon",
+    "item_id": "ISBN 0-930704-33-9"
+  },
+  "open_questions": [
+    "Locate a current rights contact for the book and its contributed illustrations before external reuse."
+  ],
+  "provenance": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/copyright-page.jpg; the inbox original was not altered.",
+  "researched": "2026-07-28",
+  "curated": false,
+  "selected_default": false,
+  "source_key": "user-inbox-peggy-christian-2002",
+  "source_priority": 90,
+  "research_status": "Provenance verified"
+}

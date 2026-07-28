@@ -1,0 +1,44 @@
+{
+  "image": "C:/GitHub/san-gorgonio-historical-photo-catalog/data/research-assets/sources/peggy-christian-2002/pauline-weaver-home-sharon-estrada-page-166.jpg",
+  "title": "Pauline Weaver's San Gorgonio Pass home — reconstruction drawing by Sharon Estrada (published 2002)",
+  "original_title": "Pauline Weaver's home in San Gorgonio Pass",
+  "date": {
+    "start": 2002,
+    "end": 2002,
+    "display": "Published 2002; drawing date unknown",
+    "confidence": "medium",
+    "basis": "The user identifies the reproduction as page 166 of Peggy Christian's 2002 book. The caption credits Sharon Estrada and cites a book by O.C. Ord from 1856 as a source; it does not date the drawing to 1856."
+  },
+  "caption": "Reconstruction drawing of Pauline Weaver's home in the San Gorgonio Pass, showing a low rancho complex beneath the mountains; drawn by Sharon Estrada and published in Historic San Timoteo Canyon, page 166.",
+  "description": "A modern reconstruction rather than a contemporaneous view. The printed caption says the site was the third rancho on the mission circuit, that Weaver took over after the mission's 1834 abandonment, and that he never received title; it credits Sharon Estrada's drawing as based on a book by O.C. Ord dated 1856. Those historical statements are preserved as the book's claims and have not been independently verified here. The 1856 citation is source context, not the artwork's creation date.",
+  "attribution": "Drawing by Sharon Estrada, based on a book by O.C. Ord (1856); reproduced in Peggy Christian, Historic San Timoteo Canyon (2002), p. 166",
+  "attribution_confidence": "confirmed",
+  "caption_source": "Caption and artist signature visible on the user-supplied page photograph; book and page number supplied in the filename.",
+  "rights_status": "Copyrighted",
+  "rights_note": "The book states Copyright 2002 by Peggy Christian and all rights reserved; Sharon Estrada's reconstruction may carry a separate artist copyright. Permission is required before reproduction or publication.",
+  "locations": ["San Gorgonio Pass", "San Timoteo Canyon"],
+  "people": ["Pauline Weaver", "Sharon Estrada", "Peggy Christian", "O.C. Ord"],
+  "subjects": ["artist's drawing", "architectural reconstruction", "rancho", "mission circuit", "Pauline Weaver", "San Gorgonio Pass"],
+  "search_terms": ["1834", "1845", "1856", "2002", "drawing", "historic san timoteo canyon", "o.c. ord", "page 166", "pauline weaver", "rancho", "san gorgonio pass", "sharon estrada"],
+  "evidence": [
+    {"label": "User-supplied page photograph with the printed caption and Sharon Estrada signature visible."},
+    {"label": "User-supplied filename identifies Historic San Timoteo Canyon, page 166."},
+    {"label": "Accompanying copyright page: Copyright 2002 by Peggy Christian; all rights reserved; ISBN 0-930704-33-9."}
+  ],
+  "holding": {
+    "institution": "User-supplied copy of Historic San Timoteo Canyon",
+    "item_id": "Page 166; ISBN 0-930704-33-9"
+  },
+  "open_questions": [
+    "Identify the exact 1856 O.C. Ord publication and the passage or illustration Sharon Estrada used.",
+    "Verify the book's claims about the rancho chronology and title history against primary land records.",
+    "Confirm the artist's and book rights contacts before external reuse."
+  ],
+  "provenance": "Placed by the user in the repository inbox on 2026-07-28. The exact source bytes were preserved under data/research-assets/sources/peggy-christian-2002/pauline-weaver-home-sharon-estrada-page-166.jpg; the inbox original was not altered. No exact or close catalog duplicate was found.",
+  "researched": "2026-07-28",
+  "curated": false,
+  "selected_default": false,
+  "source_key": "user-inbox-peggy-christian-2002",
+  "source_priority": 90,
+  "research_status": "Provenance verified"
+}

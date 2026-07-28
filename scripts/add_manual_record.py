@@ -68,7 +68,7 @@ RIGHTS_ALLOWED = {"Public domain", "Permission required", "Copyrighted", "Unclea
 DEFAULT_RIGHTS_NOTE = "Do not infer reuse rights from age; verify against the holding institution or rights statement."
 PD_RIGHTS_NOTE = "Public domain — free to use and reuse; verify the holding institution's statement for the specific item."
 
-CSV_FIELDS = ["id", "title", "caption", "attribution", "attribution_confidence",
+CSV_FIELDS = ["reference_number", "id", "title", "caption", "attribution", "attribution_confidence",
               "caption_source", "date_start", "date_end", "decade", "curated",
               "selected_default", "classification", "recommended_print",
               "master_file_id", "rights_status", "research_status", "evidence_urls"]
@@ -191,6 +191,11 @@ def build_record(spec, file_entry, meta, digest, suggestion, facts):
 
 
 def upsert(record, file_entry):
+    config = json.loads((REPO / "config" / "catalog.config.json").read_text(encoding="utf-8"))
+    registry = cp.assign_reference_numbers(
+        [record], config.get("research_candidates", []), DATA / "reference-numbers.json"
+    )
+    cp.json_dump(SITE / "data" / "reference-numbers.json", registry)
     sort_key = lambda it: (it["date"]["start"] is None, it["date"]["start"] or 9999, it["title"].lower())
     for cat_path in (DATA / "catalog.json", SITE / "data" / "catalog.json"):
         doc = json.loads(cat_path.read_text(encoding="utf-8"))
@@ -211,6 +216,13 @@ def upsert(record, file_entry):
         cat_path.write_text(json.dumps(doc, indent=2, ensure_ascii=False), encoding="utf-8")
         print(f"  {cat_path.relative_to(REPO)}: {len(doc['records'])} records, {len(doc['files'])} files")
 
+    for queue_path in (DATA / "research-queue.json", SITE / "data" / "research-queue.json"):
+        queue = json.loads(queue_path.read_text(encoding="utf-8"))
+        queue = [item for item in queue if item.get("record_id") != record["id"]]
+        queue.append(cp.research_queue_entry(record, config.get("research_sources", [])))
+        queue.sort(key=lambda item: (-item["priority"], item["title"]))
+        cp.json_dump(queue_path, queue)
+
 
 def rewrite_csv():
     cat = json.loads((DATA / "catalog.json").read_text(encoding="utf-8"))
@@ -218,6 +230,7 @@ def rewrite_csv():
     for r in cat["records"]:
         ev = (r.get("research") or {}).get("evidence", [])
         rows.append({
+            "reference_number": r.get("reference_number", ""),
             "id": r["id"], "title": r["title"], "caption": r.get("caption", ""),
             "attribution": r.get("attribution", "Unknown"),
             "attribution_confidence": r.get("attribution_confidence", "unknown"),
