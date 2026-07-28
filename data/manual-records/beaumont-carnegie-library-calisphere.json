@@ -2,11 +2,11 @@
   "image": "C:/GitHub/san-gorgonio-historical-photo-catalog/data/research-assets/sources/calisphere/beaumont-carnegie-library.jpg",
   "title": "Beaumont Carnegie Library — historic exterior view (date unknown)",
   "original_title": "Beaumont Carnegie Library",
-  "caption": "Historic exterior view of the Beaumont Library District's Carnegie library building at 125 East 8th Street, Beaumont. The photograph's capture date is not identified in the available Calisphere image record.",
-  "description": "An undated historical exterior photograph of Beaumont's Carnegie library building. The image is distinct from the modern view published with the Press-Enterprise's 2010 centennial article. The building opened in 1914, but that construction date does not establish when this photograph was taken.",
+  "caption": "Undated exterior view of Beaumont's 1914 Carnegie library at 125 East Eighth Street, showing its original raised entrance, arched windows and stepped parapet framed by cypress trees and clipped hedges.",
+  "description": "An undated black-and-white view from East Eighth Street records Beaumont's Carnegie library in its original Classical Revival form: a broad stair rises to the central arched entrance, paired pilasters support a curved pediment with a 1914 medallion, and rows of round-arched windows wrap the symmetrical building behind clipped hedges, slender cypress trees and a flagpole. Designed by Los Angeles architect E. L. Hopkins after Beaumont accepted a $10,000 Andrew Carnegie grant in 1913, the building's cornerstone was laid on February 12, 1914, and it opened on June 16 as the first permanent home of the library district created by voters in 1911.",
   "attribution": "Beaumont Library District Local History Collection via Calisphere; photographer unknown",
   "attribution_confidence": "medium",
-  "caption_source": "Visual inspection of the Calisphere image and Beaumont Library District collection context supplied by the user.",
+  "caption_source": "Visual inspection of the Calisphere image; Beaumont Library District collection context; Record-Gazette and contemporary library-history sources.",
   "rights_status": "Permission required",
   "rights_note": "The Beaumont Library District Local History Collection finding aid directs users to contact the district for permission to publish or reproduce collection images. Obtain item-level permission before external reuse.",
   "locations": ["Beaumont", "125 East 8th Street", "Beaumont Carnegie Library"],
@@ -17,6 +17,18 @@
     {
       "label": "Calisphere image supplied by the user from the Beaumont Library District collection.",
       "url": "https://calisphere.org/clip/2000x2000/1828/7409d8c3b2d6a498d1eab3466b840310"
+    },
+    {
+      "label": "Beaumont Library District Local History Collection finding aid and reproduction terms.",
+      "url": "https://oac.cdlib.org/findaid/ark:/13030/c83b5xv5"
+    },
+    {
+      "label": "Record-Gazette: Library renovation and expansion timeline, including the 1914 Carnegie building and later alterations.",
+      "url": "https://www.recordgazette.net/news/library-renovation-and-expansion-timeline/article_f92f17b6-6487-11ee-83fa-9f2727b0d4b8.html"
+    },
+    {
+      "label": "News Notes of California Libraries, 1914: cornerstone and opening dates.",
+      "url": "https://archive.org/details/newsnotesofcalif09cali"
     }
   ],
   "holding": {
