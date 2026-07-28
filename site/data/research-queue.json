@@ -1,5 +1,66 @@
 [
   {
+    "record_id": "img_19838f7b9bf2e3f2",
+    "reference_number": "BLD-0276",
+    "title": "Beaumont Carnegie Library — historic exterior view (date unknown)",
+    "priority": 70,
+    "reason": "Low native print viability or missing historical context",
+    "status": "Queued",
+    "search_terms": [
+      "beaumont carnegie library",
+      "beaumont library district",
+      "calisphere",
+      "carnegie",
+      "east 8th street",
+      "historic library",
+      "public library"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": []
+  },
+  {
+    "record_id": "img_e60d929f9f608b1c",
+    "reference_number": "BLD-0277",
+    "title": "Beaumont Carnegie Library — centennial article exterior view (published 2010)",
+    "priority": 60,
+    "reason": "Low native print viability or missing historical context",
+    "status": "Queued",
+    "search_terms": [
+      "2010",
+      "100th anniversary",
+      "beaumont carnegie library",
+      "beaumont library district",
+      "centennial",
+      "east 8th street",
+      "press-enterprise",
+      "public library"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": []
+  },
+  {
     "record_id": "img_7707eba1df237c65",
     "title": "\"Beaumont Builds Attractive City Hall\" — newspaper clipping attributed to the Desert Sun, April 28, 1939",
     "priority": 0,

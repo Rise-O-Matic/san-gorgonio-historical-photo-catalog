@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "record_prefix": "BLD-",
   "candidate_prefix": "BLD-C",
-  "next_record_number": 276,
+  "next_record_number": 278,
   "next_candidate_number": 22,
   "records": {
     "img_1dfdd8cac1f62558": "BLD-0001",
@@ -279,7 +279,9 @@
     "img_249f0f6378f9b2c4": "BLD-0272",
     "img_02236570d4b27a6c": "BLD-0273",
     "img_9e1894c555b3bc53": "BLD-0274",
-    "img_8a9c10dc19758b76": "BLD-0275"
+    "img_8a9c10dc19758b76": "BLD-0275",
+    "img_19838f7b9bf2e3f2": "BLD-0276",
+    "img_e60d929f9f608b1c": "BLD-0277"
   },
   "candidates": {
     "candidate_bld_depot_page": "BLD-C001",
@@ -304,5 +306,5 @@
     "candidate_cali_beaumont_carnegie_library": "BLD-C020",
     "candidate_pressenterprise_beaumont_library_centennial_2010": "BLD-C021"
   },
-  "updated_at": "2026-07-28T18:10:09Z"
+  "updated_at": "2026-07-28T19:44:17Z"
 }
