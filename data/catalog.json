@@ -43590,191 +43590,6 @@
       "reference_number": "BLD-0203"
     },
     {
-      "id": "img_e60d929f9f608b1c",
-      "title": "Beaumont Carnegie Library — centennial article exterior view (published 2010)",
-      "caption": "Modern exterior view of the Beaumont Library District's Carnegie library building, published with an August 27, 2010 Press-Enterprise article about preparations for the district's centennial.",
-      "date": {
-        "start": 2010,
-        "end": 2010,
-        "display": "Published August 27, 2010; photograph date unverified",
-        "confidence": "medium",
-        "editable": true,
-        "source": "editorial_research",
-        "basis": "The image accompanied a Press-Enterprise article published August 27, 2010. No independent capture date or embedded image credit was supplied."
-      },
-      "decade": 2010,
-      "locations": [
-        "Beaumont",
-        "125 East 8th Street",
-        "Beaumont Carnegie Library"
-      ],
-      "people": [],
-      "subjects": [
-        "Carnegie library",
-        "public library",
-        "library architecture",
-        "Beaumont Library District",
-        "centennial"
-      ],
-      "visible_text": "",
-      "search_terms": [
-        "2010",
-        "100th anniversary",
-        "beaumont carnegie library",
-        "beaumont library district",
-        "centennial",
-        "east 8th street",
-        "press-enterprise",
-        "public library"
-      ],
-      "research_status": "Provenance partially verified",
-      "rights_status": "Copyrighted",
-      "rights_note": "No reuse license or image credit was supplied. Treat the photograph as copyrighted and obtain permission from The Press-Enterprise or the credited photographer before publication or reproduction.",
-      "selected_default": false,
-      "curated": false,
-      "master_file_id": "file_6a68491782ef1e7b",
-      "master_reason": "Single-source manual addition via scripts/add_manual_record.py.",
-      "version_file_ids": [
-        "file_6a68491782ef1e7b"
-      ],
-      "alternates": [],
-      "quality": {
-        "label": "sharp",
-        "factor": 1.0,
-        "editable": true
-      },
-      "print_viability": {
-        "crop_allowance_percent": 10.0,
-        "quality_factor": 1.0,
-        "ppi": {
-          "200": {
-            "width_inches": 2.6,
-            "height_inches": 1.7,
-            "native_crop_width_inches": 2.6,
-            "native_crop_height_inches": 1.7
-          },
-          "150": {
-            "width_inches": 3.5,
-            "height_inches": 2.3,
-            "native_crop_width_inches": 3.5,
-            "native_crop_height_inches": 2.3
-          },
-          "100": {
-            "width_inches": 5.3,
-            "height_inches": 3.5,
-            "native_crop_width_inches": 5.3,
-            "native_crop_height_inches": 3.5
-          },
-          "50": {
-            "width_inches": 10.5,
-            "height_inches": 6.9,
-            "native_crop_width_inches": 10.5,
-            "native_crop_height_inches": 6.9
-          }
-        },
-        "recommended": "5.3 × 3.5 in at 100 PPI",
-        "classification": "Reference Only",
-        "ai_upscaled_estimate": null
-      },
-      "metadata_suggestions": [
-        {
-          "file_id": "file_6a68491782ef1e7b",
-          "suggestion": {
-            "title": "Beaumont Library District prepares for 100th anniversary",
-            "caption": "",
-            "date_start": 2010,
-            "date_end": 2010,
-            "decade": 2010,
-            "locations": [
-              "Beaumont",
-              "125 East 8th Street",
-              "Beaumont Carnegie Library"
-            ],
-            "people": [],
-            "subjects": [
-              "Carnegie library",
-              "public library",
-              "library architecture",
-              "Beaumont Library District",
-              "centennial"
-            ],
-            "visible_text": "",
-            "search_terms": [
-              "2010",
-              "100th anniversary",
-              "beaumont carnegie library",
-              "beaumont library district",
-              "centennial",
-              "east 8th street",
-              "press-enterprise",
-              "public library"
-            ],
-            "confidence": "high",
-            "review_note": "Manually added record; provenance verified in the metadata JSON."
-          }
-        }
-      ],
-      "facts": [
-        {
-          "field": "source_path",
-          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\press-enterprise\\beaumont-library-centennial-2010.png",
-          "source": "filesystem",
-          "confidence": "certain"
-        },
-        {
-          "field": "filename",
-          "value": "beaumont-library-centennial-2010.png",
-          "source": "filesystem",
-          "confidence": "certain"
-        },
-        {
-          "field": "provenance",
-          "value": "The user supplied the image and article text on 2026-07-28. The source image is preserved under data/research-assets/sources/press-enterprise/beaumont-library-centennial-2010.png; its SHA-256 matches the reviewed candidate record.",
-          "source": "editorial_research",
-          "confidence": "provided"
-        }
-      ],
-      "conflicts": [],
-      "client": {
-        "selected": false,
-        "comment": ""
-      },
-      "thumbnail": "assets/thumbs/file_6a68491782ef1e7b.jpg",
-      "preview": "assets/previews/file_6a68491782ef1e7b.jpg",
-      "original_pixels": {
-        "width": 585,
-        "height": 384
-      },
-      "attribution": "Published by The Press-Enterprise; photographer not identified in the supplied image",
-      "attribution_confidence": "medium",
-      "caption_source": "User-supplied image and article text from the Press-Enterprise centennial article dated August 27, 2010.",
-      "research": {
-        "select_position": 20,
-        "original_title": "Beaumont Library District prepares for 100th anniversary",
-        "description": "A modern exterior view of the same Carnegie library facade shown in the undated Calisphere photograph, but a distinct photograph. The accompanying article describes the district's 1911 approval, its first rooms in a local bank, the Carnegie grant and the 1914 opening of the Eighth Street building.",
-        "evidence": [
-          {
-            "label": "Press-Enterprise article: Beaumont Library District prepares for 100th anniversary, August 27, 2010.",
-            "url": "https://www.pressenterprise.com/2010/08/27/beaumont-library-district-prepares-for-100th-anniversary/"
-          },
-          {
-            "label": "User-supplied copy of the article image preserved in the repository."
-          }
-        ],
-        "holding": {
-          "institution": "The Press-Enterprise",
-          "item_id": "Article published August 27, 2010",
-          "url": "https://www.pressenterprise.com/2010/08/27/beaumont-library-district-prepares-for-100th-anniversary/"
-        },
-        "open_questions": [
-          "Identify the photographer and exact capture date.",
-          "Obtain publication permission from the appropriate rights holder before external reuse."
-        ],
-        "researched": "2026-07-28"
-      },
-      "reference_number": "BLD-0277"
-    },
-    {
       "id": "img_fb90b64a110cd45f",
       "title": "Beaumont from the air, 2010",
       "caption": "Beaumont from the south, 2010 — after the boom that more than tripled the city in a decade.",
@@ -47018,6 +46833,196 @@
         "source_manifest": "Provenance review 2026-07-21 (source path + image inspection; RIGHTS-RULES.md)"
       },
       "reference_number": "BLD-0220"
+    },
+    {
+      "id": "img_e60d929f9f608b1c",
+      "title": "Beaumont Carnegie Library exterior, 2016",
+      "caption": "Luren Dickinson's August 16, 2016 exterior view of Beaumont's Carnegie library, showing the restored 1914 parapet and elevated central entrance from East Eighth Street.",
+      "date": {
+        "start": 2016,
+        "end": 2016,
+        "display": "August 16, 2016",
+        "confidence": "high",
+        "editable": true,
+        "source": "editorial_research",
+        "basis": "Wikimedia Commons identifies the self-made photograph's creation date as August 16, 2016."
+      },
+      "decade": 2010,
+      "locations": [
+        "Beaumont",
+        "125 East 8th Street",
+        "Beaumont Carnegie Library"
+      ],
+      "people": [],
+      "subjects": [
+        "Carnegie library",
+        "public library",
+        "library architecture",
+        "Beaumont Library District",
+        "historic preservation"
+      ],
+      "visible_text": "",
+      "search_terms": [
+        "2016",
+        "beaumont carnegie library",
+        "beaumont library district",
+        "carnegie",
+        "east 8th street",
+        "luren dickinson",
+        "lurend",
+        "wikimedia commons",
+        "public library"
+      ],
+      "research_status": "Provenance verified",
+      "rights_status": "Copyrighted",
+      "rights_note": "The Wikimedia Commons uploader Lurend identifies this as self-made work and states that they are the copyright holder, releasing it under CC BY-SA 4.0 and GFDL 1.2 or later. The user identifies the photographer as Luren Dickinson and associates the copyright with Beaumont Library District; reuse is permitted under the Commons licenses with attribution, a license link, notice of changes and share-alike terms where applicable, but Commons does not document a separate transfer of ownership to the District.",
+      "selected_default": false,
+      "curated": false,
+      "master_file_id": "file_6a68491782ef1e7b",
+      "master_reason": "Single-source manual addition via scripts/add_manual_record.py.",
+      "version_file_ids": [
+        "file_6a68491782ef1e7b"
+      ],
+      "alternates": [],
+      "quality": {
+        "label": "sharp",
+        "factor": 1.0,
+        "editable": true
+      },
+      "print_viability": {
+        "crop_allowance_percent": 10.0,
+        "quality_factor": 1.0,
+        "ppi": {
+          "200": {
+            "width_inches": 2.6,
+            "height_inches": 1.7,
+            "native_crop_width_inches": 2.6,
+            "native_crop_height_inches": 1.7
+          },
+          "150": {
+            "width_inches": 3.5,
+            "height_inches": 2.3,
+            "native_crop_width_inches": 3.5,
+            "native_crop_height_inches": 2.3
+          },
+          "100": {
+            "width_inches": 5.3,
+            "height_inches": 3.5,
+            "native_crop_width_inches": 5.3,
+            "native_crop_height_inches": 3.5
+          },
+          "50": {
+            "width_inches": 10.5,
+            "height_inches": 6.9,
+            "native_crop_width_inches": 10.5,
+            "native_crop_height_inches": 6.9
+          }
+        },
+        "recommended": "5.3 × 3.5 in at 100 PPI",
+        "classification": "Reference Only",
+        "ai_upscaled_estimate": null
+      },
+      "metadata_suggestions": [
+        {
+          "file_id": "file_6a68491782ef1e7b",
+          "suggestion": {
+            "title": "Beaumont Library District, Beaumont, CA, bld2.jpg",
+            "caption": "",
+            "date_start": 2016,
+            "date_end": 2016,
+            "decade": 2010,
+            "locations": [
+              "Beaumont",
+              "125 East 8th Street",
+              "Beaumont Carnegie Library"
+            ],
+            "people": [],
+            "subjects": [
+              "Carnegie library",
+              "public library",
+              "library architecture",
+              "Beaumont Library District",
+              "historic preservation"
+            ],
+            "visible_text": "",
+            "search_terms": [
+              "2016",
+              "beaumont carnegie library",
+              "beaumont library district",
+              "carnegie",
+              "east 8th street",
+              "luren dickinson",
+              "lurend",
+              "wikimedia commons",
+              "public library"
+            ],
+            "confidence": "high",
+            "review_note": "Manually added record; provenance verified in the metadata JSON."
+          }
+        }
+      ],
+      "facts": [
+        {
+          "field": "source_path",
+          "value": "C:\\GitHub\\san-gorgonio-historical-photo-catalog\\data\\research-assets\\sources\\press-enterprise\\beaumont-library-centennial-2010.png",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "filename",
+          "value": "beaumont-library-centennial-2010.png",
+          "source": "filesystem",
+          "confidence": "certain"
+        },
+        {
+          "field": "provenance",
+          "value": "The user supplied the image on 2026-07-28. Although retained under its original legacy repository path, pixel comparison confirms that it is exactly the 585 by 384 image uploaded to Wikimedia Commons by Lurend as self-made work; the user identifies the photographer as Luren Dickinson.",
+          "source": "editorial_research",
+          "confidence": "provided"
+        }
+      ],
+      "conflicts": [],
+      "client": {
+        "selected": false,
+        "comment": ""
+      },
+      "thumbnail": "assets/thumbs/file_6a68491782ef1e7b.jpg",
+      "preview": "assets/previews/file_6a68491782ef1e7b.jpg",
+      "original_pixels": {
+        "width": 585,
+        "height": 384
+      },
+      "attribution": "Luren Dickinson / Beaumont Library District, via Wikimedia Commons",
+      "attribution_confidence": "confirmed",
+      "caption_source": "Wikimedia Commons file record and pixel-identical source image; photographer identity supplied by the user; architectural history from the Record-Gazette renovation timeline.",
+      "research": {
+        "select_position": 20,
+        "original_title": "Beaumont Library District, Beaumont, CA, bld2.jpg",
+        "description": "Luren Dickinson's 2016 photograph looks across East Eighth Street toward Beaumont's working Carnegie library, its elevated entrance centered above a split staircase and its restored stepped parapet, 1914 medallion, pilasters and arched windows clearly visible between mature hedges and trees. The building is Riverside County's last remaining Carnegie library and its oldest continuously occupied library building; a 1965 rear addition more than doubled its floor area, while the shallow mansard installed in 1977/78 was removed in 2008 to reveal the original roofline seen here.",
+        "evidence": [
+          {
+            "label": "Wikimedia Commons file record: self-made photograph dated August 16, 2016, by Lurend; licensed CC BY-SA 4.0 and GFDL 1.2 or later.",
+            "url": "https://commons.wikimedia.org/wiki/File:Beaumont_Library_District,_Beaumont,_CA,_bld2.jpg"
+          },
+          {
+            "label": "Record-Gazette: Library renovation and expansion timeline, documenting the 1914 Carnegie building and later alterations.",
+            "url": "https://www.recordgazette.net/news/library-renovation-and-expansion-timeline/article_f92f17b6-6487-11ee-83fa-9f2727b0d4b8.html"
+          },
+          {
+            "label": "Local PNG is pixel-for-pixel identical to the 585 by 384 Wikimedia Commons original; verified July 28, 2026."
+          }
+        ],
+        "holding": {
+          "institution": "Wikimedia Commons",
+          "item_id": "File:Beaumont Library District, Beaumont, CA, bld2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Beaumont_Library_District,_Beaumont,_CA,_bld2.jpg"
+        },
+        "open_questions": [
+          "Confirm whether copyright is held personally by Luren Dickinson or institutionally by Beaumont Library District; the Commons license permits reuse either way when its terms are followed."
+        ],
+        "researched": "2026-07-28"
+      },
+      "reference_number": "BLD-0277"
     },
     {
       "id": "img_7c01fc3dab547cc4",
@@ -55901,7 +55906,7 @@
     {
       "id": "img_19838f7b9bf2e3f2",
       "title": "Beaumont Carnegie Library — historic exterior view (date unknown)",
-      "caption": "Historic exterior view of the Beaumont Library District's Carnegie library building at 125 East 8th Street, Beaumont. The photograph's capture date is not identified in the available Calisphere image record.",
+      "caption": "Undated exterior view of Beaumont's 1914 Carnegie library at 125 East Eighth Street, showing its original raised entrance, arched windows and stepped parapet framed by cypress trees and clipped hedges.",
       "date": {
         "start": null,
         "end": null,
@@ -56052,15 +56057,27 @@
       },
       "attribution": "Beaumont Library District Local History Collection via Calisphere; photographer unknown",
       "attribution_confidence": "medium",
-      "caption_source": "Visual inspection of the Calisphere image and Beaumont Library District collection context supplied by the user.",
+      "caption_source": "Visual inspection of the Calisphere image; Beaumont Library District collection context; Record-Gazette and contemporary library-history sources.",
       "research": {
         "select_position": 14,
         "original_title": "Beaumont Carnegie Library",
-        "description": "An undated historical exterior photograph of Beaumont's Carnegie library building. The image is distinct from the modern view published with the Press-Enterprise's 2010 centennial article. The building opened in 1914, but that construction date does not establish when this photograph was taken.",
+        "description": "An undated black-and-white view from East Eighth Street records Beaumont's Carnegie library in its original Classical Revival form: a broad stair rises to the central arched entrance, paired pilasters support a curved pediment with a 1914 medallion, and rows of round-arched windows wrap the symmetrical building behind clipped hedges, slender cypress trees and a flagpole. Designed by Los Angeles architect E. L. Hopkins after Beaumont accepted a $10,000 Andrew Carnegie grant in 1913, the building's cornerstone was laid on February 12, 1914, and it opened on June 16 as the first permanent home of the library district created by voters in 1911.",
         "evidence": [
           {
             "label": "Calisphere image supplied by the user from the Beaumont Library District collection.",
             "url": "https://calisphere.org/clip/2000x2000/1828/7409d8c3b2d6a498d1eab3466b840310"
+          },
+          {
+            "label": "Beaumont Library District Local History Collection finding aid and reproduction terms.",
+            "url": "https://oac.cdlib.org/findaid/ark:/13030/c83b5xv5"
+          },
+          {
+            "label": "Record-Gazette: Library renovation and expansion timeline, including the 1914 Carnegie building and later alterations.",
+            "url": "https://www.recordgazette.net/news/library-renovation-and-expansion-timeline/article_f92f17b6-6487-11ee-83fa-9f2727b0d4b8.html"
+          },
+          {
+            "label": "News Notes of California Libraries, 1914: cornerstone and opening dates.",
+            "url": "https://archive.org/details/newsnotesofcalif09cali"
           }
         ],
         "holding": {
@@ -90871,7 +90888,7 @@
       "filename": "beaumont-carnegie-library.jpg",
       "extension": ".jpg",
       "size_bytes": 156549,
-      "modified_at": "2026-07-28T19:36:09.124776+00:00",
+      "modified_at": "2026-07-28T19:58:55.417274+00:00",
       "modified_at_is_historical_date": false,
       "sha256": "80b254d486ec860b12af8487ff0ca96a5df89c2e21e0c413ab696ad0360d175f",
       "source_key": "calisphere-beaumont-library-district",
@@ -90974,11 +90991,11 @@
       "modified_at": "2026-07-28T17:48:54.329486+00:00",
       "modified_at_is_historical_date": false,
       "sha256": "289c2c3d2f49e76cd2f906a95afc81704ce78416e1c0719bb7d08edf8a3bb0bc",
-      "source_key": "press-enterprise-beaumont-library-centennial-2010",
+      "source_key": "wikimedia-commons-beaumont-library-lurend-2016",
       "source_priority": 90,
       "curated": false,
       "source_memberships": [
-        "press-enterprise-beaumont-library-centennial-2010"
+        "wikimedia-commons-beaumont-library-lurend-2016"
       ],
       "image": {
         "format": "PNG",
@@ -91011,10 +91028,10 @@
         "confidence": null
       },
       "suggestions": {
-        "title": "Beaumont Library District prepares for 100th anniversary",
+        "title": "Beaumont Library District, Beaumont, CA, bld2.jpg",
         "caption": "",
-        "date_start": 2010,
-        "date_end": 2010,
+        "date_start": 2016,
+        "date_end": 2016,
         "decade": 2010,
         "locations": [
           "Beaumont",
@@ -91027,17 +91044,18 @@
           "public library",
           "library architecture",
           "Beaumont Library District",
-          "centennial"
+          "historic preservation"
         ],
         "visible_text": "",
         "search_terms": [
-          "2010",
-          "100th anniversary",
+          "2016",
           "beaumont carnegie library",
           "beaumont library district",
-          "centennial",
+          "carnegie",
           "east 8th street",
-          "press-enterprise",
+          "luren dickinson",
+          "lurend",
+          "wikimedia commons",
           "public library"
         ],
         "confidence": "high",
@@ -91058,7 +91076,7 @@
         },
         {
           "field": "provenance",
-          "value": "The user supplied the image and article text on 2026-07-28. The source image is preserved under data/research-assets/sources/press-enterprise/beaumont-library-centennial-2010.png; its SHA-256 matches the reviewed candidate record.",
+          "value": "The user supplied the image on 2026-07-28. Although retained under its original legacy repository path, pixel comparison confirms that it is exactly the 585 by 384 image uploaded to Wikimedia Commons by Lurend as self-made work; the user identifies the photographer as Luren Dickinson.",
           "source": "editorial_research",
           "confidence": "provided"
         }

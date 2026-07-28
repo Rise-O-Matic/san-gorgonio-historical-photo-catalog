@@ -30,37 +30,6 @@
     "candidates": []
   },
   {
-    "record_id": "img_e60d929f9f608b1c",
-    "reference_number": "BLD-0277",
-    "title": "Beaumont Carnegie Library — centennial article exterior view (published 2010)",
-    "priority": 60,
-    "reason": "Low native print viability or missing historical context",
-    "status": "Queued",
-    "search_terms": [
-      "2010",
-      "100th anniversary",
-      "beaumont carnegie library",
-      "beaumont library district",
-      "centennial",
-      "east 8th street",
-      "press-enterprise",
-      "public library"
-    ],
-    "candidate_sources": [
-      "San Gorgonio Pass Historical Society",
-      "Beaumont Library District",
-      "City of Beaumont",
-      "Riverside County collections",
-      "Calisphere",
-      "California State Library",
-      "Library of Congress",
-      "Internet Archive",
-      "Wikimedia Commons",
-      "Universities, museums, and free newspaper archives"
-    ],
-    "candidates": []
-  },
-  {
     "record_id": "img_7707eba1df237c65",
     "title": "\"Beaumont Builds Attractive City Hall\" — newspaper clipping attributed to the Desert Sun, April 28, 1939",
     "priority": 0,
@@ -611,6 +580,38 @@
     ],
     "candidates": [],
     "reference_number": "BLD-0067"
+  },
+  {
+    "record_id": "img_e60d929f9f608b1c",
+    "reference_number": "BLD-0277",
+    "title": "Beaumont Carnegie Library exterior, 2016",
+    "priority": 0,
+    "reason": "Provenance verified — source and rights documented",
+    "status": "Provenance verified",
+    "search_terms": [
+      "2016",
+      "beaumont carnegie library",
+      "beaumont library district",
+      "carnegie",
+      "east 8th street",
+      "luren dickinson",
+      "lurend",
+      "wikimedia commons",
+      "public library"
+    ],
+    "candidate_sources": [
+      "San Gorgonio Pass Historical Society",
+      "Beaumont Library District",
+      "City of Beaumont",
+      "Riverside County collections",
+      "Calisphere",
+      "California State Library",
+      "Library of Congress",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "Universities, museums, and free newspaper archives"
+    ],
+    "candidates": []
   },
   {
     "record_id": "img_96cdf4349eff3950",

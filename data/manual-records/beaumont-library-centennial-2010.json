@@ -1,49 +1,52 @@
 {
   "image": "C:/GitHub/san-gorgonio-historical-photo-catalog/data/research-assets/sources/press-enterprise/beaumont-library-centennial-2010.png",
-  "title": "Beaumont Carnegie Library — centennial article exterior view (published 2010)",
-  "original_title": "Beaumont Library District prepares for 100th anniversary",
+  "title": "Beaumont Carnegie Library exterior, 2016",
+  "original_title": "Beaumont Library District, Beaumont, CA, bld2.jpg",
   "date": {
-    "start": 2010,
-    "end": 2010,
-    "display": "Published August 27, 2010; photograph date unverified",
-    "confidence": "medium",
-    "basis": "The image accompanied a Press-Enterprise article published August 27, 2010. No independent capture date or embedded image credit was supplied."
+    "start": 2016,
+    "end": 2016,
+    "display": "August 16, 2016",
+    "confidence": "high",
+    "basis": "Wikimedia Commons identifies the self-made photograph's creation date as August 16, 2016."
   },
-  "caption": "Modern exterior view of the Beaumont Library District's Carnegie library building, published with an August 27, 2010 Press-Enterprise article about preparations for the district's centennial.",
-  "description": "A modern exterior view of the same Carnegie library facade shown in the undated Calisphere photograph, but a distinct photograph. The accompanying article describes the district's 1911 approval, its first rooms in a local bank, the Carnegie grant and the 1914 opening of the Eighth Street building.",
-  "attribution": "Published by The Press-Enterprise; photographer not identified in the supplied image",
-  "attribution_confidence": "medium",
-  "caption_source": "User-supplied image and article text from the Press-Enterprise centennial article dated August 27, 2010.",
+  "caption": "Luren Dickinson's August 16, 2016 exterior view of Beaumont's Carnegie library, showing the restored 1914 parapet and elevated central entrance from East Eighth Street.",
+  "description": "Luren Dickinson's 2016 photograph looks across East Eighth Street toward Beaumont's working Carnegie library, its elevated entrance centered above a split staircase and its restored stepped parapet, 1914 medallion, pilasters and arched windows clearly visible between mature hedges and trees. The building is Riverside County's last remaining Carnegie library and its oldest continuously occupied library building; a 1965 rear addition more than doubled its floor area, while the shallow mansard installed in 1977/78 was removed in 2008 to reveal the original roofline seen here.",
+  "attribution": "Luren Dickinson / Beaumont Library District, via Wikimedia Commons",
+  "attribution_confidence": "confirmed",
+  "caption_source": "Wikimedia Commons file record and pixel-identical source image; photographer identity supplied by the user; architectural history from the Record-Gazette renovation timeline.",
   "rights_status": "Copyrighted",
-  "rights_note": "No reuse license or image credit was supplied. Treat the photograph as copyrighted and obtain permission from The Press-Enterprise or the credited photographer before publication or reproduction.",
+  "rights_note": "The Wikimedia Commons uploader Lurend identifies this as self-made work and states that they are the copyright holder, releasing it under CC BY-SA 4.0 and GFDL 1.2 or later. The user identifies the photographer as Luren Dickinson and associates the copyright with Beaumont Library District; reuse is permitted under the Commons licenses with attribution, a license link, notice of changes and share-alike terms where applicable, but Commons does not document a separate transfer of ownership to the District.",
   "locations": ["Beaumont", "125 East 8th Street", "Beaumont Carnegie Library"],
   "people": [],
-  "subjects": ["Carnegie library", "public library", "library architecture", "Beaumont Library District", "centennial"],
-  "search_terms": ["2010", "100th anniversary", "beaumont carnegie library", "beaumont library district", "centennial", "east 8th street", "press-enterprise", "public library"],
+  "subjects": ["Carnegie library", "public library", "library architecture", "Beaumont Library District", "historic preservation"],
+  "search_terms": ["2016", "beaumont carnegie library", "beaumont library district", "carnegie", "east 8th street", "luren dickinson", "lurend", "wikimedia commons", "public library"],
   "evidence": [
     {
-      "label": "Press-Enterprise article: Beaumont Library District prepares for 100th anniversary, August 27, 2010.",
-      "url": "https://www.pressenterprise.com/2010/08/27/beaumont-library-district-prepares-for-100th-anniversary/"
+      "label": "Wikimedia Commons file record: self-made photograph dated August 16, 2016, by Lurend; licensed CC BY-SA 4.0 and GFDL 1.2 or later.",
+      "url": "https://commons.wikimedia.org/wiki/File:Beaumont_Library_District,_Beaumont,_CA,_bld2.jpg"
     },
     {
-      "label": "User-supplied copy of the article image preserved in the repository."
+      "label": "Record-Gazette: Library renovation and expansion timeline, documenting the 1914 Carnegie building and later alterations.",
+      "url": "https://www.recordgazette.net/news/library-renovation-and-expansion-timeline/article_f92f17b6-6487-11ee-83fa-9f2727b0d4b8.html"
+    },
+    {
+      "label": "Local PNG is pixel-for-pixel identical to the 585 by 384 Wikimedia Commons original; verified July 28, 2026."
     }
   ],
   "holding": {
-    "institution": "The Press-Enterprise",
-    "item_id": "Article published August 27, 2010",
-    "url": "https://www.pressenterprise.com/2010/08/27/beaumont-library-district-prepares-for-100th-anniversary/"
+    "institution": "Wikimedia Commons",
+    "item_id": "File:Beaumont Library District, Beaumont, CA, bld2.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Beaumont_Library_District,_Beaumont,_CA,_bld2.jpg"
   },
   "open_questions": [
-    "Identify the photographer and exact capture date.",
-    "Obtain publication permission from the appropriate rights holder before external reuse."
+    "Confirm whether copyright is held personally by Luren Dickinson or institutionally by Beaumont Library District; the Commons license permits reuse either way when its terms are followed."
   ],
-  "provenance": "The user supplied the image and article text on 2026-07-28. The source image is preserved under data/research-assets/sources/press-enterprise/beaumont-library-centennial-2010.png; its SHA-256 matches the reviewed candidate record.",
+  "provenance": "The user supplied the image on 2026-07-28. Although retained under its original legacy repository path, pixel comparison confirms that it is exactly the 585 by 384 image uploaded to Wikimedia Commons by Lurend as self-made work; the user identifies the photographer as Luren Dickinson.",
   "researched": "2026-07-28",
   "select_position": 20,
   "curated": false,
   "selected_default": false,
-  "source_key": "press-enterprise-beaumont-library-centennial-2010",
+  "source_key": "wikimedia-commons-beaumont-library-lurend-2016",
   "source_priority": 90,
-  "research_status": "Provenance partially verified"
+  "research_status": "Provenance verified"
 }
