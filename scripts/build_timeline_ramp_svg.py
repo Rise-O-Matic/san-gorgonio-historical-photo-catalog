@@ -29,17 +29,36 @@ Y_START = 32.0
 
 CARD_WIDTH = 13.6
 CARD_HALF = CARD_WIDTH / 2
-CORNER_RADIUS = 0.30
-ACCENT_HEIGHT = 0.60
-SHADOW_OFFSET = 0.45
-HEADLINE_TOP = -7.00
-HEADLINE_HEIGHT = 4.85
-PHOTO_TILE_TOP = 2.25
-PHOTO_HEIGHT = 8.15
-CAPTION_TOP = 10.72
-CAPTION_HEIGHT = 5.55
-PHOTO_TILE_BOTTOM = CAPTION_TOP + CAPTION_HEIGHT
-PHOTO_TILE_CENTER_OFFSET = (PHOTO_TILE_TOP + PHOTO_TILE_BOTTOM) / 2
+COPY_LEFT = -5.95
+MODULE_FILL = "#FEFBF5"
+PHOTO_MATTE_FILL = "#FDFBF5"
+SHADOW_FILL = "#0B1618"
+SHADOW_OPACITY = 0.20
+HEADLINE_TOP = -8.10
+HEADLINE_HEIGHT = 5.40
+HEADLINE_RADIUS = 0.22
+HEADLINE_SHADOW_OFFSET = 0.35
+YEAR_BASELINE = -6.55
+RULE_TOP = -5.75
+RULE_WIDTH = 3.20
+RULE_HEIGHT = 0.12
+HEADLINE_BASELINE = -4.82
+HEADLINE_LINE_HEIGHT = 0.88
+LOWER_PANEL_TOP = 2.40
+LOWER_PANEL_HEIGHT = 17.32
+LOWER_PANEL_BOTTOM = LOWER_PANEL_TOP + LOWER_PANEL_HEIGHT
+LOWER_PANEL_RADIUS = 0.40
+LOWER_SHADOW_OFFSET = 0.46
+ACCENT_HEIGHT = 0.56
+PHOTO_LEFT = -5.95
+PHOTO_TOP = 3.85
+PHOTO_WIDTH = 11.90
+PHOTO_HEIGHT = 9.90
+CAPTION_BASELINE = 15.04
+CAPTION_LINE_HEIGHT = 0.82
+PHOTO_TILE_CENTER_OFFSET = (LOWER_PANEL_TOP + LOWER_PANEL_BOTTOM) / 2
+ERA_LABEL_TOP = -19.50
+ERA_LABEL_HEIGHT = 5.40
 
 ERAS = (
     {
@@ -89,6 +108,17 @@ def point_for(position: int, count: int) -> tuple[float, float]:
     x = X_START + ((position - 1) / (count - 1)) * (X_END - X_START)
     y = Y_START + (x - X_START) * SLOPE
     return x, y
+
+
+def top_rounded_bar_path(*, x: float, y: float, width: float, height: float, radius: float) -> str:
+    right = x + width
+    return (
+        f"M {x + radius:.2f} {y:.2f} "
+        f"H {right - radius:.2f} "
+        f"Q {right:.2f} {y:.2f} {right:.2f} {y + radius:.2f} "
+        f"V {y + height:.2f} H {x:.2f} V {y + radius:.2f} "
+        f"Q {x:.2f} {y:.2f} {x + radius:.2f} {y:.2f} Z"
+    )
 
 
 def wrapped_tspans(
@@ -144,22 +174,23 @@ def build_svg(events: list[dict[str, object]]) -> str:
         '<?xml version="1.0" encoding="UTF-8"?>',
         f'<svg xmlns="http://www.w3.org/2000/svg" data-scale="1:{DOCUMENT_SCALE}" data-full-size="{WIDTH:g}in x {HEIGHT:g}in" width="{WIDTH / DOCUMENT_SCALE:g}in" height="{HEIGHT / DOCUMENT_SCALE:g}in" viewBox="0 0 {WIDTH:g} {HEIGHT:g}" role="img" aria-labelledby="title desc">',
         '  <title id="title">Beaumont and San Gorgonio Pass four-era mural timeline</title>',
-        f'  <desc id="desc">An editable 1:{DOCUMENT_SCALE}-scale, {ANGLE_DEGREES:g}-degree timeline for twenty approved historical events. Each event has a dot, compact milestone headline above the line, solid photo matte and caption placeholder. The line is divided into four eras.</desc>',
+        f'  <desc id="desc">An editable 1:{DOCUMENT_SCALE}-scale, {ANGLE_DEGREES:g}-degree timeline for twenty approved historical events, styled from the visible artwork in timeline-module-master-v2. Each event has a serif year and headline above the line and a unified photo-caption matte below it. The line is divided into four eras.</desc>',
         '  <metadata>',
         f'    Production scale is 1:{DOCUMENT_SCALE}; enlarge the placed art to {DOCUMENT_SCALE * 100}% for the {WIDTH:g}in by {HEIGHT:g}in mural. The viewBox retains full-size inch coordinates.',
         f'    The timeline descends {ANGLE_DEGREES:g} degrees from left to right. All headline, photo and caption tiles remain level like escalator steps.',
-        f'    Every photo-caption complex center is {PHOTO_TILE_CENTER_OFFSET:.2f} full-size inches vertically below the line.',
+        f'    Every photo-caption module center is {PHOTO_TILE_CENTER_OFFSET:.2f} full-size inches vertically below the line.',
+        '    Visible styling is derived from timeline-module-master-v2 artwork; its written spec annotations were not used.',
         '    Photos are intentionally omitted. Replace the solid matte inside each group named photo-placeholder-XX in Adobe Illustrator.',
         '  </metadata>',
         '  <defs>',
         '    <style><![CDATA[',
-        "      text { font-family: 'Libre Franklin', 'Franklin Gothic Book', Arial, sans-serif; }",
-        "      .era-name { font-family: 'DM Serif Display', Georgia, serif; font-size: 1.10px; font-weight: 700; fill: #1D2729; }",
-        '      .era-range { font-size: 0.62px; font-weight: 800; letter-spacing: 0.14px; fill: #665B4C; }',
-        '      .event-date { font-size: 0.50px; font-weight: 800; letter-spacing: 0.10px; }',
-        "      .event-headline { font-family: 'DM Serif Display', Georgia, serif; font-size: 0.66px; font-weight: 700; fill: #17363C; }",
-        '      .position { font-size: 0.47px; font-weight: 800; letter-spacing: 0.08px; }',
-        "      .photo-title { font-family: 'DM Serif Display', Georgia, serif; font-size: 0.60px; font-weight: 700; fill: #222; }",
+        "      text { font-family: Georgia-Bold, Georgia, serif; font-weight: 700; }",
+        '      .era-range { font-size: 1.10px; }',
+        '      .era-name { font-size: 0.78px; fill: #17363C; }',
+        '      .event-date { font-size: 1.55px; }',
+        '      .event-date-long { font-size: 1.00px; }',
+        '      .event-headline { font-size: 0.78px; fill: #17363C; }',
+        '      .photo-title { font-size: 0.62px; fill: #2E2E2E; }',
         '    ]]></style>',
         '  </defs>',
         f'  <g id="timeline-ramp" data-angle="{ANGLE_DEGREES:g}-degrees" data-direction="down-left-to-right">',
@@ -194,11 +225,11 @@ def build_svg(events: list[dict[str, object]]) -> str:
         out.extend(
             [
                 f'      <g id="{era["id"]}-label" transform="translate({center_x:.2f} {center_y:.2f})">',
-                f'        <rect x="{-label_width / 2:.2f}" y="{-18.20 + SHADOW_OFFSET:.2f}" width="{label_width:.2f}" height="4.75" rx="{CORNER_RADIUS:.2f}" fill="#0B1618" opacity="0.30"/>',
-                f'        <rect x="{-label_width / 2:.2f}" y="-18.20" width="{label_width:.2f}" height="4.75" rx="{CORNER_RADIUS:.2f}" fill="#F8F4EC" stroke="{era["color"]}" stroke-width="0.22"/>',
-                f'        <rect x="{-label_width / 2:.2f}" y="-18.20" width="{label_width:.2f}" height="{ACCENT_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="{era["color"]}"/>',
-                f'        <text x="0" y="-15.76" text-anchor="middle" class="era-name">{esc(era["name"])}</text>',
-                f'        <text x="0" y="-14.45" text-anchor="middle" class="era-range">{esc(era["range"])}</text>',
+                f'        <rect x="{-label_width / 2:.2f}" y="{ERA_LABEL_TOP + HEADLINE_SHADOW_OFFSET:.2f}" width="{label_width:.2f}" height="{ERA_LABEL_HEIGHT:.2f}" rx="{HEADLINE_RADIUS:.2f}" fill="{SHADOW_FILL}" opacity="{SHADOW_OPACITY:.2f}"/>',
+                f'        <rect x="{-label_width / 2:.2f}" y="{ERA_LABEL_TOP:.2f}" width="{label_width:.2f}" height="{ERA_LABEL_HEIGHT:.2f}" rx="{HEADLINE_RADIUS:.2f}" fill="{MODULE_FILL}"/>',
+                f'        <text x="{-label_width / 2 + 0.85:.2f}" y="{ERA_LABEL_TOP + 1.55:.2f}" class="era-range" fill="{era["color"]}">{esc(era["range"])}</text>',
+                f'        <rect x="{-label_width / 2 + 0.85:.2f}" y="{ERA_LABEL_TOP + 2.35:.2f}" width="{RULE_WIDTH:.2f}" height="{RULE_HEIGHT:.2f}" fill="{era["color"]}"/>',
+                f'        <text x="{-label_width / 2 + 0.85:.2f}" y="{ERA_LABEL_TOP + 3.78:.2f}" class="era-name">{esc(era["name"])}</text>',
                 '      </g>',
             ]
         )
@@ -212,25 +243,31 @@ def build_svg(events: list[dict[str, object]]) -> str:
         color = str(era["color"])
         number = f"{position:02d}"
         event_id = f'event-{number}-{str(event["reference_number"]).lower()}'
+        date_length = len(str(event["date"]))
+        if date_length > 16:
+            date_class = "event-date event-date-long"
+        else:
+            date_class = "event-date"
         out.extend(
             [
                 f'      <g id="{event_id}" data-position="{number}" data-reference="{esc(event["reference_number"])}" data-record-id="{esc(event["record_id"])}" data-era="{esc(era["id"])}" transform="translate({x:.2f} {y:.2f})">',
-                f'        <line id="event-stem-{number}" x1="0" y1="1.10" x2="0" y2="{PHOTO_TILE_TOP:.2f}" stroke="{color}" stroke-width="0.22"/>',
+                f'        <line id="event-stem-up-{number}" x1="0" y1="-1.20" x2="0" y2="{HEADLINE_TOP + HEADLINE_HEIGHT:.2f}" stroke="{color}" stroke-width="0.22"/>',
+                f'        <line id="event-stem-down-{number}" x1="0" y1="1.20" x2="0" y2="{LOWER_PANEL_TOP:.2f}" stroke="{color}" stroke-width="0.22"/>',
                 f'        <g id="milestone-headline-{number}">',
-                f'          <rect x="{-CARD_HALF:.2f}" y="{HEADLINE_TOP + SHADOW_OFFSET:.2f}" width="{CARD_WIDTH:.2f}" height="{HEADLINE_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="#0B1618" opacity="0.30"/>',
-                f'          <rect x="{-CARD_HALF:.2f}" y="{HEADLINE_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{HEADLINE_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="#F8F4EC" stroke="{color}" stroke-width="0.16"/>',
-                f'          <rect x="{-CARD_HALF:.2f}" y="{HEADLINE_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{ACCENT_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="{color}"/>',
-                f'          <text x="{-CARD_HALF + 0.68:.2f}" y="-5.85" class="event-date" fill="{color}">{esc(event["date"])}</text>',
+                f'          <rect x="{-CARD_HALF:.2f}" y="{HEADLINE_TOP + HEADLINE_SHADOW_OFFSET:.2f}" width="{CARD_WIDTH:.2f}" height="{HEADLINE_HEIGHT:.2f}" rx="{HEADLINE_RADIUS:.2f}" fill="{SHADOW_FILL}" opacity="{SHADOW_OPACITY:.2f}"/>',
+                f'          <rect x="{-CARD_HALF:.2f}" y="{HEADLINE_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{HEADLINE_HEIGHT:.2f}" rx="{HEADLINE_RADIUS:.2f}" fill="{MODULE_FILL}"/>',
+                f'          <text x="{COPY_LEFT:.2f}" y="{YEAR_BASELINE:.2f}" class="{date_class}" fill="{color}">{esc(event["date"])}</text>',
+                f'          <rect id="milestone-rule-{number}" x="{COPY_LEFT:.2f}" y="{RULE_TOP:.2f}" width="{RULE_WIDTH:.2f}" height="{RULE_HEIGHT:.2f}" fill="{color}"/>',
                 f'          <text aria-label="{esc(event["headline"])}">',
             ]
         )
         out.extend(
             wrapped_tspans(
                 str(event["headline"]),
-                x=-CARD_HALF + 0.68,
-                y=-4.55,
-                width=34,
-                line_height=0.78,
+                x=COPY_LEFT,
+                y=HEADLINE_BASELINE,
+                width=28,
+                line_height=HEADLINE_LINE_HEIGHT,
                 max_lines=3,
                 class_name="event-headline",
             )
@@ -239,23 +276,24 @@ def build_svg(events: list[dict[str, object]]) -> str:
             [
                 '          </text>',
                 '        </g>',
-                f'        <g id="photo-placeholder-{number}" data-replace-with-photo="true">',
-                f'          <rect id="photo-matte-{number}" x="{-CARD_HALF:.2f}" y="{PHOTO_TILE_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{PHOTO_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="#FDFBF5"/>',
-                '        </g>',
-                f'        <g id="caption-placeholder-{number}">',
-                f'          <rect x="{-CARD_HALF:.2f}" y="{CAPTION_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{CAPTION_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>',
-                f'          <rect x="{-CARD_HALF:.2f}" y="{CAPTION_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{ACCENT_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="{color}"/>',
-                f'          <text x="{-CARD_HALF + 0.68:.2f}" y="12.06" class="position" fill="{color}">{number} · {esc(event["reference_number"])}</text>',
+                f'        <g id="photo-caption-module-{number}">',
+                f'          <rect x="{-CARD_HALF:.2f}" y="{LOWER_PANEL_TOP + LOWER_SHADOW_OFFSET:.2f}" width="{CARD_WIDTH:.2f}" height="{LOWER_PANEL_HEIGHT:.2f}" rx="{LOWER_PANEL_RADIUS:.2f}" fill="{SHADOW_FILL}" opacity="{SHADOW_OPACITY:.2f}"/>',
+                f'          <rect x="{-CARD_HALF:.2f}" y="{LOWER_PANEL_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{LOWER_PANEL_HEIGHT:.2f}" rx="{LOWER_PANEL_RADIUS:.2f}" fill="{MODULE_FILL}"/>',
+                f'          <path id="era-accent-{number}" d="{top_rounded_bar_path(x=-CARD_HALF, y=LOWER_PANEL_TOP, width=CARD_WIDTH, height=ACCENT_HEIGHT, radius=LOWER_PANEL_RADIUS)}" fill="{color}"/>',
+                f'          <g id="photo-placeholder-{number}" data-replace-with-photo="true">',
+                f'            <rect id="photo-matte-{number}" x="{PHOTO_LEFT:.2f}" y="{PHOTO_TOP:.2f}" width="{PHOTO_WIDTH:.2f}" height="{PHOTO_HEIGHT:.2f}" rx="{LOWER_PANEL_RADIUS:.2f}" fill="{PHOTO_MATTE_FILL}"/>',
+                '          </g>',
+                f'          <g id="caption-placeholder-{number}" data-position="{number}" data-reference="{esc(event["reference_number"])}">',
                 f'          <text aria-label="{esc(event["photo_title"])}">',
             ]
         )
         out.extend(
             wrapped_tspans(
                 str(event["photo_title"]),
-                x=-CARD_HALF + 0.68,
-                y=13.30,
-                width=39,
-                line_height=0.78,
+                x=COPY_LEFT,
+                y=CAPTION_BASELINE,
+                width=33,
+                line_height=CAPTION_LINE_HEIGHT,
                 max_lines=3,
                 class_name="photo-title",
             )
@@ -263,6 +301,7 @@ def build_svg(events: list[dict[str, object]]) -> str:
         out.extend(
             [
                 '          </text>',
+                '          </g>',
                 '        </g>',
                 '      </g>',
             ]
