@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17363c">
+  <title>PRD · Parametric Timeline Module Designer</title>
+  <meta name="description" content="Product requirements for a browser-based, parametric module designer and print renderer for the Beaumont historical mural timeline.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Franklin:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="prd.css?v=1">
+</head>
+<body>
+  <a class="skip-link" href="#prd">Skip to requirements</a>
+
+  <header class="prd-hero">
+    <nav class="hero-nav" aria-label="Project navigation">
+      <a class="brand" href="index.html"><span>BLD</span> Historical Photo Catalog</a>
+      <a href="assets/timeline-mural-ramp.svg">Current timeline SVG</a>
+    </nav>
+    <div class="hero-copy">
+      <p class="kicker">Product requirements document · Draft v0.1 · July 28, 2026</p>
+      <h1>Parametric Timeline<br><em>Module Designer</em></h1>
+      <p class="lede">A browser-based design workspace where one shared module controls every timeline tile, text flows naturally inside editable areas, and the complete five-degree mural layout rebuilds itself from structured content.</p>
+      <div class="decision-strip" aria-label="Product decision summary">
+        <div><strong>Authoring surface</strong><span>HTML and CSS</span></div>
+        <div><strong>Source of truth</strong><span>JSON content + design tokens</span></div>
+        <div><strong>Primary output</strong><span>Print-scale PDF</span></div>
+        <div><strong>Interchange output</strong><span>Compiled SVG</span></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="prd-shell">
+    <aside class="toc" aria-label="Document contents">
+      <p class="toc-title">Contents</p>
+      <a href="#summary">1. Summary</a>
+      <a href="#problem">2. Problem</a>
+      <a href="#principles">3. Principles</a>
+      <a href="#scope">4. Scope</a>
+      <a href="#users">5. Users and jobs</a>
+      <a href="#experience">6. Product experience</a>
+      <a href="#requirements">7. Requirements</a>
+      <a href="#data">8. Data model</a>
+      <a href="#layout">9. Layout system</a>
+      <a href="#export">10. Export and preflight</a>
+      <a href="#quality">11. Quality</a>
+      <a href="#delivery">12. Delivery phases</a>
+      <a href="#risks">13. Risks</a>
+      <a href="#decisions">14. Open decisions</a>
+    </aside>
+
+    <main id="prd" class="prd-content">
+      <section id="summary">
+        <p class="section-number">01</p>
+        <h2>Executive summary</h2>
+        <p>The Timeline Module Designer will replace hand-maintained Illustrator and SVG tile layouts with a constrained visual editor backed by reusable web components. The editor will expose one master module canvas, a property inspector, a content editor, and a live full-timeline preview. Every timeline instance will be rendered from the same component, data records, and design tokens.</p>
+        <p>The application will make global typography and geometry changes propagate automatically, allow event records to be added or removed without manual shuffling, preserve visible sample and placeholder copy, and prevent export while text or artwork is unresolved.</p>
+
+        <div class="callout decision">
+          <h3>Product decision</h3>
+          <p>HTML/CSS is the canonical authoring and rendering system. SVG and PDF are generated deliverables. Users must not need to edit the compiled SVG to maintain the timeline.</p>
+        </div>
+      </section>
+
+      <section id="problem">
+        <p class="section-number">02</p>
+        <h2>Problem statement</h2>
+        <p>The current workflow treats each tile as independent vector artwork. That produces four recurring problems:</p>
+        <ol class="problem-list">
+          <li><strong>Text is pre-broken into discrete SVG lines.</strong> Font, size, width, or copy changes require line breaks to be regenerated rather than allowing natural area-text flow.</li>
+          <li><strong>Repeated geometry is not truly shared.</strong> Resizing a panel, changing an inset, or moving a caption requires repeating the edit across twenty modules.</li>
+          <li><strong>Reference content can be lost during refactoring.</strong> Visible placeholder copy from the approved sample module was omitted because it was not modeled as structured product data.</li>
+          <li><strong>Adding or removing a record creates layout labor.</strong> Tiles, event dots, stems, era segments, and labels have to be repositioned manually.</li>
+        </ol>
+        <p>The root issue is not simply an SVG limitation. It is the lack of a maintained component model, shared design tokens, structured content schema, and deterministic layout engine.</p>
+      </section>
+
+      <section id="principles">
+        <p class="section-number">03</p>
+        <h2>Product principles</h2>
+        <div class="principle-grid">
+          <article><span>01</span><h3>One master, many instances</h3><p>Every module derives from one component. Shared appearance is never copied into independently maintained artwork.</p></article>
+          <article><span>02</span><h3>Content and design stay separate</h3><p>Historical facts and image metadata belong to records; typography and geometry belong to design tokens.</p></article>
+          <article><span>03</span><h3>Direct manipulation edits constraints</h3><p>Drag handles change meaningful shared properties such as width, inset, or photo height—not arbitrary per-tile coordinates.</p></article>
+          <article><span>04</span><h3>Generated output is disposable</h3><p>PDF and SVG can be rebuilt at any time from canonical inputs and should never contain the only copy of a decision.</p></article>
+          <article><span>05</span><h3>Failure must be visible</h3><p>Overset text, missing images, unavailable fonts, and insufficient resolution are explicit warnings, not silent defects.</p></article>
+          <article><span>06</span><h3>Print geometry is deterministic</h3><p>The same data and tokens must always produce the same tile positions and export bounds.</p></article>
+        </div>
+      </section>
+
+      <section id="scope">
+        <p class="section-number">04</p>
+        <h2>Goals and scope</h2>
+        <div class="two-column">
+          <div>
+            <h3>Goals</h3>
+            <ul class="check-list">
+              <li>Edit a single master module visually.</li>
+              <li>Use genuine browser text flow inside bounded headline and caption areas.</li>
+              <li>Propagate design changes to every module immediately.</li>
+              <li>Recalculate the five-degree timeline when records are added, removed, reordered, or reassigned.</li>
+              <li>Preview short, long, missing, and representative content states.</li>
+              <li>Preserve the visible sample content from <code>timeline-module-master-v2</code>.</li>
+              <li>Produce a repeatable print-scale PDF and compiled SVG.</li>
+              <li>Protect historical content, provenance, and copyright metadata.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Non-goals for MVP</h3>
+            <ul class="dash-list">
+              <li>Replacing Illustrator as a general-purpose drawing application.</li>
+              <li>Supporting arbitrary freeform layouts for individual events.</li>
+              <li>Multi-user accounts, comments, or simultaneous editing.</li>
+              <li>Performing final CMYK conversion inside the browser.</li>
+              <li>Full photo retouching or restoration.</li>
+              <li>Round-tripping hand edits from generated SVG back into the component model.</li>
+              <li>Generating a fully editable Illustrator file in the initial release.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="users">
+        <p class="section-number">05</p>
+        <h2>Users and jobs</h2>
+        <div class="user-grid">
+          <article><p class="role">Primary</p><h3>Timeline designer</h3><p>Needs to tune hierarchy, typography, spacing, and module proportions once and trust that every event will update.</p></article>
+          <article><p class="role">Primary</p><h3>Historical editor</h3><p>Needs to update dates, headlines, captions, photos, rights, and ordering without manipulating layout geometry.</p></article>
+          <article><p class="role">Secondary</p><h3>Print-production reviewer</h3><p>Needs predictable dimensions, embedded fonts, image-resolution checks, and a clear preflight report.</p></article>
+        </div>
+
+        <h3>Core jobs to be done</h3>
+        <div class="story-list">
+          <p><strong>When I change a font or text size,</strong> I want every module to update and reflow so that I can judge the complete timeline without editing twenty objects.</p>
+          <p><strong>When I resize part of the master module,</strong> I want all instances and the overall layout to recalculate so that the composition remains coherent.</p>
+          <p><strong>When I add, remove, or reorder an event,</strong> I want dots, stems, modules, and era segments to rebuild automatically so that no manual shuffling is required.</p>
+          <p><strong>When I prepare a print export,</strong> I want blocking problems identified before the file is generated so that errors do not reach the wall.</p>
+        </div>
+      </section>
+
+      <section id="experience">
+        <p class="section-number">06</p>
+        <h2>Product experience</h2>
+        <p>The application will use four coordinated work areas. Selecting or editing in one area updates the others without navigating away.</p>
+        <div class="experience-map" role="img" aria-label="Module designer interface showing module canvas, inspector, content panel, and full timeline preview">
+          <div class="map-canvas"><span>Shared module canvas</span><strong>Direct visual editing</strong><small>One representative module · selectable parts · resize handles · rulers</small></div>
+          <div class="map-inspector"><span>Inspector</span><strong>Exact shared properties</strong><small>Typography · dimensions · colors · spacing · overflow policy</small></div>
+          <div class="map-content"><span>Content panel</span><strong>Selected event data</strong><small>Date · headline · caption · photo · era · rights · provenance</small></div>
+          <div class="map-timeline"><span>Full timeline</span><strong>Immediate propagation</strong><small>All modules · 5° ramp · four eras · preflight markers</small></div>
+        </div>
+
+        <h3>Editing modes</h3>
+        <table>
+          <thead><tr><th>Mode</th><th>What can change</th><th>Propagation</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Design</strong></td><td>Typography, module geometry, spacing, colors, radii, shadows, dot and stem styling</td><td>All modules and era labels</td></tr>
+            <tr><td><strong>Content</strong></td><td>Date, headline, caption, image, era, rights, credit, source, notes</td><td>Selected record only</td></tr>
+            <tr><td><strong>Preview</strong></td><td>Zoom, pan, stress-test record, warning filters</td><td>No canonical change</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="requirements">
+        <p class="section-number">07</p>
+        <h2>Functional requirements</h2>
+        <p class="priority-key"><span class="p0">P0</span> required for first usable release <span class="p1">P1</span> next iteration <span class="p2">P2</span> optional extension</p>
+
+        <div class="requirements">
+          <article>
+            <header><span class="req-id">MD-01</span><span class="priority p0">P0</span><h3>Shared module component</h3></header>
+            <p>The module canvas, complete timeline, and print renderer must use the same component implementation and token set.</p>
+            <ul><li>No duplicated geometry definitions between editor and export.</li><li>All twenty current modules must render from the component.</li><li>Generated SVG must identify its source data and token revision.</li></ul>
+            <p class="acceptance"><strong>Acceptance:</strong> Changing module width once updates every on-screen module and the regenerated output without editing an instance.</p>
+          </article>
+
+          <article>
+            <header><span class="req-id">MD-02</span><span class="priority p0">P0</span><h3>Direct module canvas</h3></header>
+            <p>Users must be able to select and manipulate the master’s named regions visually.</p>
+            <ul><li>Handles for module width, headline height, lower-module height, photo/caption division, content inset, rule width, stem length, radius, and shadow offset.</li><li>Rulers display full-size inches while the canvas is zoomed.</li><li>Drag operations snap to a configurable increment, defaulting to 0.05 full-size inches.</li><li>Inspector values remain keyboard editable.</li></ul>
+            <p class="acceptance"><strong>Acceptance:</strong> Dragging the photo/caption divider updates the token, all module instances, and overflow results in one operation.</p>
+          </article>
+
+          <article>
+            <header><span class="req-id">MD-03</span><span class="priority p0">P0</span><h3>Flowing text areas</h3></header>
+            <p>Headline and caption copy must be stored as continuous strings and rendered inside bounded HTML text areas.</p>
+            <ul><li>No persisted line breaks generated solely for visual wrapping.</li><li>Font, size, weight, leading, alignment, and inset are shared tokens.</li><li>Explicit editorial line breaks remain possible and are distinguished from automatic wrapping.</li><li>Overflow state recalculates after any text or geometry change.</li></ul>
+            <p class="acceptance"><strong>Acceptance:</strong> Changing the headline font causes every headline to reflow without modifying content records.</p>
+          </article>
+
+          <article>
+            <header><span class="req-id">MD-04</span><span class="priority p0">P0</span><h3>Structured content editor</h3></header>
+            <p>Each event record must expose date, headline, caption, image, era, reference number, rights, credit, provenance, and review state.</p>
+            <ul><li>Reordering uses drag-and-drop plus keyboard controls.</li><li>Adding and deleting require stable record IDs.</li><li>Deleting a placed event requires confirmation and does not delete its catalog photograph.</li><li>Design edits and historical-content edits have separate undo labels.</li></ul>
+            <p class="acceptance"><strong>Acceptance:</strong> Adding a twenty-first event creates a module, dot, two stems, and correct timeline position without manual placement.</p>
+          </article>
+
+          <article>
+            <header><span class="req-id">MD-05</span><span class="priority p0">P0</span><h3>Automatic ramp layout</h3></header>
+            <p>The layout engine must calculate module positions, timeline endpoints, event dots, stems, era segments, and era labels from the ordered record set.</p>
+            <ul><li>Default ramp angle is 5°.</li><li>Modules remain level and share a consistent vertical relationship to the line.</li><li>Pitch may be fixed or fit-to-width, selected as a global layout mode.</li><li>Four eras remain contiguous and must cover every event exactly once.</li></ul>
+            <p class="acceptance"><strong>Acceptance:</strong> Removing any event closes the sequence and rebuilds every dependent element with no orphaned geometry.</p>
+          </article>
+
+          <article>
+            <header><span class="req-id">MD-06</span><span class="priority p0">P0</span><h3>Stress-test previews</h3></header>
+            <p>The module canvas must switch among representative content fixtures without modifying production data.</p>
+            <ul><li>Current event, longest date, longest headline, longest caption, empty-photo state, and each era color.</li><li>A preserved <code>timeline-module-master-v2</code> fixture containing the visible sample year, headline, and caption.</li><li>Spec-annotation copy from that source is explicitly excluded.</li></ul>
+            <p class="acceptance"><strong>Acceptance:</strong> The sample fixture visibly contains “1911,” “Voters establish the Beaumont Library District,” and “Beaumont Bank / Funk Building — first home of the library.”</p>
+          </article>
+
+          <article>
+            <header><span class="req-id">MD-07</span><span class="priority p0">P0</span><h3>Design-token persistence</h3></header>
+            <p>Shared design properties must be saved as named, versioned tokens rather than inferred from generated artwork.</p>
+            <ul><li>Export and import JSON token files.</li><li>Autosave a local working draft.</li><li>Restore approved defaults.</li><li>Maintain undo and redo across direct manipulation and inspector edits.</li></ul>
+            <p class="acceptance"><strong>Acceptance:</strong> Reloading the application restores the most recent local draft, while “Restore approved” returns the committed token set.</p>
+          </article>
+
+          <article>
+            <header><span class="req-id">MD-08</span><span class="priority p0">P0</span><h3>Preflight and blocking warnings</h3></header>
+            <p>Preflight must run continuously and again before export.</p>
+            <ul><li>Detect headline or caption overflow, missing required copy, unavailable fonts, missing photos, insufficient image resolution, invalid era coverage, and artwork outside print bounds.</li><li>Warnings link directly to the affected record or token.</li><li>Blocking errors prevent production export; nonblocking warnings require acknowledgement.</li></ul>
+            <p class="acceptance"><strong>Acceptance:</strong> A deliberately overset headline prevents PDF export and selects the offending module.</p>
+          </article>
+
+          <article>
+            <header><span class="req-id">MD-09</span><span class="priority p0">P0</span><h3>Deterministic export</h3></header>
+            <p>The application must export a 1:10 print PDF, a compiled SVG, and a machine-readable manifest from the same rendered state.</p>
+            <ul><li>Full-size mural dimensions are 356 × 120 inches; default output is 35.6 × 12 inches at 1:10.</li><li>Fonts are embedded in PDF when licensing permits.</li><li>Photos use the selected crop and sufficient effective resolution.</li><li>The manifest records data revision, token revision, font list, image list, dimensions, scale, warnings, and content hash.</li></ul>
+            <p class="acceptance"><strong>Acceptance:</strong> Repeating export with unchanged inputs produces geometrically identical output and the same canonical content hash.</p>
+          </article>
+
+          <article>
+            <header><span class="req-id">MD-10</span><span class="priority p1">P1</span><h3>Named presets and comparisons</h3></header>
+            <p>Users may save token presets, compare two designs side by side, and promote one preset to approved.</p>
+          </article>
+
+          <article>
+            <header><span class="req-id">MD-11</span><span class="priority p1">P1</span><h3>Controlled local overrides</h3></header>
+            <p>If enabled, event-specific overrides must be explicit, visually badged, listed in preflight, and individually resettable. Overrides are disabled by default.</p>
+          </article>
+
+          <article>
+            <header><span class="req-id">MD-12</span><span class="priority p2">P2</span><h3>Illustrator-native rebuild</h3></header>
+            <p>An optional JSX exporter may rebuild the timeline in Illustrator using real Area Type and named layers. It consumes the same records and tokens but is not required for the browser MVP.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="data">
+        <p class="section-number">08</p>
+        <h2>Canonical data model</h2>
+        <p>Three explicit inputs replace information hidden in the artwork.</p>
+        <div class="data-grid">
+          <article><h3>Timeline records</h3><code>timeline-milestones.json</code><p>Order, date, headline, caption, photo, era, reference, rights, provenance, and review state.</p></article>
+          <article><h3>Design tokens</h3><code>timeline-design-tokens.json</code><p>Dimensions, typography, spacing, color, shadow, scale, ramp geometry, and export settings.</p></article>
+          <article><h3>Preview fixtures</h3><code>timeline-preview-fixtures.json</code><p>Master sample copy, maximum-length cases, empty states, and regression-test content.</p></article>
+        </div>
+
+        <h3>Illustrative token contract</h3>
+        <pre><code>{
+  "schemaVersion": 1,
+  "units": "full-size-inches",
+  "document": { "width": 356, "height": 120, "outputScale": 0.1 },
+  "ramp": { "angleDegrees": 5, "startX": 28, "startY": 32 },
+  "module": {
+    "width": 13.6,
+    "headlineHeight": 5.4,
+    "lowerHeight": 17.32,
+    "contentInset": 0.85,
+    "photoHeight": 9.9,
+    "cornerRadius": 0.4
+  },
+  "type": {
+    "family": "Georgia",
+    "dateSize": 1.55,
+    "headlineSize": 0.78,
+    "headlineLeading": 0.88,
+    "captionSize": 0.62
+  }
+}</code></pre>
+
+        <h3>Data rules</h3>
+        <ul>
+          <li>IDs are stable and never derived from display order.</li>
+          <li>Line wrapping is not stored in content; only intentional editorial breaks may be stored.</li>
+          <li>Dates preserve uncertainty and display language rather than forcing false precision.</li>
+          <li>Photo rights, source, and credit remain attached to the image record.</li>
+          <li>Every migration produces a field-level report showing copied, defaulted, and unresolved values.</li>
+        </ul>
+      </section>
+
+      <section id="layout">
+        <p class="section-number">09</p>
+        <h2>Layout and propagation model</h2>
+        <p>For ordered event index <em>i</em>, the layout engine computes the center point from the selected pitch or fit-to-width mode:</p>
+        <pre><code>x(i) = startX + i × pitch
+y(i) = startY + (x(i) − startX) × tan(rampAngle)
+
+moduleTransform(i) = translate(x(i), y(i))
+moduleRotation(i) = 0°</code></pre>
+        <p>All internal module geometry uses local coordinates relative to the event dot. The timeline line is angled; modules and their text areas remain level.</p>
+
+        <h3>Required propagation graph</h3>
+        <div class="flow" aria-label="Design changes flow through tokens to the module, timeline, preflight, and export">
+          <span>Canvas or inspector edit</span><b>→</b><span>Design token</span><b>→</b><span>Shared module</span><b>→</b><span>All timeline instances</span><b>→</b><span>Preflight and export</span>
+        </div>
+
+        <h3>Override policy</h3>
+        <p>MVP stores no per-event geometry. A future override system may permit narrowly defined exceptions, but every override must name the token it replaces, remain visible in the UI, and appear in the export manifest.</p>
+      </section>
+
+      <section id="export">
+        <p class="section-number">10</p>
+        <h2>Export and print-production requirements</h2>
+        <table>
+          <thead><tr><th>Output</th><th>Purpose</th><th>Requirement</th></tr></thead>
+          <tbody>
+            <tr><td><strong>PDF</strong></td><td>Primary print handoff</td><td>1:10 page, embedded fonts when permitted, vector geometry and type, placed raster photos, zero clipping.</td></tr>
+            <tr><td><strong>SVG</strong></td><td>Inspection and interchange</td><td>Compiled artifact with metadata. Editable in principle, but never canonical and not expected to preserve browser area text.</td></tr>
+            <tr><td><strong>Manifest</strong></td><td>Reproducibility and preflight</td><td>JSON containing revisions, hashes, scale, dimensions, fonts, images, rights summary, and warnings.</td></tr>
+            <tr><td><strong>Preview PNG</strong></td><td>Review and communication</td><td>Color-managed screen preview at a documented scale; not for print production.</td></tr>
+          </tbody>
+        </table>
+
+        <div class="callout warning">
+          <h3>Color-management boundary</h3>
+          <p>The browser renderer is expected to produce RGB output. The print workflow must document the target ICC profile and perform CMYK conversion and final preflight in an appropriate production tool unless browser-PDF testing proves the printer accepts the RGB PDF unchanged.</p>
+        </div>
+      </section>
+
+      <section id="quality">
+        <p class="section-number">11</p>
+        <h2>Quality and nonfunctional requirements</h2>
+        <div class="quality-grid">
+          <article><h3>Performance</h3><ul><li>Token changes update twenty modules within one animation frame under normal desktop conditions.</li><li>Dragging remains visually responsive at 30 fps or better.</li><li>Preflight results update within 250 ms after an edit settles.</li></ul></article>
+          <article><h3>Accessibility</h3><ul><li>Every canvas operation has a keyboard and inspector equivalent.</li><li>Focus order, labels, status announcements, and color contrast meet WCAG 2.2 AA.</li><li>Warnings never rely on color alone.</li></ul></article>
+          <article><h3>Reliability</h3><ul><li>Inputs validate against versioned schemas.</li><li>Autosave cannot overwrite the approved revision.</li><li>Export uses an immutable snapshot of records and tokens.</li></ul></article>
+          <article><h3>Compatibility</h3><ul><li>Desktop-first support for current Chromium browsers.</li><li>Read-only review remains usable on tablets.</li><li>Fonts are checked against the export environment.</li></ul></article>
+        </div>
+
+        <h3>Verification strategy</h3>
+        <ul>
+          <li>Unit tests for token validation, ramp math, era coverage, ordering, and overflow classification.</li>
+          <li>Component tests proving design changes propagate to all instances.</li>
+          <li>Regression fixtures for the master sample and longest production copy.</li>
+          <li>Visual snapshots for all four eras and representative module states.</li>
+          <li>Export tests for page dimensions, font embedding, image inventory, and deterministic hashes.</li>
+          <li>Manual print-preflight checklist before production approval.</li>
+        </ul>
+
+        <h3>Success measures</h3>
+        <table>
+          <thead><tr><th>Measure</th><th>Target</th></tr></thead>
+          <tbody>
+            <tr><td>Change the timeline font everywhere</td><td>Under 30 seconds; one edit</td></tr>
+            <tr><td>Add, remove, or reorder an event</td><td>Under 30 seconds; no manual repositioning</td></tr>
+            <tr><td>Propagate a module geometry change</td><td>All instances update automatically</td></tr>
+            <tr><td>Lost visible placeholder or sample copy</td><td>Zero</td></tr>
+            <tr><td>Undetected overset text in export</td><td>Zero</td></tr>
+            <tr><td>Manual line-break maintenance</td><td>Zero unless explicitly editorial</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="delivery">
+        <p class="section-number">12</p>
+        <h2>Delivery phases</h2>
+        <ol class="phase-list">
+          <li><span>Phase 1</span><div><h3>Canonical model and shared component</h3><p>Create token and fixture schemas, migrate current content, implement the HTML module, and reproduce the approved visible style.</p></div></li>
+          <li><span>Phase 2</span><div><h3>Module designer and inspector</h3><p>Add selection, direct manipulation, numeric editing, zoom, rulers, snapping, design/content modes, and undo/redo.</p></div></li>
+          <li><span>Phase 3</span><div><h3>Automatic timeline and content editing</h3><p>Render the full five-degree layout, support add/remove/reorder, calculate eras, and connect catalog records and photos.</p></div></li>
+          <li><span>Phase 4</span><div><h3>Preflight and production export</h3><p>Add overflow and asset checks, immutable export snapshots, PDF/SVG/manifest output, regression tests, and live verification.</p></div></li>
+          <li><span>Phase 5</span><div><h3>Optional production extensions</h3><p>Evaluate controlled overrides, named comparisons, Illustrator JSX rebuild, and print-vendor-specific color automation.</p></div></li>
+        </ol>
+      </section>
+
+      <section id="risks">
+        <p class="section-number">13</p>
+        <h2>Risks and mitigations</h2>
+        <table>
+          <thead><tr><th>Risk</th><th>Impact</th><th>Mitigation</th></tr></thead>
+          <tbody>
+            <tr><td>Browser and print font metrics differ</td><td>Unexpected wrapping or clipping</td><td>Use the same installed/embedded font files for preview and export; block export when unavailable.</td></tr>
+            <tr><td>RGB browser PDF conflicts with printer requirements</td><td>Color shift or rejected file</td><td>Confirm vendor requirements early and document an ICC conversion/preflight step.</td></tr>
+            <tr><td>Direct manipulation becomes unrestricted</td><td>Per-module drift returns</td><td>Expose constrained handles mapped only to named shared tokens.</td></tr>
+            <tr><td>Generated SVG is manually edited</td><td>Changes disappear on rebuild</td><td>Add visible metadata and documentation identifying generated outputs as noncanonical.</td></tr>
+            <tr><td>Migration drops reference copy or metadata</td><td>Historical or design information is lost</td><td>Field-level migration report, preserved fixtures, and explicit unresolved-value checklist.</td></tr>
+            <tr><td>Two rendering implementations diverge</td><td>Preview differs from output</td><td>Use one shared web component and one renderer for editor, timeline, and print.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="decisions">
+        <p class="section-number">14</p>
+        <h2>Open decisions</h2>
+        <div class="decision-list">
+          <article><span>Recommended: PDF</span><h3>What must the printer receive?</h3><p>Confirm whether a print-ready PDF is sufficient or whether an editable Illustrator file is contractually required.</p></article>
+          <article><span>Recommended: disabled</span><h3>Should local geometry overrides exist?</h3><p>Keep them out of MVP unless a real production case cannot be solved through shared tokens or content fitting.</p></article>
+          <article><span>Recommended: bundled fonts</span><h3>How will fonts be licensed and loaded?</h3><p>Identify exact production font files and confirm embedding permissions before export work begins.</p></article>
+          <article><span>Recommended: external preflight</span><h3>Where will CMYK conversion occur?</h3><p>Choose Acrobat, Illustrator, or the print vendor’s workflow and record the target ICC profile.</p></article>
+          <article><span>Recommended: browser-local MVP</span><h3>Where should drafts live?</h3><p>Begin with local storage plus explicit JSON export/import; add cloud persistence only if collaboration becomes necessary.</p></article>
+          <article><span>Recommended: same component</span><h3>How should era labels be edited?</h3><p>Use a specialized state of the shared module visual system rather than a separately styled label implementation.</p></article>
+        </div>
+
+        <div class="callout next-step">
+          <h3>Proposed next milestone</h3>
+          <p>Build a vertical slice containing the shared HTML module, design-token file, preserved master fixture, module canvas, inspector controls for typography and three structural dimensions, and a read-only twenty-event timeline preview. Use that slice to validate text flow, propagation, and print geometry before implementing the complete editor.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>Beaumont Library District · Historical Timeline Mural</p>
+    <p>Product requirements · Draft v0.1</p>
+  </footer>
+</body>
+</html>
