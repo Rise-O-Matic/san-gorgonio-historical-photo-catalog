@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b31">
+  <title>Timeline Module Designer · Beaumont Library District</title>
+  <meta name="description" content="Parametric module designer and print renderer for the Beaumont historical mural timeline.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Franklin:ital,wght@0,400;0,600;0,700;0,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="timeline-designer.css?v=1">
+</head>
+<body>
+  <a class="skip-link" href="#designerMain">Skip to designer</a>
+  <header class="app-header">
+    <a class="app-brand" href="index.html" aria-label="Back to Beaumont Timeline Builder">
+      <span class="brand-plate">BLD</span>
+      <span><small>Historical mural</small><strong>Module Designer</strong></span>
+    </a>
+    <div class="document-status" aria-live="polite">
+      <span class="status-light" id="saveLight"></span>
+      <span id="saveStatus">Opening approved design…</span>
+    </div>
+    <nav class="header-actions" aria-label="Document actions">
+      <a href="timeline-module-designer-prd.html">PRD</a>
+      <button class="button quiet" id="undoButton" type="button" disabled>Undo</button>
+      <button class="button quiet" id="redoButton" type="button" disabled>Redo</button>
+      <button class="button outline" id="restoreButton" type="button">Restore approved</button>
+      <button class="button accent" id="preflightButton" type="button">Preflight <span id="preflightCount">—</span></button>
+    </nav>
+  </header>
+
+  <main class="designer" id="designerMain">
+    <section class="module-workbench panel" aria-labelledby="moduleHeading">
+      <header class="panel-header">
+        <div>
+          <p class="panel-kicker">Shared component</p>
+          <h1 id="moduleHeading">Module canvas</h1>
+        </div>
+        <div class="canvas-toolbar">
+          <label>Stress test
+            <select id="fixtureSelect" aria-label="Module canvas stress test"></select>
+          </label>
+          <label>Zoom
+            <input id="canvasZoom" type="range" min="8" max="20" step="1" value="14">
+          </label>
+          <output id="canvasZoomOutput">100%</output>
+        </div>
+      </header>
+      <div class="canvas-instructions">
+        <span>Drag a gold handle to change the shared geometry.</span>
+        <span>Every timeline module updates together.</span>
+      </div>
+      <div class="module-stage" id="moduleStage">
+        <div class="stage-grid" aria-hidden="true"></div>
+        <div class="stage-ruler ruler-x" aria-hidden="true"></div>
+        <div class="stage-ruler ruler-y" aria-hidden="true"></div>
+        <div id="moduleCanvas" class="module-canvas" aria-label="Editable shared module"></div>
+      </div>
+      <div class="selection-readout" id="selectionReadout">
+        <strong>Module</strong><span>Click a region or drag a handle to edit its shared token.</span>
+      </div>
+    </section>
+
+    <aside class="inspector panel" aria-labelledby="inspectorHeading">
+      <header class="panel-header compact">
+        <div>
+          <p class="panel-kicker">Design tokens</p>
+          <h2 id="inspectorHeading">Inspector</h2>
+        </div>
+        <span class="token-revision" id="tokenRevision">v1</span>
+      </header>
+      <div class="inspector-scroll">
+        <details open data-group="module">
+          <summary>Module geometry</summary>
+          <div class="field-grid">
+            <label>Width <span>in</span><input data-token="module.width" type="number" min="8" max="24" step="0.05"></label>
+            <label>Headline height <span>in</span><input data-token="module.headlineHeight" type="number" min="2.5" max="10" step="0.05"></label>
+            <label>Headline gap <span>in</span><input data-token="module.headlineGap" type="number" min="0.5" max="6" step="0.05"></label>
+            <label>Lower height <span>in</span><input data-token="module.lowerHeight" type="number" min="10" max="28" step="0.05"></label>
+            <label>Lower gap <span>in</span><input data-token="module.lowerGap" type="number" min="0.5" max="6" step="0.05"></label>
+            <label>Content inset <span>in</span><input data-token="module.contentInset" type="number" min="0.35" max="2.5" step="0.05"></label>
+            <label>Photo height <span>in</span><input data-token="module.photoHeight" type="number" min="4" max="16" step="0.05"></label>
+            <label>Corner radius <span>in</span><input data-token="module.cornerRadius" type="number" min="0" max="2" step="0.05"></label>
+            <label>Accent height <span>in</span><input data-token="module.accentHeight" type="number" min="0.15" max="1.5" step="0.05"></label>
+            <label>Shadow offset <span>in</span><input data-token="module.shadowOffset" type="number" min="0" max="1.5" step="0.05"></label>
+          </div>
+        </details>
+        <details open data-group="type">
+          <summary>Typography</summary>
+          <div class="field-grid">
+            <label class="wide">Font family<input data-token="type.family" type="text" autocomplete="off"></label>
+            <label>Date size <span>in</span><input data-token="type.dateSize" type="number" min="0.6" max="3" step="0.02"></label>
+            <label>Date leading <span>×</span><input data-token="type.dateLeading" type="number" min="0.8" max="1.8" step="0.01"></label>
+            <label>Headline size <span>in</span><input data-token="type.headlineSize" type="number" min="0.3" max="1.5" step="0.02"></label>
+            <label>Headline leading <span>×</span><input data-token="type.headlineLeading" type="number" min="0.8" max="1.8" step="0.01"></label>
+            <label>Caption size <span>in</span><input data-token="type.captionSize" type="number" min="0.28" max="1.2" step="0.02"></label>
+            <label>Caption leading <span>×</span><input data-token="type.captionLeading" type="number" min="0.9" max="2" step="0.01"></label>
+          </div>
+        </details>
+        <details data-group="ramp">
+          <summary>Ramp and document</summary>
+          <div class="field-grid">
+            <label>Angle <span>°</span><input data-token="ramp.angleDegrees" type="number" min="0" max="15" step="0.1"></label>
+            <label>Start X <span>in</span><input data-token="ramp.startX" type="number" min="0" max="356" step="0.1"></label>
+            <label>End X <span>in</span><input data-token="ramp.endX" type="number" min="0" max="356" step="0.1"></label>
+            <label>Start Y <span>in</span><input data-token="ramp.startY" type="number" min="0" max="120" step="0.1"></label>
+            <label class="wide">Layout mode<select data-token="ramp.layoutMode"><option value="fit">Fit to width</option><option value="fixed">Fixed pitch</option></select></label>
+          </div>
+        </details>
+        <details data-group="colors">
+          <summary>Colors</summary>
+          <div class="color-grid">
+            <label>Ink<input data-token="colors.ink" type="color"></label>
+            <label>Module<input data-token="colors.module" type="color"></label>
+            <label>Photo matte<input data-token="colors.photoMatte" type="color"></label>
+            <label>Timeline<input data-token="colors.timeline" type="color"></label>
+            <label>Era 1<input data-token="colors.eras.0" type="color"></label>
+            <label>Era 2<input data-token="colors.eras.1" type="color"></label>
+            <label>Era 3<input data-token="colors.eras.2" type="color"></label>
+            <label>Era 4<input data-token="colors.eras.3" type="color"></label>
+          </div>
+        </details>
+      </div>
+      <footer class="inspector-actions">
+        <button class="button quiet" id="exportTokensButton" type="button">Export tokens</button>
+        <label class="button quiet file-button">Import tokens<input id="importTokensInput" type="file" accept="application/json,.json"></label>
+      </footer>
+    </aside>
+
+    <section class="content-panel panel" aria-labelledby="contentHeading">
+      <header class="panel-header compact">
+        <div>
+          <p class="panel-kicker">Structured content</p>
+          <h2 id="contentHeading">Event editor</h2>
+        </div>
+        <div class="event-position"><span id="eventPosition">1</span> / <span id="eventTotal">20</span></div>
+      </header>
+      <div class="event-picker-row">
+        <label class="event-picker">Selected event<select id="eventSelect"></select></label>
+        <div class="event-move-actions" aria-label="Event order">
+          <button type="button" id="moveEarlierButton" aria-label="Move event earlier">←</button>
+          <button type="button" id="moveLaterButton" aria-label="Move event later">→</button>
+          <button type="button" id="duplicateEventButton" aria-label="Duplicate event">Duplicate</button>
+          <button type="button" id="addEventButton" aria-label="Add event">Add</button>
+          <button type="button" id="deleteEventButton" class="danger" aria-label="Delete placed event">Delete</button>
+        </div>
+      </div>
+      <form id="contentForm" class="content-form">
+        <label>Date<input name="date" required></label>
+        <label class="span-2">Headline<textarea name="headline" rows="2" required></textarea></label>
+        <label class="span-2">Caption<textarea name="caption" rows="3" required></textarea></label>
+        <label>Era<select name="era"><option value="0">Era 1 · Origins</option><option value="1">Era 2 · Town building</option><option value="2">Era 3 · Civic life</option><option value="3">Era 4 · Growth</option></select></label>
+        <label>Reference number<input name="reference_number"></label>
+        <label>Photo path<input name="photo" placeholder="assets/thumbs/…"></label>
+        <label>Rights status<input name="rights_status"></label>
+        <label class="span-2">Source / credit<textarea name="credit" rows="2"></textarea></label>
+        <label class="span-2">Historical context<textarea name="context" rows="3"></textarea></label>
+        <label class="span-2 readonly">Stable record ID<input name="id" readonly></label>
+      </form>
+      <footer class="content-actions">
+        <button class="button quiet" id="exportContentButton" type="button">Export content</button>
+        <label class="button quiet file-button">Import content<input id="importContentInput" type="file" accept="application/json,.json"></label>
+      </footer>
+    </section>
+
+    <section class="timeline-panel panel" aria-labelledby="timelineHeading">
+      <header class="panel-header compact timeline-header">
+        <div>
+          <p class="panel-kicker">Automatic layout · 356 × 120 in full size</p>
+          <h2 id="timelineHeading">Full timeline</h2>
+        </div>
+        <div class="timeline-tools">
+          <label>Preview scale<input id="timelineZoom" type="range" min="2.4" max="6.5" step="0.1" value="3.8"></label>
+          <button class="button quiet" id="fitTimelineButton" type="button">Fit all</button>
+          <span id="timelineStats">20 events · 4 eras · 5°</span>
+        </div>
+      </header>
+      <div class="timeline-scroll" id="timelineScroll">
+        <div class="timeline-artboard" id="timelineArtboard" aria-label="Full mural timeline preview"></div>
+      </div>
+      <div class="era-legend" id="eraLegend"></div>
+    </section>
+  </main>
+
+  <dialog class="preflight-dialog" id="preflightDialog">
+    <form method="dialog" class="dialog-shell">
+      <header>
+        <div><p class="panel-kicker">Continuous quality check</p><h2>Preflight</h2></div>
+        <button class="icon-button" value="close" aria-label="Close preflight">×</button>
+      </header>
+      <div class="preflight-summary" id="preflightSummary"></div>
+      <ul class="preflight-list" id="preflightList"></ul>
+      <footer>
+        <button class="button quiet" id="exportManifestButton" value="close" type="button">Export manifest</button>
+        <button class="button outline" id="exportSvgButton" value="close" type="button">Export SVG</button>
+        <button class="button accent" id="printButton" value="close" type="button">Print 1:10 PDF</button>
+      </footer>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <section class="print-surface" id="printSurface" aria-hidden="true"></section>
+  <script src="timeline-designer.js?v=1" defer></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "fixtures": [
+    {
+      "id": "master-v2",
+      "label": "Master v2 sample",
+      "date": "1911",
+      "headline": "Voters establish the Beaumont Library District",
+      "caption": "Beaumont Bank / Funk Building — first home of the library",
+      "era": 2,
+      "photo": "assets/thumbs/file_a535ec86c657664c.jpg"
+    },
+    {
+      "id": "empty-photo",
+      "label": "Empty photo",
+      "date": "1914",
+      "headline": "Beaumont’s Carnegie library opens",
+      "caption": "A photo is still being selected for this event.",
+      "era": 2,
+      "photo": ""
+    },
+    {
+      "id": "era-1",
+      "label": "Era 1 color",
+      "date": "1845",
+      "headline": "Settlement and early passage through the San Gorgonio Pass",
+      "caption": "Representative copy for testing the first era color.",
+      "era": 0,
+      "photo": ""
+    },
+    {
+      "id": "era-2",
+      "label": "Era 2 color",
+      "date": "1887",
+      "headline": "Railroad and town-building transform Beaumont",
+      "caption": "Representative copy for testing the second era color.",
+      "era": 1,
+      "photo": ""
+    },
+    {
+      "id": "era-3",
+      "label": "Era 3 color",
+      "date": "1911",
+      "headline": "A civic community takes shape",
+      "caption": "Representative copy for testing the third era color.",
+      "era": 2,
+      "photo": ""
+    },
+    {
+      "id": "era-4",
+      "label": "Era 4 color",
+      "date": "1965–2011",
+      "headline": "The library and city grow into a new century",
+      "caption": "Representative copy for testing the fourth era color.",
+      "era": 3,
+      "photo": ""
+    }
+  ]
+}

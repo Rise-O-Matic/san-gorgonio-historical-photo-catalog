@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "revision": "approved-2026-07-28",
+  "units": "full-size-inches",
+  "document": {
+    "width": 356,
+    "height": 120,
+    "outputScale": 0.1
+  },
+  "ramp": {
+    "angleDegrees": 5,
+    "startX": 18,
+    "endX": 338,
+    "startY": 28,
+    "layoutMode": "fit"
+  },
+  "module": {
+    "width": 14,
+    "headlineHeight": 5.2,
+    "headlineGap": 2.5,
+    "lowerHeight": 17.4,
+    "lowerGap": 2.4,
+    "contentInset": 0.85,
+    "photoHeight": 9.8,
+    "cornerRadius": 0.38,
+    "accentHeight": 0.56,
+    "shadowOffset": 0.42,
+    "stemGap": 1.15,
+    "ruleWidth": 3.1,
+    "ruleHeight": 0.12
+  },
+  "type": {
+    "family": "Georgia",
+    "fallback": "serif",
+    "dateSize": 1.42,
+    "dateLeading": 1.05,
+    "headlineSize": 0.7,
+    "headlineLeading": 1.08,
+    "captionSize": 0.58,
+    "captionLeading": 1.28
+  },
+  "colors": {
+    "ink": "#17363c",
+    "caption": "#2e2e2e",
+    "module": "#fdfbf5",
+    "photoMatte": "#fdfbf5",
+    "shadow": "#0b1618",
+    "timeline": "#12191a",
+    "paper": "#f3ecdf",
+    "eras": ["#15424a", "#494638", "#9a6857", "#c4a15e"]
+  },
+  "behavior": {
+    "snapIncrement": 0.05,
+    "timelineZoom": 3.8,
+    "canvasZoom": 14
+  }
+}
