@@ -160,6 +160,8 @@
         <label class="span-2 readonly">Stable record ID<input name="id" readonly></label>
       </form>
       <footer class="content-actions">
+        <button class="button outline" id="exportIllustratorButton" type="button">Export Illustrator JSON</button>
+        <a class="button quiet" href="https://raw.githubusercontent.com/Rise-O-Matic/san-gorgonio-historical-photo-catalog/main/scripts/illustrator/build-timeline-from-json.jsx" download>Get Illustrator script</a>
         <button class="button quiet" id="exportContentButton" type="button">Export content</button>
         <label class="button quiet file-button">Import content<input id="importContentInput" type="file" accept="application/json,.json"></label>
       </footer>
@@ -202,6 +204,6 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <section class="print-surface" id="printSurface" aria-hidden="true"></section>
-  <script src="timeline-designer.js?v=1" defer></script>
+  <script src="timeline-designer.js?v=2" defer></script>
 </body>
 </html>

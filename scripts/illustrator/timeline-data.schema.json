@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rise-o-matic.github.io/san-gorgonio-historical-photo-catalog/schemas/illustrator-timeline-v1.json",
+  "title": "Illustrator Timeline Generator Data",
+  "type": "object",
+  "required": ["schemaVersion", "document", "layout", "eras", "events"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "generator": { "type": "string" },
+    "exportedAt": { "type": "string" },
+    "document": {
+      "type": "object",
+      "required": ["widthInches", "heightInches", "outputScale"],
+      "properties": {
+        "widthInches": { "type": "number", "exclusiveMinimum": 0 },
+        "heightInches": { "type": "number", "exclusiveMinimum": 0 },
+        "outputScale": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "properties": {
+        "basePath": { "type": "string" },
+        "missingPhotoPolicy": { "enum": ["keep-placeholder", "warn"] }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "required": ["angleDegrees", "startXInches", "endXInches", "startYInches"],
+      "properties": {
+        "angleDegrees": { "type": "number", "minimum": -45, "maximum": 45 },
+        "startXInches": { "type": "number" },
+        "endXInches": { "type": "number" },
+        "startYInches": { "type": "number" },
+        "moduleOffsetXInches": { "type": "number" },
+        "moduleOffsetYInches": { "type": "number" },
+        "dotDiameterInches": { "type": "number", "exclusiveMinimum": 0 },
+        "dotStrokeWidthInches": { "type": "number", "minimum": 0 },
+        "lineWidthInches": { "type": "number", "exclusiveMinimum": 0 },
+        "underlayWidthInches": { "type": "number", "exclusiveMinimum": 0 },
+        "stemWidthInches": { "type": "number", "exclusiveMinimum": 0 },
+        "upperStemLengthInches": { "type": "number", "minimum": 0 },
+        "lowerStemLengthInches": { "type": "number", "minimum": 0 },
+        "underlayColor": { "$ref": "#/$defs/color" },
+        "dotStrokeColor": { "$ref": "#/$defs/color" },
+        "labelsEnabled": { "type": "boolean" },
+        "labelOffsetYInches": { "type": "number" },
+        "labelHeightInches": { "type": "number", "exclusiveMinimum": 0 },
+        "labelFontSizeInches": { "type": "number", "exclusiveMinimum": 0 },
+        "labelPaddingInches": { "type": "number", "minimum": 0 },
+        "labelCornerRadiusInches": { "type": "number", "minimum": 0 },
+        "labelTextColor": { "$ref": "#/$defs/color" },
+        "labelFont": { "type": "string" },
+        "generatedLayerName": { "type": "string", "minLength": 1 }
+      }
+    },
+    "eras": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "color"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "label": { "type": "string", "minLength": 1 },
+          "range": { "type": "string" },
+          "color": { "$ref": "#/$defs/color" },
+          "labelWidthInches": { "type": "number", "exclusiveMinimum": 0 }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "order", "era", "date", "headline", "caption"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "order": { "type": "number" },
+          "era": { "type": ["string", "integer"] },
+          "date": { "type": "string" },
+          "headline": { "type": "string" },
+          "caption": { "type": "string" },
+          "photo": { "type": "string" },
+          "reference_number": { "type": "string" },
+          "credit": { "type": "string" },
+          "rights_status": { "type": "string" },
+          "context": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "$defs": {
+    "color": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
+    }
+  }
+}

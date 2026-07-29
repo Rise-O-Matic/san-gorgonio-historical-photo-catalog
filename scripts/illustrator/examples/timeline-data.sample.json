@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "generator": "beaumont-timeline-illustrator",
+  "exportedAt": "2026-07-28T00:00:00.000Z",
+  "document": {
+    "widthInches": 356,
+    "heightInches": 120,
+    "outputScale": 0.1
+  },
+  "assets": {
+    "basePath": "",
+    "missingPhotoPolicy": "keep-placeholder"
+  },
+  "layout": {
+    "angleDegrees": 5,
+    "startXInches": 18,
+    "endXInches": 338,
+    "startYInches": 28,
+    "moduleOffsetXInches": 0,
+    "moduleOffsetYInches": 0,
+    "dotDiameterInches": 0.72,
+    "dotStrokeWidthInches": 0.08,
+    "lineWidthInches": 1.05,
+    "underlayWidthInches": 1.45,
+    "stemWidthInches": 0.18,
+    "upperStemLengthInches": 1.2,
+    "lowerStemLengthInches": 1.2,
+    "underlayColor": "#12191a",
+    "dotStrokeColor": "#fdfbf5",
+    "labelsEnabled": true,
+    "labelOffsetYInches": -17,
+    "labelHeightInches": 4.2,
+    "labelFontSizeInches": 0.72,
+    "labelPaddingInches": 0.7,
+    "labelCornerRadiusInches": 0.25,
+    "labelTextColor": "#ffffff",
+    "labelFont": "Georgia-Bold",
+    "generatedLayerName": "TIMELINE — GENERATED"
+  },
+  "eras": [
+    { "id": "era-1", "label": "Origins and Homeland", "range": "TIME IMMEMORIAL–1845", "color": "#15424a", "labelWidthInches": 50 },
+    { "id": "era-2", "label": "Railroad and Town Building", "range": "1876–EARLY 1900S", "color": "#494638", "labelWidthInches": 58 },
+    { "id": "era-3", "label": "Civic Life and Orchards", "range": "1907–1914", "color": "#9a6857", "labelWidthInches": 54 },
+    { "id": "era-4", "label": "Growth and Renewal", "range": "1965–2011", "color": "#c4a15e", "labelWidthInches": 48 }
+  ],
+  "events": [
+    {
+      "id": "sample-01",
+      "order": 1,
+      "era": "era-1",
+      "date": "Since time immemorial",
+      "headline": "Native peoples make the San Gorgonio Pass their homeland",
+      "caption": "A standalone caption describing the selected historical photograph.",
+      "photo": "",
+      "reference_number": "BLD-0001",
+      "credit": "Source credit",
+      "rights_status": "Unresolved",
+      "context": "Historical context may be bound to field:context if included in the master."
+    },
+    {
+      "id": "sample-02",
+      "order": 2,
+      "era": "era-2",
+      "date": "1887",
+      "headline": "A larger Southern Pacific depot anchors the growing town",
+      "caption": "The Southern Pacific depot connected Beaumont to regional markets and travel.",
+      "photo": "",
+      "reference_number": "BLD-0002",
+      "credit": "Source credit",
+      "rights_status": "Unresolved"
+    },
+    {
+      "id": "sample-03",
+      "order": 3,
+      "era": "era-3",
+      "date": "1911",
+      "headline": "Voters establish the Beaumont Library District",
+      "caption": "Beaumont Bank / Funk Building — first home of the library",
+      "photo": "",
+      "reference_number": "BLD-0067",
+      "credit": "Beaumont Library District",
+      "rights_status": "Unclear"
+    },
+    {
+      "id": "sample-04",
+      "order": 4,
+      "era": "era-4",
+      "date": "2011",
+      "headline": "The Beaumont Library District marks a century of service",
+      "caption": "The restored Carnegie building remains the visible center of the district.",
+      "photo": "",
+      "reference_number": "BLD-0277",
+      "credit": "Beaumont Library District",
+      "rights_status": "Copyrighted"
+    }
+  ]
+}
