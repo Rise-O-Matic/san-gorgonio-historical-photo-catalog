@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="356in" height="120in" viewBox="0 0 356 120" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" data-scale="1:10" data-full-size="356in x 120in" width="35.6in" height="12in" viewBox="0 0 356 120" role="img" aria-labelledby="title desc">
   <title id="title">Beaumont and San Gorgonio Pass four-era mural timeline</title>
-  <desc id="desc">An editable, full-size 5-degree timeline for twenty approved historical events. Each event has a dot, milestone headline, photo placeholder and caption placeholder. The line is divided into four eras.</desc>
+  <desc id="desc">An editable 1:10-scale, 5-degree timeline for twenty approved historical events. Each event has a dot, compact milestone headline above the line, solid photo matte and caption placeholder. The line is divided into four eras.</desc>
   <metadata>
-    One SVG unit equals one inch. Artboard: 29 ft 8 in by 10 ft. The timeline descends 5 degrees from left to right.
-    Event tiles stay level like escalator steps. Every tile center is 13.56 inches vertically below the line.
-    Photos are intentionally omitted. Replace each group named photo-placeholder-XX in Adobe Illustrator.
+    Production scale is 1:10; enlarge the placed art to 1000% for the 356in by 120in mural. The viewBox retains full-size inch coordinates.
+    The timeline descends 5 degrees from left to right. All headline, photo and caption tiles remain level like escalator steps.
+    Every photo-caption complex center is 9.26 full-size inches vertically below the line.
+    Photos are intentionally omitted. Replace the solid matte inside each group named photo-placeholder-XX in Adobe Illustrator.
   </metadata>
   <defs>
     <style><![CDATA[
@@ -14,15 +15,9 @@
       .era-range { font-size: 0.62px; font-weight: 800; letter-spacing: 0.14px; fill: #665B4C; }
       .event-date { font-size: 0.50px; font-weight: 800; letter-spacing: 0.10px; }
       .event-headline { font-family: 'DM Serif Display', Georgia, serif; font-size: 0.66px; font-weight: 700; fill: #17363C; }
-      .photo-fpo { font-size: 0.58px; font-weight: 800; letter-spacing: 0.09px; fill: #6D675E; }
-      .photo-ref { font-size: 0.43px; font-weight: 700; letter-spacing: 0.06px; fill: #8A8276; }
       .position { font-size: 0.47px; font-weight: 800; letter-spacing: 0.08px; }
       .photo-title { font-family: 'DM Serif Display', Georgia, serif; font-size: 0.60px; font-weight: 700; fill: #222; }
-      .replace-note { font-size: 0.39px; font-style: italic; fill: #706A61; }
     ]]></style>
-    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="160%">
-      <feDropShadow dx="0" dy="0.45" stdDeviation="0.55" flood-color="#0B1618" flood-opacity="0.30"/>
-    </filter>
   </defs>
   <g id="timeline-ramp" data-angle="5-degrees" data-direction="down-left-to-right">
     <path id="timeline-underlay" d="M 28.00 32.00 L 328.00 58.25" fill="none" stroke="#12191A" stroke-width="1.65" stroke-linecap="round"/>
@@ -34,595 +29,519 @@
     </g>
     <g id="era-labels">
       <g id="era-1-homeland-rancho-label" transform="translate(35.89 32.69)">
-        <rect x="-25.00" y="-18.20" width="50.00" height="4.75" rx="1.15" fill="#F8F4EC" stroke="#15424A" stroke-width="0.22" filter="url(#soft-shadow)"/>
-        <rect x="-25.00" y="-18.20" width="50.00" height="0.55" rx="0.27" fill="#15424A"/>
+        <rect x="-25.00" y="-17.75" width="50.00" height="4.75" rx="0.30" fill="#0B1618" opacity="0.30"/>
+        <rect x="-25.00" y="-18.20" width="50.00" height="4.75" rx="0.30" fill="#F8F4EC" stroke="#15424A" stroke-width="0.22"/>
+        <rect x="-25.00" y="-18.20" width="50.00" height="0.60" rx="0.30" fill="#15424A"/>
         <text x="0" y="-15.76" text-anchor="middle" class="era-name">Homeland &amp; Rancho Beginnings</text>
         <text x="0" y="-14.45" text-anchor="middle" class="era-range">TIME IMMEMORIAL–1845</text>
       </g>
       <g id="era-2-railroad-town-label" transform="translate(114.84 39.60)">
-        <rect x="-38.00" y="-18.20" width="76.00" height="4.75" rx="1.15" fill="#F8F4EC" stroke="#494638" stroke-width="0.22" filter="url(#soft-shadow)"/>
-        <rect x="-38.00" y="-18.20" width="76.00" height="0.55" rx="0.27" fill="#494638"/>
+        <rect x="-38.00" y="-17.75" width="76.00" height="4.75" rx="0.30" fill="#0B1618" opacity="0.30"/>
+        <rect x="-38.00" y="-18.20" width="76.00" height="4.75" rx="0.30" fill="#F8F4EC" stroke="#494638" stroke-width="0.22"/>
+        <rect x="-38.00" y="-18.20" width="76.00" height="0.60" rx="0.30" fill="#494638"/>
         <text x="0" y="-15.76" text-anchor="middle" class="era-name">Reservation, Railroad &amp; Town</text>
         <text x="0" y="-14.45" text-anchor="middle" class="era-range">1876–EARLY 1900S</text>
       </g>
       <g id="era-3-civic-orchard-label" transform="translate(225.37 49.27)">
-        <rect x="-34.00" y="-18.20" width="68.00" height="4.75" rx="1.15" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.22" filter="url(#soft-shadow)"/>
-        <rect x="-34.00" y="-18.20" width="68.00" height="0.55" rx="0.27" fill="#9A6857"/>
+        <rect x="-34.00" y="-17.75" width="68.00" height="4.75" rx="0.30" fill="#0B1618" opacity="0.30"/>
+        <rect x="-34.00" y="-18.20" width="68.00" height="4.75" rx="0.30" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.22"/>
+        <rect x="-34.00" y="-18.20" width="68.00" height="0.60" rx="0.30" fill="#9A6857"/>
         <text x="0" y="-15.76" text-anchor="middle" class="era-name">Civic Life &amp; Orchard Boom</text>
         <text x="0" y="-14.45" text-anchor="middle" class="era-range">1907–1914</text>
       </g>
       <g id="era-4-modern-beaumont-label" transform="translate(304.32 56.17)">
-        <rect x="-31.00" y="-18.20" width="62.00" height="4.75" rx="1.15" fill="#F8F4EC" stroke="#C4A15E" stroke-width="0.22" filter="url(#soft-shadow)"/>
-        <rect x="-31.00" y="-18.20" width="62.00" height="0.55" rx="0.27" fill="#C4A15E"/>
+        <rect x="-31.00" y="-17.75" width="62.00" height="4.75" rx="0.30" fill="#0B1618" opacity="0.30"/>
+        <rect x="-31.00" y="-18.20" width="62.00" height="4.75" rx="0.30" fill="#F8F4EC" stroke="#C4A15E" stroke-width="0.22"/>
+        <rect x="-31.00" y="-18.20" width="62.00" height="0.60" rx="0.30" fill="#C4A15E"/>
         <text x="0" y="-15.76" text-anchor="middle" class="era-name">Library Growth &amp; Modern Beaumont</text>
         <text x="0" y="-14.45" text-anchor="middle" class="era-range">1965–2011</text>
       </g>
     </g>
-    <g id="event-complexes" data-tile-center-offset="13.56in">
+    <g id="event-complexes" data-photo-tile-center-offset="9.26in">
       <g id="event-01-bld-0011" data-position="01" data-reference="BLD-0011" data-record-id="img_17d9fad337a3fded" data-era="era-1-homeland-rancho" transform="translate(28.00 32.00)">
-        <line id="event-stem-01" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#15424A" stroke-width="0.22"/>
-        <g id="milestone-headline-01" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#15424A" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#15424A"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#15424A">Since time immemorial · HISTORICAL MILESTONE</text>
+        <line id="event-stem-01" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#15424A" stroke-width="0.22"/>
+        <g id="milestone-headline-01">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#15424A" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#15424A"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#15424A">Since time immemorial</text>
           <text aria-label="Native peoples make the San Gorgonio Pass their homeland">
-        <tspan x="-6.12" y="5.22" class="event-headline">Native peoples make the San</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">Gorgonio Pass their homeland</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Native peoples make the San</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">Gorgonio Pass their homeland</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-01">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 01</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0011</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-01" data-replace-with-photo="true">
+          <rect id="photo-matte-01" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-01">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#15424A"/>
-          <text x="-6.12" y="20.51" class="position" fill="#15424A">01 · BLD-0011</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#15424A"/>
+          <text x="-6.12" y="12.06" class="position" fill="#15424A">01 · BLD-0011</text>
           <text aria-label="Council house (kishumnawat), Morongo Reservation">
-        <tspan x="-6.12" y="21.75" class="photo-title">Council house (kishumnawat), Morongo</tspan>
-        <tspan x="-6.12" y="22.53" class="photo-title">Reservation</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Council house (kishumnawat), Morongo</tspan>
+        <tspan x="-6.12" y="14.08" class="photo-title">Reservation</tspan>
           </text>
         </g>
       </g>
       <g id="event-02-bld-0090" data-position="02" data-reference="BLD-0090" data-record-id="img_c39e3df610ea24d9" data-era="era-1-homeland-rancho" transform="translate(43.79 33.38)">
-        <line id="event-stem-02" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#15424A" stroke-width="0.22"/>
-        <g id="milestone-headline-02" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#15424A" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#15424A"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#15424A">1845 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-02" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#15424A" stroke-width="0.22"/>
+        <g id="milestone-headline-02">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#15424A" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#15424A"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#15424A">1845</text>
           <text aria-label="Pauline Weaver and his partners petition for Rancho San Gorgonio">
-        <tspan x="-6.12" y="5.22" class="event-headline">Pauline Weaver and his partners</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">petition for Rancho San Gorgonio</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Pauline Weaver and his partners</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">petition for Rancho San Gorgonio</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-02">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 02</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0090</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-02" data-replace-with-photo="true">
+          <rect id="photo-matte-02" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-02">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#15424A"/>
-          <text x="-6.12" y="20.51" class="position" fill="#15424A">02 · BLD-0090</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#15424A"/>
+          <text x="-6.12" y="12.06" class="position" fill="#15424A">02 · BLD-0090</text>
           <text aria-label="Pauline Weaver (posthumous artist&#x27;s sketch)">
-        <tspan x="-6.12" y="21.75" class="photo-title">Pauline Weaver (posthumous artist&#x27;s</tspan>
-        <tspan x="-6.12" y="22.53" class="photo-title">sketch)</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Pauline Weaver (posthumous artist&#x27;s</tspan>
+        <tspan x="-6.12" y="14.08" class="photo-title">sketch)</tspan>
           </text>
         </g>
       </g>
       <g id="event-03-bld-0037" data-position="03" data-reference="BLD-0037" data-record-id="img_650198dd9e4987ea" data-era="era-2-railroad-town" transform="translate(59.58 34.76)">
-        <line id="event-stem-03" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#494638" stroke-width="0.22"/>
-        <g id="milestone-headline-03" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#494638"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#494638">1884–1887 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-03" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#494638" stroke-width="0.22"/>
+        <g id="milestone-headline-03">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#494638">1884–1887</text>
           <text aria-label="The railroad town of San Gorgonio becomes Beaumont">
-        <tspan x="-6.12" y="5.22" class="event-headline">The railroad town of San Gorgonio</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">becomes Beaumont</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">The railroad town of San Gorgonio</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">becomes Beaumont</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-03">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 03</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0037</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-03" data-replace-with-photo="true">
+          <rect id="photo-matte-03" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-03">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#494638"/>
-          <text x="-6.12" y="20.51" class="position" fill="#494638">03 · BLD-0037</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="12.06" class="position" fill="#494638">03 · BLD-0037</text>
           <text aria-label="Egan Avenue, Beaumont, 1907">
-        <tspan x="-6.12" y="21.75" class="photo-title">Egan Avenue, Beaumont, 1907</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Egan Avenue, Beaumont, 1907</tspan>
           </text>
         </g>
       </g>
       <g id="event-04-bld-0031" data-position="04" data-reference="BLD-0031" data-record-id="img_6f833a14a7764e47" data-era="era-2-railroad-town" transform="translate(75.37 36.14)">
-        <line id="event-stem-04" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#494638" stroke-width="0.22"/>
-        <g id="milestone-headline-04" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#494638"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#494638">1887 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-04" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#494638" stroke-width="0.22"/>
+        <g id="milestone-headline-04">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#494638">1887</text>
           <text aria-label="A larger Southern Pacific depot anchors the growing town">
-        <tspan x="-6.12" y="5.22" class="event-headline">A larger Southern Pacific depot</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">anchors the growing town</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">A larger Southern Pacific depot</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">anchors the growing town</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-04">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 04</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0031</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-04" data-replace-with-photo="true">
+          <rect id="photo-matte-04" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-04">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#494638"/>
-          <text x="-6.12" y="20.51" class="position" fill="#494638">04 · BLD-0031</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="12.06" class="position" fill="#494638">04 · BLD-0031</text>
           <text aria-label="Southern Pacific depot, Beaumont">
-        <tspan x="-6.12" y="21.75" class="photo-title">Southern Pacific depot, Beaumont</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Southern Pacific depot, Beaumont</tspan>
           </text>
         </g>
       </g>
       <g id="event-05-bld-0033" data-position="05" data-reference="BLD-0033" data-record-id="img_07a9db15e22db499" data-era="era-2-railroad-town" transform="translate(91.16 37.53)">
-        <line id="event-stem-05" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#494638" stroke-width="0.22"/>
-        <g id="milestone-headline-05" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#494638"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#494638">Early 1900s · HISTORICAL MILESTONE</text>
+        <line id="event-stem-05" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#494638" stroke-width="0.22"/>
+        <g id="milestone-headline-05">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#494638">Early 1900s</text>
           <text aria-label="Beaumont’s rail yard keeps Southern Pacific traffic moving">
-        <tspan x="-6.12" y="5.22" class="event-headline">Beaumont’s rail yard keeps</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">Southern Pacific traffic moving</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Beaumont’s rail yard keeps</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">Southern Pacific traffic moving</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-05">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 05</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0033</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-05" data-replace-with-photo="true">
+          <rect id="photo-matte-05" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-05">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#494638"/>
-          <text x="-6.12" y="20.51" class="position" fill="#494638">05 · BLD-0033</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="12.06" class="position" fill="#494638">05 · BLD-0033</text>
           <text aria-label="SP shop crew with locomotive No. 2789, Beaumont yard">
-        <tspan x="-6.12" y="21.75" class="photo-title">SP shop crew with locomotive No. 2789,</tspan>
-        <tspan x="-6.12" y="22.53" class="photo-title">Beaumont yard</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">SP shop crew with locomotive No. 2789,</tspan>
+        <tspan x="-6.12" y="14.08" class="photo-title">Beaumont yard</tspan>
           </text>
         </g>
       </g>
       <g id="event-06-bld-0012" data-position="06" data-reference="BLD-0012" data-record-id="img_4e8d4526096e0dd7" data-era="era-2-railroad-town" transform="translate(106.95 38.91)">
-        <line id="event-stem-06" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#494638" stroke-width="0.22"/>
-        <g id="milestone-headline-06" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#494638"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#494638">1890s · HISTORICAL MILESTONE</text>
+        <line id="event-stem-06" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#494638" stroke-width="0.22"/>
+        <g id="milestone-headline-06">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#494638">1890s</text>
           <text aria-label="Fifth and Egan become Beaumont’s commercial crossroads">
-        <tspan x="-6.12" y="5.22" class="event-headline">Fifth and Egan become Beaumont’s</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">commercial crossroads</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Fifth and Egan become Beaumont’s</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">commercial crossroads</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-06">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 06</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0012</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-06" data-replace-with-photo="true">
+          <rect id="photo-matte-06" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-06">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#494638"/>
-          <text x="-6.12" y="20.51" class="position" fill="#494638">06 · BLD-0012</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="12.06" class="position" fill="#494638">06 · BLD-0012</text>
           <text aria-label="Fifth Street &amp; Egan Avenue, Beaumont, 1890s">
-        <tspan x="-6.12" y="21.75" class="photo-title">Fifth Street &amp; Egan Avenue, Beaumont,</tspan>
-        <tspan x="-6.12" y="22.53" class="photo-title">1890s</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Fifth Street &amp; Egan Avenue, Beaumont,</tspan>
+        <tspan x="-6.12" y="14.08" class="photo-title">1890s</tspan>
           </text>
         </g>
       </g>
       <g id="event-07-bld-0002" data-position="07" data-reference="BLD-0002" data-record-id="img_c15c20a838d86c18" data-era="era-2-railroad-town" transform="translate(122.74 40.29)">
-        <line id="event-stem-07" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#494638" stroke-width="0.22"/>
-        <g id="milestone-headline-07" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#494638"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#494638">1880s–1900s · HISTORICAL MILESTONE</text>
+        <line id="event-stem-07" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#494638" stroke-width="0.22"/>
+        <g id="milestone-headline-07">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#494638">1880s–1900s</text>
           <text aria-label="Grain ranching drives Beaumont’s first agricultural economy">
-        <tspan x="-6.12" y="5.22" class="event-headline">Grain ranching drives Beaumont’s</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">first agricultural economy</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Grain ranching drives Beaumont’s</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">first agricultural economy</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-07">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 07</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0002</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-07" data-replace-with-photo="true">
+          <rect id="photo-matte-07" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-07">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#494638"/>
-          <text x="-6.12" y="20.51" class="position" fill="#494638">07 · BLD-0002</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="12.06" class="position" fill="#494638">07 · BLD-0002</text>
           <text aria-label="Stewart Ranch grain harvest">
-        <tspan x="-6.12" y="21.75" class="photo-title">Stewart Ranch grain harvest</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Stewart Ranch grain harvest</tspan>
           </text>
         </g>
       </g>
       <g id="event-08-bld-0021" data-position="08" data-reference="BLD-0021" data-record-id="img_45720d2a6586237d" data-era="era-2-railroad-town" transform="translate(138.53 41.67)">
-        <line id="event-stem-08" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#494638" stroke-width="0.22"/>
-        <g id="milestone-headline-08" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#494638"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#494638">1876 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-08" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#494638" stroke-width="0.22"/>
+        <g id="milestone-headline-08">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#494638">1876</text>
           <text aria-label="The Morongo Reservation is established in the Pass">
-        <tspan x="-6.12" y="5.22" class="event-headline">The Morongo Reservation is</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">established in the Pass</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">The Morongo Reservation is</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">established in the Pass</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-08">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 08</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0021</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-08" data-replace-with-photo="true">
+          <rect id="photo-matte-08" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-08">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#494638"/>
-          <text x="-6.12" y="20.51" class="position" fill="#494638">08 · BLD-0021</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="12.06" class="position" fill="#494638">08 · BLD-0021</text>
           <text aria-label="Traditional house (kish), Morongo Reservation">
-        <tspan x="-6.12" y="21.75" class="photo-title">Traditional house (kish), Morongo</tspan>
-        <tspan x="-6.12" y="22.53" class="photo-title">Reservation</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Traditional house (kish), Morongo</tspan>
+        <tspan x="-6.12" y="14.08" class="photo-title">Reservation</tspan>
           </text>
         </g>
       </g>
       <g id="event-09-bld-0004" data-position="09" data-reference="BLD-0004" data-record-id="img_72d13585ff607c22" data-era="era-2-railroad-town" transform="translate(154.32 43.05)">
-        <line id="event-stem-09" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#494638" stroke-width="0.22"/>
-        <g id="milestone-headline-09" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#494638"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#494638">Late 1800s · HISTORICAL MILESTONE</text>
+        <line id="event-stem-09" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#494638" stroke-width="0.22"/>
+        <g id="milestone-headline-09">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#494638">Late 1800s</text>
           <text aria-label="Captain John Morongo leads and advocates for his community">
-        <tspan x="-6.12" y="5.22" class="event-headline">Captain John Morongo leads and</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">advocates for his community</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Captain John Morongo leads and</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">advocates for his community</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-09">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 09</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0004</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-09" data-replace-with-photo="true">
+          <rect id="photo-matte-09" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-09">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#494638"/>
-          <text x="-6.12" y="20.51" class="position" fill="#494638">09 · BLD-0004</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="12.06" class="position" fill="#494638">09 · BLD-0004</text>
           <text aria-label="Captain John Morongo, c. 1890">
-        <tspan x="-6.12" y="21.75" class="photo-title">Captain John Morongo, c. 1890</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Captain John Morongo, c. 1890</tspan>
           </text>
         </g>
       </g>
       <g id="event-10-bld-0016" data-position="10" data-reference="BLD-0016" data-record-id="img_b08de96dbf496fab" data-era="era-2-railroad-town" transform="translate(170.11 44.43)">
-        <line id="event-stem-10" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#494638" stroke-width="0.22"/>
-        <g id="milestone-headline-10" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#494638"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#494638">1887 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-10" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#494638" stroke-width="0.22"/>
+        <g id="milestone-headline-10">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#494638" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#494638">1887</text>
           <text aria-label="Hotel Beaumont opens as the boom town’s showpiece">
-        <tspan x="-6.12" y="5.22" class="event-headline">Hotel Beaumont opens as the boom</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">town’s showpiece</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Hotel Beaumont opens as the boom</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">town’s showpiece</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-10">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 10</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0016</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-10" data-replace-with-photo="true">
+          <rect id="photo-matte-10" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-10">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#494638"/>
-          <text x="-6.12" y="20.51" class="position" fill="#494638">10 · BLD-0016</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#494638"/>
+          <text x="-6.12" y="12.06" class="position" fill="#494638">10 · BLD-0016</text>
           <text aria-label="The Beaumont Hotel (later Hotel Edinburgh)">
-        <tspan x="-6.12" y="21.75" class="photo-title">The Beaumont Hotel (later Hotel</tspan>
-        <tspan x="-6.12" y="22.53" class="photo-title">Edinburgh)</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">The Beaumont Hotel (later Hotel</tspan>
+        <tspan x="-6.12" y="14.08" class="photo-title">Edinburgh)</tspan>
           </text>
         </g>
       </g>
       <g id="event-11-bld-0085" data-position="11" data-reference="BLD-0085" data-record-id="img_96cb1ed10cb5a0fd" data-era="era-3-civic-orchard" transform="translate(185.89 45.81)">
-        <line id="event-stem-11" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#9A6857" stroke-width="0.22"/>
-        <g id="milestone-headline-11" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#9A6857"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#9A6857">1908 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-11" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#9A6857" stroke-width="0.22"/>
+        <g id="milestone-headline-11">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#9A6857">1908</text>
           <text aria-label="The Woman’s Club organizes—and starts a public library movement">
-        <tspan x="-6.12" y="5.22" class="event-headline">The Woman’s Club organizes—and</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">starts a public library movement</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">The Woman’s Club organizes—and</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">starts a public library movement</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-11">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 11</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0085</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-11" data-replace-with-photo="true">
+          <rect id="photo-matte-11" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-11">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#9A6857"/>
-          <text x="-6.12" y="20.51" class="position" fill="#9A6857">11 · BLD-0085</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="12.06" class="position" fill="#9A6857">11 · BLD-0085</text>
           <text aria-label="Beaumont Woman&#x27;s Club clubhouse">
-        <tspan x="-6.12" y="21.75" class="photo-title">Beaumont Woman&#x27;s Club clubhouse</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Beaumont Woman&#x27;s Club clubhouse</tspan>
           </text>
         </g>
       </g>
       <g id="event-12-bld-0067" data-position="12" data-reference="BLD-0067" data-record-id="img_2ba02d1a7deddfd1" data-era="era-3-civic-orchard" transform="translate(201.68 47.20)">
-        <line id="event-stem-12" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#9A6857" stroke-width="0.22"/>
-        <g id="milestone-headline-12" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#9A6857"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#9A6857">1911 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-12" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#9A6857" stroke-width="0.22"/>
+        <g id="milestone-headline-12">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#9A6857">1911</text>
           <text aria-label="Voters establish the Beaumont Library District">
-        <tspan x="-6.12" y="5.22" class="event-headline">Voters establish the Beaumont</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">Library District</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Voters establish the Beaumont</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">Library District</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-12">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 12</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0067</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-12" data-replace-with-photo="true">
+          <rect id="photo-matte-12" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-12">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#9A6857"/>
-          <text x="-6.12" y="20.51" class="position" fill="#9A6857">12 · BLD-0067</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="12.06" class="position" fill="#9A6857">12 · BLD-0067</text>
           <text aria-label="Beaumont Bank / Funk Building — first home of the library">
-        <tspan x="-6.12" y="21.75" class="photo-title">Beaumont Bank / Funk Building — first</tspan>
-        <tspan x="-6.12" y="22.53" class="photo-title">home of the library</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Beaumont Bank / Funk Building — first</tspan>
+        <tspan x="-6.12" y="14.08" class="photo-title">home of the library</tspan>
           </text>
         </g>
       </g>
       <g id="event-13-bld-0073" data-position="13" data-reference="BLD-0073" data-record-id="img_96cdf4349eff3950" data-era="era-3-civic-orchard" transform="translate(217.47 48.58)">
-        <line id="event-stem-13" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#9A6857" stroke-width="0.22"/>
-        <g id="milestone-headline-13" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#9A6857"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#9A6857">1912 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-13" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#9A6857" stroke-width="0.22"/>
+        <g id="milestone-headline-13">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#9A6857">1912</text>
           <text aria-label="Beaumont incorporates as a city">
-        <tspan x="-6.12" y="5.22" class="event-headline">Beaumont incorporates as a city</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Beaumont incorporates as a city</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-13">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 13</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0073</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-13" data-replace-with-photo="true">
+          <rect id="photo-matte-13" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-13">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#9A6857"/>
-          <text x="-6.12" y="20.51" class="position" fill="#9A6857">13 · BLD-0073</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="12.06" class="position" fill="#9A6857">13 · BLD-0073</text>
           <text aria-label="Beaumont City Hall">
-        <tspan x="-6.12" y="21.75" class="photo-title">Beaumont City Hall</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Beaumont City Hall</tspan>
           </text>
         </g>
       </g>
       <g id="event-14-bld-0276" data-position="14" data-reference="BLD-0276" data-record-id="img_19838f7b9bf2e3f2" data-era="era-3-civic-orchard" transform="translate(233.26 49.96)">
-        <line id="event-stem-14" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#9A6857" stroke-width="0.22"/>
-        <g id="milestone-headline-14" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#9A6857"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#9A6857">1914 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-14" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#9A6857" stroke-width="0.22"/>
+        <g id="milestone-headline-14">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#9A6857">1914</text>
           <text aria-label="Beaumont’s Carnegie library opens">
-        <tspan x="-6.12" y="5.22" class="event-headline">Beaumont’s Carnegie library opens</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Beaumont’s Carnegie library opens</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-14">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 14</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0276</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-14" data-replace-with-photo="true">
+          <rect id="photo-matte-14" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-14">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#9A6857"/>
-          <text x="-6.12" y="20.51" class="position" fill="#9A6857">14 · BLD-0276</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="12.06" class="position" fill="#9A6857">14 · BLD-0276</text>
           <text aria-label="Beaumont Carnegie Library — historic exterior view (date unknown)">
-        <tspan x="-6.12" y="21.75" class="photo-title">Beaumont Carnegie Library — historic</tspan>
-        <tspan x="-6.12" y="22.53" class="photo-title">exterior view (date unknown)</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Beaumont Carnegie Library — historic</tspan>
+        <tspan x="-6.12" y="14.08" class="photo-title">exterior view (date unknown)</tspan>
           </text>
         </g>
       </g>
       <g id="event-15-bld-0086" data-position="15" data-reference="BLD-0086" data-record-id="img_a3f413e8c9ed23bb" data-era="era-3-civic-orchard" transform="translate(249.05 51.34)">
-        <line id="event-stem-15" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#9A6857" stroke-width="0.22"/>
-        <g id="milestone-headline-15" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#9A6857"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#9A6857">1907–1910s · HISTORICAL MILESTONE</text>
+        <line id="event-stem-15" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#9A6857" stroke-width="0.22"/>
+        <g id="milestone-headline-15">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#9A6857">1907–1910s</text>
           <text aria-label="Irrigation spreads fruit orchards across Beaumont">
-        <tspan x="-6.12" y="5.22" class="event-headline">Irrigation spreads fruit orchards</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">across Beaumont</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Irrigation spreads fruit orchards</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">across Beaumont</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-15">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 15</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0086</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-15" data-replace-with-photo="true">
+          <rect id="photo-matte-15" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-15">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#9A6857"/>
-          <text x="-6.12" y="20.51" class="position" fill="#9A6857">15 · BLD-0086</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="12.06" class="position" fill="#9A6857">15 · BLD-0086</text>
           <text aria-label="H. L. Priest and his fruit tree">
-        <tspan x="-6.12" y="21.75" class="photo-title">H. L. Priest and his fruit tree</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">H. L. Priest and his fruit tree</tspan>
           </text>
         </g>
       </g>
       <g id="event-16-bld-0055" data-position="16" data-reference="BLD-0055" data-record-id="img_a4ddc941e94d3eed" data-era="era-3-civic-orchard" transform="translate(264.84 52.72)">
-        <line id="event-stem-16" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#9A6857" stroke-width="0.22"/>
-        <g id="milestone-headline-16" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#9A6857"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#9A6857">1909 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-16" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#9A6857" stroke-width="0.22"/>
+        <g id="milestone-headline-16">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#9A6857" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#9A6857">1909</text>
           <text aria-label="Beaumont is promoted as an orchard paradise">
-        <tspan x="-6.12" y="5.22" class="event-headline">Beaumont is promoted as an orchard</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">paradise</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Beaumont is promoted as an orchard</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">paradise</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-16">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 16</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0055</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-16" data-replace-with-photo="true">
+          <rect id="photo-matte-16" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-16">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#9A6857"/>
-          <text x="-6.12" y="20.51" class="position" fill="#9A6857">16 · BLD-0055</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#9A6857"/>
+          <text x="-6.12" y="12.06" class="position" fill="#9A6857">16 · BLD-0055</text>
           <text aria-label="Mellen Ranch orchard in bloom, 1909">
-        <tspan x="-6.12" y="21.75" class="photo-title">Mellen Ranch orchard in bloom, 1909</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Mellen Ranch orchard in bloom, 1909</tspan>
           </text>
         </g>
       </g>
       <g id="event-17-bld-0187" data-position="17" data-reference="BLD-0187" data-record-id="img_b0c11e36c32bf11b" data-era="era-4-modern-beaumont" transform="translate(280.63 54.10)">
-        <line id="event-stem-17" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#C4A15E" stroke-width="0.22"/>
-        <g id="milestone-headline-17" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#C4A15E" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#C4A15E"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#C4A15E">1965–1981 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-17" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#C4A15E" stroke-width="0.22"/>
+        <g id="milestone-headline-17">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#C4A15E" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#C4A15E"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#C4A15E">1965–1981</text>
           <text aria-label="The Carnegie library expands with its growing district">
-        <tspan x="-6.12" y="5.22" class="event-headline">The Carnegie library expands with</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">its growing district</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">The Carnegie library expands with</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">its growing district</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-17">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 17</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0187</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-17" data-replace-with-photo="true">
+          <rect id="photo-matte-17" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-17">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#C4A15E"/>
-          <text x="-6.12" y="20.51" class="position" fill="#C4A15E">17 · BLD-0187</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#C4A15E"/>
+          <text x="-6.12" y="12.06" class="position" fill="#C4A15E">17 · BLD-0187</text>
           <text aria-label="Carnegie library under the mansard roof">
-        <tspan x="-6.12" y="21.75" class="photo-title">Carnegie library under the mansard roof</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Carnegie library under the mansard roof</tspan>
           </text>
         </g>
       </g>
       <g id="event-18-bld-0192" data-position="18" data-reference="BLD-0192" data-record-id="img_a5619ddcb9e94fc3" data-era="era-4-modern-beaumont" transform="translate(296.42 55.48)">
-        <line id="event-stem-18" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#C4A15E" stroke-width="0.22"/>
-        <g id="milestone-headline-18" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#C4A15E" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#C4A15E"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#C4A15E">1982 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-18" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#C4A15E" stroke-width="0.22"/>
+        <g id="milestone-headline-18">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#C4A15E" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#C4A15E"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#C4A15E">1982</text>
           <text aria-label="Beaumont remains a compact freeway-era town">
-        <tspan x="-6.12" y="5.22" class="event-headline">Beaumont remains a compact</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">freeway-era town</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Beaumont remains a compact</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">freeway-era town</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-18">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 18</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0192</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-18" data-replace-with-photo="true">
+          <rect id="photo-matte-18" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-18">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#C4A15E"/>
-          <text x="-6.12" y="20.51" class="position" fill="#C4A15E">18 · BLD-0192</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#C4A15E"/>
+          <text x="-6.12" y="12.06" class="position" fill="#C4A15E">18 · BLD-0192</text>
           <text aria-label="Beaumont from the air, 1982">
-        <tspan x="-6.12" y="21.75" class="photo-title">Beaumont from the air, 1982</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Beaumont from the air, 1982</tspan>
           </text>
         </g>
       </g>
       <g id="event-19-bld-0204" data-position="19" data-reference="BLD-0204" data-record-id="img_fb90b64a110cd45f" data-era="era-4-modern-beaumont" transform="translate(312.21 56.87)">
-        <line id="event-stem-19" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#C4A15E" stroke-width="0.22"/>
-        <g id="milestone-headline-19" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#C4A15E" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#C4A15E"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#C4A15E">2000–2010 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-19" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#C4A15E" stroke-width="0.22"/>
+        <g id="milestone-headline-19">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#C4A15E" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#C4A15E"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#C4A15E">2000–2010</text>
           <text aria-label="Beaumont more than triples in population">
-        <tspan x="-6.12" y="5.22" class="event-headline">Beaumont more than triples in</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">population</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">Beaumont more than triples in</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">population</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-19">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 19</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0204</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-19" data-replace-with-photo="true">
+          <rect id="photo-matte-19" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-19">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#C4A15E"/>
-          <text x="-6.12" y="20.51" class="position" fill="#C4A15E">19 · BLD-0204</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#C4A15E"/>
+          <text x="-6.12" y="12.06" class="position" fill="#C4A15E">19 · BLD-0204</text>
           <text aria-label="Beaumont from the air, 2010">
-        <tspan x="-6.12" y="21.75" class="photo-title">Beaumont from the air, 2010</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Beaumont from the air, 2010</tspan>
           </text>
         </g>
       </g>
       <g id="event-20-bld-0277" data-position="20" data-reference="BLD-0277" data-record-id="img_e60d929f9f608b1c" data-era="era-4-modern-beaumont" transform="translate(328.00 58.25)">
-        <line id="event-stem-20" x1="0" y1="1.10" x2="0" y2="2.40" stroke="#C4A15E" stroke-width="0.22"/>
-        <g id="milestone-headline-20" filter="url(#soft-shadow)">
-          <rect x="-6.80" y="2.40" width="13.60" height="7.95" rx="0.62" fill="#F8F4EC" stroke="#C4A15E" stroke-width="0.16"/>
-          <rect x="-6.80" y="2.40" width="13.60" height="0.50" rx="0.25" fill="#C4A15E"/>
-          <text x="-6.12" y="3.85" class="event-date" fill="#C4A15E">2011 · HISTORICAL MILESTONE</text>
+        <line id="event-stem-20" x1="0" y1="1.10" x2="0" y2="2.25" stroke="#C4A15E" stroke-width="0.22"/>
+        <g id="milestone-headline-20">
+          <rect x="-6.80" y="-6.55" width="13.60" height="4.85" rx="0.30" fill="#0B1618" opacity="0.30"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="4.85" rx="0.30" fill="#F8F4EC" stroke="#C4A15E" stroke-width="0.16"/>
+          <rect x="-6.80" y="-7.00" width="13.60" height="0.60" rx="0.30" fill="#C4A15E"/>
+          <text x="-6.12" y="-5.85" class="event-date" fill="#C4A15E">2011</text>
           <text aria-label="The Beaumont Library District marks a century of service">
-        <tspan x="-6.12" y="5.22" class="event-headline">The Beaumont Library District</tspan>
-        <tspan x="-6.12" y="6.04" class="event-headline">marks a century of service</tspan>
+        <tspan x="-6.12" y="-4.55" class="event-headline">The Beaumont Library District</tspan>
+        <tspan x="-6.12" y="-3.77" class="event-headline">marks a century of service</tspan>
           </text>
         </g>
-        <g id="photo-placeholder-20">
-          <rect x="-6.80" y="10.70" width="13.60" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>
-          <line x1="-6.30" y1="11.20" x2="6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <line x1="6.30" y1="11.20" x2="-6.30" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>
-          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO 20</text>
-          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">BLD-0277</text>
-          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>
+        <g id="photo-placeholder-20" data-replace-with-photo="true">
+          <rect id="photo-matte-20" x="-6.80" y="2.25" width="13.60" height="8.15" rx="0.30" fill="#FDFBF5"/>
         </g>
         <g id="caption-placeholder-20">
-          <rect x="-6.80" y="19.17" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
-          <rect x="-6.80" y="19.17" width="13.60" height="0.34" fill="#C4A15E"/>
-          <text x="-6.12" y="20.51" class="position" fill="#C4A15E">20 · BLD-0277</text>
+          <rect x="-6.80" y="10.72" width="13.60" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>
+          <rect x="-6.80" y="10.72" width="13.60" height="0.60" rx="0.30" fill="#C4A15E"/>
+          <text x="-6.12" y="12.06" class="position" fill="#C4A15E">20 · BLD-0277</text>
           <text aria-label="Beaumont Carnegie Library exterior, 2016">
-        <tspan x="-6.12" y="21.75" class="photo-title">Beaumont Carnegie Library exterior,</tspan>
-        <tspan x="-6.12" y="22.53" class="photo-title">2016</tspan>
+        <tspan x="-6.12" y="13.30" class="photo-title">Beaumont Carnegie Library exterior,</tspan>
+        <tspan x="-6.12" y="14.08" class="photo-title">2016</tspan>
           </text>
         </g>
       </g>

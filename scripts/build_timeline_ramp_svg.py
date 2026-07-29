@@ -20,6 +20,7 @@ OUTPUTS = (
 
 WIDTH = 356.0  # 29 ft 8 in; one SVG unit equals one inch.
 HEIGHT = 120.0
+DOCUMENT_SCALE = 10
 ANGLE_DEGREES = 5.0
 SLOPE = math.tan(math.radians(ANGLE_DEGREES))
 X_START = 28.0
@@ -28,9 +29,17 @@ Y_START = 32.0
 
 CARD_WIDTH = 13.6
 CARD_HALF = CARD_WIDTH / 2
-TILE_TOP = 2.40
-TILE_BOTTOM = 24.72
-TILE_CENTER_OFFSET = (TILE_TOP + TILE_BOTTOM) / 2
+CORNER_RADIUS = 0.30
+ACCENT_HEIGHT = 0.60
+SHADOW_OFFSET = 0.45
+HEADLINE_TOP = -7.00
+HEADLINE_HEIGHT = 4.85
+PHOTO_TILE_TOP = 2.25
+PHOTO_HEIGHT = 8.15
+CAPTION_TOP = 10.72
+CAPTION_HEIGHT = 5.55
+PHOTO_TILE_BOTTOM = CAPTION_TOP + CAPTION_HEIGHT
+PHOTO_TILE_CENTER_OFFSET = (PHOTO_TILE_TOP + PHOTO_TILE_BOTTOM) / 2
 
 ERAS = (
     {
@@ -133,13 +142,14 @@ def build_svg(events: list[dict[str, object]]) -> str:
     points = {position: point_for(position, len(events)) for position in range(1, len(events) + 1)}
     out: list[str] = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH:g}in" height="{HEIGHT:g}in" viewBox="0 0 {WIDTH:g} {HEIGHT:g}" role="img" aria-labelledby="title desc">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" data-scale="1:{DOCUMENT_SCALE}" data-full-size="{WIDTH:g}in x {HEIGHT:g}in" width="{WIDTH / DOCUMENT_SCALE:g}in" height="{HEIGHT / DOCUMENT_SCALE:g}in" viewBox="0 0 {WIDTH:g} {HEIGHT:g}" role="img" aria-labelledby="title desc">',
         '  <title id="title">Beaumont and San Gorgonio Pass four-era mural timeline</title>',
-        f'  <desc id="desc">An editable, full-size {ANGLE_DEGREES:g}-degree timeline for twenty approved historical events. Each event has a dot, milestone headline, photo placeholder and caption placeholder. The line is divided into four eras.</desc>',
+        f'  <desc id="desc">An editable 1:{DOCUMENT_SCALE}-scale, {ANGLE_DEGREES:g}-degree timeline for twenty approved historical events. Each event has a dot, compact milestone headline above the line, solid photo matte and caption placeholder. The line is divided into four eras.</desc>',
         '  <metadata>',
-        f'    One SVG unit equals one inch. Artboard: 29 ft 8 in by 10 ft. The timeline descends {ANGLE_DEGREES:g} degrees from left to right.',
-        f'    Event tiles stay level like escalator steps. Every tile center is {TILE_CENTER_OFFSET:.2f} inches vertically below the line.',
-        '    Photos are intentionally omitted. Replace each group named photo-placeholder-XX in Adobe Illustrator.',
+        f'    Production scale is 1:{DOCUMENT_SCALE}; enlarge the placed art to {DOCUMENT_SCALE * 100}% for the {WIDTH:g}in by {HEIGHT:g}in mural. The viewBox retains full-size inch coordinates.',
+        f'    The timeline descends {ANGLE_DEGREES:g} degrees from left to right. All headline, photo and caption tiles remain level like escalator steps.',
+        f'    Every photo-caption complex center is {PHOTO_TILE_CENTER_OFFSET:.2f} full-size inches vertically below the line.',
+        '    Photos are intentionally omitted. Replace the solid matte inside each group named photo-placeholder-XX in Adobe Illustrator.',
         '  </metadata>',
         '  <defs>',
         '    <style><![CDATA[',
@@ -148,15 +158,9 @@ def build_svg(events: list[dict[str, object]]) -> str:
         '      .era-range { font-size: 0.62px; font-weight: 800; letter-spacing: 0.14px; fill: #665B4C; }',
         '      .event-date { font-size: 0.50px; font-weight: 800; letter-spacing: 0.10px; }',
         "      .event-headline { font-family: 'DM Serif Display', Georgia, serif; font-size: 0.66px; font-weight: 700; fill: #17363C; }",
-        '      .photo-fpo { font-size: 0.58px; font-weight: 800; letter-spacing: 0.09px; fill: #6D675E; }',
-        '      .photo-ref { font-size: 0.43px; font-weight: 700; letter-spacing: 0.06px; fill: #8A8276; }',
         '      .position { font-size: 0.47px; font-weight: 800; letter-spacing: 0.08px; }',
         "      .photo-title { font-family: 'DM Serif Display', Georgia, serif; font-size: 0.60px; font-weight: 700; fill: #222; }",
-        '      .replace-note { font-size: 0.39px; font-style: italic; fill: #706A61; }',
         '    ]]></style>',
-        '    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="160%">',
-        '      <feDropShadow dx="0" dy="0.45" stdDeviation="0.55" flood-color="#0B1618" flood-opacity="0.30"/>',
-        '    </filter>',
         '  </defs>',
         f'  <g id="timeline-ramp" data-angle="{ANGLE_DEGREES:g}-degrees" data-direction="down-left-to-right">',
         f'    <path id="timeline-underlay" d="M {X_START:.2f} {Y_START:.2f} L {X_END:.2f} {point_for(20, 20)[1]:.2f}" fill="none" stroke="#12191A" stroke-width="1.65" stroke-linecap="round"/>',
@@ -190,15 +194,16 @@ def build_svg(events: list[dict[str, object]]) -> str:
         out.extend(
             [
                 f'      <g id="{era["id"]}-label" transform="translate({center_x:.2f} {center_y:.2f})">',
-                f'        <rect x="{-label_width / 2:.2f}" y="-18.20" width="{label_width:.2f}" height="4.75" rx="1.15" fill="#F8F4EC" stroke="{era["color"]}" stroke-width="0.22" filter="url(#soft-shadow)"/>',
-                f'        <rect x="{-label_width / 2:.2f}" y="-18.20" width="{label_width:.2f}" height="0.55" rx="0.27" fill="{era["color"]}"/>',
+                f'        <rect x="{-label_width / 2:.2f}" y="{-18.20 + SHADOW_OFFSET:.2f}" width="{label_width:.2f}" height="4.75" rx="{CORNER_RADIUS:.2f}" fill="#0B1618" opacity="0.30"/>',
+                f'        <rect x="{-label_width / 2:.2f}" y="-18.20" width="{label_width:.2f}" height="4.75" rx="{CORNER_RADIUS:.2f}" fill="#F8F4EC" stroke="{era["color"]}" stroke-width="0.22"/>',
+                f'        <rect x="{-label_width / 2:.2f}" y="-18.20" width="{label_width:.2f}" height="{ACCENT_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="{era["color"]}"/>',
                 f'        <text x="0" y="-15.76" text-anchor="middle" class="era-name">{esc(era["name"])}</text>',
                 f'        <text x="0" y="-14.45" text-anchor="middle" class="era-range">{esc(era["range"])}</text>',
                 '      </g>',
             ]
         )
 
-    out.extend(['    </g>', f'    <g id="event-complexes" data-tile-center-offset="{TILE_CENTER_OFFSET:.2f}in">'])
+    out.extend(['    </g>', f'    <g id="event-complexes" data-photo-tile-center-offset="{PHOTO_TILE_CENTER_OFFSET:.2f}in">'])
 
     for event in events:
         position = int(event["position"])
@@ -210,11 +215,12 @@ def build_svg(events: list[dict[str, object]]) -> str:
         out.extend(
             [
                 f'      <g id="{event_id}" data-position="{number}" data-reference="{esc(event["reference_number"])}" data-record-id="{esc(event["record_id"])}" data-era="{esc(era["id"])}" transform="translate({x:.2f} {y:.2f})">',
-                f'        <line id="event-stem-{number}" x1="0" y1="1.10" x2="0" y2="{TILE_TOP:.2f}" stroke="{color}" stroke-width="0.22"/>',
-                f'        <g id="milestone-headline-{number}" filter="url(#soft-shadow)">',
-                f'          <rect x="{-CARD_HALF:.2f}" y="{TILE_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="7.95" rx="0.62" fill="#F8F4EC" stroke="{color}" stroke-width="0.16"/>',
-                f'          <rect x="{-CARD_HALF:.2f}" y="{TILE_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="0.50" rx="0.25" fill="{color}"/>',
-                f'          <text x="{-CARD_HALF + 0.68:.2f}" y="3.85" class="event-date" fill="{color}">{esc(event["date"])} · HISTORICAL MILESTONE</text>',
+                f'        <line id="event-stem-{number}" x1="0" y1="1.10" x2="0" y2="{PHOTO_TILE_TOP:.2f}" stroke="{color}" stroke-width="0.22"/>',
+                f'        <g id="milestone-headline-{number}">',
+                f'          <rect x="{-CARD_HALF:.2f}" y="{HEADLINE_TOP + SHADOW_OFFSET:.2f}" width="{CARD_WIDTH:.2f}" height="{HEADLINE_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="#0B1618" opacity="0.30"/>',
+                f'          <rect x="{-CARD_HALF:.2f}" y="{HEADLINE_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{HEADLINE_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="#F8F4EC" stroke="{color}" stroke-width="0.16"/>',
+                f'          <rect x="{-CARD_HALF:.2f}" y="{HEADLINE_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{ACCENT_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="{color}"/>',
+                f'          <text x="{-CARD_HALF + 0.68:.2f}" y="-5.85" class="event-date" fill="{color}">{esc(event["date"])}</text>',
                 f'          <text aria-label="{esc(event["headline"])}">',
             ]
         )
@@ -222,10 +228,10 @@ def build_svg(events: list[dict[str, object]]) -> str:
             wrapped_tspans(
                 str(event["headline"]),
                 x=-CARD_HALF + 0.68,
-                y=5.22,
+                y=-4.55,
                 width=34,
-                line_height=0.82,
-                max_lines=4,
+                line_height=0.78,
+                max_lines=3,
                 class_name="event-headline",
             )
         )
@@ -233,18 +239,13 @@ def build_svg(events: list[dict[str, object]]) -> str:
             [
                 '          </text>',
                 '        </g>',
-                f'        <g id="photo-placeholder-{number}">',
-                f'          <rect x="{-CARD_HALF:.2f}" y="10.70" width="{CARD_WIDTH:.2f}" height="8.15" rx="0.32" fill="#E8E2D8" stroke="#1D282A" stroke-width="0.18" stroke-dasharray="0.52 0.34"/>',
-                f'          <line x1="{-CARD_HALF + 0.50:.2f}" y1="11.20" x2="{CARD_HALF - 0.50:.2f}" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>',
-                f'          <line x1="{CARD_HALF - 0.50:.2f}" y1="11.20" x2="{-CARD_HALF + 0.50:.2f}" y2="18.35" stroke="#B8B0A4" stroke-width="0.13"/>',
-                f'          <text x="0" y="14.39" text-anchor="middle" class="photo-fpo">PHOTO {number}</text>',
-                f'          <text x="0" y="15.53" text-anchor="middle" class="photo-ref">{esc(event["reference_number"])}</text>',
-                f'          <text x="0" y="16.67" text-anchor="middle" class="replace-note">Replace this group with the selected photograph</text>',
+                f'        <g id="photo-placeholder-{number}" data-replace-with-photo="true">',
+                f'          <rect id="photo-matte-{number}" x="{-CARD_HALF:.2f}" y="{PHOTO_TILE_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{PHOTO_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="#FDFBF5"/>',
                 '        </g>',
                 f'        <g id="caption-placeholder-{number}">',
-                f'          <rect x="{-CARD_HALF:.2f}" y="19.17" width="{CARD_WIDTH:.2f}" height="5.55" rx="0.30" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>',
-                f'          <rect x="{-CARD_HALF:.2f}" y="19.17" width="{CARD_WIDTH:.2f}" height="0.34" fill="{color}"/>',
-                f'          <text x="{-CARD_HALF + 0.68:.2f}" y="20.51" class="position" fill="{color}">{number} · {esc(event["reference_number"])}</text>',
+                f'          <rect x="{-CARD_HALF:.2f}" y="{CAPTION_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{CAPTION_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="#FCFAF6" stroke="#D7C9B3" stroke-width="0.15"/>',
+                f'          <rect x="{-CARD_HALF:.2f}" y="{CAPTION_TOP:.2f}" width="{CARD_WIDTH:.2f}" height="{ACCENT_HEIGHT:.2f}" rx="{CORNER_RADIUS:.2f}" fill="{color}"/>',
+                f'          <text x="{-CARD_HALF + 0.68:.2f}" y="12.06" class="position" fill="{color}">{number} · {esc(event["reference_number"])}</text>',
                 f'          <text aria-label="{esc(event["photo_title"])}">',
             ]
         )
@@ -252,7 +253,7 @@ def build_svg(events: list[dict[str, object]]) -> str:
             wrapped_tspans(
                 str(event["photo_title"]),
                 x=-CARD_HALF + 0.68,
-                y=21.75,
+                y=13.30,
                 width=39,
                 line_height=0.78,
                 max_lines=3,
