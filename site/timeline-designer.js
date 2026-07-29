@@ -723,6 +723,76 @@
     };
   }
 
+  function exportedIllustratorData() {
+    const eraLabelWidths = [50, 58, 54, 48];
+    const eras = ERA_NAMES.map((label, index) => {
+      const members = state.events.filter(event => Number(event.era) === index);
+      const firstDate = members[0]?.date || "";
+      const lastDate = members.at(-1)?.date || "";
+      return {
+        id: `era-${index + 1}`,
+        label,
+        range: firstDate && lastDate && firstDate !== lastDate ? `${firstDate}–${lastDate}` : firstDate,
+        color: state.tokens.colors.eras[index],
+        labelWidthInches: eraLabelWidths[index]
+      };
+    });
+    return {
+      schemaVersion: 1,
+      generator: "beaumont-timeline-illustrator",
+      exportedAt: new Date().toISOString(),
+      document: {
+        widthInches: state.tokens.document.width,
+        heightInches: state.tokens.document.height,
+        outputScale: state.tokens.document.outputScale
+      },
+      assets: {
+        basePath: "",
+        missingPhotoPolicy: "keep-placeholder"
+      },
+      layout: {
+        angleDegrees: state.tokens.ramp.angleDegrees,
+        startXInches: state.tokens.ramp.startX,
+        endXInches: state.tokens.ramp.endX,
+        startYInches: state.tokens.ramp.startY,
+        moduleOffsetXInches: 0,
+        moduleOffsetYInches: 0,
+        dotDiameterInches: 0.72,
+        dotStrokeWidthInches: 0.08,
+        lineWidthInches: 1.05,
+        underlayWidthInches: 1.45,
+        stemWidthInches: 0.18,
+        upperStemLengthInches: state.tokens.module.stemGap,
+        lowerStemLengthInches: state.tokens.module.stemGap,
+        underlayColor: state.tokens.colors.timeline,
+        dotStrokeColor: state.tokens.colors.module,
+        labelsEnabled: true,
+        labelOffsetYInches: -17,
+        labelHeightInches: 4.2,
+        labelFontSizeInches: state.tokens.type.headlineSize,
+        labelPaddingInches: state.tokens.module.contentInset,
+        labelCornerRadiusInches: state.tokens.module.cornerRadius,
+        labelTextColor: "#ffffff",
+        labelFont: state.tokens.type.family,
+        generatedLayerName: "TIMELINE — GENERATED"
+      },
+      eras,
+      events: state.events.map((event, index) => ({
+        id: event.id,
+        order: index + 1,
+        era: `era-${Number(event.era) + 1}`,
+        date: event.date,
+        headline: event.headline,
+        caption: event.caption,
+        photo: event.photo,
+        reference_number: event.reference_number,
+        credit: event.credit,
+        rights_status: event.rights_status,
+        context: event.context
+      }))
+    };
+  }
+
   async function contentHash() {
     const payload = new TextEncoder().encode(stableStringify({ tokens: state.tokens, events: state.events }));
     const digest = await crypto.subtle.digest("SHA-256", payload);
@@ -880,6 +950,7 @@
     });
 
     $("#exportTokensButton").addEventListener("click", () => downloadJson(state.tokens, "beaumont-timeline-design-tokens.json"));
+    $("#exportIllustratorButton").addEventListener("click", () => downloadJson(exportedIllustratorData(), "beaumont-timeline-illustrator.json"));
     $("#exportContentButton").addEventListener("click", () => downloadJson(exportedContent(), "beaumont-timeline-content.json"));
     $("#importTokensInput").addEventListener("change", event => importJson(event.target, "tokens"));
     $("#importContentInput").addEventListener("change", event => importJson(event.target, "content"));
