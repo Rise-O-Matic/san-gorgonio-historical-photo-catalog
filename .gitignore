@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Personal talk notes, not project docs
+docs/origin-story.md
