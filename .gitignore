@@ -4,5 +4,6 @@ __pycache__/
 
 # Personal talk notes, not project docs
 docs/origin-story.md
-docs/origin-story-deck.pptx
+docs/origin-story-deck*.pptx
 docs/build_origin_story_deck.py
+docs/origin-story-assets/
